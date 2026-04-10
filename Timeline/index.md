@@ -34,6 +34,18 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Summary:** A contact called 6 Steel Strings hired the crew to investigate the disappearance of Cindy Liu Thompson, a Swiftwing Records know-bot performer.
 - **Session page:** [2023-04-06](../Sessions/2023-04-06.md)
 
+### Draco Foundation toxic-biomaterial contract
+- **Played:** 2023-05-11
+- **In-world:** unknown
+- **Summary:** Kari Wilkerson of the Draco Foundation hired the crew to recover highly dangerous toxic magical biomaterial before it could be sold, mishandled, or turned into a larger catastrophe.
+- **Session page:** [2023-05-11](../Sessions/2023-05-11.md)
+
+### Toxic egg / nest investigation deepens
+- **Played:** 2023-05-18
+- **In-world:** unknown
+- **Summary:** The crew pursued the toxic eggshell lead, dealt with a cloaked surveillance drone, and extracted geographic clues from a deranged old man who believed the mayor had hatched from a giant egg.
+- **Session page:** [2023-05-18](../Sessions/2023-05-18.md)
+
 ## Current Campaign Arc Markers
 
 ### Mayoral Race / insect-spirit infiltration job

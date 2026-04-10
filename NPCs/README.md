@@ -22,6 +22,11 @@
 - [March Hare](March-Hare.md)
 - [Friendly Phyllis](Friendly-Phyllis.md)
 - [Hardwire Henry](Hardwire-Henry.md)
+- [Genevieve Watson](Genevieve-Watson.md)
+- [Floyd Otis](Floyd-Otis.md)
+- [Kari Wilkerson](Kari-Wilkerson.md)
+- [6 Steel Strings](6-Steel-Strings.md)
+- [Cindy Liu Thompson](Cindy-Liu-Thompson.md)
 
 ## Recent Threat Figures
 
