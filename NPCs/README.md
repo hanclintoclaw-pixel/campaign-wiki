@@ -16,6 +16,11 @@
 - [Joseph Neumann](Joseph-Neumann.md)
 - [Alderman Micheletti](Micheletti.md)
 
+## Historical / Older Arc Figures
+
+- [Lacey Rational](Lacey-Rational.md)
+- [March Hare](March-Hare.md)
+
 ## Recent Threat Figures
 
 - [Illwoody](Illwoody.md)
