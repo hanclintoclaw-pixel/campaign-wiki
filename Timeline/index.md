@@ -7,28 +7,57 @@ updated: 2026-04-10
 
 # Campaign Timeline
 
-A growing chronology of the Nashville Shadowrun campaign, mixing historical archive sessions with current-session continuity.
+A growing chronology of the Nashville Shadowrun campaign, with each entry split into:
+
+- **Played** — the real-world session date
+- **In-world** — the campaign date when known
+
+If the in-world date is not currently confirmed, it is marked plainly as **unknown**.
 
 ## Historical Arc Markers
 
-- **2022-08-11** — Gladwell Institute leak investigation; Eugene Booker becomes key suspect in rehab-client leak case.
-- **2023-03-23** — Crew protects a peace-meeting effort between the **Interstate Connection** and **Ironblood Orphans**; Federal Matrix Investigators unexpectedly show interest.
-- **2023-04-06** — **6 Steel Strings** hires the crew to investigate the disappearance of **Cindy Liu Thompson**, a Swiftwing Records know-bot performer.
+### Gladwell Institute leak investigation
+- **Played:** 2022-08-11
+- **In-world:** unknown
+- **Summary:** The crew investigated embarrassing leaks involving high-profile rehab clients and narrowed suspicion toward Eugene Booker and the Gladwell Institute security angle.
+- **Session page:** [2022-08-11](../Sessions/2022-08-11.md)
+
+### Interstate Connection / Ironblood Orphans peace meeting
+- **Played:** 2023-03-23
+- **In-world:** unknown
+- **Summary:** The crew prepared security for a peace meeting between rival gun-running gangs, the Interstate Connection and Ironblood Orphans, while Federal Matrix Investigators unexpectedly loomed in the background.
+- **Session page:** [2023-03-23](../Sessions/2023-03-23.md)
+
+### 6 Steel Strings / Cindy Liu Thompson job
+- **Played:** 2023-04-06
+- **In-world:** unknown
+- **Summary:** A contact called 6 Steel Strings hired the crew to investigate the disappearance of Cindy Liu Thompson, a Swiftwing Records know-bot performer.
+- **Session page:** [2023-04-06](../Sessions/2023-04-06.md)
 
 ## Current Campaign Arc Markers
 
-- **2026-03-26** — crew interrogates a videographer tied to Darla-related hype operations; encrypted satellite-linked anonymous sponsor identified.
-- **2026-04-02** — Darla / SC Music / stolen master recordings arc clarified; crew commits to investigating Darla's corporate penthouse/recording studio.
-- **2026-04-09** — crew tails **Jet Set Morgan** and discovers that an unknown second drone is also surveilling him.
+### Darla videographer / satellite-link lead
+- **Played:** 2026-03-26
+- **In-world:** likely 2064-06-04 or shortly after (not explicitly re-confirmed in the visible run slice)
+- **Summary:** The crew interrogated a videographer tied to Darla-related hype operations and identified an encrypted satellite-linked anonymous sponsor contact.
+- **Session page:** [2026-03-26](../Sessions/2026-03-26.md)
 
-## Linked Session Pages
+### Darla / SC Music / penthouse arc clarification
+- **Played:** 2026-04-02
+- **In-world:** likely 2064-06-04 or very near it (not explicitly re-confirmed in the visible run slice)
+- **Summary:** The crew reframed the job through Ivan, SC Music, Darla Ledue, and the stolen master recordings, then committed to investigating Darla's corporate penthouse/recording studio.
+- **Session page:** [2026-04-02](../Sessions/2026-04-02.md)
 
-- [2022-08-11](../Sessions/2022-08-11.md)
-- [2023-03-23](../Sessions/2023-03-23.md)
-- [2023-04-06](../Sessions/2023-04-06.md)
-- [2026-03-26](../Sessions/2026-03-26.md)
-- [2026-04-02](../Sessions/2026-04-02.md)
-- [2026-04-09](../Sessions/2026-04-09.md)
+### Jet Set Morgan surveillance / second drone clue
+- **Played:** 2026-04-09
+- **In-world:** unknown
+- **Summary:** The crew tailed Jet Set Morgan and discovered that an unknown second drone was also surveilling him.
+- **Session page:** [2026-04-09](../Sessions/2026-04-09.md)
+
+## Current Known In-World Anchor
+
+- **Known campaign date:** 2064-06-04
+- **Status:** confirmed in campaign baseline notes, but not yet mapped session-by-session across every modern run entry.
 
 ## Notes
 
