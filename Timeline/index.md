@@ -40,11 +40,35 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Summary:** Kari Wilkerson of the Draco Foundation hired the crew to recover highly dangerous toxic magical biomaterial before it could be sold, mishandled, or turned into a larger catastrophe.
 - **Session page:** [2023-05-11](../Sessions/2023-05-11.md)
 
+### Genevieve Watson surveillance-cyberware disappearance
+- **Played:** 2023-01-28
+- **In-world:** unknown
+- **Summary:** The crew took a grim retrieval job for missing employee Genevieve Watson and discovered she had likely been fitted with covert surveillance cyberware and hidden upload logic.
+- **Session page:** [2023-01-28](../Sessions/2023-01-28.md)
+
+### Cindy hardware trail / Blue Rayven lead
+- **Played:** 2023-03-20
+- **In-world:** unknown
+- **Summary:** The crew pursued the Cindy lead through her concert/NFT ecosystem and traced high-end matrix cradle hardware back to Blue Rayven.
+- **Session page:** [2023-03-20](../Sessions/2023-03-20.md)
+
+### Cindy taken to Murphysborough
+- **Played:** 2023-04-27
+- **In-world:** unknown
+- **Summary:** The crew learned a go-gang had taken Cindy-Lou to Murphysborough and used social positioning rather than immediate violence to gain access.
+- **Session page:** [2023-04-27](../Sessions/2023-04-27.md)
+
 ### Toxic egg / nest investigation deepens
 - **Played:** 2023-05-18
 - **In-world:** unknown
 - **Summary:** The crew pursued the toxic eggshell lead, dealt with a cloaked surveillance drone, and extracted geographic clues from a deranged old man who believed the mayor had hatched from a giant egg.
 - **Session page:** [2023-05-18](../Sessions/2023-05-18.md)
+
+### Dragon-egg tracker and old-man backstory
+- **Played:** 2023-06-08
+- **In-world:** unknown
+- **Summary:** The crew found a tracker in their egg-related gear and learned more about the old man who discovered the giant egg during rural evacuations tied to an earlier super-plague.
+- **Session page:** [2023-06-08](../Sessions/2023-06-08.md)
 
 ### Dragon egg / hybrid escalation
 - **Played:** 2023-07-06
