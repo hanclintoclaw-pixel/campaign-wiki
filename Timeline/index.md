@@ -46,6 +46,24 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Summary:** The crew pursued the toxic eggshell lead, dealt with a cloaked surveillance drone, and extracted geographic clues from a deranged old man who believed the mayor had hatched from a giant egg.
 - **Session page:** [2023-05-18](../Sessions/2023-05-18.md)
 
+### Dragon egg / hybrid escalation
+- **Played:** 2023-07-06
+- **In-world:** unknown
+- **Summary:** The toxic-egg arc escalated into a draconic/hybrid threat as the crew dealt with dragon eggs, a half-dragon/human emergence, and links to Ghostwalker.
+- **Session page:** [2023-07-06](../Sessions/2023-07-06.md)
+
+### Federal-Nashville standoff intensifies
+- **Played:** 2023-07-27
+- **In-world:** unknown
+- **Summary:** The broader political tension between Nashville and the federal government was clarified as part of a larger pattern of pressure against resistant states.
+- **Session page:** [2023-07-27](../Sessions/2023-07-27.md)
+
+### Arcoblock riot defense / Gallstone favor
+- **Played:** 2023-09-21
+- **In-world:** unknown
+- **Summary:** After the federal airship retreat, the crew defended Dr. Gallstone's veterinary practice during curfew unrest inside an arcoblock and discovered an unexpectedly rich matrix environment on the upper floors.
+- **Session page:** [2023-09-21](../Sessions/2023-09-21.md)
+
 ## Current Campaign Arc Markers
 
 ### Mayoral Race / insect-spirit infiltration job
