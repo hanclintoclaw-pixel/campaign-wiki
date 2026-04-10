@@ -21,8 +21,15 @@
 - [Session 2024-02-01](2024-02-01.md)
 - [Session 2024-02-08](2024-02-08.md)
 - [Session 2024-06-06](2024-06-06.md)
+- [Session 2024-07-11](2024-07-11.md)
+- [Session 2024-09-26](2024-09-26.md)
+- [Session 2024-10-03](2024-10-03.md)
 - [Session 2026-03-13](2026-03-13.md)
 - [Session 2026-03-19](2026-03-19.md)
 - [Session 2026-03-26](2026-03-26.md)
 - [Session 2026-04-02](2026-04-02.md)
 - [Session 2026-04-09](2026-04-09.md)
+
+## Archive triage
+
+- [Archive triage notes](ARCHIVE_TRIAGE.md)

@@ -142,6 +142,24 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Summary:** With Cindy Lou Prime hidden and throttled in Taco's basement, the crew navigated Road Reaper politics, Mucky's bounty, and the fallout from Cindy Lou 2.0's destruction.
 - **Session page:** [2024-06-06](../Sessions/2024-06-06.md)
 
+### Road Reaper succession / Alanzo Sparks emerges
+- **Played:** 2024-07-11
+- **In-world:** unknown
+- **Summary:** The crew followed up on Mucky's lead against an outside-town criminal operation while the post-Jerry-Can-Jerry Road Reaper leadership struggle sharpened around Alanzo Sparks.
+- **Session page:** [2024-07-11](../Sessions/2024-07-11.md)
+
+### Abandoned mall security job reveals occupied site
+- **Played:** 2024-09-26
+- **In-world:** unknown
+- **Summary:** A chromed elf hired the crew to secure a supposedly abandoned mall, but the team quickly confirmed it was inhabited and tied to Steelback interests.
+- **Session page:** [2024-09-26](../Sessions/2024-09-26.md)
+
+### Mall factions clarified: Steel Backs, Mall Rats, Vox Populi
+- **Played:** 2024-10-03
+- **In-world:** unknown
+- **Summary:** The mall conflict sharpened into a multi-faction situation involving Steel Backs, Mall Rats, and Vox Populi around a site valued for its physical infrastructure.
+- **Session page:** [2024-10-03](../Sessions/2024-10-03.md)
+
 ## Current Campaign Arc Markers
 
 ### Mayoral Race / insect-spirit infiltration job
