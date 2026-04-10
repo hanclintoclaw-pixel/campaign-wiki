@@ -30,6 +30,8 @@
 - [Session 2026-04-02](2026-04-02.md)
 - [Session 2026-04-09](2026-04-09.md)
 
-## Archive triage
+## Archive analysis
 
 - [Archive triage notes](ARCHIVE_TRIAGE.md)
+- [Session archive analysis](ARCHIVE_ANALYSIS.md)
+- [Campaign arc index](../Timeline/Arc-Index.md)

@@ -191,6 +191,11 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Known current campaign year:** 2066
 - **Status:** revised per GM correction; modern Mayoral Race and Darla arcs should be treated as 2066, not 2064.
 
+## Related navigation
+
+- [Campaign Arc Index](Arc-Index.md)
+- [Session Archive Analysis](../Sessions/ARCHIVE_ANALYSIS.md)
+
 ## Notes
 
 This page is a public-facing chronology, not yet the full machine-generated introduction graph from the older memory-system. It is meant to give the table a usable spine while deeper historical ingestion continues.
