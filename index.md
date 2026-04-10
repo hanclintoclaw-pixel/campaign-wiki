@@ -35,7 +35,7 @@ Recent pressure points include:
 - [Location Index](Locations/)
 - [Clue Registry](Clues/)
 - [Plot Arcs](Arcs/)
-- [Timeline](Timeline/)
+- [Timeline](Timeline/index.md)
 
 ## Crew
 

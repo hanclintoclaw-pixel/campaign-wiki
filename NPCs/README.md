@@ -20,6 +20,8 @@
 
 - [Lacey Rational](Lacey-Rational.md)
 - [March Hare](March-Hare.md)
+- [Friendly Phyllis](Friendly-Phyllis.md)
+- [Hardwire Henry](Hardwire-Henry.md)
 
 ## Recent Threat Figures
 
