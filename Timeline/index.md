@@ -64,6 +64,30 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Summary:** After the federal airship retreat, the crew defended Dr. Gallstone's veterinary practice during curfew unrest inside an arcoblock and discovered an unexpectedly rich matrix environment on the upper floors.
 - **Session page:** [2023-09-21](../Sessions/2023-09-21.md)
 
+### Satellite relay upgrade
+- **Played:** 2023-10-05
+- **In-world:** unknown
+- **Summary:** Mevin secured a satellite transceiver that significantly expanded the crew's ability to perform remote matrix operations.
+- **Session page:** [2023-10-05](../Sessions/2023-10-05.md)
+
+### Ansen Moscow penthouse investigation
+- **Played:** 2023-10-26
+- **In-world:** unknown
+- **Summary:** The crew investigated missing musician Ansen Moscow and traced him to a magically-active penthouse environment tied to a suspicious law firm.
+- **Session page:** [2023-10-26](../Sessions/2023-10-26.md)
+
+### Pie-town Happening shutdown job
+- **Played:** 2023-11-09
+- **In-world:** unknown
+- **Summary:** The crew took a contract to shut down the Pie-town Happening, a magically-charged street fair protected by the Uruk Hai and linked to skooma distribution and hidden tunnels.
+- **Session page:** [2023-11-09](../Sessions/2023-11-09.md)
+
+### Counterfeit Stuffer Shack / Cindy-pattern analytics
+- **Played:** 2023-11-30
+- **In-world:** unknown
+- **Summary:** The crew investigated a counterfeit Stuffer Shack operation and discovered customer-analysis output that matched the old Cindy Liu Jenkins influence-engine pattern.
+- **Session page:** [2023-11-30](../Sessions/2023-11-30.md)
+
 ## Current Campaign Arc Markers
 
 ### Mayoral Race / insect-spirit infiltration job
