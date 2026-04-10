@@ -4,6 +4,7 @@
 
 - [Darla Ledue](Darla-Ledue.md)
 - [Ivan](Ivan.md)
+- [Jet Set Morgan](Jet-Set-Morgan.md)
 
 ## Recurring Contacts / Principals
 
@@ -12,6 +13,8 @@
 - [Taco](Taco.md)
 - [Glenn](Glenn.md)
 - [Memphis Menthol Mephistopheles Muckmeyer (Mucky)](Mucky.md)
+- [Joseph Neumann](Joseph-Neumann.md)
+- [Alderman Micheletti](Micheletti.md)
 
 ## Recent Threat Figures
 
