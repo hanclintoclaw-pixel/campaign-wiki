@@ -88,6 +88,24 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Summary:** The crew investigated a counterfeit Stuffer Shack operation and discovered customer-analysis output that matched the old Cindy Liu Jenkins influence-engine pattern.
 - **Session page:** [2023-11-30](../Sessions/2023-11-30.md)
 
+### Wildcat Stuffer Shack deepens into cult/insect material
+- **Played:** 2023-12-21
+- **In-world:** unknown
+- **Summary:** The counterfeit-food arc deepened into cult behavior, heavy surveillance, and insect-spirit chitin being processed into an intoxicant.
+- **Session page:** [2023-12-21](../Sessions/2023-12-21.md)
+
+### Hunting lodge infiltration / insect-burger revelation
+- **Played:** 2024-01-04
+- **In-world:** unknown
+- **Summary:** The crew learned that captives at a hunting lodge were being used to summon insect spirits, which were then processed directly into burger meat.
+- **Session page:** [2024-01-04](../Sessions/2024-01-04.md)
+
+### Cross Applied Technology cloning-hardware recovery
+- **Played:** 2024-02-01
+- **In-world:** unknown
+- **Summary:** The crew accepted a recovery job from Cross Applied Technology after a clumsy impersonation crew stole DNA sequencing/cloning hardware, and Mevin learned 6 Steel Strings was behind the imitation.
+- **Session page:** [2024-02-01](../Sessions/2024-02-01.md)
+
 ## Current Campaign Arc Markers
 
 ### Mayoral Race / insect-spirit infiltration job
