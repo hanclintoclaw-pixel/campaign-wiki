@@ -11,6 +11,10 @@ updated: 2026-04-08
 
 The crew is actively probing a hostile influence-engine / media-manipulation network tied to Nashville entertainment channels.
 
+## In-World Date
+
+- Current campaign year: **2066**
+
 ## Immediate Leads
 
 - Darla Ledue's penthouse apartment / recording studio
