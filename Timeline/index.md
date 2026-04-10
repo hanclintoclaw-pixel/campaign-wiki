@@ -130,6 +130,18 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Summary:** The crew accepted a recovery job from Cross Applied Technology after a clumsy impersonation crew stole DNA sequencing/cloning hardware, and Mevin learned 6 Steel Strings was behind the imitation.
 - **Session page:** [2024-02-01](../Sessions/2024-02-01.md)
 
+### Skizzix counter-con setup
+- **Played:** 2024-02-08
+- **In-world:** unknown
+- **Summary:** The impersonation arc narrowed onto Skizzix, and the crew considered turning the deception back around by posing as 6 Steel Strings.
+- **Session page:** [2024-02-08](../Sessions/2024-02-08.md)
+
+### Cindy Lou Prime in Taco's basement / Mucky bounty pressure
+- **Played:** 2024-06-06
+- **In-world:** unknown
+- **Summary:** With Cindy Lou Prime hidden and throttled in Taco's basement, the crew navigated Road Reaper politics, Mucky's bounty, and the fallout from Cindy Lou 2.0's destruction.
+- **Session page:** [2024-06-06](../Sessions/2024-06-06.md)
+
 ## Current Campaign Arc Markers
 
 ### Mayoral Race / insect-spirit infiltration job
