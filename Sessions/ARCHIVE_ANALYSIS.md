@@ -46,9 +46,21 @@ The session archive is no longer just a pile of recovered notes. It now supports
 
 ### Good future follow-up work
 - create a **Mevin / Vanessa / vehicle-tech** note and absorb 2024-01-25 there
-- create **faction pages** for Road Reapers, Steel Backs, Vox Populi, Uruk Hai, and Hidden Enforcers
 - normalize naming where the archive alternates between **Cindy-Lou / Cindy Liu Thompson / Cindy Liu Jenkins / Cindy Lou Prime**
 - add an **in-world chronology pass** if additional date anchors are recovered
+- expand this layer with more recurring NPC/entity pages and more recap coverage
+
+### Usability pages now added
+- **Faction pages**
+  - [Road Reapers](../Factions/Road-Reapers.md)
+  - [Steel Backs](../Factions/Steel-Backs.md)
+  - [Vox Populi](../Factions/Vox-Populi.md)
+  - [Uruk Hai](../Factions/Uruk-Hai.md)
+  - [Hidden Enforcers](../Factions/Hidden-Enforcers.md)
+- **Spoiler-light recap pages**
+  - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)
+  - [Previously On: Dragon Egg and Ghostwalker](../Recaps/Previously-On-Dragon-Egg-and-Ghostwalker.md)
+  - [Previously On: Insect Burger and Cult Arc](../Recaps/Previously-On-Insect-Burger-and-Cult.md)
 
 ## High-level campaign shape revealed by the archive
 

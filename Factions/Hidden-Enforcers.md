@@ -1,44 +1,30 @@
 ---
 title: Hidden Enforcers
-type: entity
+type: faction
 visibility: player-safe
-status: active
-first_session: 2026-02-27
-last_updated_session: 2026-02-27
-canon_status: provisional
-confidence: medium
-tags: [faction, magical, law-enforcement]
-sources:
-  - memory/2026-02-27.md
+updated: 2026-04-10
+aliases:
+  - Hidden Enforcers
 ---
 
 # Hidden Enforcers
 
 ## Overview
 
-Semi-allied organization described as the hidden magical arm of Nashville PD.
+A police-adjacent or covert-order faction that appears in the background of Nashville unrest and civic-order scenes. They are one of the recognizable organized powers still functioning amid local instability.
 
-## Known Facts
+## What the crew knows
 
-- The Hidden Enforcers are the hidden magical arm of Nashville PD.
-- The group is described as semi-allied to the crew.
-- **Glenn** is a member.
+- Glenn had enough rapport to identify and signal to a Hidden Enforcer during the arcoblock unrest.
+- They had access to police-grade resources or at least police-grade relationships.
+- Their presence suggested semi-formal structure inside a chaotic civic environment.
 
-## Relationships
+## Key sessions
 
-- Linked to Nashville PD structures.
-- Linked to **Glenn**.
-- Semi-allied to the crew.
+- [2023-09-21](../Sessions/2023-09-21.md)
 
-## Relevant Sessions
+## Open questions
 
-- 2026-02-27 — authoritative campaign roster update.
-
-## Open Questions
-
-- How formally organized are the Hidden Enforcers?
-- What level of support would they offer if the current influence-network threat becomes a city-level magical problem?
-
-## Sources
-
-- `memory/2026-02-27.md`
+- How official are they?
+- Are they a covert police society, a political order, or something in between?
+- How much leverage do they still have in Nashville?

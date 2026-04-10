@@ -32,3 +32,9 @@
 
 - [Illwoody](Illwoody.md)
 - [McGillicuddy](McGillicuddy.md)
+
+## Related Reference Layers
+
+- [Faction pages](../Factions/)
+- [Campaign arc index](../Timeline/Arc-Index.md)
+- [Previously On recaps](../Recaps/README.md)
