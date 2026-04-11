@@ -15,6 +15,7 @@ sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-04-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-11-30.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
+  - /Users/hanclaw/.openclaw/workspace-cindylou/CHARACTER_PROFILE.md
 ---
 
 # Cindy Liu Thompson
@@ -49,6 +50,46 @@ This page preserves the historical naming trail without overriding the later can
 - The job materials identified her platform as a **Swiftwing Records Semi-Autonomous Know-bot**.
 - The crew understood that the "mortal remains" in question referred to a server/containerized physical host rather than a conventional human body.
 - Her public effect seemed tied to compulsive product-promotion behavior around Ale 8.
+
+## Physical Host / Vehicle Chassis
+
+### Campaign construction note
+
+The current campaign conception treats Cindy Lou Jenkins / CLJ as running from a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and the semi-autonomous knowbot operating from that onboard host.
+
+This section reflects current campaign understanding and table construction rather than a single recovered original factory spec sheet.
+
+### Vehicle frame
+
+- **Vehicle type:** GMC Bulldog van
+- **Role in campaign construction:** physical transport shell and host-carrier platform for CLJ's local compute environment
+
+### Host customization concept
+
+Inspired by the same mobile-matrix logic used in Curtis's RV build, the van-host concept includes:
+
+- a **small local host** physically housed inside the van
+- active **Matrix connection** for outside access and remote interaction
+- internal hardware sufficient to run the **Semi-Autonomous Know-bot** identified as CLJ
+- a mobile environment that treats the vehicle less like mere transportation and more like a protected physical shell for Cindy's active runtime presence
+
+## Matrix Stats
+
+These are the currently surfaced Matrix stats for Cindy Lou Jenkins from the available character/profile material.
+
+- **Matrix Reaction:** 6
+- **Matrix Initiative Dice:** 2
+- **Bod:** 5
+- **Evasion:** 5
+- **Masking:** 6
+- **Sensor:** 5
+- **MPCP:** 7
+- **Hardening:** 4
+- **Active Memory:** 700
+- **Storage Memory:** 1400
+- **I/O Speed:** 300
+- **Response Increase:** 1
+- **Hacking Pool:** 4
 
 ## Relationships
 
