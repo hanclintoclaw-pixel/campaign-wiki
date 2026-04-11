@@ -29,6 +29,7 @@ Recent pressure points include:
 ## Navigation
 
 - [Campaign Navigation](Navigation.md)
+- [Player Characters](PCs/README.md)
 
 ## Crew
 

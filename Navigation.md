@@ -10,6 +10,7 @@ updated: 2026-04-10
 ## Core indexes
 
 - [Current State](Current-State.md)
+- [Player Characters](PCs/README.md)
 - [Session Archive](Sessions/)
 - [NPC Index](NPCs/)
 - [Faction Index](Factions/)
