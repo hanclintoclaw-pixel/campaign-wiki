@@ -26,6 +26,7 @@
 - [Floyd Otis](Floyd-Otis.md)
 - [Kari Wilkerson](Kari-Wilkerson.md)
 - [6 Steel Strings](6-Steel-Strings.md)
+- [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
 - [Cindy Liu Thompson](Cindy-Liu-Thompson.md)
 - [Blue Rayven](Blue-Rayven.md)
 - [Skizzix](Skizzix.md)

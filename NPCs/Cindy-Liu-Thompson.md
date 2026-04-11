@@ -4,12 +4,11 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2024-06-06
+last_updated_session: 2026-04-10
 canon_status: provisional
 confidence: medium
 aliases:
   - Cindy-Lou
-  - Cindy Liu Jenkins
   - Cindy Lou Prime
 tags: [npc, knowbot, matrix, cindy-origin, alias-hub]
 sources:
@@ -22,18 +21,26 @@ sources:
 
 ## Overview
 
-Historical know-bot/Matrix performer figure tied to the original Cindy rescue/investigation job and the broader Cindy / influence-engine / identity-fracture arc.
+Historical/origin-facing page for the early Cindy records in the archive. This page preserves the older naming trail around the original rescue/investigation job.
+
+## Canon note
+
+**Cindy Lou Jenkins** is the canon name to use for the in-world character going forward.
+
+This page remains in place because **Cindy Liu Thompson** is part of the historical record and appears in the original Swiftwing Records job materials. It should be understood as an earlier record/identity layer within the broader Cindy continuity.
+
+For the in-world maintained character page, see: [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
 
 ## Alias note
 
 The archive uses several closely related names across time:
 
 - **Cindy Liu Thompson** — the original rescue/investigation identity in the Swiftwing Records job
-- **Cindy-Lou** — the more casual campaign/table reference that becomes common around the same broader figure/concept
-- **Cindy Liu Jenkins** — a later identity associated with the influence-engine/customer-modeling pattern
+- **Cindy-Lou** — a common table/campaign shorthand
 - **Cindy Lou Prime** — the later protected/contained instance hidden in Taco's basement
+- **Cindy Lou Jenkins** — the canon in-world name going forward
 
-These names are treated here as a **campaign alias cluster with continuity questions still unresolved**, not as a claim that every label is perfectly identical in every technical sense.
+This page preserves the historical naming trail without overriding the later canon naming decision.
 
 ## Known Facts
 
