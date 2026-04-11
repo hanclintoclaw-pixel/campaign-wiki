@@ -36,6 +36,7 @@
 - [Mother Yahweh](Mother-Yahweh.md)
 - [Dr. Martin Waters](Dr-Martin-Waters.md)
 - [Ansen Moscow](Ansen-Moscow.md)
+- [Vanessa](Vanessa.md)
 
 ## Recent Threat Figures
 

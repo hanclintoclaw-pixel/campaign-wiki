@@ -9,4 +9,5 @@ These cleaned archive session files were reviewed but not converted into standal
 
 ### 2024-01-25
 - Reason: surviving chunk is mostly Mevin/Vanessa build mechanics and agent-design rules notes.
-- Better destination: future character-tech note or Mevin/vehicle support page, not a public session recap.
+- Resolved destination: [Vanessa](../NPCs/Vanessa.md)
+- Better used as character-tech documentation than a public session recap.

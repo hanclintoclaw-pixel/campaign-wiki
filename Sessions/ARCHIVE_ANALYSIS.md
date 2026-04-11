@@ -40,9 +40,9 @@ The session archive is no longer just a pile of recovered notes. It now supports
 
 ## Archive triage conclusions
 
-### Correctly skipped for now
+### Correctly skipped for standalone public session conversion
 - **2023-06-15** — no meaningful content beyond attendance
-- **2024-01-25** — better as character-tech documentation than public session prose
+- **2024-01-25** — not a good session recap, but the useful material has now been recovered into [Vanessa](../NPCs/Vanessa.md)
 
 ### Good future follow-up work
 - create a **Mevin / Vanessa / vehicle-tech** note and absorb 2024-01-25 there
