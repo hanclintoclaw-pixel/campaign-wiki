@@ -37,6 +37,10 @@
 - [Dr. Martin Waters](Dr-Martin-Waters.md)
 - [Ansen Moscow](Ansen-Moscow.md)
 - [Vanessa](Vanessa.md)
+- [Razor Jake](Razor-Jake.md)
+- [Viper](Viper.md)
+- [Dr. Gallstone](Dr-Gallstone.md)
+- [Bruce Gallstone](Bruce-Gallstone.md)
 
 ## Recent Threat Figures
 

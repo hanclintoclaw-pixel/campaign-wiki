@@ -170,6 +170,7 @@ This page groups the processed session archive into major recurring campaign thr
 
 - [Road Reapers](../Factions/Road-Reapers.md)
 - [Steel Backs](../Factions/Steel-Backs.md)
+- [Mall Rats](../Factions/Mall-Rats.md)
 - [Vox Populi](../Factions/Vox-Populi.md)
 - [Uruk Hai](../Factions/Uruk-Hai.md)
 - [Hidden Enforcers](../Factions/Hidden-Enforcers.md)
