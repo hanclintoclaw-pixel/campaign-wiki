@@ -176,6 +176,7 @@ This page groups the processed session archive into major recurring campaign thr
 - [Previously On Recaps](../Recaps/README.md)
 - [NPC Index](../NPCs/README.md)
 - [Tech Notes](../Tech/README.md)
+- [Cindy Liu Thompson alias hub](../NPCs/Cindy-Liu-Thompson.md)
 
 ## Notes
 

@@ -4,19 +4,36 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2023-04-06
+last_updated_session: 2024-06-06
 canon_status: provisional
 confidence: medium
-tags: [npc, knowbot, matrix, cindy-origin]
+aliases:
+  - Cindy-Lou
+  - Cindy Liu Jenkins
+  - Cindy Lou Prime
+tags: [npc, knowbot, matrix, cindy-origin, alias-hub]
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-04-06.md
+  - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-11-30.md
+  - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
 ---
 
 # Cindy Liu Thompson
 
 ## Overview
 
-Historical know-bot/Matrix performer figure tied to the original Cindy rescue/investigation job.
+Historical know-bot/Matrix performer figure tied to the original Cindy rescue/investigation job and the broader Cindy / influence-engine / identity-fracture arc.
+
+## Alias note
+
+The archive uses several closely related names across time:
+
+- **Cindy Liu Thompson** — the original rescue/investigation identity in the Swiftwing Records job
+- **Cindy-Lou** — the more casual campaign/table reference that becomes common around the same broader figure/concept
+- **Cindy Liu Jenkins** — a later identity associated with the influence-engine/customer-modeling pattern
+- **Cindy Lou Prime** — the later protected/contained instance hidden in Taco's basement
+
+These names are treated here as a **campaign alias cluster with continuity questions still unresolved**, not as a claim that every label is perfectly identical in every technical sense.
 
 ## Known Facts
 

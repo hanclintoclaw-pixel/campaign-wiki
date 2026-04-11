@@ -20,6 +20,10 @@ A major faction tied to the contested mall arc. The recovered archive presents t
 - They appear to be one of the main forces the crew is expected to deal with at the site.
 - Their interests overlap with a location valued for its physical infrastructure and strategic utility.
 
+## Alias note
+
+The archive alternates between **Steelback** and **Steel Backs**. This page normalizes the public-facing name as **Steel Backs** while preserving **Steelback** as an alias.
+
 ## Related factions
 
 - [Vox Populi](Vox-Populi.md)

@@ -45,10 +45,13 @@ The session archive is no longer just a pile of recovered notes. It now supports
 - **2024-01-25** — not a good session recap, but the useful material has now been recovered into [Vanessa](../NPCs/Vanessa.md)
 
 ### Good future follow-up work
-- create a **Mevin / Vanessa / vehicle-tech** note and absorb 2024-01-25 there
-- normalize naming where the archive alternates between **Cindy-Lou / Cindy Liu Thompson / Cindy Liu Jenkins / Cindy Lou Prime**
 - add an **in-world chronology pass** if additional date anchors are recovered
-- expand this layer with more recap coverage and session-to-session crosslinks
+- expand this layer with more session-to-session crosslinks
+- decide whether to create dedicated organization pages for **Gladwell Institute**, **Cross Applied Technology**, and **Swiftwing Records**
+
+### Alias normalization now in progress
+- **Cindy alias cluster:** Cindy-Lou / Cindy Liu Thompson / Cindy Liu Jenkins / Cindy Lou Prime now tracked explicitly as a continuity/alias problem rather than left implicit.
+- **Steelback / Steel Backs:** normalized publicly as **Steel Backs** with alias preservation.
 
 ### Usability pages now added
 - **Recurring entity pages**

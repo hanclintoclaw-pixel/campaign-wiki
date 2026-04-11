@@ -35,3 +35,7 @@ updated: 2026-04-10
 - [Taco](../NPCs/Taco.md)
 - [Darla Ledue](../NPCs/Darla-Ledue.md)
 - [Jet Set Morgan](../NPCs/Jet-Set-Morgan.md)
+
+## Alias / continuity note
+
+Across the archive, this thread uses several names that appear related but not yet perfectly resolved: **Cindy Liu Thompson**, **Cindy-Lou**, **Cindy Liu Jenkins**, and **Cindy Lou Prime**. The wiki now treats those as a tracked alias cluster rather than pretending the distinctions are already settled.
