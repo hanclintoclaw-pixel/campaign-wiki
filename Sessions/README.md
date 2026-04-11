@@ -35,3 +35,11 @@
 - [Archive triage notes](ARCHIVE_TRIAGE.md)
 - [Session archive analysis](ARCHIVE_ANALYSIS.md)
 - [Campaign arc index](../Timeline/Arc-Index.md)
+
+## Related reference layers
+
+- [NPC index](../NPCs/README.md)
+- [Faction pages](../Factions/)
+- [Organization pages](../Organizations/README.md)
+- [Recaps](../Recaps/README.md)
+- [Tech notes](../Tech/README.md)
