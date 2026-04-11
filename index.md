@@ -26,16 +26,9 @@ Recent pressure points include:
 - an upscale **corporate-owned penthouse / recording studio**
 - a monitored **encrypted satellite contact path**
 
-## Jump Links
+## Navigation
 
-- [Current State](Current-State.md)
-- [Session Archive](Sessions/)
-- [NPC Index](NPCs/)
-- [Faction Index](Factions/)
-- [Location Index](Locations/)
-- [Clue Registry](Clues/)
-- [Plot Arcs](Arcs/)
-- [Timeline](Timeline/index.md)
+- [Campaign Navigation](Navigation.md)
 
 ## Crew
 
