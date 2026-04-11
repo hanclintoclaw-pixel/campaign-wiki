@@ -16,10 +16,11 @@ sources:
 
 ## Overview
 
-Fixer/contact route through which the crew received the current Darla / SC Music job.
+Dwarf fixer/contact route through which the crew received the current Darla / SC Music job.
 
 ## Known Facts
 
+- Ivan is a **dwarf**.
 - The crew was hired through Ivan to approach a record executive.
 - Ivan functions as the contact/intermediary on the business side of the current run.
 - The April 2 run recap explicitly places Ivan at the front end of the contract chain.
