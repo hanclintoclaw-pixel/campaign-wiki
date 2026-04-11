@@ -46,8 +46,8 @@ The session archive is no longer just a pile of recovered notes. It now supports
 
 ### Good future follow-up work
 - add an **in-world chronology pass** if additional date anchors are recovered
-- expand this layer with more session-to-session crosslinks
-- decide whether to create dedicated organization pages for **Gladwell Institute**, **Cross Applied Technology**, and **Swiftwing Records**
+- expand this layer with any remaining session-to-session crosslinks where they are still missing
+- do selective final cleanup only where it improves play use rather than completeness for its own sake
 
 ### Alias normalization now in progress
 - **Cindy alias cluster:** Cindy-Lou / Cindy Liu Thompson / Cindy Liu Jenkins / Cindy Lou Prime now tracked explicitly as a continuity/alias problem rather than left implicit.
