@@ -34,6 +34,10 @@ Utility / mechanical support drone.
 
 - Explicitly treated as **non-combat** support in the current dossier.
 
+## Taco Fillings
+
+> "Mr. Clean's what keeps the rest of your toys from turning into expensive lessons. Use him after the smoke, between the runs, and any time your gear starts talking back. Utility ain't glamorous till everybody else is broken."
+
 ## Sources
 
 - `PARTY_DOSSIER.md`

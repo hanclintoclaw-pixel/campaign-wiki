@@ -36,6 +36,10 @@ Curtis's **GM Nissan Doberman** crawler drone.
 
 A combat crawler drone in Curtis's active rigger stable.
 
+## Taco Fillings
+
+> "Belmont goes first when you need somebody else to get shot at before you do. Don't waste him peeking corners like a tourist — post him where armor matters, give him a lane, and let him make people regret standing still."
+
 ## Sources
 
 - `PARTY_DOSSIER.md`

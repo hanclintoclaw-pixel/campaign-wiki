@@ -35,6 +35,10 @@ Curtis's generic **surr drone (VTOL)**.
 
 A light aerial surveillance/support drone.
 
+## Taco Fillings
+
+> "Buzz ain't there to be brave. Buzz is there to see first, see quiet, and tell you not to walk into a stupid mess. If this one starts drawing heat, you've already misused it."
+
 ## Sources
 
 - `PARTY_DOSSIER.md`

@@ -36,6 +36,10 @@ Curtis's **MCT Nissan Roto-Drone**.
 
 An armed rotating-wing drone in Curtis's active combat/surveillance toolkit.
 
+## Taco Fillings
+
+> "The Finisher's for fast violence and ugly angles. Use altitude, hit from where folks ain't ready, and then move before they solve the problem. If you hover like you're posing for a catalog, somebody's gonna swat your bird outta the air."
+
 ## Sources
 
 - `PARTY_DOSSIER.md`

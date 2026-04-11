@@ -62,6 +62,10 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 - 2026-03-18 / 2026-03-19 — mobile operational base during Curtis-centered action.
 - 2026-04-09 — used as the support node for Jet Set Morgan surveillance.
 
+## Taco Fillings
+
+> "Listen, Curtis, Grandpa ain't a battering ram unless you get stupid or desperate, and those two conditions love each other. This rig's for staying alive, staying linked, and getting your people out fast when the room turns mean. Keep your lanes clean, keep your power conditioned, and don't let some hotshot decker turn your home into a lightning strike."
+
 ## Sources
 
 - `memory/2026-03-20.md`

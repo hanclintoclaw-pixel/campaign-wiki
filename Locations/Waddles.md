@@ -33,6 +33,10 @@ A bipedal assistant that follows Curtis and handles carry/hold/fetch support.
 
 - Explicitly treated as **non-combat** support in the current dossier.
 
+## Taco Fillings
+
+> "Waddles is for hands when you ain't got enough hands. Carry, fetch, hold, tail somebody, mind the little jobs. Don't get cute and try to make a hero outta the cat unless you're in the mood to buy another one."
+
 ## Sources
 
 - `PARTY_DOSSIER.md`
