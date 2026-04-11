@@ -4,12 +4,12 @@ type: entity
 visibility: player-safe
 status: active
 first_session:
-last_updated_session:
+last_updated_session: 2026-04-10
 canon_status: provisional
 confidence: medium
 tags: [npc, shadowrunner, nashville]
 sources:
-  - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/run_notes/wordpress_ingest/NPCs/npc-hardwire-henry.md
+  - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/wordpress_ingest/NPCs/npc-hardwire-henry.md
 ---
 
 # Hardwire Henry
