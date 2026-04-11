@@ -48,9 +48,19 @@ The session archive is no longer just a pile of recovered notes. It now supports
 - create a **Mevin / Vanessa / vehicle-tech** note and absorb 2024-01-25 there
 - normalize naming where the archive alternates between **Cindy-Lou / Cindy Liu Thompson / Cindy Liu Jenkins / Cindy Lou Prime**
 - add an **in-world chronology pass** if additional date anchors are recovered
-- expand this layer with more recurring NPC/entity pages and more recap coverage
+- expand this layer with more recap coverage and session-to-session crosslinks
 
 ### Usability pages now added
+- **Recurring entity pages**
+  - [Blue Rayven](../NPCs/Blue-Rayven.md)
+  - [Skizzix](../NPCs/Skizzix.md)
+  - [Imogene Viola](../NPCs/Imogene-Viola.md)
+  - [Alanzo Sparks](../NPCs/Alanzo-Sparks.md)
+  - [Eugene Booker](../NPCs/Eugene-Booker.md)
+  - [Candace Wrapper](../NPCs/Candace-Wrapper.md)
+  - [Mother Yahweh](../NPCs/Mother-Yahweh.md)
+  - [Dr. Martin Waters](../NPCs/Dr-Martin-Waters.md)
+  - [Ansen Moscow](../NPCs/Ansen-Moscow.md)
 - **Faction pages**
   - [Road Reapers](../Factions/Road-Reapers.md)
   - [Steel Backs](../Factions/Steel-Backs.md)

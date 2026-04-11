@@ -27,6 +27,15 @@
 - [Kari Wilkerson](Kari-Wilkerson.md)
 - [6 Steel Strings](6-Steel-Strings.md)
 - [Cindy Liu Thompson](Cindy-Liu-Thompson.md)
+- [Blue Rayven](Blue-Rayven.md)
+- [Skizzix](Skizzix.md)
+- [Imogene Viola](Imogene-Viola.md)
+- [Alanzo Sparks](Alanzo-Sparks.md)
+- [Eugene Booker](Eugene-Booker.md)
+- [Candace Wrapper](Candace-Wrapper.md)
+- [Mother Yahweh](Mother-Yahweh.md)
+- [Dr. Martin Waters](Dr-Martin-Waters.md)
+- [Ansen Moscow](Ansen-Moscow.md)
 
 ## Recent Threat Figures
 

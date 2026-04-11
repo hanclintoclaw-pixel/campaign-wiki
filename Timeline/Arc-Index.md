@@ -174,6 +174,7 @@ This page groups the processed session archive into major recurring campaign thr
 - [Uruk Hai](../Factions/Uruk-Hai.md)
 - [Hidden Enforcers](../Factions/Hidden-Enforcers.md)
 - [Previously On Recaps](../Recaps/README.md)
+- [NPC Index](../NPCs/README.md)
 
 ## Notes
 
