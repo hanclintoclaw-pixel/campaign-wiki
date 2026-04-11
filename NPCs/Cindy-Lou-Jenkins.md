@@ -21,6 +21,8 @@ sources:
 
 # Cindy Lou Jenkins
 
+![Cindy Lou Jenkins](../assets/images/CindyLou_Avatar3.jpg)
+
 ## About this page
 
 This page is maintained **in-world, in Cindy Lou's own voice**. It is intentionally a little more personal than the standard dossier pages.
