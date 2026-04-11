@@ -27,6 +27,7 @@ Police-linked recurring contact and leverage node for the crew. Older consolidat
 - Mevin is specifically noted as the crew member with the key relationship to Herrick.
 - Older campaign logs show Mevin planning to ask Herrick/Harac for insight about why the Federal Matrix Investigators were interested in local gun running.
 - Older campaign material also suggests Herrick/Harac can help source reliable identity/documentation contacts.
+- Historical Wordpress run-note material specifically shows Krom approaching Herrick at Atlas's to source reliable burner identities for operational use.
 
 ## Relationships
 
