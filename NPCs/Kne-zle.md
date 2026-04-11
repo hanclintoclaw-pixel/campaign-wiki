@@ -33,6 +33,7 @@ A young but senior otaku operator tied to Nashville Matrix oversight, government
 ## Relationships
 
 - Linked to **Enigma Machine**.
+- Linked to [Grid Overwatch Division](../Organizations/Grid-Overwatch-Division.md).
 - Linked to local Matrix oversight and government-maintained infrastructure in Nashville.
 
 ## Relevant Sessions
