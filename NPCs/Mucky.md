@@ -15,6 +15,8 @@ sources:
 
 # Memphis Menthol Mephistopheles Muckmeyer
 
+![Mucky](../assets/images/Mucky.jpg)
+
 ## Overview
 
 Usually called **Mucky**. A major Nashville criminal figure, wolf shapeshifter, and physical adept who is allied to the crew through existing contact networks.
