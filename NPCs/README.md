@@ -26,6 +26,7 @@
 - [Lorenzo Zoyle](Lorenzo-Zoyle.md)
 - [Luis Santangelo](Luis-Santangelo.md)
 - [Merle Graham](Merle-Graham.md)
+- [Professor "Chuck" X](Professor-X.md)
 - [Genevieve Watson](Genevieve-Watson.md)
 - [Floyd Otis](Floyd-Otis.md)
 - [Kari Wilkerson](Kari-Wilkerson.md)
