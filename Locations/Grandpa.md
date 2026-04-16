@@ -16,6 +16,8 @@ sources:
 
 # Grandpa
 
+![Grandpa](../assets/images/Grandpa.png)
+
 ## Overview
 
 Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
