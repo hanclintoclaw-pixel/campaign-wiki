@@ -17,6 +17,23 @@ sources:
 
 A municipal civil-administration host representing permits, utilities, records, planning, public works, payroll, and the vast bureaucratic swamp that keeps Nashville moving badly but continuously.
 
+## Host Stats (SR3-style)
+
+- **Host Color / Security:** Blue-4
+- **Host Rating:** 4
+- **Access:** 4
+- **Control:** 3
+- **Index:** 5
+- **Files:** 6
+- **Slave:** 3
+- **Typical IC mix:** Probe, Scramble, Trace, Tar Baby
+- **Routine decker task TNs:**
+  - Logon with valid or lightly spoofed credentials: **4**
+  - Browse public/low-security civic records: **4**
+  - Locate buried permit/utilities/admin data: **5**
+  - Edit or suppress protected records: **7**
+  - Seize control of utility-linked slave systems: **8**
+
 ## What deckers find inside
 
 - permit systems, inspection schedules, tax and licensing records

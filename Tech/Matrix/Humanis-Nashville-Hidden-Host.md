@@ -17,6 +17,23 @@ sources:
 
 A semi-hidden host used by a local Humanis chapter for internal coordination, propaganda storage, contact vetting, and compartmentalized extremist activity.
 
+## Host Stats (SR3-style)
+
+- **Host Color / Security:** Orange-5 (masked behind weaker public-facing layers)
+- **Host Rating:** 5
+- **Access:** 5
+- **Control:** 4
+- **Index:** 5
+- **Files:** 6
+- **Slave:** 2
+- **Typical IC mix:** Probe, Trace, Tar Baby, Killer, Psychotropic-style themed security
+- **Routine decker task TNs:**
+  - Find and breach the concealed entry path: **6**
+  - Browse outer propaganda or recruitment layers: **5**
+  - Reach inner membership, donor, or action-planning files: **7**
+  - Alter rosters, meeting data, or internal communications: **8**
+  - Hold control long enough to map the chapter's hidden structure: **8**
+
 ## What deckers find inside
 
 - membership vetting files and coded internal rosters

@@ -17,6 +17,23 @@ sources:
 
 A branded corporate host for a soy-meat company selling artificial beef-and-bacon lifestyle products through marketing, subscription culture, and aggressively engineered consumer identity.
 
+## Host Stats (SR3-style)
+
+- **Host Color / Security:** Orange-4
+- **Host Rating:** 4
+- **Access:** 4
+- **Control:** 3
+- **Index:** 5
+- **Files:** 5
+- **Slave:** 3
+- **Typical IC mix:** Probe, Scramble, Trace, Sparky
+- **Routine decker task TNs:**
+  - Enter through customer, vendor, or loyalty-program pathways: **4**
+  - Browse product, ad, or fulfillment data: **4**
+  - Reach internal strategy or supplier irregularity files: **6**
+  - Alter customer analytics or subscription records: **7**
+  - Seize factory/demo/control subsystems: **8**
+
 ## What deckers find inside
 
 - product formulas, flavor-profile research, and supplier records

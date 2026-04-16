@@ -17,6 +17,23 @@ sources:
 
 A local megacorporate host representing Ares regional administration, procurement, security coordination, logistics, and public-facing business operations.
 
+## Host Stats (SR3-style)
+
+- **Host Color / Security:** Green-6
+- **Host Rating:** 6
+- **Access:** 6
+- **Control:** 5
+- **Index:** 6
+- **Files:** 7
+- **Slave:** 5
+- **Typical IC mix:** Probe, Killer, Trace, Scramble, Scout
+- **Routine decker task TNs:**
+  - Enter with forged credentials or a clean exploit path: **6**
+  - Browse routine procurement or shipping layers: **5**
+  - Reach executive scheduling or security planning records: **7**
+  - Alter protected contract or inventory data: **8**
+  - Take over security-linked slave subsystems: **9**
+
 ## What deckers find inside
 
 - regional contracting records and procurement chains

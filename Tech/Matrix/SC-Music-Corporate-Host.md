@@ -18,6 +18,23 @@ sources:
 
 A corporate media host tied to SC Music's artist management, promotional scheduling, distribution planning, branding assets, contracts, and behavior-shaping market analysis.
 
+## Host Stats (SR3-style)
+
+- **Host Color / Security:** Green-5
+- **Host Rating:** 5
+- **Access:** 5
+- **Control:** 4
+- **Index:** 6
+- **Files:** 7
+- **Slave:** 4
+- **Typical IC mix:** Probe, Trace, Scramble, Tar Baby, Blaster
+- **Routine decker task TNs:**
+  - Enter using a borrowed media/corp credential chain: **5**
+  - Browse artist schedules or approved promo materials: **4**
+  - Reach restricted strategy, contract, or influence-analysis files: **7**
+  - Alter release plans, royalties, or executive mail: **8**
+  - Hijack production/control-linked slave systems: **8**
+
 ## What deckers find inside
 
 - artist calendars, release plans, and tour-support logistics
