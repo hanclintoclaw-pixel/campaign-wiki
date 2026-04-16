@@ -26,5 +26,6 @@ updated: 2026-04-10
 - [Campaign Arc Index](Timeline/Arc-Index.md)
 - [Recaps](Recaps/README.md)
 - [Tech Notes](Tech/README.md)
+- [Matrix Hosts](Tech/Matrix/README.md)
 - [Session Archive Analysis](Sessions/ARCHIVE_ANALYSIS.md)
 - [Archive Triage Notes](Sessions/ARCHIVE_TRIAGE.md)

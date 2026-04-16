@@ -31,6 +31,7 @@ Recent pressure points include:
 - [Campaign Navigation](Navigation.md)
 - [Player Characters](PCs/README.md)
 - [Drones / Vehicles](Vehicles/README.md)
+- [Matrix Hosts](Tech/Matrix/README.md)
 
 ## Crew
 
