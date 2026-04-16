@@ -17,6 +17,8 @@ sources:
 
 Curtis's **Ares Felix SynthCat** walker / anthroform assistant.
 
+Part of the campaign's dedicated **Drones / Vehicles** reference layer rather than the general location index.
+
 ## Canon Stats
 
 - **Speed/Acceleration:** 15/—

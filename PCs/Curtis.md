@@ -29,11 +29,11 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 ## Rigger Asset Highlights
 
 - [Grandpa](../Locations/Grandpa.md) — Ford-Canada Bison RV / BusMod base
-- [Belmont](../Locations/Belmont.md) — GM Nissan Doberman
-- [The Finisher](../Locations/The-Finisher.md) — MCT Nissan Roto-Drone
-- [Buzz](../Locations/Buzz.md) — generic surr drone
-- [Mr. Clean](../Locations/Mr-Clean.md) — GMM Fix-It
-- [Waddles](../Locations/Waddles.md) — Ares Felix SynthCat
+- [Belmont](../Vehicles/Belmont.md) — GM Nissan Doberman
+- [The Finisher](../Vehicles/The-Finisher.md) — MCT Nissan Roto-Drone
+- [Buzz](../Vehicles/Buzz.md) — generic surr drone
+- [Mr. Clean](../Vehicles/Mr-Clean.md) — GMM Fix-It
+- [Waddles](../Vehicles/Waddles.md) — Ares Felix SynthCat
 
 ## Relationships
 

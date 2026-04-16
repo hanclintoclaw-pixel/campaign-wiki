@@ -17,6 +17,8 @@ sources:
 
 Curtis's **MCT Nissan Roto-Drone**.
 
+Part of the campaign's dedicated **Drones / Vehicles** reference layer rather than the general location index.
+
 ## Canon Stats
 
 - **Handling:** 4

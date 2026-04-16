@@ -16,6 +16,7 @@ updated: 2026-04-10
 - [Faction Index](Factions/)
 - [Organization Index](Organizations/README.md)
 - [Location Index](Locations/)
+- [Drone / Vehicle Index](Vehicles/README.md)
 - [Clue Registry](Clues/)
 - [Plot Arcs](Arcs/)
 - [Timeline](Timeline/index.md)
