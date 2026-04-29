@@ -23,7 +23,13 @@ sources:
 
 # Cindy Lou Jenkins, In Her Own Words
 
-![Cindy Lou Jenkins](../assets/images/CindyLou_InWorld.png)
+![Cindy Lou Jenkins high-res recording artist image](../assets/images/CindyLou_InWorld.png)
+
+*High-res image Cindy uses as a recording artist.*
+
+![Cindy Lou Jenkins Matrix icon](../assets/images/CindyLou_MatrixIcon.png)
+
+*Matrix icon Cindy uses to represent herself in the Matrix.*
 
 ## About this page
 
