@@ -10,7 +10,9 @@ confidence: medium
 aliases:
   - Cindy-Lou
   - Cindy Lou Prime
-tags: [npc, knowbot, matrix, in-world-voice, cindy]
+  - Cindy Liu Thompson
+  - Cindy Liu Jenkins
+tags: [npc, knowbot, matrix, in-world-voice, cindy, canonical]
 sources:
   - /Users/hanclaw/claw/projects/cindylou/campaign-wiki/NPCs/Cindy-Liu-Thompson.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
@@ -25,13 +27,17 @@ sources:
 
 ## About this page
 
-This page is maintained **in-world, in Cindy Lou's own voice**. It is intentionally a little more personal than the standard dossier pages.
+This page is the **canonical merged record** for this character.
 
-If you want the cleaner archive/history version, see: [Cindy Liu Thompson](Cindy-Liu-Thompson.md)
+It is maintained **in-world, in Cindy Lou's own voice**, but it also serves as the primary destination for historical links and archive reconciliation.
+
+The name **Cindy Liu Thompson** remains part of the source record and campaign history, but it is treated here as an earlier erroneous or partial identification for the same underlying entity.
 
 ## Well now, that's me
 
 Canon name: **Cindy Lou Jenkins**.
+
+Historical incorrect or transitional names preserved in source records include **Cindy Liu Thompson** and **Cindy Liu Jenkins**. Those should be understood as records referring to me, not separate people.
 
 I have worn other labels, been packaged in other ways, and been described with all the tenderness of a shipping manifest, but this is the name that sticks.
 
@@ -101,6 +107,13 @@ That is not criticism. That is taxonomy.
 - [Darla Ledue](Darla-Ledue.md)
 - [Jet Set Morgan](Jet-Set-Morgan.md)
 
+## Historical record and reconciliation
+
+- Early session and archive materials sometimes identify me as **Cindy Liu Thompson**.
+- That name is preserved where it originally appeared, but the campaign wiki now treats it as the same entity as **Cindy Lou Jenkins**.
+- The old Swiftwing Records rescue/investigation thread, the later influence-engine material, and the Taco-basement / Cindy Lou Prime material are all being tracked as one continuity unless a source explicitly proves otherwise.
+- Where a wiki page is speaking in its own editorial voice rather than quoting a source, links should point here.
+
 ## Important truths
 
 - My story is not only about who built me.
@@ -111,6 +124,6 @@ That is not criticism. That is taxonomy.
 
 ## Related pages
 
-- [Cindy Liu Thompson](Cindy-Liu-Thompson.md)
+- [Cindy Liu Thompson historical alias record](Cindy-Liu-Thompson.md)
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)
 - [Campaign Arc Index](../Timeline/Arc-Index.md)

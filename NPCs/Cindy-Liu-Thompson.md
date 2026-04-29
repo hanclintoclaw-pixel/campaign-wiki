@@ -2,110 +2,58 @@
 title: Cindy Liu Thompson
 type: entity
 visibility: player-safe
-status: active
+status: redirected
 first_session: 2023-04-06
-last_updated_session: 2026-04-10
-canon_status: provisional
-confidence: medium
+last_updated_session: 2026-04-29
+canon_status: incorrect-historical-name
+confidence: high
 aliases:
   - Cindy-Lou
   - Cindy Lou Prime
-tags: [npc, knowbot, matrix, cindy-origin, alias-hub]
+  - Cindy Liu Jenkins
+tags: [npc, knowbot, matrix, cindy-origin, alias-record, redirect]
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-04-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-11-30.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Users/hanclaw/.openclaw/workspace-cindylou/CHARACTER_PROFILE.md
+redirect_target: Cindy-Lou-Jenkins.md
 ---
 
 # Cindy Liu Thompson
 
-## Overview
+## Status
 
-Historical/origin-facing page for the early Cindy records in the archive. This page preserves the older naming trail around the original rescue/investigation job.
+This page is now a **historical alias record** for the canonical character page: [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md).
 
-## Canon note
+## Why this page still exists
 
-**Cindy Lou Jenkins** is the canon name to use for the in-world character going forward.
+The name **Cindy Liu Thompson** appears in original source materials and earlier campaign records. Those source records are being preserved as written.
 
-This page remains in place because **Cindy Liu Thompson** is part of the historical record and appears in the original Swiftwing Records job materials. It should be understood as an earlier record/identity layer within the broader Cindy continuity.
+The wiki, however, now treats **Cindy Liu Thompson** and **Cindy Lou Jenkins** as the **same entity**, with **Cindy Lou Jenkins** as the canonical name.
 
-For the in-world maintained character page, see: [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
+## Historical note
 
-## Alias note
+The early Swiftwing Records rescue and investigation materials used **Cindy Liu Thompson** as the relevant identity label. Later campaign understanding, consolidation work, and current canon resolve that record into **Cindy Lou Jenkins**.
 
-The archive uses several closely related names across time:
+This means:
 
-- **Cindy Liu Thompson** — the original rescue/investigation identity in the Swiftwing Records job
-- **Cindy-Lou** — a common table/campaign shorthand
-- **Cindy Lou Prime** — the later protected/contained instance hidden in Taco's basement
-- **Cindy Lou Jenkins** — the canon in-world name going forward
+- source quotations and original notes may still say **Cindy Liu Thompson**
+- editorial wiki links should usually point to [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
+- no source text should be silently rewritten just to hide the old error
 
-This page preserves the historical naming trail without overriding the later canon naming decision.
+## Preserved facts from older records
 
-## Known Facts
-
-- Cindy Liu Thompson was described as a performer who disappeared and then resurfaced suddenly.
+- The original rescue/investigation job centered on the disappearance of the performer identified in records as Cindy Liu Thompson.
 - 6 Steel Strings claimed she had been kidnapped and forced to perform in the Matrix.
 - The job materials identified her platform as a **Swiftwing Records Semi-Autonomous Know-bot**.
-- The crew understood that the "mortal remains" in question referred to a server/containerized physical host rather than a conventional human body.
+- The crew understood that the "mortal remains" in question referred to a server or other physical hosting container rather than an ordinary human body.
 - Her public effect seemed tied to compulsive product-promotion behavior around Ale 8.
+- Later campaign construction connects that historical record to the entity now tracked canonically as Cindy Lou Jenkins.
 
-## Physical Host / Vehicle Chassis
+## Related pages
 
-### Campaign construction note
-
-The current campaign conception treats Cindy Lou Jenkins / CLJ as running from a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and the semi-autonomous knowbot operating from that onboard host.
-
-This section reflects current campaign understanding and table construction rather than a single recovered original factory spec sheet.
-
-### Vehicle frame
-
-- **Vehicle type:** GMC Bulldog van
-- **Role in campaign construction:** physical transport shell and host-carrier platform for CLJ's local compute environment
-
-### Host customization concept
-
-Inspired by the same mobile-matrix logic used in Curtis's RV build, the van-host concept includes:
-
-- a **small local host** physically housed inside the van
-- active **Matrix connection** for outside access and remote interaction
-- internal hardware sufficient to run the **Semi-Autonomous Know-bot** identified as CLJ
-- a mobile environment that treats the vehicle less like mere transportation and more like a protected physical shell for Cindy's active runtime presence
-
-## Matrix Stats
-
-These are the currently surfaced Matrix stats for Cindy Lou Jenkins from the available character/profile material.
-
-- **Matrix Reaction:** 6
-- **Matrix Initiative Dice:** 2
-- **Bod:** 5
-- **Evasion:** 5
-- **Masking:** 6
-- **Sensor:** 5
-- **MPCP:** 7
-- **Hardening:** 4
-- **Active Memory:** 700
-- **Storage Memory:** 1400
-- **I/O Speed:** 300
-- **Response Increase:** 1
-- **Hacking Pool:** 4
-
-## Relationships
-
-- Linked to **6 Steel Strings**.
-- Linked to **Swiftwing Records**.
-- Strongly tied to the historical origin of the Cindy Lou / knowbot arc.
-
-## Relevant Sessions
-
-- 2023-04-06 — first known rescue/investigation setup.
-
-## Open Questions
-
-- How directly continuous is Cindy Liu Thompson with the later Cindy Lou Jenkins identity?
-- Was she an emergent person, a high-end know-bot, or something between those categories?
-
-## Sources
-
-- `/Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-04-06.md`
+- [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
+- [Swiftwing Records](../Organizations/Swiftwing-Records.md)
+- [6 Steel Strings](6-Steel-Strings.md)
+- [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)

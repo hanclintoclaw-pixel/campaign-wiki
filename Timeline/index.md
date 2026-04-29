@@ -28,10 +28,10 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Summary:** The crew prepared security for a peace meeting between rival gun-running gangs, the Interstate Connection and Ironblood Orphans, while Federal Matrix Investigators unexpectedly loomed in the background.
 - **Session page:** [2023-03-23](../Sessions/2023-03-23.md)
 
-### 6 Steel Strings / Cindy Liu Thompson job
+### 6 Steel Strings / Cindy Lou Jenkins historical rescue job
 - **Played:** 2023-04-06
 - **In-world:** unknown
-- **Summary:** A contact called 6 Steel Strings hired the crew to investigate the disappearance of Cindy Liu Thompson, a Swiftwing Records know-bot performer.
+- **Summary:** A contact called 6 Steel Strings hired the crew to investigate the disappearance of the performer recorded at the time as Cindy Liu Thompson, now reconciled in the wiki under Cindy Lou Jenkins.
 - **Session page:** [2023-04-06](../Sessions/2023-04-06.md)
 
 ### Draco Foundation toxic-biomaterial contract
@@ -109,7 +109,7 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 ### Counterfeit Stuffer Shack / Cindy-pattern analytics
 - **Played:** 2023-11-30
 - **In-world:** unknown
-- **Summary:** The crew investigated a counterfeit Stuffer Shack operation and discovered customer-analysis output that matched the old Cindy Liu Jenkins influence-engine pattern.
+- **Summary:** The crew investigated a counterfeit Stuffer Shack operation and discovered customer-analysis output that matched the old Cindy Lou Jenkins influence-engine pattern.
 - **Session page:** [2023-11-30](../Sessions/2023-11-30.md)
 
 ### Wildcat Stuffer Shack deepens into cult/insect material

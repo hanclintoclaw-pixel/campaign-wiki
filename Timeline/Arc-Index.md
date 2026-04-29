@@ -27,7 +27,7 @@ This page groups the processed session archive into major recurring campaign thr
 
 ## 2. Cindy / knowbot / music-industry influence-engine arc
 
-**Core idea:** Cindy-Lou / Cindy Liu Thompson / Cindy Liu Jenkins as a moving target across theft, performance infrastructure, manipulation systems, and later protected-AI survival.
+**Core idea:** Cindy Lou Jenkins, with historical records also using Cindy-Lou, Cindy Liu Thompson, and Cindy Liu Jenkins, as a moving target across theft, performance infrastructure, manipulation systems, and later protected-AI survival.
 
 **Key sessions**
 - [2023-03-20](../Sessions/2023-03-20.md) — Blue Rayven and Cindy support-hardware trail
@@ -42,8 +42,9 @@ This page groups the processed session archive into major recurring campaign thr
 - [2026-04-09](../Sessions/2026-04-09.md)
 
 **Important names**
-- Cindy Liu Thompson
-- Cindy Liu Jenkins
+- Cindy Lou Jenkins
+- Cindy Liu Thompson (historical incorrect record name)
+- Cindy Liu Jenkins (historical variant)
 - 6 Steel Strings
 - Blue Rayven
 - Skizzix
@@ -178,7 +179,8 @@ This page groups the processed session archive into major recurring campaign thr
 - [NPC Index](../NPCs/README.md)
 - [Organization Index](../Organizations/README.md)
 - [Tech Notes](../Tech/README.md)
-- [Cindy Liu Thompson alias hub](../NPCs/Cindy-Liu-Thompson.md)
+- [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md)
+- [Cindy Liu Thompson historical alias record](../NPCs/Cindy-Liu-Thompson.md)
 
 ## Notes
 

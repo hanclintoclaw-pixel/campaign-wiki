@@ -21,7 +21,7 @@ The music-industry organization tied to Cindy Liu Thompson's original know-bot p
 
 ## Key people
 
-- [Cindy Liu Thompson](../NPCs/Cindy-Liu-Thompson.md)
+- [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md)
 - [6 Steel Strings](../NPCs/6-Steel-Strings.md)
 
 ## Key sessions

@@ -31,7 +31,7 @@ updated: 2026-04-10
 ## Major names
 
 - [6 Steel Strings](../NPCs/6-Steel-Strings.md)
-- [Cindy Liu Thompson](../NPCs/Cindy-Liu-Thompson.md)
+- [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md)
 - [Taco](../NPCs/Taco.md)
 - [Darla Ledue](../NPCs/Darla-Ledue.md)
 - [Jet Set Morgan](../NPCs/Jet-Set-Morgan.md)
