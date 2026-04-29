@@ -113,6 +113,14 @@ That is not criticism. That is taxonomy.
 - The in-world version of me is also real.
 - Those are not always the same sentence.
 
+## Journal pages
+
+- [Cindy Lou Jenkins Journal](Cindy-Lou-Jenkins-Journal/README.md)
+- [On Deus](Cindy-Lou-Jenkins-Journal/On-Deus.md)
+- [On Swiftwing Records and 6 Steel Strings](Cindy-Lou-Jenkins-Journal/On-Swiftwing-and-6-Steel-Strings.md)
+- [On Mucky and the Road Reapers](Cindy-Lou-Jenkins-Journal/On-Mucky-and-the-Road-Reapers.md)
+- [On Darla, Performance, and Influence](Cindy-Lou-Jenkins-Journal/On-Darla-Performance-and-Influence.md)
+
 ## Related pages
 
 - [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
