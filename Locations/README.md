@@ -2,11 +2,11 @@
 
 ## Nations
 
-- Confederated American States
+- [Confederated American States](Confederated-American-States.md)
 
 ## Cities
 
-- Nashville
+- [Nashville](Nashville.md)
 
 ## Nashville Locations
 
