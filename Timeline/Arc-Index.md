@@ -180,7 +180,6 @@ This page groups the processed session archive into major recurring campaign thr
 - [Organization Index](../Organizations/README.md)
 - [Tech Notes](../Tech/README.md)
 - [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md)
-- [Cindy Liu Thompson historical alias record](../NPCs/Cindy-Liu-Thompson.md)
 
 ## Notes
 

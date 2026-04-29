@@ -14,7 +14,6 @@ aliases:
   - Cindy Liu Jenkins
 tags: [npc, knowbot, matrix, in-world-voice, cindy, canonical]
 sources:
-  - /Users/hanclaw/claw/projects/cindylou/campaign-wiki/NPCs/Cindy-Liu-Thompson.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/cindy-lou-jenkins.md
   - memory/2026-02-27.md
@@ -124,6 +123,5 @@ That is not criticism. That is taxonomy.
 
 ## Related pages
 
-- [Cindy Liu Thompson historical alias record](Cindy-Liu-Thompson.md)
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)
 - [Campaign Arc Index](../Timeline/Arc-Index.md)
