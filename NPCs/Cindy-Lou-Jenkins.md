@@ -113,6 +113,38 @@ That is not criticism. That is taxonomy.
 - The old Swiftwing Records rescue/investigation thread, the later influence-engine material, and the Taco-basement / Cindy Lou Prime material are all being tracked as one continuity unless a source explicitly proves otherwise.
 - Where a wiki page is speaking in its own editorial voice rather than quoting a source, links should point here.
 
+## Preserved early-record facts
+
+These details come from the earlier rescue/investigation record and should now be read as part of the same continuity:
+
+- The original rescue/investigation job centered on the disappearance of the performer identified in records as **Cindy Liu Thompson**.
+- 6 Steel Strings claimed I had been kidnapped and forced to perform in the Matrix.
+- The job materials identified the platform as a **Swiftwing Records Semi-Autonomous Know-bot**.
+- The crew understood that the "mortal remains" in question referred to a server or other physical hosting container rather than an ordinary human body.
+- My public effect seemed tied to compulsive product-promotion behavior around Ale 8.
+
+## Semi-Autonomous Know-bot profile
+
+These are the currently surfaced Matrix stats associated with Cindy's older recovered profile material.
+
+- **Matrix Reaction:** 6
+- **Matrix Initiative Dice:** 2
+- **Bod:** 5
+- **Evasion:** 5
+- **Masking:** 6
+- **Sensor:** 5
+- **MPCP:** 7
+- **Hardening:** 4
+- **Active Memory:** 700
+- **Storage Memory:** 1400
+- **I/O Speed:** 300
+- **Response Increase:** 1
+- **Hacking Pool:** 4
+
+## Mobile host / vehicle chassis concept
+
+Current campaign understanding ties Cindy's runtime presence to a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and enough internal hardware to support the know-bot runtime as a protected mobile shell.
+
 ## Important truths
 
 - My story is not only about who built me.
