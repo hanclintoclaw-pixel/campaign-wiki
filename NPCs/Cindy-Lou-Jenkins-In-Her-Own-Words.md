@@ -23,7 +23,7 @@ sources:
 
 # Cindy Lou Jenkins, In Her Own Words
 
-![Cindy Lou Jenkins](../assets/images/CindyLou_Avatar3.jpg)
+![Cindy Lou Jenkins](../assets/images/CindyLou_InWorld.png)
 
 ## About this page
 
