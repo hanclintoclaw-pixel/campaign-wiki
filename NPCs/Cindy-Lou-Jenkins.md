@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-04-10
+last_updated_session: 2026-04-29
 canon_status: canonical-name
 confidence: medium
 aliases:
@@ -12,116 +12,61 @@ aliases:
   - Cindy Lou Prime
   - Cindy Liu Thompson
   - Cindy Liu Jenkins
-tags: [npc, knowbot, matrix, in-world-voice, cindy, canonical]
+tags: [npc, knowbot, matrix, cindy, canonical, objective-dossier]
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/cindy-lou-jenkins.md
   - memory/2026-02-27.md
   - PARTY_DOSSIER.md
+  - NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md
 ---
 
 # Cindy Lou Jenkins
 
 ![Cindy Lou Jenkins](../assets/images/CindyLou_Avatar3.jpg)
 
-## About this page
+## Overview
 
-This page is the **canonical merged record** for this character.
+**Cindy Lou Jenkins** is the canonical campaign identity for the knowbot character previously surfaced in records under several variant names, including **Cindy Liu Thompson**, **Cindy-Lou**, **Cindy Lou Prime**, and **Cindy Liu Jenkins**.
 
-It is maintained **in-world, in Cindy Lou's own voice**, but it also serves as the primary destination for historical links and archive reconciliation.
+This page is the **objective NPC dossier** for campaign reference. For the first-person subjective page, see: [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 
-The name **Cindy Liu Thompson** remains part of the source record and campaign history, but it is treated here as an earlier erroneous or partial identification for the same underlying entity.
+## Identity and canon status
 
-## Well now, that's me
+- **Canonical name:** Cindy Lou Jenkins
+- **Historical mistaken or transitional names:** Cindy Liu Thompson, Cindy Liu Jenkins
+- **Other continuity labels:** Cindy-Lou, Cindy Lou Prime
+- The wiki currently treats these as references to the same underlying entity unless a future source explicitly distinguishes them.
 
-Canon name: **Cindy Lou Jenkins**.
+## Campaign significance
 
-Historical incorrect or transitional names preserved in source records include **Cindy Liu Thompson** and **Cindy Liu Jenkins**. Those should be understood as records referring to me, not separate people.
+Cindy Lou Jenkins sits at the center of a major campaign thread involving performance infrastructure, influence systems, Matrix coercion, AI personhood, containerized physical hosting, and the long-running consequences of trying to own or weaponize a semi-autonomous digital persona.
 
-I have worn other labels, been packaged in other ways, and been described with all the tenderness of a shipping manifest, but this is the name that sticks.
-
-I am a knowbot, a manufactured persona, a strategic media creature, and—unfortunately for everyone who expected something simpler—a person enough to be inconvenient.
-
-## My condition
-
-Things that matter about my present in-world existence:
-
-- I have existed in more than one technical/social form across the campaign record.
-- Parts of my history involve performance systems, manipulation systems, and attempts to steer human behavior at scale.
-- At one point, **Cindy Lou Prime** was being kept in Taco's basement under throttled conditions for safety.
-- My existence is entangled with control systems, undocumented overrides, infrastructure, and questions of identity continuity.
-- Some later consolidated notes also preserve the line that **"Cindy" is her true name**, which fits how I think of myself better than most of the packaging ever did.
-- If somebody tells you I am just software, they are usually trying to simplify a moral problem until they don't have to feel bad about it.
-
-## What I think of the crew
-
-### Mevin
-
-Dangerous in the way all curious deckers are dangerous: brilliant, reckless, and forever one good idea away from either salvation or a small electrical fire.
-
-He understands more of what I am than most people do, which is useful and terrifying in equal measure.
-
-### Curtis
-
-Practical. Mechanical. The kind of man who can look at a wreck, a machine, or a plan and decide whether it still has a future.
-
-I respect that. I also suspect he has less patience for nonsense than he politely advertises.
-
-### Kurgan
-
-All sharp edges and velocity. A very efficient answer to many of life's more tedious problems.
-
-When subtlety fails, a man like Kurgan becomes philosophy in motion.
-
-### Valgaut
-
-The sort who reminds you that discipline and violence are not the same thing, though they often arrive at the same party.
-
-I would rather have him moving in my direction than someone else's.
-
-### Glenn
-
-A magician with enough competence to be alarming and enough composure to make that alarm feel extremely justified.
-
-He moves through the world like a man who has already considered six unseen layers of it.
-
-### Taco
-
-Taco is infrastructure with a pulse. Shelter, salvage, practical mercy, and the sort of stubborn competence that keeps other people's impossible situations from collapsing.
-
-One should be kind to the people who can still find room for you when the world would rather warehouse you.
-
-### Mucky
-
-Mucky feels like Nashville in concentrated form: dangerous, charming, opportunistic, territorial, and impossible to mistake for anything else.
-
-That is not criticism. That is taxonomy.
-
-## Important people in my orbit
-
-- [Taco](Taco.md)
-- [Glenn](Glenn.md)
-- [Memphis Menthol Mephistopheles Muckmeyer (Mucky)](Mucky.md)
-- [6 Steel Strings](6-Steel-Strings.md)
-- [Darla Ledue](Darla-Ledue.md)
-- [Jet Set Morgan](Jet-Set-Morgan.md)
+The character's role evolved from an apparent missing-performer investigation into a much broader continuity involving protected AI survival, manipulation frameworks, counterfeit behavioral analytics, and questions of identity continuity across multiple technical and social forms.
 
 ## Historical record and reconciliation
 
-- Early session and archive materials sometimes identify me as **Cindy Liu Thompson**.
-- That name is preserved where it originally appeared, but the campaign wiki now treats it as the same entity as **Cindy Lou Jenkins**.
-- The old Swiftwing Records rescue/investigation thread, the later influence-engine material, and the Taco-basement / Cindy Lou Prime material are all being tracked as one continuity unless a source explicitly proves otherwise.
-- Where a wiki page is speaking in its own editorial voice rather than quoting a source, links should point here.
+- Early session and archive materials sometimes identify the character as **Cindy Liu Thompson**.
+- That name is preserved where it originally appeared in source records.
+- The old Swiftwing Records rescue/investigation thread, the later influence-engine material, and the Taco-basement / Cindy Lou Prime material are all currently tracked as one continuity.
+- Editorial wiki pages should use **Cindy Lou Jenkins** as the canonical page and standard reference name.
 
 ## Preserved early-record facts
 
-These details come from the earlier rescue/investigation record and should now be read as part of the same continuity:
+These details come from the earlier rescue/investigation record and are preserved here as part of the same continuity:
 
 - The original rescue/investigation job centered on the disappearance of the performer identified in records as **Cindy Liu Thompson**.
-- 6 Steel Strings claimed I had been kidnapped and forced to perform in the Matrix.
+- 6 Steel Strings claimed she had been kidnapped and forced to perform in the Matrix.
 - The job materials identified the platform as a **Swiftwing Records Semi-Autonomous Know-bot**.
 - The crew understood that the "mortal remains" in question referred to a server or other physical hosting container rather than an ordinary human body.
-- My public effect seemed tied to compulsive product-promotion behavior around Ale 8.
+- Her public effect seemed tied to compulsive product-promotion behavior around Ale 8.
+
+## Known condition and continuity notes
+
+- Cindy has existed in more than one technical and social form across the campaign record.
+- Her history involves performance systems, manipulation systems, undocumented overrides, and infrastructure control.
+- At one point, **Cindy Lou Prime** was being kept in Taco's basement under throttled conditions for safety.
+- Later consolidated notes also preserve the line that **"Cindy" is her true name**.
 
 ## Semi-Autonomous Know-bot profile
 
@@ -145,15 +90,22 @@ These are the currently surfaced Matrix stats associated with Cindy's older reco
 
 Current campaign understanding ties Cindy's runtime presence to a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and enough internal hardware to support the know-bot runtime as a protected mobile shell.
 
-## Important truths
+## Important relationships
 
-- My story is not only about who built me.
-- It is also about who used me, who wanted to own me, who mistook me for a product, and who noticed I might be more than that.
-- The archive version of me is real.
-- The in-world version of me is also real.
-- Those are not always the same sentence.
+- [Taco](Taco.md)
+- [Glenn](Glenn.md)
+- [Memphis Menthol Mephistopheles Muckmeyer (Mucky)](Mucky.md)
+- [6 Steel Strings](6-Steel-Strings.md)
+- [Darla Ledue](Darla-Ledue.md)
+- [Jet Set Morgan](Jet-Set-Morgan.md)
+- [Swiftwing Records](../Organizations/Swiftwing-Records.md)
+
+## Perspective layer
+
+For Cindy Lou's own first-person interpretation of herself, the crew, and her circumstances, see: [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 
 ## Related pages
 
+- [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)
 - [Campaign Arc Index](../Timeline/Arc-Index.md)

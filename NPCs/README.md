@@ -32,6 +32,7 @@
 - [Kari Wilkerson](Kari-Wilkerson.md)
 - [6 Steel Strings](6-Steel-Strings.md)
 - [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
+- [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Blue Rayven](Blue-Rayven.md)
 - [Skizzix](Skizzix.md)
 - [Imogene Viola](Imogene-Viola.md)
@@ -59,3 +60,4 @@
 - [Campaign arc index](../Timeline/Arc-Index.md)
 - [Previously On recaps](../Recaps/README.md)
 - [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
+- [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
