@@ -15,6 +15,8 @@ sources:
 
 # Taco
 
+![Taco](../assets/images/Taco.png)
+
 ## Overview
 
 Recurring NPC contact who runs a large vehicle repair/salvage operation and is especially important to Curtis.
