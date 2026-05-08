@@ -27,7 +27,7 @@ Active player character and the crew's physical adept.
 - He is a **physical adept**.
 - User/GM-stated current **Magic**: **6**.
 - Key crew tags: **Axe Specialist**, **Dragon Fan**, **Some Formal Education**.
-- He is a former member of the **Mallrats** youth gang.
+- He is associated with **Draco**.
 
 ## Confirmed Adept Powers
 
@@ -43,7 +43,7 @@ Only powers with direct evidence are listed here.
 ## Relationships
 
 - Linked to the crew's front-line physical presence.
-- Linked historically to the **Mallrats**.
+- Linked to **Draco**.
 
 ## Sources
 
