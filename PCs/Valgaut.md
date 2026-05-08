@@ -13,6 +13,8 @@ sources:
 
 # Valgaut
 
+![Valgaut](../assets/images/Valgaut.png)
+
 ## Overview
 
 Active player character and the crew's physical adept.
