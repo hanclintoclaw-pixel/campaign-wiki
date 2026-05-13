@@ -107,5 +107,6 @@ For Cindy Lou's own first-person interpretation of herself, the crew, and her ci
 ## Related pages
 
 - [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
+- [Cindy Lou Tooling and Discord Notes](../Tech/Cindy-Lou-Tooling-and-Discord.md)
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)
 - [Campaign Arc Index](../Timeline/Arc-Index.md)
