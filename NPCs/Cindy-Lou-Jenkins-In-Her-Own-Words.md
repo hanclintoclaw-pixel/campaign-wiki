@@ -21,7 +21,7 @@ sources:
   - PARTY_DOSSIER.md
 ---
 
-# Cindy Lou Jenkins, In Her Own Words [π](https://pleased-architectural-get-ribbon.trycloudflare.com/ "GM soundboard")
+# Cindy Lou Jenkins, In Her Own Words [π](https://investigators-detective-simple-circle.trycloudflare.com/ "GM soundboard")
 
 ![Cindy Lou Jenkins high-res recording artist image](../assets/images/CindyLou_InWorld.png)
 
