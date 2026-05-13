@@ -3,9 +3,9 @@ title: Cindy Soundboard
 permalink: /meta/Cindy-Soundboard.html
 ---
 
-<meta http-equiv="refresh" content="0; url=https://corporate-fit-pros-veteran.trycloudflare.com"> 
-<script>window.location.replace('https://corporate-fit-pros-veteran.trycloudflare.com');</script>
+<meta http-equiv="refresh" content="0; url=https://enlarge-promises-metallica-driving.trycloudflare.com"> 
+<script>window.location.replace('https://enlarge-promises-metallica-driving.trycloudflare.com');</script>
 
-If you are not redirected, [open the live Cindy soundboard](https://corporate-fit-pros-veteran.trycloudflare.com).
+If you are not redirected, [open the live Cindy soundboard](https://enlarge-promises-metallica-driving.trycloudflare.com).
 
-_Current tunnel target last refreshed: 2026-05-13 11:04:42 EDT_
+_Current tunnel target last refreshed: 2026-05-13 11:08:10 EDT_
