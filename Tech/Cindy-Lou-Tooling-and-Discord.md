@@ -125,6 +125,7 @@ For reconstructable implementation detail, use these pages:
 
 - [Cindy Lou Wiki and Tooling Topology](Cindy-Lou-Wiki-and-Tooling-Topology.md)
 - [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md)
+- [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
 
 ## Known limitations
 
@@ -151,4 +152,5 @@ Likely next improvements:
 - [Cindy Lou Jenkins, In Her Own Words](../NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Wiki and Tooling Topology](Cindy-Lou-Wiki-and-Tooling-Topology.md)
 - [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md)
+- [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
 - [Campaign Navigation](../Navigation.md)
