@@ -408,6 +408,325 @@ Examples:
 
 This keeps the expensive / richer reasoning step rare.
 
+## Mature implementation plan (draft)
+
+This is a more production-shaped plan aimed at eventual live deployment, not just experimentation.
+
+### Operational goal
+
+Maintain a trustworthy rolling understanding of session state during live play while keeping Cindy quiet by default and useful when she does speak.
+
+### Success conditions
+
+A good live system should:
+
+- preserve important in-game state across temporary table-talk drift
+- detect real scene pivots quickly
+- avoid duplicate or low-value GM nudges
+- produce pings only when Cindy has a concrete reason to matter
+- make it possible to inspect later **why** a ping fired or did not fire
+
+### Core runtime components
+
+#### 1. Transcript log
+
+Append-only JSONL of normalized utterances.
+
+Responsibilities:
+
+- durable raw record
+- source for replay/debugging
+- event ids for checkpointing
+
+#### 2. Checkpoint manager
+
+Tracks the last processed event and the last successful stable-state update.
+
+Responsibilities:
+
+- delta-only processing
+- resumability after crash/restart
+- separation between transcript ingestion and scene analysis
+
+#### 3. Recent-delta analyzer
+
+Consumes only new transcript lines since the last checkpoint.
+
+Responsibilities:
+
+- extract candidate plan language
+- detect confusion/stall markers
+- detect scene-pivot markers
+- detect Cindy-relevance markers
+- classify recent mode: `in_game`, `mixed`, `table_talk`
+
+This can start heuristic-heavy and become model-assisted later.
+
+#### 4. Stable scratch-pad manager
+
+Owns the persistent in-game scene spine.
+
+Responsibilities:
+
+- preserve current objective, plan, location, threats, hooks
+- require evidence before rewriting stable state
+- track confidence + supporting evidence
+- prevent casual chatter from wiping important state
+
+#### 5. Transition gate
+
+Decides whether recent evidence is strong enough to modify the stable scratch pad.
+
+Suggested gate inputs:
+
+- new location/target established
+- initiative/combat start or end
+- explicit plan commitment
+- newly interactive NPC/host/system
+- repeated reinforcement across several utterances
+- strong contradiction with previous state
+
+#### 6. Ping decision layer
+
+Reads the stable scratch pad and recent-delta buffer together.
+
+Responsibilities:
+
+- decide between `silent`, `draft_ready`, and `ping_now`
+- require nontrivial evidence for a visible GM ping
+- apply cooldown and de-duplication
+- ensure name mention alone never fires a ping
+
+#### 7. Ping composer
+
+Builds the actual GM-facing nudge only after the ping decision layer approves it.
+
+Responsibilities:
+
+- produce short reasoned message
+- optionally draft Cindy line / voice payload
+- record why that wording was chosen
+
+### Recommended state files
+
+#### `transcript.jsonl`
+
+Raw utterances.
+
+#### `checkpoint.json`
+
+Operational pointers.
+
+Suggested fields:
+
+- `last_event_id`
+- `last_analyzed_at`
+- `last_stable_update_at`
+- `last_ping_at`
+- `last_ping_reason`
+
+#### `recent-delta.json`
+
+Short-lived current-window analysis.
+
+Suggested fields:
+
+- recent utterance ids
+- recent speakers
+- mode classification
+- candidate scene-pivot markers
+- candidate plan markers
+- candidate confusion markers
+- candidate Cindy-relevance markers
+- window confidence
+
+#### `scene-scratchpad.json`
+
+Stable in-game scene memory.
+
+Suggested fields:
+
+- `scene_id`
+- `scene_label`
+- `location`
+- `current_goal`
+- `current_plan`
+- `known_threats`
+- `open_questions`
+- `matrix_hooks`
+- `active_entities`
+- `supporting_evidence`
+- `field_confidence`
+- `last_in_game_update_at`
+
+#### `pings.jsonl`
+
+Audit trail for outward nudges.
+
+Suggested fields:
+
+- timestamp
+- scene id
+- reason class
+- evidence ids
+- visible message
+- Cindy draft line if any
+- delivery result
+
+### Update cadence
+
+Suggested default cycle:
+
+- transcript ingestion: continuous / append-only
+- recent-delta analysis: every 20-60 seconds depending on activity
+- stable scratch-pad update: only when transition gate passes
+- ping evaluation: after each recent-delta analysis pass
+
+The important point is that not every cycle should rewrite stable scene state.
+
+### Decision ladder
+
+Use a three-step decision ladder instead of boolean yes/no.
+
+#### `silent`
+
+No meaningful Cindy action.
+Update logs, keep watching.
+
+#### `draft_ready`
+
+Cindy probably has an angle, but the situation does not yet justify interrupting the GM.
+Store a candidate reason/line without sending it.
+
+#### `ping_now`
+
+There is a concrete, evidence-backed reason to interrupt.
+Send a concise GM ping.
+
+This is probably the single best structural change for reducing false positives.
+
+### Field overwrite policy
+
+Suggested defaults:
+
+- `location`: very sticky
+- `scene_label`: sticky
+- `current_goal`: sticky
+- `current_plan`: medium stickiness
+- `open_questions`: additive/replace by confidence
+- `matrix_hooks`: additive
+- `active_entities`: additive with aging
+- `active_speakers`: fast-changing
+- `recent_evidence`: rotating window
+
+### Mode-classification policy
+
+The mode classifier should explicitly separate:
+
+- `in_game`
+- `mixed`
+- `table_talk`
+- `post_session_debrief`
+
+Suggested behavior:
+
+- `in_game`: full analysis allowed
+- `mixed`: update recent-delta; stable scratch pad only on strong evidence
+- `table_talk`: do not rewrite stable scratch pad
+- `post_session_debrief`: preserve the final in-game scene and start a separate debrief summary track
+
+### Ping policy (mature form)
+
+Visible GM ping requires all of:
+
+- Cindy relevance is genuinely high
+- the scene is `in_game` or strongly `mixed`
+- a concrete reason class exists
+- no recent duplicate ping on the same reason class
+- the message is more specific than "Cindy may have a useful opening"
+
+Suggested reason classes:
+
+- `matrix_plan_dependency`
+- `technical_stall`
+- `blind_spot`
+- `host_or_security_opening`
+- `explicit_cindy_relevance`
+- `scene_pivot_into_cindy_lane`
+
+### Anti-spam controls
+
+Recommended controls:
+
+- cooldown per reason class
+- cooldown per scene id
+- require stronger evidence for repeated pings in the same scene
+- suppress mention-only triggers entirely
+- suppress low-specificity messages
+
+### Observability and review
+
+To tune this sanely, every cycle should leave enough evidence to inspect later.
+
+Recommended logging:
+
+- why mode was classified the way it was
+- whether the transition gate passed or failed
+- what fields were updated and why
+- why a ping was suppressed
+- why a ping was emitted
+
+That turns tuning from vibes into evidence.
+
+### Staged rollout plan
+
+#### Phase 0: audit mode
+
+- no visible pings
+- produce transcript, recent-delta, scratch-pad, and candidate ping logs only
+- compare candidate pings against human judgment after sessions
+
+#### Phase 1: draft-only mode
+
+- still no autonomous visible pings
+- produce `draft_ready` outputs in the GM thread or an internal log for review
+- tune reason classes, transition gates, and cooldowns
+
+#### Phase 2: conservative live mode
+
+- allow autonomous visible GM pings only for strongest reason classes
+- long cooldowns
+- no mention-only behavior
+- require concrete message specificity
+
+#### Phase 3: broadened live mode
+
+- allow more reason classes after false-positive rate drops
+- keep audit trail and post-session review loop
+
+### Go-live checklist
+
+Before turning this on live, confirm:
+
+- stable scratch pad survives table-talk without corruption
+- scene transitions are detected reliably across at least several sessions
+- mention-only pings are fully suppressed
+- duplicate pings in one scene are rare
+- every visible ping has a reviewable evidence trail
+- final session state remains usable even after post-session chatter
+
+### Practical implementation order
+
+1. Add `recent-delta.json`
+2. Add `scene-scratchpad.json`
+3. Add mode classifier
+4. Add transition gate
+5. Add `silent / draft_ready / ping_now`
+6. Add reason classes + anti-spam logic
+7. Run audit mode on several sessions
+8. Tune using post-session miss review
+9. Enable conservative live mode
+
 ## MVP implementation plan
 
 ### Phase 1: logging + checkpointing
