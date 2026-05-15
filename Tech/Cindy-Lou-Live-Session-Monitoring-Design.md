@@ -3,11 +3,57 @@ title: Cindy Lou Live Session Monitoring Design
 type: tech-note
 visibility: player-safe
 status: draft
-updated: 2026-05-13
+updated: 2026-05-15
 tags: [cindy, discord, voice, monitoring, design]
 ---
 
 # Cindy Lou Live Session Monitoring Design
+
+## Version notes - 2026-05-15 live monitor rollout draft
+
+This document now reflects the new live-monitor architecture drafted for deployment and partially wired into the active Discord voice bridge runtime.
+
+### Runtime implementation target
+
+Active runtime code path:
+
+- `/Users/hanclaw/claw/projects/discord_voice_patch/voice_chat.py`
+
+### Version-control / deployment notes
+
+- Wiki design draft expanded and pushed through these repo commits:
+  - `92cb5fe` - refine live-session ping rules
+  - `cabbe18` - add layered scratch-pad design for state drift
+  - `c6f4855` - draft mature live scene-analysis rollout plan
+- Live runtime code was updated in-place in `voice_chat.py` on `2026-05-15`.
+- Safety backup created before live edit:
+  - `/Users/hanclaw/claw/projects/discord_voice_patch/voice_chat.py.bak.20260515-101444`
+
+### New features in this version
+
+- added `recent-delta.json` as a short-horizon noisy analysis buffer
+- added `scene-scratchpad.json` as a persistent stable scene-memory layer
+- added explicit mode classification:
+  - `in_game`
+  - `mixed`
+  - `table_talk`
+- added a transition gate so casual chatter does not automatically rewrite stable scene state
+- added mention-only suppression so Cindy name mention by itself does **not** trigger a GM ping
+- added richer ping reasoning with reason classes and a `silent / draft_ready / ping_now` ladder
+- expanded ping audit details so later review can show why a ping fired
+
+### Behavior change summary
+
+Old behavior leaned too hard on the newest transcript window.
+That meant direct name mentions and casual drift could distort state or produce low-value ping pressure.
+
+New behavior separates:
+
+- what the scene still is (`scene-scratchpad.json`)
+- what just changed (`recent-delta.json`)
+- whether recent talk is allowed to rewrite stable state (mode classifier + transition gate)
+
+That is the core change for reducing state drift and table-talk corruption.
 
 ## Purpose
 
