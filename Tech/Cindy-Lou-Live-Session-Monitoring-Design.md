@@ -136,6 +136,135 @@ Example path:
 
 This prevents repeated nudges about the same issue.
 
+## State-drift and table-talk mitigation
+
+A single rolling summary is too fragile.
+If casual banter arrives after a meaningful tactical scene, a naive updater can overwrite good state with junk.
+
+A better design is a **layered rolling scene model** with a persistent scratch pad:
+
+### Layer 1: stable scene scratch pad
+
+Keep a durable file that preserves the last strongly-supported in-game state.
+This should only change when the system has positive evidence that the scene has materially advanced.
+
+Example path:
+
+- `/Volumes/carbonite/claw/data/cindylou/runtime/live-session/scene-scratchpad.json`
+
+Suggested contents:
+
+- current in-game scene label
+- current location / site
+- current objective
+- current plan
+- known threats
+- open tactical questions
+- matrix hooks
+- active NPC / system actors
+- evidence supporting the current scene frame
+- confidence score for each field
+- `last_in_game_update_at`
+
+This file is the anchor. Casual chatter should not overwrite it unless the model is confident the table has actually pivoted.
+
+### Layer 2: volatile recent-delta buffer
+
+Keep a short-horizon buffer of the last N meaningful transcript events or last few minutes of speech.
+This layer is allowed to be noisy.
+Its job is to capture what is happening **right now** without destroying the stable state.
+
+Example path:
+
+- `/Volumes/carbonite/claw/data/cindylou/runtime/live-session/recent-delta.json`
+
+Suggested contents:
+
+- recent transcript snippets
+- speakers active in the last window
+- candidate new plan language
+- candidate confusion/stall markers
+- candidate scene-pivot markers
+- candidate Cindy-relevance markers
+- estimated mode: `in_game`, `mixed`, or `table_talk`
+
+### Layer 3: table-talk / banter detector
+
+Instead of treating table-talk as a bad summary, treat it as a separate mode classification.
+The system should explicitly ask:
+
+- is this in-character or tactical play?
+- is this logistics / jokes / device talk / side chatter?
+- is this a transition between the two?
+
+If the answer is `table_talk`, the updater should usually:
+
+- preserve the stable scratch pad unchanged
+- update only the recent-delta buffer
+- lower urgency for new pings
+- avoid resetting current plan/current goal
+
+### Layer 4: scene transition gate
+
+The stable scratch pad should only update when a transition gate is met.
+For example, require two or more of:
+
+- a new goal is stated clearly
+- the party physically changes location / target
+- initiative / combat begins or ends
+- a new system/NPC/host starts directly interacting with the crew
+- the table converges on a new plan
+- multiple recent lines reinforce the same pivot
+
+This prevents one stray line of banter from redefining the whole scene.
+
+### Layer 5: field-level overwrite rules
+
+Not every field should update equally fast.
+
+Example policy:
+
+- `current_plan`: medium stickiness
+- `current_goal`: high stickiness
+- `location`: very high stickiness
+- `open_questions`: medium stickiness
+- `matrix_hooks`: additive rather than replace-on-write
+- `active_speakers`: fast-changing
+- `scene_label`: only update on transition gate
+
+That lets the system absorb chatter without losing the mission spine.
+
+### Layer 6: confidence + decay
+
+Every important field should have:
+
+- confidence
+- last-supported timestamp
+- last-evidence snippet ids
+
+If no new in-game support arrives for a while, confidence may decay slowly, but the field should not instantly collapse into `table-talk`.
+
+### Layer 7: ping decision reads from both layers
+
+A GM ping decision should not read only the last few lines.
+It should combine:
+
+- the stable scratch pad (what scene are we actually in?)
+- the recent-delta buffer (what just happened?)
+- the mode classifier (`in_game`, `mixed`, `table_talk`)
+
+That means a Cindy mention during table-talk does almost nothing, while the same mention during an unresolved matrix-planning beat carries real weight.
+
+### Practical rule of thumb
+
+Think of the system as:
+
+- **scratch pad = what the scene still is**
+- **recent delta = what just changed**
+- **mode classifier = whether the new speech deserves to rewrite the scratch pad**
+
+That separation is probably the cleanest fix for state drift.
+
 ## Scene-state schema (first draft)
 
 A practical first-pass scene-state object could contain:
