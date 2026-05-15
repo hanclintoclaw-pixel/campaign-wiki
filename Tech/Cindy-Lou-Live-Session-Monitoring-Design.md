@@ -55,6 +55,35 @@ New behavior separates:
 
 That is the core change for reducing state drift and table-talk corruption.
 
+### Replay validation and tuning notes (2026-05-15)
+
+A replay test was run against the 2026-05-14 live transcript to estimate what the new monitor would have done in real time.
+
+Artifacts:
+
+- `/Volumes/carbonite/claw/data/cindylou/runtime/live-session/replays/session-state-replay-2026-05-14-session-window.json`
+- `/Volumes/carbonite/claw/data/cindylou/runtime/live-session/replays/session-state-replay-2026-05-14-session-window-v2.json`
+
+Observed results:
+
+- first replay pass produced **14 would-be pings**
+- mention-only suppression worked, but `host_or_security_opening` and `technical_stall` were still too noisy
+- tuned replay pass produced **4 would-be pings** on the same session window
+
+Tuning changes applied after replay:
+
+- removed overly broad weak matrix matching on the generic token `security`
+- tightened `host_or_security_opening` to require stronger corroboration
+- tightened `technical_stall` to require stronger corroboration
+- kept `explicit_cindy_relevance` and `matrix_plan_dependency` as the main paths to `ping_now`
+- left weaker signals biased toward suppression instead of interruption
+
+Interpretation:
+
+- the new architecture appears to solve the direct mention-only problem
+- the first heuristic pass was still too chatty
+- the tuned pass looks materially closer to a usable live posture, though still subject to future session review
+
 ## Purpose
 
 This page describes a proposed system that would let Cindy Lou Jenkins track live session flow from local voice transcriptions, maintain scene awareness efficiently, and decide when to nudge the GM during major planning or scene beats.
