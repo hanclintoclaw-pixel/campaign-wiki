@@ -199,7 +199,6 @@ Before invoking a local LLM, run cheap tests over the new transcript delta.
 
 Good first triggers:
 
-- Cindy mentioned by name
 - matrix / decking / host / trace / comms language appears
 - strong planning language appears:
   - “plan”
@@ -210,6 +209,9 @@ Good first triggers:
 - players stall on a decision
 - a scene pivot or mission-shift occurs
 - someone asks for technical support, intel, or system access
+- Cindy is mentioned by name **and** another scene-state indicator suggests she has a concrete opening
+
+A direct name mention by itself should **not** create a GM ping. At most, it should raise Cindy's relevance score or queue a closer scene-state check.
 
 If none of those triggers fire, Cindy can usually skip summarization entirely for that cycle.
 
@@ -234,11 +236,13 @@ Cindy should not ping constantly.
 
 A ping should happen only when one of these is true:
 
-- Cindy was directly invoked and the table moved on without resolution
 - a major planning beat depends on matrix/legwork Cindy is suited for
 - the table is stuck and Cindy could unblock it
 - a contradiction or blind spot emerged that Cindy would naturally catch
 - a major scene pivot happened and Cindy now has a strong tactical opening
+- Cindy was mentioned by name **and** the scene state independently shows unresolved relevance
+
+Direct invocation alone is insufficient. The system should behave as though Cindy is already passively aware of the session; mention only matters if it coincides with a real reason to intervene.
 
 ## Ping style
 
