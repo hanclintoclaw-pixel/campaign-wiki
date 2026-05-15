@@ -186,6 +186,12 @@ If the in-world date is not currently confirmed, it is marked plainly as **unkno
 - **Summary:** The crew tailed Jet Set Morgan and discovered that an unknown second drone was also surveilling him.
 - **Session page:** [2026-04-09](../Sessions/2026-04-09.md)
 
+### 612 Wharf warehouse / hidden Core 7 site
+- **Played:** 2026-04-30 through 2026-05-14
+- **In-world:** 2066-05-01
+- **Summary:** The Darla/Bebop influence investigation escalated from tainted promotional food and warehouse surveillance into direct contact with a concealed second site behind 612 Wharf Avenue. The runners discovered heavy hidden matrix/power infrastructure, a rock-lobster-piloted combat drone, cybered hurricane seals, and an automated controller calling itself Core 7, strongly suggesting a second influence-engine node buried beneath the visible counterfeit-goods operation.
+- **Session pages:** [2026-04-30](../Sessions/2026-04-30.md), [2026-05-07](../Sessions/2026-05-07.md), [2026-05-14](../Sessions/2026-05-14.md)
+
 ## Current Known In-World Anchor
 
 - **Known current campaign year:** 2066
