@@ -1,5 +1,7 @@
 # Sessions
 
+> Mixed-date warning: some session page slugs are **real-world played dates** and some are **in-world Shadowrun dates**. For the reconciled two-column chronology, use [Timeline / Session Chronology](../Timeline/Session-Chronology.md).
+
 - [Session 2022-08-11](2022-08-11.md)
 - [Session 2023-01-28](2023-01-28.md)
 - [Session 2023-03-20](2023-03-20.md)

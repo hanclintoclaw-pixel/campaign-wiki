@@ -1,0 +1,114 @@
+---
+title: Session Chronology
+type: timeline
+visibility: player-safe
+updated: 2026-05-17
+---
+
+# Session Chronology
+
+This page separates the two date systems now in use in the campaign wiki:
+
+- **Played date** = the real-world session date. Any year earlier than **2027** belongs here.
+- **In-world date** = the Shadowrun-fiction timeline date. Any year **2050 or later** belongs here.
+
+## Construction rules
+
+- Public session pages created from typed digital notes usually use the **played date** as the page slug.
+- Public session pages created from scanned handwritten notes usually use the **in-world date** as the page slug.
+- That means the filename alone is **not** enough to tell you which date system you are looking at.
+- When a date is still unknown but the session can be placed between two anchored sessions, this page assigns a **placeholder** date so the chronology stays sortable.
+- Placeholder dates are editorial scaffolding, not canon. They should be replaced when better evidence turns up.
+
+## Master session order
+
+Ordered by **played date**. The in-world column carries either a source date or a sortable placeholder.
+
+| # | Session | Played date | In-world date | Status | Notes |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [Session 2061-11-14](../Sessions/2061-11-14.md) | 2021-12-23 | 2061-11-14 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 2 | [Session 2061-12-17](../Sessions/2061-12-17.md) | 2021-12-30 | 2061-12-17 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 3 | [Session 2062-01-20](../Sessions/2062-01-20.md) | 2022-01-06 | 2062-01-20 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 4 | [Session 2062-02-02](../Sessions/2062-02-02.md) | 2022-01-13 | 2062-02-02 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 5 | [Session 2062-02-08](../Sessions/2062-02-08.md) | 2022-01-20 | 2062-02-08 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 6 | [Session 2062-05-05](../Sessions/2062-05-05.md) | 2022-01-27 | 2062-05-05 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 7 | [Session 2062-05-18](../Sessions/2062-05-18.md) | 2022-02-03 | 2062-05-18 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 8 | [Session 2062-06-01](../Sessions/2062-06-01.md) | 2022-02-10 | 2062-06-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 9 | [Session 2062-11-01](../Sessions/2062-11-01.md) | 2022-02-17 | 2062-11-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 10 | [Session 2062-12-01](../Sessions/2062-12-01.md) | 2022-02-24 | 2062-12-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 11 | [Session 2064-02-15](../Sessions/2064-02-15.md) | 2022-03-03 | 2064-02-15 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 12 | [Session 2064-03-01](../Sessions/2064-03-01.md) | 2022-03-10 | 2064-03-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 13 | [Session 2064-03-02](../Sessions/2064-03-02.md) | 2022-03-17 | 2064-03-02 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 14 | [Session 2064-03-08](../Sessions/2064-03-08.md) | 2022-03-24 | 2064-03-08 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 15 | [Session 2064-03-18](../Sessions/2064-03-18.md) | 2022-03-31 | 2064-03-18 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 16 | [Session 2064-03-23](../Sessions/2064-03-23.md) | 2022-04-07 | 2064-03-23 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 17 | [Session 2064-04-14](../Sessions/2064-04-14.md) | 2022-04-14 | 2064-04-14 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 18 | [Session 2064-04-17](../Sessions/2064-04-17.md) | 2022-04-21 | 2064-04-17 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 19 | [Session 2064-04-20](../Sessions/2064-04-20.md) | 2022-04-28 | 2064-04-20 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 20 | [Session 2064-05-03](../Sessions/2064-05-03.md) | 2022-05-05 | 2064-05-03 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 21 | [Session 2064-07-13](../Sessions/2064-07-13.md) | 2022-05-12 | 2064-07-13 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 22 | [Session 2064-07-28](../Sessions/2064-07-28.md) | 2022-05-19 | 2064-07-28 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 23 | [Session 2064-08-02](../Sessions/2064-08-02.md) | 2022-05-26 | 2064-08-02 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 24 | [Session 2064-08-15](../Sessions/2064-08-15.md) | 2022-06-02 | 2064-08-15 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 25 | [Session 2064-09-12](../Sessions/2064-09-12.md) | 2022-06-09 | 2064-09-12 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 26 | [Session 2065-03-04](../Sessions/2065-03-04.md) | 2022-06-16 | 2065-03-04 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 27 | [Session 2065-03-21](../Sessions/2065-03-21.md) | 2022-06-23 | 2065-03-21 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 28 | [Session 2065-04-08](../Sessions/2065-04-08.md) | 2022-06-30 | 2065-04-08 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 29 | [Session 2065-05-01](../Sessions/2065-05-01.md) | 2022-07-07 | 2065-05-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 30 | [Session 2065-06-16](../Sessions/2065-06-16.md) | 2022-07-14 | 2065-06-16 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 31 | [Session 2065-07-01](../Sessions/2065-07-01.md) | 2022-07-21 | 2065-07-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 32 | [Session 2065-09-01](../Sessions/2065-09-01.md) | 2022-07-28 | 2065-09-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 33 | [Session 2022-08-11](../Sessions/2022-08-11.md) | 2022-08-11 | 2065-09-11 | in-world placeholder | The crew investigated leaks from the Gladwell Institute rehab facility and narrowed suspicion onto security chief **Eugene Booker**, while uncovering hints that he might be frightened, manipulated, or set up rather than acting alone. |
+| 34 | [Session 2023-01-28](../Sessions/2023-01-28.md) | 2023-01-28 | 2065-09-18 | in-world placeholder | The crew took a grim retrieval job involving missing employee **Genevieve Watson** and uncovered evidence that she had been secretly fitted with surveillance cyberware for covert recording and data extraction. |
+| 35 | [Session 2023-03-20](../Sessions/2023-03-20.md) | 2023-03-20 | 2065-09-25 | in-world placeholder | The crew pursued the Cindy lead by investigating her concert/NFT ecosystem, following the hardware trail to **Blue Rayven**, and confirming that someone had bought the matrix infrastructure needed to house her. |
+| 36 | [Session 2023-03-23](../Sessions/2023-03-23.md) | 2023-03-23 | 2065-10-02 | in-world placeholder | The crew was hired to protect a peace meeting between two rival gun-running gangs: the Interstate Connection and the Ironblood Orphans. |
+| 37 | [Session 2023-04-06](../Sessions/2023-04-06.md) | 2023-04-06 | 2065-10-09 | in-world placeholder | A new contact called **6 Steel Strings** hired the crew to investigate the disappearance of **Cindy Liu Thompson**, an AI/knowbot performer associated with Swiftwing Records. |
+| 38 | [Session 2023-04-27](../Sessions/2023-04-27.md) | 2023-04-27 | 2065-10-16 | in-world placeholder | The crew learned that a go-gang had stolen Cindy-Lou and taken her to **Murphysborough**, then positioned themselves socially with that gang by leaning on their earlier road-race association. |
+| 39 | [Session 2023-05-11](../Sessions/2023-05-11.md) | 2023-05-11 | 2065-10-23 | in-world placeholder | Kari Wilkerson of the Draco Foundation hired the crew to recover extremely dangerous toxic magical biomaterial before it could spread, be sold, or be weaponized. |
+| 40 | [Session 2023-05-18](../Sessions/2023-05-18.md) | 2023-05-18 | 2065-10-30 | in-world placeholder | The crew continued the toxic egg / magical biomaterial investigation, learned more about the eggshells' draconic and toxic nature, and traced the clue chain through street contacts and an old man with a shrine to the mayor. |
+| 41 | [Session 2023-06-08](../Sessions/2023-06-08.md) | 2023-06-08 | 2065-11-06 | in-world placeholder | The crew continued unraveling the dragon-egg mystery, discovered a tracker hidden in their bucket, and gathered more background about the old man who had found the giant egg in the woods. |
+| 42 | Session 2023-06-15 (note only) | 2023-06-15 | 2065-11-13 | in-world placeholder | Attendance-only surviving note; kept in chronology but no standalone recap page. |
+| 43 | [Session 2023-07-06](../Sessions/2023-07-06.md) | 2023-07-06 | 2065-11-20 | in-world placeholder | The toxic egg / nest arc escalated into stranger territory as the crew dealt with dragon eggs, a half-dragon/human hybrid emerging from a broken egg, and the broader implications of a nest connected to Ghostwalker. |
+| 44 | [Session 2023-07-27](../Sessions/2023-07-27.md) | 2023-07-27 | 2065-11-27 | in-world placeholder | The campaign's background political tension continued to rise as the standoff between the federal government and Nashville intensified. |
+| 45 | [Session 2023-09-21](../Sessions/2023-09-21.md) | 2023-09-21 | 2065-12-04 | in-world placeholder | After the retreat of the federal airship, the crew helped defend Dr. Gallstone's veterinary practice during a curfew riot inside an arcoblock and managed crowd control through intimidation, improvisation, and spectacle. |
+| 46 | [Session 2023-10-05](../Sessions/2023-10-05.md) | 2023-10-05 | 2065-12-11 | in-world placeholder | Mevin secured a satellite transceiver that would allow Matrix access from effectively anywhere by bouncing signal through satellite relay. |
+| 47 | [Session 2023-10-26](../Sessions/2023-10-26.md) | 2023-10-26 | 2065-12-18 | in-world placeholder | The crew investigated the disappearance of musician **Ansen Moscow** and traced him to a magically-active penthouse environment connected to a suspicious law firm. |
+| 48 | [Session 2023-11-09](../Sessions/2023-11-09.md) | 2023-11-09 | 2065-12-25 | in-world placeholder | After finishing a creativity-theft scam run, the crew took a job to shut down the Pie-town Happening, a magically-charged street fair protected by the Uruk Hai and linked to skooma distribution. |
+| 49 | [Session 2023-11-30](../Sessions/2023-11-30.md) | 2023-11-30 | 2066-01-01 | in-world placeholder | The crew took a corporate-linked job to shut down a counterfeit Stuffer Shack operation and quickly realized its customer-analysis/output pattern resembled the old Cindy Liu Jenkins influence-engine behavior. |
+| 50 | [Session 2023-12-21](../Sessions/2023-12-21.md) | 2023-12-21 | 2066-01-08 | in-world placeholder | The counterfeit Stuffer Shack investigation deepened into cult behavior, heavy surveillance, and insect-spirit chitin being processed into a drug/high. |
+| 51 | [Session 2024-01-04](../Sessions/2024-01-04.md) | 2024-01-04 | 2066-01-15 | in-world placeholder | The crew learned the hunting lodge had been infiltrated and that captives were being used to summon insect spirits, which were then ground into burger meat. |
+| 52 | Session 2024-01-25 (note only) | 2024-01-25 | 2066-01-22 | in-world placeholder | Character-tech / Vanessa build notes; kept in chronology but not a standalone recap page. |
+| 53 | [Session 2024-02-01](../Sessions/2024-02-01.md) | 2024-02-01 | 2066-01-29 | in-world placeholder | The crew took a recovery job from Cross Applied Technology after a clumsy impersonation crew stole high-end DNA sequencing and cloning equipment, and Mevin discovered that 6 Steel Strings was behind the imitation. |
+| 54 | [Session 2024-02-08](../Sessions/2024-02-08.md) | 2024-02-08 | 2066-02-05 | in-world placeholder | The crew identified **Skizzix** as the ork impersonator and considered a counter-con built around impersonating **6 Steel Strings** in return. |
+| 55 | [Session 2024-06-06](../Sessions/2024-06-06.md) | 2024-06-06 | 2066-02-12 | in-world placeholder | With Cindy Lou Prime hidden in Taco's basement and partially throttled, the crew navigated the Road Reapers scene, the bounty on Mucky, and the fallout from Cindy Lou 2.0's destruction. |
+| 56 | [Session 2024-07-11](../Sessions/2024-07-11.md) | 2024-07-11 | 2066-02-19 | in-world placeholder | The crew followed up on Mucky's lead against an out-of-town criminal operation and began navigating the Road Reapers power struggle around **Razor Jake** and **Alanzo Sparks** after Jerry-Can Jerry's death. |
+| 57 | [Session 2024-09-26](../Sessions/2024-09-26.md) | 2024-09-26 | 2066-02-26 | in-world placeholder | A heavily chromed elf hired the crew to verify and then secure an allegedly abandoned pre-collapse mall that was actually occupied, setting up a confrontation involving Steelback interests and local inhabitants. |
+| 58 | [Session 2024-10-03](../Sessions/2024-10-03.md) | 2024-10-03 | 2066-03-05 | in-world placeholder | The mall job sharpened into a factional picture involving **Steel Backs**, **Mall Rats**, and **Vox Populi**, with the site's importance tied to physical infrastructure and hacker activity. |
+| 59 | [Session 2026-03-13](../Sessions/2026-03-13.md) | 2026-03-13 | 2066-03-12 | in-world placeholder | The crew's Mayoral Race / insect-spirit infiltration job moved from planning into active confrontation around the threat figures Illwoody and McGillicuddy. |
+| 60 | [Session 2026-03-19](../Sessions/2026-03-19.md) | 2026-03-19 | 2066-03-19 | in-world placeholder | The Mayoral Race / insect-spirit arc entered aftermath and containment mode after decisive operations against the core threat cluster. |
+| 61 | [Session 2026-03-26](../Sessions/2026-03-26.md) | 2026-03-26 | 2066-03-26 | in-world placeholder | The crew interrogated a low-level videographer/contractor tied to Darla-related footage and learned that he was being anonymously directed over an encrypted satellite-linked Matrix connection. |
+| 62 | [Session 2026-04-02](../Sessions/2026-04-02.md) | 2026-04-02 | 2066-04-02 | in-world placeholder | The crew re-centered the Darla investigation around the stolen master recordings, the SC Music executive angle routed through Ivan, and the decision to investigate Darla's upscale corporate-owned penthouse apartment / recording studio. |
+| 63 | [Session 2026-04-09](../Sessions/2026-04-09.md) | 2026-04-09 | 2066-04-09 | in-world placeholder | The crew maintained surveillance on Jet Set Morgan and discovered that another unknown drone was also following him. |
+| 64 | [Session 2026-04-30](../Sessions/2026-04-30.md) | 2026-04-30 | 2066-05-01 | source-anchored | The crew followed up on their capture of Jet Set Morgan. The street hustler was revealed to be a gig-economy stooge working for the same employer who had previously tasked the Street Promoter/Gargoyle with recording and distributing footage of Darla Ledoux. Analysis of Morgan's van revealed a second satellite receiver, while examination of his cyberterminal showed it had been root-kitted in a way that let this employer exert deep control over Morgan's life. Pursuing that lead, the crew tracked down another member of the same meat-drone network and gathered information suggesting that Cindy Lou may be the copy rather than the newly encountered SA-Knowbot. During that follow-up, the team received counterfeit Augmented Beef and Bacon Social Club vending snacks. Valgaut's Magical Sense indicated the food was adulterated with unknown magical creature matter, and Kurgan found the name "Mother Yahweh" written on one of the boxes. |
+| 65 | [Session 2026-05-07](../Sessions/2026-05-07.md) | 2026-05-07 | 2066-05-01 | source-anchored | The crew opened by recapping the expanding Darla-led influence operation. The major actionable leads from the prior investigation were confirmed as a central warehouse used to receive and redistribute tainted promo goods, plus the still-unresolved name Mother Yahweh. The team also kept the original SC Music objective in view: identifying who actually stole Cindy Lou’s master recordings, even as the snack-distribution conspiracy kept widening. Pursuing the contaminated-goods angle, the runners examined the persuasion mechanism more closely. The adulterated Meatlets appeared to act like one half of a binary poison: eating them increased suggestibility, which then let a separate subliminal audio/message source steer behavior. Valgaut failed a willpower check and briefly developed an urge to deliver tuna to 612 Wharf Avenue, plus a bizarre but memorable fixation on aquatic-animal voting rights, confirming that the influence pipeline could push targeted actions without obvious overt magic. That address led the team to a run-down warehouse site. From surveillance and distant observation, they identified Ace Freelits gangers doing manual labor, boxing and shipping counterfeit Bebop Cola and Meatlets, and preparing to cover Mingus posters with new Bebop Cola posters for the upcoming Darla-Doo release. The building appeared to be drawing heavy power, likely from a diesel generator rather than city lines, and at least twenty surveillance drones were seen returning to a roof charging station. The session ended with the crew debating whether to wait out departing workers or risk approaching a site that could still cover its roofline with shotgun fire. |
+| 66 | [Session 2026-05-14](../Sessions/2026-05-14.md) | 2026-05-14 | 2066-05-01 | source-anchored | Picking up immediately from the prior warehouse stakeout at **612 Wharf Avenue**, the crew chose not to breach the warehouse proper. Instead, they followed a newly noticed heavy power-and-data cable running out the back of the building into the woods, suspecting it might lead to the real signal source behind the tainted-promo influence operation. That decision paid off fast. The runners discovered the cable was an obvious aftermarket addition carrying both substantial power and high-bandwidth matrix traffic into a hidden industrial structure buried in an overgrown gully beyond the warehouse. On the way in, they confirmed the warehouse itself still housed multiple magical signatures, strange electrical/animal noises, and at least one awakened **hurricane seal** tied to the site. The concealed structure proved far stranger than expected. After Kurgan's scouting drew attention, an obsolete but still dangerous military bipedal combat drone emerged from the hidden site and attacked. The team survived the ambush, and Valgaut chopped the drone apart. Inspection of the wreck revealed that the platform was not conventionally piloted at all: its control system had been wired through the body of an awakened **rock lobster**, suggesting grotesque bio-mechanical experimentation with awakened aquatic life. Pressing forward, the crew reached the concealed installation itself and made first contact with an ancient-seeming automated controller calling itself **Core 7, host process, Master System Controller for Site 7**. Core 7 appeared as a stylized holographic matrix icon and treated the team not as intruders but as possible delivery staff, instructing them to deposit "salmon" in a repository and promising credit plus bonuses for additional deliveries of salmon, tuna, or other naturally farmed fish for "final reclamation." From the visible hardware and matrix architecture, the team concluded this hidden site is likely running a **second influence engine** closely analogous to Cindy Lou's underlying host infrastructure. The iconography also appears to connect back to the poster/imagery layer already seen in the broader Darla/Bebop operation. The session ended with the crew at the threshold of the hidden site, facing three cybernetically altered hurricane seals, sensing at least one more magical presence beyond the door, and realizing that the warehouse was only the surface layer of a much stranger buried operation. |
+
+## Read this sequence in plain English
+
+1. The **handwritten scanned sessions** belong at the beginning of the campaign. Their in-world dates are source-anchored, and their played dates are temporary placeholders placed before the first typed 2022 session.
+2. The **2022-2024 typed sessions** have reliable played dates, but most still lack canon in-world dates. Their in-world placeholders currently bridge the gap between **2065-09-01** and the confirmed **2066** modern arc.
+3. The **2026 spring sessions** now sit in the same structure: real played dates on one axis, in-world placeholder dates on the other until exact campaign-day evidence is recovered.
+4. The **612 Wharf / Core 7** arc is the first currently confirmed hard modern in-world anchor at **2066-05-01**.
+
+## Gaps and caveats
+
+- [Session 2023-06-15](../Sessions/ARCHIVE_TRIAGE.md) survives only as an attendance-only archive fragment, so it remains chronology-only for now.
+- [Session 2024-01-25](../Sessions/ARCHIVE_TRIAGE.md) survives mainly as Vanessa build / tech notes, so it also remains chronology-only for now.
+- Some modern 2066 pages still need exact in-world day recovery from raw notes and recaps.
+
+## Related pages
+
+- [Campaign Timeline overview](index.md)
+- [Session index](../Sessions/README.md)
+- [Campaign Arc Index](Arc-Index.md)
+- [Session Archive Analysis](../Sessions/ARCHIVE_ANALYSIS.md)

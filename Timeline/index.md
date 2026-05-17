@@ -14,6 +14,10 @@ A growing chronology of the Nashville Shadowrun campaign, with each entry split 
 
 If the in-world date is not currently confirmed, it is marked plainly as **unknown**.
 
+## New: full dual-date session chronology
+
+For the cleaned-up master list that separates real-world played dates from Shadowrun in-world dates — including placeholder dates where a session can be ordered but not yet precisely dated — use [Session Chronology](Session-Chronology.md).
+
 ## Historical Arc Markers
 
 ### Gladwell Institute leak investigation
