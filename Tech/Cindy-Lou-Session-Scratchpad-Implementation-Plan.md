@@ -32,15 +32,19 @@ Implemented now:
 - finished session files are archived under `sessions/<session_id>/`
 - a new `event-ledger.jsonl` file is created for each session
 - transcript-derived ledger events are now written alongside the raw transcript
+- active participants (`active_pcs`, `active_npcs`) are now tracked in scratchpad/state
+- `recent_entities`, `direct_requests_to_cindy`, and `cindy_hooks` are now populated
+- `prompt-view.json` is now emitted as a reply/ping-facing projection
+- `field_last_reinforced_at` groundwork is now present in the scratchpad state
 - the old cross-session scratchpad contamination path is cut off at session start
 
 Not implemented yet:
 
-- richer typed event extraction
-- scene-transition-triggered rebuilds
-- field decay / confidence aging
-- prompt-view projection layer
-- stronger entity bucket handling (`active_now` / `recent` / `background`)
+- stronger event typing beyond the current heuristic first pass
+- more aggressive scene-transition-driven rebuilds outside the timed loop
+- fuller decay/confidence aging logic across all fields
+- richer entity bucket handling (`active_now` / `recent` / `background`)
+- a fully mature pre-ping short-horizon guard pass
 
 So this page is now partly a plan and partly a record of the staged rollout.
 
