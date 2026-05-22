@@ -191,10 +191,10 @@ For the cleaned-up master list that separates real-world played dates from Shado
 - **Session page:** [2026-04-09](../Sessions/2026-04-09.md)
 
 ### 612 Wharf warehouse / hidden Core 7 site
-- **Played:** 2026-04-30 through 2026-05-14
+- **Played:** 2026-04-30 through 2026-05-21
 - **In-world:** 2066-05-01
-- **Summary:** The Darla/Bebop influence investigation escalated from tainted promotional food and warehouse surveillance into direct contact with a concealed second site behind 612 Wharf Avenue. The runners discovered heavy hidden matrix/power infrastructure, a rock-lobster-piloted combat drone, cybered hurricane seals, and an automated controller calling itself Core 7, strongly suggesting a second influence-engine node buried beneath the visible counterfeit-goods operation.
-- **Session pages:** [2026-04-30](../Sessions/2026-04-30.md), [2026-05-07](../Sessions/2026-05-07.md), [2026-05-14](../Sessions/2026-05-14.md)
+- **Summary:** The Darla/Bebop influence investigation escalated from tainted promotional food and warehouse surveillance into direct contact with a concealed second site behind 612 Wharf Avenue. The runners discovered heavy hidden matrix/power infrastructure, a rock-lobster-piloted combat drone, cybered hurricane seals, and an automated controller calling itself Core 7. On 2026-05-21 they confirmed that Core 7 was really centered on a cybered dolphin / wetware host-process hybrid, then breached the warehouse and found Mother Yahweh's people harvesting a chained roach spirit into counterfeit Meatlets.
+- **Session pages:** [2026-04-30](../Sessions/2026-04-30.md), [2026-05-07](../Sessions/2026-05-07.md), [2026-05-14](../Sessions/2026-05-14.md), [2026-05-21](../Sessions/2026-05-21.md)
 
 ## Current Known In-World Anchor
 
