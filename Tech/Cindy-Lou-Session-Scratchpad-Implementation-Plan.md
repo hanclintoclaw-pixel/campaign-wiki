@@ -2,7 +2,7 @@
 title: Cindy Lou Session Scratchpad Implementation Plan
 type: tech-note
 visibility: player-safe
-status: draft
+status: active
 updated: 2026-05-22
 tags: [cindy, discord, voice, monitoring, scratchpad, implementation-plan]
 ---
@@ -19,6 +19,30 @@ Build a **session-scoped scratchpad** that gives Cindy enough current context to
 - forget stale material when the table has clearly moved on
 
 The scratchpad should be a **working memory for one live session**, not a semi-permanent dump of whatever happened to be important yesterday.
+
+## Current implementation status
+
+As of **2026-05-22**, the first implementation pass of this design has been started in the live voice bridge runtime.
+
+Implemented now:
+
+- scratchpad resets on `session-start`
+- a session id is created for each live session
+- active working files remain under the live-session runtime root
+- finished session files are archived under `sessions/<session_id>/`
+- a new `event-ledger.jsonl` file is created for each session
+- transcript-derived ledger events are now written alongside the raw transcript
+- the old cross-session scratchpad contamination path is cut off at session start
+
+Not implemented yet:
+
+- richer typed event extraction
+- scene-transition-triggered rebuilds
+- field decay / confidence aging
+- prompt-view projection layer
+- stronger entity bucket handling (`active_now` / `recent` / `background`)
+
+So this page is now partly a plan and partly a record of the staged rollout.
 
 ## Core problem with the current version
 
