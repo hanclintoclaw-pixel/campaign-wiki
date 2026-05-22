@@ -127,6 +127,7 @@ For reconstructable implementation detail, use these pages:
 - [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md)
 - [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](Cindy-Lou-External-Transcription-Watchdog-Plan.md)
+- [Cindy Lou Session Scratchpad Implementation Plan](Cindy-Lou-Session-Scratchpad-Implementation-Plan.md)
 
 ## Known limitations
 
@@ -155,4 +156,5 @@ Likely next improvements:
 - [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md)
 - [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](Cindy-Lou-External-Transcription-Watchdog-Plan.md)
+- [Cindy Lou Session Scratchpad Implementation Plan](Cindy-Lou-Session-Scratchpad-Implementation-Plan.md)
 - [Campaign Navigation](../Navigation.md)

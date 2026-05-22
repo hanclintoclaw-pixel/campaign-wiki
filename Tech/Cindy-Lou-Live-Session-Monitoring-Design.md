@@ -236,4 +236,5 @@ Key files include:
 
 - [[Discord Voice Bridge]]
 - [[Cindy Lou External Transcription Watchdog Plan]]
+- [[Cindy Lou Session Scratchpad Implementation Plan]]
 - [[Cindy Lou Jenkins]]
