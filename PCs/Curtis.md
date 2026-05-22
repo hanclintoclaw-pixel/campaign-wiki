@@ -23,7 +23,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - He is a **dwarf** and the crew's **drone and vehicle rigger**.
 - Key crew tags: **Very Short**, **Ex-Caribbean Smuggler**.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
-- Current funds note preserved in dossier: **210¥** after retrofit spending.
+- Current funds note preserved in dossier: **660¥** current nuyen balance (**210¥** after retrofit spending, then **+450¥** added on 2026-04-30).
 - Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock.
 
 ## Rigger Asset Highlights
@@ -39,6 +39,10 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 - Linked to [Taco](../NPCs/Taco.md).
 - Linked to the crew's mobility, drone, and extraction infrastructure.
+
+## Active Projects
+
+- [Dolphin and Hurricane Seal Habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) — buildout tracker for Core 7 and his seal friends.
 
 ## Sources
 
