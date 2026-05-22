@@ -2,7 +2,7 @@
 title: Cindy Lou External Transcription Watchdog Plan
 type: tech-note
 visibility: player-safe
-status: draft
+status: active
 updated: 2026-05-22
 tags: [cindy, discord, voice, monitoring, watchdog, implementation-plan]
 ---
@@ -18,6 +18,27 @@ The key requirement is architectural:
 > this watchdog must live **outside** the voice bridge process, but be **activated by** the voice bridge when a session starts.
 
 That way, a stuck or degraded transcription loop cannot be trusted as the only thing responsible for reporting its own failure.
+
+## Current implementation status
+
+As of **2026-05-22**, the first-pass version of this watchdog has been wired into the live voice bridge runtime.
+
+Implemented now:
+
+- voice bridge writes `session-status.json`
+- voice bridge launches an external `voice_bridge_watchdog.py` process on session start
+- watchdog polls live session health on a timer
+- watchdog detects **recent audio + stale transcript**
+- watchdog logs alerts to `watchdog-alerts.jsonl`
+- watchdog posts a GM ping through an independent Discord REST message path
+- watchdog exits when the session is marked inactive
+
+Still worth improving later:
+
+- richer STT error counters in exported health status
+- more nuanced queue/backpressure heuristics
+- optional dedicated webhook or notifier identity separate from the bot token
+- a cleaner operator test harness for simulated failures
 
 ## Why this exists
 
