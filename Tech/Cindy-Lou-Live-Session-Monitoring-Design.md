@@ -235,4 +235,5 @@ Key files include:
 ## Related pages
 
 - [[Discord Voice Bridge]]
+- [[Cindy Lou External Transcription Watchdog Plan]]
 - [[Cindy Lou Jenkins]]

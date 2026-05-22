@@ -126,6 +126,7 @@ For reconstructable implementation detail, use these pages:
 - [Cindy Lou Wiki and Tooling Topology](Cindy-Lou-Wiki-and-Tooling-Topology.md)
 - [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md)
 - [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
+- [Cindy Lou External Transcription Watchdog Plan](Cindy-Lou-External-Transcription-Watchdog-Plan.md)
 
 ## Known limitations
 
@@ -153,4 +154,5 @@ Likely next improvements:
 - [Cindy Lou Wiki and Tooling Topology](Cindy-Lou-Wiki-and-Tooling-Topology.md)
 - [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md)
 - [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
+- [Cindy Lou External Transcription Watchdog Plan](Cindy-Lou-External-Transcription-Watchdog-Plan.md)
 - [Campaign Navigation](../Navigation.md)
