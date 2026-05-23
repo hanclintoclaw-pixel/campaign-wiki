@@ -90,6 +90,118 @@ These are the currently surfaced Matrix stats associated with Cindy's older reco
 
 Current campaign understanding ties Cindy's runtime presence to a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and enough internal hardware to support the know-bot runtime as a protected mobile shell.
 
+### Canon chassis baseline (SR3 / *Rigger 3 Revised*, p. 173)
+
+For campaign record-keeping, the cleanest canon match is the **GMC Bulldog Sec. Step-Van** rather than the plain Bulldog. The same page explicitly notes that the Bulldog line comes with **concealed armor** and is available in a **security model**.
+
+- **Handling:** 4/6
+- **Speed:** 85
+- **Acceleration:** 4
+- **Body:** 4
+- **Armor:** 5
+- **Signature:** 2
+- **Autonav:** 2
+- **Pilot:** —
+- **Sensor:** 0
+- **Cargo:** 50 CF
+- **Load:** 960 kg
+- **Seating:** 1 + 1b
+- **Entry:** 2d + 1x
+- **Fuel:** Diesel (100 l)
+- **Economy:** 4 km/l
+- **Street Index:** 2
+- **Availability:** 9/9 days
+- **Cost:** 52,600¥
+- **Other features:** Folding bench seat; concealed armor profile standard to the Bulldog line; security model available on the same chassis.
+
+### Canon installed systems for Cindy's mobile shell
+
+These are the canon vehicle modifications and standard systems that best support Cindy's existence as a mobile semiautonomous Matrix asset.
+
+#### Standard vehicle systems already assumed in SR3
+
+- **Onboard vehicle computer:** Every vehicle has an onboard computer linked to the autonav, sensors, security system, and datajack/rigger systems (*Rigger 3 Revised*, p. 14).
+- **Built-in Matrix phone link:** The onboard computer includes a built-in cellphone for calls and tortoise-mode Matrix access (*Rigger 3 Revised*, p. 14).
+- **Important limitation:** Full simsense-grade Matrix access needs a higher-bandwidth wireless link, usually cellular or satellite (*Rigger 3 Revised*, p. 14).
+
+#### Added canon modifications
+
+- **Rigger Adaptation** (*Rigger 3 Revised*, p. 132)
+  - Includes the vehicle's datajack port.
+  - Lets a proper VCR-equipped operator fully "go into the machine."
+  - **Capacity use:** 1 CF, 10 kg
+  - **Parts cost:** 2,800¥
+
+- **Sensor 2 upgrade** (*Rigger 3 Revised*, pp. 148-149)
+  - Gives the van enough sensor capability to support security scanning, perimeter awareness, and anti-theft proximity logic.
+  - **Capacity use:** 2 CF, 20 kg
+  - **Parts cost:** 7,500¥
+
+- **Two electronics ports** (*Rigger 3 Revised*, pp. 145-146)
+  - Required for non-driving electronics such as surveillance gear, uplinks, and auxiliary comms.
+  - The ports themselves do **not** consume cargo space or Load.
+  - **Parts cost:** 1,000¥ each
+
+- **Standard portable satellite uplink on an electronics port** (*Rigger 3 Revised*, p. 148)
+  - Added specifically to support Cindy's high-bandwidth Matrix presence when ordinary vehicle cellular bandwidth is not enough.
+  - **Capacity use:** 2 CF
+
+- **Gas EnviroSeal with cabin over-pressurization** (*Rigger 3 Revised*, pp. 134-135)
+  - Keeps the shell viable in smoke, gas, or contaminated urban environments.
+  - **Capacity use:** 2 CF, 15 kg
+
+- **Life support, 20 man-hours** (*Rigger 3 Revised*, p. 135)
+  - Gives the sealed shell breathable reserve and climate control for organic riders, technicians, or passengers during lockdown.
+  - **Capacity use:** 2 CF, 50 kg
+  - **Parts cost:** 2,500¥
+
+- **Anti-theft system raised to Rating 6 with proximity alert** (*Rigger 3 Revised*, Anti-Theft Systems vehicle customization entry)
+  - Upgrades the Bulldog's default security posture into something appropriate for a high-value semi-autonomous asset.
+  - Supports audible challenge / alarm behavior before physical intrusion.
+
+### Capacity accounting
+
+Starting from the **GMC Bulldog Sec.** stock chassis (**50 CF / 960 kg**):
+
+- Rigger Adaptation: **1 CF / 10 kg**
+- Sensor 2: **2 CF / 20 kg**
+- Satellite uplink: **2 CF / —**
+- Gas EnviroSeal + over-pressurization: **2 CF / 15 kg**
+- Life support (20 man-hours): **2 CF / 50 kg**
+- Electronics ports: **0 CF / 0 kg**
+
+**Total canon capacity consumed:** **9 CF / 95 kg**
+
+**Remaining unallocated capacity:** **41 CF / 865 kg**
+
+### House-rule campaign technology: SA-Knowbot Hardware Module
+
+> **Campaign / GM-tech note:** The following package is **not** a named canon SR3 vehicle component. It is a campaign-specific rules wrapper for the hardware required to house Cindy Lou's semiautonomous knowbot runtime inside the van.
+
+**SA-Knowbot Hardware Module**
+
+- **Capacity use:** **41 CF / 865 kg**
+- **Purpose:** fills the remaining physical interior with the protected computing, storage, power-conditioning, and support hardware needed for Cindy's mobile host body.
+- **Recommended fictional contents:**
+  - shock-mounted server racks and hardened processor cores
+  - memory banks / persona storage lattice
+  - cooling loops and ventilation baffles
+  - power conditioning, battery reserve, and surge protection
+  - maintenance crawl access and swap panels
+  - signal-routing backbone tying the host hardware into the Bulldog's onboard computer, satellite uplink, and sensor/security stack
+  - armored internal cabinetry and padding to keep the host stable while the van is moving or taking light damage
+
+#### Rules intent for the house-rule module
+
+- Treat the module as the **physical body** that houses Cindy's runtime, not as a separate drone or a second vehicle.
+- It does **not** add speed, armor, handling, or weapons beyond what the van already has.
+- Its main function is to explain where Cindy's cognition, memory, and signal-processing hardware physically lives.
+- If the van is disabled, breached, burned out, or destroyed, Cindy's local runtime is likewise endangered.
+
+### Canon boundary note
+
+A full **computer/electronics shop** inside the van was deliberately **not** recorded as canon hardware. Under *Rigger 3 Revised* vehicle customization rules, a shop alone is too space-hungry to be an easy fit inside a Bulldog while still leaving room for the rest of Cindy's shell. The write-up above therefore keeps the vehicle side canon and places the truly setting-specific AI host internals inside the explicit **house-rule SA-Knowbot Hardware Module**.
+
 ## Important relationships
 
 - [Taco](Taco.md)
