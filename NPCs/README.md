@@ -3,7 +3,7 @@
 ## Current Arc / Active Investigation
 
 - [Darla Ledue](Darla-Ledue.md)
-- [Ivan](Ivan.md)
+- [Ivan Toklas](Ivan.md)
 - [Jet Set Morgan](Jet-Set-Morgan.md)
 
 ## Recurring Contacts / Principals

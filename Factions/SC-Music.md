@@ -27,7 +27,7 @@ Record-label/corporate entity tied directly to the Darla Ledue master-recordings
 ## Relationships
 
 - Linked to **Darla Ledue**.
-- Linked to **Ivan** through the job route.
+- Linked to **[Ivan Toklas](../NPCs/Ivan.md)** through the job route.
 - Potentially adjacent to the hostile influence/media-manipulation network.
 
 ## Relevant Sessions

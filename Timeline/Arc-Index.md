@@ -164,7 +164,7 @@ This page groups the processed session archive into major recurring campaign thr
 - Illwoody
 - McGillicuddy
 - Darla Ledue
-- Ivan
+- [Ivan Toklas](../NPCs/Ivan.md)
 - Jet Set Morgan
 
 ## Related pages
