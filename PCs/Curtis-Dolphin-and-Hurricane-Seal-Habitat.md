@@ -31,6 +31,10 @@ _Player concept image for the Taco compound habitat build._
 
 _Additional habitat concept image shared during the same planning pass._
 
+![Curtis Dolphin Habitat concept art 3](../assets/images/Curtis-Dolphin-Habitat-Concept-3.png)
+
+_Third concept image added from the same Discord planning thread._
+
 ## Goals
 
 - Create a habitat plan that supports dolphins and hurricane seals together
@@ -189,3 +193,4 @@ Then apply the side tracks:
 - **2026-05-27** — Corrected the project site to the adjacent lot at Taco’s compound and updated Day 1 to reflect a land build with no shoreline.
 - **2026-05-27** — Added the dolphin habitat concept image to the wiki page assets and embedded it on the page.
 - **2026-05-27** — Added a second concept image from Discord to the habitat page assets and embedded it on the page.
+- **2026-05-27** — Added a third concept image from Discord to the habitat page assets and embedded it on the page.
