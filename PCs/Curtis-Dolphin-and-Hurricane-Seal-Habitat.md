@@ -12,6 +12,7 @@ tags: [pc, curtis, project, habitat, dolphins, seals]
 sources:
   - Ace Malone request in Discord on 2026-05-22
   - Ace Malone concept image in Discord on 2026-05-27
+  - JackalMoreau concept image in Discord on 2026-05-27
 ---
 
 # Curtis Dolphin and Hurricane Seal Habitat
@@ -25,6 +26,10 @@ Tracking the design and buildout of a dolphin and hurricane seal habitat for Cor
 ![Curtis Dolphin Habitat concept art](../assets/images/Curtis-Dolphin-Habitat-Concept.png)
 
 _Player concept image for the Taco compound habitat build._
+
+![Curtis Dolphin Habitat concept art 2](../assets/images/Curtis-Dolphin-Habitat-Concept-2.png)
+
+_Additional habitat concept image shared during the same planning pass._
 
 ## Goals
 
@@ -183,3 +188,4 @@ Then apply the side tracks:
 - **2026-05-27** — Logged Day 1 resolution: 2 primary successes, 2 support successes, with PP advanced to 3.
 - **2026-05-27** — Corrected the project site to the adjacent lot at Taco’s compound and updated Day 1 to reflect a land build with no shoreline.
 - **2026-05-27** — Added the dolphin habitat concept image to the wiki page assets and embedded it on the page.
+- **2026-05-27** — Added a second concept image from Discord to the habitat page assets and embedded it on the page.
