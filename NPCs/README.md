@@ -3,8 +3,11 @@
 ## Current Arc / Active Investigation
 
 - [Darla Ledue](Darla-Ledue.md)
+- [Jacinda Hamich](Jacinda-Hamich.md)
 - [Ivan Toklas](Ivan.md)
 - [Jet Set Morgan](Jet-Set-Morgan.md)
+- [Core 7](Core-7.md)
+- [Mother Yahweh](Mother-Yahweh.md)
 
 ## Recurring Contacts / Principals
 
@@ -39,7 +42,6 @@
 - [Alanzo Sparks](Alanzo-Sparks.md)
 - [Eugene Booker](Eugene-Booker.md)
 - [Candace Wrapper](Candace-Wrapper.md)
-- [Mother Yahweh](Mother-Yahweh.md)
 - [Dr. Martin Waters](Dr-Martin-Waters.md)
 - [Ansen Moscow](Ansen-Moscow.md)
 - [Vanessa](Vanessa.md)

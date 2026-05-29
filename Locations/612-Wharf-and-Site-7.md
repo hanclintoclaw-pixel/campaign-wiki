@@ -34,7 +34,8 @@ A linked warehouse-and-buried-installation complex at the center of the current 
 ## Relationships
 
 - Linked to **[Mother Yahweh](../NPCs/Mother-Yahweh.md)**.
-- Linked to **Core 7** and the buried dolphin-centered wetware system.
+- Linked to **[Core 7](../NPCs/Core-7.md)** and the buried dolphin-centered wetware system.
+- Linked to **[Ace Freelits](../Factions/Ace-Freelits.md)** as the visible warehouse labor/muscle layer.
 - Linked to **SC Music**, **Swiftwing Records**, and the deeper Cindy/knowbot continuity through emerging architectural evidence.
 - One of the central physical locations in the current Darla / counterfeit-promo / influence-network arc.
 
@@ -43,12 +44,12 @@ A linked warehouse-and-buried-installation complex at the center of the current 
 - 2026-05-07 — warehouse identified as a key surveillance and distribution site.
 - 2026-05-14 — hidden buried installation located beyond the warehouse.
 - 2026-05-21 — warehouse breached; Mother Yahweh and spirit-harvesting line exposed.
-- 2026-05-28 — aftermath, salvage, and rescue implications dominate discussion.
+- 2026-05-28 — aftermath, salvage, rescue implications, and the three-day forward timeskip to **2066-05-04** dominate discussion.
 
 ## Open Questions
 
 - Can the dolphin node behind **Core 7** be extracted safely?
-- How much of the site remains active or recoverable after the warehouse breach?
+- How much of the site remains active or recoverable after the warehouse breach and immediate aftermath window?
 - Who originally built Site 7 and for what purpose?
 - Is the complex best understood as a lab, a prison, an influence-engine prototype, or all three at once?
 

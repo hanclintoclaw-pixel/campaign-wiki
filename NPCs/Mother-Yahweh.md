@@ -29,6 +29,7 @@ Cultish figure tied to the counterfeit-food / insect-burger arc.
 - That warehouse was processing counterfeit **Meatlets** using material cut from a chained **roach spirit**, tying Mother Yahweh directly to the magical contamination pipeline.
 - Session evidence suggests she and **Core 7 / Site 7** were at minimum operationally linked, even if the exact command relationship remains unclear.
 - By **2026-05-28**, she was specifically part of the crew's unresolved aftermath problem: alive but unconscious while they debated how to handle the larger Site 7 mess.
+- The broader public fallout now appears likely to obscure her role entirely, framing the scandal around music-industry chaos instead of the real magical contamination pipeline she helped run.
 
 ## Relationships
 
@@ -48,6 +49,7 @@ Cultish figure tied to the counterfeit-food / insect-burger arc.
 - Was she subordinate to **Core 7**, manipulating it, or simply sharing adjacent infrastructure?
 - How much of the warehouse-side spirit-harvesting operation depended specifically on her?
 - What do the runners do with her now that the immediate breach fight is over?
+- Does she stay a hidden custody problem, escape, or get erased from the public version of events entirely?
 
 ## Sources
 

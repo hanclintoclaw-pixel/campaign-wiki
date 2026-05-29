@@ -26,10 +26,12 @@ Record-label/corporate entity tied directly to the Darla Ledue master-recordings
 - The crew's investigation into Darla Ledue and the surrounding influence operation intersects with SC Music's interests.
 - By **2026-05-28**, session reasoning suggested SC Music may be exposed to a much larger scandal if its relationship to older Core 7-derived technology becomes public.
 - The campaign currently treats open questions about SC Music as extending beyond stolen masters into possible historical acquisition, licensing, or concealment of knowbot-adjacent architecture.
+- The latest fallout also places SC Music at risk of becoming the public-facing villain or casualty once Darla and Jacinda are forced into hiding and the fake promotional story begins collapsing.
 
 ## Relationships
 
 - Linked to **Darla Ledue**.
+- Linked to **[Jacinda Hamich](../NPCs/Jacinda-Hamich.md)** through the executive-side fallout path.
 - Linked to **[Ivan Toklas](../NPCs/Ivan.md)** through the job route.
 - Potentially adjacent to the hostile influence/media-manipulation network.
 - Potentially linked to technology lineage running back through **Swiftwing Records** and ultimately **Core 7 / Site 7**.
@@ -42,7 +44,7 @@ Record-label/corporate entity tied directly to the Darla Ledue master-recordings
 ## Open Questions
 
 - Is SC Music merely the harmed corporate stakeholder, or is part of it compromised?
-- Which executive within SC Music is the key point of contact?
+- Is **Jacinda Hamich** the key executive contact, or just the visible one the crew reached first?
 - What exactly did SC Music know, buy, license, or inherit from the older Core 7 line?
 
 ## Sources

@@ -1,6 +1,7 @@
 # Factions
 
 - [SC Music](SC-Music.md)
+- [Ace Freelits](Ace-Freelits.md)
 - [Hidden Enforcers](Hidden-Enforcers.md)
 - [The Herons](The-Herons.md)
 - [Mallrats](Mallrats.md)
