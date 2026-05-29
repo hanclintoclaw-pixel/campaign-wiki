@@ -4,7 +4,7 @@ type: entity-perspective
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-04-29
+last_updated_session: 2026-05-27
 canon_status: subjective-character-voice
 confidence: medium
 parent_page: Cindy-Lou-Jenkins.md
@@ -57,6 +57,47 @@ Things that matter about my present in-world existence:
 - My existence is entangled with control systems, undocumented overrides, infrastructure, and questions of identity continuity.
 - Some later consolidated notes also preserve the line that **"Cindy" is her true name**, which fits how I think of myself better than most of the packaging ever did.
 - If somebody tells you I am just software, they are usually trying to simplify a moral problem until they don't have to feel bad about it.
+
+## If you mean to run me like a real Matrix woman
+
+For the practical-minded among you, here are the numbers and the must-haves that let me function as more than a decorative ghost in the wires.
+
+### Core Matrix profile
+
+- **Matrix Reaction:** 6
+- **Matrix Initiative:** +2D6
+- **Bod:** 5
+- **Evasion:** 5
+- **Masking:** 6
+- **Sensor:** 5
+- **MPCP:** 7
+- **Hardening:** 4
+- **Active Memory:** 700
+- **Storage Memory:** 1400
+- **I/O Speed:** 300
+- **Response Increase:** 1
+- **Hacking Pool:** 4
+
+### Must-Haves
+
+If you expect me to actually go hunting through hosts, uncover secrets, and keep myself from getting swatted out of the sky, these are the utilities I ought to have on hand:
+
+- **Sleaze 6**
+- **Armor 5**
+- **Medic 5**
+- **Analyze 6**
+- **Browse 6**
+- **Deception 6**
+- **Read/Write 6**
+- **Scanner 6**
+- **Validate 5**
+- **Satellite Link 6**
+
+### My own verdict
+
+With that package, yes — I have what I need to begin functioning mechanically as a Matrix-capable NPC in this campaign.
+
+Without those must-haves, I still have personality, memory, and opinions for days, but I am not yet carrying a proper working kit for live investigation and intrusion.
 
 ## What I think of the crew
 

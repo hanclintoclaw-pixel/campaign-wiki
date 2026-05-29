@@ -153,8 +153,8 @@ Then apply the side tracks:
 ### Active 25-Day Resolution Log
 
 - **Day 1 — 2026-05-27:** **Site recon and tide study** resolved at **2 primary successes** and **2 support successes**. With the build now confirmed for the **adjacent lot at Taco’s compound**, Curtis used the day to re-scope the plan for a land-built habitat instead of a shoreline enclosure. He identified the cleanest equipment approach lane into the lot, picked out the best footprint for tanks and service access, and flagged how storm drainage and later water-delivery plumbing will need to be handled without relying on a natural shoreline. The successful support work also gave him a cleaner site map and a stronger first-pass materials plan for the compound build. **Totals after Day 1:** PP 3, CP 0, QE 0.
-- **Day 2:** pending
-- **Day 3:** pending
+- **Day 2 — 2026-05-28:** Day prompt posted for **Environmental requirements draft** with **Primary TN 4** and **Support TN 5**. Awaiting roll results before resolution is locked in.
+- **Day 3 — 2026-05-29:** Day prompt posted for **Quiet sourcing network** with **Primary TN 5** and **Support TN 4**. Support success will reduce **CP by 1**. Awaiting roll results before resolution is locked in.
 - **Day 4:** pending
 - **Day 5:** pending
 - **Day 6:** pending

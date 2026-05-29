@@ -100,7 +100,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 1. The **handwritten scanned sessions** belong at the beginning of the campaign. Their in-world dates are source-anchored, and their played dates are temporary placeholders placed before the first typed 2022 session.
 2. The **2022-2024 typed sessions** have reliable played dates, but most still lack canon in-world dates. Their in-world placeholders currently bridge the gap between **2065-09-01** and the confirmed **2066** modern arc.
 3. The **2026 spring sessions** now sit in the same structure: real played dates on one axis, in-world placeholder dates on the other until exact campaign-day evidence is recovered.
-4. The **612 Wharf / Core 7** arc is the first currently confirmed hard modern in-world anchor at **2066-05-01**.
+4. The **612 Wharf / Core 7** arc is the first currently confirmed hard modern in-world anchor at **2066-05-01**, and Session 2026-05-28 carries the active campaign date forward to **2066-05-04** via aftermath timeskip.
 
 ## Gaps and caveats
 
