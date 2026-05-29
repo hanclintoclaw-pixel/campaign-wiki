@@ -2,7 +2,7 @@
 title: Campaign Arc Index
 type: arc-index
 visibility: player-safe
-updated: 2026-04-10
+updated: 2026-05-29
 ---
 
 # Campaign Arc Index
@@ -40,6 +40,11 @@ This page groups the processed session archive into major recurring campaign thr
 - [2026-03-26](../Sessions/2026-03-26.md)
 - [2026-04-02](../Sessions/2026-04-02.md)
 - [2026-04-09](../Sessions/2026-04-09.md)
+- [2026-04-30](../Sessions/2026-04-30.md)
+- [2026-05-07](../Sessions/2026-05-07.md)
+- [2026-05-14](../Sessions/2026-05-14.md)
+- [2026-05-21](../Sessions/2026-05-21.md)
+- [2026-05-28](../Sessions/2026-05-28.md)
 
 **Important names**
 - Cindy Lou Jenkins
@@ -53,6 +58,9 @@ This page groups the processed session archive into major recurring campaign thr
 - Dr. Ichiro
 - Darla Ledue
 - Jet Set Morgan
+- Mother Yahweh
+- Taco
+- Core 7
 
 ## 3. Dragon egg / toxic biomaterial / Ghostwalker thread
 
@@ -150,7 +158,7 @@ This page groups the processed session archive into major recurring campaign thr
 
 ## 10. 2026 active modern arc cluster
 
-**Core idea:** the current campaign era centers on insect-political threats, Darla/media manipulation, and surveillance/counter-surveillance around music-industry-adjacent power players.
+**Core idea:** the current campaign era centers on insect-political threats, Darla/media manipulation, surveillance/counter-surveillance around music-industry-adjacent power players, and the newly exposed **612 Wharf / Site 7 / Core 7** continuity tying counterfeit goods, exploited awakened life, and Cindy-line architecture together.
 
 **Key sessions**
 - [2026-03-13](../Sessions/2026-03-13.md)
@@ -158,6 +166,11 @@ This page groups the processed session archive into major recurring campaign thr
 - [2026-03-26](../Sessions/2026-03-26.md)
 - [2026-04-02](../Sessions/2026-04-02.md)
 - [2026-04-09](../Sessions/2026-04-09.md)
+- [2026-04-30](../Sessions/2026-04-30.md)
+- [2026-05-07](../Sessions/2026-05-07.md)
+- [2026-05-14](../Sessions/2026-05-14.md)
+- [2026-05-21](../Sessions/2026-05-21.md)
+- [2026-05-28](../Sessions/2026-05-28.md)
 
 **Important names**
 - Mayor Mike Haggar
@@ -166,6 +179,9 @@ This page groups the processed session archive into major recurring campaign thr
 - Darla Ledue
 - [Ivan Toklas](../NPCs/Ivan.md)
 - Jet Set Morgan
+- Mother Yahweh
+- Taco
+- Core 7
 
 ## Related pages
 
