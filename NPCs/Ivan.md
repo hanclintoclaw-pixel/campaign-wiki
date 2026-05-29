@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-05-11
-last_updated_session: 2065-03-04
+last_updated_session: 2026-05-29
 canon_status: provisional
 confidence: medium
 tags: [npc, fixer, broker, johnson-contact]
@@ -26,6 +26,8 @@ sources:
 ---
 
 # Ivan Toklas
+
+![Ivan Toklas](../assets/images/Ivan-Toklas-Portrait-2026-05-29.png)
 
 ## Overview
 
