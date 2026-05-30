@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-03-23
-last_updated_session: 2026-02-27
+last_updated_session: 2026-05-29
 canon_status: provisional
 confidence: medium
 tags: [npc, principal, politics]
@@ -15,6 +15,8 @@ sources:
 ---
 
 # Mayor Mike Haggar
+
+![Mayor Mike Haggar](../assets/images/Mayor-Mike-Haggar-Shadowrun-Bodyslam-2026-05-29.png)
 
 ## Overview
 
