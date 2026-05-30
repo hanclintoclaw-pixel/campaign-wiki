@@ -2,10 +2,12 @@
 title: Previously On - Mucky and the Road Reapers
 type: recap
 visibility: player-safe
-updated: 2026-04-10
+updated: 2026-05-29
 ---
 
 # Previously On: Mucky and the Road Reapers
+
+![Previously On: Mucky and the Road Reapers](../assets/images/Previously-On-Mucky-and-Road-Reapers-Poster-2026-05-29.png)
 
 ## Short version
 

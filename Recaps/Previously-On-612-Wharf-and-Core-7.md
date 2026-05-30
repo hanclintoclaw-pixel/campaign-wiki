@@ -7,6 +7,8 @@ updated: 2026-05-29
 
 # Previously On: 612 Wharf and Core 7
 
+![Previously On: 612 Wharf and Core 7](../assets/images/Previously-On-612-Wharf-and-Core-7-Poster-2026-05-29.png)
+
 ## Short version
 
 - The crew followed the tainted **Meatlets / Bebop Cola** distribution chain to **612 Wharf Avenue**, where low-level warehouse labor, surveillance drones, and magical contamination all pointed to a larger operation.
