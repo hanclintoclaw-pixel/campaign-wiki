@@ -153,10 +153,10 @@ Then apply the side tracks:
 ### Active 25-Day Resolution Log
 
 - **Day 1 — 2026-05-27:** **Site recon and tide study** resolved at **2 primary successes** and **2 support successes**. With the build now confirmed for the **adjacent lot at Taco’s compound**, Curtis used the day to re-scope the plan for a land-built habitat instead of a shoreline enclosure. He identified the cleanest equipment approach lane into the lot, picked out the best footprint for tanks and service access, and flagged how storm drainage and later water-delivery plumbing will need to be handled without relying on a natural shoreline. The successful support work also gave him a cleaner site map and a stronger first-pass materials plan for the compound build. **Totals after Day 1:** PP 3, CP 0, QE 0.
-- **Day 2 — 2026-05-28:** Day prompt posted for **Environmental requirements draft** with **Primary TN 4** and **Support TN 5**. Awaiting roll results before resolution is locked in.
-- **Day 3 — 2026-05-29:** Day prompt posted for **Quiet sourcing network** with **Primary TN 5** and **Support TN 4**. Support success will reduce **CP by 1**. Awaiting roll results before resolution is locked in.
-- **Day 4:** pending
-- **Day 5:** pending
+- **Day 2 — 2026-05-28:** **Environmental requirements draft** resolved at **2 primary successes** and **2 support successes**. Curtis translated the habitat idea into a workable baseline spec for a compound-built enclosure: tank volume, circulation demands, weather exposure, service access, and creature-handling needs all got pinned down enough to support real purchasing and layout decisions. The support work sharpened the design into something sturdier and more reliable instead of just barely functional. **Day 2 effect:** +2 PP and +1 QE.
+- **Day 3 — 2026-05-29:** **Quiet sourcing network** resolved at **2 primary successes** and **3 support successes**. Curtis built out a more discreet acquisition lane for specialty parts, salvage leads, and low-heat vendors, giving himself a practical path to source the odd hardware this build needs without making the project noisier than it has to be. The strong support result also helps keep costs under control by surfacing friendlier prices and smoother access. **Day 3 effect:** +2 PP and -1 CP.
+- **Day 4 — 2026-05-30:** **Structural shell scouting** resolved at **3 primary successes** and **1 support success**. Curtis found a workable shell path without having to force a hot buy, narrowing the hunt to a few practical structural options that can be adapted for tanks, service lanes, and enclosure framing inside the compound lot. The main gain here is clean forward momentum on the build plan rather than a flashy breakthrough, but it still moves the project materially closer to buildable reality. **Day 4 effect:** +3 PP and -1 CP.
+- **Day 5 — 2026-05-31:** **Water-circulation hardware hunt** resolved at **2 primary successes** and **0 support successes**. Curtis turned up a decent line on pumps, plumbing, and related circulation hardware, enough to keep the project moving even if he did not uncover especially elegant or high-end options today. The search produces useful acquisition progress, but not the kind of standout result that improves habitat quality. **Day 5 effect:** +2 PP. No QE bonus.
 - **Day 6:** pending
 - **Day 7:** pending
 - **Day 8:** pending
@@ -194,3 +194,5 @@ Then apply the side tracks:
 - **2026-05-27** — Added the dolphin habitat concept image to the wiki page assets and embedded it on the page.
 - **2026-05-27** — Added a second concept image from Discord to the habitat page assets and embedded it on the page.
 - **2026-05-27** — Added a third concept image from Discord to the habitat page assets and embedded it on the page.
+- **2026-05-31** — Logged Day 2 and Day 3 resolutions: environmental requirements draft at 2 primary / 2 support (+2 PP, +1 QE) and quiet sourcing network at 2 primary / 3 support (+2 PP, -1 CP).
+- **2026-05-31** — Logged Day 4 and Day 5 resolutions: structural shell scouting at 3 primary / 1 support (+3 PP, -1 CP) and water-circulation hardware hunt at 2 primary / 0 support (+2 PP).
