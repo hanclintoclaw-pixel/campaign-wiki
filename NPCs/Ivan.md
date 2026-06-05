@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-05-11
-last_updated_session: 2026-05-29
+last_updated_session: 2026-06-04
 canon_status: provisional
 confidence: medium
 tags: [npc, fixer, broker, johnson-contact]
@@ -58,6 +58,7 @@ That makes him look less like a one-off Johnson and more like a **stable Nashvil
 
 - [Atlas's](../Locations/Atlass.md) — strongly linked; Ivan appears to operate out of a small private room there.
 - [SC Music](../Factions/SC-Music.md) — tied to the Darla master-recordings job route.
+- [Griswell Data Services](../Organizations/Griswell-Data-Services.md) — Ivan brokered the initial meeting into the Alvin Flang surveillance job.
 - [Darla Ledue](Darla-Ledue.md) — Ivan sits on the contract chain leading into the Darla / stolen-masters investigation.
 - [Kari Wilkerson](Kari-Wilkerson.md) — Ivan brought the crew into Kari's Draco Foundation briefing.
 - [Merle Graham](Merle-Graham.md) — both appear in the older Drexler / Zoil-era web.
@@ -78,6 +79,7 @@ That makes him look less like a one-off Johnson and more like a **stable Nashvil
 - **2065-03-04** — Ivan and Atlas bring the team into the Fiona Jones disappearance / Bingham 4 case.
 - **2065-03-21** — a Johnson job around [Floyd Otis](Floyd-Otis.md)'s store is explicitly brokered through Ivan.
 - **2026-04-02** — Ivan remains the front-end route into the [SC Music](../Factions/SC-Music.md) / [Darla Ledue](Darla-Ledue.md) stolen-master-recordings arc.
+- **2026-06-04** — Ivan again functions as the crew's front-end broker, routing them into the [Griswell Data Services](../Organizations/Griswell-Data-Services.md) / [Alvin Flang](Alvin-Flang.md) surveillance job at [Atlas's](../Locations/Atlass.md).
 
 ## Synthesis
 

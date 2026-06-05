@@ -3,7 +3,7 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-06-01
+updated: 2026-06-04
 owner: Curtis
 contributors:
   - Ace Malone
@@ -158,8 +158,8 @@ Then apply the side tracks:
 - **Day 4 — 2026-05-30:** **Structural shell scouting** resolved at **3 primary successes** and **1 support success**. Curtis found a workable shell path without having to force a hot buy, narrowing the hunt to a few practical structural options that can be adapted for tanks, service lanes, and enclosure framing inside the compound lot. The main gain here is clean forward momentum on the build plan rather than a flashy breakthrough, but it still moves the project materially closer to buildable reality. **Day 4 effect:** +3 PP and -1 CP.
 - **Day 5 — 2026-05-31:** **Water-circulation hardware hunt** resolved at **2 primary successes** and **0 support successes**. Curtis turned up a decent line on pumps, plumbing, and related circulation hardware, enough to keep the project moving even if he did not uncover especially elegant or high-end options today. The search produces useful acquisition progress, but not the kind of standout result that improves habitat quality. **Day 5 effect:** +2 PP. No QE bonus.
 - **Day 6 — 2026-06-01:** **Weatherproof control system plan** resolved at **2 primary successes** and **0 support successes**. Curtis mapped out a workable control-layer plan with enough redundancy and weather hardening to keep the habitat project moving, but the supporting prep did not turn up any extra efficiency or bonus leverage. Solid forward progress, no extra bump. **Day 6 effect:** +2 PP. **Totals after Day 6:** PP 14, CP -2, QE 1.
-- **Day 7:** pending
-- **Day 8:** pending
+- **Day 7 — 2026-06-02:** Day prompt posted for **Permits, bribes, or blind spots** with **Primary TN 6** and **Support TN 5**. Failed Support adds **+1 CP**. Awaiting roll results.
+- **Day 8 — 2026-06-03:** **First materials acquisition run** resolved at **2 primary successes** and **2 support successes**. Curtis got the first bulky habitat-materials push over the line cleanly, lining up pickup, transport, and delivery into Taco's compound without drawing enough attention to trigger a scramble. The support work held the chain together, so the materials arrived where they needed to be and the project gained solid forward momentum with no complication test required. **Day 8 effect:** +2 PP.
 - **Day 9:** pending
 - **Day 10:** pending
 - **Day 11:** pending
@@ -197,3 +197,4 @@ Then apply the side tracks:
 - **2026-05-31** — Logged Day 2 and Day 3 resolutions: environmental requirements draft at 2 primary / 2 support (+2 PP, +1 QE) and quiet sourcing network at 2 primary / 3 support (+2 PP, -1 CP).
 - **2026-05-31** — Logged Day 4 and Day 5 resolutions: structural shell scouting at 3 primary / 1 support (+3 PP, -1 CP) and water-circulation hardware hunt at 2 primary / 0 support (+2 PP).
 - **2026-06-01** — Logged Day 6 resolution: weatherproof control system plan at 2 primary / 0 support (+2 PP), bringing totals to PP 14, CP -2, QE 1.
+- **2026-06-04** — Logged Day 8 resolution: first materials acquisition run at 2 primary / 2 support (+2 PP), with no complication roll triggered.
