@@ -12,6 +12,7 @@ sources:
   - ../Sessions/2026-06-04.md
   - Curtis attributes screenshot shared by player on 2026-06-05
   - Curtis active skills screenshot shared by player on 2026-06-05
+  - Curtis knowledge and language skills screenshot shared by player on 2026-06-05
 ---
 
 # Curtis
@@ -55,8 +56,26 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - **Submarine B/R 2**
 - **Vector Thrust Aircraft B/R 3**
 - **Car B/R 3**
-- **English (LAN) 5**
-- **English R/W 3**
+
+## Knowledge & Language Skills
+
+- **Smuggler Havens (KNO) 3**
+- **Smuggling Routes (KNO) 4**
+- **AC: Gunsmithing (KNO) 2**
+- **SV: Navigation (KNO) 4**
+- **Assault Rifles (KNO) 2**
+- **Heavy Weapons (KNO) 2**
+- **Submachine Guns (KNO) 2**
+- **Car (KNO) 3**
+- **Fixed Wing (KNO) 2**
+- **Hovercraft (KNO) 2**
+- **Submarines (KNO) 3**
+- **Vectored Thrust Aircraft (KNO) 2**
+- **IN: Elven Wines (KNO) 2**
+- **IN: Investing (KNO) 4**
+- **IN: Poetry (KNO) 2**
+- **English (LAN) 3**
+- **English (LAN) (R/W) 1**
 - **Mathematics 4**
 
 ## Known Facts
@@ -104,3 +123,4 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - [Session 2026-06-04](../Sessions/2026-06-04.md)
 - player-shared Curtis attributes screenshot received 2026-06-05
 - player-shared Curtis active skills screenshot received 2026-06-05
+- player-shared Curtis knowledge and language skills screenshot received 2026-06-05
