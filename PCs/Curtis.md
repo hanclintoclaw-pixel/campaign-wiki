@@ -11,6 +11,7 @@ sources:
   - PARTY_DOSSIER.md
   - ../Sessions/2026-06-04.md
   - Curtis attributes screenshot shared by player on 2026-06-05
+  - Curtis active skills screenshot shared by player on 2026-06-05
 ---
 
 # Curtis
@@ -31,6 +32,32 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - **Initiative 5+1D6**
 - **Essence 1.84**
 - **Magic -**
+
+## Active Skills
+
+- **Pistols 3**
+- **Gunnery 5**
+- **Whips 3**
+- **Diving 2**
+- **Etiquette 4**
+- **Electronics 6**
+- **Computer 3**
+- **SU Tactics/V Tactics 1/4**
+- **Electronics Build/Repair 1**
+- **Car 4**
+- **Motorboat 3**
+- **Submarine 2**
+- **Rotor Aircraft/RO 1/5**
+- **Tracks/RO 1/5**
+- **Vector Thrust Aircraft/RO 1/5**
+- **Walkers/RO 1/5**
+- **Rotor Aircraft B/R 3**
+- **Submarine B/R 2**
+- **Vector Thrust Aircraft B/R 3**
+- **Car B/R 3**
+- **English (LAN) 5**
+- **English R/W 3**
+- **Mathematics 4**
 
 ## Known Facts
 
@@ -76,3 +103,4 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - `PARTY_DOSSIER.md`
 - [Session 2026-06-04](../Sessions/2026-06-04.md)
 - player-shared Curtis attributes screenshot received 2026-06-05
+- player-shared Curtis active skills screenshot received 2026-06-05
