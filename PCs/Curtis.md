@@ -19,6 +19,19 @@ sources:
 
 Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
+## Attributes
+
+- **BOD 4**
+- **QUI 6**
+- **STR 5**
+- **CHA 1**
+- **INT 5**
+- **WIL 5**
+- **Reaction 5**
+- **Initiative 5+1D6**
+- **Essence 1.84**
+- **Magic -**
+
 ## Known Facts
 
 - Curtis is played by **Lee**.
