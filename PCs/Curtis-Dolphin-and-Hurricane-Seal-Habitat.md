@@ -3,7 +3,7 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-06-10
+updated: 2026-06-11
 owner: Curtis
 contributors:
   - Ace Malone
@@ -34,6 +34,10 @@ _Additional habitat concept image shared during the same planning pass._
 ![Curtis Dolphin Habitat concept art 3](../assets/images/Curtis-Dolphin-Habitat-Concept-3.png)
 
 _Third concept image added from the same Discord planning thread._
+
+![Curtis Dolphin Habitat top-down gridded map](../assets/images/Curtis-Dolphin-Habitat-Topdown-Grid.png)
+
+_Top-down gridded map of the planned compound-lot habitat, with tank zones, storm baffling, service access, and support infrastructure._
 
 ## Goals
 
@@ -161,8 +165,8 @@ Then apply the side tracks:
 - **Day 7 — 2026-06-02:** **Permits, bribes, or blind spots** resolved at **0 primary successes** and **2 support successes**. Curtis got bogged down in the ugly paper-and-access layer: the permits, bribes, and blind spots did not materially advance the habitat plan, but his support work kept the day from turning into an even pricier mess. The support test succeeded, so the special failed-support penalty did not trigger. **Day 7 effect:** +0 PP and +2 CP. **Totals after Day 7:** PP 14, CP 0, QE 1.
 - **Day 8 — 2026-06-03:** **First materials acquisition run** resolved at **2 primary successes** and **2 support successes**. Curtis got the first bulky habitat-materials push over the line cleanly, lining up pickup, transport, and delivery into Taco's compound without drawing enough attention to trigger a scramble. The support work held the chain together, so the materials arrived where they needed to be and the project gained solid forward momentum with no complication test required. **Day 8 effect:** +2 PP. **Totals after Day 8:** PP 16, CP 0, QE 1.
 - **Day 9 — 2026-06-04:** **Secure storage and staging** resolved at **3 primary successes** and **1 support success**. Curtis set up a secure, low-profile staging area for the habitat supplies, keeping bulky materials organized, covered, and ready for the next construction phase without making Taco's compound look like a hot construction target. The strong primary result tightened the operation, and the support success cut waste and friction. **Day 9 effect:** +3 PP and -2 CP. **Totals after Day 9:** PP 19, CP -2, QE 1.
-- **Day 10:** pending
-- **Day 11:** pending
+- **Day 10 — 2026-06-11:** **Foundation and anchoring layout** resolved at **2 primary successes** and **1 support success**. Curtis gets the habitat's foundation plan properly squared away for Taco's adjacent lot: tank pads, anchoring points, service access, drainage slope, and storm-load tie-downs are laid out well enough that the heavy construction work can proceed without guesswork. The support success adds a sturdier safety margin to the design, giving the enclosure better resistance against settling, vibration, and bad weather. **Day 10 effect:** +2 PP and +1 QE. **Totals after Day 10:** PP 21, CP -2, QE 2.
+- **Day 11 — 2026-06-11:** **Storm baffling and breakwater prep** resolved at **2 primary successes** and **1 support success**. Curtis gets the first real storm-defense layer designed and staged: splash baffles, overflow paths, wind-driven water control, and reinforced edge barriers that should keep hurricane-seal thrashing from turning the habitat rim into shrapnel. The support success keeps the work orderly and low-waste, but Day 11 has no separate support-track bonus. No complication triggers because the primary roll was not 0 successes. **Day 11 effect:** +2 PP. **Totals after Day 11:** PP 23, CP -2, QE 2.
 - **Day 12:** pending
 - **Day 13:** pending
 - **Day 14:** pending
@@ -187,6 +191,9 @@ Then apply the side tracks:
 ## Change Log
 
 - **2026-06-10** — Reconciled Discord channel results for Day 7 and Day 9, removed raw metadata from the log, and advanced the running totals to PP 19, CP -2, QE 1.
+- **2026-06-11** — Logged Day 10 foundation and anchoring layout at 2 primary / 1 support (+2 PP, +1 QE), bringing totals to PP 21, CP -2, QE 2.
+- **2026-06-11** — Corrected Day 11 to storm baffling and breakwater prep, then logged it at 2 primary / 1 support (+2 PP), bringing totals to PP 23, CP -2, QE 2.
+- **2026-06-11** — Added the generated top-down gridded habitat map to the project page assets and embedded it in Concept Art.
 
 - **2026-05-22** — Page created to track the habitat buildout under Curtis.
 - **2026-05-24** — Added ongoing 30-day build-out tracking section for daily Curtis progress summaries.
