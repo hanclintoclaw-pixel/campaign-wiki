@@ -139,6 +139,143 @@ Use the Hidden Enforcers when the story needs:
 - a reason Glenn can recognize, signal, or access police-grade magical assets;
 - a rules-compliant structure for initiation, strictures, dues, resources, and magical group discipline.
 
+## Valgaut Joining Walkthrough
+
+This is the rules-facing path for **Valgaut** joining the Hidden Enforcers as a sponsored adept / trusted auxiliary. It assumes the current sheet-backed facts on [Valgaut](../../PCs/Valgaut.md): physical adept, **Magic 6**, Essence 6.00, no recorded Magic loss, and **4 Karma remaining** after the 2026-06-04 advancement.
+
+### 1. Establish Eligibility and Sponsor
+
+Valgaut is Awakened, so he is eligible to join an initiatory magical group. The campaign question is whether he satisfies the Hidden Enforcers' **Limited Membership** stricture.
+
+Recommended ruling: Valgaut cannot join as a normal sworn-officer member, but he can be considered for a **sponsored auxiliary / Special Threats Circle** slot if Glenn or another senior member vouches for him and the Oath Circle accepts that his awakened skills serve civic-security or occult-threat work.
+
+Rules considerations:
+
+- **Limited Membership:** requires an explicit exception or auxiliary category.
+- **Secrecy:** Valgaut must agree not to expose the group's existence or membership.
+- **Obedience / Deed / Fraternity:** he will owe service, especially magical-threat response, evidence recovery, astral backup, or training support.
+- **Material Link:** full membership may eventually require a thesis, blood/hair sample, or equivalent link under group custody; this is a serious trust and leverage issue.
+
+### 2. Find or Approach the Group
+
+If Valgaut were searching cold, MitS uses a **60-day base time** and an **Etiquette (Magical) Test** with **TN 12 - Magic** for an Awakened seeker, reduced by relevant awakened/talismonger/fixer contacts. With Magic 6, Valgaut's cold-search TN would be **6 before contact reductions**.
+
+For this campaign, Valgaut likely does **not** need the full cold-search procedure because the crew already has a known contact point through Glenn. MitS says if the character knows the group name or a member personally, the search can be cut to **30 days at worst**, and some groups may approach by invitation.
+
+Recommended table handling: use Glenn's sponsorship and prior crew relationship to skip the random search and move directly to vetting scenes.
+
+### 3. Pay Admission Cost
+
+Joining a magical group costs:
+
+- **3 Karma**
+- **First month's dues**
+
+Valgaut currently has **4 Karma**, so he can afford the **3 Karma admission cost now**, leaving **1 Karma** before any new awards.
+
+Dues are a GM call. The Hidden Enforcers are modeled as **High Resources** with police / civic patronage, so dues may be low, hidden, or waived in exchange for service. If charged directly, MitS uses the group's resource cost divided among members. High Resources are equivalent to **10,000 nuyen/month**; examples:
+
+- 5-member circle: **2,000 nuyen/month** each before patron subsidy
+- 10-member circle: **1,000 nuyen/month** each before patron subsidy
+- 20-member circle: **500 nuyen/month** each before patron subsidy
+
+Recommended ruling: ordinary auxiliary dues are reduced or waived, but Valgaut owes regular **Deed** service instead.
+
+### 4. Compatibility Test Against the Magical Link
+
+Once Karma and dues are arranged, the group tests whether Valgaut fits its magical link.
+
+Rules test:
+
+- Roll Valgaut's **highest Magical Skill or Magic Attribute**, whichever is better.
+- Valgaut's best known option is **Magic 6**. His active magical skill **Talismongering 4** is lower, so use Magic 6 unless the sheet changes.
+- **Target Number:** the group's current membership.
+- If Valgaut is already an initiate, reduce the TN by his initiate grade. Current assumption: **Grade 0**, so no reduction.
+- Apply **+2 TN per Magic Point lost without a compensating geas**. Current assumption: no Magic loss, so no modifier.
+- **One success admits him.**
+
+Because the Hidden Enforcers are a large umbrella group, use the membership of the accepting **circle** rather than the entire citywide umbrella. MitS explicitly allows large groups to break into circles, lodges, ranks, or orders, and another branch may accept a candidate if one cannot.
+
+Recommended TN options:
+
+- Small sponsor cell, 4 current members: **Magic 6 vs TN 4**
+- Special Threats auxiliary circle, 6 current members: **Magic 6 vs TN 6**
+- Larger precinct circle, 8 current members: **Magic 6 vs TN 8**
+
+Recommended default for Valgaut: **Magic 6 vs TN 6**, representing a six-member Special Threats / auxiliary intake circle.
+
+If the test fails, Valgaut can try again in **1D6 months**. The second attempt uses **half the original TN**. If the second test fails, that circle cannot admit him.
+
+### 5. Swear the Enforcer Oath and Accept Strictures
+
+Admission should include a scene where Valgaut swears the Hidden Enforcers' oath and accepts the practical strictures.
+
+Minimum membership strictures to put on the sheet / notes:
+
+- **Oath:** obey group rules and strictures.
+- **Limited Membership:** he is admitted only under the sponsored auxiliary exception.
+- **Secrecy:** do not reveal the group.
+- **Attendance:** attend reviews, rituals, or training when called.
+- **Obedience:** obey magical-hierarchy orders tied to group security, magical discipline, initiation, or occult-threat response.
+- **Fraternity:** aid members in magical emergencies.
+- **Deed:** owe periodic service.
+
+Rules warning: if Valgaut later loses membership in a group to which he has sworn an oath, MitS calls for a **Magic loss check** under SR3 Magic loss rules.
+
+### 6. Optional First Group Initiation
+
+Joining the group is **not** the same thing as initiating. After admission, Valgaut can pursue Grade 1 initiation through the group once he has enough Karma and the GM agrees the story timing works.
+
+For Grade 1:
+
+- Base Cost = **5 + desired grade** = 5 + 1 = **6**
+- Group initiation: **6 x 2 = 12 Karma**
+- Group initiation with ordeal: **6 x 1.5 = 9 Karma**
+
+If the Enforcer Oath is used as Valgaut's first qualifying **Oath ordeal**, the Grade 1 initiation costs **9 Karma**. If the oath is treated as admission paperwork only and not an initiation ordeal, or if he has already used an oath ordeal elsewhere, Grade 1 costs **12 Karma**.
+
+Total Karma from zero to admitted Grade 1:
+
+- Join now + later group initiation without ordeal: **3 + 12 = 15 Karma**, plus dues
+- Join now + later group initiation with first oath ordeal: **3 + 9 = 12 Karma**, plus dues
+
+With Valgaut's current **4 Karma**, he can pay the **3 Karma joining cost**, but after that he needs:
+
+- **8 more Karma** for Grade 1 with oath ordeal, or
+- **11 more Karma** for Grade 1 without ordeal.
+
+### 7. What Valgaut Gets From Grade 1
+
+On successful initiation to Grade 1, Valgaut becomes a **Grade 1 initiate**. Under MitS, initiation raises Magic by 1 unless the character chooses an option such as shedding a geas instead. For an adept, that additional Magic Point grants an additional **Power Point** for adept powers.
+
+Expected Grade 1 payoff if he takes the normal adept advancement path:
+
+- Initiate Grade becomes **1**.
+- Magic rises from **6 to 7**.
+- Valgaut gains **+1 Power Point** for adept powers.
+- He gains Grade 1 initiate benefits such as astral-pool-related initiate rules where applicable.
+- Any metamagic choice should be GM-approved for a physical adept and tied to the group's training style.
+
+### 8. Clean Table Sequence
+
+1. Glenn or another member sponsors Valgaut as a Special Threats auxiliary candidate.
+2. GM confirms the accepting circle size; default recommendation: **6 members**.
+3. Valgaut pays **3 Karma** and either pays or has waived/subsidized first-month dues.
+4. Roll **Magic 6 vs TN 6** by default. One success admits him.
+5. If admitted, record the Hidden Enforcers membership and strictures.
+6. If the GM wants immediate initiation, wait until Valgaut has enough Karma: **9 Karma** for Grade 1 with first oath ordeal, or **12 Karma** without ordeal.
+7. On Grade 1 initiation, record Magic 7 and **+1 adept Power Point** unless a different initiation option is chosen.
+
+### 9. Suggested Character Note
+
+If Valgaut joins but does not initiate yet, use:
+
+> Valgaut is a sponsored auxiliary member of the Hidden Enforcers' Special Threats circle. He has paid the 3 Karma admission cost, sworn secrecy and service strictures, and passed the magical-link compatibility test. He is a member but not yet an initiate through the group.
+
+If Valgaut later initiates through them, add:
+
+> Valgaut completed Grade 1 group initiation through the Hidden Enforcers. Cost was 9 Karma if the Enforcer Oath counted as his first oath ordeal, or 12 Karma otherwise. His Magic rose to 7 and, as an adept, he gained 1 Power Point.
+
 ## Open GM Questions
 
 - What is the group's actual avatar or magical-link symbol?
@@ -146,9 +283,12 @@ Use the Hidden Enforcers when the story needs:
 - Are adepts full members, auxiliary members, or routed into their own circle?
 - How much of Nashville PD command knows the group exists?
 - Has the group ever lost or nearly lost its magical link because of corruption, coverups, or unlawful violence?
+- For Valgaut specifically, does Glenn's sponsorship create a formal auxiliary exception to Limited Membership?
+- Should the Enforcer Oath count as Valgaut's first qualifying oath ordeal, or only as admission paperwork?
 
 ## Rules Sources
 
+- **Magic in the Shadows**, initiation costs and ordeals: page markers 57-63 in the local SR3 corpus, especially Grade 1 base cost, group initiation multiplier, ordeal multiplier, meditation/oath/thesis ordeals, and adept Power Point gain from increased Magic.
 - **Magic in the Shadows**, magical groups and strictures: page markers 63-68 in the local SR3 corpus, especially magical link, purposes, strictures, group resources, joining, founding, and large-group sub-circles.
 - **Magic in the Shadows**, pre-generated group examples: page markers 69-70, especially circle/rank structures and patron-backed corporate or civic-style magical groups.
 - Local corpus file: `/Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/SR3_Magic_in_the_Shadows_FanPro/source.md`
