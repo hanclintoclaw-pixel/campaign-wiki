@@ -2,7 +2,7 @@
 title: Hidden Enforcers
 type: faction
 visibility: player-safe
-updated: 2026-04-10
+updated: 2026-06-12
 aliases:
   - Hidden Enforcers
 ---
@@ -12,6 +12,8 @@ aliases:
 ## Overview
 
 A police-adjacent or covert-order faction that appears in the background of Nashville unrest and civic-order scenes. They are one of the recognizable organized powers still functioning amid local instability.
+
+For an out-of-character / rules-facing profile of the group's true initiatory structure, see [Hidden Enforcers - True Names](Hidden-Enforcers/True-Names.md).
 
 ## What the crew knows
 
