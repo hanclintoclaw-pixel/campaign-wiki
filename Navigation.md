@@ -21,6 +21,7 @@ updated: 2026-04-10
 - [Clue Registry](Clues/)
 - [Plot Arcs](Arcs/)
 - [Timeline](Timeline/index.md)
+- [Page Templates](Templates/README.md)
 
 ## Expanded reference layers
 

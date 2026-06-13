@@ -13,6 +13,7 @@ Git-backed Markdown campaign memory for the Nashville Shadowrun game.
 - `Clues/` — clue registry and evidence graph
 - `Arcs/` — major plot arcs
 - `Timeline/` — campaign chronology
+- `Templates/` — copyable starter pages for common wiki categories
 - `meta/` — schemas, templates, conventions
 
 ## Editing model
