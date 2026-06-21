@@ -3,7 +3,7 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-06-11
+updated: 2026-06-20
 owner: Curtis
 contributors:
   - Ace Malone
@@ -167,12 +167,12 @@ Then apply the side tracks:
 - **Day 9 — 2026-06-04:** **Secure storage and staging** resolved at **3 primary successes** and **1 support success**. Curtis set up a secure, low-profile staging area for the habitat supplies, keeping bulky materials organized, covered, and ready for the next construction phase without making Taco's compound look like a hot construction target. The strong primary result tightened the operation, and the support success cut waste and friction. **Day 9 effect:** +3 PP and -2 CP. **Totals after Day 9:** PP 19, CP -2, QE 1.
 - **Day 10 — 2026-06-11:** **Foundation and anchoring layout** resolved at **2 primary successes** and **1 support success**. Curtis gets the habitat's foundation plan properly squared away for Taco's adjacent lot: tank pads, anchoring points, service access, drainage slope, and storm-load tie-downs are laid out well enough that the heavy construction work can proceed without guesswork. The support success adds a sturdier safety margin to the design, giving the enclosure better resistance against settling, vibration, and bad weather. **Day 10 effect:** +2 PP and +1 QE. **Totals after Day 10:** PP 21, CP -2, QE 2.
 - **Day 11 — 2026-06-11:** **Storm baffling and breakwater prep** resolved at **2 primary successes** and **1 support success**. Curtis gets the first real storm-defense layer designed and staged: splash baffles, overflow paths, wind-driven water control, and reinforced edge barriers that should keep hurricane-seal thrashing from turning the habitat rim into shrapnel. The support success keeps the work orderly and low-waste, but Day 11 has no separate support-track bonus. No complication triggers because the primary roll was not 0 successes. **Day 11 effect:** +2 PP. **Totals after Day 11:** PP 23, CP -2, QE 2.
-- **Day 12:** pending
-- **Day 13:** pending
-- **Day 14:** pending
-- **Day 15:** pending
-- **Day 16:** pending
-- **Day 17:** pending
+- **Day 12 — 2026-06-12:** **Pump and circulation install** resolved at **0 primary successes** and **0 support successes**. Curtis loses the day wrestling with pump alignment, circulation routing, and hardware that refuses to settle into a reliable loop; nothing breaks catastrophically, but the crew burns time and parts budget chasing leaks, fittings, and flow problems instead of making usable progress. Day 12 has no listed complication trigger, and the failed support test adds no bonus. **Day 12 effect:** +0 PP and +2 CP. **Totals after Day 12:** PP 23, CP 0, QE 2.
+- **Day 13 — 2026-06-13:** Prompt posted for **Filtration and water-quality systems**: Primary TN 6, Support TN 5, no listed complication trigger; awaiting roll results.
+- **Day 14 — 2026-06-14:** Prompt posted for **Creature-safe partitioning**: Primary TN 5, Support TN 4, no listed complication trigger; awaiting roll results.
+- **Day 15 — 2026-06-20:** **Access routes and maintenance catwalks** resolved at **3 primary successes** and **3 support successes**. Curtis gets the habitat's practical service skeleton into shape: sturdy catwalk lines, safe maintenance access over the tank zones, ladder and hatch placement, and enough clearance for Mr. Clean/Waddles-style support work without workers leaning over angry storm-seal water. The strong primary work keeps the build moving cleanly, and the support success trims waste by catching awkward access conflicts before material gets cut. **Day 15 effect:** +3 PP and -2 CP.
+- **Day 16 — 2026-06-20:** **Power, backup, and failover routing** resolved at **1 primary success** and **1 support success**. Curtis gets the baseline power path working: main feed routing, backup handoff points, weatherproof conduit lanes, and a workable failover plan for pumps, sensors, and emergency lighting. It is not elegant yet, but it is functional, and the primary success avoids the emergency bypass complication. Day 16 has no separate support-track bonus. **Day 16 effect:** +1 PP. **Known totals after Day 16, with Days 13-14 still pending:** PP 27, CP -2, QE 2.
+- **Day 17 — 2026-06-21:** Prompt posted for **Sensors, monitors, and warning systems**: Primary TN 5, Support TN 5, no listed complication trigger; awaiting roll results.
 - **Day 18:** pending
 - **Day 19:** pending
 - **Day 20:** pending
@@ -194,6 +194,8 @@ Then apply the side tracks:
 - **2026-06-11** — Logged Day 10 foundation and anchoring layout at 2 primary / 1 support (+2 PP, +1 QE), bringing totals to PP 21, CP -2, QE 2.
 - **2026-06-11** — Corrected Day 11 to storm baffling and breakwater prep, then logged it at 2 primary / 1 support (+2 PP), bringing totals to PP 23, CP -2, QE 2.
 - **2026-06-11** — Added the generated top-down gridded habitat map to the project page assets and embedded it in Concept Art.
+- **2026-06-12** — Logged Day 12 pump and circulation install at 0 primary / 0 support (+0 PP, +2 CP), bringing totals to PP 23, CP 0, QE 2.
+- **2026-06-20** — Logged Day 15 access routes and maintenance catwalks at 3 primary / 3 support (+3 PP, -2 CP) and Day 16 power, backup, and failover routing at 1 primary / 1 support (+1 PP), making the known totals PP 27, CP -2, QE 2 while Days 13-14 remain pending.
 
 - **2026-05-22** — Page created to track the habitat buildout under Curtis.
 - **2026-05-24** — Added ongoing 30-day build-out tracking section for daily Curtis progress summaries.
