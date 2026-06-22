@@ -13,6 +13,7 @@ sources:
   - Ace Malone request in Discord on 2026-05-22
   - Ace Malone concept image in Discord on 2026-05-27
   - JackalMoreau concept image in Discord on 2026-05-27
+  - Ace Malone transport-planning clarification in Discord on 2026-06-22
 ---
 
 # Curtis Dolphin and Hurricane Seal Habitat
@@ -42,6 +43,7 @@ _Top-down gridded map of the planned compound-lot habitat, with tank zones, stor
 ## Goals
 
 - Create a habitat plan that supports dolphins and hurricane seals together
+- Include a covert, safe transportation plan for Core 7/Cor7 and the enhanced seals before relocation is attempted
 - Track construction ideas, dependencies, and updates in one place
 - Preserve player-safe notes the crew can reference later
 
@@ -50,6 +52,7 @@ _Top-down gridded map of the planned compound-lot habitat, with tank zones, stor
 - Project page created
 - Initial concept established: shared habitat for **Core 7** and his seal friends
 - Confirmed build site: **adjacent lot at Taco’s compound**, on land rather than shoreline
+- New critical constraint: relocation must be covert and safe because **Core 7/Cor7 is heavily chromed, machine-connected, and as much machine as dolphin**, while the hurricane seals are also enhanced animals rather than ordinary marine cargo
 - Detailed build requirements still to be defined
 
 ## Build Notes
@@ -59,6 +62,10 @@ _Top-down gridded map of the planned compound-lot habitat, with tank zones, stor
 - Mixed marine habitat
 - Must account for both dolphin movement needs and seal comfort/safety
 - Hurricane-seal-specific requirements still to be clarified
+
+### Covert relocation constraint
+
+Curtis should not plan this as a simple animal pickup. Moving Core 7/Cor7 and the hurricane seals to Taco's compound needs its own covert transport plan: concealed vehicle routing, water/life-support during transit, machine-interface stabilization for Core 7's chrome and connected systems, restraint/handling that does not injure enhanced animals, and a low-signature loading/unloading window. The habitat is only truly ready if the team can move the animals without exposing them, damaging Core 7's machine connections, or turning the seals into panicked cybered cargo.
 
 ### Open questions
 
@@ -72,6 +79,7 @@ _Top-down gridded map of the planned compound-lot habitat, with tank zones, stor
 - [ ] Define size and major enclosure zones
 - [ ] List environmental controls and support systems
 - [ ] Record materials, costs, and labor needs
+- [ ] Plan covert transport, life-support, and machine-interface stabilization for Core 7/Cor7 and the enhanced seals
 - [ ] Track build milestones and changes
 
 ## Ongoing Build Out
@@ -146,7 +154,7 @@ Then apply the side tracks:
 16. **Power, backup, and failover routing** — Primary TN 6; Support TN 5. Complication on 0 successes: TN 6 emergency bypass test.
 17. **Sensors, monitors, and warning systems** — Primary TN 5; Support TN 5. Bonus: +1 QE on Support success.
 18. **Feed, med, and handling support setup** — Primary TN 5; Support TN 4. Bonus: +1 PP on Support success.
-19. **Security hardening without drawing heat** — Primary TN 6; Support TN 5. On failed Support: +1 CP.
+19. **Security hardening and covert relocation planning** — Primary TN 6; Support TN 5. Includes low-signature transport planning for Core 7/Cor7 and the enhanced seals. On failed Support: +1 CP.
 20. **Creature comfort pass** — Primary TN 4; Support TN 4. Bonus: +1 QE on Support success.
 21. **Weather stress test** — Primary TN 6; Support TN 5. Complication on 0-1 successes: +1 CP and +1D3 extra days unless later recovered.
 22. **Leak, fault, and weak-point sweep** — Primary TN 5; Support TN 5. Bonus: -1 CP on Support success.
@@ -174,7 +182,7 @@ Then apply the side tracks:
 - **Day 16 — 2026-06-20:** **Power, backup, and failover routing** resolved at **1 primary success** and **1 support success**. Curtis gets the baseline power path working: main feed routing, backup handoff points, weatherproof conduit lanes, and a workable failover plan for pumps, sensors, and emergency lighting. It is not elegant yet, but it is functional, and the primary success avoids the emergency bypass complication. Day 16 has no separate support-track bonus. **Day 16 effect:** +1 PP. **Totals after Day 16:** PP 30, CP -1, QE 4.
 - **Day 17 — 2026-06-21:** **Sensors, monitors, and warning systems** resolved at **3 primary successes** and **3 support successes**. Curtis gets the habitat's warning layer properly online: water-quality alarms, pump alerts, storm-pressure monitors, creature-safety sensors, and a usable status dashboard instead of scattered readouts. The system is clean enough to catch trouble early, not just scream after something is already flooding or chewing through conduit. **Day 17 effect:** +3 PP, -1 CP, and +1 QE. **Totals after Day 17:** PP 33, CP -2, QE 5.
 - **Day 18 — 2026-06-22:** **Feed, med, and handling support setup** resolved at **1 primary success** and **1 support success**. Curtis gets the basic animal-care support layer into place rather than a polished professional system: dry/cold feed storage is marked out, med-kit and emergency dosing supplies get staged near the service lane, and the crew has a workable routine for feeding, checking, and moving dolphins or hurricane seals without improvising every visit. The support success matters here: it turns a bare-minimum setup into something organized enough that helpers can follow it, with labeled bins, simple handling paths, and fewer chances for a hungry cyber-seal to turn routine care into a slapstick mauling. **Day 18 effect:** +2 PP. **Totals after Day 18:** PP 35, CP -2, QE 5.
-- **Day 19:** pending
+- **Day 19:** pending; updated focus is **Security hardening and covert relocation planning** for Core 7/Cor7 and the enhanced seals.
 - **Day 20:** pending
 - **Day 21:** pending
 - **Day 22:** pending
@@ -195,6 +203,7 @@ Then apply the side tracks:
 - **2026-06-11** — Corrected Day 11 to storm baffling and breakwater prep, then logged it at 2 primary / 1 support (+2 PP), bringing totals to PP 23, CP -2, QE 2.
 - **2026-06-11** — Added the generated top-down gridded habitat map to the project page assets and embedded it in Concept Art.
 - **2026-06-12** — Logged Day 12 pump and circulation install at 0 primary / 0 support (+0 PP, +2 CP), bringing totals to PP 23, CP 0, QE 2.
+- **2026-06-22** — Added covert relocation as a critical planning constraint: Core 7/Cor7 is heavily chromed and machine-connected, the seals are enhanced animals, and Curtis must plan safe low-signature transport before moving them to Taco's compound.
 - **2026-06-22** — Logged missed Day 13 filtration and water-quality systems at 0 primary / 2 support (+0 PP, +2 CP, +1 QE) and Day 14 creature-safe partitioning at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), then reconciled running totals through Day 18 to PP 35, CP -2, QE 5.
 - **2026-06-22** — Logged Day 18 feed, med, and handling support setup at 1 primary / 1 support (+2 PP), initially leaving Days 13-14 pending.
 - **2026-06-21** — Logged Day 17 sensors, monitors, and warning systems at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), initially leaving Days 13-14 pending.
