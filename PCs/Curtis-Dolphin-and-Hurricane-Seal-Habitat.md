@@ -3,7 +3,7 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-06-21
+updated: 2026-06-22
 owner: Curtis
 contributors:
   - Ace Malone
@@ -173,7 +173,7 @@ Then apply the side tracks:
 - **Day 15 — 2026-06-20:** **Access routes and maintenance catwalks** resolved at **3 primary successes** and **3 support successes**. Curtis gets the habitat's practical service skeleton into shape: sturdy catwalk lines, safe maintenance access over the tank zones, ladder and hatch placement, and enough clearance for Mr. Clean/Waddles-style support work without workers leaning over angry storm-seal water. The strong primary work keeps the build moving cleanly, and the support success trims waste by catching awkward access conflicts before material gets cut. **Day 15 effect:** +3 PP and -2 CP.
 - **Day 16 — 2026-06-20:** **Power, backup, and failover routing** resolved at **1 primary success** and **1 support success**. Curtis gets the baseline power path working: main feed routing, backup handoff points, weatherproof conduit lanes, and a workable failover plan for pumps, sensors, and emergency lighting. It is not elegant yet, but it is functional, and the primary success avoids the emergency bypass complication. Day 16 has no separate support-track bonus. **Day 16 effect:** +1 PP. **Known totals after Day 16, with Days 13-14 still pending:** PP 27, CP -2, QE 2.
 - **Day 17 — 2026-06-21:** **Sensors, monitors, and warning systems** resolved at **3 primary successes** and **3 support successes**. Curtis gets the habitat's warning layer properly online: water-quality alarms, pump alerts, storm-pressure monitors, creature-safety sensors, and a usable status dashboard instead of scattered readouts. The system is clean enough to catch trouble early, not just scream after something is already flooding or chewing through conduit. **Day 17 effect:** +3 PP, -1 CP, and +1 QE. **Known totals after Day 17, with Days 13-14 still pending:** PP 30, CP -3, QE 3.
-- **Day 18:** pending
+- **Day 18 — 2026-06-22:** **Feed, med, and handling support setup** resolved at **1 primary success** and **1 support success**. Curtis gets the basic animal-care support layer into place: feed storage and prep, med-kit staging, handling tools, and a workable service routine for keeping dolphins and hurricane seals fed, checked, and moved without turning every visit into a scramble. The support success adds one extra bit of practical progress by making the day-to-day handling lane smoother. **Day 18 effect:** +2 PP. **Known totals after Day 18, with Days 13-14 still pending:** PP 32, CP -3, QE 3.
 - **Day 19:** pending
 - **Day 20:** pending
 - **Day 21:** pending
@@ -195,6 +195,7 @@ Then apply the side tracks:
 - **2026-06-11** — Corrected Day 11 to storm baffling and breakwater prep, then logged it at 2 primary / 1 support (+2 PP), bringing totals to PP 23, CP -2, QE 2.
 - **2026-06-11** — Added the generated top-down gridded habitat map to the project page assets and embedded it in Concept Art.
 - **2026-06-12** — Logged Day 12 pump and circulation install at 0 primary / 0 support (+0 PP, +2 CP), bringing totals to PP 23, CP 0, QE 2.
+- **2026-06-22** — Logged Day 18 feed, med, and handling support setup at 1 primary / 1 support (+2 PP), making the known totals PP 32, CP -3, QE 3 while Days 13-14 remain pending.
 - **2026-06-21** — Logged Day 17 sensors, monitors, and warning systems at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), making the known totals PP 30, CP -3, QE 3 while Days 13-14 remain pending.
 - **2026-06-20** — Logged Day 15 access routes and maintenance catwalks at 3 primary / 3 support (+3 PP, -2 CP) and Day 16 power, backup, and failover routing at 1 primary / 1 support (+1 PP), making the known totals PP 27, CP -2, QE 2 while Days 13-14 remain pending.
 
