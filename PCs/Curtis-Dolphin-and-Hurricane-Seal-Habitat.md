@@ -3,7 +3,7 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-06-22
+updated: 2026-06-23
 owner: Curtis
 contributors:
   - Ace Malone
@@ -79,7 +79,7 @@ Curtis should not plan this as a simple animal pickup. Moving Core 7/Cor7 and th
 - [ ] Define size and major enclosure zones
 - [ ] List environmental controls and support systems
 - [ ] Record materials, costs, and labor needs
-- [ ] Plan covert transport, life-support, and machine-interface stabilization for Core 7/Cor7 and the enhanced seals
+- [x] Plan covert transport, life-support, and machine-interface stabilization for Core 7/Cor7 and the enhanced seals
 - [ ] Track build milestones and changes
 
 ## Ongoing Build Out
@@ -182,7 +182,7 @@ Then apply the side tracks:
 - **Day 16 — 2026-06-20:** **Power, backup, and failover routing** resolved at **1 primary success** and **1 support success**. Curtis gets the baseline power path working: main feed routing, backup handoff points, weatherproof conduit lanes, and a workable failover plan for pumps, sensors, and emergency lighting. It is not elegant yet, but it is functional, and the primary success avoids the emergency bypass complication. Day 16 has no separate support-track bonus. **Day 16 effect:** +1 PP. **Totals after Day 16:** PP 30, CP -1, QE 4.
 - **Day 17 — 2026-06-21:** **Sensors, monitors, and warning systems** resolved at **3 primary successes** and **3 support successes**. Curtis gets the habitat's warning layer properly online: water-quality alarms, pump alerts, storm-pressure monitors, creature-safety sensors, and a usable status dashboard instead of scattered readouts. The system is clean enough to catch trouble early, not just scream after something is already flooding or chewing through conduit. **Day 17 effect:** +3 PP, -1 CP, and +1 QE. **Totals after Day 17:** PP 33, CP -2, QE 5.
 - **Day 18 — 2026-06-22:** **Feed, med, and handling support setup** resolved at **1 primary success** and **1 support success**. Curtis gets the basic animal-care support layer into place rather than a polished professional system: dry/cold feed storage is marked out, med-kit and emergency dosing supplies get staged near the service lane, and the crew has a workable routine for feeding, checking, and moving dolphins or hurricane seals without improvising every visit. The support success matters here: it turns a bare-minimum setup into something organized enough that helpers can follow it, with labeled bins, simple handling paths, and fewer chances for a hungry cyber-seal to turn routine care into a slapstick mauling. **Day 18 effect:** +2 PP. **Totals after Day 18:** PP 35, CP -2, QE 5.
-- **Day 19:** pending; updated focus is **Security hardening and covert relocation planning** for Core 7/Cor7 and the enhanced seals.
+- **Day 19 — 2026-06-23:** **Security hardening and covert relocation planning** resolved at **1 primary success** and **1 support success**. Curtis gets the minimum viable quiet-move package into place: a low-signature route into Taco's compound, a concealed loading window, basic water/life-support staging for the trip, and a handling checklist that keeps Core 7/Cor7's machine connections and the enhanced seals' restraints from becoming the loudest part of the operation. It is not a slick black-ops extraction plan, but it is coherent enough that the move no longer depends on improvising with angry cyber-seals in transit. The support success avoids the failed-support cost penalty. **Day 19 effect:** +1 PP. **Totals after Day 19:** PP 36, CP -2, QE 5.
 - **Day 20:** pending
 - **Day 21:** pending
 - **Day 22:** pending
@@ -206,6 +206,7 @@ Then apply the side tracks:
 - **2026-06-22** — Added covert relocation as a critical planning constraint: Core 7/Cor7 is heavily chromed and machine-connected, the seals are enhanced animals, and Curtis must plan safe low-signature transport before moving them to Taco's compound.
 - **2026-06-22** — Logged missed Day 13 filtration and water-quality systems at 0 primary / 2 support (+0 PP, +2 CP, +1 QE) and Day 14 creature-safe partitioning at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), then reconciled running totals through Day 18 to PP 35, CP -2, QE 5.
 - **2026-06-22** — Logged Day 18 feed, med, and handling support setup at 1 primary / 1 support (+2 PP), initially leaving Days 13-14 pending.
+- **2026-06-23** — Logged Day 19 security hardening and covert relocation planning at 1 primary / 1 support (+1 PP), bringing totals to PP 36, CP -2, QE 5.
 - **2026-06-21** — Logged Day 17 sensors, monitors, and warning systems at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), initially leaving Days 13-14 pending.
 - **2026-06-20** — Logged Day 15 access routes and maintenance catwalks at 3 primary / 3 support (+3 PP, -2 CP) and Day 16 power, backup, and failover routing at 1 primary / 1 support (+1 PP), initially leaving Days 13-14 pending.
 
