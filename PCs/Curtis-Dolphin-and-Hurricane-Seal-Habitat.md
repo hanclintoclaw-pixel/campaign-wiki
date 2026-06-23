@@ -60,24 +60,27 @@ _Top-down gridded map of the planned compound-lot habitat, with tank zones, stor
 ### Habitat concept
 
 - Mixed marine habitat
-- Must account for both dolphin movement needs and seal comfort/safety
-- Hurricane-seal-specific requirements still to be clarified
+- Permanent base for Core 7/Cor7 and the enhanced seals
+- Open, storm-proofed water rather than sheltered pens; dolphins do not need rain protection
+- Must account for dolphin movement needs, seal comfort/safety, and hurricane-grade weather exposure
 
 ### Covert relocation constraint
 
 Curtis should not plan this as a simple animal pickup. Moving Core 7/Cor7 and the hurricane seals to Taco's compound needs its own covert transport plan: concealed vehicle routing, water/life-support during transit, machine-interface stabilization for Core 7's chrome and connected systems, restraint/handling that does not injure enhanced animals, and a low-signature loading/unloading window. The habitat is only truly ready if the team can move the animals without exposing them, damaging Core 7's machine connections, or turning the seals into panicked cybered cargo.
 
-### Open questions
+### Settled requirements
 
-- What environment does Core 7 need most: open water, sheltered pens, stormproof enclosure, or all three?
-- Are there special matrix, mechanical, magical, or medical requirements tied to the habitat?
-- Is this intended as a permanent base, a temporary rescue habitat, or a mobile setup?
+- **Environment:** Core 7/Cor7 needs open, storm-proofed water. No sheltered pen is required.
+- **Matrix:** the habitat needs a Matrix connection for streaming dolphin footage to the monitors.
+- **Mechanical/medical:** maintenance access and procedures must account for Cor7's chrome enhancements and upkeep of those parts.
+- **Magical:** no magical support requirement is currently identified.
+- **Use case:** permanent base, not a temporary rescue habitat or mobile setup.
 
 ### To-do
 
 - [x] Define the intended location — adjacent lot at Taco’s compound (land build, no shoreline)
 - [ ] Define size and major enclosure zones
-- [ ] List environmental controls and support systems
+- [x] List environmental controls and support systems
 - [ ] Record materials, costs, and labor needs
 - [x] Plan covert transport, life-support, and machine-interface stabilization for Core 7/Cor7 and the enhanced seals
 - [ ] Track build milestones and changes
@@ -207,6 +210,7 @@ Then apply the side tracks:
 - **2026-06-22** — Logged missed Day 13 filtration and water-quality systems at 0 primary / 2 support (+0 PP, +2 CP, +1 QE) and Day 14 creature-safe partitioning at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), then reconciled running totals through Day 18 to PP 35, CP -2, QE 5.
 - **2026-06-22** — Logged Day 18 feed, med, and handling support setup at 1 primary / 1 support (+2 PP), initially leaving Days 13-14 pending.
 - **2026-06-23** — Logged Day 19 security hardening and covert relocation planning at 1 primary / 1 support (+1 PP), bringing totals to PP 36, CP -2, QE 5.
+- **2026-06-23** — Replaced the open questions with settled habitat requirements: permanent base, open storm-proofed water, Matrix monitor feed, chrome-maintenance medical support, and no magical requirement.
 - **2026-06-21** — Logged Day 17 sensors, monitors, and warning systems at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), initially leaving Days 13-14 pending.
 - **2026-06-20** — Logged Day 15 access routes and maintenance catwalks at 3 primary / 3 support (+3 PP, -2 CP) and Day 16 power, backup, and failover routing at 1 primary / 1 support (+1 PP), initially leaving Days 13-14 pending.
 
