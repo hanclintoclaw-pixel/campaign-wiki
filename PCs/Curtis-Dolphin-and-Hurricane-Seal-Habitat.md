@@ -3,7 +3,7 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-06-24
+updated: 2026-06-25
 owner: Curtis
 contributors:
   - Ace Malone
@@ -187,7 +187,7 @@ Then apply the side tracks:
 - **Day 18 — 2026-06-22:** **Feed, med, and handling support setup** resolved at **1 primary success** and **1 support success**. Curtis gets the basic animal-care support layer into place rather than a polished professional system: dry/cold feed storage is marked out, med-kit and emergency dosing supplies get staged near the service lane, and the crew has a workable routine for feeding, checking, and moving dolphins or hurricane seals without improvising every visit. The support success matters here: it turns a bare-minimum setup into something organized enough that helpers can follow it, with labeled bins, simple handling paths, and fewer chances for a hungry cyber-seal to turn routine care into a slapstick mauling. **Day 18 effect:** +2 PP. **Totals after Day 18:** PP 35, CP -2, QE 5.
 - **Day 19 — 2026-06-23:** **Security hardening and covert relocation planning** resolved at **1 primary success** and **1 support success**. Curtis gets the minimum viable quiet-move package into place: a low-signature route into Taco's compound, a concealed loading window, basic water/life-support staging for the trip, and a handling checklist that keeps Core 7/Cor7's machine connections and the enhanced seals' restraints from becoming the loudest part of the operation. It is not a slick black-ops extraction plan, but it is coherent enough that the move no longer depends on improvising with angry cyber-seals in transit. The support success avoids the failed-support cost penalty. **Day 19 effect:** +1 PP. **Totals after Day 19:** PP 36, CP -2, QE 5.
 - **Day 20 — 2026-06-24:** **Creature comfort pass** resolved at **3 primary successes** and **3 support successes** from roll **6, 5, 4, 3, 1** against TN 4 for both tests. Curtis turns the habitat from merely survivable into something the dolphins and hurricane seals can actually settle into: sheltered rest zones, safer haul-out edges, calmer approach lanes, better shade and splash control, and small creature-handling details that reduce stress instead of just containing it. The support success adds the listed comfort-quality bump, so this day meaningfully improves the final enclosure rather than only pushing construction forward. **Day 20 effect:** +3 PP, -1 CP, and +1 QE. **Totals after Day 20:** PP 39, CP -3, QE 6.
-- **Day 21:** pending
+- **Day 21 — 2026-06-25:** **Weather stress test** resolved at **1 primary success** and **1 support success** from roll **3, 4, 3, 4, 6** against Primary TN 6 and Support TN 5. Curtis gets the habitat through its first hard weather-readiness pass, but only just: the storm baffling and tie-down logic mostly hold, while stress points show up around splash control, edge loading, and emergency drainage under ugly conditions. The support hit keeps the testing organized enough to produce useful fixes instead of confusion, but Day 21's listed complication still triggers on 0-1 primary successes: the project gains **+1 CP** and **+1 provisional extra day** unless later recovered. **Day 21 effect:** +1 PP, +1 CP, and +1 provisional extra day. **Totals after Day 21:** PP 40, CP -2, QE 6, provisional extra days +1.
 - **Day 22:** pending
 - **Day 23:** pending
 - **Day 24:** pending
@@ -211,6 +211,7 @@ Then apply the side tracks:
 - **2026-06-22** — Logged Day 18 feed, med, and handling support setup at 1 primary / 1 support (+2 PP), initially leaving Days 13-14 pending.
 - **2026-06-23** — Logged Day 19 security hardening and covert relocation planning at 1 primary / 1 support (+1 PP), bringing totals to PP 36, CP -2, QE 5.
 - **2026-06-24** — Logged Day 20 creature comfort pass at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), bringing totals to PP 39, CP -3, QE 6.
+- **2026-06-25** — Logged Day 21 weather stress test at 1 primary / 1 support (+1 PP, +1 CP, +1 provisional extra day), bringing totals to PP 40, CP -2, QE 6, provisional extra days +1.
 - **2026-06-23** — Replaced the open questions with settled habitat requirements: permanent base, open storm-proofed water, Matrix monitor feed, chrome-maintenance medical support, and no magical requirement.
 - **2026-06-21** — Logged Day 17 sensors, monitors, and warning systems at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), initially leaving Days 13-14 pending.
 - **2026-06-20** — Logged Day 15 access routes and maintenance catwalks at 3 primary / 3 support (+3 PP, -2 CP) and Day 16 power, backup, and failover routing at 1 primary / 1 support (+1 PP), initially leaving Days 13-14 pending.
