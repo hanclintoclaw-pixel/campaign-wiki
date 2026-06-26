@@ -16,6 +16,7 @@
 - [Gladwell Institute](Gladwell-Institute.md)
 - [612 Wharf Avenue and Site 7](612-Wharf-and-Site-7.md)
 - [Music Circle](Music-Circle.md)
+- [Josie's Billiard Hall](Josies-Billiard-Hall.md)
 
 ## See also
 

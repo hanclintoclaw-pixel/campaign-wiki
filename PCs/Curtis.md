@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-06-05
+last_updated_session: 2026-06-25
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -13,6 +13,7 @@ sources:
   - Curtis attributes screenshot shared by player on 2026-06-05
   - Curtis active skills screenshot shared by player on 2026-06-05
   - Curtis knowledge and language skills screenshot shared by player on 2026-06-05
+  - ../Sessions/2026-06-25.md
 ---
 
 # Curtis
@@ -89,6 +90,8 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock.
 - He is actively building a **dolphin and hurricane seal habitat** for the possible relocation/rescue of **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
+- During the 2066-05-09 interlude, Curtis backed Kurgan on the **Righteous Haze** job, using **Grandpa** as the lure/extraction vehicle.
+- Curtis earned **4 Karma** and **5,000¥ total payout / recovered value** from the Righteous Haze interlude.
 
 ## Rigger Asset Highlights
 
@@ -111,6 +114,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 ## Relevant Sessions
 
 - 2026-06-04 — balanced ongoing habitat work with the new **Griswell Data Services** surveillance job, using drone and vehicle support against Alvin Flang's trail.
+- 2026-06-25 — backed Kurgan in the backdated Righteous Haze interlude, using Grandpa and social cover to isolate the target.
 
 ## Sheet Snapshot
 
@@ -121,6 +125,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 - `PARTY_DOSSIER.md`
 - [Session 2026-06-04](../Sessions/2026-06-04.md)
+- [Session 2026-06-25](../Sessions/2026-06-25.md)
 - player-shared Curtis attributes screenshot received 2026-06-05
 - player-shared Curtis active skills screenshot received 2026-06-05
 - player-shared Curtis knowledge and language skills screenshot received 2026-06-05

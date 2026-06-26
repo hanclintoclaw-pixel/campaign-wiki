@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-03-23
-last_updated_session: 2026-05-29
+last_updated_session: 2026-06-25
 canon_status: provisional
 confidence: medium
 tags: [npc, principal, politics, street-samurai, sr3-stats]
@@ -14,6 +14,7 @@ sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/mayor-hagar.md
   - Shadowrun, Third Edition
   - Man & Machine
+  - ../Sessions/2026-06-25.md
 ---
 
 # Mayor Mike Haggar
@@ -30,6 +31,8 @@ Current mission principal for the Nashville Shadowrun campaign. Older consolidat
 - The overarching campaign mission state as of the early 2026 notes is "Helping Mayor Mike Haggar."
 - Older campaign material shows the mayor already mattered during the post-federal-exit unrest, including curfew and civic-order concerns.
 - Older logs also show shrine/folk-myth behavior forming around the mayor, suggesting he had symbolic weight in parts of Nashville beyond formal politics.
+- In the 2066-05-09 Righteous Haze interlude, Haggar directly hired **Kurgan** and **Curtis** through **Joseph Neumann** to remove a failed outside fixer/security consultant.
+- That same session included a table correction: visible chrome/cyberware on Haggar should **not** be treated as confirmed canon until the GM rebuilds the page/stat block.
 
 ## Relationships
 
@@ -42,6 +45,8 @@ Current mission principal for the Nashville Shadowrun campaign. Older consolidat
 - 2026-02-27 — current mission principal confirmed in roster update.
 
 ## SR3 NPC build: retired high-end street samurai / political leader
+
+> **Revision note:** Session 2026-06-25 walked back Haggar's visible cyberware as confirmed canon. The older stat block below is retained as a provisional table aid, but its cyberware assumptions need GM review before use.
 
 ### Build assumptions
 
@@ -130,7 +135,7 @@ Use alpha-grade cyberware where needed to keep the package legal and to reflect 
 - **Public appearance:** armored executive clothing or concealed lined coat equivalent; visible weapons avoided unless the scene is already in crisis.
 - **Alert appearance:** armor jacket or security armor appropriate to the venue, smartlinked heavy pistol, spare magazines, nonlethal ammunition, trauma patches, encrypted comms, and bodyguard net access.
 - **Political assets:** mayoral staff, legal counsel, press operation, city security access, friendly law-enforcement channels, emergency-response visibility, and a deep bench of people who owe him favors.
-- **Shadow assets:** old runner contacts, quiet street-level loyalty, muscle who remember the legend, and enough deniable intermediaries to act without making City Hall fingerprints obvious.
+- **Shadow assets:** old runner contacts, quiet street-level loyalty, muscle who remember the legend, enough deniable intermediaries to act without making City Hall fingerprints obvious, and a rebuilt outside-security apparatus now potentially involving **Kurgan**.
 
 ### Common table-use rolls
 
@@ -158,6 +163,7 @@ Mayor Mike Haggar is a **high-level mundane human street samurai who successfull
 
 - What is Haggar's current degree of awareness of the deeper threats the crew is facing?
 - How directly is he still tied into the crew's active operational agenda?
+- How should Haggar's prior cyberware-heavy stat block be revised after the 2026-06-25 table correction?
 
 ## Sources
 
@@ -166,3 +172,4 @@ Mayor Mike Haggar is a **high-level mundane human street samurai who successfull
 - `/Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/mayor-hagar.md`
 - *Shadowrun, Third Edition*
 - *Man & Machine*
+- [Session 2026-06-25](../Sessions/2026-06-25.md)

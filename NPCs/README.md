@@ -54,6 +54,7 @@
 
 ## Recent Threat Figures
 
+- [Righteous Haze](Righteous-Haze.md)
 - [Illwoody](Illwoody.md)
 - [McGillicuddy](McGillicuddy.md)
 

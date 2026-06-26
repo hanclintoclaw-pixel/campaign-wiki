@@ -196,6 +196,18 @@ For the cleaned-up master list that separates real-world played dates from Shado
 - **Summary:** The Darla/Bebop influence investigation escalated from tainted promotional food and warehouse surveillance into direct contact with a concealed second site behind 612 Wharf Avenue. The runners discovered heavy hidden matrix/power infrastructure, a rock-lobster-piloted combat drone, cybered hurricane seals, and an automated controller calling itself Core 7. On 2026-05-21 they confirmed that Core 7 was really centered on a cybered dolphin / wetware host-process hybrid, then breached the warehouse and found Mother Yahweh's people harvesting a chained roach spirit into counterfeit Meatlets.
 - **Session pages:** [2026-04-30](../Sessions/2026-04-30.md), [2026-05-07](../Sessions/2026-05-07.md), [2026-05-14](../Sessions/2026-05-14.md), [2026-05-21](../Sessions/2026-05-21.md)
 
+### Righteous Haze / City Hall security interlude
+- **Played:** 2026-06-25
+- **In-world:** 2066-05-09
+- **Summary:** Backdated partial-party canon interlude for **Kurgan** and **Curtis**. **Joseph Neumann** and **Mayor Mike Haggar** hired them to remove **Righteous Haze**, a failed fixer/security consultant with blackmail leverage over city operations. The run did not advance the active current-run clock, but it did advance Kurgan's City Hall relationship and put sensitive mayoral/city-official paydata in Kurgan and Curtis's hands.
+- **Session page:** [2026-06-25](../Sessions/2026-06-25.md)
+
+### Griswell / Alvin Flang surveillance job
+- **Played:** 2026-06-04 onward
+- **In-world:** 2066-05-10
+- **Summary:** The crew pivoted into a parallel corporate-espionage surveillance job routed through **Ivan** at **Atlas's**, tracking **Alvin Flang**, **Diego**, and an unidentified watcher at **Music Circle**.
+- **Session page:** [2026-06-04](../Sessions/2026-06-04.md)
+
 ## Current Known In-World Anchor
 
 - **Known current campaign year:** 2066
