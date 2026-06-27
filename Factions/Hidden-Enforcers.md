@@ -21,6 +21,11 @@ For an out-of-character / rules-facing profile of the group's true initiatory st
 - They had access to police-grade resources or at least police-grade relationships.
 - Their presence suggested semi-formal structure inside a chaotic civic environment.
 
+## Known / suspected sites
+
+- [Seven Directions Dojo](../Locations/Seven-Directions-Dojo.md) - civilian martial-arts cover location with ties to Hidden Enforcers initiatory activity.
+- [Hidden Enforcers Oath Floor](../Locations/Hidden-Enforcers-Oath-Floor.md) - GM-facing stub for the hidden lower headquarters beneath Seven Directions.
+
 ## Key sessions
 
 - [2023-09-21](../Sessions/2023-09-21.md)
