@@ -34,6 +34,24 @@ The Oath Floor supports several overlapping functions:
 
 ## Layout and rooms
 
+### Map key
+
+```text
+# = wall / reinforced concrete
++ = door or hatch
+S = stair / step-down access
+L = locker or storage
+D = desk / work surface
+B = bench
+C = chair
+T = table
+M = mat / training floor
+V = vault door
+W = interior watch window
+E = emergency exit / crawl
+~ = sump, drain, or utility run
+```
+
 ### 1. Concealed stair and old storm door
 
 The public entrance is the locked stairwell behind Seven Directions' mat-storage wall. To ordinary dojo students, it is an old condemned-basement access point used only for building maintenance. The door has mundane locks, an alarm contact, and enough grime around it to make disinterest believable.
@@ -41,6 +59,22 @@ The public entrance is the locked stairwell behind Seven Directions' mat-storage
 The stairwell descends through a narrow concrete throat to an old storm door at the bottom. This second door is the true threshold. Members treat crossing it as a reminder that they are leaving civilian cover behind and entering the order's confidence.
 
 **Function:** Screening choke point, mundane access control, and symbolic boundary between the cover business and the hidden headquarters.
+
+```text
+Seven Directions mat storage
+        |
+        +
+########+########
+#      SSS       #
+#      SSS       #
+#      SSS       #
+#      SSS       #
+########+########
+        |
+   old storm door
+        |
+  to intake antechamber
+```
 
 ### 2. Intake antechamber
 
@@ -50,6 +84,18 @@ A recessed desk can be unfolded from one wall for signing paper logs or taking c
 
 **Function:** Visitor holding, property control, initial questioning, and delay space if the site needs time to lock down.
 
+```text
+##########+##########
+# B              L L#
+# B              L L#
+#                  D#
+#                  D#
+#        waiting    #
+#        zone       #
+##########+##########
+      from stair  to hall
+```
+
 ### 3. The Seven-Point Hall
 
 The Seven-Point Hall is the central training and assembly room. It is an open concrete chamber with a reinforced ceiling, removable mats, and a seven-point compass motif painted into the center of the floor. The marks divide the room into stations used for instruction, oath recitation, and controlled sparring.
@@ -57,6 +103,21 @@ The Seven-Point Hall is the central training and assembly room. It is an open co
 During normal closed meetings, members stand by station rather than rank. During training, the mats convert the chamber into a practical fighting floor. During initiatory work, the lights are lowered and the compass points become ritual positions.
 
 **Function:** Main meeting room, oath chamber, initiatory floor, and controlled sparring space.
+
+```text
+############################
+#                          #
+#      M   M   M   M       #
+#                          #
+#   M      \ | /      M    #
+#          - * -           #
+#   M      / | \      M    #
+#                          #
+#      M   M   M   M       #
+#                          #
+########+###########W#######
+     to intake      to alcove
+```
 
 ### 4. Briefing alcove / watch desk
 
@@ -66,6 +127,17 @@ This is where trusted members quietly compare civic problems, magical disturbanc
 
 **Function:** Mission planning, local-threat triage, and internal briefings.
 
+```text
+###############W#####
+# map wall     W    #
+# [Nashville]  W    #
+#                  D#
+#       T T T      D#
+#       C C C       #
+#########+###########
+        to hall
+```
+
 ### 5. Records vault
 
 The records vault is a dry, climate-controlled archive lined with compact shelving and dull gray file cabinets. It holds paper membership ledgers, oath records, incident summaries, old case clippings, and dead-drop instructions preserved outside vulnerable public systems.
@@ -73,6 +145,17 @@ The records vault is a dry, climate-controlled archive lined with compact shelvi
 Some records are intentionally mundane: attendance sheets, dues notes, maintenance invoices, and old class rosters from Seven Directions. Others are sensitive enough that the Hidden Enforcers keep them offline by habit.
 
 **Function:** Paper archive, membership continuity, black-file storage, and evidence preservation.
+
+```text
+########V############
+# L L L    L L L    #
+# L L L    L L L    #
+#                  D#
+# compact shelves  D#
+# L L L    L L L    #
+# L L L    L L L    #
+#####################
+```
 
 ### 6. The Reliquary vault
 
@@ -89,6 +172,17 @@ Typical contents might include:
 
 **Function:** Secure artifact storage, chain-of-custody isolation, magical hazard containment, and plot hook reservoir.
 
+```text
+###########V#########
+# L  L  L     L  L  #
+#                   #
+#   hazard table T  #
+#                   #
+# L  L  L     L  L  #
+#########+###########
+  false utility panel
+```
+
 ### 7. Armory and restraint cage
 
 Separate from the Reliquary, the mundane armory holds batons, shock gloves, restraints, armor vests, old shields, training weapons, and emergency medical restraints. This room is practical rather than ceremonial; it exists so members can equip for ugly civic work without exposing the Reliquary or pulling gear through the public dojo.
@@ -96,6 +190,18 @@ Separate from the Reliquary, the mundane armory holds batons, shock gloves, rest
 A locked inner cage contains restricted tools that require two members to sign out together.
 
 **Function:** Mundane equipment storage, response gear, and controlled issue of restraint tools.
+
+```text
+##########+##########
+# shields   vests   #
+# L L L     L L L   #
+#                  D#
+#  #####+#####      #
+#  # restricted#    #
+#  #  cage L L #    #
+#  ########### #    #
+#####################
+```
 
 ### 8. Quiet room / cleansing room
 
@@ -105,17 +211,91 @@ The room is not comfortable, but it is mercifully plain. The Hidden Enforcers bu
 
 **Function:** Decompression, cleanup, post-incident grounding, and private correction.
 
+```text
+########+########
+# sink     towels#
+# ~            L #
+#              L #
+#      C    C    #
+#               ~#
+#################
+```
+
 ### 9. Infirmary nook
 
 The infirmary nook sits beside the quiet room and looks like a stripped-down athletic treatment bay: cot, folding screen, old diagnostic monitor, trauma kit, splints, clean water, and locked pharmaceuticals. Maribel Soto's public physical-therapy cover gives the site a plausible reason to possess legitimate rehab and first-aid supplies upstairs, while the lower nook handles injuries that cannot be explained cleanly.
 
 **Function:** Emergency care, post-sparring treatment, and stabilization before moving someone elsewhere.
 
+```text
+########+########
+# cot     screen #
+# ===      ||||  #
+#              D #
+# med L L      D #
+# water    kit   #
+#################
+```
+
 ### 10. Utility spine and emergency crawl
 
 A narrow utility spine runs behind the main rooms, carrying old conduit, sump equipment, and backup power. It is loud, cramped, and unpleasant by design. A concealed crawl route leads toward an exterior service hatch several properties away, but it is not a comfortable escape path and may be partly flooded after heavy rain.
 
 **Function:** Maintenance access, backup systems, and last-ditch emergency egress.
+
+```text
+############################
+#~~~~~ conduit / sump ~~~~~#
+#                          #
+#+##########################
+# narrow crawl             E
+############################
+```
+
+### Full complex map
+
+This map is abstract rather than architectural scale. It shows adjacency, traffic flow, and security layering.
+
+```text
+                        Seven Directions Dojo
+                              mat storage
+                                  |
+                                  +
+                            [1] Concealed
+                                Stair
+                                  |
+                                  +
+###############################[2] Intake###############################
+#                               Antechamber                            #
+#                                   |                                  #
+#                                   +                                  #
+#        ####################[3] Seven-Point Hall################       #
+#        #                                                     #       #
+#        #           training / oath / assembly floor          #       #
+#        #                                                     #       #
+#        ###########W###############################+###########       #
+#                    |                               |                 #
+#              [4] Briefing Alcove              secure core            #
+#                    |                               |                 #
+#        ############+############        ###########+##########       #
+#        # [5] Records Vault    #        # [6] Reliquary Vault #       #
+#        # paper / black files  #        # foci / artifacts    #       #
+#        ########################        #######################       #
+#                                   |                                  #
+#                         #########+#########                         #
+#                         # [7] Armory      #                         #
+#                         # restraint cage  #                         #
+#                         ##################                         #
+#                                   |                                  #
+#             ######################+######################            #
+#             #                                           #            #
+#      [8] Quiet / Cleansing Room              [9] Infirmary Nook      #
+#             #                                           #            #
+#             ######################+######################            #
+#                                   |                                  #
+#                    [10] Utility Spine / Emergency Crawl ---- E       #
+########################################################################
+```
 
 ## Security / access
 
