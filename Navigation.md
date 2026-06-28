@@ -2,13 +2,14 @@
 title: Campaign Navigation
 type: navigation
 visibility: player-safe
-updated: 2026-04-10
+updated: 2026-06-28
 ---
 
 # Campaign Navigation
 
 ## Core indexes
 
+- [New Player Welcome](New-Player-Welcome.md)
 - [Current State](Current-State.md)
 - [Player Characters](PCs/README.md)
 - [Session Archive](Sessions/)

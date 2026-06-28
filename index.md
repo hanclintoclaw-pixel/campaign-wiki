@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-04-08
+updated: 2026-06-28
 ---
 
 # NASHVILLE SHADOWRUN
@@ -10,6 +10,8 @@ updated: 2026-04-08
 *Chrome, country, corporate lies, and the smell of ozone in the rain.*
 
 Welcome to the shared campaign memory for the **Nashville Shadowrun** game.
+
+New to the table? Start with the [New Player Welcome](New-Player-Welcome.md) for the campaign pitch, table style, and best first pages to skim.
 
 This wiki is meant to serve three jobs at once:
 - a **player-facing campaign reference**
@@ -28,6 +30,7 @@ Recent pressure points include:
 
 ## Navigation
 
+- [New Player Welcome](New-Player-Welcome.md)
 - [Campaign Navigation](Navigation.md)
 - [Player Characters](PCs/README.md)
 - [Drones / Vehicles](Vehicles/README.md)
