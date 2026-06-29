@@ -3,7 +3,7 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-06-27
+updated: 2026-06-29
 owner: Curtis
 contributors:
   - Ace Malone
@@ -190,7 +190,7 @@ Then apply the side tracks:
 - **Day 21 — 2026-06-25:** **Weather stress test** resolved at **1 primary success** and **1 support success** from roll **3, 4, 3, 4, 6** against Primary TN 6 and Support TN 5. Curtis gets the habitat through its first hard weather-readiness pass, but only just: the storm baffling and tie-down logic mostly hold, while stress points show up around splash control, edge loading, and emergency drainage under ugly conditions. The support hit keeps the testing organized enough to produce useful fixes instead of confusion, but Day 21's listed complication still triggers on 0-1 primary successes: the project gains **+1 CP** and **+1 provisional extra day** unless later recovered. **Day 21 effect:** +1 PP, +1 CP, and +1 provisional extra day. **Totals after Day 21:** PP 40, CP -2, QE 6, provisional extra days +1.
 - **Day 22 — 2026-06-26:** **Leak, fault, and weak-point sweep** resolved at **3 primary successes** and **3 support successes** from roll **6, 3, 2, 6, 5** against Primary TN 5 and Support TN 5. Curtis spends the day crawling the almost-finished system for leaks, bad fittings, weak seals, sensor faults, drainage choke points, and places where storm pressure could turn a minor flaw into a loud disaster. He finds several problems while they are still cheap and boring: a couple of suspect joins get reseated, one pump-loop vibration issue gets isolated, and the emergency drainage path gets cleaned up before it becomes a project-eating mess. The support success earns the listed cost-control bonus, so the sweep saves money as well as proving the habitat is holding together. **Day 22 effect:** +3 PP and -2 CP. **Totals after Day 22:** PP 43, CP -4, QE 6, provisional extra days +1.
 - **Day 23 — 2026-06-27:** **Soft launch for systems integration** resolved at **2 primary successes** and **2 support successes** from roll **6, 5, 1, 2, 2** against Primary TN 5 and Support TN 4. Curtis brings the habitat up as a living system instead of a pile of finished parts: pumps, filters, warning sensors, backup power, feed/medical support, partition controls, and Matrix monitor feeds all get run together under load. The launch is not flashy, but it is coherent; the pieces talk to each other, failure alarms show up where they should, and the support work smooths the checklist enough to gain the listed integration bonus. **Day 23 effect:** +3 PP. **Totals after Day 23:** PP 46, CP -4, QE 6, provisional extra days +1.
-- **Day 24:** pending
+- **Day 24 — 2026-06-29:** **Emergency drills and contingency patching** resolved at **1 primary success** and **3 support successes** from roll **6, 2, 5, 3, 5** against Primary TN 6 and Support TN 5. Curtis runs the habitat through ugly-day drills: emergency pump handoffs, stuck-gate contingencies, storm-seal restraint failures, alarm routing, fast patch kits, and what-to-do-if-Core-7-starts-talking-to-the-wrong-piece-of-hardware procedures. The drills expose several awkward failure points and Curtis gets the basics patched, but the work is more triage than polish; with only one primary success, Day 24's 3+ primary success quality bonus does not trigger. **Day 24 effect:** +1 PP. **Totals after Day 24:** PP 47, CP -4, QE 6, provisional extra days +1.
 - **Day 25:** pending
 
 ### Archived Passive Log (superseded)
@@ -214,6 +214,7 @@ Then apply the side tracks:
 - **2026-06-25** — Logged Day 21 weather stress test at 1 primary / 1 support (+1 PP, +1 CP, +1 provisional extra day), bringing totals to PP 40, CP -2, QE 6, provisional extra days +1.
 - **2026-06-26** — Logged Day 22 leak, fault, and weak-point sweep at 3 primary / 3 support (+3 PP, -2 CP), bringing totals to PP 43, CP -4, QE 6, provisional extra days +1.
 - **2026-06-27** — Logged Day 23 soft launch for systems integration at 2 primary / 2 support (+3 PP), bringing totals to PP 46, CP -4, QE 6, provisional extra days +1.
+- **2026-06-29** — Logged Day 24 emergency drills and contingency patching at 1 primary / 3 support (+1 PP), bringing totals to PP 47, CP -4, QE 6, provisional extra days +1.
 - **2026-06-23** — Replaced the open questions with settled habitat requirements: permanent base, open storm-proofed water, Matrix monitor feed, chrome-maintenance medical support, and no magical requirement.
 - **2026-06-21** — Logged Day 17 sensors, monitors, and warning systems at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), initially leaving Days 13-14 pending.
 - **2026-06-20** — Logged Day 15 access routes and maintenance catwalks at 3 primary / 3 support (+3 PP, -2 CP) and Day 16 power, backup, and failover routing at 1 primary / 1 support (+1 PP), initially leaving Days 13-14 pending.
