@@ -4,9 +4,9 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-06-04
-last_updated_session: 2026-06-04
-canon_status: provisional
-confidence: medium
+last_updated_session: 2026-07-02
+canon_status: canon
+confidence: high
 tags: [npc, ganger, bodyguard, surveillance-target]
 sources:
   - ../Sessions/2026-06-04.md
@@ -31,18 +31,20 @@ Hard-looking ganger / possible cybersam who accompanied **Alvin Flang** during t
 
 - Linked to **[Alvin Flang](Alvin-Flang.md)** as an observed companion/bodyguard.
 - Linked to **[Heavenly Host](../Factions/Heavenly-Host.md)** through visible gang colors/iconography.
-- Potentially linked to the still-unidentified buyer network behind the Griswell data leak.
+- Potentially linked to **[Palermo](Palermo.md)** and the buyer side of the Griswell leak, though Diego's exact knowledge remains unclear.
 
 ## Relevant Sessions
 
 - 2026-06-04 — first surfaced during the Griswell / Alvin surveillance operation.
+- 2026-07-02 — remained part of Alvin's lunch-window pattern, while the crew traced the downstream buyer side to Palermo.
 
 ## Open Questions
 
 - Is Diego actually current **Heavenly Host**, or just wearing old colors?
 - Is he muscle for Alvin, muscle for the buyer, or simply part of Alvin's new spending-fueled social orbit?
-- How much does Diego know about the real importance of Alvin's data handoffs?
+- How much does Diego know about Palermo and the real importance of Alvin's data handoffs?
 
 ## Sources
 
 - [Session 2026-06-04](../Sessions/2026-06-04.md)
+- [Session 2026-07-02](../Sessions/2026-07-02.md)

@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-06-28
+updated: 2026-07-03
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,13 +20,7 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The crew is investigating a hostile influence network moving through Nashville's music and media layers.
-Recent pressure points include:
-- **Darla Ledue**
-- **SC Music**
-- a suspicious **anonymous sponsor / agent**
-- an upscale **corporate-owned penthouse / recording studio**
-- a monitored **encrypted satellite contact path**
+The crew is still dealing with the hostile influence network around **612 Wharf / Site 7**, while the recent **Griswell Data Services** side run has concluded. That run identified **Palermo**, a Nashville paydata broker, as the downstream exploiter behind **Alvin Flang's** leak pattern and established a new underground-market location beneath the city.
 
 ## Navigation
 

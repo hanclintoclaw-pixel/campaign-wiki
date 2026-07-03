@@ -2,7 +2,7 @@
 title: Session Chronology
 type: timeline
 visibility: player-safe
-updated: 2026-05-17
+updated: 2026-07-03
 ---
 
 # Session Chronology
@@ -96,6 +96,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 68 | [Session 2026-05-28](../Sessions/2026-05-28.md) | 2026-05-28 | 2066-05-04 | source-anchored | In the aftermath of the warehouse breach, the crew shifted from combat to consequence management: debating whether **Core 7 / Site 7** could be controlled or salvaged, treating the captive dolphin and hurricane seals as a rescue problem, exploring **Taco** as future support infrastructure, tying the site more directly to **SC Music**, **Swiftwing Records**, and Cindy's deeper architectural lineage, and ending on a confirmed three-day aftermath timeskip to **2066-05-04**. |
 | 69 | [Session 2026-06-04](../Sessions/2026-06-04.md) | 2026-06-04 | 2066-05-10 | provisional | With the immediate warehouse breach behind them, the crew pivoted into a new surveillance job routed through **Ivan** at **Atlas's**. Hired by **Griswell Data Services** to identify who employee **Alvin Flang** was selling data to, the runners traced Alvin from his apartment to a downtown lunch meet at **Music Circle**, where he was accompanied by **Diego** in old **Heavenly Host** colors and quietly watched by a second corporate observer using a tiny spider drone. The session ended with that watcher heading for a waiting driverless classic car while the team chose to preserve cover and continue the follow later. |
 | 70 | [Session 2026-06-25](../Sessions/2026-06-25.md) | 2026-06-25 | 2066-05-09 | backdated canon interlude | Partial-party canon interlude for **Kurgan** and **Curtis** only, played out of sequence before the current Griswell run. **Joseph Neumann** and **Mayor Mike Haggar** hired them to remove the failed fixer/security consultant **Righteous Haze**. The pair surveilled Haze at **Josie's Billiard Hall**, lured him into **Grandpa**, killed him, recovered his politically sensitive paydata, and positioned Kurgan to move deeper into the mayor's outside-security apparatus. |
+| 71 | [Session 2026-07-02](../Sessions/2026-07-02.md) | 2026-07-02 | 2066-05-12 | canon | The crew concluded the **Griswell / Alvin Flang** surveillance run by tracing the Music Circle watcher to **Palermo**, a paydata broker tied to the **Ruby Falls data haven**. They followed him into an underground market, found hidden power and Matrix lines, navigated a devil-rat guard arrangement, pressured Palermo into surrendering a burner identity/proof-chain, and turned in the contract for **60,000¥ total** and **6 karma each**. |
 
 ## Read this sequence in plain English
 
@@ -105,6 +106,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 4. The **612 Wharf / Core 7** arc is the first currently confirmed hard modern in-world anchor at **2066-05-01**, and Session 2026-05-28 carries the active campaign date forward to **2066-05-04** via aftermath timeskip.
 5. Session 2026-06-04 introduces a parallel **Griswell / Alvin Flang** surveillance arc and currently places the crew at a provisional later-May in-world point anchored to a Monday-evening setup and Tuesday lunch-window tail.
 6. Session 2026-06-25 was played later but is explicitly a **backdated partial-party canon interlude**, placed at **2066-05-09** before the 2066-05-10 Griswell/current-run archive.
+7. Session 2026-07-02 concludes the Griswell/current-run archive at **2066-05-12**.
 
 ## Gaps and caveats
 

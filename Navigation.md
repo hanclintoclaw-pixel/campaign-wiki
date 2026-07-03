@@ -2,7 +2,7 @@
 title: Campaign Navigation
 type: navigation
 visibility: player-safe
-updated: 2026-06-28
+updated: 2026-07-03
 ---
 
 # Campaign Navigation

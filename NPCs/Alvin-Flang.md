@@ -4,9 +4,9 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-06-04
-last_updated_session: 2026-06-04
-canon_status: provisional
-confidence: medium
+last_updated_session: 2026-07-02
+canon_status: canon
+confidence: high
 tags: [npc, surveillance-target, corporate-asset]
 sources:
   - ../Sessions/2026-06-04.md
@@ -26,6 +26,8 @@ Low-level **Griswell Data Services** analyst whose suspicious spending and suspi
 - He recently bought an absurdly expensive new sports car and has been spending well above his means for about **six weeks**.
 - He has also been importing expensive wine and accumulating other flashy purchases inconsistent with his salary.
 - His likely exchange pattern involves **physical handoffs** during Tuesday/Thursday lunch windows rather than obvious Matrix resale.
+- The crew confirmed that Alvin was being exploited as a weak link by **[Palermo](Palermo.md)**, a paydata broker operating through the Ruby Falls data haven.
+- Alvin appears to have been the vulnerable source, not the final buyer or mastermind.
 - Alvin did not register as awakened or magically tainted during **Valgaut's** direct check.
 
 ## Relationships
@@ -33,18 +35,21 @@ Low-level **Griswell Data Services** analyst whose suspicious spending and suspi
 - Linked to **[Griswell Data Services](../Organizations/Griswell-Data-Services.md)** as an employee and current internal security problem.
 - Linked to **[Diego](Diego.md)**, who accompanied him during the observed park meeting.
 - Linked to **[Ivan Toklas](Ivan.md)** indirectly through the job route.
-- Linked to an unidentified corporate watcher who appears to have been surveilling Alvin's lunch meet from across **[Music Circle](../Locations/Music-Circle.md)**.
+- Linked to **[Palermo](Palermo.md)**, the broker behind the downstream data-buying side of the operation.
+- Linked to the watcher/drone handoff pattern observed at **[Music Circle](../Locations/Music-Circle.md)**.
 
 ## Relevant Sessions
 
 - 2026-06-04 — introduced as the surveillance target in the Griswell espionage job.
+- 2026-07-02 — confirmed as Palermo's exploited weak link; the crew closed the contract using Palermo's burner identity/proof-chain.
 
 ## Open Questions
 
-- Did Alvin knowingly enter a data-sale arrangement, or was he recruited/manipulated into it?
+- How much did Alvin knowingly understand about Palermo and the larger buyer side of the arrangement?
 - How much of his access came from his own opportunism versus deliberate inside help?
 - Is Alvin a willing criminal actor, a compromised fool, or something in between?
 
 ## Sources
 
 - [Session 2026-06-04](../Sessions/2026-06-04.md)
+- [Session 2026-07-02](../Sessions/2026-07-02.md)

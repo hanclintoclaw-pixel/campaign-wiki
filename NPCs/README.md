@@ -10,6 +10,7 @@
 - [Mother Yahweh](Mother-Yahweh.md)
 - [Alvin Flang](Alvin-Flang.md)
 - [Diego](Diego.md)
+- [Palermo](Palermo.md)
 
 ## Recurring Contacts / Principals
 
