@@ -14,7 +14,7 @@ Player-safe living map for the Nashville Shadowrun campaign. The map starts empt
 <script src="../assets/maps/nashville-pois.js"></script>
 
 <style>
-  #nashville-campaign-map {
+  #nashville-campaign-map-canvas {
     height: 68vh;
     min-height: 520px;
     width: 100%;
@@ -61,13 +61,13 @@ Player-safe living map for the Nashville Shadowrun campaign. The map starts empt
   <button type="button" data-map-filter="mystery">Mysteries</button>
 </div>
 
-<div id="nashville-campaign-map"></div>
+<div id="nashville-campaign-map-canvas"></div>
 <p class="poi-empty-note" id="poi-empty-note">No campaign POIs have been added yet.</p>
 
 <script>
   (function () {
     var center = [36.1627, -86.7816];
-    var map = L.map('nashville-campaign-map').setView(center, 12);
+    var map = L.map('nashville-campaign-map-canvas').setView(center, 12);
     var markers = [];
     var pois = Array.isArray(window.NASHVILLE_CAMPAIGN_POIS) ? window.NASHVILLE_CAMPAIGN_POIS : [];
     var emptyNote = document.getElementById('poi-empty-note');
