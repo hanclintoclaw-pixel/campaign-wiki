@@ -52,5 +52,14 @@ window.NASHVILLE_CAMPAIGN_POIS = [
     confidence: "anchor-point",
     wiki: "../Locations/Little-Chiba.html",
     notes: "District/location associated with Lafayette Tower, Music Circle, and the underground routes below."
+  },
+  {
+    name: "612 Wharf Avenue / Site 7",
+    type: "threat",
+    lat: 36.2442672,
+    lng: -86.7817677,
+    confidence: "exact-address-range",
+    wiki: "../Locations/612-Wharf-and-Site-7.html",
+    notes: "494-476 Brick Church Ln. In-game Site 7, where Darwin the dolphin is imprisoned as Core 7."
   }
 ];

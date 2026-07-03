@@ -4,9 +4,9 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-05-07
-last_updated_session: 2026-05-28
-canon_status: provisional
-confidence: medium
+last_updated_session: 2026-07-03
+canon_status: canon
+confidence: high
 tags: [location, warehouse, buried-site, current-arc]
 sources:
   - ../Sessions/2026-05-07.md
@@ -24,9 +24,10 @@ A linked warehouse-and-buried-installation complex at the center of the current 
 ## Known Facts
 
 - **612 Wharf Avenue** presented first as a run-down warehouse receiving and redistributing counterfeit **Meatlets**, **Bebop Cola**, and related promotional material.
+- Player-facing in-game map location: **494-476 Brick Church Ln, Nashville, TN 37207** (`36.2442672, -86.7817677`).
 - The warehouse drew heavy power, used surveillance drones, and was tied to low-level labor and ganger muscle.
 - A heavy power-and-data line led from the warehouse into the woods to a concealed installation now referred to as **Site 7**.
-- Site 7 is controlled through or represented by **Core 7**, a wetware system built around a heavily cybered dolphin in life support.
+- Site 7 is controlled through or represented by **Core 7**, a wetware system built around **Darwin**, a heavily cybered dolphin imprisoned in life support.
 - The broader linked site also involved other altered awakened aquatic creatures, including **hurricane seals** and an awakened **rock lobster** used to pilot a combat drone.
 - By **2026-05-21**, the warehouse interior had been exposed as a grotesque counterfeit-food line built around a chained **roach spirit** being processed into fake Meatlets.
 - By **2026-05-28**, the location had shifted from active breach target to aftermath/containment problem, with the runners debating whether it could be controlled, salvaged, or safely unwound; the session closed on a three-day timeskip carrying the active campaign date to **2066-05-04**.
