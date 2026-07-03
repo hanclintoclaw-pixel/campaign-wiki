@@ -14,7 +14,54 @@ Player-safe living map for the Nashville Shadowrun campaign. The map starts empt
 <script src="../assets/maps/nashville-pois.js"></script>
 
 <style>
+  .leaflet-container {
+    overflow: hidden;
+  }
+
+  .leaflet-pane,
+  .leaflet-tile,
+  .leaflet-marker-icon,
+  .leaflet-marker-shadow,
+  .leaflet-tile-container,
+  .leaflet-pane > svg,
+  .leaflet-pane > canvas,
+  .leaflet-zoom-box,
+  .leaflet-image-layer,
+  .leaflet-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .leaflet-tile {
+    width: 256px;
+    height: 256px;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  .leaflet-tile-pane { z-index: 200; }
+  .leaflet-overlay-pane { z-index: 400; }
+  .leaflet-shadow-pane { z-index: 500; }
+  .leaflet-marker-pane { z-index: 600; }
+  .leaflet-tooltip-pane { z-index: 650; }
+  .leaflet-popup-pane { z-index: 700; }
+
+  .leaflet-control-container .leaflet-top,
+  .leaflet-control-container .leaflet-bottom {
+    position: absolute;
+    z-index: 1000;
+    pointer-events: none;
+  }
+
+  .leaflet-control-container .leaflet-top { top: 0; }
+  .leaflet-control-container .leaflet-right { right: 0; }
+  .leaflet-control-container .leaflet-bottom { bottom: 0; }
+  .leaflet-control-container .leaflet-left { left: 0; }
+  .leaflet-control { pointer-events: auto; }
+
   #nashville-campaign-map-canvas {
+    position: relative;
     height: 68vh;
     min-height: 520px;
     width: 100%;
