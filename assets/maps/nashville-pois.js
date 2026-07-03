@@ -1,13 +1,11 @@
 window.NASHVILLE_CAMPAIGN_POIS = [
-  // Cindy-maintained player-safe campaign POIs go here.
-  // Example shape:
-  // {
-  //   name: "Atlas's",
-  //   type: "runner-hub",
-  //   lat: 36.1627,
-  //   lng: -86.7816,
-  //   confidence: "approximate",
-  //   wiki: "../Locations/Atlass.html",
-  //   notes: "Neutral ground for middle-tier shadow work."
-  // }
+  {
+    name: "Atlas's",
+    type: "runner-hub",
+    lat: 36.15272770616615,
+    lng: -86.82428328421553,
+    confidence: "exact",
+    wiki: "../Locations/Atlass.html",
+    notes: "3311 Charlotte Avenue. Neutral runner hub and Ivan Toklas's preferred briefing site."
+  }
 ];

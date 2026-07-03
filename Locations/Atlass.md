@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session:
-last_updated_session: 2026-06-04
+last_updated_session: 2026-07-03
 canon_status: provisional
 confidence: high
 tags: [location, bar, shadowrunner-hub, nashville]
@@ -22,6 +22,7 @@ Bar and private club just outside Nashville city limits that functions as a neut
 ## Known Facts
 
 - Atlas's is a freestanding two-story structure just outside the city limits of Nashville.
+- Player-facing map location: **3311 Charlotte Avenue, Nashville, TN 37209** (`36.15272770616615, -86.82428328421553`).
 - It provides the middle tier of the local criminal community a neutral place to gather.
 - The lower floor includes a small bar area with seating for about 30, a kitchen, and a private dining room with seating for 8.
 - The upper floor includes three private rooms, each with seating for 8, and a small room used by **Ivan Toklas**.
