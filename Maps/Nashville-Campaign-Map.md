@@ -9,8 +9,8 @@ updated: 2026-07-03
 
 Player-safe living map for the Nashville Shadowrun campaign. The map starts empty; Cindy will add campaign locations and points of interest as the table provides addresses or latitude/longitude.
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIINfQh7G0CMLQYxJN7gAnZBPM0DkcQuxOQ=" crossorigin="" />
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="../assets/maps/nashville-pois.js"></script>
 
 <style>
