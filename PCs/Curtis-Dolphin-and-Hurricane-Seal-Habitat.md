@@ -3,7 +3,7 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-06-29
+updated: 2026-07-03
 owner: Curtis
 contributors:
   - Ace Malone
@@ -51,7 +51,7 @@ _Top-down gridded map of the planned compound-lot habitat, with tank zones, stor
 
 - Project page created
 - Initial concept established: shared habitat for **Core 7** and his seal friends
-- Confirmed build site: **adjacent lot at Taco’s compound**, on land rather than shoreline
+- Confirmed build site: **adjacent lot at [Taco's Garage and Workshop](../Locations/Tacos-Garage-and-Workshop.md)**, at **216-226 Thompson Ln, Nashville, TN 37211**, on land rather than shoreline
 - New critical constraint: relocation must be covert and safe because **Core 7/Cor7 is heavily chromed, machine-connected, and as much machine as dolphin**, while the hurricane seals are also enhanced animals rather than ordinary marine cargo
 - Detailed build requirements still to be defined
 
@@ -78,7 +78,7 @@ Curtis should not plan this as a simple animal pickup. Moving Core 7/Cor7 and th
 
 ### To-do
 
-- [x] Define the intended location — adjacent lot at Taco’s compound (land build, no shoreline)
+- [x] Define the intended location — adjacent lot at [Taco's Garage and Workshop](../Locations/Tacos-Garage-and-Workshop.md), 216-226 Thompson Ln, Nashville, TN 37211 (land build, no shoreline)
 - [ ] Define size and major enclosure zones
 - [x] List environmental controls and support systems
 - [ ] Record materials, costs, and labor needs

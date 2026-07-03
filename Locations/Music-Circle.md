@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-06-04
-last_updated_session: 2026-07-02
+last_updated_session: 2026-07-03
 canon_status: canon
 confidence: high
 tags: [location, nashville, surveillance-site]
@@ -16,11 +16,12 @@ sources:
 
 ## Overview
 
-Downtown Nashville lunch-traffic plaza/park used as **Alvin Flang's** known off-site meeting area.
+Downtown Nashville lunch-traffic plaza/park used as **Alvin Flang's** known off-site meeting area, now mapped to the **[Lafayette Tower](Lafayette-Tower.md)** / **[Little Chiba](Little-Chiba.md)** area.
 
 ## Known Facts
 
 - Music Circle sits amid larger downtown towers and service-worker lunch traffic.
+- Player-facing map anchor: **1199-1153 Division St, Nashville, TN 37203** (`36.1509701, -86.7841524`).
 - It includes benches, surrounding food/service spots, and a central holographic light/art installation.
 - Griswell's dossier pointed the crew there as Alvin's recurring Tuesday/Thursday lunch destination.
 - The crew used it as the first major observation point in the Alvin surveillance job.
@@ -33,6 +34,7 @@ Downtown Nashville lunch-traffic plaza/park used as **Alvin Flang's** known off-
 - Linked to **[Diego](../NPCs/Diego.md)** and the watcher/drone handoff pattern observed there.
 - Linked to **[Palermo](../NPCs/Palermo.md)** through the follow from the surface meet into the underground market.
 - Linked to **[Griswell Data Services](../Organizations/Griswell-Data-Services.md)** through the lunch-window stakeout.
+- Co-located / associated with **[Lafayette Tower](Lafayette-Tower.md)** and **[Little Chiba](Little-Chiba.md)**.
 
 ## Relevant Sessions
 

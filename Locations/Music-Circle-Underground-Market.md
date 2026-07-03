@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-07-02
-last_updated_session: 2026-07-02
+last_updated_session: 2026-07-03
 canon_status: canon
 confidence: high
 tags: [location, nashville, underground, squatter-market, data-broker]
@@ -21,6 +21,7 @@ A tunnel-connected squatter market below the city, reached during the tail from 
 ## Known Facts
 
 - The area sits in an underground tunnel system with side passages, blocked controllable doors, storm drains, grates, and diffuse light from above.
+- Its surface access/overhead context is now mapped through the **[Lafayette Tower](Lafayette-Tower.md)** / **[Music Circle](Music-Circle.md)** / **[Little Chiba](Little-Chiba.md)** area.
 - It is dirty, cramped, and populated enough that disguises and local etiquette matter more than simple stealth.
 - **Kurgan** remembered the area from old Humanis-linked business where higher-ups dealt with Palermo or his circles.
 - Palermo used a central protected structure in the area as an operating location.
@@ -33,6 +34,7 @@ A tunnel-connected squatter market below the city, reached during the tail from 
 
 - Linked to **[Palermo](../NPCs/Palermo.md)** as a compromised operating location.
 - Linked to **[Music Circle](Music-Circle.md)** through the surface-level surveillance and tail route.
+- Linked to **[Lafayette Tower](Lafayette-Tower.md)** and **[Little Chiba](Little-Chiba.md)** as the mapped surface/overhead context.
 - Linked to **[Griswell Data Services](../Organizations/Griswell-Data-Services.md)** only indirectly through the Alvin/Palermo data-leak job.
 
 ## Relevant Sessions
