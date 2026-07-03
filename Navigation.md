@@ -19,6 +19,7 @@ updated: 2026-07-03
 - [Location Index](Locations/)
 - [Drone / Vehicle Index](Vehicles/README.md)
 - [Curtis Drone Dashboard](https://hanclintoclaw-pixel.github.io/drone-dashboard/)
+- [Campaign Maps](Maps/README.md)
 - [Matrix Hosts](Tech/Matrix/README.md)
 - [Clue Registry](Clues/)
 - [Plot Arcs](Arcs/)
