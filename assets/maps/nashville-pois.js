@@ -33,7 +33,7 @@ window.NASHVILLE_CAMPAIGN_POIS = [
     lng: -86.7841524,
     confidence: "exact-address-range",
     wiki: "../Locations/Lafayette-Tower.html",
-    notes: "1199-1153 Division St. Anchor for Music Circle and Little Chiba."
+    notes: "1199-1153 Division St. Cross Applied Technology's North American Entertainment Division HQ; anchor for Music Circle and Little Chiba."
   },
   {
     name: "Music Circle",
