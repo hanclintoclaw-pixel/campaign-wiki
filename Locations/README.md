@@ -24,6 +24,10 @@
 - [Josie's Billiard Hall](Josies-Billiard-Hall.md)
 - [Seven Directions Dojo](Seven-Directions-Dojo.md)
 
+## Franklin / Regional Locations
+
+- [Collapsed Art Museum](Collapsed-Art-Museum.md)
+
 ## See also
 
 - [Drones / Vehicles](../Vehicles/README.md)

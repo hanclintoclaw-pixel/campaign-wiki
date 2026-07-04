@@ -70,5 +70,14 @@ window.NASHVILLE_CAMPAIGN_POIS = [
     confidence: "exact-address-range",
     wiki: "../Locations/Thrift-Store-Flophouse.html",
     notes: "699-615 Main St. Crew-only safehouse held after an undocumented job."
+  },
+  {
+    name: "Collapsed Art Museum",
+    type: "future-base",
+    lat: 35.9212564,
+    lng: -86.8684030,
+    confidence: "exact",
+    wiki: "../Locations/Collapsed-Art-Museum.html",
+    notes: "423 S Margin St, Franklin. Abandoned museum Kurgan wants to renovate into a retirement fortress base."
   }
 ];
