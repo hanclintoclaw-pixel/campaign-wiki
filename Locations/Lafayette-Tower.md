@@ -16,6 +16,8 @@ sources:
 
 # Lafayette Tower
 
+![Lafayette Tower concept art](../assets/images/Lafayette-Tower.png)
+
 ## Overview
 
 **Lafayette Tower** is a downtown Nashville high-rise and the local headquarters for **[Cross Applied Technology](../Organizations/Cross-Applied-Technology.md)'s North American Entertainment Division**. It anchors the **[Music Circle](Music-Circle.md)** / **[Little Chiba](Little-Chiba.md)** area and is meant to evoke the same corporate-megastructure mood as the **Renraku Arcology**: sealed corporate verticality, internal culture, private infrastructure, and an unsettling sense that a whole world could exist inside one building.
