@@ -20,6 +20,7 @@
 - [Music Circle](Music-Circle.md)
 - [Little Chiba](Little-Chiba.md)
 - [Music Circle Underground Market](Music-Circle-Underground-Market.md)
+- [Thrift Store Flophouse](Thrift-Store-Flophouse.md)
 - [Josie's Billiard Hall](Josies-Billiard-Hall.md)
 - [Seven Directions Dojo](Seven-Directions-Dojo.md)
 

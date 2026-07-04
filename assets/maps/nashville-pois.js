@@ -61,5 +61,14 @@ window.NASHVILLE_CAMPAIGN_POIS = [
     confidence: "exact-address-range",
     wiki: "../Locations/612-Wharf-and-Site-7.html",
     notes: "494-476 Brick Church Ln. In-game Site 7, where Darwin the dolphin is imprisoned as Core 7."
+  },
+  {
+    name: "Thrift Store Flophouse",
+    type: "safehouse",
+    lat: 36.1745339,
+    lng: -86.7614195,
+    confidence: "exact-address-range",
+    wiki: "../Locations/Thrift-Store-Flophouse.html",
+    notes: "699-615 Main St. Crew-only safehouse held after an undocumented job."
   }
 ];
