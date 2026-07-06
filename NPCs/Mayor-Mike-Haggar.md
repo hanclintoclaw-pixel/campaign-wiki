@@ -22,6 +22,8 @@ sources:
 
 # Mayor Mike Haggar
 
+![Mayor Mike Haggar as Drake Mayor](../assets/images/Mayor-Mike-Haggar-Drake-Mayor-2026-07-06.png)
+
 > **Canon update:** The drake model is the current true build for Mayor Mike Haggar. The older cyber-samurai interpretation is preserved only as a backup alternate at [Mayor Mike Haggar - Cyber-Samurai Backup Model](GM-Alternates/Mayor-Mike-Haggar-Cyber-Sam.md).
 
 ## Concept
