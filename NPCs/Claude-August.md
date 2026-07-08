@@ -11,10 +11,15 @@ aliases:
   - Lord August
 sources:
   - Discord request, 2026-07-08
+  - Discord image attachment, 2026-07-08
   - ../Sessions/2064-03-01.md
 ---
 
 # Claude August
+
+![Claude August false human form](../assets/images/Claude-August-False-Human-Form-2026-07-08.png)
+
+_Claude August's false human form._
 
 ## Overview
 
@@ -76,4 +81,5 @@ sources:
 ## Sources
 
 - Discord request, 2026-07-08.
+- Discord image attachment, 2026-07-08.
 - [Session 2064-03-01](../Sessions/2064-03-01.md).
