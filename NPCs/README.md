@@ -2,6 +2,7 @@
 
 ## Current Arc / Active Investigation
 
+- [Claude August](Claude-August.md)
 - [Darla Ledue](Darla-Ledue.md)
 - [Jacinda Hamich](Jacinda-Hamich.md)
 - [Ivan Toklas](Ivan.md)

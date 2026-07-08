@@ -1,5 +1,6 @@
 # Factions
 
+- [The Princeps Group](The-Princeps-Group.md)
 - [SC Music](SC-Music.md)
 - [Ace Freelits](Ace-Freelits.md)
 - [Hidden Enforcers](Hidden-Enforcers.md)
