@@ -21,6 +21,10 @@ sources:
 
 _Claude August's false human form._
 
+![Claude's true form](../assets/images/Claude-August-True-Form-2026-07-08.png)
+
+_Claude's true form._
+
 ## Overview
 
 **Claude August** is the young CEO and controlling owner of **[The Princeps Group](../Factions/The-Princeps-Group.md)**, a Huntsville-based CAS miltech corporation. He appears to be a teenage human, but the players know he is secretly a **juvenile western dragon**.
