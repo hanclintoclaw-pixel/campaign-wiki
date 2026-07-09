@@ -1,0 +1,93 @@
+.wiki-editor-shell {
+  margin: 1rem 0 1.5rem;
+  padding: 0.9rem;
+  border: 1px solid #d8dee4;
+  border-radius: 0.5rem;
+  background: #f6f8fa;
+}
+
+.wiki-editor-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wiki-editor-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.wiki-editor-button {
+  border: 1px solid #8c959f;
+  border-radius: 0.4rem;
+  background: #ffffff;
+  color: #24292f;
+  padding: 0.42rem 0.7rem;
+  font: inherit;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+.wiki-editor-button.primary {
+  border-color: #1f883d;
+  background: #1f883d;
+  color: #ffffff;
+}
+
+.wiki-editor-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.wiki-editor-status {
+  color: #57606a;
+  font-size: 0.92rem;
+}
+
+.wiki-editor-form {
+  display: grid;
+  gap: 0.7rem;
+  margin-top: 0.9rem;
+}
+
+.wiki-editor-label {
+  display: grid;
+  gap: 0.25rem;
+  color: #57606a;
+  font-size: 0.92rem;
+}
+
+.wiki-editor-input,
+.wiki-editor-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #d0d7de;
+  border-radius: 0.4rem;
+  background: #ffffff;
+  color: #24292f;
+  padding: 0.55rem;
+  font: inherit;
+}
+
+.wiki-editor-textarea {
+  min-height: 55vh;
+  font-family: ui-monospace, SFMono-Regular, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.92rem;
+  line-height: 1.45;
+  resize: vertical;
+  tab-size: 2;
+}
+
+.wiki-editor-help {
+  margin: 0;
+  color: #57606a;
+  font-size: 0.9rem;
+}
+
+.wiki-editor-hidden {
+  display: none;
+}

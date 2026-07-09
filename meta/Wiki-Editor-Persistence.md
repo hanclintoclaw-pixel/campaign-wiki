@@ -9,37 +9,53 @@ updated: 2026-07-09
 
 Goal: let players or Cindy edit campaign pages in a browser-friendly WYSIWYG flow without adding a backend or bypassing Git review.
 
-## Proposed workflow
+## Current workflow
 
-1. Open a wiki page in an editor UI.
-2. Store editor drafts in `localStorage` using a key derived from the wiki path.
-3. Warn on navigation when the local draft differs from the last submitted issue snapshot.
-4. On **Persist Changes**, open a prefilled GitHub Issue against `campaign-wiki`.
-5. Issue body includes a human summary, target page path, original content hash if available, proposed Markdown, and fenced JSON metadata.
-6. Cindy validates author permission, applies the Markdown change in git, pushes, waits for GitHub Pages, closes the issue, and posts the result in Discord.
+1. Open a wiki page and click **Edit** in the static editor bar.
+2. The browser fetches raw Markdown for the page from the wiki source commit that built the site.
+3. Edit the Markdown in the page-local editor.
+4. **Save changes** stays disabled until the Markdown differs from the fetched source.
+5. On **Save changes**, the editor opens a prefilled GitHub Issue against `campaign-wiki`.
+6. The issue body includes a human summary plus a fenced JSON request containing the source commit, page path, source hash, and a `line-patch/v1` Markdown diff. If the URL would be too long, the JSON request downloads as an attachment file instead.
+7. Cindy validates author permission from GitHub issue metadata, checks the source commit/hash against the current repo state, applies the patch in git, pushes, waits for GitHub Pages, closes the issue, and posts the result in Discord.
 
 ## Required issue JSON fields
 
 ```json
 {
-  "schemaVersion": "shadowrun-wiki-edit/v1",
+  "schemaVersion": "campaign-wiki-edit/v1",
   "appId": "campaign-wiki-editor",
-  "targetRepository": "hanclintoclaw-pixel/campaign-wiki",
-  "targetPath": "NPCs/Example.md",
-  "baseContentHash": "sha256-or-null",
-  "proposedMarkdown": "---\ntitle: Example\n---\n\n# Example\n",
-  "authorization": {
-    "requiredAuthorAssociation": ["MEMBER", "OWNER", "COLLABORATOR"],
-    "fallback": "explicit approval from a repository member in this issue"
-  },
-  "summary": "Short description of the requested page edit."
+  "appName": "Campaign Wiki Editor",
+  "sourceRepository": "hanclintoclaw-pixel/campaign-wiki",
+  "sourceCommit": "commit-sha-used-to-generate-this-request",
+  "sourceRef": "commit-or-branch-used-to-fetch-raw-markdown",
+  "pagePath": "NPCs/Example.md",
+  "originalSha256": "sha256-of-source-markdown",
+  "summary": "Short description of the requested page edit.",
+  "requestedChanges": [
+    {
+      "type": "patch_markdown_file",
+      "targetPath": "NPCs/Example.md",
+      "baseSnapshot": "commit:path",
+      "baseSha256": "sha256-of-source-markdown",
+      "format": "line-patch/v1",
+      "payload": {
+        "hunks": [],
+        "originalLineCount": 0,
+        "resultingLineCount": 0,
+        "changedLineCount": 0
+      }
+    }
+  ]
 }
 ```
 
 ## Security expectations
 
 - Treat issues as requests, not direct writes.
+- Validate the issue author's GitHub `authorAssociation`; do not trust request-body text as permission.
 - Do not act on public drive-by issues without repo-member approval.
+- Verify `sourceCommit`/`baseSha256` before applying the patch; if the page has moved on, rebase or ask for resubmission.
 - Preserve YAML frontmatter unless the edit explicitly changes it.
 - Resolve conflicts against the current wiki page before committing.
 - Keep generated/editor-only state out of the repository.

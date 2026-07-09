@@ -2,6 +2,7 @@ title: Nashville Shadowrun Campaign Wiki
 description: Shared campaign memory for the Nashville Shadowrun game.
 theme: minima
 markdown: kramdown
+repository: hanclintoclaw-pixel/campaign-wiki
 header_pages:
   - index.md
   - Navigation.md
