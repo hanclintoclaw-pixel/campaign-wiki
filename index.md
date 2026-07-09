@@ -28,6 +28,7 @@ The crew is still dealing with the hostile influence network around **612 Wharf 
 - [Campaign Navigation](Navigation.md)
 - [Player Characters](PCs/README.md)
 - [Drones / Vehicles](Vehicles/README.md)
+- [Minigames and Web Apps](Minigames.md)
 - [Nashville Campaign Map](Maps/Nashville-Campaign-Map.md)
 - [Matrix Hosts](Tech/Matrix/README.md)
 

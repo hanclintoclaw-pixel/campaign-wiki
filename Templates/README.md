@@ -27,6 +27,11 @@ Copy one of these files when creating a new campaign wiki page, then replace bra
 - [Recap Template](Recap.md)
 - [Tech / Matrix Template](Tech.md)
 
+## App and Editor Workflows
+
+- [Minigames and Web Apps](../Minigames.md)
+- [Wiki Editor Persistence](../meta/Wiki-Editor-Persistence.md)
+
 ## Template Checks
 
 - [Template Conformance Report](TEMPLATE_CONFORMANCE.md)
