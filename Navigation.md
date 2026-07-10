@@ -2,7 +2,7 @@
 title: Campaign Navigation
 type: navigation
 visibility: player-safe
-updated: 2026-07-03
+updated: 2026-07-10
 ---
 
 # Campaign Navigation
@@ -23,13 +23,12 @@ updated: 2026-07-03
 - [Campaign Maps](Maps/README.md)
 - [Matrix Hosts](Tech/Matrix/README.md)
 - [Clue Registry](Clues/)
-- [Plot Arcs](Arcs/)
+- [Campaign Arc Index](Timeline/Arc-Index.md)
 - [Timeline](Timeline/index.md)
 - [Page Templates](Templates/README.md)
 
 ## Expanded reference layers
 
-- [Campaign Arc Index](Timeline/Arc-Index.md)
 - [Recaps](Recaps/README.md)
 - [Tech Notes](Tech/README.md)
 - [Session Archive Analysis](Sessions/ARCHIVE_ANALYSIS.md)

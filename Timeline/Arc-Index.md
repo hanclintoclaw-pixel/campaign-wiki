@@ -9,6 +9,15 @@ updated: 2026-07-10
 
 This page groups the processed session archive into major recurring campaign threads so players can follow a plotline without already knowing the exact session date.
 
+## Dedicated plot arc pages
+
+The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-arc pages now live under this Campaign Arc Index:
+
+- [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md)
+- [OCW Side Threads](../Arcs/OCW-Side-Threads.md)
+- [Mucky and Professor X](../Arcs/Mucky-and-Professor-X.md)
+- [Krom and the Brotherhood of Evil Mutants](../Arcs/Brotherhood-of-Evil-Mutants.md)
+
 ## 1. Gladwell / Genevieve / covert surveillance exploitation
 
 **Core idea:** missing people, covert recording implants, compromised medical/corporate actors, and human exploitation through technology.
