@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "cindylou.matrixHostIndex/v1",
+  "hosts": [
+    {
+      "id": "happy-cat-public-host",
+      "name": "Happy Cat Public Storefront Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/happy-cat-public-storefront-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Happy-Cat-Public-Storefront-Host.html"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "happy-cat-public-host",
+  "name": "Happy Cat Public Storefront Host",
+  "wikiPage": "Tech/Matrix/Happy-Cat-Public-Storefront-Host.md",
+  "locationPage": "Locations/Happy-Cat-Konpeki-and-Collectibles.md",
+  "securityCode": "green",
+  "securityValue": 4,
+  "hostRating": 4,
+  "subsystem": {
+    "access": 4,
+    "control": 3,
+    "index": 4,
+    "files": 4,
+    "slave": 3
+  },
+  "taskTargetNumbers": {
+    "logon": 4,
+    "browsePublic": 4,
+    "searchCustomer": 5,
+    "staffRecords": 6,
+    "alterStore": 7,
+    "controlSlave": 7,
+    "evadeTrace": 5,
+    "fightIc": 7
+  },
+  "securitySheaf": [
+    {
+      "threshold": 2,
+      "label": "Probe IC",
+      "effect": "Host starts checking the intruder icon and access path."
+    },
+    {
+      "threshold": 5,
+      "label": "Trace IC",
+      "effect": "Host attempts to establish or accelerate a trace."
+    },
+    {
+      "threshold": 8,
+      "label": "Scramble IC",
+      "effect": "Host interferes with files, memory, or the current operation."
+    },
+    {
+      "threshold": 11,
+      "label": "Store-brand Tar Baby",
+      "effect": "Nuisance IC attempts to hold the icon in place for follow-up."
+    }
+  ],
+  "sculpting": "Bright retail storefront, mascot popups, collectible-card catalog, snack ads, and local teen chatter overlays.",
+  "notes": "First live lead from Session 2026-07-09. Small-business host near dense public Matrix traffic.",
+  "flow": {
+    "startNodeId": "ltg-approach",
+    "nodes": [
+      {
+        "id": "ltg-approach",
+        "title": "Local Grid Outside Happy Cat",
+        "kind": "entry",
+        "description": "You hover in the east Nashville grid among cheap public icons, snack ads, apartment-block chatter, and the glowing storefront sign for Happy Cat.",
+        "choices": [
+          {
+            "label": "Open the Happy Cat public door",
+            "to": "public-storefront",
+            "testId": "logon"
+          },
+          {
+            "label": "Study the traffic before entering",
+            "to": "traffic-read",
+            "testId": "browsePublic"
+          }
+        ]
+      },
+      {
+        "id": "public-storefront",
+        "title": "Mascot Storefront",
+        "kind": "public",
+        "description": "A lucky-cat mascot bows from behind a neon counter. Card packs orbit like menu icons; snack ads crawl along the floor like animated receipt tape.",
+        "choices": [
+          {
+            "label": "Search customer chatter and teen hangout traces",
+            "to": "customer-chatter",
+            "testId": "searchCustomer"
+          },
+          {
+            "label": "Look for staff-only doors",
+            "to": "stockroom-door",
+            "testId": "staffRecords"
+          },
+          {
+            "label": "Back out to the local grid",
+            "to": "ltg-approach"
+          }
+        ]
+      },
+      {
+        "id": "traffic-read",
+        "title": "Sticker-Covered Traffic Cloud",
+        "kind": "survey",
+        "description": "Speech bubbles, sticker tags, purchase pings, and public-grid noise float around the storefront. Most of it is teenage pose and retail spam, but patterns may be hiding in the clutter.",
+        "choices": [
+          {
+            "label": "Filter for Pixel Sticks-shaped traces",
+            "to": "pixel-static",
+            "testId": "searchCustomer"
+          },
+          {
+            "label": "Enter the public storefront",
+            "to": "public-storefront",
+            "testId": "logon"
+          }
+        ]
+      },
+      {
+        "id": "customer-chatter",
+        "title": "Customer Chatter Boards",
+        "kind": "clue",
+        "description": "Message-board cards flip past: collectible trades, snack complaints, local gossip, and repeated absences where vandal tags should have been.",
+        "choices": [
+          {
+            "label": "Pursue the missing-tag gap",
+            "to": "pixel-static",
+            "testId": "searchCustomer"
+          },
+          {
+            "label": "Try to reach staff records",
+            "to": "stockroom-door",
+            "testId": "staffRecords"
+          }
+        ]
+      },
+      {
+        "id": "stockroom-door",
+        "title": "Locked Stockroom Door",
+        "kind": "barrier",
+        "description": "Behind the cute storefront is a locked staff-only door: camera logs, shift notes, vendor orders, and back-office records stacked like sealed card boxes.",
+        "choices": [
+          {
+            "label": "Open staff records carefully",
+            "to": "back-office",
+            "testId": "staffRecords"
+          },
+          {
+            "label": "Spoof a store system command",
+            "to": "device-hooks",
+            "testId": "controlSlave"
+          },
+          {
+            "label": "Return to public storefront",
+            "to": "public-storefront"
+          }
+        ]
+      },
+      {
+        "id": "back-office",
+        "title": "Back Office Cabinet",
+        "kind": "records",
+        "description": "Receipts, employee notes, camera thumbnails, and supplier records sit in neat rows. The useful question is not what was hit, but why this place was not.",
+        "choices": [
+          {
+            "label": "Copy suspicious camera/receipt slices",
+            "to": "paydata-cache",
+            "testId": "staffRecords"
+          },
+          {
+            "label": "Check device hooks",
+            "to": "device-hooks",
+            "testId": "controlSlave"
+          }
+        ]
+      },
+      {
+        "id": "device-hooks",
+        "title": "Register and Camera Hooks",
+        "kind": "devices",
+        "description": "The register, door chime, camera feed, and display shelves hang as simple device icons. They are mundane, but mundane things remember who walked past.",
+        "choices": [
+          {
+            "label": "Pull camera feed pointers",
+            "to": "paydata-cache",
+            "testId": "controlSlave"
+          },
+          {
+            "label": "Evade rising attention",
+            "to": "public-storefront",
+            "testId": "evadeTrace"
+          }
+        ]
+      },
+      {
+        "id": "pixel-static",
+        "title": "Neon Static Where Tags Should Be",
+        "kind": "mystery",
+        "description": "The absence has a shape: a clean patch in the vandalism wave, too neat to be pure luck. Either someone avoided Happy Cat, protected it, or used it as a marker.",
+        "choices": [
+          {
+            "label": "Compare against back-office records",
+            "to": "back-office",
+            "testId": "staffRecords"
+          },
+          {
+            "label": "Follow the static toward possible Pixel Sticks traces",
+            "to": "paydata-cache",
+            "testId": "searchCustomer"
+          }
+        ]
+      },
+      {
+        "id": "paydata-cache",
+        "title": "Useful Pattern Cache",
+        "kind": "reward",
+        "description": "You have enough strands to hand the GM a concrete lead: traffic, receipts, cameras, or missing-tag geometry pointing to the next branch of the run.",
+        "choices": [
+          {
+            "label": "Log off cleanly",
+            "to": "logoff",
+            "testId": "evadeTrace"
+          },
+          {
+            "label": "Keep digging and risk the sheaf",
+            "to": "pixel-static",
+            "testId": "searchCustomer"
+          }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Clean Exit",
+        "kind": "exit",
+        "description": "The storefront folds back into neon signs and public chatter. If the tally stayed low, nobody knows the mascot let you look behind the counter.",
+        "choices": []
+      }
+    ]
+  }
+}
