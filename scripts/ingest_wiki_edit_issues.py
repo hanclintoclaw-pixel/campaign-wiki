@@ -22,6 +22,7 @@ ACCEPTED_SCHEMA = "campaign-wiki-edit/v1"
 ACCEPTED_APP_ID = "campaign-wiki-editor"
 ACCEPTED_ASSOCIATIONS = {"MEMBER", "OWNER", "COLLABORATOR"}
 DEFAULT_LABEL = "wiki-edit"
+DEFAULT_ALLOWLIST = Path(".github/wiki-edit-allowlist.txt")
 TITLE_PREFIX = "Edit wiki page:"
 
 
@@ -138,14 +139,33 @@ def git_show_text(root: Path, commit: str, path: str) -> str:
     return run(["git", "show", f"{commit}:{path}"], cwd=root)
 
 
+def normalize_login(login: str) -> str:
+    return login.strip().lower()
+
+
+def read_allowlist(path: Path) -> set[str]:
+    if not path.exists():
+        return set()
+
+    trusted: set[str] = set()
+    for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), start=1):
+        candidate = line.split("#", 1)[0].strip()
+        if not candidate:
+            continue
+        if "@" in candidate:
+            raise IngestError(f"Allowlist {path}:{line_number} must contain GitHub logins, not email addresses.")
+        trusted.add(normalize_login(candidate))
+    return trusted
+
+
 def ensure_author_allowed(issue: Issue, trusted_users: set[str]) -> None:
     if issue.author_association in ACCEPTED_ASSOCIATIONS:
         return
-    if issue.author in trusted_users:
+    if normalize_login(issue.author) in trusted_users:
         return
     raise IngestError(
         f"Issue #{issue.number} author {issue.author!r} has association {issue.author_association!r}; "
-        "rerun with --trusted-user after explicit repo-member approval if this is expected."
+        f"add their GitHub login to {DEFAULT_ALLOWLIST} or rerun with --trusted-user after explicit repo-member approval."
     )
 
 
@@ -274,6 +294,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--issue", type=int, action="append", help="Issue number to ingest. May be repeated.")
     parser.add_argument("--label", default=DEFAULT_LABEL, help="Label to scan in batch mode.")
     parser.add_argument("--no-title-scan", action="store_true", help="Do not scan unlabeled open issues with the editor title prefix.")
+    parser.add_argument("--allowlist", type=Path, default=DEFAULT_ALLOWLIST, help="Text file of trusted GitHub logins. Default: .github/wiki-edit-allowlist.txt")
     parser.add_argument("--trusted-user", action="append", default=[], help="Allow a GitHub login whose author_association is not accepted. May be repeated.")
     parser.add_argument("--apply", action="store_true", help="Write patched files. Default is dry-run only.")
     parser.add_argument("--commit", action="store_true", help="Commit applied changes.")
@@ -287,8 +308,9 @@ def main() -> int:
     root = repo_root()
     os.chdir(root)
     repo = args.repo or default_repo(root)
-    trusted_users = set(args.trusted_user)
-    trusted_users.update(user.strip() for user in os.environ.get("WIKI_EDIT_TRUSTED_USERS", "").split(",") if user.strip())
+    trusted_users = read_allowlist(root / args.allowlist)
+    trusted_users.update(normalize_login(user) for user in args.trusted_user)
+    trusted_users.update(normalize_login(user) for user in os.environ.get("WIKI_EDIT_TRUSTED_USERS", "").split(",") if user.strip())
 
     if args.commit and not args.apply:
         raise IngestError("--commit requires --apply")

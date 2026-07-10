@@ -52,21 +52,21 @@ Goal: let players or Cindy edit campaign pages in a browser-friendly WYSIWYG flo
 
 ## Ingestion script
 
-`scripts/ingest_wiki_edit_issues.py` validates and optionally applies editor issues.
+`scripts/ingest_wiki_edit_issues.py` validates and optionally applies editor issues. GitHub logins allowed to submit edits without per-repo collaborator status live in `.github/wiki-edit-allowlist.txt`; keep one GitHub login per line.
 
 Dry-run a specific issue:
 
 ```sh
-python3 scripts/ingest_wiki_edit_issues.py --issue 1 --trusted-user HanClinto
+python3 scripts/ingest_wiki_edit_issues.py --issue 1
 ```
 
 Apply, commit, push, and close after review:
 
 ```sh
-python3 scripts/ingest_wiki_edit_issues.py --issue 1 --trusted-user HanClinto --apply --commit --push --close
+python3 scripts/ingest_wiki_edit_issues.py --issue 1 --apply --commit --push --close
 ```
 
-Default batch mode scans open issues labeled `wiki-edit` and unlabeled issues whose title starts with `Edit wiki page:`. Dry-run is the default; file writes require `--apply`, commits require `--commit`, pushes require `--push`, and closing/commenting on issues requires `--close`.
+Default batch mode scans open issues labeled `wiki-edit` and unlabeled issues whose title starts with `Edit wiki page:`. Dry-run is the default; file writes require `--apply`, commits require `--commit`, pushes require `--push`, and closing/commenting on issues requires `--close`. For one-off approvals, use `--trusted-user <GitHubLogin>` or the comma-separated `WIKI_EDIT_TRUSTED_USERS` environment variable.
 
 ## Security expectations
 
