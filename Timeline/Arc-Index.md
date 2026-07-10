@@ -84,7 +84,7 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 **Important names**
 - Kari Wilkerson
 - Ghostwalker
-- Dr. Gallstone (adjacent support/contact role across later aftermath)
+- Dr. Bruce Gallstone (adjacent support/contact role across later aftermath)
 
 ## 4. Federal pressure / Nashville unrest / civic instability
 
@@ -95,8 +95,7 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 - [2023-09-21](../Sessions/2023-09-21.md)
 
 **Important names**
-- Dr. Gallstone
-- Bruce Gallstone
+- Dr. Bruce Gallstone
 - Hidden Enforcers
 
 ## 5. Pie-town / skooma / magical public-space underworld

@@ -51,8 +51,7 @@
 - [Vanessa](Vanessa.md)
 - [Razor Jake](Razor-Jake.md)
 - [Viper](Viper.md)
-- [Dr. Gallstone](Dr-Gallstone.md)
-- [Bruce Gallstone](Bruce-Gallstone.md)
+- [Dr. Bruce Gallstone](Bruce-Gallstone.md)
 
 ## Recent Threat Figures
 

@@ -89,7 +89,7 @@ For the cleaned-up master list that separates real-world played dates from Shado
 ### Arcoblock riot defense / Gallstone favor
 - **Played:** 2023-09-21
 - **In-world:** unknown
-- **Summary:** After the federal airship retreat, the crew defended Dr. Gallstone's veterinary practice during curfew unrest inside an arcoblock and discovered an unexpectedly rich matrix environment on the upper floors.
+- **Summary:** After the federal airship retreat, the crew defended Dr. Bruce Gallstone's veterinary practice during curfew unrest inside an arcoblock and discovered an unexpectedly rich matrix environment on the upper floors.
 - **Session page:** [2023-09-21](../Sessions/2023-09-21.md)
 
 ### Satellite relay upgrade

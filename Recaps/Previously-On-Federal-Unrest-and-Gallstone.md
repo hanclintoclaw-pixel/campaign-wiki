@@ -11,7 +11,7 @@ updated: 2026-04-10
 
 - The campaign's background tension between Nashville and federal authority kept escalating rather than resolving cleanly.
 - After the federal airship's retreat, the city destabilized into scavenging, curfews, and riot conditions.
-- In that chaos, **Dr. Gallstone** called in a favor and the crew helped defend his veterinary practice inside an arcoblock.
+- In that chaos, **Dr. Bruce Gallstone** called in a favor and the crew helped defend his veterinary practice inside an arcoblock.
 - What followed was less a clean combat operation than a weird piece of crowd control, social improvisation, magical threat management, and neighborhood-level stabilization.
 - This arc matters because it shows how the campaign world behaves under pressure: unstable, improvised, civic, and only partially controlled by formal authorities.
 
@@ -22,4 +22,5 @@ updated: 2026-04-10
 
 ## Major names
 
+- [Dr. Bruce Gallstone](../NPCs/Bruce-Gallstone.md)
 - [Hidden Enforcers](../Factions/Hidden-Enforcers.md)

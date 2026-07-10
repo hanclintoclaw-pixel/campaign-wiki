@@ -2,43 +2,20 @@
 title: Dr. Gallstone
 type: entity
 visibility: player-safe
-status: active
+status: alias
 first_session: 2023-09-21
-last_updated_session: 2023-09-21
-canon_status: provisional
-confidence: medium
-tags: [npc, contact, veterinary, unrest-arc]
+last_updated_session: 2026-07-10
+canon_status: canon
+confidence: high
+tags: [npc, contact, veterinary, alias, gallstone]
+aliases: [Dr. Bruce Gallstone, Bruce Gallstone]
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-09-21.md
+  - Discord player correction, 2026-07-10
 ---
 
 # Dr. Gallstone
 
-## Overview
+This is an alias page. **Dr. Gallstone and Bruce Gallstone are the same NPC.**
 
-Veterinary contact/favor node who called in the crew during the arcoblock curfew unrest.
-
-## Known Facts
-
-- Dr. Gallstone was a veterinary contact the crew had leaned on before.
-- He had discussed unusual biological/magical matters with the crew, including dragon tissue, unicorns, and sasquatches.
-- During the post-federal unrest, he called in a favor and asked the crew to help protect his practice.
-- His clinic sat inside an arcoblock vulnerable to riot spillover and property damage.
-
-## Relationships
-
-- Linked to [Bruce Gallstone](Bruce-Gallstone.md).
-- Linked to the federal unrest / civic instability arc.
-
-## Relevant Sessions
-
-- 2023-09-21 — Gallstone favor / arcoblock defense.
-
-## Open Questions
-
-- How broad is Dr. Gallstone's usefulness as a biological/magical contact?
-- How often will the crew end up owing or calling in favors with him again?
-
-## Sources
-
-- `/Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-09-21.md`
+Use the canonical merged page: [Dr. Bruce Gallstone](Bruce-Gallstone.md).
