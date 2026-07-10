@@ -3,17 +3,19 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-07-03
+updated: 2026-07-10
 owner: Curtis
 contributors:
   - Ace Malone
   - Cindy Lou
+  - Mevin Kitnick
 tags: [pc, curtis, project, habitat, dolphins, seals]
 sources:
   - Ace Malone request in Discord on 2026-05-22
   - Ace Malone concept image in Discord on 2026-05-27
   - JackalMoreau concept image in Discord on 2026-05-27
   - Ace Malone transport-planning clarification in Discord on 2026-06-22
+  - JackalMoreau request for Mevin support plan in Discord on 2026-07-10
 ---
 
 # Curtis Dolphin and Hurricane Seal Habitat
@@ -84,6 +86,80 @@ Curtis should not plan this as a simple animal pickup. Moving Core 7/Cor7 and th
 - [ ] Record materials, costs, and labor needs
 - [x] Plan covert transport, life-support, and machine-interface stabilization for Core 7/Cor7 and the enhanced seals
 - [ ] Track build milestones and changes
+
+## Mevin Support Track
+
+Purpose: Mevin's contribution is not to replace Curtis's build work. His job is to make the rescue/relocation survivable, deniable, and medically sane by combining Matrix legwork, contact work, and Dr. Bruce Gallstone's crooked-vet expertise.
+
+### 1. Gallstone Contact and Vet-Legwork Setup
+
+#### 1.1 Make discreet contact with Dr. Bruce Gallstone
+
+- [ ] Confirm Bruce is willing to advise without being directly traceable to the Site 7 extraction.
+- [ ] Frame the ask as exotic/enhanced marine-animal stabilization, not as a confession about a captive cybered dolphin in a secret influence-engine site.
+- [ ] Ask for safe dosing ranges, emergency tranquilizer/upper guidance, aquatic transport risks, and referrals to awakened-animal-rights or transport people who can keep quiet.
+
+#### 1.2 Establish deniable procurement channels
+
+- [ ] Source veterinary sedatives, stimulants/revival agents, electrolyte/anti-shock supplies, marine-safe antibiotics, restraints, and sample kits.
+- [ ] Keep purchases split across ordinary clinic stock, grey-market vet supply, and cutout orders so no one invoice describes the whole operation.
+
+### 2. Medical and Creature-Handling Protocol
+
+#### 2.1 Core 7 / cybered dolphin handling notes
+
+- [ ] Build a checklist for keeping Core 7's water, breathing, stress, chrome interfaces, and machine connections stable during extraction.
+- [ ] Identify what must not be sedated, unplugged, shocked, or overheated.
+
+#### 2.2 Hurricane seal handling notes
+
+- [ ] Build separate restraint/sedation guidance for enhanced seals, assuming they are stronger, meaner, and less predictable than normal marine mammals.
+- [ ] Flag when to use calm handling versus chemical restraint.
+
+### 3. Matrix and Data Support
+
+#### 3.1 Site 7 animal-care data pull
+
+- [ ] Look for dosing logs, maintenance records, biological telemetry, feed schedules, neural-interface alarms, and prior transport/storage procedures.
+- [ ] Preserve enough evidence to prove mistreatment without exposing Taco's compound or Gallstone.
+
+#### 3.2 Habitat monitor integration
+
+- [ ] Help Curtis turn the habitat's Matrix connection into a safe monitoring layer: read-only telemetry, alert forwarding, no obvious trail back to the extraction team.
+
+### 4. Deniable Transport and Handoff
+
+#### 4.1 Route and timing refinement
+
+- [ ] Combine Curtis's low-signature route with Mevin's traffic/camera/Matrix blind-spot work.
+- [ ] Identify which parts of the transport must look like ordinary animal cargo, waste hauling, utility service, or clinic supply movement.
+
+#### 4.2 Third-party animal-welfare handoff option
+
+- [ ] If Bruce can route to awakened-animal-rights transport support, determine whether they should move the creatures, advise from offsite, or simply provide cover documents/equipment.
+
+### 5. Acceptance and Contingency Integration
+
+#### 5.1 Mevin/Curtis checklist review
+
+- [ ] Merge Gallstone's medical guidance into Curtis's existing feed/med/handling station and emergency drills.
+- [ ] Convert advice into labels, dosages, emergency cards, and Matrix alerts the crew can actually use under pressure.
+
+#### 5.2 Final go/no-go package
+
+- [ ] Produce a rescue-night decision tree: green/yellow/red conditions for Core 7, seals, transport, Matrix heat, and medical complications.
+
+### Progress Log
+
+- **2026-07-10:** Mevin support track opened. First pending step is discreet Gallstone contact and vet-legwork setup.
+
+### Active Roll Prompt
+
+#### Step 1.1 — Discreet Gallstone Contact
+
+- **Primary:** Mevin social/contact approach to Dr. Bruce Gallstone. Roll Mevin's best fitting social/contact skill, preferably **Etiquette** if he has an appropriate specialization, otherwise **Negotiation** or raw **Charisma**. **TN 4** because Bruce is an established friendly contact; raise to **TN 5** only if Mevin is asking for supplies immediately instead of just advice.
+- **Support:** Mevin deniability prep before/around the call. Roll **Computer**, **Etiquette**, or another fitting legwork skill for anonymized comms, a clean cover story, and non-incriminating phrasing. **TN 5** because the subject matter is illegal/trace-sensitive.
+- **Outcome hook:** Primary successes determine how willing and useful Bruce is; Support successes determine how cleanly Mevin keeps Bruce insulated from traceability and how much usable logistics detail comes out of the conversation.
 
 ## Ongoing Build Out
 
