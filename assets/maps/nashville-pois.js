@@ -72,6 +72,15 @@ window.NASHVILLE_CAMPAIGN_POIS = [
     notes: "699-615 Main St. Crew-only safehouse held after an undocumented job."
   },
   {
+    name: "Happy Cat Konpeki and Collectibles",
+    type: "hangout",
+    lat: 36.188534881878645,
+    lng: -86.76379556461504,
+    confidence: "exact-user-provided-coordinate",
+    wiki: "../Locations/Happy-Cat-Konpeki-and-Collectibles.html",
+    notes: "400-448 Vernon Winfrey Ave. Independent convenience store and collectibles shop; local teen hangout nestled between huge arkoblocks."
+  },
+  {
     name: "Collapsed Art Museum",
     type: "future-base",
     lat: 35.9212564,

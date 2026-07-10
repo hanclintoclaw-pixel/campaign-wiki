@@ -136,6 +136,7 @@ For specific sites, see the broader [Locations](README.md) index and current Nas
 - [Darla Ledue's Penthouse](Darla-Penthouse.md)
 - [Gladwell Institute](Gladwell-Institute.md)
 - [Grandpa](Grandpa.md)
+- [Happy Cat Konpeki and Collectibles](Happy-Cat-Konpeki-and-Collectibles.md)
 - [Seven Directions Dojo](Seven-Directions-Dojo.md)
 
 ## See also

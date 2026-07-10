@@ -2,7 +2,7 @@
 title: Nashville Campaign Map
 type: map
 visibility: player-safe
-updated: 2026-07-03
+updated: 2026-07-09
 ---
 
 # Nashville Campaign Map
@@ -105,6 +105,7 @@ Player-safe living map for the Nashville Shadowrun campaign. The map starts empt
   <button type="button" data-map-filter="corp">Corp</button>
   <button type="button" data-map-filter="threat">Threats</button>
   <button type="button" data-map-filter="safehouse">Safehouses</button>
+  <button type="button" data-map-filter="hangout">Hangouts</button>
   <button type="button" data-map-filter="mystery">Mysteries</button>
 </div>
 
