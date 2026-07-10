@@ -9,3 +9,4 @@ Each entry includes a descriptive host profile plus example **SR3-style host sta
 - [SC Music Corporate Host](SC-Music-Corporate-Host.md)
 - [Augmented Beef and Bacon Social Club Host](Augmented-Beef-and-Bacon-Social-Club-Host.md)
 - [Humanis Nashville Hidden Host](Humanis-Nashville-Hidden-Host.md)
+- [Happy Cat Public Storefront Host](Happy-Cat-Public-Storefront-Host.md)

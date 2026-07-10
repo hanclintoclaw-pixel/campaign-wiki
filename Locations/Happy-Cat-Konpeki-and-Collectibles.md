@@ -34,7 +34,7 @@ The store is small, bright, and stubbornly local, nestled between the huge arkob
 - Surrounded by massive arkoblocks, making it stand out as a smaller independent business in the shadow of denser urban infrastructure.
 - Useful landmark for street-level activity in the Vernon Winfrey Avenue area.
 - During the Pixel Sticks investigation, the store sat inside a dense street scene of teens, tired workers, SINless residents, corporate-fashion posers, and public Matrix users.
-- The local Matrix view includes a Happy Cat small-business host among other nearby storefront hosts.
+- The local Matrix view includes a [Happy Cat Public Storefront Host](../Tech/Matrix/Happy-Cat-Public-Storefront-Host.md) among other nearby storefront hosts.
 - The vandalism pattern around the current Matrix-youth-gang problem appears to make Happy Cat a notable exception or investigation point rather than just another hit site.
 - Valgaut sensed a fairly powerful awakened animal in or near the store during the first drive-by, but could not identify the creature.
 
