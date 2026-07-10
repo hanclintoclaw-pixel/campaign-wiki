@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-07-03
+updated: 2026-07-10
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,7 +20,7 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The crew is still dealing with the hostile influence network around **612 Wharf / Site 7**, while the recent **Griswell Data Services** side run has concluded. That run identified **Palermo**, a Nashville paydata broker, as the downstream exploiter behind **Alvin Flang's** leak pattern and established a new underground-market location beneath the city.
+The crew has started a new Matrix-focused run against the **[Pixel Sticks](Factions/Pixel-Sticks.md)**, a youth-gang tag tied to Nashville telecom vandalism and suspiciously advanced attack utilities. The current scene is at **[Happy Cat Konpeki and Collectibles](Locations/Happy-Cat-Konpeki-and-Collectibles.md)**, where Mevin, Valgaut, and Cindy Lou are in the local Matrix while Kurgan watches the physical crowd.
 
 ## Navigation
 

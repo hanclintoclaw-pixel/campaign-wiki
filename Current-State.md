@@ -2,46 +2,45 @@
 title: Current State
 type: dashboard
 visibility: player-safe
-updated: 2026-07-03
+updated: 2026-07-10
 ---
 
 # Current State
 
 ## Active Arc
 
-The crew has cracked open the **612 Wharf / Site 7** cluster and is now in active aftermath mode: the warehouse-side operation has been disrupted, **Mother Yahweh** has been physically brought down, and the remaining problem is now part rescue mission, part containment problem, and part historical technology scandal tied to Darla, counterfeit promotional goods, buried host infrastructure, and exploited awakened life.
+The crew is on a new Matrix-focused job: **[Pixel Sticks / Military-Grade Utilities Run](Arcs/Pixel-Sticks-Utility-Run.md)**. Ivan routed the team through **[Atlas's](Locations/Atlass.md)** to a high-end anonymous Johnson who wants a disruptive Nashville Matrix youth gang stopped and, if possible, wants their state-of-the-art attack utilities recovered.
 
-The **Griswell Data Services / Alvin Flang** surveillance job has now concluded. The crew identified **Palermo**, a Nashville-market paydata broker tied to the **Ruby Falls data haven**, as the downstream exploiter behind Alvin's leak pattern. Palermo surrendered a burner identity/proof-chain under pressure, the team turned in the contract, and the run paid out cleanly.
+The first concrete lead is **[Happy Cat Konpeki and Collectibles](Locations/Happy-Cat-Konpeki-and-Collectibles.md)**, a busy East Nashville convenience-store / collectibles shop that was conspicuously spared during Matrix vandalism waves. **Mevin** and **Valgaut** are currently in the local Matrix with **Cindy Lou Jenkins** assisting as a social-pattern / profiling helper, while **Kurgan** watches the physical crowd outside.
 
-A backdated partial-party canon interlude now also sits immediately before that current run: **Kurgan** and **Curtis** removed **Righteous Haze** for **Mayor Haggar** and **Joseph Neumann**, leaving Kurgan better positioned inside City Hall's deniable security apparatus and privately holding sensitive paydata from Haysen's files.
+## Recent Resolved Runs
+
+- The **Griswell / Alvin / Palermo** surveillance run concluded in [Session 2026-07-02](Sessions/2026-07-02.md). Palermo surrendered a proof-chain, the contract paid cleanly, and the detailed fallout now lives on the Griswell, Alvin, Palermo, Music Circle, and underground-market pages.
+- The backdated **Righteous Haze** partial-party interlude remains canon at [Session 2026-06-25](Sessions/2026-06-25.md), but it does not drive the current table scene.
+- The **612 Wharf / Site 7 / Core 7** fallout remains unresolved background pressure, tracked on [612 Wharf Avenue and Site 7](Locations/612-Wharf-and-Site-7.md), [Core 7](NPCs/Core-7.md), and [Previously On: 612 Wharf and Core 7](Recaps/Previously-On-612-Wharf-and-Core-7.md).
 
 ## In-World Date
 
 - Current campaign year: **2066**
 - Most recently confirmed active date: **2066-05-12**
-- That current date reflects the conclusion of the two-session **Griswell / Alvin / Palermo** surveillance run.
-- The 2026-06-25 archive is a **backdated canon interlude** placed on **2066-05-09**; it counts for canon but does **not** advance the active current-run clock.
+- Current active scene: **evening of 2066-05-12, provisional**, after the Griswell / Palermo payout and before the next confirmed date anchor.
 
 ## Immediate Leads
 
-- whether the trapped **cybered dolphin** at the heart of Core 7 can be extracted, stabilized, or temporarily sustained in place
-- whether **Taco** or another friendly site could support a future relocation habitat for the dolphin and related creatures
-- the broader **second influence-engine** architecture implied by the concealed host hardware
-- how directly **SC Music** and **Swiftwing Records** are tied to code, design, or licensing descended from **Core 7**
-- what surviving role, allies, or backup plans remain to **Mother Yahweh** and the counterfeit-food network after the warehouse breach
-- whether **Griswell Data Services** closes the internal hole that let **Alvin Flang** become useful to Palermo
-- whether **Palermo** can be cultivated as a future paydata contact, or whether he becomes a liability
-- what else operates out of the **Music Circle underground market**, including the devil-rat guard arrangement
-- why **Heavenly Host** colors resurfaced around Diego
-- how Kurgan uses the **Righteous Haze paydata** and whether his new City Hall security/fixer role develops into an asset, liability, or private leverage point
+- identify which local teens, deckers, or Matrix icons near **Happy Cat** are actually tied to the **Pixel Sticks**
+- inspect the **Happy Cat** host and local telecom-grid traffic without exposing Mevin's cyberdeck
+- determine why Happy Cat was spared by the vandalism wave
+- identify the fairly powerful **awakened animal** Valgaut sensed inside Happy Cat
+- determine whether the **advanced utilities** are recoverable, already burned, or evidence that needs to be destroyed
+- find out what was removed from the Johnson's dossier and whether it hides the client, a protected person, or the original source of the tools
+- keep watching for whether the Cross / Princeps pressure environment intersects with this Matrix-gang job or merely forms the broader city backdrop
 
 ## Open Questions
 
-- What exactly is **Core 7**, and who built or now controls the dolphin-centered wetware system?
-- What is meant by **final reclamation**, and why is the site receiving salmon, tuna, and other fish?
-- How many awakened aquatic creatures have been altered, cybered, or repurposed in this operation?
-- Is the hidden host infrastructure a copy, branch, or ancestor of Cindy Lou's own architecture?
-- What exactly did **SC Music** know, buy, license, or inherit from the older Core 7 line?
-- What evidence, captives, or dangers remain at **612 Wharf Avenue** and deeper inside **Site 7** now that the warehouse layer has been hit?
-- Is the concluded **Griswell / Alvin / Palermo** job truly isolated, or does Palermo's Nashville paydata network intersect with the crew's larger corporate/media manipulation web?
-- Who else in City Hall was using **Righteous Haze**, and what will Kurgan do with the records Haysen kept?
+- Who is the Johnson's true client?
+- Who supplied the Pixel Sticks with bleeding-edge utilities?
+- Are the Pixel Sticks the real problem, patsies, useful idiots, or protected kids tied to someone powerful?
+- What exactly was cut from the dossier's monitoring record?
+- What is inside Happy Cat, both physically and in the local Matrix host?
+- Can Cindy Lou's social-pattern analysis separate real Pixel Sticks from the crowd of corporate-logo teens, poseurs, and plugged-in SINless locals?
+- How much of the older **Core 7 / influence-engine** problem is still actively dangerous while the crew handles this new Matrix contract?

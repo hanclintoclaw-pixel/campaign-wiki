@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session:
-last_updated_session: 2026-07-03
+last_updated_session: 2026-07-09
 canon_status: provisional
 confidence: high
 tags: [location, bar, shadowrunner-hub, nashville]
@@ -29,6 +29,7 @@ Bar and private club just outside Nashville city limits that functions as a neut
 - The local Shadowrunner community uses Atlas's as a hiring center.
 - Historical sessions show the crew returning there as a staging and regroup point.
 - By **2026-06-04**, Atlas's was still functioning as Ivan's preferred neutral briefing point for new jobs, including the **Griswell Data Services** / **Alvin Flang** surveillance contract.
+- By **2026-07-09**, Atlas's was again the crew's hiring point, but it was unusually empty because Nashville's runners were already busy. Ivan routed the team upstairs to a high-end anonymous Johnson for the **Pixel Sticks / military-grade utilities** run.
 
 ## Relationships
 
@@ -41,6 +42,7 @@ Bar and private club just outside Nashville city limits that functions as a neut
 
 - 2023-03-23 — used as a regroup/staging location in the peace-meeting era.
 - 2026-06-04 — used again as the crew's job-briefing site for the Griswell espionage surveillance run.
+- 2026-07-09 — used as the briefing point for the Pixel Sticks / military-grade utilities run.
 
 ## Open Questions
 

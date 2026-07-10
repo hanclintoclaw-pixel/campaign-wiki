@@ -2,7 +2,7 @@
 title: Campaign Arc Index
 type: arc-index
 visibility: player-safe
-updated: 2026-05-29
+updated: 2026-07-10
 ---
 
 # Campaign Arc Index
@@ -156,9 +156,9 @@ This page groups the processed session archive into major recurring campaign thr
 - Vox Populi
 - Mall Rats
 
-## 10. 2026 active modern arc cluster
+## 10. 2026 modern arc cluster
 
-**Core idea:** the current campaign era centers on insect-political threats, Darla/media manipulation, surveillance/counter-surveillance around music-industry-adjacent power players, and the newly exposed **612 Wharf / Site 7 / Core 7** continuity tying counterfeit goods, exploited awakened life, and Cindy-line architecture together.
+**Core idea:** the 2026 campaign era centers on insect-political threats, Darla/media manipulation, surveillance/counter-surveillance around music-industry-adjacent power players, and the exposed **612 Wharf / Site 7 / Core 7** continuity tying counterfeit goods, exploited awakened life, and Cindy-line architecture together. This cluster now sits mostly as recent background rather than the immediate live dashboard focus.
 
 **Key sessions**
 - [2026-03-13](../Sessions/2026-03-13.md)
@@ -171,6 +171,9 @@ This page groups the processed session archive into major recurring campaign thr
 - [2026-05-14](../Sessions/2026-05-14.md)
 - [2026-05-21](../Sessions/2026-05-21.md)
 - [2026-05-28](../Sessions/2026-05-28.md)
+- [2026-06-04](../Sessions/2026-06-04.md)
+- [2026-06-25](../Sessions/2026-06-25.md)
+- [2026-07-02](../Sessions/2026-07-02.md)
 
 **Important names**
 - Mayor Mike Haggar
@@ -182,6 +185,24 @@ This page groups the processed session archive into major recurring campaign thr
 - Mother Yahweh
 - Taco
 - Core 7
+- Alvin Flang
+- Palermo
+- Righteous Haze
+
+## 11. Pixel Sticks / military-grade utilities run
+
+**Core idea:** a deniable Matrix cleanup job begins as a youth-gang vandalism problem but immediately points toward outside backing, missing dossier data, and military-grade utilities loose on the Nashville grid.
+
+**Key sessions**
+- [2026-07-09](../Sessions/2026-07-09.md)
+
+**Important names**
+- [Pixel Sticks](../Factions/Pixel-Sticks.md)
+- [Ivan Toklas](../NPCs/Ivan.md)
+- [Happy Cat Konpeki and Collectibles](../Locations/Happy-Cat-Konpeki-and-Collectibles.md)
+
+**Dedicated page**
+- [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md)
 
 ## Related pages
 

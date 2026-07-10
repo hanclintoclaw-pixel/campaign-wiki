@@ -1,5 +1,6 @@
 # Factions
 
+- [Pixel Sticks](Pixel-Sticks.md)
 - [The Princeps Group](The-Princeps-Group.md)
 - [SC Music](SC-Music.md)
 - [Ace Freelits](Ace-Freelits.md)

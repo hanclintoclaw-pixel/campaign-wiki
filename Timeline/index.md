@@ -2,7 +2,7 @@
 title: Campaign Timeline
 type: timeline
 visibility: player-safe
-updated: 2026-04-10
+updated: 2026-07-10
 ---
 
 # Campaign Timeline
@@ -205,8 +205,14 @@ For the cleaned-up master list that separates real-world played dates from Shado
 ### Griswell / Alvin Flang surveillance job
 - **Played:** 2026-06-04 onward
 - **In-world:** 2066-05-10
-- **Summary:** The crew pivoted into a parallel corporate-espionage surveillance job routed through **Ivan** at **Atlas's**, tracking **Alvin Flang**, **Diego**, and an unidentified watcher at **Music Circle**.
-- **Session page:** [2026-06-04](../Sessions/2026-06-04.md)
+- **Summary:** The crew pivoted into a parallel corporate-espionage surveillance job routed through **Ivan** at **Atlas's**, tracked **Alvin Flang**, **Diego**, and an unidentified watcher at **Music Circle**, then concluded the job by identifying **Palermo** as the downstream paydata broker and turning in proof-chain.
+- **Session pages:** [2026-06-04](../Sessions/2026-06-04.md), [2026-07-02](../Sessions/2026-07-02.md)
+
+### Pixel Sticks / military-grade utilities run
+- **Played:** 2026-07-09 onward
+- **In-world:** 2066-05-12 evening (provisional)
+- **Summary:** The crew accepted a deniable Matrix cleanup contract from an anonymous high-end Johnson through **Ivan** at **Atlas's**. The target is **Pixel Sticks**, a Matrix youth-gang tag tied to Nashville telecom-grid vandalism and suspicious military-grade utilities. The first field lead is **Happy Cat Konpeki and Collectibles**, where the team found dense teen/Matrix traffic, possible decker clusters, and a powerful awakened animal.
+- **Session page:** [2026-07-09](../Sessions/2026-07-09.md)
 
 ## Current Known In-World Anchor
 
