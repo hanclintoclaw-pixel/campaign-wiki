@@ -2,7 +2,7 @@
 title: Minigames and Web Apps
 type: index
 visibility: player-safe
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 # Minigames and Web Apps
@@ -24,6 +24,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 ## Active apps
 
 - [Curtis Drone Dashboard](https://hanclintoclaw-pixel.github.io/drone-dashboard/) - SR3/Rigger 3-style drone and vehicle session tracker.
+- [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) - SR3 cyberdeck, utility loadout, and host-run note tracker.
 
 ## Templates and implementation notes
 
@@ -34,6 +35,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 
 ## Candidate future apps
 
+- Mevin Host Run Simulator for click-by-click host intrusion resolution.
 - Dolphin habitat simulator for Ace Malone and related aquatic-support rolls.
 - Drone maintenance simulator canonicalizing repairs, upgrades, ammunition, and downtime costs.
 - Wiki WYSIWYG editor that stores drafts locally and persists proposed page edits through GitHub Issues.
