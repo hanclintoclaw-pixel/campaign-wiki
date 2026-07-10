@@ -25,6 +25,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 
 - [Curtis Drone Dashboard](https://hanclintoclaw-pixel.github.io/drone-dashboard/) - SR3/Rigger 3-style drone and vehicle session tracker.
 - [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) - SR3 cyberdeck, utility loadout, and host-run note tracker.
+- [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) - click-through SR3-inspired Matrix host intrusion aid using Deck Manager exports and editable host profiles.
 
 ## Templates and implementation notes
 
@@ -35,7 +36,6 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 
 ## Candidate future apps
 
-- Mevin Host Run Simulator for click-by-click host intrusion resolution.
 - Dolphin habitat simulator for Ace Malone and related aquatic-support rolls.
 - Drone maintenance simulator canonicalizing repairs, upgrades, ammunition, and downtime costs.
 - Wiki WYSIWYG editor that stores drafts locally and persists proposed page edits through GitHub Issues.
