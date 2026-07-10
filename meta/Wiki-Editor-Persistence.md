@@ -50,6 +50,24 @@ Goal: let players or Cindy edit campaign pages in a browser-friendly WYSIWYG flo
 }
 ```
 
+## Ingestion script
+
+`scripts/ingest_wiki_edit_issues.py` validates and optionally applies editor issues.
+
+Dry-run a specific issue:
+
+```sh
+python3 scripts/ingest_wiki_edit_issues.py --issue 1 --trusted-user HanClinto
+```
+
+Apply, commit, push, and close after review:
+
+```sh
+python3 scripts/ingest_wiki_edit_issues.py --issue 1 --trusted-user HanClinto --apply --commit --push --close
+```
+
+Default batch mode scans open issues labeled `wiki-edit` and unlabeled issues whose title starts with `Edit wiki page:`. Dry-run is the default; file writes require `--apply`, commits require `--commit`, pushes require `--push`, and closing/commenting on issues requires `--close`.
+
 ## Security expectations
 
 - Treat issues as requests, not direct writes.
