@@ -2,7 +2,7 @@
 title: Minigames and Web Apps
 type: index
 visibility: player-safe
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 # Minigames and Web Apps
@@ -27,6 +27,111 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 - [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) - SR3 cyberdeck, utility loadout, and host-run note tracker.
 - [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) - click-through SR3-inspired Matrix host intrusion aid using Deck Manager exports and editable host profiles.
 - [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) - branching cyber-dungeon crawl that syncs Deck Manager state and pulls wiki host profile JSON.
+
+## Mevin Decker Experience documentation
+
+### What it is
+
+The [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) is a live-table Matrix host crawl tool for Shadowrun 3rd Edition play. It turns a wiki-hosted Matrix host profile into a clickable, roll-gated flowchart that a decker player can use while the rest of the team continues acting in meatspace.
+
+The design goal is not to replace SR3 Matrix rules. It is a table helper: a fast, readable way to give the decker meaningful choices, rolls, Security Tally pressure, IC interruptions, and concrete rewards without making the GM run an entire separate rules subsystem from scratch every time someone jacks in.
+
+### Who it is for
+
+- **Deckers / players:** use it as a guided host crawl. Pick an action, roll, see whether the route opens, and record what you uncover.
+- **GMs:** use it to present prepared host topology, rewards, security pressure, and GM-confirmation prompts without revealing hidden layers too early.
+- **Wiki maintainers:** use host JSON profiles in `data/matrix-hosts/` to publish loadable Matrix runs from campaign wiki records.
+
+### How the table experience works
+
+A host starts with up to two initial doors:
+
+- **Public visitor door:** usually no roll. It shows harmless, official, on-theme public Matrix content.
+- **Secure / hidden decker door:** requires a roll. Failure can lock that route for the current crawl and reveal nothing else.
+
+Once inside the private side, the decker sees featured actions: subsystem access, file archives, camera networks, shipping records, hidden seams, control hooks, or paydata opportunities. A successful action either opens a new node or grants a specific result the player can tell the GM or note for later.
+
+The tool also has a **Custom / RAW action** lane at every node. If the decker wants to do something outside the featured options, the player records it there and the GM adjudicates the SR3-style test, time cost, Tally pressure, and outcome.
+
+### Rolls and branch locking
+
+Most featured private actions have a `testId`, target number, and success threshold. When the player rolls:
+
+- success unlocks the destination node or reward;
+- failure locks that route for the current crawl;
+- hidden or deeper nodes stay invisible until unlocked;
+- current-crawl lockouts are not automatically permanent in-world failures. After enough in-world time passes, the GM may allow a reset and retry.
+
+This makes weak attempts bounce off hard hosts cleanly while still letting a table come back later with better prep, better tools, or another opportunity.
+
+### Security Tally and IC checkpoints
+
+The tool tracks **Security Tally** as tested actions occur. Host profiles define a `securitySheaf`: threshold events such as Probe IC, Trace IC, Scramble IC, Tar Baby pressure, Sparky IC, or corporate escalation.
+
+When Tally crosses a sheaf threshold, normal navigation pauses and the player gets a **Security checkpoint**. The player can:
+
+- suppress / evade the IC;
+- fight it;
+- ignore it and continue;
+- jack out.
+
+Ignored or failed checkpoints become **active pressure**. Active pressure increases future Tally risk until handled, giving the decker a little combat/IC-management loop without turning the whole app into a full cybercombat simulator.
+
+### Rewards and permanent outcomes
+
+Rewards should be concrete but often GM-scoped. Good examples include:
+
+- customer files;
+- shipping records;
+- camera-network access;
+- supplier irregularity paydata;
+- future-plan cache;
+- member list cache;
+- recurring order inserted into fulfillment systems.
+
+Permanent outcomes must tell the player to **notify the GM**. If a player changes records, schedules a delivery, inserts a recurring order, plants a file, disables a device, or otherwise changes campaign state, the GM does not know it happened until the player reports it.
+
+### Host library and data model
+
+The app loads host profiles from the campaign wiki host index:
+
+- Host index: [data/matrix-hosts/index.json](data/matrix-hosts/index.json)
+- Host design guide: [Matrix Host Construction Guide](Tech/Matrix/Host-Construction-Guide.md)
+- Matrix host records: [Tech/Matrix/](Tech/Matrix/)
+
+Each host profile is JSON with:
+
+- host stats: security code/value, host rating, subsystem ratings, task target numbers;
+- security sheaf thresholds and effects;
+- sculpting and notes;
+- a `flow` graph of nodes and choices;
+- optional per-choice overrides for harder hidden layers, such as higher target numbers or security values.
+
+The app can also sync decker/deck data from the [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) when browser origin/localStorage conditions allow it, or load manual deck JSON.
+
+### Current loadable examples
+
+The Host Library currently includes several wiki-backed profiles, including:
+
+- **Happy Cat Public Storefront Host** — starter host with harmless public side, private store records, a strange pet-food clue, and a hidden Pixel Sticks layer.
+- **Augmented Beef and Bacon Social Club Host** — consumer-brand host with multiple generic paydata opportunities and a permanent off-books luxury snack order outcome.
+- **Lafayette Tower CAT Entertainment Host** — high-danger megacorp entertainment host with a deeply hidden Ultraviolet layer.
+- Other campaign hosts such as Ares Nashville, Humanis Nashville, Nashville City Government, and SC Music.
+
+### Limitations and table caveats
+
+The Decker Experience is a **guided table tool**, not a full SR3 Matrix rules engine.
+
+Important limitations:
+
+- It abstracts many RAW Matrix operations into featured actions.
+- It does not fully model every utility, operation, IC stat block, cybercombat option, damage track, account privilege, or host subsystem rule from SR3 / Matrix.
+- It relies on GM interpretation for exact file contents, camera coverage, physical device scope, paydata value, and permanent campaign-state changes.
+- It cannot know whether the meatspace team has created new modifiers, distractions, credentials, or consequences unless the GM/player applies them manually.
+- Hidden-host surprise depends on players not reading GM-only wiki details before play.
+- The app records and guides the crawl; it does not replace GM authority over what is actually true in the scene.
+
+The useful mental model is: **prepared Matrix spotlight lane**. It gives the decker something tactile to do for a few minutes while the rest of the team operates, while still preserving the GM's role as arbiter of exact SR3 rules and campaign consequences.
 
 ## Templates and implementation notes
 
