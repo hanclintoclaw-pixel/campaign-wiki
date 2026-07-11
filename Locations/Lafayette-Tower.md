@@ -53,6 +53,8 @@ The building's arcology-like feel comes from the implication that CAT can do a w
 
 The tower's most important known hidden feature is a basement **Ultraviolet host** used by CAT to brainstorm and prototype new entertainment forms.
 
+The tower now has a dedicated Matrix host record and loadable minigame profile: [Lafayette Tower CAT Entertainment Host](../Tech/Matrix/Lafayette-Tower-CAT-Entertainment-Host.md).
+
 Player-safe framing: this is not just a normal host with flashy UI. It is a controlled, high-end Matrix environment where metaphor, sensory design, and creative ideation can be made operational. CAT uses it as a conceptual forge: a place where executives, designers, media psychologists, and technical specialists can test entertainment ideas inside an environment more immersive and responsive than ordinary Matrix architecture.
 
 Open questions remain around how safe that host is, what historical projects passed through it, and whether any of CAT's entertainment experiments intersect with the campaign's larger influence-engine themes.

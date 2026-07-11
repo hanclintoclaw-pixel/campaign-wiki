@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "lafayette-tower-cat-entertainment-host",
+  "name": "Lafayette Tower CAT Entertainment Host",
+  "wikiPage": "Tech/Matrix/Lafayette-Tower-CAT-Entertainment-Host.md",
+  "locationPage": "Locations/Lafayette-Tower.md",
+  "securityCode": "red",
+  "securityValue": 9,
+  "hostRating": 10,
+  "subsystem": {
+    "access": 9,
+    "control": 10,
+    "index": 8,
+    "files": 10,
+    "slave": 9,
+    "ultraviolet": 12
+  },
+  "taskTargetNumbers": {
+    "logon": 9,
+    "browsePublic": 8,
+    "searchCustomer": 10,
+    "staffRecords": 12,
+    "alterStore": 12,
+    "controlSlave": 12,
+    "evadeTrace": 10,
+    "fightIc": 12,
+    "findUvSeam": 13,
+    "breachUv": 14
+  },
+  "securitySheaf": [
+    { "threshold": 2, "label": "Credential Probe", "effect": "Badge, route, and activity-profile verification begins." },
+    { "threshold": 5, "label": "Trace Lattice", "effect": "CAT correlation systems start linking deck signature, route, and possible physical location." },
+    { "threshold": 8, "label": "Scramble / Rights Collapse", "effect": "Directories, schedules, and media assets remix; decoy routes multiply." },
+    { "threshold": 11, "label": "Handler Tar Baby", "effect": "Producer and handler icons try to trap the decker in approval loops and focus tests." },
+    { "threshold": 14, "label": "Killer / Blaster Response", "effect": "Hard security icons engage with dangerous force." },
+    { "threshold": 18, "label": "Building Security Crosslink", "effect": "Physical Lafayette Tower security receives correlated alerts." },
+    { "threshold": 22, "label": "Ultraviolet Containment Protocol", "effect": "The host seals routes and brings UV-native constructs or psychotropic pressure to bear." },
+    { "threshold": 26, "label": "CAT Executive Security Event", "effect": "CAT treats the intrusion as a strategic compromise, not a local alert." }
+  ],
+  "sculpting": "A vertical entertainment-corporate arcology: glass atriums, marquees, executive elevators, gold-record rooms, focus-test theaters, prototype simsense rigs, rigging catwalks, and a hidden black-stage Ultraviolet basement.",
+  "notes": "Local Cross Applied Technology entertainment-division host at Lafayette Tower. Extremely dangerous. The Ultraviolet layer should reveal only after deep-host success or story permission.",
+  "flow": {
+    "startNodeId": "division-grid-approach",
+    "nodes": [
+      {
+        "id": "division-grid-approach",
+        "title": "Music Circle Grid Approach",
+        "kind": "entry",
+        "description": "Lafayette Tower rises from the Music Circle grid like a sealed vertical studio campus. The public face is beautiful; the access surface is not public at all.",
+        "choices": [
+          { "label": "Enter through a high-grade entertainment-division credential chain", "to": "glass-atrium-shell", "testId": "logon", "unlockSuccesses": 2 },
+          { "label": "Read the tower's public media and vendor traffic from outside", "to": "visitor-demo-cloud", "testId": "browsePublic", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "visitor-demo-cloud",
+        "title": "Visitor Demo Cloud",
+        "kind": "public",
+        "description": "Sanitized demo reels, visitor kiosks, vendor packets, and public-facing division language orbit the tower like carefully lit advertisements.",
+        "choices": [
+          { "label": "Find a real route from public traffic into the corporate shell", "to": "glass-atrium-shell", "testId": "logon", "unlockSuccesses": 2 },
+          { "label": "Search public material for hidden project-routing seams", "to": "project-routing-constellation", "testId": "searchCustomer", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "glass-atrium-shell",
+        "title": "Glass Atrium Corporate Shell",
+        "kind": "public",
+        "description": "A bright corporate atrium stacks lobby surfaces, marquees, executive elevator banks, security spotlights, and visitor-management avatars into a single controlled view.",
+        "choices": [
+          { "label": "Map corporate administration and licensing corridors", "to": "licensing-elevator-bank", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Find talent analytics behind the public studio polish", "to": "focus-test-theater", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Probe building and production slave systems", "to": "rigging-control-catwalk", "testId": "controlSlave", "unlockSuccesses": 3 }
+        ]
+      },
+      {
+        "id": "licensing-elevator-bank",
+        "title": "Licensing Elevator Bank",
+        "kind": "records",
+        "description": "Executive elevators rise through gold-record conference rooms, contract vaults, royalty engines, partner offices, and private listening rooms.",
+        "choices": [
+          { "label": "Open artist, vendor, and brand-partner contracts", "to": "contract-vault-suite", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Follow executive routing toward R&D", "to": "prototype-war-room", "testId": "staffRecords", "unlockSuccesses": 3 },
+          { "label": "Return to the glass atrium", "to": "glass-atrium-shell", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "contract-vault-suite",
+        "title": "Contract Vault Suite",
+        "kind": "restricted",
+        "description": "Private listening rooms and sealed contract vaults hold licensing leverage, talent obligations, legal-risk notes, and partner-control agreements.",
+        "choices": [
+          { "label": "Copy contract leverage and partner-control records", "to": "exfiltration-edit-bay", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Alter a contract, release control, or routing flag", "to": "rights-collapse-console", "testId": "alterStore", "unlockSuccesses": 3 },
+          { "label": "Look for R&D project names in legal routing", "to": "project-routing-constellation", "testId": "searchCustomer", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "focus-test-theater",
+        "title": "Focus-Test Theater",
+        "kind": "analytics",
+        "description": "Mirrored observation booths, heat-map audiences, reaction-score constellations, and model stages watch the decker as much as the decker watches them.",
+        "choices": [
+          { "label": "Extract audience influence and behavioral-response models", "to": "exfiltration-edit-bay", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Trace hidden prototype links behind the mirror", "to": "prototype-war-room", "testId": "staffRecords", "unlockSuccesses": 3 },
+          { "label": "Search for the impossible basement seam", "to": "black-stage-door", "testId": "findUvSeam", "unlockSuccesses": 3 }
+        ]
+      },
+      {
+        "id": "project-routing-constellation",
+        "title": "Project Routing Constellation",
+        "kind": "clue",
+        "description": "Project names, routing signatures, creative departments, legal gates, and security exceptions glimmer in a constellation that refuses to show its lowest floor.",
+        "choices": [
+          { "label": "Pull useful project names and routing metadata", "to": "exfiltration-edit-bay", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Follow restricted routing into prototype R&D", "to": "prototype-war-room", "testId": "staffRecords", "unlockSuccesses": 3 },
+          { "label": "Search for the hidden UV access metaphor", "to": "black-stage-door", "testId": "findUvSeam", "unlockSuccesses": 3 }
+        ]
+      },
+      {
+        "id": "rigging-control-catwalk",
+        "title": "Rigging Control Catwalk",
+        "kind": "devices",
+        "description": "Lighting boards, elevator shafts, security-camera spotlights, production systems, and building-service hooks hang over the atrium like stage machinery.",
+        "choices": [
+          { "label": "Seize a short-lived camera/elevator/studio control hook", "to": "exfiltration-edit-bay", "testId": "controlSlave", "unlockSuccesses": 3 },
+          { "label": "Use the service catwalk to approach R&D", "to": "prototype-war-room", "testId": "controlSlave", "unlockSuccesses": 3 },
+          { "label": "Evade the physical-security crosslink", "to": "glass-atrium-shell", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "prototype-war-room",
+        "title": "Prototype War Room",
+        "kind": "restricted",
+        "description": "Unfinished sets, animatics, sensory rigs, dream boards, and simsense prototype rooms sit under quiet CAT security attention.",
+        "choices": [
+          { "label": "Extract prototype entertainment and simsense R&D", "to": "exfiltration-edit-bay", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Locate the basement UV seam through prototype metadata", "to": "black-stage-door", "testId": "findUvSeam", "unlockSuccesses": 3 },
+          { "label": "Force progress through serious corporate IC", "to": "black-stage-door", "testId": "fightIc", "unlockSuccesses": 3 }
+        ]
+      },
+      {
+        "id": "rights-collapse-console",
+        "title": "Rights Collapse Console",
+        "kind": "danger",
+        "description": "The console can alter contracts, release controls, talent models, or research routing, but every edit threatens to collapse permissions into an alert state.",
+        "choices": [
+          { "label": "Commit a high-value alteration and package proof", "to": "exfiltration-edit-bay", "testId": "alterStore", "unlockSuccesses": 3 },
+          { "label": "Break out of handler loops before they pin you", "to": "licensing-elevator-bank", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "black-stage-door",
+        "title": "Black Stage Door Below the Floor Count",
+        "kind": "uv-seam",
+        "description": "A door appears where the topology says no door can be: black stage paint, cold brass handle, no label, and an elevator tone from somewhere beneath the basement.",
+        "choices": [
+          { "label": "Breach the Ultraviolet vestibule", "to": "uv-white-room", "testId": "breachUv", "unlockSuccesses": 4 },
+          { "label": "Mark the seam and retreat before containment notices", "to": "exfiltration-edit-bay", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "uv-white-room",
+        "title": "Ultraviolet White Room",
+        "kind": "ultraviolet",
+        "description": "The Matrix stops acting like menus. A blank test room breathes, then becomes a stage, an audience, a pitch meeting, and a memory of a song you have not heard yet.",
+        "choices": [
+          { "label": "Survive the host-native creative director construct", "to": "living-stage-set", "testId": "fightIc", "unlockSuccesses": 3 },
+          { "label": "Read the room as an entertainment prototype instead of a file tree", "to": "living-stage-set", "testId": "searchCustomer", "unlockSuccesses": 3 },
+          { "label": "Retreat through the black stage door", "to": "black-stage-door", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "living-stage-set",
+        "title": "Living Stage Set",
+        "kind": "ultraviolet-core",
+        "description": "Sets rewrite themselves in response to attention. Prototype personalities, impossible audiences, and recursive media scenes test how influence becomes entertainment.",
+        "choices": [
+          { "label": "Extract UV project codenames and influence-tech evidence", "to": "uv-project-core", "testId": "staffRecords", "unlockSuccesses": 3 },
+          { "label": "Hijack a symbolic production control in the UV layer", "to": "uv-project-core", "testId": "controlSlave", "unlockSuccesses": 3 },
+          { "label": "Escape before the host learns too much about you", "to": "black-stage-door", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "uv-project-core",
+        "title": "UV Project Core",
+        "kind": "major-reward",
+        "description": "This is campaign-grade paydata: hidden project names, prototype media logic, executive culpability, and evidence of CAT capabilities beneath Lafayette Tower.",
+        "choices": [
+          { "label": "Exfiltrate the UV proof through a hostile containment route", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 3 },
+          { "label": "Stay for one more impossible answer", "to": "living-stage-set", "testId": "staffRecords", "unlockSuccesses": 4 }
+        ]
+      },
+      {
+        "id": "exfiltration-edit-bay",
+        "title": "Exfiltration Edit Bay",
+        "kind": "reward",
+        "description": "You have material the crew can use: contracts, project names, behavioral models, prototype notes, building hooks, or proof that the tower is deeper than it admits.",
+        "choices": [
+          { "label": "Log off through a clean edit bay render", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 2 },
+          { "label": "Risk the deeper R&D route", "to": "prototype-war-room", "testId": "staffRecords", "unlockSuccesses": 3 }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Hard Cut to Black",
+        "kind": "exit",
+        "description": "The tower's spotlights wink out one by one. If the trace lattice did not firm up, CAT may only know that something briefly interrupted the show.",
+        "choices": []
+      }
+    ]
+  }
+}

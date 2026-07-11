@@ -22,6 +22,7 @@ A corporate actor with Nashville interests ranging from biotech-adjacent recover
 - The case overlapped with the fake-crew / impersonation thread tied to **6 Steel Strings**.
 - CAT's North American Entertainment Division is headquartered at **[Lafayette Tower](../Locations/Lafayette-Tower.md)** in downtown Nashville.
 - Lafayette Tower contains a basement **Ultraviolet host** used for brainstorming and prototyping new forms of entertainment.
+- The tower now has a dedicated Matrix host record: [Lafayette Tower CAT Entertainment Host](../Tech/Matrix/Lafayette-Tower-CAT-Entertainment-Host.md).
 
 ## Key people
 
