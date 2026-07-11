@@ -119,6 +119,38 @@ Recommended intrusion topology:
 
 The profile should expose enough structure for the decker to make meaningful choices, but it should not over-answer GM-controlled facts.
 
+## Success Result Contract
+
+Every successful featured action should produce one of two concrete outcomes:
+
+1. **Access to a new node** — a new area, subsystem, layer, confirmation point, clue space, or exit becomes available.
+2. **A specific decker-facing result** — the player gets something to tell the GM or write down for future reference.
+
+Avoid success text that only says, "you succeed." The result can be generic, but it must still be usable.
+
+Good generic success outcomes:
+
+- customer files
+- shipping records
+- employee directory
+- camera network access
+- door-control access
+- vendor records
+- archived mail
+- payment logs
+- visitor schedule
+- project names
+- public traffic pattern
+- security badge list
+
+Recommended result wording:
+
+- **Tell the GM:** "You appear to have access to customer files. Tell the GM you have customer-file access and ask what categories or search terms are available."
+- **Personal note:** "You find shipping records worth following up later. Make a note: shipping records exist here, with dates, vendor names, and delivery windows available if the GM confirms scope."
+- **Unlocked node:** "The staff-records archive opens as a new node. Continue there to search specific personnel or transaction details."
+
+The tool should make success feel like it changed the situation, even when exact contents remain under GM control.
+
 ## Subsystem Nodes
 
 Use subsystem nodes to represent broad Matrix capability zones. The classic SR3 host subsystems are useful as design anchors:
@@ -149,11 +181,11 @@ For example, in a security or slave subsystem, a featured verb might be:
 - File Archive
 - Personnel Records
 
-If the roll succeeds, the destination node should usually present a GM-confirmation prompt, not a hardcoded answer.
+If the roll succeeds, the destination node should usually present a GM-confirmation prompt, not a hardcoded answer. That prompt must still name the specific access or record category the decker earned.
 
 Example result text:
 
-> You appear to have access to the camera network. Confirm with the GM which feeds are visible, whether any cameras can be controlled, and what physical areas this Host actually covers.
+> You appear to have access to the camera network. Tell the GM you have camera-network access; confirm which feeds are visible, whether any cameras can be controlled, and what physical areas this Host actually covers.
 
 This keeps the tool from inventing physical facts that should belong to the GM while still making the decker's success feel concrete.
 
@@ -163,27 +195,28 @@ Use confirmation nodes when success should grant a capability whose exact fictio
 
 Recommended node description structure:
 
-1. State the apparent access or capability.
-2. Tell the player to confirm scope with the GM.
+1. State the apparent access, capability, or record category.
+2. Tell the player to tell the GM or make a personal note.
 3. Suggest the kinds of questions to ask.
+4. Avoid resolving scene-specific facts the GM has not established.
 
 Examples:
 
 ### Camera Confirmation
 
-> You appear to have access to the camera network. Confirm with the GM which feeds are visible, whether the host controls camera angle or only camera records, and whether any feed is delayed, missing, or spoofed.
+> You appear to have access to the camera network. Tell the GM you have camera-network access; confirm which feeds are visible, whether the host controls camera angle or only camera records, and whether any feed is delayed, missing, or spoofed.
 
 ### Door Lock Confirmation
 
-> You appear to have access to door-control functions. Confirm with the GM which doors are actually slaved to this Host, whether opening them triggers alarms, and how long the control window lasts.
+> You appear to have access to door-control functions. Tell the GM you have door-control access; confirm which doors are actually slaved to this Host, whether opening them triggers alarms, and how long the control window lasts.
 
 ### Elevator Confirmation
 
-> You appear to have access to elevator routing. Confirm with the GM which elevator banks are connected, whether floors can be spoofed, and whether physical security notices the routing change.
+> You appear to have access to elevator routing. Tell the GM you have elevator-routing access; confirm which elevator banks are connected, whether floors can be spoofed, and whether physical security notices the routing change.
 
 ### File Archive Confirmation
 
-> You appear to have access to a protected file archive. Confirm with the GM what categories of records exist here, what search terms are valid, and whether copying files raises additional tally or IC pressure.
+> You appear to have access to a protected file archive. Make a note that protected files are reachable here; confirm with the GM what categories of records exist, what search terms are valid, and whether copying files raises additional tally or IC pressure.
 
 ## Featured Actions vs RAW Actions
 
@@ -324,6 +357,7 @@ Before publishing a Host profile, confirm:
 - The public door, if present, has no roll and reveals only official surface content.
 - The secure door can be rolled against and can fail without revealing the Host.
 - Private intrusion exposes relevant subsystems.
+- Every successful featured action either unlocks a new node or gives the decker a specific GM-facing/personal-note result.
 - Device/security verbs lead to GM-confirmation nodes unless exact scope is already canon.
 - Hidden/deep layers are gated behind discovery or stronger success thresholds.
 - The left-side map will not reveal locked or hidden topology early.
