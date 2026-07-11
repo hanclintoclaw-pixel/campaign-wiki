@@ -17,6 +17,8 @@ sources:
 
 A branded corporate host for a soy-meat company selling artificial beef-and-bacon lifestyle products through marketing, subscription culture, and aggressively engineered consumer identity.
 
+This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/augmented-beef-and-bacon-social-club-host.json).
+
 ## Host Stats (SR3-style)
 
 - **Host Color / Security:** Orange-4

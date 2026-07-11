@@ -17,6 +17,8 @@ sources:
 
 A local megacorporate host representing Ares regional administration, procurement, security coordination, logistics, and public-facing business operations.
 
+This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/ares-nashville-regional-host.json).
+
 ## Host Stats (SR3-style)
 
 - **Host Color / Security:** Green-6

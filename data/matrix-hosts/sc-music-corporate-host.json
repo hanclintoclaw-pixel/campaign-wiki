@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "sc-music-corporate-host",
+  "name": "SC Music Corporate Host",
+  "wikiPage": "Tech/Matrix/SC-Music-Corporate-Host.md",
+  "securityCode": "green",
+  "securityValue": 5,
+  "hostRating": 5,
+  "subsystem": { "access": 5, "control": 4, "index": 6, "files": 7, "slave": 4 },
+  "taskTargetNumbers": { "logon": 5, "browsePublic": 4, "searchCustomer": 6, "staffRecords": 7, "alterStore": 8, "controlSlave": 8, "evadeTrace": 6, "fightIc": 7 },
+  "securitySheaf": [
+    { "threshold": 2, "label": "Probe IC", "effect": "A smiling promo avatar checks badges and backstage permissions." },
+    { "threshold": 5, "label": "Trace IC", "effect": "Stage managers start tracking where the icon came from." },
+    { "threshold": 8, "label": "Scramble IC", "effect": "Media assets, schedules, and contract trails begin remixing themselves." },
+    { "threshold": 11, "label": "Tar Baby IC", "effect": "Handler icons try to keep the intruder trapped in approval loops." },
+    { "threshold": 14, "label": "Blaster IC", "effect": "Backstage security turns the spotlight hostile." }
+  ],
+  "sculpting": "Glossy dream-factory of studio lot, executive lounge, digital stage set, green-room mirrors, gold record walls, master tapes, and velvet-lined vaults.",
+  "notes": "Corporate media host tied to artist management, promotions, distribution, branding assets, contracts, and behavior-shaping market analysis.",
+  "flow": {
+    "startNodeId": "marquee-login",
+    "nodes": [
+      { "id": "marquee-login", "title": "Marquee Login", "kind": "entry", "description": "A glowing marquee spells out SC Music in perfect gold. Backstage doors wait behind credential velvet ropes.", "choices": [
+        { "label": "Enter with borrowed media/corp credentials", "to": "green-room-lobby", "testId": "logon", "unlockSuccesses": 1 },
+        { "label": "Browse approved promo materials", "to": "promo-wall", "testId": "browsePublic", "unlockSuccesses": 1 }
+      ] },
+      { "id": "green-room-lobby", "title": "Green-Room Lobby", "kind": "public", "description": "Mirrors, gold records, and scheduling boards flatter every authorized icon before quietly sorting them by usefulness.", "choices": [
+        { "label": "Review artist schedules and promo plans", "to": "promo-wall", "testId": "browsePublic", "unlockSuccesses": 1 },
+        { "label": "Reach contracts or influence-analysis files", "to": "velvet-vault-door", "testId": "staffRecords", "unlockSuccesses": 2 },
+        { "label": "Probe production/control-linked systems", "to": "stage-control-rig", "testId": "controlSlave", "unlockSuccesses": 2 }
+      ] },
+      { "id": "promo-wall", "title": "Gold Record Promo Wall", "kind": "records", "description": "Release calendars, tour-support logistics, approved image kits, and audience segmentation charts glitter under friendly lights.", "choices": [
+        { "label": "Search for sponsorship webs or audience manipulation", "to": "market-analysis-mirror", "testId": "searchCustomer", "unlockSuccesses": 1 },
+        { "label": "Push toward restricted contract vaults", "to": "velvet-vault-door", "testId": "staffRecords", "unlockSuccesses": 2 },
+        { "label": "Return to the green room", "to": "green-room-lobby" }
+      ] },
+      { "id": "market-analysis-mirror", "title": "Market Analysis Mirror", "kind": "clue", "description": "Audience segments, promo triggers, and behavior-shaping campaign notes reflect the intruder back as a target demographic.", "choices": [
+        { "label": "Copy influence-analysis paydata", "to": "unreleased-track-cache", "testId": "searchCustomer", "unlockSuccesses": 1 },
+        { "label": "Open the restricted strategy vault", "to": "velvet-vault-door", "testId": "staffRecords", "unlockSuccesses": 2 }
+      ] },
+      { "id": "velvet-vault-door", "title": "Velvet-Lined Vault Door", "kind": "barrier", "description": "Contracts, royalty structures, executive mail, unreleased assets, and talent-handling strategy sit behind a glamorous lock.", "choices": [
+        { "label": "Open contract and executive communications", "to": "contract-vault", "testId": "staffRecords", "unlockSuccesses": 2 },
+        { "label": "Evade backstage trace and return to lobby", "to": "green-room-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
+      ] },
+      { "id": "contract-vault", "title": "Contract and Masters Vault", "kind": "restricted", "description": "Master tapes, crystal reels, locked trunks, and executive mail folders reveal who gets made, broken, sponsored, or buried.", "choices": [
+        { "label": "Extract blackmail or contract leverage", "to": "unreleased-track-cache", "testId": "staffRecords", "unlockSuccesses": 1 },
+        { "label": "Alter release plans, royalties, or executive mail", "to": "release-edit-suite", "testId": "alterStore", "unlockSuccesses": 2 },
+        { "label": "Fight through hostile backstage security", "to": "unreleased-track-cache", "testId": "fightIc", "unlockSuccesses": 1 }
+      ] },
+      { "id": "release-edit-suite", "title": "Release Edit Suite", "kind": "danger", "description": "A glossy editing bay allows changes to release plans, royalties, and communications. Every control is also a trap for bad signatures.", "choices": [
+        { "label": "Commit the alteration and cache proof", "to": "unreleased-track-cache", "testId": "alterStore", "unlockSuccesses": 2 },
+        { "label": "Slip out through approved promo traffic", "to": "promo-wall", "testId": "evadeTrace", "unlockSuccesses": 1 }
+      ] },
+      { "id": "stage-control-rig", "title": "Stage Control Rig", "kind": "devices", "description": "Production systems, media controls, and studio-linked slave hooks hang above the stage like lighting instruments.", "choices": [
+        { "label": "Hijack a production/control hook", "to": "unreleased-track-cache", "testId": "controlSlave", "unlockSuccesses": 2 },
+        { "label": "Drop back before the spotlight locks on", "to": "green-room-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
+      ] },
+      { "id": "unreleased-track-cache", "title": "Unreleased Track Cache", "kind": "reward", "description": "You have material the table can use: contract leverage, sponsorship trails, influence machinery, rivalries, or media assets.", "choices": [
+        { "label": "Log off before the encore", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 },
+        { "label": "Stay for one deeper vault pass", "to": "contract-vault", "testId": "staffRecords", "unlockSuccesses": 2 }
+      ] },
+      { "id": "logoff", "title": "Backstage Exit", "kind": "exit", "description": "The lights dim, the green-room mirror forgets your face, and SC Music's dream factory closes behind you.", "choices": [] }
+    ]
+  }
+}

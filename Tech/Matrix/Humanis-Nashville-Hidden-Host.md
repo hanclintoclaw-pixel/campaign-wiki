@@ -17,6 +17,8 @@ sources:
 
 A semi-hidden host used by a local Humanis chapter for internal coordination, propaganda storage, contact vetting, and compartmentalized extremist activity.
 
+This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/humanis-nashville-hidden-host.json).
+
 ## Host Stats (SR3-style)
 
 - **Host Color / Security:** Orange-5 (masked behind weaker public-facing layers)

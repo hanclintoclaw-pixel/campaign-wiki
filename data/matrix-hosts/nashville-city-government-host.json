@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "nashville-city-government-host",
+  "name": "Nashville City Government Host",
+  "wikiPage": "Tech/Matrix/Nashville-City-Government-Host.md",
+  "securityCode": "blue",
+  "securityValue": 4,
+  "hostRating": 4,
+  "subsystem": { "access": 4, "control": 3, "index": 5, "files": 6, "slave": 3 },
+  "taskTargetNumbers": { "logon": 4, "browsePublic": 4, "searchCustomer": 5, "staffRecords": 5, "alterStore": 7, "controlSlave": 8, "evadeTrace": 5, "fightIc": 6 },
+  "securitySheaf": [
+    { "threshold": 2, "label": "Probe IC", "effect": "A stern inspector checks forms, credentials, and routing slips." },
+    { "threshold": 5, "label": "Scramble IC", "effect": "Records reshuffle into wrong windows and misfiled archive stacks." },
+    { "threshold": 8, "label": "Trace IC", "effect": "A procedural trace follows the icon through department routing." },
+    { "threshold": 11, "label": "Tar Baby IC", "effect": "Permit forms and violation notices try to trap the icon in bureaucracy." }
+  ],
+  "sculpting": "Downtown civic complex: marble lobbies, directory kiosks, brass plaques, fluorescent back offices, records vaults, filing caverns, and red NOTICE OF VIOLATION overlays.",
+  "notes": "Municipal civil-administration host for permits, utilities, records, planning, public works, payroll, and sprawling bureaucracy.",
+  "flow": {
+    "startNodeId": "civic-login-kiosk",
+    "nodes": [
+      { "id": "civic-login-kiosk", "title": "Civic Login Kiosk", "kind": "entry", "description": "A city-seal kiosk waits in a marble lobby. The directory offers too many departments and not enough helpful signs.", "choices": [
+        { "label": "Log on with valid or lightly spoofed credentials", "to": "public-records-lobby", "testId": "logon", "unlockSuccesses": 1 },
+        { "label": "Browse public civic records from outside", "to": "public-records-lobby", "testId": "browsePublic", "unlockSuccesses": 1 }
+      ] },
+      { "id": "public-records-lobby", "title": "Public Records Lobby", "kind": "public", "description": "Directory kiosks, service windows, and public forms lead toward permits, licensing, tax records, and committee minutes.", "choices": [
+        { "label": "Locate buried permit or utility data", "to": "records-basement", "testId": "searchCustomer", "unlockSuccesses": 1 },
+        { "label": "Reach protected employee or meeting archives", "to": "back-office-counter", "testId": "staffRecords", "unlockSuccesses": 1 },
+        { "label": "Check utility-linked slave doors", "to": "utility-routing-panel", "testId": "controlSlave", "unlockSuccesses": 2 }
+      ] },
+      { "id": "records-basement", "title": "Records Basement", "kind": "records", "description": "Filing caverns and microfilm archives store permits, inspections, zoning decisions, and forgotten public-works paper trails.", "choices": [
+        { "label": "Pull a useful permit or zoning lead", "to": "case-file-cache", "testId": "searchCustomer", "unlockSuccesses": 1 },
+        { "label": "Open protected administrative records", "to": "back-office-counter", "testId": "staffRecords", "unlockSuccesses": 1 },
+        { "label": "Return to the public lobby", "to": "public-records-lobby" }
+      ] },
+      { "id": "back-office-counter", "title": "Fluorescent Back Office Counter", "kind": "restricted", "description": "Employee records, meeting archives, interdepartment mail, and routing chains sit behind flickering lights and bored procedural guardians.", "choices": [
+        { "label": "Copy protected records for the run", "to": "case-file-cache", "testId": "staffRecords", "unlockSuccesses": 1 },
+        { "label": "Edit or suppress a protected record", "to": "record-edit-stamp", "testId": "alterStore", "unlockSuccesses": 2 },
+        { "label": "Follow routing toward utility controls", "to": "utility-routing-panel", "testId": "controlSlave", "unlockSuccesses": 2 }
+      ] },
+      { "id": "record-edit-stamp", "title": "Red Stamp Edit Window", "kind": "danger", "description": "A protected form waits under a huge red stamp. Any edit will echo through approvals, denials, and violation notices.", "choices": [
+        { "label": "Commit the record change", "to": "case-file-cache", "testId": "alterStore", "unlockSuccesses": 2 },
+        { "label": "Evade the procedural trap", "to": "public-records-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
+      ] },
+      { "id": "utility-routing-panel", "title": "Utility Routing Panel", "kind": "devices", "description": "Water, power, service interruption, and public-works hooks hide behind department-by-committee permissions architecture.", "choices": [
+        { "label": "Seize a utility-linked control view", "to": "case-file-cache", "testId": "controlSlave", "unlockSuccesses": 2 },
+        { "label": "Back out before inspectors converge", "to": "public-records-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
+      ] },
+      { "id": "case-file-cache", "title": "Case File Cache", "kind": "reward", "description": "You have a usable civic lead: permits, land use, shell contractors, utilities, event approvals, or a useful suppressed record.", "choices": [
+        { "label": "Log off through normal civic traffic", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 },
+        { "label": "Keep digging through the basement", "to": "records-basement", "testId": "searchCustomer", "unlockSuccesses": 1 }
+      ] },
+      { "id": "logoff", "title": "Service Window Exit", "kind": "exit", "description": "The host stamps your departure as routine traffic and the marble lobby fades back into the downtown grid.", "choices": [] }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "humanis-nashville-hidden-host",
+  "name": "Humanis Nashville Hidden Host",
+  "wikiPage": "Tech/Matrix/Humanis-Nashville-Hidden-Host.md",
+  "securityCode": "orange",
+  "securityValue": 5,
+  "hostRating": 5,
+  "subsystem": { "access": 5, "control": 4, "index": 5, "files": 6, "slave": 2 },
+  "taskTargetNumbers": { "logon": 6, "browsePublic": 5, "searchCustomer": 6, "staffRecords": 7, "alterStore": 8, "controlSlave": 8, "evadeTrace": 6, "fightIc": 8 },
+  "securitySheaf": [
+    { "threshold": 2, "label": "Probe IC", "effect": "A bland civic mask checks whether the intruder belongs." },
+    { "threshold": 5, "label": "Trace IC", "effect": "The host tries to identify the icon and its route through front-group layers." },
+    { "threshold": 8, "label": "Tar Baby IC", "effect": "Loyalty-test processes try to pin the intruder in denunciation loops." },
+    { "threshold": 11, "label": "Killer IC", "effect": "Masked steward icons move from suspicion to attack." },
+    { "threshold": 14, "label": "Psychotropic-Style Pressure", "effect": "The sculpting turns accusatory, isolating, and hostile." }
+  ],
+  "sculpting": "A bland civic shell over torchlit halls, purity banners, locked meeting chambers, blacklist ledgers, donation lockboxes, surveillance galleries, and tribunal figures.",
+  "notes": "Semi-hidden local Humanis chapter host for coordination, propaganda, contact vetting, and compartmentalized extremist activity.",
+  "flow": {
+    "startNodeId": "civic-mask",
+    "nodes": [
+      { "id": "civic-mask", "title": "Bland Civic Mask", "kind": "entry", "description": "The visible layer looks like a sleepy heritage association page. The seams are too clean, and several doors are not listed in the directory.", "choices": [
+        { "label": "Find and breach the concealed entry path", "to": "torchlit-vestibule", "testId": "logon", "unlockSuccesses": 2 },
+        { "label": "Browse the outer propaganda shell", "to": "pamphlet-gallery", "testId": "browsePublic", "unlockSuccesses": 1 }
+      ] },
+      { "id": "pamphlet-gallery", "title": "Pamphlet Gallery", "kind": "public", "description": "Sanitized talking points, front-group materials, and recruitment slogans sit in locked pamphlet cases under patriotic lighting.", "choices": [
+        { "label": "Search for coded recruitment and contact patterns", "to": "vetting-ledger", "testId": "searchCustomer", "unlockSuccesses": 1 },
+        { "label": "Find the hidden inner door", "to": "torchlit-vestibule", "testId": "logon", "unlockSuccesses": 2 }
+      ] },
+      { "id": "torchlit-vestibule", "title": "Torchlit Vestibule", "kind": "restricted", "description": "The false civic page collapses into torchlight, banners, and locked meeting doors. The host tests belonging through paranoia.", "choices": [
+        { "label": "Open membership and donor ledgers", "to": "vetting-ledger", "testId": "staffRecords", "unlockSuccesses": 2 },
+        { "label": "Map hidden chapter structure", "to": "meeting-chamber-map", "testId": "searchCustomer", "unlockSuccesses": 2 },
+        { "label": "Evade the front-group trace", "to": "civic-mask", "testId": "evadeTrace", "unlockSuccesses": 1 }
+      ] },
+      { "id": "vetting-ledger", "title": "Vetting and Donor Ledger", "kind": "clue", "description": "Coded rosters, blacklist tabs, donor lockboxes, and loyalty notes cross-reference aliases with safe meeting points.", "choices": [
+        { "label": "Copy membership and donor proof", "to": "exposure-cache", "testId": "staffRecords", "unlockSuccesses": 1 },
+        { "label": "Alter a roster or meeting notice", "to": "roster-edit-tribunal", "testId": "alterStore", "unlockSuccesses": 2 },
+        { "label": "Push deeper into action planning", "to": "meeting-chamber-map", "testId": "staffRecords", "unlockSuccesses": 2 }
+      ] },
+      { "id": "meeting-chamber-map", "title": "Locked Meeting Chamber Map", "kind": "restricted", "description": "Compartmentalized rooms show planned gatherings, factional suspicion, and operational fragments hidden behind loyalty gates.", "choices": [
+        { "label": "Extract action-planning and safe-location data", "to": "exposure-cache", "testId": "staffRecords", "unlockSuccesses": 2 },
+        { "label": "Hold control long enough to map the chapter", "to": "chapter-structure-map", "testId": "controlSlave", "unlockSuccesses": 2 },
+        { "label": "Fight through masked steward IC", "to": "exposure-cache", "testId": "fightIc", "unlockSuccesses": 2 }
+      ] },
+      { "id": "roster-edit-tribunal", "title": "Roster Edit Tribunal", "kind": "danger", "description": "Every attempted edit is judged by stone-faced tribunal icons. A bad signature brands the intruder as an enemy inside the sculpting.", "choices": [
+        { "label": "Commit the roster disruption", "to": "exposure-cache", "testId": "alterStore", "unlockSuccesses": 2 },
+        { "label": "Break out of the denunciation loop", "to": "torchlit-vestibule", "testId": "evadeTrace", "unlockSuccesses": 1 }
+      ] },
+      { "id": "chapter-structure-map", "title": "Chapter Structure Map", "kind": "reward", "description": "The hidden architecture resolves into names, donors, meeting nodes, and front-group relationships the crew can act on.", "choices": [
+        { "label": "Package the chapter map and log off", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 },
+        { "label": "Risk one more pull from the action chambers", "to": "meeting-chamber-map", "testId": "staffRecords", "unlockSuccesses": 2 }
+      ] },
+      { "id": "exposure-cache", "title": "Exposure Cache", "kind": "reward", "description": "You have evidence that can expose members, donors, planned actions, or front groups, assuming you escape with it intact.", "choices": [
+        { "label": "Log off through the civic shell", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 },
+        { "label": "Keep digging despite the accusation maze", "to": "meeting-chamber-map", "testId": "staffRecords", "unlockSuccesses": 2 }
+      ] },
+      { "id": "logoff", "title": "Cold Exit", "kind": "exit", "description": "The torchlight snaps back into a forgettable civic facade. The host remains mean, cramped, and suspicious behind you.", "choices": [] }
+    ]
+  }
+}

@@ -2,10 +2,40 @@
   "schemaVersion": "cindylou.matrixHostIndex/v1",
   "hosts": [
     {
+      "id": "ares-nashville-regional-host",
+      "name": "Ares Nashville Regional Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/ares-nashville-regional-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Ares-Nashville-Regional-Host.html"
+    },
+    {
+      "id": "augmented-beef-and-bacon-social-club-host",
+      "name": "Augmented Beef and Bacon Social Club Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/augmented-beef-and-bacon-social-club-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Augmented-Beef-and-Bacon-Social-Club-Host.html"
+    },
+    {
       "id": "happy-cat-public-host",
       "name": "Happy Cat Public Storefront Host",
       "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/happy-cat-public-storefront-host.json",
       "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Happy-Cat-Public-Storefront-Host.html"
+    },
+    {
+      "id": "humanis-nashville-hidden-host",
+      "name": "Humanis Nashville Hidden Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/humanis-nashville-hidden-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Humanis-Nashville-Hidden-Host.html"
+    },
+    {
+      "id": "nashville-city-government-host",
+      "name": "Nashville City Government Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/nashville-city-government-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Nashville-City-Government-Host.html"
+    },
+    {
+      "id": "sc-music-corporate-host",
+      "name": "SC Music Corporate Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/sc-music-corporate-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/SC-Music-Corporate-Host.html"
     }
   ]
 }

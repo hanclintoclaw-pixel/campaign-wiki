@@ -18,6 +18,8 @@ sources:
 
 A corporate media host tied to SC Music's artist management, promotional scheduling, distribution planning, branding assets, contracts, and behavior-shaping market analysis.
 
+This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/sc-music-corporate-host.json).
+
 ## Host Stats (SR3-style)
 
 - **Host Color / Security:** Green-5

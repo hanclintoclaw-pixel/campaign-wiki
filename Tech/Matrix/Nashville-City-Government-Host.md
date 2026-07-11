@@ -17,6 +17,8 @@ sources:
 
 A municipal civil-administration host representing permits, utilities, records, planning, public works, payroll, and the vast bureaucratic swamp that keeps Nashville moving badly but continuously.
 
+This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/nashville-city-government-host.json).
+
 ## Host Stats (SR3-style)
 
 - **Host Color / Security:** Blue-4

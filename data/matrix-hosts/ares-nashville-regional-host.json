@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "ares-nashville-regional-host",
+  "name": "Ares Nashville Regional Host",
+  "wikiPage": "Tech/Matrix/Ares-Nashville-Regional-Host.md",
+  "securityCode": "green",
+  "securityValue": 6,
+  "hostRating": 6,
+  "subsystem": {
+    "access": 6,
+    "control": 5,
+    "index": 6,
+    "files": 7,
+    "slave": 5
+  },
+  "taskTargetNumbers": {
+    "logon": 6,
+    "browsePublic": 5,
+    "searchCustomer": 6,
+    "staffRecords": 7,
+    "alterStore": 8,
+    "controlSlave": 9,
+    "evadeTrace": 6,
+    "fightIc": 8
+  },
+  "securitySheaf": [
+    { "threshold": 2, "label": "Probe IC", "effect": "Audit drones verify the icon's credential chain and route." },
+    { "threshold": 5, "label": "Trace IC", "effect": "Corporate security starts building a trace packet." },
+    { "threshold": 8, "label": "Scramble IC", "effect": "The host interferes with files, maps, and local memory." },
+    { "threshold": 11, "label": "Killer IC", "effect": "A tactical response icon moves to engage the intruder." },
+    { "threshold": 15, "label": "Security Escalation", "effect": "Regional security correlates Matrix activity with physical-site alerts." }
+  ],
+  "sculpting": "Polished corporate fortress: steel, mirrored glass, precision lighting, camera-eye halos, executive terminals, freight cages, and locked tactical corridors.",
+  "notes": "Megacorporate regional administration, procurement, security coordination, logistics, and public-facing business operations.",
+  "flow": {
+    "startNodeId": "regional-gate",
+    "nodes": [
+      {
+        "id": "regional-gate",
+        "title": "Mirrored Regional Gate",
+        "kind": "entry",
+        "description": "A steel-and-glass Ares facade rises from the local grid. Camera-eye halos sweep every icon approaching the credential turnstiles.",
+        "choices": [
+          { "label": "Pass the forged credential chain through the gate", "to": "corporate-lobby", "testId": "logon", "unlockSuccesses": 1 },
+          { "label": "Survey public procurement traffic before entering", "to": "procurement-concourse", "testId": "browsePublic", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "corporate-lobby",
+        "title": "Executive Glass Lobby",
+        "kind": "public",
+        "description": "Directory pylons, armored reception desks, and brushed-steel terminals route ordinary business into controlled corridors.",
+        "choices": [
+          { "label": "Map procurement and vendor movement records", "to": "procurement-concourse", "testId": "browsePublic", "unlockSuccesses": 1 },
+          { "label": "Look for executive or security-planning records", "to": "boardroom-lock", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Test the security-slave corridor", "to": "security-slave-cage", "testId": "controlSlave", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "procurement-concourse",
+        "title": "Procurement Concourse",
+        "kind": "records",
+        "description": "Freight cages and armored briefcases contain regional contracts, vendor chains, shipment routing, and inventory movement.",
+        "choices": [
+          { "label": "Trace a suspicious vendor or shipment chain", "to": "vendor-thread", "testId": "searchCustomer", "unlockSuccesses": 1 },
+          { "label": "Escalate toward protected security planning", "to": "boardroom-lock", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Backtrack to the glass lobby", "to": "corporate-lobby" }
+        ]
+      },
+      {
+        "id": "vendor-thread",
+        "title": "Vendor Movement Thread",
+        "kind": "clue",
+        "description": "A chain of freight icons and contractor badges shows who moved what, where, and under which regional authorization.",
+        "choices": [
+          { "label": "Copy the useful logistics slice", "to": "paydata-secure-briefcase", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Attempt to alter a protected contract record", "to": "contract-edit-window", "testId": "alterStore", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "boardroom-lock",
+        "title": "Sealed Boardroom Lock",
+        "kind": "barrier",
+        "description": "A biometric boardroom door guards executive scheduling, physical-site security doctrine, and compartmentalized project references.",
+        "choices": [
+          { "label": "Open the boardroom records", "to": "security-planning-room", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Evade the audit drones and return to lobby cover", "to": "corporate-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "security-planning-room",
+        "title": "Security Planning Room",
+        "kind": "restricted",
+        "description": "Response protocols, personnel schedules, and site architecture sit on a glass conference table under tactical lighting.",
+        "choices": [
+          { "label": "Extract response-timetable paydata", "to": "paydata-secure-briefcase", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Spoof access to a security-linked slave subsystem", "to": "security-slave-cage", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Fight through active corporate IC", "to": "paydata-secure-briefcase", "testId": "fightIc", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "security-slave-cage",
+        "title": "Security Slave Cage",
+        "kind": "devices",
+        "description": "Locked cages represent cameras, alarms, and site-linked subsystems. Every latch looks like it phones home.",
+        "choices": [
+          { "label": "Take a brief controlled look through security hooks", "to": "paydata-secure-briefcase", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Slip away before the trace firms up", "to": "corporate-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "contract-edit-window",
+        "title": "Protected Contract Edit Window",
+        "kind": "danger",
+        "description": "The briefcase opens just enough to expose mutable contract and inventory metadata. The host is watching for forged signatures.",
+        "choices": [
+          { "label": "Commit the alteration and cache proof", "to": "paydata-secure-briefcase", "testId": "alterStore", "unlockSuccesses": 2 },
+          { "label": "Abort and evade attention", "to": "corporate-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "paydata-secure-briefcase",
+        "title": "Secured Briefcase Cache",
+        "kind": "reward",
+        "description": "You have enough Ares-grade material to hand the GM a concrete lead: contracts, schedules, vendor chains, or site-security timing.",
+        "choices": [
+          { "label": "Log off through a clean corporate exit", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 },
+          { "label": "Stay in and chase a deeper compartment", "to": "boardroom-lock", "testId": "staffRecords", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Clean Corporate Exit",
+        "kind": "exit",
+        "description": "The mirrored fortress recedes into the grid. If the tally stayed low, Ares only saw another authorized business shadow pass by.",
+        "choices": []
+      }
+    ]
+  }
+}
