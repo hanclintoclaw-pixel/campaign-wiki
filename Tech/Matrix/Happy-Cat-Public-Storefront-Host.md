@@ -19,7 +19,7 @@ sources:
 
 A small-business Matrix host for [Happy Cat Konpeki and Collectibles](../../Locations/Happy-Cat-Konpeki-and-Collectibles.md), an independent convenience store and collectibles hangout on Vernon Winfrey Avenue. The host is public-facing and retail-oriented, but it sits inside a noisy local grid zone full of teens, SINless users, nearby arkoblock residents, small-business hosts, and possible **Pixel Sticks** activity.
 
-The profile below mirrors the current seed profile used by the [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) and has a [machine-readable host profile](../../data/matrix-hosts/happy-cat-public-storefront-host.json) for Matrix minigame tools, including the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/).
+The profile below mirrors the current seed profile used by the [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) and has a [machine-readable host profile](../../data/matrix-hosts/happy-cat-public-storefront-host.json) for Matrix minigame tools, including the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/). The Decker Experience version is tuned as a starter example with 1-4 featured actions per node plus room for GM-adjudicated custom Matrix operations.
 
 ## Host Stats (SR3-style)
 
