@@ -12,7 +12,12 @@
     "control": 3,
     "index": 4,
     "files": 4,
-    "slave": 3
+    "slave": 3,
+    "pixelSticksAccess": 8,
+    "pixelSticksControl": 8,
+    "pixelSticksIndex": 9,
+    "pixelSticksFiles": 9,
+    "pixelSticksSlave": 7
   },
   "taskTargetNumbers": {
     "logon": 4,
@@ -22,16 +27,22 @@
     "alterStore": 7,
     "controlSlave": 7,
     "evadeTrace": 5,
-    "fightIc": 7
+    "fightIc": 7,
+    "findHiddenNode": 8,
+    "pixelPlans": 9,
+    "pixelMembers": 10,
+    "pixelPaydata": 10
   },
   "securitySheaf": [
-    { "threshold": 2, "label": "Probe IC", "effect": "Host starts checking the intruder icon and access path." },
-    { "threshold": 5, "label": "Trace IC", "effect": "Host attempts to establish or accelerate a trace." },
-    { "threshold": 8, "label": "Scramble IC", "effect": "Host interferes with files, memory, or the current operation." },
-    { "threshold": 11, "label": "Store-brand Tar Baby", "effect": "Nuisance IC attempts to hold the icon in place for follow-up." }
+    { "threshold": 2, "label": "Probe IC", "effect": "Happy Cat starts checking the intruder icon and access path." },
+    { "threshold": 5, "label": "Trace IC", "effect": "The storefront host attempts to establish or accelerate a trace." },
+    { "threshold": 8, "label": "Scramble IC", "effect": "Store records and receipt trails begin to shuffle under coupon-noise interference." },
+    { "threshold": 11, "label": "Store-brand Tar Baby", "effect": "Nuisance IC attempts to hold the icon in place for follow-up." },
+    { "threshold": 14, "label": "Pixel Sticks Tripwire", "effect": "The hidden layer notices a non-local icon sniffing around the handoff seam." },
+    { "threshold": 18, "label": "Hidden Host Trace Burst", "effect": "The deeper host treats the intrusion as hostile and begins burning the route back toward the decker." }
   ],
-  "sculpting": "Bright retail storefront, mascot popups, collectible-card catalog, snack ads, register hooks, employee stockroom doors, and local teen chatter overlays.",
-  "notes": "First live lead from Session 2026-07-09. Small-business host near dense public Matrix traffic. Tuned as the starter example for 1-4 featured Decker Experience actions plus GM-adjudicated custom actions.",
+  "sculpting": "Bright retail storefront, mascot popups, collectible-card catalog, snack ads, register hooks, employee stockroom doors, and local teen chatter overlays. Under a misprinted receipt/SKU pattern sits a concealed handoff into a much harder Pixel Sticks stash host.",
+  "notes": "Starter host refactored around the public-door/secure-door template. The public side is harmless flavor. The secure side can reveal mundane store records, a strange pet-food order clue, and a hidden Target: Matrix-style deeper host used by Pixel Sticks.",
   "flow": {
     "startNodeId": "ltg-approach",
     "nodes": [
@@ -39,145 +50,204 @@
         "id": "ltg-approach",
         "title": "Local Grid Outside Happy Cat",
         "kind": "entry",
-        "description": "You hover in the east Nashville grid among cheap public icons, snack ads, apartment-block chatter, and the glowing storefront sign for Happy Cat.",
+        "description": "You hover in the east Nashville grid among cheap public icons, snack ads, apartment-block chatter, and the glowing storefront sign for Happy Cat. The host presents a customer-facing public door and a staff-only private surface.",
         "choices": [
-          { "label": "Open the Happy Cat public door", "to": "public-storefront", "testId": "logon" },
-          { "label": "Study the traffic before entering", "to": "traffic-read", "testId": "browsePublic" },
-          { "label": "Skim the public catalog from the street", "to": "catalog-aisles", "testId": "browsePublic" },
-          { "label": "Look for staff-access seams from outside", "to": "staff-pinpad", "testId": "staffRecords", "unlockSuccesses": 2 }
+          { "label": "Use the public customer door", "to": "public-storefront" },
+          { "label": "Break into the staff-only host surface", "to": "staff-access-pinpad", "testId": "logon", "unlockSuccesses": 1 }
         ]
       },
       {
         "id": "public-storefront",
         "title": "Mascot Storefront",
         "kind": "public",
-        "description": "A lucky-cat mascot bows from behind a neon counter. Card packs orbit like menu icons; snack ads crawl along the floor like animated receipt tape.",
+        "description": "A lucky-cat mascot bows from behind a neon counter. This is the official visitor side: cute, noisy, and almost aggressively harmless.",
         "choices": [
-          { "label": "Browse cards, snacks, and event postings", "to": "catalog-aisles", "testId": "browsePublic" },
-          { "label": "Search customer chatter and teen hangout traces", "to": "customer-chatter", "testId": "searchCustomer" },
-          { "label": "Look for staff-only doors", "to": "staff-pinpad", "testId": "staffRecords" },
-          { "label": "Back out to the local grid", "to": "ltg-approach" }
+          { "label": "Browse cards, snacks, and public specials", "to": "public-catalog" },
+          { "label": "Check event flyers and teen hangout notices", "to": "public-events" },
+          { "label": "Use the customer help kiosk", "to": "customer-help-kiosk" },
+          { "label": "Return to the local grid", "to": "ltg-approach" }
         ]
       },
       {
-        "id": "catalog-aisles",
-        "title": "Catalog Aisles and Event Shelf",
-        "kind": "public-records",
-        "description": "Collectible inventory, snack specials, event flyers, trading-card binders, and public stock notices sit under too many cute sale banners.",
+        "id": "public-catalog",
+        "title": "Public Catalog Aisles",
+        "kind": "public",
+        "description": "Trading-card binders, snack specials, novelty charms, and public inventory blurbs spin under cheerful sale banners. No private records live here.",
         "choices": [
-          { "label": "Cross-reference event postings with teen traffic", "to": "customer-chatter", "testId": "searchCustomer" },
-          { "label": "Check inventory gaps for Pixel Sticks-shaped noise", "to": "pixel-static", "testId": "searchCustomer" },
-          { "label": "Trace vendor and restock breadcrumbs", "to": "vendor-orders", "testId": "staffRecords" },
-          { "label": "Return to the mascot counter", "to": "public-storefront" }
+          { "label": "Make a note: public catalog confirms ordinary retail traffic", "to": "public-storefront" }
         ]
       },
       {
-        "id": "traffic-read",
-        "title": "Sticker-Covered Traffic Cloud",
-        "kind": "survey",
-        "description": "Speech bubbles, sticker tags, purchase pings, and public-grid noise float around the storefront. Most of it is teenage pose and retail spam, but patterns may be hiding in the clutter.",
+        "id": "public-events",
+        "title": "Event Flyer Corkboard",
+        "kind": "public",
+        "description": "The public board lists trading nights, snack promos, and local customer chatter. Tell the GM if you want to use this as cover for ordinary Happy Cat foot traffic.",
         "choices": [
-          { "label": "Filter for Pixel Sticks-shaped traces", "to": "pixel-static", "testId": "searchCustomer" },
-          { "label": "Identify frequent local handles near the storefront", "to": "customer-chatter", "testId": "searchCustomer" },
-          { "label": "Enter the public storefront", "to": "public-storefront", "testId": "logon" },
-          { "label": "Slip away before the public grid gets curious", "to": "logoff", "testId": "evadeTrace" }
+          { "label": "Return to the mascot storefront", "to": "public-storefront" }
         ]
       },
       {
-        "id": "customer-chatter",
-        "title": "Customer Chatter Boards",
-        "kind": "clue",
-        "description": "Message-board cards flip past: collectible trades, snack complaints, local gossip, and repeated absences where vandal tags should have been.",
+        "id": "customer-help-kiosk",
+        "title": "Customer Help Kiosk",
+        "kind": "public",
+        "description": "A bubbly help icon offers store hours, return policy, loyalty signup, and a chirpy apology for any missing snack inventory. Nothing here should reveal the run's real secret.",
         "choices": [
-          { "label": "Pursue the missing-tag gap", "to": "pixel-static", "testId": "searchCustomer" },
-          { "label": "Identify repeat teen handles and hangout times", "to": "paydata-cache", "testId": "searchCustomer" },
-          { "label": "Try to reach staff records", "to": "staff-pinpad", "testId": "staffRecords" },
-          { "label": "Return to the catalog shelves", "to": "catalog-aisles" }
+          { "label": "Return to the mascot storefront", "to": "public-storefront" }
         ]
       },
       {
-        "id": "staff-pinpad",
-        "title": "Single Staff Pinpad Door",
-        "kind": "locked-door",
-        "description": "Behind the cute storefront is a single staff-only access surface: one employee pinpad, one locked stockroom icon, and no obvious side menu.",
+        "id": "staff-access-pinpad",
+        "title": "Staff-Only Access Pinpad",
+        "kind": "secure-entry",
+        "description": "The public mascot skin falls away just enough to show a staff pinpad, a stockroom icon, and routine small-business permissions. Failure here should reveal nothing more about the private host.",
         "choices": [
-          { "label": "Open the staff-only lock", "to": "back-office", "testId": "staffRecords", "unlockSuccesses": 2 }
+          { "label": "Open the staff subsystem hub", "to": "staff-subsystem-hub", "testId": "staffRecords", "unlockSuccesses": 1 }
         ]
       },
       {
-        "id": "stockroom-door",
-        "title": "Locked Stockroom Door",
-        "kind": "barrier",
-        "description": "Camera logs, shift notes, vendor orders, and back-office records are stacked behind a sealed stockroom interface shaped like card boxes.",
+        "id": "staff-subsystem-hub",
+        "title": "Staff Subsystem Hub",
+        "kind": "private",
+        "description": "You are inside the private side of the Happy Cat host. Store files, register hooks, camera pointers, and vendor records are available if you can keep the tally under control.",
         "choices": [
-          { "label": "Open staff records carefully", "to": "back-office", "testId": "staffRecords" },
-          { "label": "Spoof a store system command", "to": "device-hooks", "testId": "controlSlave" },
-          { "label": "Read vendor-order labels through the crack", "to": "vendor-orders", "testId": "staffRecords" },
-          { "label": "Return to public storefront", "to": "public-storefront" }
+          { "label": "Customer loyalty files", "to": "customer-files-confirmation", "testId": "searchCustomer" },
+          { "label": "Shipping and vendor records", "to": "shipping-records-confirmation", "testId": "staffRecords" },
+          { "label": "Camera network", "to": "camera-network-confirmation", "testId": "controlSlave" },
+          { "label": "Register and stock controls", "to": "register-stock-confirmation", "testId": "controlSlave" }
         ]
       },
       {
-        "id": "back-office",
-        "title": "Back Office Cabinet",
-        "kind": "records",
-        "description": "Receipts, employee notes, camera thumbnails, and supplier records sit in neat rows. The useful question is not what was hit, but why this place was not.",
+        "id": "customer-files-confirmation",
+        "title": "Customer Files Access",
+        "kind": "confirmation",
+        "description": "You appear to have access to customer loyalty files and small purchase histories. Tell the GM you have customer-file access; ask what names, handles, dates, or purchase categories can be searched.",
         "choices": [
-          { "label": "Copy suspicious camera/receipt slices", "to": "paydata-cache", "testId": "staffRecords" },
-          { "label": "Check device hooks", "to": "device-hooks", "testId": "controlSlave" },
-          { "label": "Audit vendor orders and stock anomalies", "to": "vendor-orders", "testId": "staffRecords" },
-          { "label": "Plant or alter a harmless-looking store note", "to": "paydata-cache", "testId": "alterStore" }
+          { "label": "Search for repeat teen handles and hangout timing", "to": "mundane-leads-cache", "testId": "searchCustomer" },
+          { "label": "Compare customer patterns against missing vandal tags", "to": "receipt-sku-anomaly", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Return to staff subsystem hub", "to": "staff-subsystem-hub" }
         ]
       },
       {
-        "id": "vendor-orders",
-        "title": "Vendor Orders and Restock Queue",
-        "kind": "records",
-        "description": "Supplier pings, restock queues, snack invoices, and collectible shipments form a mundane little paper trail with surprisingly useful timing data.",
+        "id": "shipping-records-confirmation",
+        "title": "Shipping Records Access",
+        "kind": "confirmation",
+        "description": "You appear to have access to shipping records, supplier invoices, delivery windows, and restock queues. Tell the GM you have shipping-record access; ask what vendors, dates, and item classes are visible.",
         "choices": [
-          { "label": "Compare delivery timing against missing vandal tags", "to": "pixel-static", "testId": "searchCustomer" },
-          { "label": "Copy supplier and restock anomalies", "to": "paydata-cache", "testId": "staffRecords" },
-          { "label": "Return to the back-office cabinet", "to": "back-office" }
+          { "label": "Pull mundane supplier and delivery-window notes", "to": "mundane-leads-cache", "testId": "staffRecords" },
+          { "label": "Audit odd bulk pet-food orders", "to": "strange-pet-food-orders", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Compare invoice checksums against receipt noise", "to": "receipt-sku-anomaly", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Return to staff subsystem hub", "to": "staff-subsystem-hub" }
         ]
       },
       {
-        "id": "device-hooks",
-        "title": "Register and Camera Hooks",
-        "kind": "devices",
-        "description": "The register, door chime, camera feed, and display shelves hang as simple device icons. They are mundane, but mundane things remember who walked past.",
+        "id": "camera-network-confirmation",
+        "title": "Camera Network Access",
+        "kind": "confirmation",
+        "description": "You appear to have access to Happy Cat camera pointers. Tell the GM you have camera-network access; confirm which feeds are live, stored, missing, delayed, or spoofed.",
         "choices": [
-          { "label": "Pull camera feed pointers", "to": "paydata-cache", "testId": "controlSlave" },
-          { "label": "Spoof the door chime or display shelf briefly", "to": "paydata-cache", "testId": "controlSlave" },
-          { "label": "Evade rising attention", "to": "public-storefront", "testId": "evadeTrace" }
+          { "label": "Make a note: camera network access exists", "to": "mundane-leads-cache" },
+          { "label": "Search camera timestamps for missing-tag gaps", "to": "receipt-sku-anomaly", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Return to staff subsystem hub", "to": "staff-subsystem-hub" }
         ]
       },
       {
-        "id": "pixel-static",
-        "title": "Neon Static Where Tags Should Be",
-        "kind": "mystery",
-        "description": "The absence has a shape: a clean patch in the vandalism wave, too neat to be pure luck. Either someone avoided Happy Cat, protected it, or used it as a marker.",
+        "id": "register-stock-confirmation",
+        "title": "Register and Stock Controls",
+        "kind": "confirmation",
+        "description": "You appear to have access to register queues, shelf displays, and stock-control hooks. Tell the GM you have register/stock access; confirm whether this is live control, records-only access, or delayed command access.",
         "choices": [
-          { "label": "Compare against back-office records", "to": "back-office", "testId": "staffRecords" },
-          { "label": "Follow the static toward possible Pixel Sticks traces", "to": "paydata-cache", "testId": "searchCustomer" },
-          { "label": "Cross-check the gap against vendor timing", "to": "vendor-orders", "testId": "searchCustomer" },
-          { "label": "Fight through store-brand nuisance IC if it notices", "to": "paydata-cache", "testId": "fightIc" }
+          { "label": "Copy register timing and stock discrepancy notes", "to": "mundane-leads-cache", "testId": "controlSlave" },
+          { "label": "Trace a misprinted stock-control receipt", "to": "receipt-sku-anomaly", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Return to staff subsystem hub", "to": "staff-subsystem-hub" }
         ]
       },
       {
-        "id": "paydata-cache",
-        "title": "Useful Pattern Cache",
+        "id": "mundane-leads-cache",
+        "title": "Mundane Useful Leads Cache",
         "kind": "reward",
-        "description": "You have enough strands to hand the GM a concrete lead: traffic, receipts, cameras, vendor timing, or missing-tag geometry pointing to the next branch of the run.",
+        "description": "Make a note: Happy Cat contains mundane but useful retail paydata, including customer loyalty crumbs, delivery windows, supplier names, camera timestamps, and register/stock discrepancies. Tell the GM which category you accessed for exact details.",
         "choices": [
-          { "label": "Log off cleanly", "to": "logoff", "testId": "evadeTrace" },
-          { "label": "Keep digging and risk the sheaf", "to": "pixel-static", "testId": "searchCustomer" },
-          { "label": "Use the lead to open the staff door if it is still available", "to": "staff-pinpad", "testId": "staffRecords" }
+          { "label": "Keep looking through staff subsystems", "to": "staff-subsystem-hub" },
+          { "label": "Log off cleanly", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "strange-pet-food-orders",
+        "title": "Strange Pet-Food Orders",
+        "kind": "gm-reward",
+        "description": "You find records of lots of strange pet food being ordered through or near Happy Cat's supply flow. Tell the GM you found the strange pet-food order records and ask for further details here. Make a personal note: pet-food order anomaly exists in Happy Cat shipping records.",
+        "choices": [
+          { "label": "Compare pet-food invoices against receipt checksum noise", "to": "receipt-sku-anomaly", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Return to shipping records", "to": "shipping-records-confirmation" }
+        ]
+      },
+      {
+        "id": "receipt-sku-anomaly",
+        "title": "Misprinted Receipt / SKU Anomaly",
+        "kind": "hidden-clue",
+        "description": "The records do not say Pixel Sticks. They do not say secret host. They show misprinted SKUs, receipt timing jitter, and a little knot of data that behaves like a bookmark hidden in ordinary retail noise.",
+        "choices": [
+          { "label": "Decode the misprinted SKU checksum", "to": "unlisted-ltg-handshake", "testId": "findHiddenNode", "unlockSuccesses": 3, "targetNumber": 8, "securityValue": 6 },
+          { "label": "Package the anomaly as a clue and back out", "to": "mundane-leads-cache", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "unlisted-ltg-handshake",
+        "title": "Unlisted LTG Handshake",
+        "kind": "hidden-host-entry",
+        "description": "Surprise: the receipt noise resolves into a hidden handoff, not a store record. Something deeper is using Happy Cat's ordinary traffic as cover. The next door is much harder than the storefront host.",
+        "choices": [
+          { "label": "Breach the concealed Pixel Sticks host", "to": "pixel-sticks-tag-yard", "testId": "logon", "unlockSuccesses": 3, "targetNumber": 8, "securityValue": 7 },
+          { "label": "Mark the handoff and retreat", "to": "mundane-leads-cache", "testId": "evadeTrace", "targetNumber": 7, "securityValue": 6 }
+        ]
+      },
+      {
+        "id": "pixel-sticks-tag-yard",
+        "title": "Pixel Sticks Hidden Tag Yard",
+        "kind": "pixel-sticks-host",
+        "description": "The cheerful store sculpting is gone. You are in a harder, cleaner, graffiti-coded staging host: tag fragments, utility crates, dead-drop lockers, and route maps hang in a digital underpass.",
+        "choices": [
+          { "label": "Search future-plan dead drops", "to": "pixel-future-plans", "testId": "pixelPlans", "unlockSuccesses": 3, "targetNumber": 9, "securityValue": 8 },
+          { "label": "Open the member tag roster", "to": "pixel-member-list", "testId": "pixelMembers", "unlockSuccesses": 3, "targetNumber": 10, "securityValue": 8 },
+          { "label": "Crack the stashed paydata locker", "to": "pixel-paydata-stash", "testId": "pixelPaydata", "unlockSuccesses": 3, "targetNumber": 10, "securityValue": 8 },
+          { "label": "Evade the hidden host trace", "to": "unlisted-ltg-handshake", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
+        ]
+      },
+      {
+        "id": "pixel-future-plans",
+        "title": "Pixel Sticks Future Plans",
+        "kind": "gm-reward",
+        "description": "You recover a protected future-plans cache from the hidden host. Tell the GM you cracked the Pixel Sticks future-plans reward; the GM will provide the actual plan details.",
+        "choices": [
+          { "label": "Return to the hidden tag yard", "to": "pixel-sticks-tag-yard" },
+          { "label": "Escape with the future-plans cache", "to": "logoff", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
+        ]
+      },
+      {
+        "id": "pixel-member-list",
+        "title": "Pixel Sticks Member List",
+        "kind": "gm-reward",
+        "description": "You recover a protected member-list cache. Tell the GM you cracked the Pixel Sticks member-list reward; the GM will provide the roster if this recovery stands.",
+        "choices": [
+          { "label": "Return to the hidden tag yard", "to": "pixel-sticks-tag-yard" },
+          { "label": "Escape with the member-list cache", "to": "logoff", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
+        ]
+      },
+      {
+        "id": "pixel-paydata-stash",
+        "title": "Pixel Sticks Paydata Stash",
+        "kind": "gm-reward",
+        "description": "You recover a stash of paydata hidden by the Pixel Sticks. Tell the GM you cracked the paydata-stash reward; value and fences will need to be determined after recovery.",
+        "choices": [
+          { "label": "Return to the hidden tag yard", "to": "pixel-sticks-tag-yard" },
+          { "label": "Escape with the paydata stash", "to": "logoff", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
         ]
       },
       {
         "id": "logoff",
         "title": "Clean Exit",
         "kind": "exit",
-        "description": "The storefront folds back into neon signs and public chatter. If the tally stayed low, nobody knows the mascot let you look behind the counter.",
+        "description": "The storefront folds back into neon signs and public chatter. If the tally stayed low, nobody knows the mascot let you look behind the counter—or what else was hiding under the receipts.",
         "choices": []
       }
     ]

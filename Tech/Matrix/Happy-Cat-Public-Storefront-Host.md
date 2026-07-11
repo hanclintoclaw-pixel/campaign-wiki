@@ -19,7 +19,7 @@ sources:
 
 A small-business Matrix host for [Happy Cat Konpeki and Collectibles](../../Locations/Happy-Cat-Konpeki-and-Collectibles.md), an independent convenience store and collectibles hangout on Vernon Winfrey Avenue. The host is public-facing and retail-oriented, but it sits inside a noisy local grid zone full of teens, SINless users, nearby arkoblock residents, small-business hosts, and possible **Pixel Sticks** activity.
 
-The profile below mirrors the current seed profile used by the [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) and has a [machine-readable host profile](../../data/matrix-hosts/happy-cat-public-storefront-host.json) for Matrix minigame tools, including the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/). The Decker Experience version is tuned as a starter example with 1-4 featured actions per node plus room for GM-adjudicated custom Matrix operations.
+The profile below mirrors the current seed profile used by the [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) and has a [machine-readable host profile](../../data/matrix-hosts/happy-cat-public-storefront-host.json) for Matrix minigame tools, including the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/). The Decker Experience version uses the host-construction template: a harmless public visitor side, a secure staff/private side, GM-confirmation subsystem nodes, and a hidden deeper layer that remains unrevealed unless found in play.
 
 ## Host Stats (SR3-style)
 
@@ -58,6 +58,7 @@ The profile below mirrors the current seed profile used by the [Mevin Host Run S
 - local bulletin-board chatter and ambient public-grid spillover from nearby teens
 - camera, point-of-sale, door, display, and stockroom device hooks behind modest barriers
 - possible traces of why the recent Matrix vandalism pattern appears to have spared or centered on Happy Cat
+- a buried shipping-record anomaly involving strange pet-food orders, with details to be supplied by the GM if discovered
 
 ## Host feel
 
@@ -77,6 +78,39 @@ Under that cheerful clutter, the host is still a real neighborhood information k
 ## Decker use
 
 Useful for establishing whether Happy Cat was protected, ignored, or used as a landmark by the **Pixel Sticks**; checking whether particular teens/deckers frequent the shop; reviewing transaction/camera patterns; and finding any back-office or host-side reason the vandalism wave bent around this location.
+
+<details>
+<summary>GM Information only — hidden deeper layer</summary>
+
+The Decker Experience profile contains a concealed deeper layer inspired by SR3-era nested/hidden-host play from **Target: Matrix**. The player-facing Happy Cat topology should not reveal this layer until the decker follows buried private-side records through a misprinted receipt / SKU anomaly.
+
+Hidden route summary:
+
+1. Break into the staff-only Happy Cat host surface.
+2. Access shipping records, customer files, cameras, or register/stock controls.
+3. Find the strange receipt/SKU anomaly through successful private-side checks.
+4. Decode the anomaly to reveal an unlisted LTG handshake.
+5. Breach the concealed **Pixel Sticks Hidden Tag Yard**, a much harder hidden host using Happy Cat retail traffic as cover.
+
+The hidden Pixel Sticks layer uses harder per-choice TN/security overrides in the JSON profile. It is deliberately not listed as a separate Host Library entry.
+
+</details>
+
+<details>
+<summary>GM Information only — reward notes</summary>
+
+Happy Cat private-side rewards:
+
+- **Mundane useful leads:** customer loyalty crumbs, delivery windows, supplier names, camera timestamps, register/stock discrepancies. These are meant to be useful but not explosive.
+- **Strange pet-food orders:** buried in shipping records. When found, tell the player the specific details you want in play. The tool text tells the player to ask the GM for further details.
+
+Hidden Pixel Sticks rewards:
+
+- **Future plans cache:** hard check inside the hidden host. If recovered, the GM provides the actual future-plan details.
+- **Member list cache:** hard check inside the hidden host. If recovered, the GM provides the roster.
+- **Paydata stash:** hard check inside the hidden host. If recovered, value and fencing details should be determined after recovery.
+
+</details>
 
 ## Open Questions
 
