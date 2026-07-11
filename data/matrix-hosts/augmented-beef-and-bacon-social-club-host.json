@@ -6,59 +6,224 @@
   "securityCode": "orange",
   "securityValue": 4,
   "hostRating": 4,
-  "subsystem": { "access": 4, "control": 3, "index": 5, "files": 5, "slave": 3 },
-  "taskTargetNumbers": { "logon": 4, "browsePublic": 4, "searchCustomer": 5, "staffRecords": 6, "alterStore": 7, "controlSlave": 8, "evadeTrace": 5, "fightIc": 6 },
+  "subsystem": {
+    "access": 4,
+    "control": 3,
+    "index": 5,
+    "files": 5,
+    "slave": 3
+  },
+  "taskTargetNumbers": {
+    "logon": 4,
+    "browsePublic": 4,
+    "searchCustomer": 5,
+    "staffRecords": 6,
+    "alterStore": 7,
+    "controlSlave": 8,
+    "evadeTrace": 5,
+    "fightIc": 6
+  },
   "securitySheaf": [
     { "threshold": 2, "label": "Probe IC", "effect": "A smiling host avatar checks loyalty credentials and purchase history." },
     { "threshold": 5, "label": "Scramble IC", "effect": "Recipe cards and market data begin reshuffling around the intruder." },
     { "threshold": 8, "label": "Trace IC", "effect": "A fulfillment-tracking process tries to attach a delivery address to the icon." },
     { "threshold": 11, "label": "Sparky IC", "effect": "Industrial kitchen machinery arcs with hostile warning current." }
   ],
-  "sculpting": "Private smokehouse club, mahogany counters, cold lockers, neon meat signs, branded crates, chef avatars, pit bosses, and predatory mascots.",
-  "notes": "Absurd consumer-brand host with serious customer analytics, supplier records, and manufactured-authenticity strategy underneath the joke.",
+  "sculpting": "Private smokehouse club, mahogany counters, cold lockers, neon meat signs, branded crates, chef avatars, pit bosses, chrome pantry vaults, and predatory mascots.",
+  "notes": "Refactored around the public-door/secure-door template. No run-specific rewards. Includes several generic paydata opportunities and one permanent recurring luxury snack order outcome that instructs the player to notify the GM.",
   "flow": {
     "startNodeId": "club-porch",
     "nodes": [
-      { "id": "club-porch", "title": "Smokehouse Club Porch", "kind": "entry", "description": "A neon smokehouse sign buzzes over a private-club doorway. The air is all synthetic hickory, chrome, and engineered appetite cues.", "choices": [
-        { "label": "Enter through customer or loyalty pathways", "to": "club-lobby", "testId": "logon", "unlockSuccesses": 1 },
-        { "label": "Browse the public product smoke", "to": "menu-wall", "testId": "browsePublic", "unlockSuccesses": 1 }
-      ] },
-      { "id": "club-lobby", "title": "Mahogany Loyalty Lobby", "kind": "public", "description": "Club plaques, butcher-block counters, and grinning mascot portraits steer customers toward subscriptions and identity-flavored meat fantasies.", "choices": [
-        { "label": "Read product and ad fulfillment data", "to": "menu-wall", "testId": "browsePublic", "unlockSuccesses": 1 },
-        { "label": "Open the customer analytics lockers", "to": "analytics-cold-locker", "testId": "searchCustomer", "unlockSuccesses": 1 },
-        { "label": "Look for supplier irregularity files", "to": "supplier-smoke-room", "testId": "staffRecords", "unlockSuccesses": 1 }
-      ] },
-      { "id": "menu-wall", "title": "Neon Menu Wall", "kind": "records", "description": "Flavor profiles, fulfillment queues, loyalty offers, and influencer pushes hang as sizzling specials under impossible lighting.", "choices": [
-        { "label": "Trace a fulfillment or shell-vendor lead", "to": "supplier-smoke-room", "testId": "searchCustomer", "unlockSuccesses": 1 },
-        { "label": "Adjust a low-risk subscription record", "to": "subscription-edit-block", "testId": "alterStore", "unlockSuccesses": 1 },
-        { "label": "Return to the club lobby", "to": "club-lobby" }
-      ] },
-      { "id": "analytics-cold-locker", "title": "Analytics Cold Locker", "kind": "clue", "description": "Customer preference carcasses hang on chrome hooks: aspiration, novelty buying, masculinity theater, and engineered appetite profiles.", "choices": [
-        { "label": "Copy leverage from customer segments", "to": "paydata-branded-crate", "testId": "searchCustomer", "unlockSuccesses": 1 },
-        { "label": "Reach internal strategy files", "to": "executive-cigar-room", "testId": "staffRecords", "unlockSuccesses": 1 }
-      ] },
-      { "id": "supplier-smoke-room", "title": "Supplier Smoke Room", "kind": "restricted", "description": "Behind the public joke branding, vendor ledgers and formula crates suggest a real data operation with ugly financing possibilities.", "choices": [
-        { "label": "Extract suspicious supplier records", "to": "paydata-branded-crate", "testId": "staffRecords", "unlockSuccesses": 1 },
-        { "label": "Alter analytics or subscription records", "to": "subscription-edit-block", "testId": "alterStore", "unlockSuccesses": 1 },
-        { "label": "Probe demo/factory control hooks", "to": "factory-grill-controls", "testId": "controlSlave", "unlockSuccesses": 2 }
-      ] },
-      { "id": "executive-cigar-room", "title": "Executive Cigar-Bar Dining Room", "kind": "restricted", "description": "Every velvet booth is also an ad surface. Strategy files discuss brand narrative, influencer bait, and manufactured authenticity.", "choices": [
-        { "label": "Copy brand-strategy blackmail", "to": "paydata-branded-crate", "testId": "staffRecords", "unlockSuccesses": 1 },
-        { "label": "Fight off predatory mascot IC", "to": "paydata-branded-crate", "testId": "fightIc", "unlockSuccesses": 1 }
-      ] },
-      { "id": "subscription-edit-block", "title": "Subscription Edit Block", "kind": "danger", "description": "A butcher-block form lets you change customer analytics, fulfillment queues, or subscription status while the host watches for spoiled credentials.", "choices": [
-        { "label": "Commit the change and package the proof", "to": "paydata-branded-crate", "testId": "alterStore", "unlockSuccesses": 1 },
-        { "label": "Evade the fulfillment trace", "to": "club-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
-      ] },
-      { "id": "factory-grill-controls", "title": "Factory Demo Grill Controls", "kind": "devices", "description": "Demo machines, kitchen props, and factory-linked subsystems clank behind a branded safety gate.", "choices": [
-        { "label": "Seize a control hook long enough to prove linkage", "to": "paydata-branded-crate", "testId": "controlSlave", "unlockSuccesses": 2 },
-        { "label": "Slip back before the machinery bites", "to": "supplier-smoke-room", "testId": "evadeTrace", "unlockSuccesses": 1 }
-      ] },
-      { "id": "paydata-branded-crate", "title": "Branded Paydata Crate", "kind": "reward", "description": "You have a usable package: supplier oddities, customer leverage, marketing scandal hooks, or proof the silly brand is funding something uglier.", "choices": [
-        { "label": "Log off through the loyalty exit", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 },
-        { "label": "Keep digging for executive strategy", "to": "executive-cigar-room", "testId": "staffRecords", "unlockSuccesses": 1 }
-      ] },
-      { "id": "logoff", "title": "Loyalty Exit", "kind": "exit", "description": "The smoke clears into ordinary Matrix traffic, leaving only a coupon popup and the faint smell of fake bacon.", "choices": [] }
+      {
+        "id": "club-porch",
+        "title": "Smokehouse Club Porch",
+        "kind": "entry",
+        "description": "A neon smokehouse sign buzzes over a private-club doorway. The host presents a public lifestyle-club door and a harder private corporate surface behind the branding.",
+        "choices": [
+          { "label": "Use the public club visitor door", "to": "public-club-lobby" },
+          { "label": "Breach the private fulfillment and strategy surface", "to": "member-credential-smoker", "testId": "logon", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "public-club-lobby",
+        "title": "Mahogany Public Club Lobby",
+        "kind": "public",
+        "description": "Butcher-block counters, club plaques, cartoon smoke, and grinning mascot portraits sell the fantasy of belonging to an exclusive meat lifestyle society. This side is official visitor content only.",
+        "choices": [
+          { "label": "Browse public menus and flavor propaganda", "to": "public-menu-wall" },
+          { "label": "Check public loyalty-club signup offers", "to": "public-loyalty-kiosk" },
+          { "label": "Watch sanitized influencer sizzle reels", "to": "public-sizzle-stage" },
+          { "label": "Return to the porch", "to": "club-porch" }
+        ]
+      },
+      {
+        "id": "public-menu-wall",
+        "title": "Public Menu Wall",
+        "kind": "public",
+        "description": "Neon smokehouse signs advertise artificial beef, bacon-flavored lifestyle bundles, and limited-time novelty snacks. Make a note only if the team needs public product cover; no private data lives here.",
+        "choices": [
+          { "label": "Return to the public club lobby", "to": "public-club-lobby" }
+        ]
+      },
+      {
+        "id": "public-loyalty-kiosk",
+        "title": "Public Loyalty Kiosk",
+        "kind": "public",
+        "description": "A smiling mascot offers newsletters, coupon pings, and a loyalty membership tier called the Smoke Ring. This is noisy marketing, not a useful intrusion point by itself.",
+        "choices": [
+          { "label": "Return to the public club lobby", "to": "public-club-lobby" }
+        ]
+      },
+      {
+        "id": "public-sizzle-stage",
+        "title": "Sanitized Sizzle Stage",
+        "kind": "public",
+        "description": "Influencer clips loop on a tiny stage: smiling consumers, fake grill marks, and aspiration drenched in synthetic hickory. Tell the GM only if you want to cite public ad positioning later.",
+        "choices": [
+          { "label": "Return to the public club lobby", "to": "public-club-lobby" }
+        ]
+      },
+      {
+        "id": "member-credential-smoker",
+        "title": "Private Credential Smoker",
+        "kind": "secure-entry",
+        "description": "Behind the mascot skin is a private login surface shaped like a steel smoker. Employee, vendor, fulfillment, and analytics permissions hang from hooks inside the smoke.",
+        "choices": [
+          { "label": "Open the private subsystem hub", "to": "private-smokehouse-hub", "testId": "staffRecords", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "private-smokehouse-hub",
+        "title": "Private Smokehouse Subsystem Hub",
+        "kind": "private",
+        "description": "You are inside the private side. Cold lockers, recipe books, analytics carcasses, subscription ledgers, fulfillment crates, and demo-control gates are available if you can beat the host pressure.",
+        "choices": [
+          { "label": "Customer analytics lockers", "to": "analytics-locker-confirmation", "testId": "searchCustomer" },
+          { "label": "Supplier and formula records", "to": "supplier-formula-confirmation", "testId": "staffRecords" },
+          { "label": "Subscription fulfillment controls", "to": "subscription-fulfillment-confirmation", "testId": "alterStore" },
+          { "label": "Factory/demo control hooks", "to": "demo-control-confirmation", "testId": "controlSlave", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "analytics-locker-confirmation",
+        "title": "Customer Analytics Locker",
+        "kind": "confirmation",
+        "description": "You appear to have access to customer preference analytics: aspiration profiles, novelty buying, influencer response, and loyalty behavior. Tell the GM you have customer-analytics access; ask which segments, dates, or customer classes can be searched.",
+        "choices": [
+          { "label": "Copy consumer-segmentation paydata", "to": "paydata-customer-segments", "testId": "searchCustomer", "unlockSuccesses": 1 },
+          { "label": "Trace influencer partnership hooks", "to": "paydata-influencer-hooks", "testId": "searchCustomer", "unlockSuccesses": 1 },
+          { "label": "Return to private subsystem hub", "to": "private-smokehouse-hub" }
+        ]
+      },
+      {
+        "id": "supplier-formula-confirmation",
+        "title": "Supplier and Formula Records",
+        "kind": "confirmation",
+        "description": "You appear to have access to supplier records, flavor-profile research, test batches, and formula vault indexes. Tell the GM you have supplier/formula access; ask which vendor names, batch dates, and product lines are visible.",
+        "choices": [
+          { "label": "Copy supplier irregularity paydata", "to": "paydata-supplier-irregularities", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Copy flavor-profile research paydata", "to": "paydata-flavor-research", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Return to private subsystem hub", "to": "private-smokehouse-hub" }
+        ]
+      },
+      {
+        "id": "subscription-fulfillment-confirmation",
+        "title": "Subscription Fulfillment Controls",
+        "kind": "confirmation",
+        "description": "You appear to have access to subscription records, recurring orders, delivery addresses, and fulfillment queues. Tell the GM you have subscription/fulfillment access before making any permanent change.",
+        "choices": [
+          { "label": "Insert recurring off-books luxury snack order", "to": "luxury-snack-order-outcome", "testId": "alterStore", "unlockSuccesses": 2 },
+          { "label": "Copy fulfillment routing paydata", "to": "paydata-fulfillment-routes", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Return to private subsystem hub", "to": "private-smokehouse-hub" }
+        ]
+      },
+      {
+        "id": "demo-control-confirmation",
+        "title": "Factory / Demo Control Hooks",
+        "kind": "confirmation",
+        "description": "You appear to have access to demo machines, kitchen props, or factory-linked control hooks. Tell the GM you have demo/control access; confirm whether this host controls live equipment, records only, or a delayed demo environment.",
+        "choices": [
+          { "label": "Copy demo-system linkage paydata", "to": "paydata-demo-linkage", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Return to private subsystem hub", "to": "private-smokehouse-hub" }
+        ]
+      },
+      {
+        "id": "paydata-customer-segments",
+        "title": "Paydata: Customer Segmentation",
+        "kind": "paydata",
+        "description": "You recover consumer-segmentation paydata: loyalty behavior, aspiration categories, novelty response, and campaign targeting notes. Tell the GM you recovered customer-segmentation paydata and make a note for valuation/fencing later.",
+        "choices": [
+          { "label": "Return to analytics locker", "to": "analytics-locker-confirmation" },
+          { "label": "Log off with the customer-segmentation paydata", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "paydata-influencer-hooks",
+        "title": "Paydata: Influencer Partnership Hooks",
+        "kind": "paydata",
+        "description": "You recover influencer-partnership hooks and promo leverage. Tell the GM you recovered influencer/payola-style paydata; exact value, buyers, and consequences need GM handling.",
+        "choices": [
+          { "label": "Return to analytics locker", "to": "analytics-locker-confirmation" },
+          { "label": "Log off with the influencer-hook paydata", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "paydata-supplier-irregularities",
+        "title": "Paydata: Supplier Irregularities",
+        "kind": "paydata",
+        "description": "You recover supplier irregularity paydata: shell vendors, price anomalies, and suspicious fulfillment dependencies. Tell the GM you recovered supplier-irregularity paydata and note it for valuation/follow-up.",
+        "choices": [
+          { "label": "Return to supplier records", "to": "supplier-formula-confirmation" },
+          { "label": "Log off with the supplier paydata", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "paydata-flavor-research",
+        "title": "Paydata: Flavor-Profile Research",
+        "kind": "paydata",
+        "description": "You recover flavor-profile and formula research paydata. Tell the GM you recovered product-formula research; exact value depends on who wants embarrassing or proprietary meat-adjacent science.",
+        "choices": [
+          { "label": "Return to supplier records", "to": "supplier-formula-confirmation" },
+          { "label": "Log off with the formula paydata", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "paydata-fulfillment-routes",
+        "title": "Paydata: Fulfillment Routes",
+        "kind": "paydata",
+        "description": "You recover fulfillment routing paydata: delivery lanes, vendor timing, and subscription logistics. Tell the GM you recovered fulfillment-route paydata and make a note for later valuation or operational use.",
+        "choices": [
+          { "label": "Return to subscription controls", "to": "subscription-fulfillment-confirmation" },
+          { "label": "Log off with the fulfillment paydata", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "paydata-demo-linkage",
+        "title": "Paydata: Demo-System Linkage",
+        "kind": "paydata",
+        "description": "You recover proof that demo machines, branded kitchen props, or factory-linked systems connect through this host. Tell the GM you recovered demo-system linkage paydata and ask what physical systems this suggests.",
+        "choices": [
+          { "label": "Return to demo controls", "to": "demo-control-confirmation" },
+          { "label": "Log off with the demo-linkage paydata", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "luxury-snack-order-outcome",
+        "title": "Permanent Outcome: Luxury Snack Order",
+        "kind": "permanent-outcome",
+        "description": "You insert a recurring off-the-books order of luxury vat-grown snacks to an address of the players' choice. Notify the GM immediately: this is a permanent campaign-state change. Tell the GM the destination address, delivery cadence, and any cover identity the decker used; until you tell the GM, the table should not assume the order exists.",
+        "choices": [
+          { "label": "Make a note and return to subscription controls", "to": "subscription-fulfillment-confirmation" },
+          { "label": "Log off before fulfillment trace tightens", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Loyalty Exit",
+        "kind": "exit",
+        "description": "The smoke clears into ordinary Matrix traffic, leaving only a coupon popup and the faint smell of fake bacon. Current-crawl lockouts are not permanent unless the GM says so; reset and retry after appropriate in-world time if allowed.",
+        "choices": []
+      }
     ]
   }
 }

@@ -17,7 +17,7 @@ sources:
 
 A branded corporate host for a soy-meat company selling artificial beef-and-bacon lifestyle products through marketing, subscription culture, and aggressively engineered consumer identity.
 
-This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/augmented-beef-and-bacon-social-club-host.json).
+This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/augmented-beef-and-bacon-social-club-host.json). The Decker Experience profile follows the public-door / secure-door template and includes several generic paydata opportunities plus one permanent fulfillment outcome that requires player notification to the GM.
 
 ## Host Stats (SR3-style)
 
@@ -43,6 +43,8 @@ This Host has a [machine-readable Decker Experience profile](../../data/matrix-h
 - subscription fulfillment logistics and customer preference analytics
 - test-market studies built around aspiration, masculinity theater, and novelty consumption
 - internal strategy files on brand narratives and manufactured authenticity
+- generic paydata opportunities around customer segmentation, influencer hooks, supplier irregularities, flavor research, fulfillment routes, and demo-system linkages
+- a possible permanent outcome: inserting a recurring off-books order of luxury vat-grown snacks to an address chosen by the players, which must be reported to the GM when achieved
 
 ## Host feel
 
@@ -60,4 +62,4 @@ A smart decker will notice that beneath the joke branding sits a serious consume
 
 ## Decker use
 
-Useful for spoof-product scandals, tracing shell vendors, finding marketing leverage, and discovering whether a seemingly silly consumer brand is financing something much uglier.
+Useful for spoof-product scandals, tracing shell vendors, finding marketing leverage, looting consumer-brand paydata, and setting up absurd fulfillment mischief. Any permanent change made through the host, such as a recurring off-books luxury snack order, should be treated as unknown to the GM until the player explicitly reports it.

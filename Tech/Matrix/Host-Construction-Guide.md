@@ -151,6 +151,10 @@ Recommended result wording:
 
 The tool should make success feel like it changed the situation, even when exact contents remain under GM control.
 
+Permanent outcomes require explicit GM notification. If a decker changes records, creates an account, redirects orders, schedules a delivery, opens a recurring subscription, disables a camera, plants a file, or otherwise changes the campaign state, the result text must tell the player to notify the GM. Until the player tells the GM, the table should assume the GM does not know it happened.
+
+Lockouts are not permanent campaign facts by default. A locked route means the route is closed for the current crawl attempt; after appropriate in-world time passes, the player may reset the tool and try again if the GM agrees the situation allows it.
+
 ## Subsystem Nodes
 
 Use subsystem nodes to represent broad Matrix capability zones. The classic SR3 host subsystems are useful as design anchors:
@@ -298,6 +302,8 @@ Avoid these patterns:
 - revealing the full Host map before the decker earns access
 - guaranteeing paydata just because the decker reached a public node
 - making failure merely cosmetic
+- treating current-crawl lockouts as permanent without GM instruction
+- hiding permanent campaign changes in the app without telling the player to notify the GM
 
 ## Minimal JSON Topology Sketch
 
@@ -358,6 +364,8 @@ Before publishing a Host profile, confirm:
 - The secure door can be rolled against and can fail without revealing the Host.
 - Private intrusion exposes relevant subsystems.
 - Every successful featured action either unlocks a new node or gives the decker a specific GM-facing/personal-note result.
+- Permanent outcomes explicitly tell the player to notify the GM.
+- Lockouts are scoped to the current crawl unless the GM says otherwise; reset after in-world time is allowed when appropriate.
 - Device/security verbs lead to GM-confirmation nodes unless exact scope is already canon.
 - Hidden/deep layers are gated behind discovery or stronger success thresholds.
 - The left-side map will not reveal locked or hidden topology early.
