@@ -86,6 +86,18 @@ These are the currently surfaced Matrix stats associated with Cindy's older reco
 - **Response Increase:** 1
 - **Hacking Pool:** 4
 
+### Table-use decking runtime assumptions
+
+The recovered profile does not currently include every ordinary decker-facing skill and utility rating needed by the Decker Experience. Until a more authoritative character sheet appears, use these mid-level assumptions when Cindy Lou personally attempts a Matrix crawl:
+
+- **Computer Skill:** 5
+- **Effective Detection Factor:** 6
+- **Default Hacking Pool available per focused test:** 4
+- **Loaded utility assumptions:** Analyze 5, Browse 5, Sleaze/Deception 5, Validate 4, Read/Write 4, Spoof 4, Attack 4, Armor 4, Scanner 4
+- **Rules intent:** Cindy is a competent but not elite autonomous Matrix actor. She can handle modest hosts reliably, but hard hidden hosts and high-threshold rewards can still lock her out.
+
+These assumptions are table-use scaffolding for play aids, not a final full SR3 character sheet.
+
 ## Mobile host / vehicle chassis concept
 
 Current campaign understanding ties Cindy's runtime presence to a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and enough internal hardware to support the know-bot runtime as a protected mobile shell.
