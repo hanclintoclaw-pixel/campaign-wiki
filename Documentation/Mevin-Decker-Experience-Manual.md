@@ -86,6 +86,21 @@ Click **Roll to unlock this branch** to attempt the action.
 
 If you succeed, the new node opens. If you fail, that route locks for the current crawl and may reveal nothing further.
 
+## Host map
+
+The bottom of the app shows a branching Host map. It starts at the entry point and draws directional lines through public, private, and deeper Host sections.
+
+Map colors help you avoid retreading old ground:
+
+- **Current:** where you are now.
+- **Found:** locations you have already visited and can jump back to from the map.
+- **Revealed:** known locations that are visible but not yet visited.
+- **Hidden:** obscured zones the crawl has not revealed yet.
+
+The verb menu uses the same destination labels, so each choice tells you whether it leads toward a found location, a revealed-but-unvisited location, or a hidden zone.
+
+On mobile, the map is compact and horizontally scrollable so the full Host tree stays legible without becoming another long vertical list.
+
 ## Off-menu RAW actions
 
 The tool does not list every possible SR3 Matrix operation. If you want to do something outside the featured actions, tell the GM directly. The GM can call for the appropriate SR3-style test, time cost, tally pressure, utility use, or fictional consequence.

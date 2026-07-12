@@ -90,6 +90,19 @@ Each host profile is JSON with:
 
 The app can also sync decker/deck data from the [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) when browser origin/localStorage conditions allow it, or load manual deck JSON.
 
+## Host map and location state
+
+The Decker Experience renders a branching Host map from the scenario flow graph. The map sits below the main crawl on desktop and remains compact/horizontally scrollable on mobile.
+
+Location states are color-coded across both the map and the verb menu:
+
+- **Current:** the active node.
+- **Found:** a node the decker has visited before.
+- **Revealed:** a known node that has appeared but has not been visited.
+- **Hidden:** an obscured placeholder for an unrevealed Host zone.
+
+Hidden zones may show structure without revealing labels, preserving the sense that a Host has more branches while keeping unrevealed node names out of player view.
+
 ## Current loadable examples
 
 The Host Library currently includes several wiki-backed profiles, including:
