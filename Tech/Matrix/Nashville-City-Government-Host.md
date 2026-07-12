@@ -15,26 +15,30 @@ sources:
 
 ## Overview
 
-A municipal civil-administration host representing permits, utilities, records, planning, public works, payroll, and the vast bureaucratic swamp that keeps Nashville moving badly but continuously.
+A municipal civil-administration host representing permits, utilities, records, planning, public works, payroll, facilities, and the vast bureaucratic swamp that keeps Nashville moving badly but continuously.
 
-This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/nashville-city-government-host.json).
+This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/nashville-city-government-host.json). The Decker Experience version is a medium-complexity civic crawl: harmless public service windows, a secure staff/admin side, protected records, utility routing, facility-control confirmations, several paydata opportunities, and a possible permanent civic-record change.
 
 ## Host Stats (SR3-style)
 
-- **Host Color / Security:** Blue-4
-- **Host Rating:** 4
-- **Access:** 4
-- **Control:** 3
-- **Index:** 5
-- **Files:** 6
-- **Slave:** 3
-- **Typical IC mix:** Probe, Scramble, Trace, Tar Baby
+- **Host Color / Security:** Blue-5 / Blue-6 municipal stack
+- **Host Rating:** 6
+- **Shutdown Tally:** 21
+- **Access:** 5
+- **Control:** 5
+- **Index:** 6
+- **Files:** 7
+- **Slave:** 5
+- **Typical IC mix:** Probe, Scramble, Trace, Tar Baby, municipal security escalation, light Blaster/Bailiff response
 - **Routine decker task TNs:**
-  - Logon with valid or lightly spoofed credentials: **4**
+  - Logon with valid or lightly spoofed public access: **4**
+  - Breach secure staff/admin access: **5**
   - Browse public/low-security civic records: **4**
-  - Locate buried permit/utilities/admin data: **5**
-  - Edit or suppress protected records: **7**
-  - Seize control of utility-linked slave systems: **8**
+  - Locate buried permit/utilities/admin data: **6**
+  - Reach protected employee, payroll, meeting, or department archives: **7**
+  - Edit or suppress protected records: **8**
+  - Seize control of utility-linked or facility slave systems: **8**
+  - Evade municipal trace/procedural pressure: **6**
 
 ## What deckers find inside
 
@@ -43,6 +47,9 @@ This Host has a [machine-readable Decker Experience profile](../../data/matrix-h
 - zoning, planning, and public works documentation
 - employee records, meeting archives, and interdepartment mail traffic
 - countless minor subsystems protected less by elegance than by sprawl and inertia
+- camera, badge, door, and facility-control confirmations that require GM scope adjudication
+- paydata around permit/zoning caches, admin archives, utility routing, shell contractors, and buried case routing
+- possible permanent civic-record edits or suppressions if a decker beats protected-control checks
 
 ## Host feel
 
@@ -60,4 +67,4 @@ The dangerous part is not obvious lethality. It is procedural suffocation. Decke
 
 ## Decker use
 
-Useful for tracing permits, land use, shell contractors, utility tampering, public-event approvals, and any run that touches city services or public infrastructure.
+Useful for tracing permits, land use, shell contractors, utility tampering, public-event approvals, city facilities, and any run that touches civic services or public infrastructure. This host is meant to sit between a consumer-brand host and a megacorp fortress: survivable for a competent decker, but sticky, procedural, and dangerous if Tally climbs into Active Alert.

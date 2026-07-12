@@ -4,53 +4,266 @@
   "name": "Nashville City Government Host",
   "wikiPage": "Tech/Matrix/Nashville-City-Government-Host.md",
   "securityCode": "blue",
-  "securityValue": 4,
-  "hostRating": 4,
-  "subsystem": { "access": 4, "control": 3, "index": 5, "files": 6, "slave": 3 },
-  "taskTargetNumbers": { "logon": 4, "browsePublic": 4, "searchCustomer": 5, "staffRecords": 5, "alterStore": 7, "controlSlave": 8, "evadeTrace": 5, "fightIc": 6 },
+  "securityValue": 5,
+  "hostRating": 6,
+  "shutdownTally": 21,
+  "subsystem": {
+    "access": 5,
+    "control": 5,
+    "index": 6,
+    "files": 7,
+    "slave": 5
+  },
+  "taskTargetNumbers": {
+    "logon": 5,
+    "browsePublic": 4,
+    "searchCustomer": 6,
+    "staffRecords": 7,
+    "alterStore": 8,
+    "controlSlave": 8,
+    "evadeTrace": 6,
+    "fightIc": 7
+  },
   "securitySheaf": [
-    { "threshold": 2, "label": "Probe IC", "effect": "A stern inspector checks forms, credentials, and routing slips." },
-    { "threshold": 5, "label": "Scramble IC", "effect": "Records reshuffle into wrong windows and misfiled archive stacks." },
-    { "threshold": 8, "label": "Trace IC", "effect": "A procedural trace follows the icon through department routing." },
-    { "threshold": 11, "label": "Tar Baby IC", "effect": "Permit forms and violation notices try to trap the icon in bureaucracy." }
+    { "threshold": 3, "label": "Credential Probe", "effect": "A stern inspector checks forms, credentials, and routing slips.", "encounter": { "type": "probe", "rating": 5 } },
+    { "threshold": 6, "label": "Scramble IC", "effect": "Records reshuffle into wrong windows, duplicate queues, and misfiled archive stacks.", "encounter": { "type": "scramble", "rating": 6 } },
+    { "threshold": 9, "label": "Trace IC", "effect": "A procedural trace follows the icon through department routing and service-ticket logs.", "encounter": { "type": "trace", "rating": 6 } },
+    { "threshold": 12, "label": "Tar Baby Violation Notice", "effect": "Permit forms and NOTICE OF VIOLATION overlays try to pin the icon in appeals processing.", "encounter": { "type": "tarBaby", "rating": 7 } },
+    { "threshold": 16, "label": "Municipal Security Escalation", "effect": "City IT security and physical facilities staff receive correlated alerts.", "encounter": { "type": "trace", "rating": 7, "consequence": "Municipal Security Escalation: city IT or facilities security may receive a usable alert about the intrusion. Notify the GM if this remains unresolved." } },
+    { "threshold": 19, "label": "Bailiff Blaster IC", "effect": "A uniformed bailiff icon locks the chamber doors and brings destructive pressure to bear.", "encounter": { "type": "blaster", "rating": 8 } }
   ],
-  "sculpting": "Downtown civic complex: marble lobbies, directory kiosks, brass plaques, fluorescent back offices, records vaults, filing caverns, and red NOTICE OF VIOLATION overlays.",
-  "notes": "Municipal civil-administration host for permits, utilities, records, planning, public works, payroll, and sprawling bureaucracy.",
+  "sculpting": "Downtown civic complex: marble lobbies, directory kiosks, brass plaques, fluorescent back offices, records vaults, filing caverns, utility routing maps, and red NOTICE OF VIOLATION overlays.",
+  "notes": "Medium-difficulty municipal host. Public side is broad and harmless; secure side exposes permits, records, payroll/admin, utility routing, and device-control confirmations. Complexity sits between consumer-brand AB&B and megacorp Lafayette Tower.",
   "flow": {
-    "startNodeId": "civic-login-kiosk",
+    "startNodeId": "civic-approach",
     "nodes": [
-      { "id": "civic-login-kiosk", "title": "Civic Login Kiosk", "kind": "entry", "description": "A city-seal kiosk waits in a marble lobby. The directory offers too many departments and not enough helpful signs.", "choices": [
-        { "label": "Log on with valid or lightly spoofed credentials", "to": "public-records-lobby", "testId": "logon", "unlockSuccesses": 1 },
-        { "label": "Browse public civic records from outside", "to": "public-records-lobby", "testId": "browsePublic", "unlockSuccesses": 1 }
-      ] },
-      { "id": "public-records-lobby", "title": "Public Records Lobby", "kind": "public", "description": "Directory kiosks, service windows, and public forms lead toward permits, licensing, tax records, and committee minutes.", "choices": [
-        { "label": "Locate buried permit or utility data", "to": "records-basement", "testId": "searchCustomer", "unlockSuccesses": 1 },
-        { "label": "Reach protected employee or meeting archives", "to": "back-office-counter", "testId": "staffRecords", "unlockSuccesses": 1 },
-        { "label": "Check utility-linked slave doors", "to": "utility-routing-panel", "testId": "controlSlave", "unlockSuccesses": 2 }
-      ] },
-      { "id": "records-basement", "title": "Records Basement", "kind": "records", "description": "Filing caverns and microfilm archives store permits, inspections, zoning decisions, and forgotten public-works paper trails.", "choices": [
-        { "label": "Pull a useful permit or zoning lead", "to": "case-file-cache", "testId": "searchCustomer", "unlockSuccesses": 1 },
-        { "label": "Open protected administrative records", "to": "back-office-counter", "testId": "staffRecords", "unlockSuccesses": 1 },
-        { "label": "Return to the public lobby", "to": "public-records-lobby" }
-      ] },
-      { "id": "back-office-counter", "title": "Fluorescent Back Office Counter", "kind": "restricted", "description": "Employee records, meeting archives, interdepartment mail, and routing chains sit behind flickering lights and bored procedural guardians.", "choices": [
-        { "label": "Copy protected records for the run", "to": "case-file-cache", "testId": "staffRecords", "unlockSuccesses": 1 },
-        { "label": "Edit or suppress a protected record", "to": "record-edit-stamp", "testId": "alterStore", "unlockSuccesses": 2 },
-        { "label": "Follow routing toward utility controls", "to": "utility-routing-panel", "testId": "controlSlave", "unlockSuccesses": 2 }
-      ] },
-      { "id": "record-edit-stamp", "title": "Red Stamp Edit Window", "kind": "danger", "description": "A protected form waits under a huge red stamp. Any edit will echo through approvals, denials, and violation notices.", "choices": [
-        { "label": "Commit the record change", "to": "case-file-cache", "testId": "alterStore", "unlockSuccesses": 2 },
-        { "label": "Evade the procedural trap", "to": "public-records-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
-      ] },
-      { "id": "utility-routing-panel", "title": "Utility Routing Panel", "kind": "devices", "description": "Water, power, service interruption, and public-works hooks hide behind department-by-committee permissions architecture.", "choices": [
-        { "label": "Seize a utility-linked control view", "to": "case-file-cache", "testId": "controlSlave", "unlockSuccesses": 2 },
-        { "label": "Back out before inspectors converge", "to": "public-records-lobby", "testId": "evadeTrace", "unlockSuccesses": 1 }
-      ] },
-      { "id": "case-file-cache", "title": "Case File Cache", "kind": "reward", "description": "You have a usable civic lead: permits, land use, shell contractors, utilities, event approvals, or a useful suppressed record.", "choices": [
-        { "label": "Log off through normal civic traffic", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 },
-        { "label": "Keep digging through the basement", "to": "records-basement", "testId": "searchCustomer", "unlockSuccesses": 1 }
-      ] },
-      { "id": "logoff", "title": "Service Window Exit", "kind": "exit", "description": "The host stamps your departure as routine traffic and the marble lobby fades back into the downtown grid.", "choices": [] }
+      {
+        "id": "civic-approach",
+        "title": "Civic Host Approach",
+        "kind": "entry",
+        "description": "A city-seal kiosk waits in a marble Matrix lobby. Public service windows glow openly, while a staff-only administrative door sits behind layers of forms and badge routing.",
+        "choices": [
+          { "label": "Use the public citizen services door", "to": "public-services-lobby" },
+          { "label": "Breach the secure administrative staff door", "to": "staff-credential-counter", "testId": "logon", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "public-services-lobby",
+        "title": "Public Services Lobby",
+        "kind": "public",
+        "description": "Directory kiosks, service windows, complaint queues, public forms, council notices, and permit lookup terminals stretch under fluorescent civic light. This is official public access only.",
+        "choices": [
+          { "label": "Browse public permit and zoning lookup", "to": "public-permit-kiosk" },
+          { "label": "Check public meeting and event notices", "to": "public-meeting-board" },
+          { "label": "Use utility outage and service-status map", "to": "public-utility-map" },
+          { "label": "Return to civic approach", "to": "civic-approach" }
+        ]
+      },
+      {
+        "id": "public-permit-kiosk",
+        "title": "Public Permit Lookup Kiosk",
+        "kind": "public",
+        "description": "Public permits, parcel records, inspection windows, and zoning summaries are available in sanitized form. Useful for cover, not secrets.",
+        "choices": [
+          { "label": "Return to public services lobby", "to": "public-services-lobby" }
+        ]
+      },
+      {
+        "id": "public-meeting-board",
+        "title": "Public Meeting Board",
+        "kind": "public",
+        "description": "Council calendars, public-event notices, hearing schedules, and committee summaries hang on brass plaques and scrolling red tape.",
+        "choices": [
+          { "label": "Return to public services lobby", "to": "public-services-lobby" }
+        ]
+      },
+      {
+        "id": "public-utility-map",
+        "title": "Public Utility Status Map",
+        "kind": "public",
+        "description": "The public map shows sanitized outage notices, trash pickup zones, water-main advisories, and service-delay boilerplate.",
+        "choices": [
+          { "label": "Return to public services lobby", "to": "public-services-lobby" }
+        ]
+      },
+      {
+        "id": "staff-credential-counter",
+        "title": "Staff Credential Counter",
+        "kind": "secure-entry",
+        "description": "A brass-and-marble counter checks employee credentials, department routing slips, and service-ticket authority. Failure here should not reveal the private municipal topology.",
+        "choices": [
+          { "label": "Open the private municipal subsystem hub", "to": "municipal-subsystem-hub", "testId": "logon", "unlockSuccesses": 2 },
+          { "label": "Back out to public civic approach", "to": "civic-approach", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "municipal-subsystem-hub",
+        "title": "Private Municipal Subsystem Hub",
+        "kind": "private",
+        "description": "Behind the public counters are records vaults, payroll windows, permit archives, public-works routing maps, utility-control panels, and departmental mailrooms.",
+        "choices": [
+          { "label": "Permit, zoning, and inspection archives", "to": "permit-records-confirmation", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Employee, payroll, and meeting archives", "to": "admin-records-confirmation", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Utility and public-works routing", "to": "utility-routing-confirmation", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Door, camera, and facility slave controls", "to": "facility-control-confirmation", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Back out through staff credential counter", "to": "staff-credential-counter", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "permit-records-confirmation",
+        "title": "Permit / Zoning / Inspection Records",
+        "kind": "confirmation",
+        "description": "You appear to have access to protected permit packets, inspection schedules, parcel notes, zoning exception memos, and licensing records. Tell the GM you have permit-record access; ask what addresses, contractors, or dates can be searched.",
+        "choices": [
+          { "label": "Copy useful permit and zoning paydata", "to": "paydata-permit-cache", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Search for shell contractor patterns", "to": "contractor-thread-cache", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Attempt to edit or suppress a protected permit", "to": "record-edit-stamp", "testId": "alterStore", "unlockSuccesses": 2 },
+          { "label": "Return to municipal subsystem hub", "to": "municipal-subsystem-hub" }
+        ]
+      },
+      {
+        "id": "admin-records-confirmation",
+        "title": "Employee / Payroll / Meeting Archives",
+        "kind": "confirmation",
+        "description": "You appear to have access to employee records, payroll routing, meeting archives, departmental mail, and interoffice routing chains. Tell the GM you have admin-record access; confirm scope before naming specific officials or files.",
+        "choices": [
+          { "label": "Copy employee and meeting archive paydata", "to": "paydata-admin-cache", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Search departmental mail for hidden routing", "to": "case-routing-thread", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Attempt to alter a protected admin record", "to": "record-edit-stamp", "testId": "alterStore", "unlockSuccesses": 2 },
+          { "label": "Return to municipal subsystem hub", "to": "municipal-subsystem-hub" }
+        ]
+      },
+      {
+        "id": "utility-routing-confirmation",
+        "title": "Utility and Public-Works Routing",
+        "kind": "confirmation",
+        "description": "You appear to have access to non-public utility routing, service tickets, public-works schedules, interruption records, and repair-zone maps. Tell the GM you have utility/public-works access; ask which systems and neighborhoods are in scope.",
+        "choices": [
+          { "label": "Copy utility and public-works routing paydata", "to": "paydata-utility-routing", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Locate a buried service interruption pattern", "to": "case-routing-thread", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Follow routing toward control panels", "to": "facility-control-confirmation", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Return to municipal subsystem hub", "to": "municipal-subsystem-hub" }
+        ]
+      },
+      {
+        "id": "facility-control-confirmation",
+        "title": "Facility Slave Controls",
+        "kind": "confirmation",
+        "description": "You appear to have access to some combination of cameras, doors, elevator routing, badge readers, utility panels, and city-facility controls. Tell the GM you have facility-control access; confirm exact physical scope before acting.",
+        "choices": [
+          { "label": "Camera network", "to": "camera-confirmation", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Door and badge controls", "to": "door-badge-confirmation", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Utility-linked control view", "to": "utility-control-note", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Return to municipal subsystem hub", "to": "municipal-subsystem-hub" }
+        ]
+      },
+      {
+        "id": "camera-confirmation",
+        "title": "Camera Network Access",
+        "kind": "gm-reward",
+        "description": "You appear to have access to a municipal camera network or camera-record index. Tell the GM you have camera-network access; confirm which feeds, buildings, time windows, or blind spots are actually available.",
+        "choices": [
+          { "label": "Return to facility controls", "to": "facility-control-confirmation" },
+          { "label": "Log off with camera-network access noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "door-badge-confirmation",
+        "title": "Door and Badge Control Access",
+        "kind": "gm-reward",
+        "description": "You appear to have access to door-control or badge-permission functions. Tell the GM you have door/badge access; confirm which sites are slaved to this host and whether changes trigger alarms.",
+        "choices": [
+          { "label": "Return to facility controls", "to": "facility-control-confirmation" },
+          { "label": "Log off with door/badge access noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "utility-control-note",
+        "title": "Utility Control Scope Note",
+        "kind": "gm-reward",
+        "description": "You appear to have access to utility-linked control views. Tell the GM you have utility-control access; confirm whether this is records-only, delayed command access, or live controls before assuming a physical effect.",
+        "choices": [
+          { "label": "Return to facility controls", "to": "facility-control-confirmation" },
+          { "label": "Log off with utility-control scope noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "record-edit-stamp",
+        "title": "Red Stamp Edit Window",
+        "kind": "danger",
+        "description": "A protected form waits under a huge red stamp. Any edit will echo through approvals, denials, appeal queues, and violation notices. Permanent changes must be reported to the GM.",
+        "choices": [
+          { "label": "Commit the protected record change", "to": "permanent-civic-record-change", "testId": "alterStore", "unlockSuccesses": 2 },
+          { "label": "Evade the procedural trap", "to": "municipal-subsystem-hub", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "contractor-thread-cache",
+        "title": "Shell Contractor Thread",
+        "kind": "reward",
+        "description": "You find a thread of contractor names, permit timing, zoning exceptions, or inspection-window oddities worth following. Tell the GM you found a contractor/permit pattern and ask what details apply.",
+        "choices": [
+          { "label": "Return to permit archives", "to": "permit-records-confirmation" },
+          { "label": "Log off with contractor-thread notes", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "case-routing-thread",
+        "title": "Buried Case Routing Thread",
+        "kind": "reward",
+        "description": "You find a buried routing thread connecting departments, service tickets, or public-works exceptions. Tell the GM you found a civic routing clue and ask which names, addresses, or departments matter.",
+        "choices": [
+          { "label": "Return to private subsystem hub", "to": "municipal-subsystem-hub" },
+          { "label": "Log off with case-routing notes", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "paydata-permit-cache",
+        "title": "Paydata: Permit and Zoning Cache",
+        "kind": "paydata",
+        "description": "You recover useful permit, zoning, inspection, or licensing records. Tell the GM you recovered permit/zoning paydata for valuation or operational use.",
+        "choices": [
+          { "label": "Return to permit records", "to": "permit-records-confirmation" },
+          { "label": "Log off with permit paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "paydata-admin-cache",
+        "title": "Paydata: Admin / Payroll / Meeting Cache",
+        "kind": "paydata",
+        "description": "You recover employee, payroll, meeting, or interdepartment mail paydata. Tell the GM you recovered admin archive paydata; exact value and sensitivity are GM-facing.",
+        "choices": [
+          { "label": "Return to admin records", "to": "admin-records-confirmation" },
+          { "label": "Log off with admin paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "paydata-utility-routing",
+        "title": "Paydata: Utility / Public-Works Routing",
+        "kind": "paydata",
+        "description": "You recover utility routing, service interruption, or public-works schedule paydata. Tell the GM you recovered utility/public-works paydata and ask whether it has operational or resale value.",
+        "choices": [
+          { "label": "Return to utility routing", "to": "utility-routing-confirmation" },
+          { "label": "Log off with utility-routing paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "permanent-civic-record-change",
+        "title": "Permanent Outcome: Civic Record Change",
+        "kind": "permanent-outcome",
+        "description": "You edit or suppress a protected civic record. Notify the GM immediately: this is a permanent campaign-state change. Tell the GM what record category changed, what cover signature was used, and whether alarms or audit trails were suppressed.",
+        "choices": [
+          { "label": "Return to municipal subsystem hub", "to": "municipal-subsystem-hub" },
+          { "label": "Log off before the audit queue catches up", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Service Window Exit",
+        "kind": "exit",
+        "description": "The host stamps your departure as routine service-window traffic and the marble lobby fades back into the downtown grid.",
+        "choices": []
+      }
     ]
   }
 }
