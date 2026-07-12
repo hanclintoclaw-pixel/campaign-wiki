@@ -47,6 +47,8 @@ This makes weak attempts bounce off hard hosts cleanly while still letting a tab
 
 The tool tracks **Security Tally** as tested actions occur. Host profiles define a `securitySheaf`: threshold events such as Probe IC, Trace IC, Scramble IC, Tar Baby pressure, Sparky IC, or corporate escalation.
 
+The tool also displays alert state based on the Host's Shutdown limit: **Passive Alert** at roughly one-third of Shutdown, **Active Alert** at roughly two-thirds, and **Shutdown / dumpshock** when the limit is reached.
+
 When Tally crosses a sheaf threshold, normal navigation pauses and the player gets a **Security checkpoint**. The player can:
 
 - suppress / evade the IC;
@@ -54,7 +56,7 @@ When Tally crosses a sheaf threshold, normal navigation pauses and the player ge
 - ignore it and continue;
 - jack out.
 
-Ignored or failed checkpoints become **active pressure**. Active pressure increases future Tally risk until handled, giving the decker a little combat/IC-management loop without turning the whole app into a full cybercombat simulator.
+Ignored or failed checkpoints become **active pressure**. Active pressure increases future Tally risk until handled, giving the decker a little combat/IC-management loop without turning the whole app into a full cybercombat simulator. A failed jackout while trapped in a host ends the run with dumpshock and a GM-facing consequence prompt.
 
 ## Rewards and permanent outcomes
 

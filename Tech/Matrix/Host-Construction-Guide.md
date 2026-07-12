@@ -278,6 +278,8 @@ Do not reveal deep-layer node names on the left-side map until unlocked.
 
 Security sheaf entries should create escalating table pressure. They do not need to simulate every detail of SR3 host defense, but they should give the GM clear beats.
 
+Host profiles may define `shutdownTally`. If they do not, the tool infers one from Host Rating and the final sheaf threshold. The app presents **Passive Alert** at about one-third of Shutdown, **Active Alert** at about two-thirds, and ends the run with Shutdown/dumpshock if Tally reaches the limit.
+
 Useful sheaf beats:
 
 - credential probe
@@ -290,6 +292,7 @@ Useful sheaf beats:
 - local admin alerted
 - corporate security event
 - UV containment
+- host shutdown / dumpshock
 
 ## Anti-Patterns
 

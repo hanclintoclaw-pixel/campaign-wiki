@@ -92,9 +92,11 @@ The tool does not list every possible SR3 Matrix operation. If you want to do so
 
 ## Security Tally
 
-Tested actions can increase **Security Tally**. The Host status area shows the current Tally and the next sheaf event.
+Tested actions can increase **Security Tally**. The Host status area shows the current Tally, the inferred Shutdown limit, and the next sheaf event.
 
-When Tally crosses a threshold, the tool pauses normal navigation and shows a **Security checkpoint**.
+At roughly one-third of the way to Shutdown, the tool shows **Passive Alert** with a warning panel. At roughly two-thirds, it shows **Active Alert** with a red warning panel. If Tally reaches Shutdown, the run ends immediately with dumpshock.
+
+When Tally crosses a sheaf threshold, the tool pauses normal navigation and shows a **Security checkpoint**.
 
 ## Security checkpoints and IC
 
@@ -132,7 +134,7 @@ For Trace-style threats, ignoring may complete the trace and end the run.
 
 ### Jack Out
 
-You try to cut the run short. If successful, the run ends as **Emergency Jack Out**. This is safer than being trapped, but it is not the same as a graceful logoff.
+You try to cut the run short. If successful, the run ends as **Emergency Jack Out**. This is safer than being trapped, but it is not the same as a graceful logoff. If you fail a jackout roll while stuck in the host, the run ends with dumpshock and the GM should resolve consequences as close to SR3 RAW as the table wants.
 
 ## Hacking Pool allocations
 
@@ -196,6 +198,8 @@ A run can end by:
 - graceful logoff;
 - emergency jack out;
 - objective complete;
+- host shutdown / dumpshock;
+- failed jackout / dumpshock;
 - trace completed;
 - ICON crashed / deck damaged;
 - black IC harm;
