@@ -192,6 +192,22 @@ Scenario JSON can grant these from a node with an `advantages` array:
 ]
 ```
 
+### Hidden Reward Secrecy
+
+When a reward is meant to surprise the player, do not mention the reward in the visible choice label, the parent node description, or player-safe prose. Advertise the searchable space, not the prize.
+
+Good visible setup:
+
+- **Choice label:** "Search the cluttered Manager's Office"
+- **Parent description:** "The back office is cluttered with receipt tape, old calendars, and half-labeled binders."
+
+Bad visible setup:
+
+- **Choice label:** "Search the Manager's Office for the Bypass Key"
+- **Parent description:** "A key is hidden somewhere in the cluttered office."
+
+Put the actual reward reveal in the destination/reward node that appears only after the successful test, and keep explicit mechanics such as `targetNumberModifier` in the JSON and GM-only notes. This preserves table surprise while still making the successful roll concrete.
+
 Use straightforward values: usually `-1` TN, `+1` die, or `-1` required success. Larger rewards should be rare and tied to strong fiction. The app also has a GM / table modifiers panel for manually adding these effects during play when the crew earns a benefit outside the prepared Host profile.
 
 ## Subsystem Nodes

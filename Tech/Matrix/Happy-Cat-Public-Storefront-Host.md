@@ -35,8 +35,8 @@ The profile below mirrors the current seed profile used by the [Mevin Host Run S
   - Enter through public customer or storefront pathways: **4**
   - Browse retail catalog, event postings, snack inventory, or public chatter: **4**
   - Search customer loyalty records, teen hangout patterns, or local message boards: **5**
+  - Search the cluttered Manager's Office: **6**
   - Reach staff-only records, camera logs, transaction history, or back-office mail: **6**
-  - Find the cluttered Manager's Office **Bypass Key**: **6**
   - Alter store systems, camera feeds, order queues, or user records: **7**
   - Control attached physical devices or security-linked slave systems: **7**
   - Decode the hidden Pixel Sticks route board or deeper gang paydata: **9-10**
@@ -60,7 +60,7 @@ The profile below mirrors the current seed profile used by the [Mevin Host Run S
 - local bulletin-board chatter and ambient public-grid spillover from nearby teens
 - camera, point-of-sale, door, display, and stockroom device hooks behind modest barriers
 - possible traces of why the recent Matrix vandalism pattern appears to have spared or centered on Happy Cat
-- a cluttered Manager's Office with a **Bypass Key** that grants **-4 TN to future rolls in this Host run** if found
+- a cluttered Manager's Office that may reward careful searching without advertising what is hidden there
 - a buried shipping-record anomaly involving strange pet-food orders, with details to be supplied by the GM if discovered
 - if the hidden layer is breached, evidence that the Pixel Sticks are a serious Matrix gang taking paid sabotage contracts against critical city services
 

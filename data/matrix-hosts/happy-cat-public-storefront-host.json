@@ -113,8 +113,8 @@
         "kind": "private",
         "description": "You are inside the private side of the Happy Cat host. Store files, register hooks, camera pointers, and vendor records are available if you can keep the tally under control.",
         "choices": [
-          { "label": "Search the cluttered Manager's Office for a Bypass Key", "to": "managers-office-bypass-key", "testId": "findBypassKey", "unlockSuccesses": 1, "targetNumber": 6 },
           { "label": "Customer loyalty files", "to": "customer-files-confirmation", "testId": "searchCustomer" },
+          { "label": "Search the cluttered Manager's Office", "to": "managers-office-bypass-key", "testId": "findBypassKey", "unlockSuccesses": 1, "targetNumber": 6 },
           { "label": "Shipping and vendor records", "to": "shipping-records-confirmation", "testId": "staffRecords" },
           { "label": "Camera network", "to": "camera-network-confirmation", "testId": "controlSlave" },
           { "label": "Register and stock controls", "to": "register-stock-confirmation", "testId": "controlSlave" }
