@@ -77,6 +77,7 @@ When you select a tested action, the tool shows:
 - Computer skill;
 - total Hacking Pool;
 - effective free Hacking Pool automatically added to the roll;
+- active Run Advantages such as passcodes, keycards, found passwords, or GM modifiers;
 - any Hacking Pool reserved for Detection Factor;
 - any Hacking Pool tied up suppressing IC;
 - relevant persona / utility context;
@@ -100,6 +101,14 @@ Map colors help you avoid retreading old ground:
 The verb menu uses the same destination labels, so each choice tells you whether it leads toward a found location, a revealed-but-unvisited location, or a hidden zone.
 
 On mobile, the map is compact and horizontally scrollable so the full Host tree stays legible without becoming another long vertical list.
+
+## Run Advantages / GM modifiers
+
+The GM / table modifiers panel lets the table add trusted run-scoped advantages during play. Use it for things like a keycard found in the building, a passcode from an NPC, a stolen terminal deck, or a hidden password discovered inside the Host.
+
+An advantage can add bonus dice, modify the target number, or modify the number of successes required. Negative TN modifiers lower the TN; negative required-success modifiers reduce the success threshold. Leave **Applies to** blank for all tested rolls, or enter comma-separated test IDs such as `staffRecords`, `controlSlave`, or `threatCheckpoint`.
+
+Some Host nodes may also grant Run Advantages automatically when reached. The roll preview shows base values and active modifier totals so the table can see why a roll changed.
 
 ## Off-menu RAW actions
 

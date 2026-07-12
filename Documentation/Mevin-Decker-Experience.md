@@ -87,9 +87,10 @@ Each host profile is JSON with:
 - security sheaf thresholds and effects;
 - sculpting and notes;
 - a `flow` graph of nodes and choices;
-- optional per-choice overrides for harder hidden layers, such as higher target numbers or security values.
+- optional per-choice overrides for harder hidden layers, such as higher target numbers or security values;
+- optional node-granted `advantages` for targeted rewards such as passcodes, keycards, found passwords, or borrowed equipment.
 
-The app can also sync decker/deck data from the [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) when browser origin/localStorage conditions allow it, or load manual deck JSON.
+The app can also sync decker/deck data from the [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) when browser origin/localStorage conditions allow it, or load manual deck JSON. During play, the GM / table modifiers panel can add manual Run Advantages that grant bonus dice, lower target numbers, or reduce required successes for all rolls or named test IDs.
 
 ## Host map and location state
 

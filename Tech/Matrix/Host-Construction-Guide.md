@@ -167,6 +167,33 @@ Permanent outcomes require explicit GM notification. If a decker changes records
 
 Lockouts are not permanent campaign facts by default. A locked route means the route is closed for the current crawl attempt; after appropriate in-world time passes, the player may reset the tool and try again if the GM agrees the situation allows it.
 
+## Run Advantages and Access Rewards
+
+Use small, targeted Run Advantages when the decker earns concrete help from meatspace or from inside the Host. These are not a full inventory system; they are roll-facing keys, passcodes, tokens, passwords, or table rulings that modify specific tests.
+
+Good targeted rewards:
+
+- **Employee passcode:** `targetNumberModifier: -1`, applies to `staffRecords` or `logon`.
+- **Physical keycard / badge:** `targetNumberModifier: -1`, applies to `controlSlave` or door/security actions.
+- **Hidden Host password:** `targetNumberModifier: -1`, applies to the next protected subsystem or a named test ID.
+- **Borrowed onsite cyberdeck / admin terminal:** `diceBonus: 1` or `diceBonus: 2`, applies to the relevant Host operation.
+- **Correct file index phrase:** `requiredSuccessModifier: -1`, applies to `searchCustomer`, `staffRecords`, or `findUvSeam`.
+
+Scenario JSON can grant these from a node with an `advantages` array:
+
+```json
+"advantages": [
+  {
+    "name": "Found staff passcode",
+    "reason": "Password note hidden in the manager terminal",
+    "targetNumberModifier": -1,
+    "appliesTo": ["staffRecords", "logon"]
+  }
+]
+```
+
+Use straightforward values: usually `-1` TN, `+1` die, or `-1` required success. Larger rewards should be rare and tied to strong fiction. The app also has a GM / table modifiers panel for manually adding these effects during play when the crew earns a benefit outside the prepared Host profile.
+
 ## Subsystem Nodes
 
 Use subsystem nodes to represent broad Matrix capability zones. The classic SR3 host subsystems are useful as design anchors:
