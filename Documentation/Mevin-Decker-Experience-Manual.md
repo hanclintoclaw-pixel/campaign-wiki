@@ -75,8 +75,10 @@ When you select a tested action, the tool shows:
 - target number;
 - required successes;
 - Computer skill;
-- Hacking Pool available;
-- Hacking Pool committed to the current roll;
+- total Hacking Pool;
+- effective free Hacking Pool automatically added to the roll;
+- any Hacking Pool reserved for Detection Factor;
+- any Hacking Pool tied up suppressing IC;
 - relevant persona / utility context;
 - Host response check details.
 
@@ -114,13 +116,17 @@ The checkpoint tells you:
 - what consequence may matter at run end;
 - what each response option risks.
 
-The four choices are:
+The main choices are:
 
 ### Suppress / Evade
 
-The safer option. Usually needs 1 success. If it works, the checkpoint clears and you keep going.
+The safer roll-based option. Usually needs 1 success. If it works, the checkpoint clears and you keep going.
 
 If it fails, the IC may become active pressure or, for severe IC, force a run-ending consequence.
+
+### Suppress with Pool
+
+The resource option. You tie up 1 free Hacking Pool die to suppress the IC without rolling. Future rolls use a smaller effective Hacking Pool until the run resets or ends.
 
 ### Fight IC
 
@@ -135,6 +141,17 @@ For Trace-style threats, ignoring may complete the trace and end the run.
 ### Jack Out
 
 You try to cut the run short. If successful, the run ends as **Emergency Jack Out**. This is safer than being trapped, but it is not the same as a graceful logoff.
+
+## Hacking Pool allocations
+
+The app normally auto-adds free Hacking Pool to tested rolls. You do not need to calculate Computer + Hacking Pool every time.
+
+Two choices can reduce your free Hacking Pool for the current run:
+
+- **Pool reserved for DF:** every 2 reserved Hacking Pool dice increases effective Detection Factor by 1, up to +3.
+- **Suppress with Pool:** tying up 1 Hacking Pool die suppresses a checkpoint IC without a roll.
+
+The tool shows current pool allocations above the crawl when they exist.
 
 ## Active pressure
 
