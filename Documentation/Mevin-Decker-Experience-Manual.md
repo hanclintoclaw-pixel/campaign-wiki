@@ -2,7 +2,7 @@
 title: Mevin Decker Experience Player Manual
 type: documentation
 visibility: player-safe
-updated: 2026-07-11
+updated: 2026-07-12
 ---
 
 # Mevin Decker Experience Player Manual
@@ -109,7 +109,7 @@ The tool does not list every possible SR3 Matrix operation. If you want to do so
 
 Tested actions can increase **Security Tally**. The Host status area shows the current Tally, the inferred Shutdown limit, and the next sheaf event.
 
-At roughly one-third of the way to Shutdown, the tool shows **Passive Alert** with a warning panel. At roughly two-thirds, it shows **Active Alert** with a red warning panel. If Tally reaches Shutdown, the run ends immediately with dumpshock.
+At roughly one-third of the way to Shutdown, the Current Node card shifts to **Passive Alert** with an orange background and blinking alert light. At roughly two-thirds, it shifts to **Active Alert** with a red background and blinking alert light. If Tally reaches Shutdown, the run ends immediately with dumpshock.
 
 When Tally crosses a sheaf threshold, the tool pauses normal navigation and shows a **Security checkpoint**.
 
@@ -210,7 +210,7 @@ Keep playing until the tool reaches a final card that says:
 
 A run can end by:
 
-- graceful logoff;
+- graceful logoff, including a quiet-exit GM report when you leave from the front door;
 - emergency jack out;
 - objective complete;
 - host shutdown / dumpshock;

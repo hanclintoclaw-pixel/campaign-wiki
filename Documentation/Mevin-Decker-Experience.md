@@ -2,7 +2,7 @@
 title: Mevin Decker Experience Documentation
 type: documentation
 visibility: player-safe
-updated: 2026-07-11
+updated: 2026-07-12
 ---
 
 # Mevin Decker Experience Documentation
@@ -23,10 +23,11 @@ The design goal is not to replace SR3 Matrix rules. It is a table helper: a fast
 
 ## How the table experience works
 
-A host starts with up to two initial doors:
+A host starts with up to two initial entry doors plus a quiet-exit option:
 
 - **Public visitor door:** usually no roll. It shows harmless, official, on-theme public Matrix content.
 - **Secure / hidden decker door:** requires a roll. Failure can lock that route for the current crawl and reveal nothing else.
+- **Graceful Logoff:** exits from the front door quietly and records that quiet exit in the GM report.
 
 Once inside the private side, the decker sees featured actions: subsystem access, file archives, camera networks, shipping records, hidden seams, control hooks, or paydata opportunities. A successful action either opens a new node or grants a specific result the player can tell the GM or note for later.
 
@@ -47,7 +48,7 @@ This makes weak attempts bounce off hard hosts cleanly while still letting a tab
 
 The tool tracks **Security Tally** as tested actions occur. Host profiles define a `securitySheaf`: threshold events such as Probe IC, Trace IC, Scramble IC, Tar Baby pressure, Sparky IC, or corporate escalation.
 
-The tool also displays alert state based on the Host's Shutdown limit: **Passive Alert** at roughly one-third of Shutdown, **Active Alert** at roughly two-thirds, and **Shutdown / dumpshock** when the limit is reached.
+The tool also displays alert state based on the Host's Shutdown limit inside the Current Node card: **Passive Alert** at roughly one-third of Shutdown with an orange card, **Active Alert** at roughly two-thirds with a red card, and **Shutdown / dumpshock** when the limit is reached.
 
 When Tally crosses a sheaf threshold, normal navigation pauses and the player gets a **Security checkpoint**. The player can:
 

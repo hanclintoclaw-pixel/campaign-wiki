@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 canon_status: table-guidance
 confidence: high
-last_updated_session: 2026-07-11
+last_updated_session: 2026-07-12
 tags: [matrix, host, guide, decker-experience, sr3]
 sources:
   - GM/table-created host design guidance on 2026-07-11
@@ -21,12 +21,24 @@ The goal is to make each Host feel like a real Matrix system without forcing the
 
 ## Core Host Shape
 
-Each Host should present with **at most two initial doors**:
+Each Host should present with **at most two initial entry doors**, plus a front-door quiet-exit option:
 
 1. **Public Visitor Door**
 2. **Secure / Hidden Decker Door**
+3. **Graceful Logoff**
 
-A Host may have only one of these doors.
+A Host may have only one entry door, but the front door should still include **Graceful Logoff** so a decker can leave a fully stealthed run quietly.
+
+### Graceful Logoff
+
+The front-door node should include a **Graceful Logoff** option alongside the public and secure/decking entrances. This represents the decker ending the connection cleanly before forcing deeper intrusion, jackout, or hostile disconnect.
+
+Rules of thumb:
+
+- The option should be available from the initial front-door node.
+- It usually requires **no roll**.
+- The Decker Experience treats this as a quiet exit and includes that fact in the Discord-ready GM report.
+- It should not replace dangerous exits deeper in the Host; those still depend on the live topology, IC pressure, and GM adjudication.
 
 ### Public Visitor Door
 
@@ -272,13 +284,13 @@ Deep layers should usually require:
 - a story key
 - or GM permission
 
-Do not reveal deep-layer node names on the left-side map until unlocked.
+Do not reveal deep-layer node names on the Host map until unlocked.
 
 ## Security Sheaf Guidance
 
 Security sheaf entries should create escalating table pressure. They do not need to simulate every detail of SR3 host defense, but they should give the GM clear beats.
 
-Host profiles may define `shutdownTally`. If they do not, the tool infers one from Host Rating and the final sheaf threshold. The app presents **Passive Alert** at about one-third of Shutdown, **Active Alert** at about two-thirds, and ends the run with Shutdown/dumpshock if Tally reaches the limit.
+Host profiles may define `shutdownTally`. If they do not, the tool infers one from Host Rating and the final sheaf threshold. The app presents **Passive Alert** at about one-third of Shutdown and **Active Alert** at about two-thirds inside the Current Node card. Passive Alert turns that card orange; Active Alert turns it red. If Tally reaches the limit, the run ends with Shutdown/dumpshock.
 
 Useful sheaf beats:
 
@@ -298,7 +310,7 @@ Useful sheaf beats:
 
 Avoid these patterns:
 
-- more than two initial doors
+- more than two initial entry doors, excluding the required Graceful Logoff option
 - public doors that reveal private secrets
 - prewriting every RAW operation as a menu item
 - making every node a binary choice when the fiction wants a hub
@@ -363,9 +375,10 @@ Avoid these patterns:
 
 Before publishing a Host profile, confirm:
 
-- The first node has no more than two doors.
+- The first node has no more than two entry doors plus Graceful Logoff.
 - The public door, if present, has no roll and reveals only official surface content.
 - The secure door can be rolled against and can fail without revealing the Host.
+- Graceful Logoff is available at the front door as a quiet-exit option.
 - Private intrusion exposes relevant subsystems.
 - Every successful featured action either unlocks a new node or gives the decker a specific GM-facing/personal-note result.
 - Hubs with four core options include a fifth back-out/logoff option when needed to prevent dead ends.
@@ -373,5 +386,5 @@ Before publishing a Host profile, confirm:
 - Lockouts are scoped to the current crawl unless the GM says otherwise; reset after in-world time is allowed when appropriate.
 - Device/security verbs lead to GM-confirmation nodes unless exact scope is already canon.
 - Hidden/deep layers are gated behind discovery or stronger success thresholds.
-- The left-side map will not reveal locked or hidden topology early.
+- The Host map will not reveal locked or hidden topology early.
 - The profile supports the live scene instead of replacing GM adjudication.
