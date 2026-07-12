@@ -24,6 +24,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 ## Active apps
 
 - [Curtis Drone Dashboard](https://hanclintoclaw-pixel.github.io/drone-dashboard/) - SR3/Rigger 3-style drone and vehicle session tracker.
+- [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) - daily garage work-order minigame for Curtis drone, vehicle, salvage, and Taco-shop maintenance scenes.
 - [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) - SR3 cyberdeck, utility loadout, and host-run note tracker.
 - [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) - click-through SR3-inspired Matrix host intrusion aid using Deck Manager exports and editable host profiles.
 - [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) - branching cyber-dungeon crawl that syncs Deck Manager state and pulls wiki host profile JSON.
@@ -32,6 +33,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 
 - [Mevin Decker Experience Documentation](Documentation/Mevin-Decker-Experience.md)
 - [Mevin Decker Experience Player Manual](Documentation/Mevin-Decker-Experience-Manual.md)
+- [Curtis Drone Shift Documentation](Documentation/Curtis-Drone-Shift.md)
 - [Curtis Drone Shift Work Order Guidelines](Documentation/Curtis-Drone-Shift-Work-Order-Guidelines.md)
 
 ## Templates and implementation notes
