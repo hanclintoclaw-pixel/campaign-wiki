@@ -6,7 +6,7 @@ status: active
 canon_status: campaign-derived
 confidence: medium
 last_updated_session: 2026-07-11
-tags: [matrix, host, lafayette-tower, cross-applied-technology, cat, entertainment, ultraviolet, dangerous]
+tags: [matrix, host, lafayette-tower, cross-applied-technology, cat, entertainment, dangerous]
 sources:
   - ../../Locations/Lafayette-Tower.md
   - ../../Organizations/Cross-Applied-Technology.md
@@ -19,21 +19,21 @@ sources:
 
 The **Lafayette Tower CAT Entertainment Host** is the local Matrix host for **[Lafayette Tower](../../Locations/Lafayette-Tower.md)**, headquarters of **[Cross Applied Technology](../../Organizations/Cross-Applied-Technology.md)'s North American Entertainment Division**.
 
-This is not a convenience-store host, municipal filing maze, or ordinary media office. It is a deep megacorporate entertainment-R&D stack: public-facing brand layers, corporate administration, artist and licensing systems, behavioral analytics, production-control infrastructure, and hidden research environments. Beneath those layers sits the tower's most dangerous known feature: a deeply concealed and protected **basement Ultraviolet layer** used for entertainment prototyping and conceptual media design.
+This is not a convenience-store host, municipal filing maze, or ordinary media office. It is a deep megacorporate entertainment-R&D stack: public-facing brand layers, corporate administration, artist and licensing systems, behavioral analytics, production-control infrastructure, and hidden research environments.
 
 This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/lafayette-tower-cat-entertainment-host.json).
 
 ## Host Stats (SR3-style)
 
-- **Host Color / Security:** Red-9 outer/corporate stack, with a sealed **Ultraviolet** basement layer
+- **Host Color / Security:** Red-9 corporate entertainment stack
 - **Host Rating:** 10
 - **Access:** 9
 - **Control:** 10
 - **Index:** 8
 - **Files:** 10
 - **Slave:** 9
-- **Ultraviolet Layer:** treated as Rating 12+ for table-danger purposes; access should require story positioning, specialized tools, or exceptional rolls
-- **Typical IC mix:** Probe, Trace, Scramble, Tar Baby, Killer, Blaster, Scout, Sparky, Black IC-equivalent corporate lethality, sculpting-specific psychotropic pressure, and host-native security constructs in the UV layer
+- **Shutdown Tally:** 30
+- **Typical IC mix:** Probe, Trace, Scramble, Tar Baby, Killer, Blaster, Scout, Sparky, and black-IC-equivalent corporate lethality
 - **Routine decker task TNs:**
   - Enter the public/corporate shell without a legitimate high-grade credential chain: **9**
   - Browse public entertainment-division material or sanitized directories: **8**
@@ -41,8 +41,6 @@ This Host has a [machine-readable Decker Experience profile](../../data/matrix-h
   - Reach restricted R&D, behavioral-modeling, or prototype-media records: **12**
   - Alter contracts, release controls, talent models, or research data: **12**
   - Seize production, studio, security, or building-linked slave subsystems: **12**
-  - Detect the hidden Ultraviolet seam from inside the host: **13**
-  - Breach the Ultraviolet vestibule without authorized support: **14**
   - Fight serious IC or force progress under active alert: **12**
   - Evade a full CAT trace once the host has noticed the intrusion: **10**
 
@@ -58,8 +56,9 @@ Use the sheaf as a pacing tool. This host should feel like a corporate fortress 
 | 11 | Handler Tar Baby | Friendly producer/handler icons try to trap the decker in approval loops, focus tests, and contract conversations. |
 | 14 | Killer / Blaster Response | Hard security icons engage; dump shock or deck damage becomes plausible if the GM wants teeth. |
 | 18 | Building Security Crosslink | Physical Lafayette Tower security receives correlated alerts. Cameras, elevators, doors, and lobby staff may respond. |
-| 22 | Ultraviolet Containment Protocol | The host seals routes, isolates the intrusion, and brings UV-native constructs or psychotropic pressure to bear. |
+| 22 | Deep Containment Protocol | The host seals routes, isolates the intrusion, and brings specialized containment pressure to bear. |
 | 26 | CAT Executive Security Event | This is no longer a local host problem; CAT treats the intrusion as a strategic compromise. |
+| 30 | Host Shutdown / Dumpshock | The run ends; the decker is forcibly dumped from the host. |
 
 ## Host Topography
 
@@ -113,7 +112,7 @@ Deckers can affect:
 
 ### 5. R&D Prototype Stack
 
-The restricted R&D level is the conceptual bridge between mundane corporate entertainment and the hidden Ultraviolet basement. It appears as half studio, half laboratory: unfinished sets, animatics, sensory rigs, dream boards, prototype simsense rooms, and locked creative war rooms. Everything here is valuable, and everything here is watched.
+The restricted R&D level is the conceptual bridge between mundane corporate entertainment and the host's deepest concealed research architecture. It appears as half studio, half laboratory: unfinished sets, animatics, sensory rigs, dream boards, prototype simsense rooms, and locked creative war rooms. Everything here is valuable, and everything here is watched.
 
 Deckers can find:
 
@@ -123,9 +122,14 @@ Deckers can find:
 - technical memos on controlled ideation environments
 - project names that may point toward the campaign's influence-engine themes
 
-### 6. Hidden Ultraviolet Basement Layer
+<details>
+<summary>GM Information only — concealed basement layer</summary>
+
+### Hidden Ultraviolet Basement Layer
 
 The UV layer is not advertised by normal topology. It should not appear on a first glance or casual browse. It is concealed behind metaphor, misdirection, and access requirements that are as much conceptual as technical.
+
+For table-danger purposes, treat this layer as Rating 12+ and require story positioning, specialized tools, or exceptional rolls before it becomes reachable.
 
 When perceived from outside, it may look like one of the following:
 
@@ -137,7 +141,7 @@ When perceived from outside, it may look like one of the following:
 
 Inside the UV layer, normal Matrix metaphors become unreliable. CAT uses it as a conceptual forge for new entertainment forms: test audiences, dream-logic sets, emotionally reactive media constructs, prototype personalities, and sensory environments that can answer back.
 
-## Ultraviolet Layer Handling
+### Ultraviolet Layer Handling
 
 For table use, the UV layer should be treated as a **boss arena**, not merely another node.
 
@@ -150,6 +154,16 @@ Recommended GM handling:
 - Rewards should be major: project codenames, prototype influence-tech evidence, entertainment weaponization leads, executive culpability, or proof of hidden CAT capabilities.
 - Costs should also be major: trace exposure, psychological pressure, damaged utilities, burned credentials, or the host learning something about the decker.
 
+Machine profile hidden route summary:
+
+1. Enter the private entertainment-division stack.
+2. Access analytics, R&D routing, legal/project routing, or service-control systems.
+3. Find the black-stage / missing-floor seam through hard checks.
+4. Breach the UV vestibule through an even harder check.
+5. Resolve UV-native creative-director / living-stage-set challenges before claiming campaign-grade proof.
+
+</details>
+
 ## What Deckers Find Inside
 
 - artist, vendor, licensing, and brand-partner records
@@ -158,7 +172,7 @@ Recommended GM handling:
 - prototype simsense, immersive media, and interactive entertainment concepts
 - internal project routing between creative, technical, legal, and security teams
 - building and studio control hooks
-- hidden references to the basement UV host and its access rituals
+- hidden references to deeper restricted environments and their access rituals
 - possible connections to broader Nashville media-manipulation or influence-engine threads
 
 ## Host Feel
@@ -166,8 +180,6 @@ Recommended GM handling:
 The host is glamorous, vertical, and predatory. It flatters intruders with the language of creativity, then quietly measures them as audience, talent, threat, and raw material.
 
 The surface is bright glass and studio polish. The middle layers are corporate theater: every meeting room is a stage, every file vault is a private screening room, every hallway is a controlled camera angle. The deeper layers stop pretending to be normal. The host starts composing with the decker's attention.
-
-The Ultraviolet basement should feel less like breaking into a computer and more like stepping onto a stage where reality, pitch meeting, dream sequence, and psychological test are all the same thing.
 
 ## Iconography
 
@@ -177,20 +189,19 @@ The Ultraviolet basement should feel less like breaking into a computer and more
 - R&D files appear as **unfinished sets, white rooms, storyboards, prototype simsense rigs, and locked creative war rooms**
 - production and slave systems appear as **lighting boards, rigging catwalks, stage machinery, security-camera spotlights, and elevator shafts**
 - IC manifests as **handlers, producers, security directors, faceless talent scouts, stagehands, lawyers, and spotlight predators**
-- UV constructs may manifest as **living stage sets, impossible audiences, archetypal performers, recursive music-video scenes, or creative directors who rewrite the room while speaking**
 
 ## Decker Use
 
 Useful for runs involving CAT, Lafayette Tower, entertainment-industry manipulation, talent exploitation, licensing leverage, media blackmail, immersive prototype theft, building infiltration, or campaign-level influence-engine evidence.
 
-This is a dangerous target. A mid-grade decker can bounce off the first layer and learn almost nothing. A strong decker can make progress through the corporate stack. Reaching the UV layer should require preparation, luck, or story permission.
+This is a dangerous target. A mid-grade decker can bounce off the first layer and learn almost nothing. A strong decker can make progress through the corporate stack. The deepest layers should require preparation, luck, or story permission.
 
 ## Open Questions
 
-- What project names are hidden in the UV layer?
+- What project names are hidden in the deepest restricted layers?
 - Did CAT's entertainment experiments intersect with Cindy Lou, Darla, SC Music, or the wider influence-engine pattern?
-- Who has legitimate access to the UV environment?
-- Is the UV layer purely a tool, or has something inside it become persistent enough to have motives?
+- Who has legitimate access to the deepest research environment?
+- Is the hidden environment purely a tool, or has something inside it become persistent enough to have motives?
 - What physical basement infrastructure supports the host?
 - Does Lafayette Tower's arcology-like verticality hide other non-public infrastructure?
 

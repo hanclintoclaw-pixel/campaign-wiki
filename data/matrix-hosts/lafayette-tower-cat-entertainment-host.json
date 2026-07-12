@@ -7,6 +7,7 @@
   "securityCode": "red",
   "securityValue": 9,
   "hostRating": 10,
+  "shutdownTally": 30,
   "subsystem": {
     "access": 9,
     "control": 10,
@@ -28,17 +29,17 @@
     "breachUv": 14
   },
   "securitySheaf": [
-    { "threshold": 2, "label": "Credential Probe", "effect": "Badge, route, and activity-profile verification begins." },
-    { "threshold": 5, "label": "Trace Lattice", "effect": "CAT correlation systems start linking deck signature, route, and possible physical location." },
-    { "threshold": 8, "label": "Scramble / Rights Collapse", "effect": "Directories, schedules, and media assets remix; decoy routes multiply." },
-    { "threshold": 11, "label": "Handler Tar Baby", "effect": "Producer and handler icons try to trap the decker in approval loops and focus tests." },
-    { "threshold": 14, "label": "Killer / Blaster Response", "effect": "Hard security icons engage with dangerous force." },
-    { "threshold": 18, "label": "Building Security Crosslink", "effect": "Physical Lafayette Tower security receives correlated alerts." },
-    { "threshold": 22, "label": "Ultraviolet Containment Protocol", "effect": "The host seals routes and brings UV-native constructs or psychotropic pressure to bear." },
-    { "threshold": 26, "label": "CAT Executive Security Event", "effect": "CAT treats the intrusion as a strategic compromise, not a local alert." }
+    { "threshold": 2, "label": "Credential Probe", "effect": "Badge, route, and activity-profile verification begins.", "encounter": { "type": "probe", "rating": 9 } },
+    { "threshold": 5, "label": "Trace Lattice", "effect": "CAT correlation systems start linking deck signature, route, and possible physical location.", "encounter": { "type": "trace", "rating": 9 } },
+    { "threshold": 8, "label": "Scramble / Rights Collapse", "effect": "Directories, schedules, and media assets remix; decoy routes multiply.", "encounter": { "type": "scramble", "rating": 10 } },
+    { "threshold": 11, "label": "Handler Tar Baby", "effect": "Producer and handler icons try to trap the decker in approval loops and focus tests.", "encounter": { "type": "tarBaby", "rating": 10 } },
+    { "threshold": 14, "label": "Killer / Blaster Response", "effect": "Hard security icons engage with dangerous force.", "encounter": { "type": "blaster", "rating": 11 } },
+    { "threshold": 18, "label": "Building Security Crosslink", "effect": "Physical Lafayette Tower security receives correlated alerts.", "encounter": { "type": "trace", "rating": 11, "consequence": "Building Security Crosslink: physical Lafayette Tower security may receive camera, elevator, door, or lobby-staff alerts. Notify the GM if this remains unresolved." } },
+    { "threshold": 22, "label": "Ultraviolet Containment Protocol", "effect": "The host seals routes and brings UV-native constructs or psychotropic pressure to bear.", "encounter": { "type": "psychotropic", "rating": 12, "terminalOnFail": true } },
+    { "threshold": 26, "label": "CAT Executive Security Event", "effect": "CAT treats the intrusion as a strategic compromise, not a local alert.", "encounter": { "type": "black", "rating": 12, "terminalOnFail": true } }
   ],
   "sculpting": "A vertical entertainment-corporate arcology: glass atriums, marquees, executive elevators, gold-record rooms, focus-test theaters, prototype simsense rigs, rigging catwalks, and a hidden black-stage Ultraviolet basement.",
-  "notes": "Local Cross Applied Technology entertainment-division host at Lafayette Tower. Extremely dangerous. The Ultraviolet layer should reveal only after deep-host success or story permission.",
+  "notes": "Local Cross Applied Technology entertainment-division host at Lafayette Tower. Extremely dangerous. Public side is visitor-safe corporate theater; secure side exposes subsystems and hidden R&D. The Ultraviolet layer is hidden inside the same profile and should reveal only after deep-host success or story permission.",
   "flow": {
     "startNodeId": "division-grid-approach",
     "nodes": [
@@ -46,128 +47,233 @@
         "id": "division-grid-approach",
         "title": "Music Circle Grid Approach",
         "kind": "entry",
-        "description": "Lafayette Tower rises from the Music Circle grid like a sealed vertical studio campus. The public face is beautiful; the access surface is not public at all.",
+        "description": "Lafayette Tower rises from the Music Circle grid like a sealed vertical studio campus. The public face is beautiful; the private access surface is corporate-grade and hostile.",
         "choices": [
-          { "label": "Enter through a high-grade entertainment-division credential chain", "to": "glass-atrium-shell", "testId": "logon", "unlockSuccesses": 2 },
-          { "label": "Read the tower's public media and vendor traffic from outside", "to": "visitor-demo-cloud", "testId": "browsePublic", "unlockSuccesses": 2 }
+          { "label": "Use the public visitor atrium", "to": "public-atrium" },
+          { "label": "Breach the secure entertainment-division gate", "to": "secure-credential-gate", "testId": "logon", "unlockSuccesses": 3 }
         ]
       },
       {
-        "id": "visitor-demo-cloud",
-        "title": "Visitor Demo Cloud",
+        "id": "public-atrium",
+        "title": "Public Glass Atrium",
         "kind": "public",
-        "description": "Sanitized demo reels, visitor kiosks, vendor packets, and public-facing division language orbit the tower like carefully lit advertisements.",
+        "description": "The public host surface is all glass, music, visitor kiosks, corporate sizzle reels, sanitized division language, and polished hospitality avatars. It is impressive, but it is not where the secrets live.",
         "choices": [
-          { "label": "Find a real route from public traffic into the corporate shell", "to": "glass-atrium-shell", "testId": "logon", "unlockSuccesses": 2 },
-          { "label": "Search public material for hidden project-routing seams", "to": "project-routing-constellation", "testId": "searchCustomer", "unlockSuccesses": 2 }
+          { "label": "Browse public demo reels", "to": "public-demo-reels" },
+          { "label": "Check visitor and vendor intake kiosks", "to": "public-visitor-kiosks" },
+          { "label": "Watch sanitized talent-development pitch material", "to": "public-talent-pitch" },
+          { "label": "Return to the Music Circle grid", "to": "division-grid-approach" }
         ]
       },
       {
-        "id": "glass-atrium-shell",
-        "title": "Glass Atrium Corporate Shell",
+        "id": "public-demo-reels",
+        "title": "Public Demo Reels",
         "kind": "public",
-        "description": "A bright corporate atrium stacks lobby surfaces, marquees, executive elevator banks, security spotlights, and visitor-management avatars into a single controlled view.",
+        "description": "Official CAT demo reels show immersive concerts, brand-safe simsense previews, and audience engagement metrics stripped of anything actionable. Tell the GM only if you need public-facing cover language.",
         "choices": [
-          { "label": "Map corporate administration and licensing corridors", "to": "licensing-elevator-bank", "testId": "searchCustomer", "unlockSuccesses": 2 },
-          { "label": "Find talent analytics behind the public studio polish", "to": "focus-test-theater", "testId": "searchCustomer", "unlockSuccesses": 2 },
-          { "label": "Probe building and production slave systems", "to": "rigging-control-catwalk", "testId": "controlSlave", "unlockSuccesses": 3 }
+          { "label": "Return to the public atrium", "to": "public-atrium" }
         ]
       },
       {
-        "id": "licensing-elevator-bank",
-        "title": "Licensing Elevator Bank",
-        "kind": "records",
-        "description": "Executive elevators rise through gold-record conference rooms, contract vaults, royalty engines, partner offices, and private listening rooms.",
+        "id": "public-visitor-kiosks",
+        "title": "Visitor and Vendor Kiosks",
+        "kind": "public",
+        "description": "Vendor intake forms, visitor badges, and polished contact surfaces route legitimate traffic toward human approval. Nothing here gives private access by itself.",
         "choices": [
-          { "label": "Open artist, vendor, and brand-partner contracts", "to": "contract-vault-suite", "testId": "staffRecords", "unlockSuccesses": 2 },
-          { "label": "Follow executive routing toward R&D", "to": "prototype-war-room", "testId": "staffRecords", "unlockSuccesses": 3 },
-          { "label": "Return to the glass atrium", "to": "glass-atrium-shell", "testId": "evadeTrace", "unlockSuccesses": 1 }
+          { "label": "Return to the public atrium", "to": "public-atrium" }
         ]
       },
       {
-        "id": "contract-vault-suite",
-        "title": "Contract Vault Suite",
-        "kind": "restricted",
-        "description": "Private listening rooms and sealed contract vaults hold licensing leverage, talent obligations, legal-risk notes, and partner-control agreements.",
+        "id": "public-talent-pitch",
+        "title": "Sanitized Talent Pitch Theater",
+        "kind": "public",
+        "description": "A public pitch theater explains how CAT helps artists become brands, brands become experiences, and experiences become lifestyle ecosystems. It is blandly sinister but officially harmless.",
         "choices": [
-          { "label": "Copy contract leverage and partner-control records", "to": "exfiltration-edit-bay", "testId": "staffRecords", "unlockSuccesses": 2 },
-          { "label": "Alter a contract, release control, or routing flag", "to": "rights-collapse-console", "testId": "alterStore", "unlockSuccesses": 3 },
-          { "label": "Look for R&D project names in legal routing", "to": "project-routing-constellation", "testId": "searchCustomer", "unlockSuccesses": 2 }
+          { "label": "Return to the public atrium", "to": "public-atrium" }
         ]
       },
       {
-        "id": "focus-test-theater",
-        "title": "Focus-Test Theater",
-        "kind": "analytics",
-        "description": "Mirrored observation booths, heat-map audiences, reaction-score constellations, and model stages watch the decker as much as the decker watches them.",
+        "id": "secure-credential-gate",
+        "title": "Secure Credential Gate",
+        "kind": "secure-entry",
+        "description": "A brushed-steel credential gate checks media, legal, production, security, and executive authorization chains. Failure here should reveal almost nothing about the private topology.",
         "choices": [
-          { "label": "Extract audience influence and behavioral-response models", "to": "exfiltration-edit-bay", "testId": "searchCustomer", "unlockSuccesses": 2 },
-          { "label": "Trace hidden prototype links behind the mirror", "to": "prototype-war-room", "testId": "staffRecords", "unlockSuccesses": 3 },
-          { "label": "Search for the impossible basement seam", "to": "black-stage-door", "testId": "findUvSeam", "unlockSuccesses": 3 }
+          { "label": "Open the private entertainment-division hub", "to": "private-division-hub", "testId": "logon", "unlockSuccesses": 2 },
+          { "label": "Back out to the Music Circle grid", "to": "division-grid-approach", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "private-division-hub",
+        "title": "Private Entertainment-Division Hub",
+        "kind": "private",
+        "description": "You are inside the private stack. Executive elevators, contract vaults, analytics theaters, production controls, and R&D routing all branch from here under tight CAT scrutiny.",
+        "choices": [
+          { "label": "Corporate licensing and contracts", "to": "licensing-records-confirmation", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Talent analytics and behavioral models", "to": "analytics-confirmation", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Production and building-slave systems", "to": "production-control-confirmation", "testId": "controlSlave", "unlockSuccesses": 3 },
+          { "label": "Restricted prototype R&D routing", "to": "prototype-routing-confirmation", "testId": "staffRecords", "unlockSuccesses": 3 },
+          { "label": "Back out through the secure credential gate", "to": "secure-credential-gate", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "licensing-records-confirmation",
+        "title": "Licensing and Contract Records",
+        "kind": "confirmation",
+        "description": "You appear to have access to artist, vendor, licensing, royalty, and brand-partner records. Tell the GM you have contract/licensing access; ask what names, dates, partners, or rights categories can be searched.",
+        "choices": [
+          { "label": "Copy contract-leverage paydata", "to": "paydata-contract-leverage", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Search legal routing for R&D project names", "to": "project-routing-constellation", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Attempt a contract or release-control alteration", "to": "rights-collapse-console", "testId": "alterStore", "unlockSuccesses": 3 },
+          { "label": "Return to private hub", "to": "private-division-hub" }
+        ]
+      },
+      {
+        "id": "analytics-confirmation",
+        "title": "Talent Analytics and Behavioral Models",
+        "kind": "confirmation",
+        "description": "You appear to have access to audience segmentation, talent viability models, image-manipulation profiles, and behavioral response testing. Tell the GM you have analytics access; ask what segments, artists, campaigns, or test windows can be searched.",
+        "choices": [
+          { "label": "Copy audience influence-model paydata", "to": "paydata-influence-models", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Trace prototype links behind the focus-test mirrors", "to": "prototype-routing-confirmation", "testId": "staffRecords", "unlockSuccesses": 3 },
+          { "label": "Search for a hidden basement metaphor", "to": "black-stage-door", "testId": "findUvSeam", "unlockSuccesses": 3, "targetNumber": 13, "securityValue": 11 },
+          { "label": "Return to private hub", "to": "private-division-hub" }
+        ]
+      },
+      {
+        "id": "production-control-confirmation",
+        "title": "Production and Building-Slave Systems",
+        "kind": "confirmation",
+        "description": "You appear to have access to studio routing, rehearsal-space controls, cameras, elevators, doors, badge readers, environmental systems, and command catwalks. Tell the GM you have production/building control access; confirm exact physical scope before assuming control.",
+        "choices": [
+          { "label": "Copy production-system linkage paydata", "to": "paydata-production-linkage", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Check camera and elevator scopes", "to": "building-scope-note", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Use a service-control route toward R&D", "to": "prototype-routing-confirmation", "testId": "controlSlave", "unlockSuccesses": 3 },
+          { "label": "Return to private hub", "to": "private-division-hub" }
+        ]
+      },
+      {
+        "id": "prototype-routing-confirmation",
+        "title": "Restricted Prototype R&D Routing",
+        "kind": "confirmation",
+        "description": "You appear to have access to restricted R&D routing: unfinished sets, simsense prototypes, sensory rigs, project names, and internal approvals. Tell the GM you have prototype-routing access; ask what project categories and codenames are visible.",
+        "choices": [
+          { "label": "Copy prototype entertainment R&D paydata", "to": "paydata-prototype-rd", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Extract project names from routing metadata", "to": "project-routing-constellation", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Locate the hidden basement UV seam", "to": "black-stage-door", "testId": "findUvSeam", "unlockSuccesses": 3, "targetNumber": 13, "securityValue": 11 },
+          { "label": "Force progress through serious corporate IC", "to": "black-stage-door", "testId": "fightIc", "unlockSuccesses": 3, "targetNumber": 12, "securityValue": 11 },
+          { "label": "Return to private hub", "to": "private-division-hub" }
         ]
       },
       {
         "id": "project-routing-constellation",
         "title": "Project Routing Constellation",
         "kind": "clue",
-        "description": "Project names, routing signatures, creative departments, legal gates, and security exceptions glimmer in a constellation that refuses to show its lowest floor.",
+        "description": "Project names, legal gates, routing exceptions, creative departments, and security notes glimmer in a constellation that refuses to admit it has a lowest floor. Make a note: CAT project routing is visible here; ask the GM which codenames can be read.",
         "choices": [
-          { "label": "Pull useful project names and routing metadata", "to": "exfiltration-edit-bay", "testId": "searchCustomer", "unlockSuccesses": 2 },
-          { "label": "Follow restricted routing into prototype R&D", "to": "prototype-war-room", "testId": "staffRecords", "unlockSuccesses": 3 },
-          { "label": "Search for the hidden UV access metaphor", "to": "black-stage-door", "testId": "findUvSeam", "unlockSuccesses": 3 }
-        ]
-      },
-      {
-        "id": "rigging-control-catwalk",
-        "title": "Rigging Control Catwalk",
-        "kind": "devices",
-        "description": "Lighting boards, elevator shafts, security-camera spotlights, production systems, and building-service hooks hang over the atrium like stage machinery.",
-        "choices": [
-          { "label": "Seize a short-lived camera/elevator/studio control hook", "to": "exfiltration-edit-bay", "testId": "controlSlave", "unlockSuccesses": 3 },
-          { "label": "Use the service catwalk to approach R&D", "to": "prototype-war-room", "testId": "controlSlave", "unlockSuccesses": 3 },
-          { "label": "Evade the physical-security crosslink", "to": "glass-atrium-shell", "testId": "evadeTrace", "unlockSuccesses": 2 }
-        ]
-      },
-      {
-        "id": "prototype-war-room",
-        "title": "Prototype War Room",
-        "kind": "restricted",
-        "description": "Unfinished sets, animatics, sensory rigs, dream boards, and simsense prototype rooms sit under quiet CAT security attention.",
-        "choices": [
-          { "label": "Extract prototype entertainment and simsense R&D", "to": "exfiltration-edit-bay", "testId": "staffRecords", "unlockSuccesses": 2 },
-          { "label": "Locate the basement UV seam through prototype metadata", "to": "black-stage-door", "testId": "findUvSeam", "unlockSuccesses": 3 },
-          { "label": "Force progress through serious corporate IC", "to": "black-stage-door", "testId": "fightIc", "unlockSuccesses": 3 }
+          { "label": "Package project-routing notes", "to": "exfiltration-edit-bay", "testId": "searchCustomer", "unlockSuccesses": 2 },
+          { "label": "Follow the missing lowest-floor route", "to": "black-stage-door", "testId": "findUvSeam", "unlockSuccesses": 3, "targetNumber": 13, "securityValue": 11 },
+          { "label": "Return to prototype routing", "to": "prototype-routing-confirmation" }
         ]
       },
       {
         "id": "rights-collapse-console",
         "title": "Rights Collapse Console",
         "kind": "danger",
-        "description": "The console can alter contracts, release controls, talent models, or research routing, but every edit threatens to collapse permissions into an alert state.",
+        "description": "A protected console can alter contracts, release controls, talent models, or research routing. Any edit threatens to collapse permissions into alert state. Permanent changes must be reported to the GM.",
         "choices": [
-          { "label": "Commit a high-value alteration and package proof", "to": "exfiltration-edit-bay", "testId": "alterStore", "unlockSuccesses": 3 },
-          { "label": "Break out of handler loops before they pin you", "to": "licensing-elevator-bank", "testId": "evadeTrace", "unlockSuccesses": 2 }
+          { "label": "Commit a high-value alteration and package proof", "to": "permanent-rights-alteration", "testId": "alterStore", "unlockSuccesses": 3 },
+          { "label": "Back out before handler loops pin you", "to": "licensing-records-confirmation", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "building-scope-note",
+        "title": "Building System Scope Note",
+        "kind": "gm-reward",
+        "description": "You identify likely camera, elevator, badge, or studio-control linkages. Tell the GM you found building-system access pointers; confirm which physical systems Lafayette Tower actually exposes through this host.",
+        "choices": [
+          { "label": "Return to production controls", "to": "production-control-confirmation" },
+          { "label": "Log off with the building-scope note", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "paydata-contract-leverage",
+        "title": "Paydata: Contract Leverage",
+        "kind": "paydata",
+        "description": "You recover contract, royalty, or brand-partner leverage. Tell the GM you recovered Lafayette contract paydata; exact targets, value, and consequences need GM handling.",
+        "choices": [
+          { "label": "Return to licensing records", "to": "licensing-records-confirmation" },
+          { "label": "Log off with the contract paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "paydata-influence-models",
+        "title": "Paydata: Influence Models",
+        "kind": "paydata",
+        "description": "You recover audience segmentation, talent-shaping, or behavioral-response model data. Tell the GM you recovered influence-model paydata and ask how explosive it is.",
+        "choices": [
+          { "label": "Return to analytics", "to": "analytics-confirmation" },
+          { "label": "Log off with the influence-model paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "paydata-production-linkage",
+        "title": "Paydata: Production-System Linkage",
+        "kind": "paydata",
+        "description": "You recover proof of studio, demo, camera, elevator, or building-control linkages. Tell the GM you recovered production-system linkage paydata for valuation and operational follow-up.",
+        "choices": [
+          { "label": "Return to production controls", "to": "production-control-confirmation" },
+          { "label": "Log off with production-linkage paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "paydata-prototype-rd",
+        "title": "Paydata: Prototype Entertainment R&D",
+        "kind": "paydata",
+        "description": "You recover prototype entertainment, simsense, and immersive-media R&D records. Tell the GM you recovered prototype R&D paydata; exact project names and value are GM-facing.",
+        "choices": [
+          { "label": "Return to prototype routing", "to": "prototype-routing-confirmation" },
+          { "label": "Log off with prototype R&D paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "permanent-rights-alteration",
+        "title": "Permanent Outcome: Rights / Release Alteration",
+        "kind": "permanent-outcome",
+        "description": "You alter a protected rights, release, routing, or talent-model record. Notify the GM immediately: this is a permanent campaign-state change. Tell the GM what category was changed and what cover signature or false approval was used.",
+        "choices": [
+          { "label": "Return to licensing records", "to": "licensing-records-confirmation" },
+          { "label": "Log off before the rights collapse tightens", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 2 }
+        ]
+      },
+      {
+        "id": "exfiltration-edit-bay",
+        "title": "Exfiltration Edit Bay",
+        "kind": "reward",
+        "description": "You have material the crew can use: contracts, project names, behavioral models, prototype notes, building hooks, or proof that the tower is deeper than it admits. Tell the GM which categories you actually recovered.",
+        "choices": [
+          { "label": "Log off through a clean edit bay render", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 2 },
+          { "label": "Risk the deeper R&D route", "to": "prototype-routing-confirmation", "testId": "staffRecords", "unlockSuccesses": 3 }
         ]
       },
       {
         "id": "black-stage-door",
         "title": "Black Stage Door Below the Floor Count",
         "kind": "uv-seam",
-        "description": "A door appears where the topology says no door can be: black stage paint, cold brass handle, no label, and an elevator tone from somewhere beneath the basement.",
+        "description": "A door appears where the topology says no door can be: black stage paint, cold brass handle, no label, and an elevator tone from somewhere beneath the basement. This is not ordinary host architecture.",
         "choices": [
-          { "label": "Breach the Ultraviolet vestibule", "to": "uv-white-room", "testId": "breachUv", "unlockSuccesses": 4 },
-          { "label": "Mark the seam and retreat before containment notices", "to": "exfiltration-edit-bay", "testId": "evadeTrace", "unlockSuccesses": 2 }
+          { "label": "Breach the Ultraviolet vestibule", "to": "uv-white-room", "testId": "breachUv", "unlockSuccesses": 4, "targetNumber": 14, "securityValue": 12 },
+          { "label": "Mark the seam and retreat before containment notices", "to": "exfiltration-edit-bay", "testId": "evadeTrace", "unlockSuccesses": 2, "targetNumber": 11, "securityValue": 11 }
         ]
       },
       {
         "id": "uv-white-room",
         "title": "Ultraviolet White Room",
         "kind": "ultraviolet",
-        "description": "The Matrix stops acting like menus. A blank test room breathes, then becomes a stage, an audience, a pitch meeting, and a memory of a song you have not heard yet.",
+        "description": "The Matrix stops acting like menus. A blank test room breathes, then becomes a stage, an audience, a pitch meeting, and a memory of a song you have not heard yet. Tell the GM you reached the Lafayette UV layer.",
         "choices": [
-          { "label": "Survive the host-native creative director construct", "to": "living-stage-set", "testId": "fightIc", "unlockSuccesses": 3 },
-          { "label": "Read the room as an entertainment prototype instead of a file tree", "to": "living-stage-set", "testId": "searchCustomer", "unlockSuccesses": 3 },
-          { "label": "Retreat through the black stage door", "to": "black-stage-door", "testId": "evadeTrace", "unlockSuccesses": 2 }
+          { "label": "Survive the host-native creative director construct", "to": "living-stage-set", "testId": "fightIc", "unlockSuccesses": 3, "targetNumber": 12, "securityValue": 12 },
+          { "label": "Read the room as an entertainment prototype instead of a file tree", "to": "living-stage-set", "testId": "searchCustomer", "unlockSuccesses": 3, "targetNumber": 12, "securityValue": 12 },
+          { "label": "Retreat through the black stage door", "to": "black-stage-door", "testId": "evadeTrace", "unlockSuccesses": 2, "targetNumber": 11, "securityValue": 12 }
         ]
       },
       {
@@ -176,29 +282,19 @@
         "kind": "ultraviolet-core",
         "description": "Sets rewrite themselves in response to attention. Prototype personalities, impossible audiences, and recursive media scenes test how influence becomes entertainment.",
         "choices": [
-          { "label": "Extract UV project codenames and influence-tech evidence", "to": "uv-project-core", "testId": "staffRecords", "unlockSuccesses": 3 },
-          { "label": "Hijack a symbolic production control in the UV layer", "to": "uv-project-core", "testId": "controlSlave", "unlockSuccesses": 3 },
-          { "label": "Escape before the host learns too much about you", "to": "black-stage-door", "testId": "evadeTrace", "unlockSuccesses": 2 }
+          { "label": "Extract UV project codenames and influence-tech evidence", "to": "uv-project-core", "testId": "staffRecords", "unlockSuccesses": 3, "targetNumber": 12, "securityValue": 12 },
+          { "label": "Hijack a symbolic production control in the UV layer", "to": "uv-project-core", "testId": "controlSlave", "unlockSuccesses": 3, "targetNumber": 12, "securityValue": 12 },
+          { "label": "Escape before the host learns too much about you", "to": "black-stage-door", "testId": "evadeTrace", "unlockSuccesses": 2, "targetNumber": 11, "securityValue": 12 }
         ]
       },
       {
         "id": "uv-project-core",
         "title": "UV Project Core",
         "kind": "major-reward",
-        "description": "This is campaign-grade paydata: hidden project names, prototype media logic, executive culpability, and evidence of CAT capabilities beneath Lafayette Tower.",
+        "description": "This is campaign-grade paydata: hidden project names, prototype media logic, executive culpability, and evidence of CAT capabilities beneath Lafayette Tower. Tell the GM you cracked the UV Project Core; the GM will provide the actual details.",
         "choices": [
-          { "label": "Exfiltrate the UV proof through a hostile containment route", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 3 },
-          { "label": "Stay for one more impossible answer", "to": "living-stage-set", "testId": "staffRecords", "unlockSuccesses": 4 }
-        ]
-      },
-      {
-        "id": "exfiltration-edit-bay",
-        "title": "Exfiltration Edit Bay",
-        "kind": "reward",
-        "description": "You have material the crew can use: contracts, project names, behavioral models, prototype notes, building hooks, or proof that the tower is deeper than it admits.",
-        "choices": [
-          { "label": "Log off through a clean edit bay render", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 2 },
-          { "label": "Risk the deeper R&D route", "to": "prototype-war-room", "testId": "staffRecords", "unlockSuccesses": 3 }
+          { "label": "Exfiltrate the UV proof through hostile containment", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 3, "targetNumber": 11, "securityValue": 12 },
+          { "label": "Stay for one more impossible answer", "to": "living-stage-set", "testId": "staffRecords", "unlockSuccesses": 4, "targetNumber": 13, "securityValue": 12 }
         ]
       },
       {
