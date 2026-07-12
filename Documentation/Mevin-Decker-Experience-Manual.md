@@ -86,17 +86,9 @@ Click **Roll to unlock this branch** to attempt the action.
 
 If you succeed, the new node opens. If you fail, that route locks for the current crawl and may reveal nothing further.
 
-## Custom / RAW actions
+## Off-menu RAW actions
 
-The tool does not list every possible SR3 Matrix operation.
-
-If you want to do something outside the featured actions:
-
-1. Type the intended action in **Custom / RAW action**.
-2. Click **Record GM Call**.
-3. Ask the GM what test, time cost, tally pressure, utility, or consequence applies.
-
-This keeps the minigame flexible without pretending the app is a complete rules engine.
+The tool does not list every possible SR3 Matrix operation. If you want to do something outside the featured actions, tell the GM directly. The GM can call for the appropriate SR3-style test, time cost, tally pressure, utility use, or fictional consequence.
 
 ## Security Tally
 

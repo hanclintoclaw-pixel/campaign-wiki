@@ -89,7 +89,8 @@
         "kind": "secure-entry",
         "description": "Behind the mascot skin is a private login surface shaped like a steel smoker. Employee, vendor, fulfillment, and analytics permissions hang from hooks inside the smoke.",
         "choices": [
-          { "label": "Open the private subsystem hub", "to": "private-smokehouse-hub", "testId": "staffRecords", "unlockSuccesses": 1 }
+          { "label": "Open the private subsystem hub", "to": "private-smokehouse-hub", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Back out to the smokehouse porch", "to": "club-porch" }
         ]
       },
       {
@@ -101,7 +102,8 @@
           { "label": "Customer analytics lockers", "to": "analytics-locker-confirmation", "testId": "searchCustomer" },
           { "label": "Supplier and formula records", "to": "supplier-formula-confirmation", "testId": "staffRecords" },
           { "label": "Subscription fulfillment controls", "to": "subscription-fulfillment-confirmation", "testId": "alterStore" },
-          { "label": "Factory/demo control hooks", "to": "demo-control-confirmation", "testId": "controlSlave", "unlockSuccesses": 2 }
+          { "label": "Factory/demo control hooks", "to": "demo-control-confirmation", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Back out to the smokehouse porch", "to": "club-porch" }
         ]
       },
       {

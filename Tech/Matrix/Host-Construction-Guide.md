@@ -228,12 +228,13 @@ The Decker Experience should show **featured actions**, not every possible Matri
 
 Recommended featured action count after the initial door:
 
-- **1 action** for a single locked door, forced-forward obstacle, or high-pressure terminal
-- **2 actions** for focused dramatic choice
-- **3 actions** for normal subsystem play
-- **4 actions** for broad hub nodes or public menu nodes
+- **1 action** for a single locked door, forced-forward obstacle, or high-pressure terminal, as long as the surrounding topology gives the player a way to back out.
+- **2 actions** for focused dramatic choice.
+- **3 actions** for normal subsystem play.
+- **4 actions** for broad hub nodes or public menu nodes.
+- **5 actions** only when the fifth action is a back-out, return, retreat, or logoff option.
 
-The app also has a **Custom / RAW action** lane. Use that when the decker wants to do something outside the featured verbs. The GM can then call for the appropriate SR3-style test, time cost, tally pressure, utility use, or fictional consequence.
+If a player wants a normal SR3 Matrix operation outside the featured verbs, the GM should adjudicate it conversationally rather than relying on a text field in the tool.
 
 ## Hidden and Secure Hosts
 
@@ -364,6 +365,7 @@ Before publishing a Host profile, confirm:
 - The secure door can be rolled against and can fail without revealing the Host.
 - Private intrusion exposes relevant subsystems.
 - Every successful featured action either unlocks a new node or gives the decker a specific GM-facing/personal-note result.
+- Hubs with four core options include a fifth back-out/logoff option when needed to prevent dead ends.
 - Permanent outcomes explicitly tell the player to notify the GM.
 - Lockouts are scoped to the current crawl unless the GM says otherwise; reset after in-world time is allowed when appropriate.
 - Device/security verbs lead to GM-confirmation nodes unless exact scope is already canon.

@@ -30,7 +30,7 @@ A host starts with up to two initial doors:
 
 Once inside the private side, the decker sees featured actions: subsystem access, file archives, camera networks, shipping records, hidden seams, control hooks, or paydata opportunities. A successful action either opens a new node or grants a specific result the player can tell the GM or note for later.
 
-The tool also has a **Custom / RAW action** lane at every node. If the decker wants to do something outside the featured options, the player records it there and the GM adjudicates the SR3-style test, time cost, Tally pressure, and outcome.
+If the decker wants to do something outside the featured options, the player should tell the GM directly. The GM adjudicates the SR3-style test, time cost, Tally pressure, and outcome.
 
 ## Rolls and branch locking
 
