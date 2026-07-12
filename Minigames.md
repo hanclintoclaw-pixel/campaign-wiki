@@ -31,6 +31,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 ## Documentation
 
 - [Mevin Decker Experience Documentation](Documentation/Mevin-Decker-Experience.md)
+- [Mevin Decker Experience Player Manual](Documentation/Mevin-Decker-Experience-Manual.md)
 
 ## Templates and implementation notes
 

@@ -7,6 +7,8 @@ updated: 2026-07-11
 
 # Mevin Decker Experience Documentation
 
+For player-facing step-by-step use at the table, see the [Mevin Decker Experience Player Manual](Mevin-Decker-Experience-Manual.md).
+
 ## What it is
 
 The [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) is a live-table Matrix host crawl tool for Shadowrun 3rd Edition play. It turns a wiki-hosted Matrix host profile into a clickable, roll-gated flowchart that a decker player can use while the rest of the team continues acting in meatspace.
