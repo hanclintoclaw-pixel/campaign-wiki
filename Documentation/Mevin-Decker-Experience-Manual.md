@@ -114,17 +114,17 @@ The main choices are:
 
 ### Suppress / Evade
 
-The safer roll-based option. Usually needs 1 success. If it works, the checkpoint clears and you keep going.
+The safer roll-based option for **White IC only**. Usually needs 1 success. If it works, the checkpoint clears for now, but the IC finds a blank higher Security Tally slot and may return later in the same run.
 
-If it fails, the IC may become active pressure or, for severe IC, force a run-ending consequence.
+Grey IC and Black IC cannot be suppressed in the tool; those suppression buttons are disabled. If suppression fails, the IC may become active pressure or, for severe IC, force a run-ending consequence.
 
 ### Suppress with Pool
 
-The resource option. You tie up 1 free Hacking Pool die to suppress the IC without rolling. Future rolls use a smaller effective Hacking Pool until the run resets or ends.
+The resource option for **White IC only**. You tie up 1 free Hacking Pool die to suppress the IC without rolling. The IC moves to a blank higher Security Tally slot, and the tied-up die frees when that IC returns.
 
 ### Fight IC
 
-The harder direct option. Usually needs 2 successes. It is useful when the fiction says you need to smash through the IC, but failure is riskier.
+The harder direct option. Usually needs 2 successes. On success, the IC is crashed and removed from the ongoing run instead of being reinserted higher on the Security Tally. Failure is riskier.
 
 ### Ignore and Continue
 
@@ -143,7 +143,7 @@ The app normally auto-adds free Hacking Pool to tested rolls. You do not need to
 Two choices can reduce your free Hacking Pool for the current run:
 
 - **Pool reserved for DF:** every 2 reserved Hacking Pool dice increases effective Detection Factor by 1, up to +3.
-- **Suppress with Pool:** tying up 1 Hacking Pool die suppresses a checkpoint IC without a roll.
+- **Suppress with Pool:** tying up 1 Hacking Pool die suppresses White IC without a roll until that IC returns at its new higher Tally slot.
 
 The tool shows current pool allocations above the crawl when they exist.
 

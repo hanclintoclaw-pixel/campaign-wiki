@@ -51,12 +51,12 @@ The tool also displays alert state based on the Host's Shutdown limit: **Passive
 
 When Tally crosses a sheaf threshold, normal navigation pauses and the player gets a **Security checkpoint**. The player can:
 
-- suppress / evade the IC;
-- fight it;
+- suppress / evade White IC, which moves it to a blank higher Security Tally slot so it may return later;
+- fight IC, which crashes and removes it from the ongoing run on success;
 - ignore it and continue;
 - jack out.
 
-Ignored or failed checkpoints become **active pressure**. Active pressure increases future Tally risk until handled, giving the decker a little combat/IC-management loop without turning the whole app into a full cybercombat simulator. A failed jackout while trapped in a host ends the run with dumpshock and a GM-facing consequence prompt.
+Grey IC and Black IC cannot be suppressed in the tool; suppression controls are disabled for those categories. Ignored or failed checkpoints become **active pressure**. Active pressure increases future Tally risk until handled, giving the decker a little combat/IC-management loop without turning the whole app into a full cybercombat simulator. A failed jackout while trapped in a host ends the run with dumpshock and a GM-facing consequence prompt.
 
 ## Rewards and permanent outcomes
 
