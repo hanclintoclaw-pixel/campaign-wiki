@@ -28,10 +28,13 @@
     "controlSlave": 7,
     "evadeTrace": 5,
     "fightIc": 7,
+    "findBypassKey": 6,
     "findHiddenNode": 8,
+    "pixelRouteMap": 9,
     "pixelPlans": 9,
     "pixelMembers": 10,
-    "pixelPaydata": 10
+    "pixelPaydata": 10,
+    "pixelContracts": 10
   },
   "securitySheaf": [
     { "threshold": 2, "label": "Probe IC", "effect": "Happy Cat starts checking the intruder icon and access path." },
@@ -42,7 +45,7 @@
     { "threshold": 18, "label": "Hidden Host Trace Burst", "effect": "The deeper host treats the intrusion as hostile and begins burning the route back toward the decker." }
   ],
   "sculpting": "Bright retail storefront, mascot popups, collectible-card catalog, snack ads, register hooks, employee stockroom doors, and local teen chatter overlays. Under a misprinted receipt/SKU pattern sits a concealed handoff into a much harder Pixel Sticks stash host.",
-  "notes": "Starter host refactored around the public-door/secure-door template. The public side is harmless flavor. The secure side can reveal mundane store records, a strange pet-food order clue, and a hidden Target: Matrix-style deeper host used by Pixel Sticks.",
+  "notes": "Starter host refactored around the public-door/secure-door template. The public side is harmless flavor. The secure side can reveal mundane store records, a strange pet-food order clue, a cluttered Manager's Office with a Bypass Key, and a hidden Target: Matrix-style deeper host used by Pixel Sticks. The Pixel Sticks layer now includes lethal critical-services sabotage paydata.",
   "flow": {
     "startNodeId": "ltg-approach",
     "nodes": [
@@ -110,10 +113,28 @@
         "kind": "private",
         "description": "You are inside the private side of the Happy Cat host. Store files, register hooks, camera pointers, and vendor records are available if you can keep the tally under control.",
         "choices": [
+          { "label": "Search the cluttered Manager's Office for a Bypass Key", "to": "managers-office-bypass-key", "testId": "findBypassKey", "unlockSuccesses": 1, "targetNumber": 6 },
           { "label": "Customer loyalty files", "to": "customer-files-confirmation", "testId": "searchCustomer" },
           { "label": "Shipping and vendor records", "to": "shipping-records-confirmation", "testId": "staffRecords" },
           { "label": "Camera network", "to": "camera-network-confirmation", "testId": "controlSlave" },
           { "label": "Register and stock controls", "to": "register-stock-confirmation", "testId": "controlSlave" }
+        ]
+      },
+      {
+        "id": "managers-office-bypass-key",
+        "title": "Manager's Office",
+        "kind": "reward",
+        "description": "The protected interior host tucks this room behind a crooked stockroom door. Inside, the sculpting becomes a cluttered manager's office: receipt tape nests, half-labeled card binders, expired promo calendars, sticky-note passwords, cheap safe icons, and a desk drawer that refuses to close. Under the mess is a Bypass Key for this Host run. Tell the GM you found the Bypass Key.",
+        "advantages": [
+          {
+            "name": "Bypass Key",
+            "reason": "Key recovered from the cluttered Manager's Office inside Happy Cat's protected staff host",
+            "targetNumberModifier": -4
+          }
+        ],
+        "choices": [
+          { "label": "Pocket the Bypass Key and return to staff subsystems", "to": "staff-subsystem-hub" },
+          { "label": "Use the key as cover while backing out", "to": "logoff", "testId": "evadeTrace" }
         ]
       },
       {
@@ -205,19 +226,33 @@
         "id": "pixel-sticks-tag-yard",
         "title": "Pixel Sticks Hidden Tag Yard",
         "kind": "pixel-sticks-host",
-        "description": "The cheerful store sculpting is gone. You are in a harder, cleaner, graffiti-coded staging host: tag fragments, utility crates, dead-drop lockers, and route maps hang in a digital underpass.",
+        "description": "The cheerful store sculpting is gone. You are in a harder, cleaner, graffiti-coded staging host: tag fragments, utility crates, dead-drop lockers, route maps, burner personas, and reputation tags hang in a digital underpass. This is not a kid's prank board; it feels like a disciplined Matrix gang's working yard, with jobs sorted by risk, payout, sponsor, and bragging rights.",
         "choices": [
+          { "label": "Map the Pixel Sticks route-board switchback", "to": "pixel-route-board", "testId": "pixelRouteMap", "unlockSuccesses": 2, "targetNumber": 9, "securityValue": 8 },
           { "label": "Search future-plan dead drops", "to": "pixel-future-plans", "testId": "pixelPlans", "unlockSuccesses": 3, "targetNumber": 9, "securityValue": 8 },
           { "label": "Open the member tag roster", "to": "pixel-member-list", "testId": "pixelMembers", "unlockSuccesses": 3, "targetNumber": 10, "securityValue": 8 },
           { "label": "Crack the stashed paydata locker", "to": "pixel-paydata-stash", "testId": "pixelPaydata", "unlockSuccesses": 3, "targetNumber": 10, "securityValue": 8 },
+          { "label": "Crack the critical-services sabotage ledger", "to": "pixel-critical-services-contracts", "testId": "pixelContracts", "unlockSuccesses": 3, "targetNumber": 10, "securityValue": 9 },
           { "label": "Evade the hidden host trace", "to": "unlisted-ltg-handshake", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
+        ]
+      },
+      {
+        "id": "pixel-route-board",
+        "title": "Pixel Sticks Route-Board Switchback",
+        "kind": "pixel-sticks-host",
+        "description": "A sprayed-on route board unfolds into layered city maps, LTG hops, ambulance dispatch corridors, hospital intake queues, municipal work-order feeds, and gang tags ranked like professional credentials. The Pixel Sticks are using style as camouflage for logistics: who can get in, who can break what, who gets paid, and who gets blamed.",
+        "choices": [
+          { "label": "Follow future-plan dead drops from the route board", "to": "pixel-future-plans", "testId": "pixelPlans", "unlockSuccesses": 2, "targetNumber": 9, "securityValue": 8 },
+          { "label": "Follow roster tags from the route board", "to": "pixel-member-list", "testId": "pixelMembers", "unlockSuccesses": 2, "targetNumber": 10, "securityValue": 8 },
+          { "label": "Follow paid sabotage markers", "to": "pixel-critical-services-contracts", "testId": "pixelContracts", "unlockSuccesses": 3, "targetNumber": 10, "securityValue": 9 },
+          { "label": "Return to the hidden tag yard", "to": "pixel-sticks-tag-yard" }
         ]
       },
       {
         "id": "pixel-future-plans",
         "title": "Pixel Sticks Future Plans",
         "kind": "gm-reward",
-        "description": "You recover a protected future-plans cache from the hidden host. Tell the GM you cracked the Pixel Sticks future-plans reward; the GM will provide the actual plan details.",
+        "description": "You recover a protected future-plans cache from the hidden host: route sketches, target shortlists, sponsor hints, planned defacements, and a few entries marked with money instead of status. Tell the GM you cracked the Pixel Sticks future-plans reward; the GM will provide the actual plan details.",
         "choices": [
           { "label": "Return to the hidden tag yard", "to": "pixel-sticks-tag-yard" },
           { "label": "Escape with the future-plans cache", "to": "logoff", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
@@ -227,7 +262,7 @@
         "id": "pixel-member-list",
         "title": "Pixel Sticks Member List",
         "kind": "gm-reward",
-        "description": "You recover a protected member-list cache. Tell the GM you cracked the Pixel Sticks member-list reward; the GM will provide the roster if this recovery stands.",
+        "description": "You recover a protected member-list cache: handles, tag signatures, probationary marks, trusted route runners, and a few higher-status aliases with job authorization flags. Tell the GM you cracked the Pixel Sticks member-list reward; the GM will provide the roster if this recovery stands.",
         "choices": [
           { "label": "Return to the hidden tag yard", "to": "pixel-sticks-tag-yard" },
           { "label": "Escape with the member-list cache", "to": "logoff", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
@@ -237,10 +272,21 @@
         "id": "pixel-paydata-stash",
         "title": "Pixel Sticks Paydata Stash",
         "kind": "gm-reward",
-        "description": "You recover a stash of paydata hidden by the Pixel Sticks. Tell the GM you cracked the paydata-stash reward; value and fences will need to be determined after recovery.",
+        "description": "You recover a stash of paydata hidden by the Pixel Sticks: scraped access tokens, extortion screenshots, vandal bounty receipts, compromised service accounts, and broker notes that prove this crew is selling more than graffiti. Tell the GM you cracked the paydata-stash reward; value and fences will need to be determined after recovery.",
         "choices": [
+          { "label": "Follow the ugliest broker notes", "to": "pixel-critical-services-contracts", "testId": "pixelContracts", "unlockSuccesses": 2, "targetNumber": 10, "securityValue": 9 },
           { "label": "Return to the hidden tag yard", "to": "pixel-sticks-tag-yard" },
           { "label": "Escape with the paydata stash", "to": "logoff", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
+        ]
+      },
+      {
+        "id": "pixel-critical-services-contracts",
+        "title": "Critical Services Sabotage Ledger",
+        "kind": "major-paydata",
+        "description": "This is the major paydata. The Pixel Sticks have expanded from vandalism and flex jobs into paid sabotage against critical city services: ambulance dispatch routing, hospital intake queues, emergency-room triage handoffs, and municipal support systems. The recovered ledger includes timestamps, broker payments, proof-of-work tags, and fatality annotations showing that delayed ambulances and disrupted hospital systems have already led to deaths. Tell the GM you recovered the critical-services sabotage ledger.",
+        "choices": [
+          { "label": "Return to the hidden tag yard", "to": "pixel-sticks-tag-yard" },
+          { "label": "Escape with the sabotage ledger", "to": "logoff", "testId": "evadeTrace", "targetNumber": 9, "securityValue": 9 }
         ]
       },
       {
