@@ -2,7 +2,7 @@
 title: Minigames and Web Apps
 type: index
 visibility: player-safe
-updated: 2026-07-11
+updated: 2026-07-12
 ---
 
 # Minigames and Web Apps
@@ -32,6 +32,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 
 - [Mevin Decker Experience Documentation](Documentation/Mevin-Decker-Experience.md)
 - [Mevin Decker Experience Player Manual](Documentation/Mevin-Decker-Experience-Manual.md)
+- [Curtis Drone Shift Work Order Guidelines](Documentation/Curtis-Drone-Shift-Work-Order-Guidelines.md)
 
 ## Templates and implementation notes
 
