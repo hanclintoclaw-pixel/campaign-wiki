@@ -111,6 +111,10 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 - [Dolphin and Hurricane Seal Habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) — buildout tracker for Core 7 and his seal friends.
 
+## Drone Shift
+
+- [Tutorial 1: Buzz Has a Bad Hum](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) — first-draft maintenance/repair shift mockup for Curtis. This is a testing tool only: no daily cron job is active, dummy skill values are used in the UI, and final reports should be reviewed by Cindy/GM before any permanent drone or nuyen changes are applied.
+
 ## Relevant Sessions
 
 - 2026-06-04 — balanced ongoing habitat work with the new **Griswell Data Services** surveillance job, using drone and vehicle support against Alvin Flang's trail.
