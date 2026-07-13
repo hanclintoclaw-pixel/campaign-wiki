@@ -113,7 +113,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 ## Drone Shift
 
-- [Tutorial 1: Buzz Has a Bad Hum](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) — first-draft maintenance/repair shift mockup for Curtis. This is a testing tool only: no daily cron job is active, dummy skill values are used in the UI, and final reports should be reviewed by Cindy/GM before any permanent drone or nuyen changes are applied.
+- [Tutorial 2: Grandpa's Back-Step Rattle](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) — daily prototype maintenance/repair shift for Curtis. Tutorial 1 rotated out as discarded with no nuyen movement, no drone or vehicle state change, and no penalty; final reports should be reviewed by Cindy/GM before any permanent drone, vehicle, or nuyen changes are applied.
 
 ## Relevant Sessions
 
