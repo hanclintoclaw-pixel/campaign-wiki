@@ -115,6 +115,10 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 - [Tutorial 2: Grandpa's Back-Step Rattle](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) — daily prototype maintenance/repair shift for Curtis. Tutorial 1 rotated out as discarded with no nuyen movement, no drone or vehicle state change, and no penalty; final reports should be reviewed by Cindy/GM before any permanent drone, vehicle, or nuyen changes are applied.
 
+### Completed Work Orders
+
+- **2026-07-13 — Tutorial 2: Grandpa's Back-Step Rattle**: Curtis completed Taco's Grandpa back-up rattle ticket as a solid repair. Final report logged **-25¥** net shift result and **Maintenance Quality 3**; no permanent Grandpa/drone stat changes apply unless the GM confirms them.
+
 ## Relevant Sessions
 
 - 2026-06-04 — balanced ongoing habitat work with the new **Griswell Data Services** surveillance job, using drone and vehicle support against Alvin Flang's trail.
