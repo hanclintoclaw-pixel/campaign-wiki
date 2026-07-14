@@ -57,7 +57,7 @@ No fresh generated voice lines have been tallied yet.
 
 <!-- CINDY_NEEDED_WORDS_END -->
 
-## Current 30-clip library
+## Current 32-clip library
 
 Source voice test: Taylor-source XTTS-v2 reference from the 2026-07-12 cleared interview sample.
 
@@ -99,6 +99,8 @@ Local generated clip folder:
 | 28 | `cut_the_noise` | Cut the noise. | Focus / reduce chatter |
 | 29 | `little_victory` | Little victory. | Minor success |
 | 30 | `try_it_now` | Try it now. | Action-ready cue |
+| 31 | `yes_thats_safe` | Yes, that's safe. | Explicit positive safety answer |
+| 32 | `no_thats_not_safe` | No, that's not safe. | Explicit negative safety answer |
 
 ## Expected trigger behavior
 
@@ -117,11 +119,13 @@ Current default mappings:
 
 | Trigger shape | Clip chain |
 | --- | --- |
-| Jack out / Black IC / dumpshock danger | `hold_up` -> `jack_out_now` |
+| Jack out / Black IC / dumpshock danger | `no_thats_not_safe` -> `hold_up` -> `jack_out_now` |
 | Trace or security tally movement | `hold_up` -> `trace_is_moving` |
 | IC / intrusion countermeasure danger | `hold_up` -> `ic_is_waking_up` |
 | Roll / test / target-number prompt | `copy_that` -> `need_a_roll` |
 | Remember / mark / note / save request | `marking_that` -> `saved_to_memory` |
+| Unsafe host/decking question | `no_thats_not_safe` -> `lemme_check_grid` -> `eyes_on_the_host` |
+| Safe/ready decking question | `yes_thats_safe` -> `that_tracks` |
 | Matrix planning or host/security opening | `lemme_check_grid` -> `eyes_on_the_host` |
 | Technical stall | `copy_that` -> `running_it_now` |
 | Explicit Cindy relevance | `on_it_sugar` -> `running_it_now` |
