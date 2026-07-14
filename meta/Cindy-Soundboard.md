@@ -9,4 +9,4 @@ updated: 2026-07-14
 
 The soundboard prototype is no longer an active live tool. The old tunnel target is intentionally not maintained going forward.
 
-For archived implementation notes, see [Cindy Lou Soundboard and Voice Bridge](../Tech/Cindy-Lou-Soundboard-and-Voice-Bridge.md).
+For archived implementation notes, see [Cindy Lou Soundboard and Voice Bridge](../NPCs/Cindy-Lou-Jenkins-Tooling/Soundboard-and-Voice-Bridge.md).

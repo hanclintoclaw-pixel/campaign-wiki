@@ -41,8 +41,8 @@ At a system level, the current Cindy stack is split into three major layers:
 
 The campaign wiki currently gives Cindy at least three distinct surfaces:
 
-- [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md) — objective dossier
-- [Cindy Lou Jenkins, In Her Own Words](../NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md) — subjective/in-world voice page
+- [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md) — objective dossier
+- [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md) — subjective/in-world voice page
 - this page — operational/tooling notes
 
 Current wiki goals for Cindy:
@@ -116,11 +116,11 @@ Preserve the archived notes only for the useful implementation lesson:
 
 For reconstructable implementation detail, use these pages:
 
-- [Cindy Lou Wiki and Tooling Topology](Cindy-Lou-Wiki-and-Tooling-Topology.md)
-- [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
-- [Cindy Lou External Transcription Watchdog Plan](Cindy-Lou-External-Transcription-Watchdog-Plan.md)
-- [Cindy Lou Session Scratchpad Implementation Plan](Cindy-Lou-Session-Scratchpad-Implementation-Plan.md)
-- [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md) _(outdated)_
+- [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)
+- [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
+- [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
+- [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md)
+- [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_
 
 ## Known limitations
 
@@ -143,11 +143,11 @@ Likely next improvements:
 
 ## Related pages
 
-- [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md)
-- [Cindy Lou Jenkins, In Her Own Words](../NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md)
-- [Cindy Lou Wiki and Tooling Topology](Cindy-Lou-Wiki-and-Tooling-Topology.md)
-- [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
-- [Cindy Lou External Transcription Watchdog Plan](Cindy-Lou-External-Transcription-Watchdog-Plan.md)
-- [Cindy Lou Session Scratchpad Implementation Plan](Cindy-Lou-Session-Scratchpad-Implementation-Plan.md)
-- [Campaign Navigation](../Navigation.md)
-- [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md) _(outdated)_
+- [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)
+- [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md)
+- [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)
+- [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
+- [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
+- [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md)
+- [Campaign Navigation](../../Navigation.md)
+- [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_

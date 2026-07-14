@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-04-29
+last_updated_session: 2026-07-14
 canon_status: canonical-name
 confidence: medium
 aliases:
@@ -29,7 +29,7 @@ sources:
 
 **Cindy Lou Jenkins** is the canonical campaign identity for the knowbot character previously surfaced in records under several variant names, including **Cindy Liu Thompson**, **Cindy-Lou**, **Cindy Lou Prime**, and **Cindy Liu Jenkins**.
 
-This page is the **objective NPC dossier** for campaign reference. For the first-person subjective page, see: [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
+This page is the **objective NPC dossier** for campaign reference. For the first-person subjective page, see: [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md). For live NPC behavior and tooling, see: [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/).
 
 ## Identity and canon status
 
@@ -231,6 +231,7 @@ For Cindy Lou's own first-person interpretation of herself, the crew, and her ci
 ## Related pages
 
 - [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
-- [Cindy Lou Tooling and Discord Notes](../Tech/Cindy-Lou-Tooling-and-Discord.md)
+- [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/)
+- [Cindy Lou Voice Clip Phrase Library](Cindy-Lou-Jenkins-Tooling/Voice-Clip-Phrase-Library.md)
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)
 - [Campaign Arc Index](../Timeline/Arc-Index.md)

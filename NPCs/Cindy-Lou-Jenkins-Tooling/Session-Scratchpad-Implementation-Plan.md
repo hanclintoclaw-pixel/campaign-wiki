@@ -517,6 +517,6 @@ That sequence gives the highest value fastest.
 
 ## Related pages
 
-- [[Cindy Lou Live Session Monitoring Design]]
-- [[Cindy Lou External Transcription Watchdog Plan]]
-- [[Cindy Lou Tooling and Discord Notes]]
+- [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
+- [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
+- [Cindy Lou Tooling and Discord Notes](Tooling-and-Discord.md)

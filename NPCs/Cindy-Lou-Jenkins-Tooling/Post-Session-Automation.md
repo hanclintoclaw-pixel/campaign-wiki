@@ -217,6 +217,6 @@ That is the higher-level function this page is sketching.
 
 ## Related pages
 
-- [[Cindy Lou Live Session Monitoring Design]]
-- [[Cindy Lou Tooling and Discord]]
-- [[Cindy Lou Wiki and Tooling Topology]]
+- [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
+- [Cindy Lou Tooling and Discord Notes](Tooling-and-Discord.md)
+- [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)

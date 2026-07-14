@@ -22,7 +22,7 @@ Cindy currently has three active player-visible or operator-visible surfaces, pl
 2. **subjective / in-world voice page**
    - `NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md`
 3. **tooling summary page**
-   - `Tech/Cindy-Lou-Tooling-and-Discord.md`
+   - `NPCs/Cindy-Lou-Jenkins-Tooling/Tooling-and-Discord.md`
 4. **GM soundboard entry point** _(outdated)_
    - formerly linked from the in-world Cindy page via the small `π` symbol; no longer maintained
 
@@ -157,7 +157,7 @@ As the system grows, the next useful pages would likely be:
 
 ## Related pages
 
-- [Cindy Lou Tooling and Discord Notes](Cindy-Lou-Tooling-and-Discord.md)
-- [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md)
-- [Cindy Lou Jenkins, In Her Own Words](../NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md)
-- [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md) _(outdated)_
+- [Cindy Lou Tooling and Discord Notes](Tooling-and-Discord.md)
+- [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)
+- [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md)
+- [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_

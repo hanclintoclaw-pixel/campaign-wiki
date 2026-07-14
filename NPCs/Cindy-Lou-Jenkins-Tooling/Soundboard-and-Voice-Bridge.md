@@ -194,5 +194,5 @@ Do not spend maintenance time on this soundboard unless the GM explicitly revive
 
 ## Related pages
 
-- [Cindy Lou Tooling and Discord Notes](Cindy-Lou-Tooling-and-Discord.md)
-- [Cindy Lou Wiki and Tooling Topology](Cindy-Lou-Wiki-and-Tooling-Topology.md)
+- [Cindy Lou Tooling and Discord Notes](Tooling-and-Discord.md)
+- [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)

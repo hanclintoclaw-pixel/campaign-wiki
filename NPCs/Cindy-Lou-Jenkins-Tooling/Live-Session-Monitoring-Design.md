@@ -234,7 +234,7 @@ Key files include:
 
 ## Related pages
 
-- [[Discord Voice Bridge]]
-- [[Cindy Lou External Transcription Watchdog Plan]]
-- [[Cindy Lou Session Scratchpad Implementation Plan]]
-- [[Cindy Lou Jenkins]]
+- Discord voice bridge runtime
+- [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
+- [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md)
+- [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)

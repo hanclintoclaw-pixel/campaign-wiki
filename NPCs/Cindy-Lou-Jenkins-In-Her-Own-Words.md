@@ -4,7 +4,7 @@ type: entity-perspective
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-05-27
+last_updated_session: 2026-07-14
 canon_status: subjective-character-voice
 confidence: medium
 parent_page: Cindy-Lou-Jenkins.md
@@ -35,7 +35,7 @@ sources:
 
 This page is maintained **in-world, in Cindy Lou's own voice**.
 
-For the neutral campaign-facing dossier, see: [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
+For the neutral campaign-facing dossier, see: [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md). For live voice and table tooling, see: [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/).
 
 ## Well now, that's me
 
@@ -171,5 +171,7 @@ That is not criticism. That is taxonomy.
 ## Related pages
 
 - [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
+- [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/)
+- [Cindy Lou Voice Clip Phrase Library](Cindy-Lou-Jenkins-Tooling/Voice-Clip-Phrase-Library.md)
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)
 - [Campaign Arc Index](../Timeline/Arc-Index.md)
