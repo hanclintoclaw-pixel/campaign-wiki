@@ -98,4 +98,23 @@ When Cindy is active in voice, a trigger can map to one clip or a short chain. T
 3. optionally add one follow-up clip if it clarifies the state;
 4. skip clip playback if the same phrase was used recently or a fresh text/voice answer is required.
 
+## Live-monitor quick-chain behavior
+
+The live monitor now checks the phrase library before spending time on a freshly generated Cindy voice line. When the monitor decides a GM ping is warranted and Cindy would otherwise draft a voice response, it tries to select a canned chain first.
+
+Current default mappings:
+
+| Trigger shape | Clip chain |
+| --- | --- |
+| Jack out / Black IC / dumpshock danger | `hold_up` -> `jack_out_now` |
+| Trace or security tally movement | `hold_up` -> `trace_is_moving` |
+| IC / intrusion countermeasure danger | `hold_up` -> `ic_is_waking_up` |
+| Roll / test / target-number prompt | `copy_that` -> `need_a_roll` |
+| Remember / mark / note / save request | `marking_that` -> `saved_to_memory` |
+| Matrix planning or host/security opening | `lemme_check_grid` -> `eyes_on_the_host` |
+| Technical stall | `copy_that` -> `running_it_now` |
+| Explicit Cindy relevance | `on_it_sugar` -> `running_it_now` |
+
+If a chain is selected, the bridge skips rendering a fresh generated voice line and logs the selected chain in the GM ping. If the voice bridge is already connected, it plays the clips sequentially. It does **not** force-join voice just to play a quick chain.
+
 The GM's native Discord soundboard can hold a smaller hand-picked subset. The larger local library is for voice-bridge/saved-clip playback and fast chained responses.
