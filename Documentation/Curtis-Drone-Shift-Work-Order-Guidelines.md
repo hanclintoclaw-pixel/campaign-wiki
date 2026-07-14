@@ -2,7 +2,7 @@
 title: Curtis Drone Shift Work Order Guidelines
 type: documentation
 visibility: player-safe
-updated: 2026-07-12
+updated: 2026-07-14
 ---
 
 # Curtis Drone Shift Work Order Guidelines
@@ -48,6 +48,18 @@ Use 3-6 of these, in order. Not every work order needs every stage.
 | Calibration / test | verify the result under safe load | vehicle/drone B/R, vehicle skill |
 | Closeout | write the maintenance note and final report | Electronics, Knowledge, Etiquette |
 
+## Daily choice cadence
+
+Going forward, each daily Work Order should normally include **1-2 stages with multiple options** for Curtis to choose from. These should be small, concrete shop tradeoffs rather than big branching quests: buy fresh or scrounge, tune safe or tune spicy, patch fast or take the proper teardown, ask Taco for a favor or keep it quiet.
+
+Default cadence:
+
+- **3-stage Work Order:** include 1 multi-option stage.
+- **4-6 stage Work Order:** include 1-2 multi-option stages.
+- **Occasional complex Work Order:** rarely, use 3 multi-option stages or one stage with 3 choices when the job is meant to feel unusually fussy, but keep the consequences in the normal small risk/reward band.
+
+Even when spicing up a ticket, keep the total expected movement close to break-even. The point is to give Curtis a little agency and workshop texture, not to turn the daily prompt into a major income engine, punishment track, or full repair subsystem.
+
 ## Single-choice stages
 
 Use a single choice when the stage is mostly procedural: there is one obvious way to continue, and the roll determines only how cleanly it goes.
@@ -80,6 +92,8 @@ Failure: identify the pump late after wasting a seal kit; -¥35; no TN bonus
 ## Multiple-choice stages
 
 Use multiple options when Curtis is making a real tradeoff. Every option must have a follow-up effect later in the work order. Do not offer a choice that only changes flavor text.
+
+At least one stage per daily Work Order should usually use this structure, and two is preferred when the ticket has enough room. Most choices should have two options; three-option stages are reserved for occasional higher-complexity tickets.
 
 Good multi-choice tradeoffs include:
 
@@ -192,7 +206,7 @@ When creating a new daily work order:
 3. Pick one asset or context: a drone, Grandpa, Taco's shop, salvage, customer repair, or field-prep task.
 4. Write a hook with one concrete sensory detail.
 5. Build 3-6 stages.
-6. Use at most one multi-choice stage unless the job is intentionally more complex.
+6. Include 1-2 multi-choice stages by default; use a third or a three-option stage only as an occasional more-complex ticket.
 7. If any stage has multiple options, make every option affect a later stage or final report.
 8. Keep nuyen near break-even.
 9. Keep the running nuyen total prominent.
