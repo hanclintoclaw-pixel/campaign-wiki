@@ -46,6 +46,17 @@ Example patterns:
 - **Small success:** confirmation clip, then victory/clean-access clip.
 - **Memory/admin:** acknowledgment clip, then saved/marked clip.
 
+## Needed words / phrases tally
+
+This section is refreshed by the live voice bridge when it has to generate a fresh Cindy voice line instead of using a canned clip chain.
+
+<!-- CINDY_NEEDED_WORDS_START -->
+_Last refreshed: not yet; fresh generated lines counted: 0._
+
+No fresh generated voice lines have been tallied yet.
+
+<!-- CINDY_NEEDED_WORDS_END -->
+
 ## Current 30-clip library
 
 Source voice test: Taylor-source XTTS-v2 reference from the 2026-07-12 cleared interview sample.
