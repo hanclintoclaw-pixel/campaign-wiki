@@ -3,7 +3,7 @@ title: Belmont
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-04-11
+last_updated_session: 2026-07-14
 canon_status: provisional
 confidence: medium
 tags: [vehicle, drone, crawler, rigger, curtis]
@@ -37,6 +37,10 @@ Part of the campaign's dedicated **Drones / Vehicles** reference layer rather th
 ## Role
 
 A combat crawler drone in Curtis's active rigger stable.
+
+## Maintenance History
+
+- **2026-07-14 — Curtis Drone Shift Tutorial 3: Belmont's Track-Tension Creep**: Curtis completed Taco's track-tension complaint as a clean shop win. The work isolated the chirp to the right-side idler run, cleared a grit-packed adjuster screw, replaced a walking washer with spare-bin shim work, and reset the track run. Final report logged **+60¥** net shift result and **Maintenance Quality 7**; no permanent Belmont stat changes apply unless the GM confirms them.
 
 ## Taco Fillings
 
