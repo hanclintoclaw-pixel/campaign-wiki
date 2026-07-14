@@ -15,6 +15,10 @@
 
 ## Recurring Contacts / Principals
 
+- [Maribel "Switchback" Pruitt](Maribel-Switchback-Pruitt.md)
+- [Jonah "Cave Cricket" Bell](Jonah-Cave-Cricket-Bell.md)
+- [Rosalind "Sister Anode" Pike](Rosalind-Sister-Anode-Pike.md)
+- [Earl "Railgun" Dunlap](Earl-Railgun-Dunlap.md)
 - [Mayor Mike Haggar](Mayor-Mike-Haggar.md)
 - [Herrick](Herrick.md)
 - [Taco](Taco.md)

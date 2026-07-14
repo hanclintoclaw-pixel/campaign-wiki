@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-09
+last_updated_session: 2026-07-14
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -74,6 +74,7 @@ Mevin's Matrix play style, as established so far, emphasizes:
 - Linked to the crew's Matrix and technical problem-solving role.
 - Linked to [Ivan Toklas](../NPCs/Ivan.md) through multiple jobs routed through Atlas's.
 - Currently linked to the [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md).
+- Has access to **Ruby Falls**, the Chattanooga data haven maintained by the [Lookout Mountain Collective](../Factions/Lookout-Mountain-Collective.md).
 
 ## Relevant Sessions
 
