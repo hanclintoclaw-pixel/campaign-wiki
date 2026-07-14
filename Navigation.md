@@ -2,7 +2,7 @@
 title: Campaign Navigation
 type: navigation
 visibility: player-safe
-updated: 2026-07-10
+updated: 2026-07-14
 ---
 
 # Campaign Navigation
@@ -31,5 +31,6 @@ updated: 2026-07-10
 
 - [Recaps](Recaps/README.md)
 - [Tech Notes](Tech/README.md)
+- [GM Approval Queue](meta/GM-Approval-Queue.md)
 - [Session Archive Analysis](Sessions/ARCHIVE_ANALYSIS.md)
 - [Archive Triage Notes](Sessions/ARCHIVE_TRIAGE.md)
