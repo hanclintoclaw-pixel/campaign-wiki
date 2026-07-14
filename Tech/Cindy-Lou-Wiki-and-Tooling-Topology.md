@@ -3,7 +3,7 @@ title: Cindy Lou Wiki and Tooling Topology
 type: tech-note
 visibility: player-safe
 status: draft
-updated: 2026-05-13
+updated: 2026-07-14
 tags: [cindy, wiki, tooling, architecture]
 ---
 
@@ -15,7 +15,7 @@ This page documents how Cindy's wiki presence, live tooling, and Discord behavio
 
 ## Main surfaces
 
-Cindy currently has four distinct player-visible or operator-visible surfaces:
+Cindy currently has three active player-visible or operator-visible surfaces, plus one outdated archived surface:
 
 1. **objective dossier page**
    - `NPCs/Cindy-Lou-Jenkins.md`
@@ -23,8 +23,8 @@ Cindy currently has four distinct player-visible or operator-visible surfaces:
    - `NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md`
 3. **tooling summary page**
    - `Tech/Cindy-Lou-Tooling-and-Discord.md`
-4. **GM soundboard entry point**
-   - linked from the in-world Cindy page via the small `π` symbol
+4. **GM soundboard entry point** _(outdated)_
+   - formerly linked from the in-world Cindy page via the small `π` symbol; no longer maintained
 
 ## Functional separation
 
@@ -48,7 +48,7 @@ Use it for:
 - voice and personality
 - first-person interpretation
 - flavor and perspective
-- links to live Cindy-adjacent tools such as the soundboard
+- links to active Cindy-adjacent tools; the old soundboard link has been retired
 
 ### Tooling summary page
 
@@ -82,18 +82,6 @@ Use them for:
 
 This is the published campaign wiki.
 
-### Soundboard app repo
-
-- `/Users/hanclaw/claw/projects/cindylou/cindy-soundboard`
-
-This contains:
-
-- Express server
-- login/session handling
-- clip catalog
-- browser UI
-- queue writer logic
-
 ### Discord voice bridge repo
 
 - `/Users/hanclaw/claw/projects/discord_voice_patch`
@@ -103,42 +91,38 @@ This contains:
 - Discord bot runtime
 - text command handling
 - voice join/play behavior
-- queue consumer for direct soundboard playback
+- archived queue consumer for the outdated soundboard prototype
+
+### Soundboard app repo _(outdated)_
+
+- `/Users/hanclaw/claw/projects/cindylou/cindy-soundboard`
+
+This contained:
+
+- Express server
+- login/session handling
+- clip catalog
+- browser UI
+- queue writer logic
+
+Do not maintain this app, its tunnel URL, or its clip catalog unless the GM explicitly revives the soundboard.
 
 ### Runtime data areas
 
 - preserved voice clips:
   - `/Users/hanclaw/.openclaw/workspace-cindylou/preserved_voice`
-- soundboard queue:
-  - `/Volumes/carbonite/claw/data/cindylou/runtime/soundboard-queue`
 - logs:
   - `/Volumes/carbonite/claw/data/cindylou/logs`
+- soundboard queue _(outdated)_:
+  - `/Volumes/carbonite/claw/data/cindylou/runtime/soundboard-queue`
 
 ## Current integration pattern
 
-### Wiki -> soundboard
+### Archived soundboard path _(outdated)_
 
-The wiki does not host the soundboard logic directly.
+The wiki no longer advertises the soundboard as an active live tool. The old implementation was a separate local web app that wrote local request files for the voice bridge, but the table has moved past maintaining that button-board flow.
 
-Instead:
-
-- the wiki is the visible doorway
-- the soundboard is a separate local web app
-- the `π` link on Cindy's page points into the soundboard entry path
-
-### Soundboard -> voice bridge
-
-The soundboard no longer tries to use Discord text as its primary control plane.
-
-Instead it now:
-
-- authenticates a user session
-- writes a local request file
-- lets the local voice bridge process consume that request directly
-
-### Soundboard -> Discord thread
-
-The soundboard still posts a raw command line into the designated Discord request thread for visibility/debugging, but that thread post is no longer the actual playback trigger.
+Preserve the notes only as a historical implementation lesson: Discord bot-to-self text commands were the wrong control path, and direct local control was more reliable.
 
 ## Key design decisions
 
@@ -150,13 +134,7 @@ Cindy's campaign identity is easier to understand when:
 - Cindy's own voice lives in another
 - operational notes live elsewhere
 
-### 2. Keep the soundboard small
-
-The soundboard is deliberately lightweight.
-
-It is not intended to become a giant application before it proves useful.
-
-### 3. Prefer local control over Discord self-commanding
+### 2. Prefer local control over Discord self-commanding
 
 The system originally attempted to make Cindy trigger herself through Discord text.
 
@@ -164,9 +142,9 @@ That path failed because bot-authored commands are ignored by the command proces
 
 So the design shifted to direct local control.
 
-### 4. Keep filenames stable
+### 3. Keep filenames stable
 
-Clip playback is easier to reason about when the clip catalog stores stable local filenames instead of freeform command text.
+Clip playback is easier to reason about when a saved-clip workflow stores stable local filenames instead of freeform command text.
 
 ## Recommended future documentation growth
 
@@ -174,13 +152,12 @@ As the system grows, the next useful pages would likely be:
 
 - Cindy memory/index pipeline notes
 - Discord thread/session routing notes
-- soundboard operations runbook
 - clip library conventions and naming rules
 - deployment/public URL stabilization notes
 
 ## Related pages
 
 - [Cindy Lou Tooling and Discord Notes](Cindy-Lou-Tooling-and-Discord.md)
-- [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md)
 - [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md)
 - [Cindy Lou Jenkins, In Her Own Words](../NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md)
+- [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md) _(outdated)_

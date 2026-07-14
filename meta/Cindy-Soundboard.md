@@ -1,11 +1,12 @@
 ---
-title: Cindy Soundboard
+title: Cindy Soundboard (Outdated)
 permalink: /meta/Cindy-Soundboard.html
+status: outdated
+updated: 2026-07-14
 ---
 
-<meta http-equiv="refresh" content="0; url=https://scoring-import-pepper-expires.trycloudflare.com"> 
-<script>window.location.replace('https://scoring-import-pepper-expires.trycloudflare.com');</script>
+# Cindy Soundboard _(outdated)_
 
-If you are not redirected, [open the live Cindy soundboard](https://scoring-import-pepper-expires.trycloudflare.com).
+The soundboard prototype is no longer an active live tool. The old tunnel target is intentionally not maintained going forward.
 
-_Current tunnel target last refreshed: 2026-06-03 12:44:43 EDT_
+For archived implementation notes, see [Cindy Lou Soundboard and Voice Bridge](../Tech/Cindy-Lou-Soundboard-and-Voice-Bridge.md).

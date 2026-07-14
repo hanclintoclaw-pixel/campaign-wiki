@@ -3,7 +3,7 @@ title: Cindy Lou Tooling and Discord Notes
 type: tech-note
 visibility: player-safe
 status: draft
-updated: 2026-05-13
+updated: 2026-07-14
 tags: [cindy, tooling, discord, wiki, campaign-tech]
 ---
 
@@ -78,7 +78,7 @@ Known/customized behavior includes:
 - custom wake / routing behavior for Cindy prompts
 - voice chat integration work for joining, listening, and speaking in Discord audio
 - saved-clip playback support through the local voice bridge
-- a GM-facing soundboard experiment tied to Cindy voice playback
+- an archived GM-facing soundboard experiment, now marked outdated
 
 ## Repo map
 
@@ -88,46 +88,39 @@ The current implementation is spread across three main code locations:
 
 - `/Users/hanclaw/claw/projects/cindylou/campaign-wiki`
 
-### Soundboard app repo
-
-- `/Users/hanclaw/claw/projects/cindylou/cindy-soundboard`
-
 ### Discord voice bridge repo
 
 - `/Users/hanclaw/claw/projects/discord_voice_patch`
 
+### Soundboard app repo _(outdated)_
+
+- `/Users/hanclaw/claw/projects/cindylou/cindy-soundboard`
+
 These are intentionally separate because they solve different problems:
 
 - wiki repo = published documentation and player-facing pages
-- soundboard repo = authenticated GM tool UI
 - voice bridge repo = live Discord voice runtime
+- soundboard repo = outdated authenticated GM tool UI; keep only as archived prototype context
 
-## Soundboard status
+## Soundboard status _(outdated)_
 
-The soundboard work is meant to give the GM a fast way to trigger Cindy voice clips during play.
+The soundboard was an experiment to give the GM a fast way to trigger canned Cindy voice clips during play. The table has moved past that approach, and the soundboard app, tunnel URL, and clip catalog should not be maintained going forward.
 
-Current direction:
-
-- wiki-linked entry point
-- password-gated soundboard UI
-- hardcoded first-pass Cindy clip set
-- local playback bridge into the Discord voice bot path
-
-The important design shift is this:
+Preserve the archived notes only for the useful implementation lesson:
 
 - the first attempt relied on Cindy posting a Discord text command to herself
 - that failed because bot-authored commands are ignored by the command processor
-- the current version therefore uses a **direct local queue bridge** into the voice bot
+- the later prototype used a direct local queue bridge into the voice bot, but it is no longer the active direction
 
 ## Detailed technical pages
 
 For reconstructable implementation detail, use these pages:
 
 - [Cindy Lou Wiki and Tooling Topology](Cindy-Lou-Wiki-and-Tooling-Topology.md)
-- [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md)
 - [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](Cindy-Lou-External-Transcription-Watchdog-Plan.md)
 - [Cindy Lou Session Scratchpad Implementation Plan](Cindy-Lou-Session-Scratchpad-Implementation-Plan.md)
+- [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md) _(outdated)_
 
 ## Known limitations
 
@@ -135,15 +128,15 @@ The current Cindy stack still has a few rough edges:
 
 - public URL stability for local-only tools is still being improved
 - some tooling is still prototype-grade rather than long-term hardened
-- voice, soundboard, and wiki integration are not fully unified yet
-- the system is documented well enough to rebuild, but not yet fully productized
+- live voice and wiki integration are not fully unified yet
+- the active system is documented well enough to rebuild, but not yet fully productized
+- the old soundboard path is archived and should not receive routine maintenance
 
 ## Working direction / next steps
 
 Likely next improvements:
 
-- stabilize the soundboard entry path
-- make direct local playback cleaner and more observable
+- make direct live voice playback cleaner and more observable
 - improve campaign/wiki tooling documentation
 - keep a clearer record of what is canonical, what is operational, and what is experimental
 - move from ad-hoc glue toward a cleaner long-term service boundary
@@ -153,8 +146,8 @@ Likely next improvements:
 - [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md)
 - [Cindy Lou Jenkins, In Her Own Words](../NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Wiki and Tooling Topology](Cindy-Lou-Wiki-and-Tooling-Topology.md)
-- [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md)
 - [Cindy Lou Live Session Monitoring Design](Cindy-Lou-Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](Cindy-Lou-External-Transcription-Watchdog-Plan.md)
 - [Cindy Lou Session Scratchpad Implementation Plan](Cindy-Lou-Session-Scratchpad-Implementation-Plan.md)
 - [Campaign Navigation](../Navigation.md)
+- [Cindy Lou Soundboard and Voice Bridge](Cindy-Lou-Soundboard-and-Voice-Bridge.md) _(outdated)_

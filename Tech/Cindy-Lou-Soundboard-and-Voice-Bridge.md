@@ -2,20 +2,22 @@
 title: Cindy Lou Soundboard and Voice Bridge
 type: tech-note
 visibility: player-safe
-status: draft
-updated: 2026-05-13
-tags: [cindy, soundboard, discord, voice, tech]
+status: outdated
+updated: 2026-07-14
+tags: [cindy, soundboard, discord, voice, tech, outdated]
 ---
 
-# Cindy Lou Soundboard and Voice Bridge
+# Cindy Lou Soundboard and Voice Bridge _(outdated)_
+
+> **Outdated:** The table has moved past the soundboard approach. Preserve this page as an archive of the old prototype and queue-bridge lesson, but do not maintain the soundboard app, tunnel URL, or clip catalog going forward.
 
 ## Purpose
 
-This page describes the current soundboard-to-Discord-audio path in enough detail that the same system could be rebuilt from scratch.
+This page describes the old soundboard-to-Discord-audio path in enough detail that the same system could be understood later if needed. It is no longer the active direction for Cindy's live voice support.
 
-## Core repositories and runtime locations
+## Archived repositories and runtime locations
 
-### Soundboard app
+### Soundboard app _(outdated)_
 
 - Repo path: `/Users/hanclaw/claw/projects/cindylou/cindy-soundboard`
 - Runtime entry: `server.js`
@@ -32,7 +34,7 @@ This page describes the current soundboard-to-Discord-audio path in enough detai
 
 - Preserved clip directory: `/Users/hanclaw/.openclaw/workspace-cindylou/preserved_voice`
 
-### Shared queue location
+### Shared queue location _(outdated)_
 
 - Queue directory: `/Volumes/carbonite/claw/data/cindylou/runtime/soundboard-queue`
 
@@ -47,31 +49,31 @@ That failed for a structural reason:
 - `discord.py` command processing ignores bot-authored messages
 - Cindy therefore would not execute her own `!voice-play-saved ...` command
 
-So the current architecture uses **direct local playback triggering** instead of trying to route audio playback back through a Discord text-command loop.
+So the later prototype used **direct local playback triggering** instead of trying to route audio playback back through a Discord text-command loop.
 
-## Current architecture
+## Outdated architecture
 
 ### Browser/UI layer
 
-The GM opens the soundboard web app and logs in through a shared-password page.
+The GM previously opened the soundboard web app and logged in through a shared-password page.
 
-Main characteristics:
+Main characteristics were:
 
 - Express server
 - cookie-backed session auth
 - small hardcoded clip catalog in JSON
 - category/grouped button rendering in the browser
 
-### Soundboard server layer
+### Soundboard server layer _(outdated)_
 
-`server.js` currently does four important jobs:
+`server.js` handled four important jobs:
 
 1. authenticates the GM session
 2. exposes clip metadata to the browser
 3. writes playback requests into the local queue directory
 4. still posts a raw voice command line into the Discord request thread for visibility/debugging
 
-Important fields/config used by the server:
+Important fields/config used by the server were:
 
 - `PORT`
 - `SESSION_SECRET`
@@ -83,7 +85,7 @@ Important fields/config used by the server:
 
 ### Local queue bridge
 
-A button click now creates a JSON request file in:
+A button click created a JSON request file in:
 
 - `/Volumes/carbonite/claw/data/cindylou/runtime/soundboard-queue`
 
@@ -103,7 +105,7 @@ For a stop action, the queued payload contains:
 
 ### Voice bridge consumer
 
-`voice_chat.py` now runs a `soundboard_queue_watchdog()` loop.
+`voice_chat.py` included a `soundboard_queue_watchdog()` loop for this prototype.
 
 That loop:
 
@@ -140,9 +142,9 @@ That loop:
 
 ## Clip catalog structure
 
-The current clip catalog lives in `data/clips.json`.
+The archived clip catalog lived in `data/clips.json`.
 
-Each entry currently carries:
+Each entry carried:
 
 - `id`
 - `label`
@@ -151,7 +153,7 @@ Each entry currently carries:
 - `filename`
 - `text`
 
-Example fields from the live set:
+Example fields from the archived set:
 
 - `on-it` → `cindy_soundboard_on_it.mp3`
 - `copy-that` → `cindy_soundboard_copy_that.mp3`
@@ -166,9 +168,9 @@ Example fields from the live set:
 
 ## Audio asset generation
 
-The current first-pass Cindy clips were generated into `preserved_voice` and are meant to be playable by filename through the voice bridge.
+The first-pass Cindy clips were generated into `preserved_voice` and were meant to be playable by filename through the voice bridge.
 
-The important design rule is:
+The useful design rule was:
 
 - the soundboard catalog references stable filenames
 - the voice bridge resolves playback by local filename, not by Discord text parsing
@@ -186,14 +188,9 @@ To rebuild this subsystem from scratch, a new system would need:
 
 The key lesson is that **bot-to-self text commands are the wrong control path**. The reliable control path is local IPC (queue, socket, or local HTTP) into the voice process.
 
-## Better future versions
+## Maintenance status
 
-A more mature version would likely replace the queue-directory bridge with one of these:
-
-- local HTTP playback endpoint inside the voice bridge
-- local Unix socket / named pipe
-- SQLite-backed request queue with status fields
-- explicit observability page for queued/playing/failed clip state
+Do not spend maintenance time on this soundboard unless the GM explicitly revives it. Future Cindy voice work should favor generated/saved voice lines and direct GM-triggered playback commands over a maintained button-board UI.
 
 ## Related pages
 
