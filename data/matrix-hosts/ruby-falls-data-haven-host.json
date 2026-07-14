@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "ruby-falls-data-haven-host",
+  "name": "Ruby Falls Data Haven Host",
+  "wikiPage": "Tech/Matrix/Ruby-Falls-Data-Haven-Host.md",
+  "securityCode": "green/red-partitioned",
+  "securityValue": 6,
+  "hostRating": 6,
+  "shutdownTally": 30,
+  "subsystem": {
+    "access": 6,
+    "control": 6,
+    "index": 6,
+    "files": 6,
+    "slave": 5,
+    "memberAccess": 8,
+    "educationIndex": 8,
+    "sourceFiles": 10,
+    "archiveFiles": 12,
+    "adminAccess": 14,
+    "adminIndex": 14,
+    "adminSlave": 14,
+    "adminControl": 16,
+    "adminFiles": 16,
+    "trusteeRoot": 20
+  },
+  "taskTargetNumbers": {
+    "logon": 6,
+    "browsePublic": 4,
+    "memberAccess": 8,
+    "educationIndex": 8,
+    "sourceProtection": 10,
+    "verifyData": 9,
+    "archiveAccess": 12,
+    "adminAccess": 14,
+    "adminIndex": 14,
+    "adminSlave": 14,
+    "adminControl": 16,
+    "adminFiles": 16,
+    "trusteeRoot": 20,
+    "evadeTrace": 8,
+    "fightIc": 10
+  },
+  "securitySheaf": [
+    { "threshold": 3, "label": "Courtesy Probe", "effect": "Ruby Falls politely fingerprints the visitor route and checks whether the icon belongs where it claims." },
+    { "threshold": 7, "label": "Source-Safety Trace", "effect": "The haven starts tracing whether the route could endanger a source or community node." },
+    { "threshold": 11, "label": "Archive Scramble", "effect": "Public shelves stay readable, but sensitive references blur behind librarian-noise and checksum fog." },
+    { "threshold": 15, "label": "Quiet Tar Baby", "effect": "A polite but firm restraint tries to keep the icon from wandering deeper while maintainers decide what to do." },
+    { "threshold": 20, "label": "Trustee Tripwire", "effect": "The admin boundary has noticed a serious violation and begins sealing routes." },
+    { "threshold": 26, "label": "Falls Lockdown", "effect": "Ruby Falls treats the run as a threat to haven integrity and prepares to forcibly end the connection." }
+  ],
+  "sculpting": "A glowing cavern-library under Lookout Mountain: public zine tables, anti-authoritarian posters, underground streams, ham-radio benches, church-basement archive cabinets, and quiet locked doors that do not need to look scary to be serious.",
+  "notes": "Data haven profile. Public side is intentionally open and generous. Member education rooms explain decker practice and haven ethics. Admin/root routes are high-TN boundaries only; do not reveal internal admin Host content yet. Mevin's ad-hoc -10 TN access advantage should be added manually by the GM if used, not baked into this profile.",
+  "flow": {
+    "startNodeId": "ruby-falls-front-waterfall",
+    "nodes": [
+      {
+        "id": "ruby-falls-front-waterfall",
+        "title": "Ruby Falls Public Waterfall",
+        "kind": "entry",
+        "description": "A red-lit underground waterfall pours into a public cavern-library. Zine tables, public data shelves, and beginner decker signs are open to anyone who arrives respectfully. Deeper member and admin doors are visible but very much not public.",
+        "choices": [
+          { "label": "Enter the public commons", "to": "public-commons" },
+          { "label": "Use Mevin's member route", "to": "member-route-check", "testId": "memberAccess", "unlockSuccesses": 1, "targetNumber": 8 },
+          { "label": "Test the sealed admin boundary", "to": "admin-boundary-warning", "testId": "adminAccess", "unlockSuccesses": 2, "targetNumber": 14, "securityValue": 10 }
+        ]
+      },
+      {
+        "id": "public-commons",
+        "title": "Public Commons Cavern",
+        "kind": "public",
+        "description": "This is the open face of Ruby Falls: generous, anti-authoritarian, and careful. Public goods are freely available, but nothing here gives access to protected sources or haven administration.",
+        "choices": [
+          { "label": "Browse the public zine rack", "to": "public-zine-rack" },
+          { "label": "Visit the new decker orientation pool", "to": "new-decker-orientation" },
+          { "label": "Step to the central open slot", "to": "central-open-slot" },
+          { "label": "Return to the front waterfall", "to": "ruby-falls-front-waterfall" }
+        ]
+      },
+      {
+        "id": "central-open-slot",
+        "title": "Central Open Slot",
+        "kind": "tool-placeholder",
+        "description": "At the center of the public cavern is an intentionally open work-surface: a smooth stone table, a blank wall of light, and enough routing hooks to become something reusable later. This node is reserved for a future special tool and does not define that tool yet.",
+        "choices": [
+          { "label": "", "to": "central-open-slot-note" },
+          { "label": "Return to the public commons", "to": "public-commons" }
+        ]
+      },
+      {
+        "id": "central-open-slot-note",
+        "title": "Reserved Tool Socket",
+        "kind": "confirmation",
+        "description": "Placeholder only: tell the GM you reached the central reusable-tool socket. No action is defined here yet.",
+        "choices": [
+          { "label": "Return to the central open slot", "to": "central-open-slot" }
+        ]
+      },
+      {
+        "id": "public-zine-rack",
+        "title": "Public Zine Rack",
+        "kind": "public",
+        "description": "Pamphlets, civic-data packets, and anti-authoritarian explainers sit in neat piles: know your rights, protect your sources, do not trust clean municipal dashboards, and never bring heat back to a haven.",
+        "choices": [
+          { "label": "Copy public goods and mutual-aid links", "to": "public-goods-cache" },
+          { "label": "Return to the public commons", "to": "public-commons" }
+        ]
+      },
+      {
+        "id": "public-goods-cache",
+        "title": "Public Goods Cache",
+        "kind": "public",
+        "description": "You can freely copy public-interest materials: mutual-aid lists, sanitized civic records, repair notes, legal-rights primers, and public anti-authoritarian reading packets. No private data or paydata is present.",
+        "choices": [
+          { "label": "Return to the zine rack", "to": "public-zine-rack" }
+        ]
+      },
+      {
+        "id": "new-decker-orientation",
+        "title": "New Decker Orientation Pool",
+        "kind": "public",
+        "description": "A shallow glowing pool projects lessons for beginners: what a host is, why source safety matters, how not to get traced, why bragging burns friends, and why a haven is not a trophy case.",
+        "choices": [
+          { "label": "Study basic route hygiene", "to": "route-hygiene-switchback" },
+          { "label": "Study public utility practice", "to": "utility-practice-alcove" },
+          { "label": "Return to the public commons", "to": "public-commons" }
+        ]
+      },
+      {
+        "id": "member-route-check",
+        "title": "Member Route Check",
+        "kind": "secure-entry",
+        "description": "The member route does not ask for a password so much as a pattern of trust: route hygiene, known handle behavior, and whether the icon is carrying trouble behind it.",
+        "choices": [
+          { "label": "Enter the member education switchback", "to": "member-education-hub", "testId": "educationIndex", "unlockSuccesses": 1, "targetNumber": 8 }
+        ]
+      },
+      {
+        "id": "member-education-hub",
+        "title": "Member Education Switchback",
+        "kind": "member",
+        "description": "This is not an archive vault. It is a teaching layer for people trusted enough to learn more: source protection, verification, route discipline, and how to leave less harm behind than you found.",
+        "choices": [
+          { "label": "Route hygiene switchback", "to": "route-hygiene-switchback", "testId": "educationIndex", "unlockSuccesses": 1, "targetNumber": 8 },
+          { "label": "Source protection chapel", "to": "source-protection-chapel", "testId": "sourceProtection", "unlockSuccesses": 1, "targetNumber": 10 },
+          { "label": "Verification table", "to": "verification-table", "testId": "verifyData", "unlockSuccesses": 1, "targetNumber": 9 },
+          { "label": "Sealed member archive stacks", "to": "sealed-member-archive", "testId": "archiveAccess", "unlockSuccesses": 2, "targetNumber": 12 },
+          { "label": "Return to public commons", "to": "public-commons" }
+        ]
+      },
+      {
+        "id": "route-hygiene-switchback",
+        "title": "Route Hygiene Switchback",
+        "kind": "education",
+        "description": "A carved switchback trail shows how to enter, ask, copy, and leave without dragging a trace back to the haven. The lesson is blunt: your route is part of everyone else's safety.",
+        "choices": [
+          { "label": "Make a note: route hygiene lesson reviewed", "to": "member-education-hub" }
+        ]
+      },
+      {
+        "id": "utility-practice-alcove",
+        "title": "Utility Practice Alcove",
+        "kind": "education",
+        "description": "Toy hosts demonstrate Analyze, Browse, Deception, Validate, and Read/Write against safe examples. The room explains concepts; it does not provide actual utilities or paydata.",
+        "choices": [
+          { "label": "Return to orientation", "to": "new-decker-orientation" }
+        ]
+      },
+      {
+        "id": "source-protection-chapel",
+        "title": "Source Protection Chapel",
+        "kind": "education",
+        "description": "A quiet room teaches consent, redaction, chain of custody, and when not to publish. The wall text repeats: knowledge wants to be free; sources do not.",
+        "choices": [
+          { "label": "Return to member education", "to": "member-education-hub" }
+        ]
+      },
+      {
+        "id": "verification-table",
+        "title": "Verification Table",
+        "kind": "education",
+        "description": "A worktable offers examples of leaks, rumors, planted bait, forged records, and partial truths. Tell the GM you reviewed Ruby Falls verification practice; this is explanatory, not a data reward.",
+        "choices": [
+          { "label": "Return to member education", "to": "member-education-hub" }
+        ]
+      },
+      {
+        "id": "sealed-member-archive",
+        "title": "Sealed Member Archive Stacks",
+        "kind": "member-boundary",
+        "description": "Locked archive cabinets line the cavern wall. You can tell this is where real source-sensitive material begins, but the haven does not expose content casually. There is no paydata prize here; access would require GM-guided context.",
+        "choices": [
+          { "label": "Back away from the sealed stacks", "to": "member-education-hub" },
+          { "label": "Try to read trustee routing labels", "to": "admin-boundary-warning", "testId": "adminIndex", "unlockSuccesses": 2, "targetNumber": 14, "securityValue": 10 }
+        ]
+      },
+      {
+        "id": "admin-boundary-warning",
+        "title": "Admin Boundary Warning",
+        "kind": "admin-boundary",
+        "description": "The cavern stops pretending to be educational. A simple locked stone door says: trustee operations, source-key custody, archive integrity, and root controls are not part of your access. This node reveals only the boundary, not the inner Host.",
+        "choices": [
+          { "label": "Attempt trustee source-key custody", "to": "admin-source-key-wall", "testId": "adminFiles", "unlockSuccesses": 3, "targetNumber": 16, "securityValue": 12 },
+          { "label": "Attempt root operations route", "to": "admin-root-wall", "testId": "trusteeRoot", "unlockSuccesses": 4, "targetNumber": 20, "securityValue": 14 },
+          { "label": "Back away from the admin boundary", "to": "ruby-falls-front-waterfall", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 8, "securityValue": 8 }
+        ]
+      },
+      {
+        "id": "admin-source-key-wall",
+        "title": "Source-Key Custody Wall",
+        "kind": "admin-boundary",
+        "description": "You reach only a custody wall. It confirms that source keys and sensitive archive access exist somewhere deeper, but it does not reveal the contents, operators, or true route.",
+        "choices": [
+          { "label": "Retreat from source-key custody", "to": "admin-boundary-warning", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 10, "securityValue": 10 }
+        ]
+      },
+      {
+        "id": "admin-root-wall",
+        "title": "Trustee Root Wall",
+        "kind": "admin-boundary",
+        "description": "No map appears. No vault opens. The root wall tells you only that you have reached a place reserved for Ruby Falls trustees and maintainers. Continuing here should be a GM-level decision, not a routine crawl reward.",
+        "choices": [
+          { "label": "Retreat from trustee root", "to": "admin-boundary-warning", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 12, "securityValue": 12 }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Clean Exit",
+        "kind": "exit",
+        "description": "The waterfall noise fades behind the icon. Ruby Falls lets respectful visitors leave quietly.",
+        "choices": []
+      }
+    ]
+  }
+}

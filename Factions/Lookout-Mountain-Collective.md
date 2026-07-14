@@ -43,7 +43,7 @@ The Collective is less a gang than a mutual-aid mesh: deckers, archivists, signa
 
 ## Resources
 
-- **Ruby Falls data haven:** the Collective's crown jewel and Mevin's access point. Host details are intentionally not sketched yet.
+- **Ruby Falls data haven:** the Collective's crown jewel and Mevin's access point. Its public-facing Matrix profile is tracked at [Ruby Falls Data Haven Host](../Tech/Matrix/Ruby-Falls-Data-Haven-Host.md).
 - A distributed network of local deckers, archivists, and infrastructure watchers.
 - Backups of municipal leaks, utility maps, rail schedules, old newsfeeds, and nonprofit/church/civic records.
 - Social credibility among some Chattanooga activists, repair crews, and local-grid regulars.
@@ -81,6 +81,7 @@ They are friendly enough once trust is established, but they are not casual. A d
 - [Alvin Flang](../NPCs/Alvin-Flang.md)
 - [Pixel Sticks](Pixel-Sticks.md)
 - [Matrix Hosts](../Tech/Matrix/README.md)
+- [Ruby Falls Data Haven Host](../Tech/Matrix/Ruby-Falls-Data-Haven-Host.md)
 
 ## Open Questions
 
