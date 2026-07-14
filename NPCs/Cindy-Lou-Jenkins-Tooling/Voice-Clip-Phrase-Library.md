@@ -57,15 +57,56 @@ No fresh generated voice lines have been tallied yet.
 
 <!-- CINDY_NEEDED_WORDS_END -->
 
-## Current 32-clip library
+## Folder + manifest workflow
 
-Source voice test: Taylor-source XTTS-v2 reference from the 2026-07-12 cleared interview sample.
+The bridge now discovers clips from the library folder instead of requiring every filename to be hardcoded in `voice_chat.py`.
 
 Local generated clip folder:
 
 ```text
 /Volumes/carbonite/claw/data/cindylou/voice-clone-samples/youtube_T34mD_vHvdA/soundboard_library_20260714/
 ```
+
+Manifest path:
+
+```text
+/Volumes/carbonite/claw/data/cindylou/voice-clone-samples/youtube_T34mD_vHvdA/soundboard_library_20260714/manifest.json
+```
+
+Drop-in behavior:
+
+1. Add a new `.mp3`, `.wav`, `.ogg`, `.aiff`, or `.m4a` file to the clip folder.
+2. Use a useful filename such as `35_positive_confirm.mp3`; the bridge strips the leading number and infers clip id `positive_confirm`.
+3. Optional but preferred: add a matching `.txt` sidecar with the spoken phrase, for example `35_positive_confirm.txt`.
+4. On startup or the next quick-clip selection pass, the bridge scans the folder, probes duration with `ffprobe`, infers phrase/tags from the filename or sidecar, and updates `manifest.json`.
+5. To tune behavior, edit the manifest entry's `tags`, `priority`, or `enabled` value. No bridge code change is needed for ordinary new clips.
+
+Manifest entry template:
+
+```json
+{
+  "id": "positive_confirm",
+  "filename": "35_positive_confirm.mp3",
+  "phrase": "That's right, honey.",
+  "tags": ["yes", "confirm", "flavor"],
+  "priority": 100,
+  "enabled": true,
+  "duration_seconds": 1.35,
+  "source": "folder-scan"
+}
+```
+
+Tag guidance:
+
+- `yes`, `no` - generic affirmative/negative clips.
+- `safe`, `unsafe`, `safety_positive`, `safety_negative` - explicit safety answers.
+- `matrix`, `host`, `ic`, `trace`, `deck` - Matrix-context clips.
+- `ack`, `processing`, `warning`, `success`, `memory`, `gm_handoff`, `flavor` - common behavior buckets.
+- Higher `priority` wins when multiple enabled clips match the same tag set.
+
+## Current 34-clip library
+
+Source voice test: Taylor-source XTTS-v2 reference from the 2026-07-12 cleared interview sample.
 
 | # | Clip id | Phrase | Primary use |
 | --- | --- | --- | --- |
@@ -101,6 +142,8 @@ Local generated clip folder:
 | 30 | `try_it_now` | Try it now. | Action-ready cue |
 | 31 | `yes_thats_safe` | Yes, that's safe. | Explicit positive safety answer |
 | 32 | `no_thats_not_safe` | No, that's not safe. | Explicit negative safety answer |
+| 33 | `thats_right_honey` | That's right, honey. | Generic flavored yes / confirmation |
+| 34 | `no_way_sugar` | No way, sugar. | Generic flavored no / rejection |
 
 ## Expected trigger behavior
 
@@ -124,8 +167,8 @@ Current default mappings:
 | IC / intrusion countermeasure danger | `hold_up` -> `ic_is_waking_up` |
 | Roll / test / target-number prompt | `copy_that` -> `need_a_roll` |
 | Remember / mark / note / save request | `marking_that` -> `saved_to_memory` |
-| Unsafe host/decking question | `no_thats_not_safe` -> `lemme_check_grid` -> `eyes_on_the_host` |
-| Safe/ready decking question | `yes_thats_safe` -> `that_tracks` |
+| Unsafe host/decking question | best enabled `no` + `flavor` clip -> `lemme_check_grid` -> `eyes_on_the_host` |
+| Safe/ready decking question | best enabled `yes` + `flavor` clip -> `that_tracks` |
 | Matrix planning or host/security opening | `lemme_check_grid` -> `eyes_on_the_host` |
 | Technical stall | `copy_that` -> `running_it_now` |
 | Explicit Cindy relevance | `on_it_sugar` -> `running_it_now` |
