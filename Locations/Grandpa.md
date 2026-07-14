@@ -4,7 +4,7 @@ type: vehicle
 visibility: player-safe
 status: active
 first_session: 2026-03-20
-last_updated_session: 2026-04-11
+last_updated_session: 2026-06-26
 canon_status: provisional
 confidence: medium
 tags: [vehicle, rv, mobile-base, rigger, curtis]
@@ -29,6 +29,10 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 - **Body/Armor:** 4/4
 - **Signature:** 3
 - **Cargo:** 67/1918
+
+## Installed Equipment
+
+- **Morphing license plate:** linked to Grandpa's onboard computer; can reprogram plate color and embossed characters as a Complex Action. Cost paid by Curtis: **5,000¥**. Rules source: *Rigger 3 Revised*, p. 102-103.
 
 ## Core Notes
 

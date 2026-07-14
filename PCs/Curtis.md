@@ -86,7 +86,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Current sheet-backed core stats: **BOD 4**, **QUI 6**, **STR 5**, **CHA 1**, **INT 5**, **WIL 5**, **Essence 1.84**, **Reaction 5**, **Initiative 5+1D6**, **Magic -**.
 - Key crew tags: **Very Short**, **Ex-Caribbean Smuggler**.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
-- Current funds note preserved in dossier: **660¥** current nuyen balance (**210¥** after retrofit spending, then **+450¥** added on 2026-04-30).
+- Current funds note preserved in dossier: **2,960¥** current nuyen balance (**210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, and **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft).
 - Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock.
 - He is actively building a **dolphin and hurricane seal habitat** for the possible relocation/rescue of **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
