@@ -113,7 +113,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 ## Drone Shift
 
-- [Tutorial 2: Grandpa's Back-Step Rattle](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) — daily prototype maintenance/repair shift for Curtis. Tutorial 1 rotated out as discarded with no nuyen movement, no drone or vehicle state change, and no penalty; final reports should be reviewed by Cindy/GM before any permanent drone, vehicle, or nuyen changes are applied.
+- [Tutorial 3: Belmont's Track-Tension Creep](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) — daily prototype maintenance/repair shift for Curtis. Tutorial 2 rotates out cleanly: completed reports stay logged, and any untouched copy is discarded with no nuyen movement, no drone state change, and no penalty; final reports should be reviewed by Cindy/GM before any permanent drone, vehicle, or nuyen changes are applied.
 
 ### Completed Work Orders
 
