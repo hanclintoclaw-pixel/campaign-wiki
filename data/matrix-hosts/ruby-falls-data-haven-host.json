@@ -22,7 +22,10 @@
     "adminSlave": 14,
     "adminControl": 16,
     "adminFiles": 16,
-    "trusteeRoot": 20
+    "trusteeRoot": 20,
+    "paydataBroker": 6,
+    "paydataAppraisal": 8,
+    "paydataAuction": 10
   },
   "taskTargetNumbers": {
     "logon": 6,
@@ -39,18 +42,45 @@
     "adminFiles": 16,
     "trusteeRoot": 20,
     "evadeTrace": 8,
-    "fightIc": 10
+    "fightIc": 10,
+    "paydataBroker": 6,
+    "paydataAppraisal": 8,
+    "paydataAuction": 10
   },
   "securitySheaf": [
-    { "threshold": 3, "label": "Courtesy Probe", "effect": "Ruby Falls politely fingerprints the visitor route and checks whether the icon belongs where it claims." },
-    { "threshold": 7, "label": "Source-Safety Trace", "effect": "The haven starts tracing whether the route could endanger a source or community node." },
-    { "threshold": 11, "label": "Archive Scramble", "effect": "Public shelves stay readable, but sensitive references blur behind librarian-noise and checksum fog." },
-    { "threshold": 15, "label": "Quiet Tar Baby", "effect": "A polite but firm restraint tries to keep the icon from wandering deeper while maintainers decide what to do." },
-    { "threshold": 20, "label": "Trustee Tripwire", "effect": "The admin boundary has noticed a serious violation and begins sealing routes." },
-    { "threshold": 26, "label": "Falls Lockdown", "effect": "Ruby Falls treats the run as a threat to haven integrity and prepares to forcibly end the connection." }
+    {
+      "threshold": 3,
+      "label": "Courtesy Probe",
+      "effect": "Ruby Falls politely fingerprints the visitor route and checks whether the icon belongs where it claims."
+    },
+    {
+      "threshold": 7,
+      "label": "Source-Safety Trace",
+      "effect": "The haven starts tracing whether the route could endanger a source or community node."
+    },
+    {
+      "threshold": 11,
+      "label": "Archive Scramble",
+      "effect": "Public shelves stay readable, but sensitive references blur behind librarian-noise and checksum fog."
+    },
+    {
+      "threshold": 15,
+      "label": "Quiet Tar Baby",
+      "effect": "A polite but firm restraint tries to keep the icon from wandering deeper while maintainers decide what to do."
+    },
+    {
+      "threshold": 20,
+      "label": "Trustee Tripwire",
+      "effect": "The admin boundary has noticed a serious violation and begins sealing routes."
+    },
+    {
+      "threshold": 26,
+      "label": "Falls Lockdown",
+      "effect": "Ruby Falls treats the run as a threat to haven integrity and prepares to forcibly end the connection."
+    }
   ],
   "sculpting": "A glowing cavern-library under Lookout Mountain: public zine tables, anti-authoritarian posters, underground streams, ham-radio benches, church-basement archive cabinets, and quiet locked doors that do not need to look scary to be serious.",
-  "notes": "Data haven profile. Public side is intentionally open and generous. Member education rooms explain decker practice and haven ethics. Admin/root routes are high-TN boundaries only; do not reveal internal admin Host content yet. Mevin's ad-hoc -10 TN access advantage should be added manually by the GM if used, not baked into this profile.",
+  "notes": "Data haven profile. Public side is intentionally open and generous. Member education rooms explain decker practice and haven ethics. The central open slot now hosts Sister Anode's Ruby Falls Paydata Broker, a reusable post-run paydata fencing worksheet based on SR3 Paydata Points. Admin/root routes are high-TN boundaries only; do not reveal internal admin Host content yet. Mevin's ad-hoc -10 TN access advantage should be added manually by the GM if used, not baked into this profile.",
   "flow": {
     "startNodeId": "ruby-falls-front-waterfall",
     "nodes": [
@@ -60,9 +90,25 @@
         "kind": "entry",
         "description": "A red-lit underground waterfall pours into a public cavern-library. Zine tables, public data shelves, and beginner decker signs are open to anyone who arrives respectfully. Deeper member and admin doors are visible but very much not public.",
         "choices": [
-          { "label": "Enter the public commons", "to": "public-commons" },
-          { "label": "Use Mevin's member route", "to": "member-route-check", "testId": "memberAccess", "unlockSuccesses": 1, "targetNumber": 8 },
-          { "label": "Test the sealed admin boundary", "to": "admin-boundary-warning", "testId": "adminAccess", "unlockSuccesses": 2, "targetNumber": 14, "securityValue": 10 }
+          {
+            "label": "Enter the public commons",
+            "to": "public-commons"
+          },
+          {
+            "label": "Use Mevin's member route",
+            "to": "member-route-check",
+            "testId": "memberAccess",
+            "unlockSuccesses": 1,
+            "targetNumber": 8
+          },
+          {
+            "label": "Test the sealed admin boundary",
+            "to": "admin-boundary-warning",
+            "testId": "adminAccess",
+            "unlockSuccesses": 2,
+            "targetNumber": 14,
+            "securityValue": 10
+          }
         ]
       },
       {
@@ -71,29 +117,139 @@
         "kind": "public",
         "description": "This is the open face of Ruby Falls: generous, anti-authoritarian, and careful. Public goods are freely available, but nothing here gives access to protected sources or haven administration.",
         "choices": [
-          { "label": "Browse the public zine rack", "to": "public-zine-rack" },
-          { "label": "Visit the new decker orientation pool", "to": "new-decker-orientation" },
-          { "label": "Step to the central open slot", "to": "central-open-slot" },
-          { "label": "Return to the front waterfall", "to": "ruby-falls-front-waterfall" }
+          {
+            "label": "Browse the public zine rack",
+            "to": "public-zine-rack"
+          },
+          {
+            "label": "Visit the new decker orientation pool",
+            "to": "new-decker-orientation"
+          },
+          {
+            "label": "Step to the central open slot",
+            "to": "central-open-slot"
+          },
+          {
+            "label": "Return to the front waterfall",
+            "to": "ruby-falls-front-waterfall"
+          }
         ]
       },
       {
         "id": "central-open-slot",
         "title": "Central Open Slot",
         "kind": "tool-placeholder",
-        "description": "At the center of the public cavern is an intentionally open work-surface: a smooth stone table, a blank wall of light, and enough routing hooks to become something reusable later. This node is reserved for a future special tool and does not define that tool yet.",
+        "description": "At the center of the public cavern is Sister Anode's paydata broker table: a smooth stone work-surface, a blank wall of light, and a polite warning that Ruby Falls buys information without selling out sources. This is the reusable post-run paydata fencing node.",
         "choices": [
-          { "label": "", "to": "central-open-slot-note" },
-          { "label": "Return to the public commons", "to": "public-commons" }
+          {
+            "label": "Open Sister Anode's paydata broker table",
+            "to": "ruby-falls-paydata-broker"
+          },
+          {
+            "label": "Return to the public commons",
+            "to": "public-commons"
+          }
         ]
       },
       {
-        "id": "central-open-slot-note",
-        "title": "Reserved Tool Socket",
-        "kind": "confirmation",
-        "description": "Placeholder only: tell the GM you reached the central reusable-tool socket. No action is defined here yet.",
+        "id": "ruby-falls-paydata-broker",
+        "title": "Sister Anode's Paydata Broker Table",
+        "kind": "tool",
+        "description": "Rosalind 'Sister Anode' Pike receives paydata at a stone table under the waterfall-light. This node is a reusable Ruby Falls paydata broker worksheet, not a paydata source. Input the recovered Paydata Points, age in days, source quality, and sale mode. Canon anchor: SR3 Matrix paydata starts at 5,000 nuyen per Paydata Point and ordinary stolen paydata loses value quickly if not sold. Base value = Paydata Points x 5,000 nuyen. Freshness multiplier: Day 0 100%, Day 1 90%, Day 2 75%, Day 3 55%, Day 4 35%, Day 5+ 20% unless GM marks the file as story-specific or archival. Quality modifier: clean 100%, partial 65%, messy 45%, radioactive/hot 85% before Ruby Falls cut but increase heat. Sale modes: Quick Buyout pays fast and stable; Haven Listing balances payout and safety; Blind Auction is swingy with the highest ceiling. Make the sale roll outside this Host node. Suggested roll: 2D6 plus GM modifiers for relevance, tags, buyer interest, and quality. Ruby Falls cut is already represented in the final payout percentage. Sister Anode may refuse or quarantine data that endangers sources, exposes innocents, or looks like bait.",
         "choices": [
-          { "label": "Return to the central open slot", "to": "central-open-slot" }
+          {
+            "label": "Quick Buyout: immediate Ruby Falls purchase",
+            "to": "ruby-falls-paydata-quick-buyout",
+            "testId": "paydataBroker",
+            "unlockSuccesses": 1,
+            "targetNumber": 6
+          },
+          {
+            "label": "Haven Listing: protected buyer pool",
+            "to": "ruby-falls-paydata-haven-listing",
+            "testId": "paydataAppraisal",
+            "unlockSuccesses": 1,
+            "targetNumber": 8
+          },
+          {
+            "label": "Blind Auction: anonymous high-upside sale",
+            "to": "ruby-falls-paydata-blind-auction",
+            "testId": "paydataAuction",
+            "unlockSuccesses": 1,
+            "targetNumber": 10
+          },
+          {
+            "label": "Quarantine or refuse unsafe data",
+            "to": "ruby-falls-paydata-quarantine"
+          },
+          {
+            "label": "Return to the central open slot",
+            "to": "central-open-slot"
+          }
+        ]
+      },
+      {
+        "id": "ruby-falls-paydata-quick-buyout",
+        "title": "Ruby Falls Quick Buyout",
+        "kind": "permanent-outcome",
+        "description": "QUICK BUYOUT OUTPUT TEMPLATE — Sister Anode buys the paydata directly or routes it to a trusted standing buyer. Use when Mevin wants immediate cash and low table overhead. Formula: adjusted value = Paydata Points x 5,000 nuyen x freshness x quality. Payout = adjusted value x (40% + 5% per sale-roll success, maximum 65%). Close time: immediate. Heat: low unless data is tagged hot/radioactive. Discord report for Cindy/GM: @CindyLouBot RUBY FALLS PAYDATA SALE — Seller: Mevin. Broker: Sister Anode / Ruby Falls. Mode: Quick Buyout. Paydata Points: __. Age: __ day(s). Tags/quality: __. Base value: __ nuyen. Freshness/quality adjusted value: __ nuyen. Sale roll: __. Ruby Falls cut/discount applied. Final payout / Nuyen delta: +__ nuyen. Heat/status note: __. Cindy ingest note: update Mevin's nuyen total by the final payout and record this as a Ruby Falls paydata sale.",
+        "choices": [
+          {
+            "label": "Return to Sister Anode's broker table",
+            "to": "ruby-falls-paydata-broker"
+          },
+          {
+            "label": "Return to the public commons",
+            "to": "public-commons"
+          }
+        ]
+      },
+      {
+        "id": "ruby-falls-paydata-haven-listing",
+        "title": "Ruby Falls Haven Listing",
+        "kind": "permanent-outcome",
+        "description": "HAVEN LISTING OUTPUT TEMPLATE — Sister Anode lists the paydata inside Ruby Falls under protected terms. Use for normal post-run fencing when Mevin can wait and wants a safer, better-vetted buyer pool. Formula: adjusted value = Paydata Points x 5,000 nuyen x freshness x quality. Payout = adjusted value x (55% + 7% per sale-roll success, maximum 90%). Close time: 1D3 days, or immediate if the GM wants to resolve downtime now. Heat: moderate; source-safety review may delay or redact. Discord report for Cindy/GM: @CindyLouBot RUBY FALLS PAYDATA SALE — Seller: Mevin. Broker: Sister Anode / Ruby Falls. Mode: Haven Listing. Paydata Points: __. Age: __ day(s). Tags/quality: __. Base value: __ nuyen. Freshness/quality adjusted value: __ nuyen. Sale roll: __. Listing close time: __. Final payout / Nuyen delta: +__ nuyen. Heat/status note: __. Cindy ingest note: update Mevin's nuyen total by the final payout when the listing closes and record this as a Ruby Falls paydata sale.",
+        "choices": [
+          {
+            "label": "Return to Sister Anode's broker table",
+            "to": "ruby-falls-paydata-broker"
+          },
+          {
+            "label": "Return to the public commons",
+            "to": "public-commons"
+          }
+        ]
+      },
+      {
+        "id": "ruby-falls-paydata-blind-auction",
+        "title": "Ruby Falls Blind Auction",
+        "kind": "permanent-outcome",
+        "description": "BLIND AUCTION OUTPUT TEMPLATE — Ruby Falls anonymizes the source, posts a protected summary, and lets vetted buyers bid. Use for spicy or high-interest paydata when upside matters more than speed. Formula: adjusted value = Paydata Points x 5,000 nuyen x freshness x quality. Payout = adjusted value x (35% + 15% per sale-roll success, maximum 150%). Close time: 1D6 days by default; 1 hour to 1 week if the GM wants a specific auction window. Heat: higher; buyer weirdness, source-safety concerns, or corp buyback interest can become hooks. Discord report for Cindy/GM: @CindyLouBot RUBY FALLS PAYDATA SALE — Seller: Mevin. Broker: Sister Anode / Ruby Falls. Mode: Blind Auction. Paydata Points: __. Age: __ day(s). Tags/quality: __. Base value: __ nuyen. Freshness/quality adjusted value: __ nuyen. Sale roll: __. Auction window: __. Final payout / Nuyen delta: +__ nuyen. Heat/status note: __. Cindy ingest note: update Mevin's nuyen total by the final payout when the auction resolves and record this as a Ruby Falls paydata sale.",
+        "choices": [
+          {
+            "label": "Return to Sister Anode's broker table",
+            "to": "ruby-falls-paydata-broker"
+          },
+          {
+            "label": "Return to the public commons",
+            "to": "public-commons"
+          }
+        ]
+      },
+      {
+        "id": "ruby-falls-paydata-quarantine",
+        "title": "Ruby Falls Source-Safety Quarantine",
+        "kind": "permanent-outcome",
+        "description": "SOURCE-SAFETY QUARANTINE — Sister Anode refuses to sell immediately. Use when the paydata is bait, exposes innocents, contains live source identifiers, or needs redaction before sale. No nuyen changes hands yet. Discord report for Cindy/GM: @CindyLouBot RUBY FALLS PAYDATA SALE — Seller: Mevin. Broker: Sister Anode / Ruby Falls. Mode: Quarantine / Refused for now. Paydata Points: __. Age: __ day(s). Tags/quality: __. Reason: __. Final payout / Nuyen delta: +0 nuyen for now. Cindy ingest note: do not update Mevin's nuyen yet; record the pending Ruby Falls quarantine/review item.",
+        "choices": [
+          {
+            "label": "Return to Sister Anode's broker table",
+            "to": "ruby-falls-paydata-broker"
+          },
+          {
+            "label": "Return to the public commons",
+            "to": "public-commons"
+          }
         ]
       },
       {
@@ -102,8 +258,14 @@
         "kind": "public",
         "description": "Pamphlets, civic-data packets, and anti-authoritarian explainers sit in neat piles: know your rights, protect your sources, do not trust clean municipal dashboards, and never bring heat back to a haven.",
         "choices": [
-          { "label": "Copy public goods and mutual-aid links", "to": "public-goods-cache" },
-          { "label": "Return to the public commons", "to": "public-commons" }
+          {
+            "label": "Copy public goods and mutual-aid links",
+            "to": "public-goods-cache"
+          },
+          {
+            "label": "Return to the public commons",
+            "to": "public-commons"
+          }
         ]
       },
       {
@@ -112,7 +274,10 @@
         "kind": "public",
         "description": "You can freely copy public-interest materials: mutual-aid lists, sanitized civic records, repair notes, legal-rights primers, and public anti-authoritarian reading packets. No private data or paydata is present.",
         "choices": [
-          { "label": "Return to the zine rack", "to": "public-zine-rack" }
+          {
+            "label": "Return to the zine rack",
+            "to": "public-zine-rack"
+          }
         ]
       },
       {
@@ -121,9 +286,18 @@
         "kind": "public",
         "description": "A shallow glowing pool projects lessons for beginners: what a host is, why source safety matters, how not to get traced, why bragging burns friends, and why a haven is not a trophy case.",
         "choices": [
-          { "label": "Study basic route hygiene", "to": "route-hygiene-switchback" },
-          { "label": "Study public utility practice", "to": "utility-practice-alcove" },
-          { "label": "Return to the public commons", "to": "public-commons" }
+          {
+            "label": "Study basic route hygiene",
+            "to": "route-hygiene-switchback"
+          },
+          {
+            "label": "Study public utility practice",
+            "to": "utility-practice-alcove"
+          },
+          {
+            "label": "Return to the public commons",
+            "to": "public-commons"
+          }
         ]
       },
       {
@@ -132,7 +306,13 @@
         "kind": "secure-entry",
         "description": "The member route does not ask for a password so much as a pattern of trust: route hygiene, known handle behavior, and whether the icon is carrying trouble behind it.",
         "choices": [
-          { "label": "Enter the member education switchback", "to": "member-education-hub", "testId": "educationIndex", "unlockSuccesses": 1, "targetNumber": 8 }
+          {
+            "label": "Enter the member education switchback",
+            "to": "member-education-hub",
+            "testId": "educationIndex",
+            "unlockSuccesses": 1,
+            "targetNumber": 8
+          }
         ]
       },
       {
@@ -141,11 +321,38 @@
         "kind": "member",
         "description": "This is not an archive vault. It is a teaching layer for people trusted enough to learn more: source protection, verification, route discipline, and how to leave less harm behind than you found.",
         "choices": [
-          { "label": "Route hygiene switchback", "to": "route-hygiene-switchback", "testId": "educationIndex", "unlockSuccesses": 1, "targetNumber": 8 },
-          { "label": "Source protection chapel", "to": "source-protection-chapel", "testId": "sourceProtection", "unlockSuccesses": 1, "targetNumber": 10 },
-          { "label": "Verification table", "to": "verification-table", "testId": "verifyData", "unlockSuccesses": 1, "targetNumber": 9 },
-          { "label": "Sealed member archive stacks", "to": "sealed-member-archive", "testId": "archiveAccess", "unlockSuccesses": 2, "targetNumber": 12 },
-          { "label": "Return to public commons", "to": "public-commons" }
+          {
+            "label": "Route hygiene switchback",
+            "to": "route-hygiene-switchback",
+            "testId": "educationIndex",
+            "unlockSuccesses": 1,
+            "targetNumber": 8
+          },
+          {
+            "label": "Source protection chapel",
+            "to": "source-protection-chapel",
+            "testId": "sourceProtection",
+            "unlockSuccesses": 1,
+            "targetNumber": 10
+          },
+          {
+            "label": "Verification table",
+            "to": "verification-table",
+            "testId": "verifyData",
+            "unlockSuccesses": 1,
+            "targetNumber": 9
+          },
+          {
+            "label": "Sealed member archive stacks",
+            "to": "sealed-member-archive",
+            "testId": "archiveAccess",
+            "unlockSuccesses": 2,
+            "targetNumber": 12
+          },
+          {
+            "label": "Return to public commons",
+            "to": "public-commons"
+          }
         ]
       },
       {
@@ -154,7 +361,10 @@
         "kind": "education",
         "description": "A carved switchback trail shows how to enter, ask, copy, and leave without dragging a trace back to the haven. The lesson is blunt: your route is part of everyone else's safety.",
         "choices": [
-          { "label": "Make a note: route hygiene lesson reviewed", "to": "member-education-hub" }
+          {
+            "label": "Make a note: route hygiene lesson reviewed",
+            "to": "member-education-hub"
+          }
         ]
       },
       {
@@ -163,7 +373,10 @@
         "kind": "education",
         "description": "Toy hosts demonstrate Analyze, Browse, Deception, Validate, and Read/Write against safe examples. The room explains concepts; it does not provide actual utilities or paydata.",
         "choices": [
-          { "label": "Return to orientation", "to": "new-decker-orientation" }
+          {
+            "label": "Return to orientation",
+            "to": "new-decker-orientation"
+          }
         ]
       },
       {
@@ -172,7 +385,10 @@
         "kind": "education",
         "description": "A quiet room teaches consent, redaction, chain of custody, and when not to publish. The wall text repeats: knowledge wants to be free; sources do not.",
         "choices": [
-          { "label": "Return to member education", "to": "member-education-hub" }
+          {
+            "label": "Return to member education",
+            "to": "member-education-hub"
+          }
         ]
       },
       {
@@ -181,7 +397,10 @@
         "kind": "education",
         "description": "A worktable offers examples of leaks, rumors, planted bait, forged records, and partial truths. Tell the GM you reviewed Ruby Falls verification practice; this is explanatory, not a data reward.",
         "choices": [
-          { "label": "Return to member education", "to": "member-education-hub" }
+          {
+            "label": "Return to member education",
+            "to": "member-education-hub"
+          }
         ]
       },
       {
@@ -190,8 +409,18 @@
         "kind": "member-boundary",
         "description": "Locked archive cabinets line the cavern wall. You can tell this is where real source-sensitive material begins, but the haven does not expose content casually. There is no paydata prize here; access would require GM-guided context.",
         "choices": [
-          { "label": "Back away from the sealed stacks", "to": "member-education-hub" },
-          { "label": "Try to read trustee routing labels", "to": "admin-boundary-warning", "testId": "adminIndex", "unlockSuccesses": 2, "targetNumber": 14, "securityValue": 10 }
+          {
+            "label": "Back away from the sealed stacks",
+            "to": "member-education-hub"
+          },
+          {
+            "label": "Try to read trustee routing labels",
+            "to": "admin-boundary-warning",
+            "testId": "adminIndex",
+            "unlockSuccesses": 2,
+            "targetNumber": 14,
+            "securityValue": 10
+          }
         ]
       },
       {
@@ -200,9 +429,30 @@
         "kind": "admin-boundary",
         "description": "The cavern stops pretending to be educational. A simple locked stone door says: trustee operations, source-key custody, archive integrity, and root controls are not part of your access. This node reveals only the boundary, not the inner Host.",
         "choices": [
-          { "label": "Attempt trustee source-key custody", "to": "admin-source-key-wall", "testId": "adminFiles", "unlockSuccesses": 3, "targetNumber": 16, "securityValue": 12 },
-          { "label": "Attempt root operations route", "to": "admin-root-wall", "testId": "trusteeRoot", "unlockSuccesses": 4, "targetNumber": 20, "securityValue": 14 },
-          { "label": "Back away from the admin boundary", "to": "ruby-falls-front-waterfall", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 8, "securityValue": 8 }
+          {
+            "label": "Attempt trustee source-key custody",
+            "to": "admin-source-key-wall",
+            "testId": "adminFiles",
+            "unlockSuccesses": 3,
+            "targetNumber": 16,
+            "securityValue": 12
+          },
+          {
+            "label": "Attempt root operations route",
+            "to": "admin-root-wall",
+            "testId": "trusteeRoot",
+            "unlockSuccesses": 4,
+            "targetNumber": 20,
+            "securityValue": 14
+          },
+          {
+            "label": "Back away from the admin boundary",
+            "to": "ruby-falls-front-waterfall",
+            "testId": "evadeTrace",
+            "unlockSuccesses": 1,
+            "targetNumber": 8,
+            "securityValue": 8
+          }
         ]
       },
       {
@@ -211,7 +461,14 @@
         "kind": "admin-boundary",
         "description": "You reach only a custody wall. It confirms that source keys and sensitive archive access exist somewhere deeper, but it does not reveal the contents, operators, or true route.",
         "choices": [
-          { "label": "Retreat from source-key custody", "to": "admin-boundary-warning", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 10, "securityValue": 10 }
+          {
+            "label": "Retreat from source-key custody",
+            "to": "admin-boundary-warning",
+            "testId": "evadeTrace",
+            "unlockSuccesses": 1,
+            "targetNumber": 10,
+            "securityValue": 10
+          }
         ]
       },
       {
@@ -220,7 +477,14 @@
         "kind": "admin-boundary",
         "description": "No map appears. No vault opens. The root wall tells you only that you have reached a place reserved for Ruby Falls trustees and maintainers. Continuing here should be a GM-level decision, not a routine crawl reward.",
         "choices": [
-          { "label": "Retreat from trustee root", "to": "admin-boundary-warning", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 12, "securityValue": 12 }
+          {
+            "label": "Retreat from trustee root",
+            "to": "admin-boundary-warning",
+            "testId": "evadeTrace",
+            "unlockSuccesses": 1,
+            "targetNumber": 12,
+            "securityValue": 12
+          }
         ]
       },
       {

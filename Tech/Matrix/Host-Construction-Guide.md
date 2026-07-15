@@ -210,6 +210,65 @@ Put the actual reward reveal in the destination/reward node that appears only af
 
 Use straightforward values: usually `-1` TN, `+1` die, or `-1` required success. Larger rewards should be rare and tied to strong fiction. The app also has a GM / table modifiers panel for manually adding these effects during play when the crew earns a benefit outside the prepared Host profile.
 
+## Data Haven Paydata Broker Pattern
+
+Use this pattern when a data haven should help a decker sell paydata after a run. The node is not a paydata source; it is a post-run fencing/brokerage worksheet.
+
+Canon anchor from *Matrix*: paydata has a base street price of **5,000¥ per Paydata Point**, Locate Paydata uses Evaluate with an Index Test, and ordinary stolen paydata loses value quickly if not sold. Data havens from *Target: Matrix* can act as markets, listing services, or auctions that protect source and buyer identities while taking a cut.
+
+Recommended node shape:
+
+1. **Broker table node** — `kind: "tool"`; explains the inputs and formulas.
+2. **Quick Buyout node** — `kind: "permanent-outcome"`; immediate, lower payout.
+3. **Haven Listing node** — `kind: "permanent-outcome"`; safer market, moderate payout, short delay.
+4. **Blind Auction node** — `kind: "permanent-outcome"`; high variance, higher upside, more hooks.
+5. **Quarantine / Refusal node** — `kind: "permanent-outcome"`; no immediate nuyen, source-safety review.
+
+Suggested inputs:
+
+- Paydata Points recovered.
+- Age in days since recovery.
+- Quality: clean, partial, messy, radioactive/hot.
+- Sale mode.
+- Tags such as corp, gang, civic, medical, blackmail, logistics, magical, security, zero-day, public-interest.
+
+Suggested freshness multiplier:
+
+| Age | Multiplier |
+| --- | ---: |
+| Day 0 | 100% |
+| Day 1 | 90% |
+| Day 2 | 75% |
+| Day 3 | 55% |
+| Day 4 | 35% |
+| Day 5+ | 20% |
+
+Story-specific files, legal evidence, blackmail, or archival proof can decay more slowly or not at all. Schedules, access codes, market intel, and zero-day chatter can decay faster.
+
+Suggested quality multiplier:
+
+| Quality | Multiplier |
+| --- | ---: |
+| Clean | 100% |
+| Partial | 65% |
+| Messy | 45% |
+| Radioactive / hot | 85%, plus increased heat |
+
+Suggested sale modes:
+
+- **Quick Buyout:** adjusted value x `40% + 5% per sale-roll success`, max 65%; immediate close.
+- **Haven Listing:** adjusted value x `55% + 7% per sale-roll success`, max 90%; 1D3 day close by default.
+- **Blind Auction:** adjusted value x `35% + 15% per sale-roll success`, max 150%; 1D6 day close by default.
+- **Quarantine / Refusal:** +0¥ until the GM resolves source-safety concerns.
+
+Every final sale node should include a Discord-ready template beginning with:
+
+```text
+@CindyLouBot RUBY FALLS PAYDATA SALE
+```
+
+For other data havens, replace `RUBY FALLS` with the haven name. Include seller, broker/haven, sale mode, Paydata Points, age, tags/quality, base value, adjusted value, sale roll, final payout / nuyen delta, heat/status note, and an ingest note telling Cindy when to update the character's nuyen total.
+
 ## Subsystem Nodes
 
 Use subsystem nodes to represent broad Matrix capability zones. The classic SR3 host subsystems are useful as design anchors:

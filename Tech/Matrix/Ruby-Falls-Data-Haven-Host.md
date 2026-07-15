@@ -75,9 +75,48 @@ The public and member-safe layer includes rooms meant to teach aspiring new deck
 - **Utility Practice Alcove** — safe toy examples for Analyze, Browse, Deception, Validate, and Read/Write concepts.
 - **Verification Table** — how to separate leaks, rumors, bait, and forged paydata.
 
-## Reserved central special-tool node
+## Ruby Falls paydata broker node
 
-Near the entrance is a central open spot reserved for a future reusable tool. In the machine-readable profile it appears as **Central Open Slot**. Its current action intentionally has a blank visible label/verb placeholder so a later tool can attach behavior without this host defining it first.
+The central open slot now hosts **Sister Anode's Paydata Broker Table**, a reusable post-run fencing worksheet for Mevin to sell paydata through Ruby Falls.
+
+Canon anchor from *Matrix*: paydata has a base street price of **5,000¥ per Paydata Point**, and ordinary stolen paydata loses value quickly if it is not sold. Ruby Falls wraps that in a haven workflow: source protection, appraisal, sale mode, buyer hygiene, and a Discord-ready payout report.
+
+### Inputs
+
+- **Paydata Points:** how many points Mevin recovered.
+- **Age:** days since recovery.
+- **Quality:** clean, partial, messy, or radioactive/hot.
+- **Sale mode:** Quick Buyout, Haven Listing, Blind Auction, or Quarantine.
+- **Tags:** optional context such as corp, gang, civic, medical, blackmail, logistics, magical, security, zero-day, public-interest.
+
+### Freshness
+
+- Day 0: 100%
+- Day 1: 90%
+- Day 2: 75%
+- Day 3: 55%
+- Day 4: 35%
+- Day 5+: 20%
+
+Story-specific, archival, blackmail, or legal-proof files can ignore or alter decay at GM discretion. Market intel, schedules, access codes, and zero-day chatter should usually decay faster.
+
+### Quality
+
+- **Clean:** 100%
+- **Partial:** 65%
+- **Messy:** 45%
+- **Radioactive / hot:** 85% before sale-mode payout, but increases heat and may require redaction or auction handling.
+
+### Sale modes
+
+- **Quick Buyout:** adjusted value x **40% + 5% per sale-roll success**, maximum 65%. Immediate payout, low overhead.
+- **Haven Listing:** adjusted value x **55% + 7% per sale-roll success**, maximum 90%. Safer buyer pool, usually 1D3 days.
+- **Blind Auction:** adjusted value x **35% + 15% per sale-roll success**, maximum 150%. Highest upside, usually 1D6 days, higher hook potential.
+- **Quarantine:** +0¥ for now. Used when Sister Anode refuses to sell immediately because the data endangers sources, exposes innocents, or looks like bait.
+
+### Discord-ready output
+
+Each sale-mode node is a `permanent-outcome` so the Decker Experience run report includes a copyable `@CindyLouBot RUBY FALLS PAYDATA SALE` template. The template includes mode, points, age, adjusted value, sale roll, final payout / nuyen delta, heat/status note, and an ingest note telling Cindy to update Mevin's nuyen when the sale resolves.
 
 ## Admin boundary
 
