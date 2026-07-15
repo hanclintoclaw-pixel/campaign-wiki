@@ -32,9 +32,9 @@ The goal is not to replace SR3 repair rules or the Drone Dashboard. It is a dail
 
 ## Current prototype status
 
-Drone Shift is currently a first-draft testing tool. It uses dummy Curtis skill values in the UI and should not automatically mutate drone stats, nuyen totals, or campaign canon.
+Drone Shift is currently a first-draft testing tool. It uses dummy Curtis skill values in the UI and should not automatically mutate drone stats or broader campaign canon.
 
-A final report can recommend a downtime note, nuyen delta, spare part, warning, or possible drone state implication, but Cindy/GM must confirm permanent effects.
+A final report can recommend a downtime note, nuyen delta, spare part, warning, or possible drone state implication. Small routine nuyen deltas should be applied to Curtis's running total when Cindy ingests the final report; larger payouts/penalties and permanent drone effects require GM confirmation.
 
 ## Daily Work Order rotation
 
@@ -73,7 +73,7 @@ The tool keeps the nuyen movement visible throughout the run:
 - **Success/failure swing cards** show how the selected roll can change the total before the player commits.
 - The final report records the total as `Nuyen delta`.
 
-Routine Work Orders should stay close to break-even. Small wins, parts costs, tips, or salvage finds are expected; large windfalls or penalties should wait for GM approval.
+Routine Work Orders should stay close to break-even. Small wins, parts costs, tips, or salvage finds are expected and should be applied to Curtis's running nuyen total during ingestion; large windfalls or penalties should wait for GM approval.
 
 ## Quality score
 
@@ -110,8 +110,9 @@ When the report is posted with `@CindyLouBot`, Cindy should:
 
 1. ingest it into campaign memory as a Curtis downtime/maintenance event;
 2. mark the active Work Order as **Job Completed**;
-3. avoid permanent drone stat changes unless the GM confirms them;
-4. preserve useful notes for future Work Orders or drone continuity.
+3. apply small routine nuyen deltas to Curtis's running total;
+4. avoid permanent drone stat changes unless the GM confirms them;
+5. preserve useful notes for future Work Orders or drone continuity.
 
 ## Relationship to the Drone Dashboard
 

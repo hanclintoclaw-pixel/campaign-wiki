@@ -194,7 +194,7 @@ Every work order must end with a copyable report containing:
 Suggested closing line:
 
 ```text
-Cindy ingest note: Add this as a Curtis downtime/maintenance event. Do not apply permanent drone stat changes unless the GM confirms them.
+Cindy ingest note: Add this as a Curtis downtime/maintenance event. Apply small routine nuyen deltas to Curtis's running total, but do not apply permanent drone stat changes unless the GM confirms them.
 ```
 
 ## Daily generation checklist
