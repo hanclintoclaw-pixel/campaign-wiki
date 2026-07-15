@@ -46,9 +46,9 @@ Example patterns:
 - **Small success:** confirmation clip, then victory/clean-access clip.
 - **Memory/admin:** acknowledgment clip, then saved/marked clip.
 
-## Needed words / phrases tally
+## Needed words / phrases tally _(disabled / ready)_
 
-This section is refreshed by the live voice bridge when it has to generate a fresh Cindy voice line instead of using a canned clip chain.
+This section is designed to be refreshed by the live voice bridge when it has to generate a fresh Cindy voice line instead of using a canned clip chain. It is currently switched off with `CINDY_NEEDED_WORDS_ENABLED=false` until the workflow is polished.
 
 <!-- CINDY_NEEDED_WORDS_START -->
 _Last refreshed: not yet; fresh generated lines counted: 0._
@@ -57,9 +57,9 @@ No fresh generated voice lines have been tallied yet.
 
 <!-- CINDY_NEEDED_WORDS_END -->
 
-## Folder + manifest workflow
+## Folder + manifest workflow _(disabled / ready)_
 
-The bridge now discovers clips from the library folder instead of requiring every filename to be hardcoded in `voice_chat.py`.
+The bridge has a folder+manifest discovery workflow, but it is currently switched off with `CINDY_QUICK_CLIP_MANIFEST_ENABLED=false`. While disabled, the bridge uses its built-in default clip list. When re-enabled, it can discover clips from the library folder instead of requiring every filename to be hardcoded in `voice_chat.py`.
 
 Local generated clip folder:
 
@@ -73,7 +73,7 @@ Manifest path:
 /Volumes/carbonite/claw/data/cindylou/voice-clone-samples/youtube_T34mD_vHvdA/soundboard_library_20260714/manifest.json
 ```
 
-Drop-in behavior:
+Planned drop-in behavior when re-enabled:
 
 1. Add a new `.mp3`, `.wav`, `.ogg`, `.aiff`, or `.m4a` file to the clip folder.
 2. Use a useful filename such as `35_positive_confirm.mp3`; the bridge strips the leading number and infers clip id `positive_confirm`.
