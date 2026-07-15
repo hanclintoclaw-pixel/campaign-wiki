@@ -77,7 +77,7 @@ The public and member-safe layer includes rooms meant to teach aspiring new deck
 
 ## Ruby Falls paydata broker node
 
-The central open slot now hosts **Sister Anode's Paydata Broker Table**, a reusable post-run fencing worksheet for Mevin to sell paydata through Ruby Falls.
+The central open slot now hosts **Sister Anode's Paydata Broker Table**, a reusable in-app paydata broker panel for Mevin to sell paydata through Ruby Falls.
 
 Canon anchor from *Matrix*: paydata has a base street price of **5,000¥ per Paydata Point**, and ordinary stolen paydata loses value quickly if it is not sold. Ruby Falls wraps that in a haven workflow: source protection, appraisal, sale mode, buyer hygiene, and a Discord-ready payout report.
 
@@ -114,9 +114,9 @@ Story-specific, archival, blackmail, or legal-proof files can ignore or alter de
 - **Blind Auction:** adjusted value x **35% + 15% per sale-roll success**, maximum 150%. Highest upside, usually 1D6 days, higher hook potential.
 - **Quarantine:** +0¥ for now. Used when Sister Anode refuses to sell immediately because the data endangers sources, exposes innocents, or looks like bait.
 
-### Discord-ready output
+### In-app output
 
-Each sale-mode node is a `permanent-outcome` so the Decker Experience run report includes a copyable `@CindyLouBot RUBY FALLS PAYDATA SALE` template. The template includes mode, points, age, adjusted value, sale roll, final payout / nuyen delta, heat/status note, and an ingest note telling Cindy to update Mevin's nuyen when the sale resolves.
+The Decker Experience renders a special **Paydata Broker** panel on this node. The panel calculates base value, freshness decay, quality adjustment, sale roll, payout percentage, close time, heat/status note, and final nuyen delta. It also produces a copyable `@CindyLouBot RUBY FALLS PAYDATA SALE` report telling Cindy when to update Mevin's nuyen total.
 
 ## Admin boundary
 

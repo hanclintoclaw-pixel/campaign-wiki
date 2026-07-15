@@ -155,7 +155,7 @@
         "id": "ruby-falls-paydata-broker",
         "title": "Sister Anode's Paydata Broker Table",
         "kind": "tool",
-        "description": "Rosalind 'Sister Anode' Pike receives paydata at a stone table under the waterfall-light. This node is a reusable Ruby Falls paydata broker worksheet, not a paydata source. Input the recovered Paydata Points, age in days, source quality, and sale mode. Canon anchor: SR3 Matrix paydata starts at 5,000 nuyen per Paydata Point and ordinary stolen paydata loses value quickly if not sold. Base value = Paydata Points x 5,000 nuyen. Freshness multiplier: Day 0 100%, Day 1 90%, Day 2 75%, Day 3 55%, Day 4 35%, Day 5+ 20% unless GM marks the file as story-specific or archival. Quality modifier: clean 100%, partial 65%, messy 45%, radioactive/hot 85% before Ruby Falls cut but increase heat. Sale modes: Quick Buyout pays fast and stable; Haven Listing balances payout and safety; Blind Auction is swingy with the highest ceiling. Make the sale roll outside this Host node. Suggested roll: 2D6 plus GM modifiers for relevance, tags, buyer interest, and quality. Ruby Falls cut is already represented in the final payout percentage. Sister Anode may refuse or quarantine data that endangers sources, exposes innocents, or looks like bait.",
+        "description": "Rosalind 'Sister Anode' Pike receives paydata at a stone table under the waterfall-light. Use the broker panel here to enter Paydata Points, age, quality, tags, and sale mode. The panel calculates freshness decay, quality adjustment, sale roll, Ruby Falls cut, final payout, close time, heat note, and a Cindy-ready nuyen update report. Sister Anode may still quarantine data that endangers sources, exposes innocents, or looks like bait.",
         "choices": [
           {
             "label": "Quick Buyout: immediate Ruby Falls purchase",
@@ -186,7 +186,13 @@
             "label": "Return to the central open slot",
             "to": "central-open-slot"
           }
-        ]
+        ],
+        "tool": {
+          "type": "paydataBroker",
+          "havenName": "Ruby Falls",
+          "brokerName": "Sister Anode",
+          "reportPrefix": "@CindyLouBot RUBY FALLS"
+        }
       },
       {
         "id": "ruby-falls-paydata-quick-buyout",

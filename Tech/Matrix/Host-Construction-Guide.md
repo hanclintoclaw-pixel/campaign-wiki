@@ -218,7 +218,7 @@ Canon anchor from *Matrix*: paydata has a base street price of **5,000¥ per Pay
 
 Recommended node shape:
 
-1. **Broker table node** — `kind: "tool"`; explains the inputs and formulas.
+1. **Broker table node** — `kind: "tool"`; add `tool.type: "paydataBroker"` so Decker Experience renders the calculator panel.
 2. **Quick Buyout node** — `kind: "permanent-outcome"`; immediate, lower payout.
 3. **Haven Listing node** — `kind: "permanent-outcome"`; safer market, moderate payout, short delay.
 4. **Blind Auction node** — `kind: "permanent-outcome"`; high variance, higher upside, more hooks.
@@ -261,13 +261,24 @@ Suggested sale modes:
 - **Blind Auction:** adjusted value x `35% + 15% per sale-roll success`, max 150%; 1D6 day close by default.
 - **Quarantine / Refusal:** +0¥ until the GM resolves source-safety concerns.
 
-Every final sale node should include a Discord-ready template beginning with:
+If the app has not implemented the panel, every final sale node should include a Discord-ready template beginning with:
 
 ```text
 @CindyLouBot RUBY FALLS PAYDATA SALE
 ```
 
-For other data havens, replace `RUBY FALLS` with the haven name. Include seller, broker/haven, sale mode, Paydata Points, age, tags/quality, base value, adjusted value, sale roll, final payout / nuyen delta, heat/status note, and an ingest note telling Cindy when to update the character's nuyen total.
+For app-supported broker nodes, the panel can generate this report directly. For other data havens, replace `RUBY FALLS` with the haven name. Include seller, broker/haven, sale mode, Paydata Points, age, tags/quality, base value, adjusted value, sale roll, final payout / nuyen delta, heat/status note, and an ingest note telling Cindy when to update the character's nuyen total.
+
+Minimal JSON hook:
+
+```json
+"tool": {
+  "type": "paydataBroker",
+  "havenName": "Ruby Falls",
+  "brokerName": "Sister Anode",
+  "reportPrefix": "@CindyLouBot RUBY FALLS"
+}
+```
 
 ## Subsystem Nodes
 
