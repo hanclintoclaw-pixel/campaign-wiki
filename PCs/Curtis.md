@@ -113,7 +113,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 ## Drone Shift
 
-- Tutorial 3 is complete. Completed reports stay logged, and future missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; final reports should be reviewed by Cindy/GM before any permanent drone, vehicle, or nuyen changes are applied.
+- Tutorial 4 is available in [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/). Completed reports stay logged, and missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; final reports should be reviewed by Cindy/GM before any permanent drone, vehicle, or nuyen changes are applied.
 
 ### Completed Work Orders
 
