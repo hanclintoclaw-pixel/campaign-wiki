@@ -113,12 +113,13 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 ## Drone Shift
 
-- Tutorial 4 is available in [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/). Completed reports stay logged, and missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; final reports should be reviewed by Cindy/GM before any permanent drone, vehicle, or nuyen changes are applied.
+- [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) rotates daily downtime Work Orders. Completed reports stay logged, and missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; final reports should be reviewed by Cindy/GM before any permanent drone, vehicle, or nuyen changes are applied.
 
 ### Completed Work Orders
 
 - **2026-07-13 — Tutorial 2: Grandpa's Back-Step Rattle**: Curtis completed Taco's Grandpa back-up rattle ticket as a solid repair. Final report logged **-25¥** net shift result and **Maintenance Quality 3**; no permanent Grandpa/drone stat changes apply unless the GM confirms them.
 - **2026-07-14 — Tutorial 3: Belmont's Track-Tension Creep**: Curtis completed Taco's Belmont track-tension ticket as a clean shop win. Final report logged **+60¥** net shift result and **Maintenance Quality 7** after cleaning a grit-packed adjuster screw, replacing the walking washer with spare-bin shim work, and resetting the track run; no permanent Belmont/drone stat changes apply unless the GM confirms them.
+- **2026-07-15 — Tutorial 4: Mr. Clean's Screw-Snack Rattle**: Curtis completed Taco's Mr. Clean screw-rattle ticket as a solid repair. Final report logged **+5¥** net shift result and **Maintenance Quality 4** after bounding the clink to the belly-pan channel, identifying the missing brush-guard screw, fishing it out with a flex magnet, burning extra cleaner and foam tape chasing grit/buzz, and closing with a clean sweep-loop report. Follow-up note: the improvised fast magnet retrieval leaves **Calibration TN +1** for hidden grit risk; no permanent Mr. Clean/drone stat changes apply unless the GM confirms them.
 
 ## Relevant Sessions
 
