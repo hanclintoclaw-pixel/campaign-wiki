@@ -80,7 +80,7 @@
     }
   ],
   "sculpting": "A glowing cavern-library under Lookout Mountain: public zine tables, anti-authoritarian posters, underground streams, ham-radio benches, church-basement archive cabinets, and quiet locked doors that do not need to look scary to be serious.",
-  "notes": "Data haven profile. Public side is intentionally open and generous. Member education rooms explain decker practice and haven ethics. The central open slot now hosts Sister Anode's Ruby Falls Paydata Broker, a reusable post-run paydata fencing worksheet based on SR3 Paydata Points. Admin/root routes are high-TN boundaries only; do not reveal internal admin Host content yet. Mevin's ad-hoc -10 TN access advantage should be added manually by the GM if used, not baked into this profile.",
+  "notes": "Data haven profile. Public side is intentionally open and generous. Member education rooms explain decker practice and haven ethics. The Ruby Falls Marketplace hosts Sister Anode's reusable in-app Paydata Broker panel based on SR3 Paydata Points. Admin/root routes are high-TN boundaries only; do not reveal internal admin Host content yet. Mevin's ad-hoc -10 TN access advantage should be added manually by the GM if used, not baked into this profile.",
   "flow": {
     "startNodeId": "ruby-falls-front-waterfall",
     "nodes": [
@@ -126,8 +126,8 @@
             "to": "new-decker-orientation"
           },
           {
-            "label": "Step to the central open slot",
-            "to": "central-open-slot"
+            "label": "Visit the Ruby Falls marketplace",
+            "to": "ruby-falls-marketplace"
           },
           {
             "label": "Return to the front waterfall",
@@ -136,13 +136,13 @@
         ]
       },
       {
-        "id": "central-open-slot",
-        "title": "Central Open Slot",
-        "kind": "tool-placeholder",
-        "description": "At the center of the public cavern is Sister Anode's paydata broker table: a smooth stone work-surface, a blank wall of light, and a polite warning that Ruby Falls buys information without selling out sources. This is the reusable post-run paydata fencing node.",
+        "id": "ruby-falls-marketplace",
+        "title": "Ruby Falls Marketplace",
+        "kind": "marketplace",
+        "description": "At the center of the public cavern is the Ruby Falls marketplace: not a bazaar of stolen files, but a source-safe exchange floor where trusted brokers, archivists, and community deckers route public goods, requests, and carefully handled paydata. Sister Anode's broker table is the most important fixture here for Mevin.",
         "choices": [
           {
-            "label": "Open Sister Anode's paydata broker table",
+            "label": "Use Sister Anode's paydata broker panel",
             "to": "ruby-falls-paydata-broker"
           },
           {
@@ -155,36 +155,11 @@
         "id": "ruby-falls-paydata-broker",
         "title": "Sister Anode's Paydata Broker Table",
         "kind": "tool",
-        "description": "Rosalind 'Sister Anode' Pike receives paydata at a stone table under the waterfall-light. Use the broker panel here to enter Paydata Points, age, quality, tags, and sale mode. The panel calculates freshness decay, quality adjustment, sale roll, Ruby Falls cut, final payout, close time, heat note, and a Cindy-ready nuyen update report. Sister Anode may still quarantine data that endangers sources, exposes innocents, or looks like bait.",
+        "description": "Rosalind 'Sister Anode' Pike receives paydata at a stone table in the Ruby Falls marketplace. Use the broker panel here to enter Paydata Points, age, quality, tags, and sale mode. The panel explains the sale modes, calculates freshness decay, quality adjustment, sale roll, Ruby Falls cut, final payout, close time, heat note, and a Cindy-ready nuyen update report. When finished, use the single back-out option below.",
         "choices": [
           {
-            "label": "Quick Buyout: immediate Ruby Falls purchase",
-            "to": "ruby-falls-paydata-quick-buyout",
-            "testId": "paydataBroker",
-            "unlockSuccesses": 1,
-            "targetNumber": 6
-          },
-          {
-            "label": "Haven Listing: protected buyer pool",
-            "to": "ruby-falls-paydata-haven-listing",
-            "testId": "paydataAppraisal",
-            "unlockSuccesses": 1,
-            "targetNumber": 8
-          },
-          {
-            "label": "Blind Auction: anonymous high-upside sale",
-            "to": "ruby-falls-paydata-blind-auction",
-            "testId": "paydataAuction",
-            "unlockSuccesses": 1,
-            "targetNumber": 10
-          },
-          {
-            "label": "Quarantine or refuse unsafe data",
-            "to": "ruby-falls-paydata-quarantine"
-          },
-          {
-            "label": "Return to the central open slot",
-            "to": "central-open-slot"
+            "label": "Back out to the Ruby Falls marketplace",
+            "to": "ruby-falls-marketplace"
           }
         ],
         "tool": {
@@ -193,70 +168,6 @@
           "brokerName": "Sister Anode",
           "reportPrefix": "@CindyLouBot RUBY FALLS"
         }
-      },
-      {
-        "id": "ruby-falls-paydata-quick-buyout",
-        "title": "Ruby Falls Quick Buyout",
-        "kind": "permanent-outcome",
-        "description": "QUICK BUYOUT OUTPUT TEMPLATE — Sister Anode buys the paydata directly or routes it to a trusted standing buyer. Use when Mevin wants immediate cash and low table overhead. Formula: adjusted value = Paydata Points x 5,000 nuyen x freshness x quality. Payout = adjusted value x (40% + 5% per sale-roll success, maximum 65%). Close time: immediate. Heat: low unless data is tagged hot/radioactive. Discord report for Cindy/GM: @CindyLouBot RUBY FALLS PAYDATA SALE — Seller: Mevin. Broker: Sister Anode / Ruby Falls. Mode: Quick Buyout. Paydata Points: __. Age: __ day(s). Tags/quality: __. Base value: __ nuyen. Freshness/quality adjusted value: __ nuyen. Sale roll: __. Ruby Falls cut/discount applied. Final payout / Nuyen delta: +__ nuyen. Heat/status note: __. Cindy ingest note: update Mevin's nuyen total by the final payout and record this as a Ruby Falls paydata sale.",
-        "choices": [
-          {
-            "label": "Return to Sister Anode's broker table",
-            "to": "ruby-falls-paydata-broker"
-          },
-          {
-            "label": "Return to the public commons",
-            "to": "public-commons"
-          }
-        ]
-      },
-      {
-        "id": "ruby-falls-paydata-haven-listing",
-        "title": "Ruby Falls Haven Listing",
-        "kind": "permanent-outcome",
-        "description": "HAVEN LISTING OUTPUT TEMPLATE — Sister Anode lists the paydata inside Ruby Falls under protected terms. Use for normal post-run fencing when Mevin can wait and wants a safer, better-vetted buyer pool. Formula: adjusted value = Paydata Points x 5,000 nuyen x freshness x quality. Payout = adjusted value x (55% + 7% per sale-roll success, maximum 90%). Close time: 1D3 days, or immediate if the GM wants to resolve downtime now. Heat: moderate; source-safety review may delay or redact. Discord report for Cindy/GM: @CindyLouBot RUBY FALLS PAYDATA SALE — Seller: Mevin. Broker: Sister Anode / Ruby Falls. Mode: Haven Listing. Paydata Points: __. Age: __ day(s). Tags/quality: __. Base value: __ nuyen. Freshness/quality adjusted value: __ nuyen. Sale roll: __. Listing close time: __. Final payout / Nuyen delta: +__ nuyen. Heat/status note: __. Cindy ingest note: update Mevin's nuyen total by the final payout when the listing closes and record this as a Ruby Falls paydata sale.",
-        "choices": [
-          {
-            "label": "Return to Sister Anode's broker table",
-            "to": "ruby-falls-paydata-broker"
-          },
-          {
-            "label": "Return to the public commons",
-            "to": "public-commons"
-          }
-        ]
-      },
-      {
-        "id": "ruby-falls-paydata-blind-auction",
-        "title": "Ruby Falls Blind Auction",
-        "kind": "permanent-outcome",
-        "description": "BLIND AUCTION OUTPUT TEMPLATE — Ruby Falls anonymizes the source, posts a protected summary, and lets vetted buyers bid. Use for spicy or high-interest paydata when upside matters more than speed. Formula: adjusted value = Paydata Points x 5,000 nuyen x freshness x quality. Payout = adjusted value x (35% + 15% per sale-roll success, maximum 150%). Close time: 1D6 days by default; 1 hour to 1 week if the GM wants a specific auction window. Heat: higher; buyer weirdness, source-safety concerns, or corp buyback interest can become hooks. Discord report for Cindy/GM: @CindyLouBot RUBY FALLS PAYDATA SALE — Seller: Mevin. Broker: Sister Anode / Ruby Falls. Mode: Blind Auction. Paydata Points: __. Age: __ day(s). Tags/quality: __. Base value: __ nuyen. Freshness/quality adjusted value: __ nuyen. Sale roll: __. Auction window: __. Final payout / Nuyen delta: +__ nuyen. Heat/status note: __. Cindy ingest note: update Mevin's nuyen total by the final payout when the auction resolves and record this as a Ruby Falls paydata sale.",
-        "choices": [
-          {
-            "label": "Return to Sister Anode's broker table",
-            "to": "ruby-falls-paydata-broker"
-          },
-          {
-            "label": "Return to the public commons",
-            "to": "public-commons"
-          }
-        ]
-      },
-      {
-        "id": "ruby-falls-paydata-quarantine",
-        "title": "Ruby Falls Source-Safety Quarantine",
-        "kind": "permanent-outcome",
-        "description": "SOURCE-SAFETY QUARANTINE — Sister Anode refuses to sell immediately. Use when the paydata is bait, exposes innocents, contains live source identifiers, or needs redaction before sale. No nuyen changes hands yet. Discord report for Cindy/GM: @CindyLouBot RUBY FALLS PAYDATA SALE — Seller: Mevin. Broker: Sister Anode / Ruby Falls. Mode: Quarantine / Refused for now. Paydata Points: __. Age: __ day(s). Tags/quality: __. Reason: __. Final payout / Nuyen delta: +0 nuyen for now. Cindy ingest note: do not update Mevin's nuyen yet; record the pending Ruby Falls quarantine/review item.",
-        "choices": [
-          {
-            "label": "Return to Sister Anode's broker table",
-            "to": "ruby-falls-paydata-broker"
-          },
-          {
-            "label": "Return to the public commons",
-            "to": "public-commons"
-          }
-        ]
       },
       {
         "id": "public-zine-rack",

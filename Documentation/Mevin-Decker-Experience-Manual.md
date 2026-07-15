@@ -177,6 +177,24 @@ If you ignore or fail to clear some IC, it may become active pressure.
 
 Active pressure stays visible and adds extra risk to later tested actions. If the run ends while active pressure remains, tell the GM.
 
+## Paydata broker panels
+
+Some data-haven Hosts include a reusable **Paydata Broker** panel. Ruby Falls uses this for Sister Anode's broker table.
+
+Use it when your decker has already recovered Paydata Points elsewhere and wants to sell them through the haven.
+
+1. Enter Paydata Points, age in days, quality, sale mode, and optional tags.
+2. Pick a sale mode:
+   - **Quick Buyout:** immediate cash, lower upside.
+   - **Haven Listing:** safer vetted buyer pool, short delay.
+   - **Blind Auction:** higher upside, longer delay and more hook potential.
+   - **Quarantine / Refusal:** no payout yet; source-safety review.
+3. Click **Roll broker sale**.
+4. Copy the generated `@CindyLouBot ... PAYDATA SALE` report and post it where Cindy/GM can ingest it.
+5. Use the broker node's single back-out option when finished.
+
+The panel calculates freshness decay, quality modifier, sale roll, payout, close time, heat/status note, and final nuyen delta. Cindy can use the copied report to update the character's nuyen total when the sale resolves.
+
 ## Rewards and notes
 
 Some nodes are reward or confirmation nodes. They may say things like:

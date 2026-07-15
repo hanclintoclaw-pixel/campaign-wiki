@@ -54,7 +54,7 @@ Public visitors can find:
 - beginner decker primers;
 - safety notes about source protection, route hygiene, and not burning community infrastructure;
 - public goods such as mutual-aid resource lists, repair notes, and sanitized civic records;
-- a central open placeholder spot reserved for a future reusable special tool.
+- the Ruby Falls marketplace, where Sister Anode's paydata broker panel lives.
 
 Member-facing or deeper routes can expose educational rooms and capability prompts, but not conventional paydata. Ruby Falls is a haven, not a loot box.
 
@@ -75,9 +75,9 @@ The public and member-safe layer includes rooms meant to teach aspiring new deck
 - **Utility Practice Alcove** — safe toy examples for Analyze, Browse, Deception, Validate, and Read/Write concepts.
 - **Verification Table** — how to separate leaks, rumors, bait, and forged paydata.
 
-## Ruby Falls paydata broker node
+## Ruby Falls marketplace and paydata broker
 
-The central open slot now hosts **Sister Anode's Paydata Broker Table**, a reusable in-app paydata broker panel for Mevin to sell paydata through Ruby Falls.
+The old central placeholder has been rebranded as the **Ruby Falls Marketplace**: a source-safe exchange floor for public goods, vetted requests, and carefully handled paydata. Inside it, **Sister Anode's Paydata Broker Table** provides a reusable in-app paydata broker panel for Mevin to sell paydata through Ruby Falls.
 
 Canon anchor from *Matrix*: paydata has a base street price of **5,000¥ per Paydata Point**, and ordinary stolen paydata loses value quickly if it is not sold. Ruby Falls wraps that in a haven workflow: source protection, appraisal, sale mode, buyer hygiene, and a Discord-ready payout report.
 
@@ -86,7 +86,7 @@ Canon anchor from *Matrix*: paydata has a base street price of **5,000¥ per Pay
 - **Paydata Points:** how many points Mevin recovered.
 - **Age:** days since recovery.
 - **Quality:** clean, partial, messy, or radioactive/hot.
-- **Sale mode:** Quick Buyout, Haven Listing, Blind Auction, or Quarantine.
+- **Sale mode:** Quick Buyout, Haven Listing, Blind Auction, or Quarantine. The panel explains these modes in-place.
 - **Tags:** optional context such as corp, gang, civic, medical, blackmail, logistics, magical, security, zero-day, public-interest.
 
 ### Freshness
@@ -109,14 +109,14 @@ Story-specific, archival, blackmail, or legal-proof files can ignore or alter de
 
 ### Sale modes
 
-- **Quick Buyout:** adjusted value x **40% + 5% per sale-roll success**, maximum 65%. Immediate payout, low overhead.
-- **Haven Listing:** adjusted value x **55% + 7% per sale-roll success**, maximum 90%. Safer buyer pool, usually 1D3 days.
-- **Blind Auction:** adjusted value x **35% + 15% per sale-roll success**, maximum 150%. Highest upside, usually 1D6 days, higher hook potential.
-- **Quarantine:** +0¥ for now. Used when Sister Anode refuses to sell immediately because the data endangers sources, exposes innocents, or looks like bait.
+- **Quick Buyout:** Sister Anode or a trusted standing buyer takes the data immediately. Lowest overhead and fastest cash, but lower upside.
+- **Haven Listing:** Ruby Falls lists the data under protected terms for a vetted buyer pool. This is the default safe-market choice: better expected payout than a buyout, usually with a short delay.
+- **Blind Auction:** Ruby Falls anonymizes the source and lets vetted buyers bid. Highest upside and best for spicy paydata, but more delay and hook potential.
+- **Quarantine:** Sister Anode refuses to sell immediately. Use this for bait, source-exposing files, dangerous leaks, or anything that needs redaction or ethical review.
 
 ### In-app output
 
-The Decker Experience renders a special **Paydata Broker** panel on this node. The panel calculates base value, freshness decay, quality adjustment, sale roll, payout percentage, close time, heat/status note, and final nuyen delta. It also produces a copyable `@CindyLouBot RUBY FALLS PAYDATA SALE` report telling Cindy when to update Mevin's nuyen total.
+The Decker Experience renders a special **Paydata Broker** panel on Sister Anode's node. Mevin navigates into the marketplace, opens the broker table, completes the sale in the panel, copies the `@CindyLouBot RUBY FALLS PAYDATA SALE` report, and then uses the single **Back out to the Ruby Falls marketplace** option when finished. Legacy sale-mode branch nodes are intentionally removed; the panel handles the math and output.
 
 ## Admin boundary
 
@@ -127,7 +127,7 @@ The admin side is present only as a hard boundary. It includes sealed trustee ro
 - What are Mevin's exact Ruby Falls access terms?
 - Who vouched him in?
 - Which public rooms does Mevin already know well?
-- What reusable special tool should occupy the central open slot?
+- What other reusable tools, if any, should live in the Ruby Falls marketplace?
 - What does Ruby Falls do with dangerous evidence like the Pixel Sticks critical-services sabotage material?
 
 ## Related Pages

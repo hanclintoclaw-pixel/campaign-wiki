@@ -216,13 +216,13 @@ Use this pattern when a data haven should help a decker sell paydata after a run
 
 Canon anchor from *Matrix*: paydata has a base street price of **5,000¥ per Paydata Point**, Locate Paydata uses Evaluate with an Index Test, and ordinary stolen paydata loses value quickly if not sold. Data havens from *Target: Matrix* can act as markets, listing services, or auctions that protect source and buyer identities while taking a cut.
 
-Recommended node shape:
+Recommended app-supported node shape:
 
-1. **Broker table node** — `kind: "tool"`; add `tool.type: "paydataBroker"` so Decker Experience renders the calculator panel.
-2. **Quick Buyout node** — `kind: "permanent-outcome"`; immediate, lower payout.
-3. **Haven Listing node** — `kind: "permanent-outcome"`; safer market, moderate payout, short delay.
-4. **Blind Auction node** — `kind: "permanent-outcome"`; high variance, higher upside, more hooks.
-5. **Quarantine / Refusal node** — `kind: "permanent-outcome"`; no immediate nuyen, source-safety review.
+1. **Marketplace or broker approach node** — normal navigation into the data haven's exchange space.
+2. **Broker table node** — `kind: "tool"`; add `tool.type: "paydataBroker"` so Decker Experience renders the calculator panel.
+3. **Single back-out option** — return to the marketplace or commons after using the panel.
+
+Do **not** create separate Quick Buyout / Haven Listing / Blind Auction / Quarantine branch nodes when the panel is available; that duplicates the same math and confuses the flow. Only use separate `permanent-outcome` sale nodes if the app does not support the broker panel.
 
 Suggested inputs:
 
@@ -256,10 +256,10 @@ Suggested quality multiplier:
 
 Suggested sale modes:
 
-- **Quick Buyout:** adjusted value x `40% + 5% per sale-roll success`, max 65%; immediate close.
-- **Haven Listing:** adjusted value x `55% + 7% per sale-roll success`, max 90%; 1D3 day close by default.
-- **Blind Auction:** adjusted value x `35% + 15% per sale-roll success`, max 150%; 1D6 day close by default.
-- **Quarantine / Refusal:** +0¥ until the GM resolves source-safety concerns.
+- **Quick Buyout:** immediate Ruby Falls/haven purchase; lower overhead and lower upside. Adjusted value x `40% + 5% per sale-roll success`, max 65%.
+- **Haven Listing:** protected listing to a vetted buyer pool; safer default with a short delay. Adjusted value x `55% + 7% per sale-roll success`, max 90%; 1D3 day close by default.
+- **Blind Auction:** anonymous auction for spicy/high-interest data; highest upside and more hooks. Adjusted value x `35% + 15% per sale-roll success`, max 150%; 1D6 day close by default.
+- **Quarantine / Refusal:** +0¥ until source-safety concerns, redactions, or bait checks are resolved.
 
 If the app has not implemented the panel, every final sale node should include a Discord-ready template beginning with:
 
