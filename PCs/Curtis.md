@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-06-25
+last_updated_session: 2026-07-16
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -86,8 +86,8 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Current sheet-backed core stats: **BOD 4**, **QUI 6**, **STR 5**, **CHA 1**, **INT 5**, **WIL 5**, **Essence 1.84**, **Reaction 5**, **Initiative 5+1D6**, **Magic -**.
 - Key crew tags: **Very Short**, **Ex-Caribbean Smuggler**.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
-- Current funds note preserved in dossier: **505¥** current nuyen balance (**210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft, **+15,000¥** from the Griswell / Alvin / Palermo job on 2026-07-02, **+45¥** net from completed Curtis Drone Shift Work Orders Tutorial 2-5, **-10,800¥** for Grandpa's GM-approved flood rescue / short-dunk package on 2026-07-16, **-3,500¥** for Grandpa's crash cage on 2026-07-16, and **-3,200¥** for Grandpa's flood ballast kit on 2026-07-16).
-- Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock.
+- Current funds note preserved in dossier: **30¥** current nuyen balance (**210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft, **+15,000¥** from the Griswell / Alvin / Palermo job on 2026-07-02, **+45¥** net from completed Curtis Drone Shift Work Orders Tutorial 2-5, **-10,800¥** for Grandpa's GM-approved flood rescue / short-dunk package on 2026-07-16, **-3,500¥** for Grandpa's crash cage on 2026-07-16, **-3,200¥** for Grandpa's flood ballast kit on 2026-07-16, and **-475¥** for a Defiance Super Shock taser plus concealable holster on 2026-07-16).
+- Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16.
 - He is actively building a **dolphin and hurricane seal habitat** for the possible relocation/rescue of **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
 - During the 2066-05-09 interlude, Curtis backed Kurgan on the **Righteous Haze** job, using **Grandpa** as the lure/extraction vehicle.
