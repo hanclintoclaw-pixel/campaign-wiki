@@ -228,9 +228,19 @@ def update_funds_note(text: str, report: Report) -> str:
     return text[: match.start()] + replacement + text[match.end() :]
 
 
+def report_already_recorded(text: str, report: Report) -> bool:
+    if report.job in text:
+        return True
+    return report.tutorial_number is not None and re.search(
+        rf"\b(?:Curtis Drone Shift\s+)?Tutorial\s+{report.tutorial_number}\b",
+        text,
+        flags=re.IGNORECASE,
+    ) is not None
+
+
 def update_curtis(report: Report, day: date) -> bool:
     text = CURTIS_PATH.read_text(encoding="utf-8")
-    if report.job in text:
+    if report_already_recorded(text, report):
         return False
 
     text = update_funds_note(text, report)
@@ -252,7 +262,7 @@ def update_vehicle(report: Report, day: date) -> bool:
     if path is None or not path.exists():
         return False
     text = path.read_text(encoding="utf-8")
-    if report.job in text:
+    if report_already_recorded(text, report):
         return False
 
     line = vehicle_note_line(report, day)
@@ -275,7 +285,14 @@ def commit_and_push(report: Report, *, push: bool) -> None:
     status = run(["git", "status", "--short"])
     if not status.strip():
         return
-    run(["git", "commit", "-m", f"Ingest Curtis Drone Shift {report.job}"])
+    run([
+        "git",
+        "commit",
+        "-m",
+        f"Ingest Curtis Drone Shift {report.job}",
+        "-m",
+        "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
+    ])
     if push:
         run(["git", "push"])
 
