@@ -29,13 +29,14 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 - **Speed/Acceleration:** 115/6
 - **Body/Armor:** 4/4
 - **Signature:** 3
-- **Cargo:** 65/1893
+- **Cargo:** 22/1593 with ballast kit empty; approximately 18/393 with ballast filled
 
 ## Installed Equipment
 
 - **Morphing license plate:** linked to Grandpa's onboard computer; can reprogram plate color and embossed characters as a Complex Action. Cost paid by Curtis: **5,000¥**. Rules source: *Rigger 3 Revised*, p. 102-103.
 - **Flood rescue / short-dunk package:** water seal, engine seal, **32 man-hours** of life support, and **20 emergency slap-patches**. Cost paid by Curtis: **10,800¥**. Installed by Curtis in **14 hours** using Car 4; final rolls were water seal 2 successes, engine seal 3 successes, life support 3 successes, and flood/dunk shakedown 3 successes. GM-approved on 2026-07-16. This lets Grandpa survive floodwater, toxic runoff, smoke/gas, and brief short-dunk immersion, but it is **not** a pressure-rated submarine conversion.
 - **Crash cage:** padded, hydraulically cushioned passenger cabin/seating that grants occupants **+6 dice** on crash Damage Resistance Tests. Cost paid by Curtis: **3,500¥**. Installed on 2026-07-16. Rules source: *Rigger 3 Revised*, p. 132.
+- **Flood ballast kit:** removable low-slung ballast package with baffled underfloor water-ballast tanks, locking steel ballast trays, frame brackets, fill indicators, and automatic dump valves. Cost paid by Curtis: **3,200¥**. Installed by Curtis in **18 hours** on 2026-07-16: Car B/R 3 vs TN 4 scored 1 success for 16 hours of tanks/brackets work, and Electronics 6 vs TN 4 scored 2 successes for 2 hours of indicator/dump-valve work. When filled, the kit adds about **1,500 kg** of low-mounted ballast for floodwater crossings. Table effect: **-1 TN** to resist being shoved/swept by moving water, but **+1 TN** to tight maneuvering/recovery tests while filled; drain afterward to return to normal driving posture.
 
 ## Core Notes
 
