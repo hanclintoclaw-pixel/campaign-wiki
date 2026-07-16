@@ -29,12 +29,13 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 - **Speed/Acceleration:** 115/6
 - **Body/Armor:** 4/4
 - **Signature:** 3
-- **Cargo:** 67/1918
+- **Cargo:** 65/1893
 
 ## Installed Equipment
 
 - **Morphing license plate:** linked to Grandpa's onboard computer; can reprogram plate color and embossed characters as a Complex Action. Cost paid by Curtis: **5,000¥**. Rules source: *Rigger 3 Revised*, p. 102-103.
 - **Flood rescue / short-dunk package:** water seal, engine seal, **32 man-hours** of life support, and **20 emergency slap-patches**. Cost paid by Curtis: **10,800¥**. Installed by Curtis in **14 hours** using Car 4; final rolls were water seal 2 successes, engine seal 3 successes, life support 3 successes, and flood/dunk shakedown 3 successes. GM-approved on 2026-07-16. This lets Grandpa survive floodwater, toxic runoff, smoke/gas, and brief short-dunk immersion, but it is **not** a pressure-rated submarine conversion.
+- **Crash cage:** padded, hydraulically cushioned passenger cabin/seating that grants occupants **+6 dice** on crash Damage Resistance Tests. Cost paid by Curtis: **3,500¥**. Installed on 2026-07-16. Rules source: *Rigger 3 Revised*, p. 132.
 
 ## Core Notes
 
