@@ -18,3 +18,4 @@ Each entry includes a descriptive host profile plus example **SR3-style host sta
 - [Humanis Nashville Hidden Host](Humanis-Nashville-Hidden-Host.md)
 - [Happy Cat Public Storefront Host](Happy-Cat-Public-Storefront-Host.md)
 - [Ruby Falls Data Haven Host](Ruby-Falls-Data-Haven-Host.md)
+- [Noodle Stories Host](Noodle-Stories-Host.md)

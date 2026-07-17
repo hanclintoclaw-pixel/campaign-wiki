@@ -47,6 +47,7 @@ sources:
 ## Connected People and Groups
 
 - [Noodle Stories Collective](../Organizations/Noodle-Stories-Collective.md) - affiliated poetry collective and mutual-aid circle.
+- [Noodle Stories Host](../Tech/Matrix/Noodle-Stories-Host.md) - mid-level Blue Matrix host for the shop and collective.
 - [Mina "Red Silk" Park](../NPCs/Mina-Red-Silk-Park.md) - owner/operator and practical anchor of the shop.
 - [Otis "Gutter Sonnet" Bell](../NPCs/Otis-Gutter-Sonnet-Bell.md) - house poet and informal master of ceremonies.
 - [Leona "Auntie Static" Voss](../NPCs/Leona-Auntie-Static-Voss.md) - aging pirate-radio organizer and back-room signal minder.

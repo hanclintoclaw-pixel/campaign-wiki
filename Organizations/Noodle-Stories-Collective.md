@@ -51,6 +51,7 @@ The **Noodle Stories Collective** is an anti-authoritarian poetry and mutual-aid
 ## Relationships
 
 - Based at [Noodle Stories](../Locations/Noodle-Stories.md).
+- Uses the [Noodle Stories Host](../Tech/Matrix/Noodle-Stories-Host.md) as its modest public Matrix surface and limited back-room coordination system.
 - Part of Nashville's broader arts-district and underground mutual-aid ecosystem.
 - Sympathetic to anti-corporate and anti-federal local resistance, but not automatically aligned with any runner crew, gang, or political faction.
 
