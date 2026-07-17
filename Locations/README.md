@@ -26,6 +26,7 @@
 - [Thrift Store Flophouse](Thrift-Store-Flophouse.md)
 - [Josie's Billiard Hall](Josies-Billiard-Hall.md)
 - [Seven Directions Dojo](Seven-Directions-Dojo.md)
+- [Noodle Stories](Noodle-Stories.md)
 
 ## Franklin / Regional Locations
 

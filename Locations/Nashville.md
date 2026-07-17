@@ -138,6 +138,7 @@ For specific sites, see the broader [Locations](README.md) index and current Nas
 - [Grandpa](Grandpa.md)
 - [Happy Cat Konpeki and Collectibles](Happy-Cat-Konpeki-and-Collectibles.md)
 - [Seven Directions Dojo](Seven-Directions-Dojo.md)
+- [Noodle Stories](Noodle-Stories.md)
 
 ## See also
 

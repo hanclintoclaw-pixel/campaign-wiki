@@ -16,6 +16,9 @@
 
 ## Recurring Contacts / Principals
 
+- [Mina "Red Silk" Park](Mina-Red-Silk-Park.md)
+- [Otis "Gutter Sonnet" Bell](Otis-Gutter-Sonnet-Bell.md)
+- [Leona "Auntie Static" Voss](Leona-Auntie-Static-Voss.md)
 - [Maribel "Switchback" Pruitt](Maribel-Switchback-Pruitt.md)
 - [Jonah "Cave Cricket" Bell](Jonah-Cave-Cricket-Bell.md)
 - [Rosalind "Sister Anode" Pike](Rosalind-Sister-Anode-Pike.md)
