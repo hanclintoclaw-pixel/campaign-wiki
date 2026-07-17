@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 canon_status: table-guidance
 confidence: high
-last_updated_session: 2026-07-12
+last_updated_session: 2026-07-17
 tags: [matrix, host, guide, decker-experience, sr3]
 sources:
   - GM/table-created host design guidance on 2026-07-11
@@ -119,6 +119,23 @@ It should not answer: **what secret is the run about?**
 
 Once the secure door is breached, the decker should have access to subsystems and deeper layers appropriate to the Host.
 
+### No Double Gates
+
+Do **not** build a roll-gated door whose only payoff is another roll-gated door. If a player succeeds at a locked door, the result should be a usable location, a hub with meaningful choices, a concrete access/result node, or a clear back-out option.
+
+Avoid this pattern:
+
+1. Roll to breach a secure door.
+2. Arrive at a bare intermediate node.
+3. The only substantive option is another locked door to reach the actual location.
+
+Use one of these instead:
+
+- Combine the two checks into one harder gate with higher `unlockSuccesses`, `targetNumber`, or `securityValue`.
+- Let the first success reveal a useful staging location, clue, passcode, subsystem hub, or partial access before any second check.
+- Make the second check one of several meaningful options, not the only way forward.
+- Add a back-out/return/logoff option if the node is intentionally narrow or dangerous.
+
 Recommended intrusion topology:
 
 1. Secure entry node
@@ -162,6 +179,29 @@ Recommended result wording:
 - **Unlocked node:** "The staff-records archive opens as a new node. Continue there to search specific personnel or transaction details."
 
 The tool should make success feel like it changed the situation, even when exact contents remain under GM control.
+
+### Final Discord Report Contract
+
+The final Discord-ready run report should exclude pure flavor/fluff discoveries, but it must include concrete results that would matter later. If the decker earned access to camera systems, door controls, files, records, paydata, account privileges, device controls, passcodes, altered state, planted files, or other actionable facts, the final output should preserve it.
+
+Use reportable node kinds for concrete result nodes:
+
+- `confirmation` for GM-scoped access such as cameras, door controls, elevators, or file archives.
+- `reward`, `gm-reward`, `major-reward`, or `paydata` for recovered data or clues.
+- `permanent-outcome` for changes to campaign state.
+
+When the node kind is not enough, add explicit `report` metadata in the Host JSON:
+
+```json
+"report": {
+  "include": "always",
+  "title": "Camera network access",
+  "detail": "Mevin reached the camera network. Confirm visible feeds, controls, blind spots, and physical coverage with the GM.",
+  "notifyGm": true
+}
+```
+
+Use `report.include: "never"` for fun fluff that should stay out of the final report. Do not rely on the player remembering a concrete success from the crawl log; if it affects GM adjudication or future play, make it reportable during Host creation or revision.
 
 Permanent outcomes require explicit GM notification. If a decker changes records, creates an account, redirects orders, schedules a delivery, opens a recurring subscription, disables a camera, plants a file, or otherwise changes the campaign state, the result text must tell the player to notify the GM. Until the player tells the GM, the table should assume the GM does not know it happened.
 
@@ -430,6 +470,7 @@ Avoid these patterns:
 - putting exact physical facts in device success nodes when the GM should decide scope
 - revealing the full Host map before the decker earns access
 - guaranteeing paydata just because the decker reached a public node
+- stacking a locked door directly behind another locked door when both lead to the same single location
 - making failure merely cosmetic
 - treating current-crawl lockouts as permanent without GM instruction
 - hiding permanent campaign changes in the app without telling the player to notify the GM
@@ -477,6 +518,12 @@ Avoid these patterns:
         "title": "Camera Network Access",
         "kind": "confirmation",
         "description": "You appear to have access to the camera network. Confirm scope, feeds, controls, and blind spots with the GM.",
+        "report": {
+          "include": "always",
+          "title": "Camera network access",
+          "detail": "Mevin reached the camera network. Confirm visible feeds, controls, blind spots, and physical coverage with the GM.",
+          "notifyGm": true
+        },
         "choices": []
       }
     ]
@@ -493,7 +540,9 @@ Before publishing a Host profile, confirm:
 - The secure door can be rolled against and can fail without revealing the Host.
 - Graceful Logoff is available at the front door as a quiet-exit option.
 - Private intrusion exposes relevant subsystems.
+- No successful gate leads only to a second successful gate before anything useful happens.
 - Every successful featured action either unlocks a new node or gives the decker a specific GM-facing/personal-note result.
+- Concrete access, paydata, records, device controls, and permanent changes are reportable in the final Discord output; fluff-only nodes are not.
 - Hubs with four core options include a fifth back-out/logoff option when needed to prevent dead ends.
 - Permanent outcomes explicitly tell the player to notify the GM.
 - Lockouts are scoped to the current crawl unless the GM says otherwise; reset after in-world time is allowed when appropriate.

@@ -2,7 +2,7 @@
 title: Mevin Decker Experience Documentation
 type: documentation
 visibility: player-safe
-updated: 2026-07-12
+updated: 2026-07-17
 ---
 
 # Mevin Decker Experience Documentation
@@ -29,7 +29,7 @@ A host starts with up to two initial entry doors plus a quiet-exit option:
 - **Secure / hidden decker door:** requires a roll. Failure can lock that route for the current crawl and reveal nothing else.
 - **Graceful Logoff:** exits from the front door quietly and records that quiet exit in the GM report.
 
-Once inside the private side, the decker sees featured actions: subsystem access, file archives, camera networks, shipping records, hidden seams, control hooks, or paydata opportunities. A successful action either opens a new node or grants a specific result the player can tell the GM or note for later.
+Once inside the private side, the decker sees featured actions: subsystem access, file archives, camera networks, shipping records, hidden seams, control hooks, or paydata opportunities. A successful action either opens a new node or grants a specific result the player can tell the GM or note for later. Host profiles should not stack two locked doors in a row when both gates lead to the same single location; the first successful gate needs to reveal something usable.
 
 If the decker wants to do something outside the featured options, the player should tell the GM directly. The GM adjudicates the SR3-style test, time cost, Tally pressure, and outcome.
 
@@ -72,6 +72,8 @@ Rewards should be concrete but often GM-scoped. Good examples include:
 - recurring order inserted into fulfillment systems.
 
 Permanent outcomes must tell the player to **notify the GM**. If a player changes records, schedules a delivery, inserts a recurring order, plants a file, disables a device, or otherwise changes campaign state, the GM does not know it happened until the player reports it.
+
+The final Discord-ready report intentionally excludes pure fluff, but it should preserve concrete discoveries: camera access, records, paydata, device control, account access, permanent changes, and GM-confirmation nodes. Host authors can force that with reportable node kinds such as `confirmation`, `reward`, `paydata`, or `permanent-outcome`, or with explicit `report` metadata in scenario JSON.
 
 ## Host library and data model
 
