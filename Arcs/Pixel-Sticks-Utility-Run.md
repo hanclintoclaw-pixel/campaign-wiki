@@ -4,12 +4,13 @@ type: arc
 visibility: player-safe
 status: active
 first_session: 2026-07-09
-last_updated_session: 2026-07-09
+last_updated_session: 2026-07-16
 canon_status: canon
 confidence: high
 tags: [arc, current-run, matrix, youth-gang, utilities, nashville]
 sources:
   - Discord session thread 1524939834832064645
+  - ../Sessions/2026-07-16.md
 ---
 
 # Pixel Sticks / Military-Grade Utilities Run
@@ -18,7 +19,7 @@ sources:
 
 The crew has accepted a deniable Matrix cleanup contract routed through **Ivan** at **Atlas's**. The stated target is a troublesome Matrix youth gang causing disruption across the Nashville telecom grid. The first identified tag is **Pixel Sticks**, but the deeper issue is not ordinary vandalism: someone has armed the group with cutting-edge utilities far beyond normal youth-gang capacity.
 
-The team is currently investigating the Vernon Winfrey Avenue / **Happy Cat Konpeki and Collectibles** area, where the vandalism pattern has an odd exception and where the physical and Matrix environments are both crowded enough to hide the target.
+The team has pushed past the Vernon Winfrey Avenue / **Happy Cat Konpeki and Collectibles** lead and into the adjacent **Vernon Winfrey Arkoblock**. Mevin found a hidden Pixel Sticks tag yard in the Happy Cat host, Curtis identified a laser modem link from the store roof into the tower, and the crew ended Session 2026-07-16 stacked at the 21st-floor landing near the suspected Pixel Sticks floors.
 
 ## Known Contract Terms
 
@@ -38,22 +39,28 @@ The team is currently investigating the Vernon Winfrey Avenue / **Happy Cat Konp
 - The tools may already be degraded by repeated public use, or the client may simply want evidence that they have been destroyed or recovered.
 - The dossier given to the team appears edited; Mevin spotted monitoring gaps where activity should exist.
 - The client may be using the crew as deniable assets because the tools, the gang, or the missing data could trace back to them.
+- The Happy Cat host contains a hidden Pixel Sticks tag yard with utility crates, dead drops, route maps, burner personas, reputation tags, and job organization.
+- A laser modem links Happy Cat's roof to a blacked-out window in the neighboring arkoblock, where the crew saw electronics consistent with server racks or Matrix infrastructure.
+- Mevin's host intrusion tripped a server shutdown, but he was not traced or tagged.
 
 ## Active Leads
 
-- Investigate **Happy Cat Konpeki and Collectibles**, a bright teen hangout and small-business Matrix host in east Nashville.
-- Identify which local decker/youth clumps, if any, are Pixel Sticks members.
-- Determine why the vandalism pattern left an apparent exception around Happy Cat.
-- Identify the fairly powerful awakened animal sensed in or near Happy Cat.
-- Examine the local Matrix crowd and/or the Happy Cat host.
+- Enter or recon the 21st-floor approach in the **Vernon Winfrey Arkoblock**.
+- Identify the strange silver discs seen in the stairwell.
+- Determine whether the laser modem link is the main route, decoy, backup path, or anonymizing bridge.
+- Identify the young woman who ordered the trace check after the server shutdown.
+- Determine why **Chunky Sparkles** is inside Happy Cat and whether it protects the store, the Pixel Sticks, or something else.
 - Recover what was removed from the Johnson's dossier.
 - Preserve caution around handoff, proof-of-work, and client identity.
 
 ## Key Pages
 
 - [Session 2026-07-09](../Sessions/2026-07-09.md)
+- [Session 2026-07-16](../Sessions/2026-07-16.md)
 - [Pixel Sticks](../Factions/Pixel-Sticks.md)
 - [Happy Cat Konpeki and Collectibles](../Locations/Happy-Cat-Konpeki-and-Collectibles.md)
+- [Vernon Winfrey Arkoblock](../Locations/Vernon-Winfrey-Arkoblock.md)
+- [Chunky Sparkles](../NPCs/Chunky-Sparkles.md)
 - [Atlas's](../Locations/Atlass.md)
 - [Ivan Toklas](../NPCs/Ivan.md)
 - [Current State](../Current-State.md)
@@ -63,9 +70,11 @@ The team is currently investigating the Vernon Winfrey Avenue / **Happy Cat Konp
 - Who supplied the utilities?
 - Are the Pixel Sticks pawns, thieves, test subjects, or a deliberate distraction?
 - What would the unedited monitoring data reveal?
-- Is the awakened animal at Happy Cat protection, coincidence, mascot, tenant, or threat?
+- Is Chunky Sparkles at Happy Cat protection, coincidence, mascot, tenant, or threat?
+- What is behind the 21st-floor door?
 - Does this run intersect with the broader citywide Matrix/influence-engine problem, or is it a separate local job?
 
 ## Sources
 
 - Discord session thread 1524939834832064645
+- [Session 2026-07-16](../Sessions/2026-07-16.md)

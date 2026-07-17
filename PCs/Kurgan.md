@@ -3,13 +3,14 @@ title: Kurgan
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-06-25
+last_updated_session: 2026-07-16
 canon_status: provisional
 confidence: medium
 tags: [pc, cyber-samurai, active-crew]
 sources:
   - PARTY_DOSSIER.md
   - ../Sessions/2026-06-25.md
+  - ../Sessions/2026-07-16.md
 ---
 
 # Kurgan
@@ -28,6 +29,7 @@ Active player character and the crew's cyber-samurai.
 - During the 2066-05-09 interlude, Kurgan and Curtis eliminated **Righteous Haze** for the mayor.
 - Kurgan privately kept Haysen's recovered paydata rather than turning it over to the mayor or the rest of the crew.
 - Kurgan earned **4 Karma** and **5,000¥ total payout / recovered value** from the Righteous Haze interlude.
+- During the Pixel Sticks investigation, Kurgan recognized **Chunky Sparkles** inside Happy Cat and later led the crew's stairwell approach through the Vernon Winfrey arkoblock.
 
 ## Relationships
 
@@ -38,6 +40,7 @@ Active player character and the crew's cyber-samurai.
 ## Relevant Sessions
 
 - 2026-06-25 — partial-party canon interlude with Curtis; solved the mayor's Righteous Haze problem and advanced Kurgan's potential City Hall security/fixer role.
+- 2026-07-16 — recognized Chunky Sparkles, assessed the gang-controlled arkoblock approach, carried Curtis up the stairwell, and scouted the crew to the 21st-floor landing.
 
 ## Sources
 

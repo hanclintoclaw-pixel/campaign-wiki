@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-14
+last_updated_session: 2026-07-16
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -12,6 +12,7 @@ sources:
   - ../Sessions/2026-06-04.md
   - ../Sessions/2026-07-09.md
   - ../Arcs/Pixel-Sticks-Utility-Run.md
+  - ../Sessions/2026-07-16.md
   - SR3 Matrix sourcebook stock cyberdeck tables / Hacking Pool rules
   - GM-authorized provisional stat expansion on 2026-07-11
 ---
@@ -56,6 +57,8 @@ Mevin is usually the crew member most responsible for:
 - He also noticed suspicious gaps and edits in the Johnson's monitoring dossier, suggesting the client or source may have withheld relevant activity.
 - At Happy Cat, Mevin jacked into the local Matrix through a public access point and brought Valgaut along through a crude tethered connection while Kurgan remained outside as meatspace overwatch.
 - Mevin hid the real quality of his cyberdeck well enough that it read more like a high-end cyberterminal than an obvious illegal deck.
+- During the 2026-07-16 Happy Cat host run, Mevin recovered the Bypass Key, gained camera network access, and found the hidden Pixel Sticks tag yard.
+- His intrusion tripped a server shutdown, but the GM confirmed he was not traced, tagged, or tied back to his jackpoint.
 
 ## Matrix Style
 
@@ -80,6 +83,7 @@ Mevin's Matrix play style, as established so far, emphasizes:
 
 - **2026-06-04** — used corporate-procedural insight to reframe the Alvin Flang / Griswell job as likely espionage with inside help.
 - **2026-07-09** — identified the Pixel Sticks tag, questioned the Johnson's edited dossier, recognized the utility-recovery implications, and began the Happy Cat / local Matrix investigation.
+- **2026-07-16** — entered the Happy Cat host, recovered the Bypass Key, gained camera network access, found the hidden Pixel Sticks tag yard, triggered a server shutdown, and escaped without confirmed trace.
 
 ## Table-Use SR3 Stat Block
 

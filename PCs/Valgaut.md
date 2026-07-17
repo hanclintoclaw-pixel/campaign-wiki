@@ -3,7 +3,7 @@ title: Valgaut
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-06-04
+last_updated_session: 2026-07-16
 canon_status: current-sheet
 confidence: high
 tags: [pc, adept, active-crew]
@@ -13,6 +13,7 @@ sources:
   - Sessions/2026-04-30.md
   - memory/2026-06-04.md
   - Valgaut character sheet shared by player on 2026-06-04
+  - ../Sessions/2026-07-16.md
 ---
 
 # Valgaut
@@ -30,6 +31,7 @@ Active player character and the crew's physical adept. Valgaut is a human melee-
 - Current sheet-backed core stats: **BOD 4**, **QUI 5**, **STR 5**, **CHA 3**, **INT 4**, **WIL 6**, **Magic 6**, **Essence 6.00**.
 - Key crew tags: **Axe Specialist**, **Dragon Fan**, **Some Formal Education**, **Awakened Loot Appraiser**.
 - He is associated with **Draco**.
+- During the Pixel Sticks investigation, Valgaut identified **Chunky Sparkles** inside Happy Cat as a magically alarming awakened creature expressing multiple creature signatures at once.
 - Current listed armor includes a **secure long coat** and **armor vest**.
 - Current listed vehicle: **Ford Americar**.
 
@@ -79,6 +81,10 @@ The following powers are confirmed by the player-shared character sheet.
 
 - Linked to the crew's front-line physical presence.
 - Linked to **Draco**.
+
+## Relevant Sessions
+
+- **2026-07-16** — magically assessed Chunky Sparkles inside Happy Cat and joined the crew's stairwell approach to the suspected Pixel Sticks floors.
 
 ## Sources
 

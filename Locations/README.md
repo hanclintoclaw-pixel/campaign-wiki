@@ -14,6 +14,7 @@
 - [Darla Ledue's Penthouse](Darla-Penthouse.md)
 - [Grandpa](Grandpa.md)
 - [Happy Cat Konpeki and Collectibles](Happy-Cat-Konpeki-and-Collectibles.md)
+- [Vernon Winfrey Arkoblock](Vernon-Winfrey-Arkoblock.md)
 - [Atlas's](Atlass.md)
 - [Taco's Garage and Workshop](Tacos-Garage-and-Workshop.md)
 - [Gladwell Institute](Gladwell-Institute.md)

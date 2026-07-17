@@ -6,6 +6,7 @@
 - [Darla Ledue](Darla-Ledue.md)
 - [Jacinda Hamich](Jacinda-Hamich.md)
 - [Ivan Toklas](Ivan.md)
+- [Chunky Sparkles](Chunky-Sparkles.md)
 - [Jet Set Morgan](Jet-Set-Morgan.md)
 - [Core 7](Core-7.md)
 - [Mother Yahweh](Mother-Yahweh.md)

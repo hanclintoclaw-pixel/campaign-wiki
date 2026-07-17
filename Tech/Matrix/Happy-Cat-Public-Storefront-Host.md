@@ -5,10 +5,11 @@ visibility: player-safe
 status: active
 canon_status: campaign-derived
 confidence: medium
-last_updated_session: 2026-07-12
+last_updated_session: 2026-07-16
 tags: [matrix, host, happy-cat, convenience-store, collectibles, teen-hangout, pixel-sticks]
 sources:
   - Session 2026-07-09
+  - Session 2026-07-16
   - Mevin Host Run Simulator seed profile
   - ../Locations/Happy-Cat-Konpeki-and-Collectibles.md
 ---
@@ -19,7 +20,7 @@ sources:
 
 A small-business Matrix host for [Happy Cat Konpeki and Collectibles](../../Locations/Happy-Cat-Konpeki-and-Collectibles.md), an independent convenience store and collectibles hangout on Vernon Winfrey Avenue. The host is public-facing and retail-oriented, but it sits inside a noisy local grid zone full of teens, SINless users, nearby arkoblock residents, small-business hosts, and possible **Pixel Sticks** activity.
 
-The profile below mirrors the current seed profile used by the [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) and has a [machine-readable host profile](../../data/matrix-hosts/happy-cat-public-storefront-host.json) for Matrix minigame tools, including the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/). The Decker Experience version uses the host-construction template: a harmless public visitor side, a secure staff/private side, GM-confirmation subsystem nodes, and a hidden deeper layer that remains unrevealed unless found in play.
+The profile below mirrors the current seed profile used by the [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) and has a [machine-readable host profile](../../data/matrix-hosts/happy-cat-public-storefront-host.json) for Matrix minigame tools, including the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/). The Decker Experience version uses the host-construction template: a harmless public visitor side, a secure staff/private side, GM-confirmation subsystem nodes, and a hidden deeper layer that Mevin discovered in Session 2026-07-16.
 
 ## Host Stats (SR3-style)
 
@@ -52,6 +53,15 @@ The profile below mirrors the current seed profile used by the [Mevin Host Run S
 - **Sculpting:** Bright retail storefront, mascot popups, collectible-card catalog, snack ads, and local teen chatter overlays.
 - **Simulator notes:** First live lead from Session 2026-07-09. Small-business host near dense public Matrix traffic.
 
+## Session 2026-07-16 discoveries
+
+- Mevin recovered the **Bypass Key** from the cluttered Manager's Office, giving the run a major target-number advantage in the tool.
+- Mevin gained **camera network access**.
+- Mevin found the hidden **Pixel Sticks tag yard** behind the cheerful store sculpting.
+- The hidden yard presented as a harder, cleaner, graffiti-coated staging host with tag fragments, utility crates, dead-drop lockers, route maps, burner personas, and reputation tags.
+- The yard felt like a disciplined Matrix gang's working space, with jobs sorted by risk, payout, sponsor, and bragging rights.
+- The run tripped a server shutdown, but the GM confirmed Mevin was not traced, tagged, or tied back to his jackpoint.
+
 ## What deckers find inside
 
 - public product catalogues, snack specials, collectible inventory, and trading-card/event postings
@@ -70,7 +80,7 @@ The host feels busier than it should for a corner store. It is bright, cute, ove
 
 Under that cheerful clutter, the host is still a real neighborhood information knot. A patient decker can use the noise as cover, but the same noise makes it hard to separate actual **Pixel Sticks** signal from teenage posturing and ordinary retail spam.
 
-The hidden Pixel Sticks layer should feel like a major gang's working yard, not a prank board: tag reputation, burner personas, paid job routing, sponsor hints, route maps, and protected stashes arranged with style but run with discipline.
+The hidden Pixel Sticks layer now discovered in play feels like a major gang's working yard, not a prank board: tag reputation, burner personas, paid job routing, sponsor hints, route maps, and protected stashes arranged with style but run with discipline.
 
 ## Iconography
 
@@ -126,9 +136,10 @@ Hidden Pixel Sticks rewards:
 ## Open Questions
 
 - Why did the recent Matrix vandalism pattern apparently spare Happy Cat?
-- Is the host itself clean, compromised, protected, or being used as bait?
+- Is the host itself compromised, protected, or being used as bait?
 - Do the store's local users overlap with any actual Pixel Sticks members?
-- Does the awakened animal sensed at the physical location have any Matrix-side footprint or protection role?
+- Does Chunky Sparkles have any Matrix-side footprint or protection role?
+- What did the server shutdown hide or protect after Mevin reached the hidden yard?
 
 ## Related Pages
 
@@ -136,3 +147,4 @@ Hidden Pixel Sticks rewards:
 - [Pixel Sticks](../../Factions/Pixel-Sticks.md)
 - [Pixel Sticks / Military-Grade Utilities Run](../../Arcs/Pixel-Sticks-Utility-Run.md)
 - [Session 2026-07-09](../../Sessions/2026-07-09.md)
+- [Session 2026-07-16](../../Sessions/2026-07-16.md)

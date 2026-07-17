@@ -3,12 +3,13 @@ title: Belmont
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-14
+last_updated_session: 2026-07-16
 canon_status: provisional
 confidence: medium
 tags: [vehicle, drone, crawler, rigger, curtis]
 sources:
   - PARTY_DOSSIER.md
+  - ../Sessions/2026-07-16.md
 ---
 
 # Belmont
@@ -36,7 +37,7 @@ Part of the campaign's dedicated **Drones / Vehicles** reference layer rather th
 
 ## Role
 
-A combat crawler drone in Curtis's active rigger stable.
+A combat crawler drone in Curtis's active rigger stable. During the Happy Cat investigation, Curtis used Belmont for roof surveillance and captured images of suspicious communications equipment later identified as part of a laser modem link into the neighboring arkoblock.
 
 ## Maintenance History
 

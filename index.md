@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-07-10
+updated: 2026-07-17
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,7 +20,7 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The crew has started a new Matrix-focused run against the **[Pixel Sticks](Factions/Pixel-Sticks.md)**, a youth-gang tag tied to Nashville telecom vandalism and suspiciously advanced attack utilities. The current scene is at **[Happy Cat Konpeki and Collectibles](Locations/Happy-Cat-Konpeki-and-Collectibles.md)**, where Mevin, Valgaut, and Cindy Lou are in the local Matrix while Kurgan watches the physical crowd.
+The crew is deep in the **[Pixel Sticks](Factions/Pixel-Sticks.md)** run, a Matrix-youth-gang job tied to suspiciously advanced attack utilities. After Mevin found the hidden tag yard in the **[Happy Cat](Locations/Happy-Cat-Konpeki-and-Collectibles.md)** host, the crew traced a laser modem link into the **[Vernon Winfrey Arkoblock](Locations/Vernon-Winfrey-Arkoblock.md)** and ended the latest session stacked at the 21st-floor landing.
 
 ## Navigation
 

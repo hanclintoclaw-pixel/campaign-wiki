@@ -14,6 +14,7 @@ sources:
   - Curtis active skills screenshot shared by player on 2026-06-05
   - Curtis knowledge and language skills screenshot shared by player on 2026-06-05
   - ../Sessions/2026-06-25.md
+  - ../Sessions/2026-07-16.md
 ---
 
 # Curtis
@@ -92,6 +93,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
 - During the 2066-05-09 interlude, Curtis backed Kurgan on the **Righteous Haze** job, using **Grandpa** as the lure/extraction vehicle.
 - Curtis earned **4 Karma** and **5,000¥ total payout / recovered value** from the Righteous Haze interlude.
+- During the Pixel Sticks investigation at Happy Cat, Curtis used Belmont to spot suspicious roof equipment, identified the laser modem path into the neighboring arkoblock, paid the 100¥ store-membership shakedown, and used Mr. Clean to unlatch a sealed stairwell barricade from the inside.
 
 ## Rigger Asset Highlights
 
@@ -126,6 +128,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 - 2026-06-04 — balanced ongoing habitat work with the new **Griswell Data Services** surveillance job, using drone and vehicle support against Alvin Flang's trail.
 - 2026-06-25 — backed Kurgan in the backdated Righteous Haze interlude, using Grandpa and social cover to isolate the target.
+- 2026-07-16 — supported the Happy Cat / Vernon Winfrey arkoblock investigation with Belmont roof surveillance, laser-modem analysis, and Mr. Clean barricade bypass.
 
 ## Sheet Snapshot
 

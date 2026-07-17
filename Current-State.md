@@ -2,16 +2,16 @@
 title: Current State
 type: dashboard
 visibility: player-safe
-updated: 2026-07-10
+updated: 2026-07-17
 ---
 
 # Current State
 
 ## Active Arc
 
-The crew is on a new Matrix-focused job: **[Pixel Sticks / Military-Grade Utilities Run](Arcs/Pixel-Sticks-Utility-Run.md)**. Ivan routed the team through **[Atlas's](Locations/Atlass.md)** to a high-end anonymous Johnson who wants a disruptive Nashville Matrix youth gang stopped and, if possible, wants their state-of-the-art attack utilities recovered.
+The crew is on the **[Pixel Sticks / Military-Grade Utilities Run](Arcs/Pixel-Sticks-Utility-Run.md)**. Ivan routed the team through **[Atlas's](Locations/Atlass.md)** to a high-end anonymous Johnson who wants a disruptive Nashville Matrix youth gang stopped and, if possible, wants their state-of-the-art attack utilities recovered.
 
-The first concrete lead is **[Happy Cat Konpeki and Collectibles](Locations/Happy-Cat-Konpeki-and-Collectibles.md)**, a busy East Nashville convenience-store / collectibles shop that was conspicuously spared during Matrix vandalism waves. **Mevin** and **Valgaut** are currently in the local Matrix with **Cindy Lou Jenkins** assisting as a social-pattern / profiling helper, while **Kurgan** watches the physical crowd outside.
+The investigation has moved from **[Happy Cat Konpeki and Collectibles](Locations/Happy-Cat-Konpeki-and-Collectibles.md)** into the adjacent **[Vernon Winfrey Arkoblock](Locations/Vernon-Winfrey-Arkoblock.md)**. **Mevin** found the hidden Pixel Sticks tag yard inside the Happy Cat host and got out clean after tripping a server shutdown; **Curtis** identified a laser modem link into the tower; **Valgaut** confirmed the awakened creature inside Happy Cat as **[Chunky Sparkles](NPCs/Chunky-Sparkles.md)**; and the whole crew is stacked at the **21st-floor landing** near the suspected Pixel Sticks floors.
 
 ## Recent Resolved Runs
 
@@ -23,14 +23,15 @@ The first concrete lead is **[Happy Cat Konpeki and Collectibles](Locations/Happ
 
 - Current campaign year: **2066**
 - Most recently confirmed active date: **2066-05-12**
-- Current active scene: **evening of 2066-05-12, provisional**, after the Griswell / Palermo payout and before the next confirmed date anchor.
+- Current active scene: **evening of 2066-05-12, provisional**, inside the Vernon Winfrey arkoblock at the 21st-floor landing.
 
 ## Immediate Leads
 
-- identify which local teens, deckers, or Matrix icons near **Happy Cat** are actually tied to the **Pixel Sticks**
-- inspect the **Happy Cat** host and local telecom-grid traffic without exposing Mevin's cyberdeck
-- determine why Happy Cat was spared by the vandalism wave
-- identify the fairly powerful **awakened animal** Valgaut sensed inside Happy Cat
+- enter or recon the 21st-floor Pixel Sticks approach without walking into a prepared trap
+- identify the strange silver discs seen in the stairwell
+- determine whether the laser modem link is the main route, a decoy, a backup path, or an anonymizing bridge through civilian infrastructure
+- identify the unnamed young woman who ordered the trace check after Mevin's host intrusion
+- determine what **[Chunky Sparkles](NPCs/Chunky-Sparkles.md)** protects, if anything, and why it is at Happy Cat
 - determine whether the **advanced utilities** are recoverable, already burned, or evidence that needs to be destroyed
 - find out what was removed from the Johnson's dossier and whether it hides the client, a protected person, or the original source of the tools
 - keep watching for whether the Cross / Princeps pressure environment intersects with this Matrix-gang job or merely forms the broader city backdrop
@@ -41,6 +42,6 @@ The first concrete lead is **[Happy Cat Konpeki and Collectibles](Locations/Happ
 - Who supplied the Pixel Sticks with bleeding-edge utilities?
 - Are the Pixel Sticks the real problem, patsies, useful idiots, or protected kids tied to someone powerful?
 - What exactly was cut from the dossier's monitoring record?
-- What is inside Happy Cat, both physically and in the local Matrix host?
-- Can Cindy Lou's social-pattern analysis separate real Pixel Sticks from the crowd of corporate-logo teens, poseurs, and plugged-in SINless locals?
+- What is behind the 21st-floor door in the Vernon Winfrey arkoblock?
+- Who controls the unknown gang tags and door guards around the Pixel Sticks floor stack?
 - How much of the older **Core 7 / influence-engine** problem is still actively dangerous while the crew handles this new Matrix contract?
