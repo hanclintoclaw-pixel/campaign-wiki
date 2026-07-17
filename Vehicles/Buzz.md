@@ -41,6 +41,10 @@ A light aerial surveillance/support drone.
 
 > "Buzz ain't there to be brave. Buzz is there to see first, see quiet, and tell you not to walk into a stupid mess. If this one starts drawing heat, you've already misused it."
 
+## Notes
+
+- **2026-07-17 — Curtis Drone Shift Tutorial 6: Buzz's Battery-Bay Bellyache:** Curtis completed a break-even maintenance on Buzz. The work included Curtis rules out cell swelling and keeps the job in cheap latch-and-contact territory, The fault shows up late after Curtis cleans two innocent rails and donates extra contact swabs to the cause, The shim works, but Curtis spends extra tape and a replacement screw after the first bend fights back, and The check passes well enough, but Curtis spends extra foam and cleaner chasing one last warning-light flicker. Shimmed latch is in effect: hover-shake TN +1 for vibration risk. Final report logged **-25¥** net shift result and **Maintenance Quality 1**. Follow-up note: Bend and shim the old latch: Follow-up: shimmed latch leaves vibration risk; Hover-Shake Test TN +1 and the final report notes the thrift fix.. No permanent Buzz stat changes apply unless the GM confirms them.
+
 ## Sources
 
 - `PARTY_DOSSIER.md`
