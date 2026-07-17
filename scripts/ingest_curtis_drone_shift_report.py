@@ -111,7 +111,8 @@ def parse_followups(text: str) -> tuple[str, ...]:
         if capture and re.match(r"Cindy ingest/closeout note:", line, flags=re.IGNORECASE):
             break
         if capture and line.startswith("-"):
-            followups.append(line[1:].strip())
+            followup = re.sub(r":\s*Follow-up:\s*", ": ", line[1:].strip(), flags=re.IGNORECASE)
+            followups.append(followup.rstrip("."))
     return tuple(followups)
 
 
@@ -165,7 +166,7 @@ def sentence_join(parts: tuple[str, ...], limit: int = 4) -> str:
 def followup_sentence(report: Report) -> str:
     if not report.followups:
         return ""
-    detail = "; ".join(report.followups)
+    detail = "; ".join(followup.rstrip(".") for followup in report.followups)
     return f" Follow-up note: {detail}."
 
 
