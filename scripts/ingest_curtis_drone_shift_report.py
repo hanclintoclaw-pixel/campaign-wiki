@@ -205,25 +205,38 @@ def replace_once(text: str, old: str, new: str) -> str:
 def update_funds_note(text: str, report: Report) -> str:
     pattern = re.compile(
         r"Current funds note preserved in dossier: \*\*(?P<balance>[\d,]+)¥\*\* current nuyen balance "
-        r"\((?P<body>.*?)\*\*(?P<drone_delta>[+-][\d,]+)¥\*\* net from completed Curtis Drone Shift Work Orders "
-        r"Tutorial (?P<start>\d+)-(?P<end>\d+)\)",
+        r"\((?P<body>.*?)\)",
         flags=re.DOTALL,
     )
     match = pattern.search(text)
     if not match:
         raise IngestError("Could not find Curtis current funds Drone Shift note.")
 
+    drone_pattern = re.compile(
+        r"\*\*(?P<drone_delta>[+-][\d,]+)¥\*\* net from completed Curtis Drone Shift Work Orders "
+        r"Tutorial (?P<start>\d+)-(?P<end>\d+)"
+    )
+    drone_match = drone_pattern.search(match.group("body"))
+    if not drone_match:
+        raise IngestError("Could not find Curtis Drone Shift subtotal in current funds note.")
+
     old_balance = int(match.group("balance").replace(",", ""))
-    old_drone_delta = int(match.group("drone_delta").replace(",", ""))
+    old_drone_delta = int(drone_match.group("drone_delta").replace(",", ""))
     new_balance = old_balance + report.nuyen_delta
     new_drone_delta = old_drone_delta + report.nuyen_delta
-    start = int(match.group("start"))
-    end = report.tutorial_number or int(match.group("end"))
+    start = int(drone_match.group("start"))
+    end = report.tutorial_number or int(drone_match.group("end"))
+
+    new_body = drone_pattern.sub(
+        f"**{format_yen(new_drone_delta, signed=True)}** net from completed Curtis Drone Shift Work Orders "
+        f"Tutorial {start}-{end}",
+        match.group("body"),
+        count=1,
+    )
 
     replacement = (
         f"Current funds note preserved in dossier: **{format_yen(new_balance)}** current nuyen balance "
-        f"({match.group('body')}**{format_yen(new_drone_delta, signed=True)}** net from completed Curtis Drone Shift Work Orders "
-        f"Tutorial {start}-{end})"
+        f"({new_body})"
     )
     return text[: match.start()] + replacement + text[match.end() :]
 
