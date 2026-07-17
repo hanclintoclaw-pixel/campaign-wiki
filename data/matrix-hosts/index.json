@@ -44,6 +44,12 @@
       "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Ruby-Falls-Data-Haven-Host.html"
     },
     {
+      "id": "noodle-stories-host",
+      "name": "Noodle Stories Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/noodle-stories-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Noodle-Stories-Host.html"
+    },
+    {
       "id": "sc-music-corporate-host",
       "name": "SC Music Corporate Host",
       "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/sc-music-corporate-host.json",

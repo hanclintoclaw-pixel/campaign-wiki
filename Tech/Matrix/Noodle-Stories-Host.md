@@ -20,7 +20,7 @@ sources:
 
 The **Noodle Stories Host** is the modest public Matrix presence and back-room coordination system for [Noodle Stories](../../Locations/Noodle-Stories.md), a small Nashville arts-district noodle shop tied to the [Noodle Stories Collective](../../Organizations/Noodle-Stories-Collective.md). It is not built like a corporate vault. It is a mid-level **Blue host** whose real defense is low profile, sparse data retention, analog habits, and regulars who notice when something feels wrong.
 
-This page is a wiki Host record only. No machine-readable Decker Experience profile has been created yet.
+This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/noodle-stories-host.json). The Decker Experience version follows the public-door / secure-door template, hides concrete private-side entries behind the staff layer, includes a harder anti-government archive layer, and ends with a very high-TN route that can reveal a Nashville PD backdoor into the system.
 
 ## SR3 Rules Model
 
@@ -56,6 +56,15 @@ Use normal SR3 Matrix host assumptions:
   - Alter postings, RSVP lists, staff schedules, or food-supply orders: **7**
   - Control attached shop devices such as cheap cameras, door chimes, sign lights, speakers, or kitchen order displays: **6-7**
   - Evade trace / staff-notification pressure after tripping the sheaf: **5-6**
+
+## Decker Experience profile
+
+- **Profile ID:** `noodle-stories-host`
+- **Name:** Noodle Stories Host
+- **Security code:** Blue
+- **Security value:** 5
+- **Shutdown Tally:** 18
+- **Design note:** The public side is harmless. Private-side discoveries include camera access, sales records, catered-party history, and bespoke viral pasta recipe diversion. The deeper archive uses higher target numbers and contains sensitive anti-government materials. The final NPD backdoor route is intentionally very hard and should be treated as a major GM-facing reveal.
 
 ## What deckers find inside
 

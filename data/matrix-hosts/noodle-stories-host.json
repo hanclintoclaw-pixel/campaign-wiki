@@ -1,0 +1,397 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "noodle-stories-host",
+  "name": "Noodle Stories Host",
+  "wikiPage": "Tech/Matrix/Noodle-Stories-Host.md",
+  "locationPage": "Locations/Noodle-Stories.md",
+  "securityCode": "blue",
+  "securityValue": 5,
+  "hostRating": 5,
+  "shutdownTally": 18,
+  "subsystem": {
+    "access": 5,
+    "control": 4,
+    "index": 5,
+    "files": 5,
+    "slave": 4,
+    "collectiveAccess": 8,
+    "collectiveIndex": 8,
+    "collectiveFiles": 9,
+    "collectiveControl": 8,
+    "npdBackdoor": 12
+  },
+  "taskTargetNumbers": {
+    "logon": 5,
+    "browsePublic": 4,
+    "searchCustomer": 5,
+    "staffRecords": 6,
+    "alterStore": 7,
+    "controlSlave": 6,
+    "evadeTrace": 6,
+    "fightIc": 6,
+    "findUvSeam": 8,
+    "breachUv": 9,
+    "collectiveArchive": 9,
+    "policeBackdoor": 12
+  },
+  "securitySheaf": [
+    { "threshold": 4, "label": "Nosy Regular Probe", "effect": "A regular's icon looks up from a bowl and starts asking why the decker is in the wrong room.", "encounter": { "type": "probe", "rating": 5 } },
+    { "threshold": 7, "label": "Receipt-Tape Trace", "effect": "Receipt tape unspools from the register and starts crawling back toward the decker's access path.", "encounter": { "type": "trace", "rating": 5 } },
+    { "threshold": 10, "label": "Passive Alert: Room Goes Quiet", "effect": "The host gets suspicious. Subsystem ratings effectively rise under alert conditions; public icons keep eating noodles like nothing happened.", "encounter": { "type": "generic", "rating": 5, "consequence": "Passive Alert: Noodle Stories regulars and staff may become uneasy if the decker keeps pushing. Notify the GM if unresolved pressure remains at run end." } },
+    { "threshold": 12, "label": "Spilled-Broth Scramble", "effect": "Ink runs, poem pages blur, and copied files risk becoming partial or noisy.", "encounter": { "type": "scramble", "rating": 6 } },
+    { "threshold": 14, "label": "Sticky Noodle Tar Baby", "effect": "Doughy noodles and a jammed staff curtain try to hold the icon long enough for human response.", "encounter": { "type": "tarBaby", "rating": 6 } },
+    { "threshold": 16, "label": "Auntie Static Warning Ping", "effect": "A back-room signal minder or trusted regular receives a warning that the host has an intruder.", "encounter": { "type": "trace", "rating": 7, "consequence": "Auntie Static Warning Ping: Noodle Stories staff or trusted regulars may receive a usable alert about the intrusion. Notify the GM if this remains unresolved." } }
+  ],
+  "sculpting": "A cluttered noodle counter after midnight: steam, paper lanterns, hand-lettered specials, receipt tape, zine racks, poem broadsides, and open-mic flyers. Deeper collective material hides behind coded menu specials, flyer serials, and back-room radio static.",
+  "notes": "Blue-5 Noodle Stories host for Decker Experience playtesting. Public side is harmless. Private side hides concrete result nodes for camera access, sales records, catered-party history, and bespoke viral pasta recipe diversion. A harder anti-government archive layer can reveal sensitive collective materials. The final very-high-TN route exposes an NPD backdoor/surveillance implant.",
+  "flow": {
+    "startNodeId": "arts-district-approach",
+    "nodes": [
+      {
+        "id": "arts-district-approach",
+        "title": "Arts District Grid Outside Noodle Stories",
+        "kind": "entry",
+        "description": "You hover in Nashville's arts-district grid among gallery announcements, bootleg show flyers, food-order pings, and the warm steam-signature of Noodle Stories. The host offers a public customer surface and a quieter staff-only curtain.",
+        "choices": [
+          { "label": "Use the public noodle-shop door", "to": "public-counter" },
+          { "label": "Slip behind the staff-only curtain", "to": "staff-hub", "testId": "logon", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "public-counter",
+        "title": "Public Counter",
+        "kind": "public",
+        "description": "Steam curls over a bright counter icon. Menu boards, hours, public flyers, sanitized zines, and open-mic notices hang where customers can see them. This side is noisy, harmless, and deliberately thin.",
+        "choices": [
+          { "label": "Browse menu and public specials", "to": "public-menu-board" },
+          { "label": "Read public poetry-night flyers", "to": "public-flyer-wall" },
+          { "label": "Check the zine rack", "to": "public-zine-rack" },
+          { "label": "Return to the arts-district grid", "to": "arts-district-approach" }
+        ]
+      },
+      {
+        "id": "public-menu-board",
+        "title": "Public Menu Board",
+        "kind": "public",
+        "description": "Broth specials, noodle sizes, tea prices, and a few jokes about landlords scroll across a hand-lettered board. Good flavor, no secrets.",
+        "choices": [
+          { "label": "Return to the public counter", "to": "public-counter" }
+        ]
+      },
+      {
+        "id": "public-flyer-wall",
+        "title": "Public Flyer Wall",
+        "kind": "public",
+        "description": "Public readings, benefit nights, gallery shows, and open-mic titles are visible here. The radical stuff is poetic enough to be legal and vague enough to be useless by itself.",
+        "choices": [
+          { "label": "Return to the public counter", "to": "public-counter" }
+        ]
+      },
+      {
+        "id": "public-zine-rack",
+        "title": "Public Zine Rack",
+        "kind": "public",
+        "description": "Cheap chapbooks, public broadsides, and mutual-aid pamphlets are arranged in a milk crate. They say plenty about attitude, not much about operations.",
+        "choices": [
+          { "label": "Return to the public counter", "to": "public-counter" }
+        ]
+      },
+      {
+        "id": "staff-hub",
+        "title": "Back Counter Staff Hub",
+        "kind": "private",
+        "description": "Behind the curtain, the sculpting turns practical: prep sheets, grease-stained binders, delivery envelopes, camera bulbs, kitchen order screens, and a half-busted stage mic. This is the useful layer.",
+        "choices": [
+          { "label": "Search shop records and ledgers", "to": "records-ledger-hub", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Probe shop device controls", "to": "device-control-hub", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Decode back-room collective signals", "to": "collective-seam", "testId": "findUvSeam", "unlockSuccesses": 2, "targetNumber": 8, "securityValue": 6 },
+          { "label": "Plant or alter a menu signal", "to": "menu-signal-edit", "testId": "alterStore", "unlockSuccesses": 2 },
+          { "label": "Back out to the public counter", "to": "public-counter", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "records-ledger-hub",
+        "title": "Shop Records and Ledger Hub",
+        "kind": "private",
+        "description": "Receipt strips, order tickets, comp ledgers, catering envelopes, and recipe notebooks flutter around a scarred prep table. Pick what you are searching before the host notices the pattern.",
+        "choices": [
+          { "label": "Sales records", "to": "sales-records", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "History of catered parties", "to": "catered-party-history", "testId": "searchCustomer", "unlockSuccesses": 1 },
+          { "label": "Bespoke viral pasta recipe queue", "to": "viral-pasta-recipe-queue", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Return to staff hub", "to": "staff-hub" }
+        ]
+      },
+      {
+        "id": "sales-records",
+        "title": "Sales Records Access",
+        "kind": "confirmation",
+        "description": "You appear to have access to sales records: meal tabs, comped bowls, suspicious bulk orders, late-night register timing, and staff shorthand in the margins. Tell the GM you have sales-record access; confirm what names, dates, or order patterns are visible.",
+        "report": {
+          "include": "always",
+          "title": "Sales records access",
+          "detail": "Mevin reached Noodle Stories sales records. Confirm visible dates, tabs, suspicious orders, comped meals, and usable order-pattern leads with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Copy useful sales-pattern paydata", "to": "sales-pattern-paydata" },
+          { "label": "Return to shop records", "to": "records-ledger-hub" },
+          { "label": "Log off with sales records noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "catered-party-history",
+        "title": "History of Catered Parties",
+        "kind": "confirmation",
+        "description": "You appear to have access to catering history: party names, delivery windows, back-room events, benefit nights, and a few clients who wanted the food but not the publicity. Tell the GM you have catered-party history; ask which events or hosts matter.",
+        "report": {
+          "include": "always",
+          "title": "Catered-party history access",
+          "detail": "Mevin reached Noodle Stories catered-party history. Confirm party names, delivery windows, benefit nights, and privacy-sensitive client/event details with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Copy catering-route notes", "to": "catering-route-paydata" },
+          { "label": "Return to shop records", "to": "records-ledger-hub" },
+          { "label": "Log off with catering history noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "viral-pasta-recipe-queue",
+        "title": "Bespoke Viral Pasta Recipe Queue",
+        "kind": "private",
+        "description": "A little recipe queue hides behind hand-lettered menu specials: chile crisp noodle variants, sponsor-safe names, allergy notes, and novelty pasta concepts engineered to be photographed and copied.",
+        "choices": [
+          { "label": "Divert a bespoke viral pasta recipe", "to": "viral-pasta-diversion", "testId": "alterStore", "unlockSuccesses": 2 },
+          { "label": "Copy recipe-development notes", "to": "recipe-development-paydata", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Return to shop records", "to": "records-ledger-hub" }
+        ]
+      },
+      {
+        "id": "viral-pasta-diversion",
+        "title": "Permanent Outcome: Viral Pasta Recipe Diverted",
+        "kind": "permanent-outcome",
+        "description": "You divert or redirect a bespoke viral pasta recipe before it hits the menu/social loop. Notify the GM: this is a permanent campaign-state change. Specify whether the recipe was copied, suppressed, rerouted, renamed, or pointed at a different recipient.",
+        "report": {
+          "include": "always",
+          "title": "Viral pasta recipe diverted",
+          "detail": "Mevin changed the bespoke viral pasta recipe queue. Tell the GM whether the recipe was copied, suppressed, rerouted, renamed, or assigned to a different recipient.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to recipe queue", "to": "viral-pasta-recipe-queue" },
+          { "label": "Log off before menu audit catches up", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "sales-pattern-paydata",
+        "title": "Paydata: Sales Pattern Notes",
+        "kind": "paydata",
+        "description": "You recover modest local paydata from sales records: suspicious bulk orders, recurring comped tabs, late-night timing, or a pattern of meals tied to arts-district pressure. Tell the GM you recovered Noodle Stories sales-pattern paydata.",
+        "choices": [
+          { "label": "Return to sales records", "to": "sales-records" },
+          { "label": "Log off with sales paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "catering-route-paydata",
+        "title": "Paydata: Catering Route Notes",
+        "kind": "paydata",
+        "description": "You recover modest local paydata from catered-party history: privacy-sensitive client/event traces, delivery windows, and social links around benefit nights. Tell the GM you recovered Noodle Stories catering-route paydata.",
+        "choices": [
+          { "label": "Return to catered-party history", "to": "catered-party-history" },
+          { "label": "Log off with catering paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "recipe-development-paydata",
+        "title": "Paydata: Recipe Development Notes",
+        "kind": "paydata",
+        "description": "You copy recipe-development notes: supplier tricks, novelty names, allergy constraints, and social-spread timing. It is small, weird, locally useful paydata. Tell the GM you recovered bespoke recipe paydata.",
+        "choices": [
+          { "label": "Return to recipe queue", "to": "viral-pasta-recipe-queue" },
+          { "label": "Log off with recipe paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "device-control-hub",
+        "title": "Shop Device Controls",
+        "kind": "private",
+        "description": "Cheap cameras, a door chime, sign lights, kitchen order displays, a tiny speaker bus, and the stage mic all hang off the host with more personality than hardening.",
+        "choices": [
+          { "label": "Camera network", "to": "camera-network", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Door chime and sign lights", "to": "door-chime-signs", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Stage mic and speaker bus", "to": "stage-mic-speakers", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Return to staff hub", "to": "staff-hub" }
+        ]
+      },
+      {
+        "id": "camera-network",
+        "title": "Camera Network Access",
+        "kind": "confirmation",
+        "description": "You appear to have access to the shop camera network or camera-record index. Tell the GM you have camera-network access; confirm which feeds are live, stored, missing, delayed, spoofed, or deliberately pointed at useless walls.",
+        "report": {
+          "include": "always",
+          "title": "Camera network access",
+          "detail": "Mevin reached Noodle Stories camera access. Confirm visible feeds, stored windows, blind spots, missing cameras, and whether any feed is delayed or spoofed with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Search camera gaps for suspicious watchers", "to": "camera-gap-paydata" },
+          { "label": "Return to device controls", "to": "device-control-hub" },
+          { "label": "Log off with camera access noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "door-chime-signs",
+        "title": "Door Chime and Sign Light Access",
+        "kind": "confirmation",
+        "description": "You appear to have access to the door chime, sign lights, and a few cheap presence cues. Tell the GM you have door-chime/sign access; confirm whether any change would be noticed physically.",
+        "report": {
+          "include": "always",
+          "title": "Door chime and sign light access",
+          "detail": "Mevin reached Noodle Stories door chime/sign light controls. Confirm physical scope and whether changes would be noticed with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to device controls", "to": "device-control-hub" },
+          { "label": "Log off with device access noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "stage-mic-speakers",
+        "title": "Stage Mic and Speaker Bus Access",
+        "kind": "confirmation",
+        "description": "You appear to have access to the tiny stage mic and speaker bus. Tell the GM you have audio-system access; confirm whether it can record, broadcast, distort, or only play house sound.",
+        "report": {
+          "include": "always",
+          "title": "Stage mic and speaker access",
+          "detail": "Mevin reached Noodle Stories stage mic/speaker bus. Confirm whether it records, broadcasts, distorts, or only plays house sound with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to device controls", "to": "device-control-hub" },
+          { "label": "Log off with audio access noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "camera-gap-paydata",
+        "title": "Paydata: Camera Gap Pattern",
+        "kind": "paydata",
+        "description": "You recover a small but concrete camera-gap pattern: useful timestamps, blank spots, weird maintenance windows, or repeated watcher positions. Tell the GM you recovered camera-gap paydata.",
+        "choices": [
+          { "label": "Return to camera network", "to": "camera-network" },
+          { "label": "Log off with camera-gap paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "menu-signal-edit",
+        "title": "Permanent Outcome: Menu Signal Edited",
+        "kind": "permanent-outcome",
+        "description": "You alter a menu special, flyer refrain, or other deniable signal. Notify the GM: this is a permanent campaign-state change and may send the wrong message to the wrong person.",
+        "report": {
+          "include": "always",
+          "title": "Menu/flyer signal edited",
+          "detail": "Mevin altered a Noodle Stories menu/flyer signal. Tell the GM what changed and who might read the signal.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to staff hub", "to": "staff-hub" },
+          { "label": "Log off after signal edit", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "collective-seam",
+        "title": "Coded Collective Seam",
+        "kind": "hidden-clue",
+        "description": "Menu jokes, poem titles, flyer serials, and a little AM-radio hiss line up into a back-room routing grammar. This is not a second locked door to the same room; it is a discovered seam into a harder, more sensitive archive layer.",
+        "choices": [
+          { "label": "Enter the anti-government archive layer", "to": "anti-government-archive", "testId": "breachUv", "unlockSuccesses": 3, "targetNumber": 9, "securityValue": 8 },
+          { "label": "Package the seam as a clue and retreat", "to": "staff-hub", "testId": "evadeTrace", "targetNumber": 7, "securityValue": 6 }
+        ]
+      },
+      {
+        "id": "anti-government-archive",
+        "title": "Anti-Government Materials Archive",
+        "kind": "private",
+        "description": "The noodle-shop sculpting drops into a dim back room full of paper, radio static, legal-defense notes, protest poetry, copied pamphlets, and annotated rumors about local authority. It is much better protected than the menu board.",
+        "choices": [
+          { "label": "Search anti-government pamphlet cache", "to": "anti-government-materials", "testId": "collectiveArchive", "unlockSuccesses": 2, "targetNumber": 9, "securityValue": 8 },
+          { "label": "Search mutual-aid warning lists", "to": "warning-list-cache", "testId": "collectiveArchive", "unlockSuccesses": 2, "targetNumber": 9, "securityValue": 8 },
+          { "label": "Look for hidden third-party access", "to": "npd-backdoor-doorway", "testId": "policeBackdoor", "unlockSuccesses": 4, "targetNumber": 12, "securityValue": 10 },
+          { "label": "Return to the coded collective seam", "to": "collective-seam", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
+        ]
+      },
+      {
+        "id": "anti-government-materials",
+        "title": "Anti-Government Materials Cache",
+        "kind": "gm-reward",
+        "description": "You recover access to sensitive anti-government materials: protest poems, pamphlet drafts, legal-defense notes, and annotated claims about local/federal pressure. Tell the GM you reached the anti-government materials cache; exact contents and consequences are GM-facing.",
+        "report": {
+          "include": "always",
+          "title": "Anti-government materials cache accessed",
+          "detail": "Mevin reached Noodle Stories' sensitive anti-government materials cache. GM should provide exact protest/legal-defense/pressure details and any source-safety consequences.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to anti-government archive", "to": "anti-government-archive" },
+          { "label": "Log off with anti-government materials noted", "to": "logoff", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
+        ]
+      },
+      {
+        "id": "warning-list-cache",
+        "title": "Mutual-Aid Warning Lists",
+        "kind": "gm-reward",
+        "description": "You recover access to warning lists: suspicious vehicles, plainclothes harassment, venue pressure, landlord probes, and names the collective is trying not to expose. Tell the GM you reached the warning lists; handle source-safety carefully.",
+        "report": {
+          "include": "always",
+          "title": "Mutual-aid warning lists accessed",
+          "detail": "Mevin reached Noodle Stories warning lists. GM should provide suspicious vehicle/plainclothes/venue-pressure/landlord-probe details and flag source-safety risks.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to anti-government archive", "to": "anti-government-archive" },
+          { "label": "Log off with warning-list notes", "to": "logoff", "testId": "evadeTrace", "targetNumber": 8, "securityValue": 7 }
+        ]
+      },
+      {
+        "id": "npd-backdoor-doorway",
+        "title": "Very High-TN Doorway: Buried NPD Backdoor",
+        "kind": "major-reward",
+        "description": "Behind the collective archive is one last almost-invisible doorway. You reveal a buried Nashville PD backdoor into the Noodle Stories system, with signs of monitoring hooks and surveillance interest in the collective. Alert the GM immediately: NPD has the group under surveillance through this host.",
+        "report": {
+          "include": "always",
+          "title": "Nashville PD backdoor revealed",
+          "detail": "Mevin revealed a buried Nashville PD backdoor/surveillance hook in the Noodle Stories host. GM should treat NPD surveillance of the collective as confirmed and decide what logs, access level, and current monitoring are visible.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Copy proof of the NPD backdoor", "to": "npd-backdoor-proof", "testId": "staffRecords", "unlockSuccesses": 2, "targetNumber": 11, "securityValue": 10 },
+          { "label": "Get out before the watcher notices", "to": "logoff", "testId": "evadeTrace", "targetNumber": 9, "securityValue": 9 }
+        ]
+      },
+      {
+        "id": "npd-backdoor-proof",
+        "title": "Proof: NPD Surveillance Backdoor",
+        "kind": "major-reward",
+        "description": "You copy enough proof to show the NPD backdoor exists: route fingerprints, access timestamps, watcher hooks, or surveillance configuration fragments. Tell the GM you have proof of NPD surveillance access to Noodle Stories.",
+        "report": {
+          "include": "always",
+          "title": "Proof of NPD surveillance backdoor copied",
+          "detail": "Mevin copied proof of the Nashville PD backdoor into Noodle Stories: route fingerprints, access timestamps, watcher hooks, or surveillance config fragments. Notify the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Log off with NPD backdoor proof", "to": "logoff", "testId": "evadeTrace", "targetNumber": 9, "securityValue": 9 },
+          { "label": "Return to anti-government archive", "to": "anti-government-archive", "testId": "evadeTrace", "targetNumber": 9, "securityValue": 9 }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Graceful Logoff",
+        "kind": "exit",
+        "description": "The decker backs out through the noodle-shop sculpting and closes the session cleanly. Tell the GM what concrete access, copied data, permanent changes, or NPD surveillance proof was recovered.",
+        "choices": []
+      }
+    ]
+  }
+}
