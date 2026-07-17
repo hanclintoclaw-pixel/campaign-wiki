@@ -2,7 +2,7 @@
 title: Minigames and Web Apps
 type: index
 visibility: player-safe
-updated: 2026-07-14
+updated: 2026-07-17
 ---
 
 # Minigames and Web Apps
@@ -28,6 +28,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 - [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) - SR3 cyberdeck, utility loadout, and host-run note tracker.
 - [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) - click-through SR3-inspired Matrix host intrusion aid using Deck Manager exports and editable host profiles.
 - [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) - branching cyber-dungeon crawl that syncs Deck Manager state and pulls wiki host profile JSON.
+- [Spell Guide](https://hanclintoclaw-pixel.github.io/spell-guide/) - SR3 spell catalogue and Sorcery/Conjuring roll aid with a cybermystic UI shell.
 
 ## Cindy Lou Tooling
 
