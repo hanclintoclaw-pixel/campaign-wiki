@@ -28,6 +28,21 @@ As of 2026-07-19, Cindy's active table-support posture is:
 - **monitoring is conservative:** direct questions to Cindy are response-worthy by default, but unsolicited GM nudges still require a real Matrix/security opening, stall, contradiction, or tactical blind spot;
 - **state is split by purpose:** wiki pages hold player-safe documentation, runtime files hold live-session state, and Cindy's internal memory tracks longer-term continuity.
 
+## Canon-first generated content workflow
+
+The campaign wiki is the campaign-canon output path. When Cindy is asked to generate player-visible campaign content for the wiki, the safe workflow is:
+
+1. Generate or draft the content once.
+2. Choose the canonical artifact/content that belongs in the wiki.
+3. Commit and push that exact artifact/content to `campaign-wiki`.
+4. Post the relevant wiki link back to Discord or another chat surface.
+
+Do not wait for the public website to finish deploying unless the GM explicitly asks for live verification. Posting the expected wiki URL after push is preferred over delaying the table while Pages catches up.
+
+If the GM asks for a Discord attachment, file upload, or any other secondary delivery path, that secondary output should be copied from the exact artifact committed to the wiki. Do not generate a second image, clip, text variant, or summary for the attachment path when the wiki already has the canonical version.
+
+This rule is meant to prevent split-brain outputs: one version in campaign canon and another different version in chat.
+
 ## Cindy's campaign role
 
 Cindy currently sits in an unusual middle space between:
