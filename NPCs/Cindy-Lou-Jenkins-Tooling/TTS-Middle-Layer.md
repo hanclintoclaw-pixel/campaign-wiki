@@ -95,9 +95,12 @@ The active Southern setting is intentionally stronger than the first pass. It us
 - `going to` -> `gonna`
 - `about to` / `ready to` -> `fixin' to`
 - `nothing` -> `nothin'`
-- `checking` -> `checkin'`
+- `checking` / `running` / `watching` / `joining` lose the final `g`
 - `little` -> `li'l`
-- `hold up` / `listen close` / `well now` get pause punctuation.
+- selected `/aɪ/`-style drawl cues from Southern accent guidance, such as `mind` -> `mahnd`, `my` -> `mah`, `while` -> `whahl`, and `time` -> `tahm`
+- `hold up` / `listen close` / `look here` get pause punctuation.
+
+Address phrases are handled carefully. `Well now, sugar,` should become `Well now, sugar...` rather than `Well now... sugar...`; the latter tested as an awkward extra pause before the address.
 
 This is controlled by:
 
@@ -134,6 +137,7 @@ Useful 2026-07-19 test uploads in the Cindy interaction thread included:
 - `valgaut-kurgan-pronunciation-af_heart.wav` - approved Valgaut/Kurgan pronunciation baseline.
 - `cindy-ipa-carrythrough-valgaut-kurgan-af_heart.wav` - verified IPA survived the sculpting layer and worker path.
 - `cindy-southern-campaign-promo-af_heart.wav` - longer sample using the stronger Southern setting.
+- `cindy-southern-wiki-tuned-promo-af_heart.wav` - follow-up sample after adding targeted Southern vowel/drawl cues and fixing the pause before `sugar`.
 
 These are test artifacts, not campaign canon.
 
