@@ -205,7 +205,7 @@ def replace_once(text: str, old: str, new: str) -> str:
 
 def update_funds_note(text: str, report: Report) -> str:
     pattern = re.compile(
-        r"Current funds note preserved in dossier: \*\*(?P<balance>[\d,]+)¥\*\* current nuyen balance "
+        r"Current funds note preserved in dossier: \*\*(?P<balance>[+-]?[\d,]+)¥\*\* current nuyen balance "
         r"\((?P<body>.*?)\)",
         flags=re.DOTALL,
     )
