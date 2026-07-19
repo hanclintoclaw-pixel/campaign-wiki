@@ -13,6 +13,10 @@ sources:
 
 # Mini-Run 2026-07-19 - Saab Dynamit Sale
 
+![Cartoon header art for Curtis's Saab Dynamit sale mini-run](../assets/images/Saab-Dynamit-Sale-Header-2026-07-19.png)
+
+_Curtis turns a boosted Saab Dynamit into hard nuyen, then lets Buzz and The Finisher handle the gray Americar that decides the handoff is worth watching._
+
 ## Summary
 
 After the crew boosted a found **Saab Dynamit 778 TI**, **Curtis** used **Taco** as a vehicle/salvage contact to line up a discreet buyer. Curtis offered Taco a 10 percent cut, pushed for a high price, and settled the sale at **32,000¥**. Taco's cut was **3,200¥**, Finisher's spent SMG ammunition was restocked for **20¥**, and Curtis netted **28,780¥** before voluntarily paying **1,000¥** each to **Mevin**, **Valgaut**, and **Kurgan** as thank-you cuts.
