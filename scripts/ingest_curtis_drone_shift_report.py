@@ -50,7 +50,7 @@ class Report:
     raw: str
 
     @property
-    def tutorial_number(self) -> int | None:
+    def legacy_tutorial_number(self) -> int | None:
         match = re.search(r"\bTutorial\s+(\d+)\b", self.job, flags=re.IGNORECASE)
         return int(match.group(1)) if match else None
 
@@ -214,8 +214,8 @@ def update_funds_note(text: str, report: Report) -> str:
         raise IngestError("Could not find Curtis current funds Drone Shift note.")
 
     drone_pattern = re.compile(
-        r"\*\*(?P<drone_delta>[+-][\d,]+)¥\*\* net from completed Curtis Drone Shift Work Orders "
-        r"Tutorial (?P<start>\d+)-(?P<end>\d+)"
+        r"\*\*(?P<drone_delta>[+-][\d,]+)¥\*\* net from completed Curtis Drone Shift Work Orders"
+        r"(?P<label>[^,)]*)"
     )
     drone_match = drone_pattern.search(match.group("body"))
     if not drone_match:
@@ -225,12 +225,21 @@ def update_funds_note(text: str, report: Report) -> str:
     old_drone_delta = int(drone_match.group("drone_delta").replace(",", ""))
     new_balance = old_balance + report.nuyen_delta
     new_drone_delta = old_drone_delta + report.nuyen_delta
-    start = int(drone_match.group("start"))
-    end = report.tutorial_number or int(drone_match.group("end"))
+    old_label = drone_match.group("label")
+    legacy_range = re.search(r"Tutorial (?P<start>\d+)-(?P<end>\d+)", old_label, flags=re.IGNORECASE)
+    if report.legacy_tutorial_number is not None and legacy_range:
+        start = int(legacy_range.group("start"))
+        end = report.legacy_tutorial_number or int(legacy_range.group("end"))
+        new_label = f" legacy Tutorial {start}-{end}"
+    elif legacy_range:
+        start = int(legacy_range.group("start"))
+        end = int(legacy_range.group("end"))
+        new_label = f" including legacy Tutorial {start}-{end} and later named shifts"
+    else:
+        new_label = old_label
 
     new_body = drone_pattern.sub(
-        f"**{format_yen(new_drone_delta, signed=True)}** net from completed Curtis Drone Shift Work Orders "
-        f"Tutorial {start}-{end}",
+        f"**{format_yen(new_drone_delta, signed=True)}** net from completed Curtis Drone Shift Work Orders{new_label}",
         match.group("body"),
         count=1,
     )
@@ -245,8 +254,8 @@ def update_funds_note(text: str, report: Report) -> str:
 def report_already_recorded(text: str, report: Report) -> bool:
     if report.job in text:
         return True
-    return report.tutorial_number is not None and re.search(
-        rf"\b(?:Curtis Drone Shift\s+)?Tutorial\s+{report.tutorial_number}\b",
+    return report.legacy_tutorial_number is not None and re.search(
+        rf"\b(?:Curtis Drone Shift\s+)?Tutorial\s+{report.legacy_tutorial_number}\b",
         text,
         flags=re.IGNORECASE,
     ) is not None

@@ -2,7 +2,7 @@
 title: Curtis Drone Shift Documentation
 type: documentation
 visibility: player-safe
-updated: 2026-07-12
+updated: 2026-07-19
 ---
 
 # Curtis Drone Shift Documentation
@@ -44,7 +44,7 @@ Routine behavior:
 
 1. Retire the previous active Work Order.
 2. If no report was submitted, treat it as **Discarded / no change / no penalty**.
-3. Create the next numbered Tutorial / Work Order.
+3. Create the next named Work Order using a short descriptive title, without a `Tutorial N` prefix.
 4. Deploy the updated app.
 5. Ping Ace Malone in the designated Curtis/Ace channel with the Work Order title and live link.
 6. Announce the update in the originating Cindy thread.

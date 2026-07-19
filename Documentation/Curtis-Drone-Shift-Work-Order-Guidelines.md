@@ -2,7 +2,7 @@
 title: Curtis Drone Shift Work Order Guidelines
 type: documentation
 visibility: player-safe
-updated: 2026-07-14
+updated: 2026-07-19
 ---
 
 # Curtis Drone Shift Work Order Guidelines
@@ -27,7 +27,7 @@ A good Drone Shift work order should:
 
 Each work order should have:
 
-1. **Number and title** - for example, `Tutorial 2: Grandpa's Back-Step Rattle`.
+1. **Descriptive title** - for example, `Grandpa's Back-Step Rattle`; do not prefix new work orders with `Tutorial N`.
 2. **Asset/context** - the drone, vehicle, shop fixture, customer item, or salvage lot involved.
 3. **Hook** - one paragraph explaining the weird noise, failure, opportunity, or customer request.
 4. **Baseline expectation** - usually break-even, no penalty if ignored, and no canon mutation until reported.
@@ -176,13 +176,13 @@ If the daily cron rotates a work order and the previous one was not completed or
 Discarded: no change, no nuyen movement, no drone state change, no penalty.
 ```
 
-Then remove it from the active app/page and publish the next numbered work order. Do not shame the player, stack missed jobs, or create debt from ignored prompts.
+Then remove it from the active app/page and publish the next named work order. Do not shame the player, stack missed jobs, or create debt from ignored prompts.
 
 ## Final report requirements
 
 Every work order must end with a copyable report containing:
 
-- job number and title;
+- job title;
 - asset/context;
 - completion status;
 - final nuyen delta;
@@ -201,7 +201,7 @@ Cindy ingest note: Add this as a Curtis downtime/maintenance event. Apply small 
 
 When creating a new daily work order:
 
-1. Find the highest existing Tutorial/Work Order number and increment it by 1.
+1. Pick a short descriptive title that fits the specific shift; do not add a Tutorial number.
 2. Retire the previous active order as Discarded / no change / no penalty if no report was submitted.
 3. Pick one asset or context: a drone, Grandpa, Taco's shop, salvage, customer repair, or field-prep task.
 4. Write a hook with one concrete sensory detail.
