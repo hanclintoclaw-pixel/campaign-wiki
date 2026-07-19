@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-16
+last_updated_session: 2026-07-19
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -133,7 +133,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - 2026-06-04 — balanced ongoing habitat work with the new **Griswell Data Services** surveillance job, using drone and vehicle support against Alvin Flang's trail.
 - 2026-06-25 — backed Kurgan in the backdated Righteous Haze interlude, using Grandpa and social cover to isolate the target.
 - 2026-07-16 — supported the Happy Cat / Vernon Winfrey arkoblock investigation with Belmont roof surveillance, laser-modem analysis, and Mr. Clean barricade bypass.
-- 2026-07-19 — fenced the found Saab Dynamit 778 TI through Taco's buyer network, paid Taco's 10% cut, restocked Finisher's spent SMG ammunition, netted **+28,780¥**, then paid **1,000¥** each to Mevin, Valgaut, and Kurgan as thank-you cuts.
+- 2026-07-19 — [fenced the found Saab Dynamit 778 TI](../Sessions/2026-07-19-mini-saab-dynamit-sale.md) through Taco's buyer network, paid Taco's 10% cut, restocked Finisher's spent SMG ammunition, netted **+28,780¥**, then paid **1,000¥** each to Mevin, Valgaut, and Kurgan as thank-you cuts.
 
 ## Sheet Snapshot
 

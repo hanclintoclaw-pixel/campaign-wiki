@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-02-27
-last_updated_session: 2026-07-03
+last_updated_session: 2026-07-19
 canon_status: provisional
 confidence: medium
 tags: [npc, contact, logistics]
@@ -12,6 +12,7 @@ sources:
   - memory/2026-02-27.md
   - PARTY_DOSSIER.md
   - ../Sessions/2026-05-28.md
+  - ../Sessions/2026-07-19-mini-saab-dynamit-sale.md
 ---
 
 # Taco
@@ -30,6 +31,7 @@ Recurring NPC contact who runs a large vehicle repair/salvage operation and is e
 - Curtis is explicitly noted as an ally and student of Taco.
 - By **2026-05-28**, Taco's property was being considered as possible support infrastructure for a future **Core 7** dolphin relocation/rescue plan.
 - As of 2026-07-03, Taco's site is the mapped location for **Curtis's Dolphin Rescue**.
+- On 2026-07-19, Taco brokered a buyer for Curtis's boosted **Saab Dynamit 778 TI** for a 10 percent cut, reinforcing his role as Curtis's vehicle/salvage fence and logistics contact.
 
 ## Relationships
 
@@ -41,6 +43,7 @@ Recurring NPC contact who runs a large vehicle repair/salvage operation and is e
 
 - 2026-02-27 — authoritative roster/contact update.
 - 2026-05-28 — surfaced as a practical logistics base for possible dolphin extraction planning.
+- 2026-07-19 — [brokered the Saab Dynamit sale](../Sessions/2026-07-19-mini-saab-dynamit-sale.md) for Curtis through his vehicle/salvage buyer network.
 
 ## Open Questions
 

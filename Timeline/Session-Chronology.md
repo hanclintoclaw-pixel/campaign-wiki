@@ -99,6 +99,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 71 | [Session 2026-07-02](../Sessions/2026-07-02.md) | 2026-07-02 | 2066-05-12 | canon | The crew concluded the **Griswell / Alvin Flang** surveillance run by tracing the Music Circle watcher to **Palermo**, a paydata broker tied to the **Ruby Falls data haven**. They followed him into an underground market, found hidden power and Matrix lines, navigated a devil-rat guard arrangement, pressured Palermo into surrendering a burner identity/proof-chain, and turned in the contract for **60,000¥ total** and **6 karma each**. |
 | 72 | [Session 2026-07-09](../Sessions/2026-07-09.md) | 2026-07-09 | 2066-05-12 evening | provisional | The crew began the **Pixel Sticks / military-grade utilities** run. Ivan routed them to an anonymous high-end Johnson at Atlas's, who offered 40,000 nuyen to shut down a Matrix youth-gang threat and 20,000 nuyen for recovered utilities. Mevin identified the Pixel Sticks tag, spotted edited gaps in the dossier, and the team moved to Happy Cat Konpeki and Collectibles, where Valgaut sensed a powerful awakened animal and Mevin/Valgaut entered the local Matrix while Kurgan watched meatspace. |
 | 73 | [Session 2026-07-16](../Sessions/2026-07-16.md) | 2026-07-16 | 2066-05-12 evening | provisional | The crew continued the **Pixel Sticks** run at Happy Cat. Mevin found the hidden Pixel Sticks tag yard and camera access inside the Happy Cat host, Curtis identified a laser modem link into the neighboring Vernon Winfrey arkoblock, Valgaut and Kurgan recognized Chunky Sparkles inside the store, and the crew bypassed stairwell barricades to reach the 21st-floor landing near the suspected Pixel Sticks floors. |
+| 74 | [Mini-Run 2026-07-19 - Saab Dynamit Sale](../Sessions/2026-07-19-mini-saab-dynamit-sale.md) | 2026-07-19 | 2066-05-12 night | provisional | Curtis fenced a boosted **Saab Dynamit 778 TI** through Taco's buyer network, completed the late-night 612 Wharf Avenue handoff, dealt with a suspicious Americar tail using Buzz and The Finisher, netted **28,780¥** before crew thank-yous, and ended with **25,720¥** tracked funds after paying Mevin, Valgaut, and Kurgan. |
 
 ## Read this sequence in plain English
 
@@ -111,6 +112,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 7. Session 2026-07-02 concludes the Griswell/current-run archive at **2066-05-12**.
 8. Session 2026-07-09 begins the **Pixel Sticks / military-grade utilities** run, provisionally placed on **2066-05-12 evening** until the exact in-world day is separately confirmed.
 9. Session 2026-07-16 continues the same evening and moves the crew from Happy Cat host discovery into the adjacent Vernon Winfrey arkoblock.
+10. Mini-Run 2026-07-19 is a Curtis-focused side run after the latest true session, provisionally placed on **2066-05-12 night**; it records the Saab Dynamit sale, Wharf Avenue tail, and Curtis funds changes without advancing the main Pixel Sticks scene.
 
 ## Gaps and caveats
 
