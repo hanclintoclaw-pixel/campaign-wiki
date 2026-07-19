@@ -31,6 +31,7 @@ The desired end state is a table companion that can listen, remember, speak when
 ## Active behavior tools
 
 - [Cindy Lou Voice Clip Phrase Library](Voice-Clip-Phrase-Library.md) - short reusable clips, saved-line playback, and chaining behavior for fast live voice responses.
+- [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md) - local text cleanup, pronunciation guides, and Southern cadence shaping before Kokoro renders speech.
 - [Cindy Lou Tooling and Discord Notes](Tooling-and-Discord.md) - current overview of Cindy's wiki, Discord, voice, and runtime support.
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md) - how Cindy watches live sessions, classifies prompts, and decides when a GM nudge or direct answer is warranted.
 - [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md) - active session-scoped working memory for live play.

@@ -103,6 +103,7 @@ Known/customized behavior includes:
 - custom wake / routing behavior for Cindy prompts
 - voice chat integration work for joining, listening, and speaking in Discord audio
 - saved-clip playback support through the local voice bridge
+- TTS middle-layer sculpting for cleanup, pronunciation, and Southern cadence before Kokoro rendering
 - warm Kokoro worker support for faster generated voice clips
 - manual GM-triggered playback for saved/generated Cindy lines
 - an archived GM-facing soundboard experiment, now marked outdated
@@ -144,6 +145,7 @@ Preserve the archived notes only for the useful implementation lesson:
 For reconstructable implementation detail, use these pages:
 
 - [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)
+- [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
 - [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md)
@@ -173,6 +175,7 @@ Likely next improvements:
 - [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)
 - [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)
+- [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
 - [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md)
