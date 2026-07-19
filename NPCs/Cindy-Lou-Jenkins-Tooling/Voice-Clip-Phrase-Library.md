@@ -3,7 +3,7 @@ title: Cindy Lou Voice Clip Phrase Library
 type: npc-tooling
 visibility: player-safe
 status: active
-updated: 2026-07-14
+updated: 2026-07-19
 parent_page: README.md
 tags: [cindy, voice, clips, discord, npc-tools]
 ---
@@ -11,6 +11,12 @@ tags: [cindy, voice, clips, discord, npc-tools]
 # Cindy Lou Voice Clip Phrase Library
 
 This page tracks Cindy Lou's short reusable voice clips for peppy live-table responses. These clips are meant to be fast, modular, and easy for the GM or voice bridge to chain together when a full generated line would be too slow.
+
+## Current live-use posture
+
+The clip library is currently part of a **GM-controlled voice workflow**. Cindy may prepare text and saved voice-line candidates during live play, but routine playback is manually triggered by the GM instead of being auto-sent into voice.
+
+The active fast-generation path uses the local Kokoro worker for short generated lines. Longer or replayable NPC lines can still use higher-quality generated voice paths, but table playback should stay brief because Discord audio may cut out on longer clips.
 
 ## Behavior goal
 
@@ -156,7 +162,7 @@ When Cindy is active in voice, a trigger can map to one clip or a short chain. T
 
 ## Live-monitor quick-chain behavior
 
-The live monitor now checks the phrase library before spending time on a freshly generated Cindy voice line. When the monitor decides a GM ping is warranted and Cindy would otherwise draft a voice response, it tries to select a canned chain first.
+The live monitor can check the phrase library before spending time on a freshly generated Cindy voice line. When the monitor decides a direct answer or GM ping is warranted and Cindy would otherwise draft a voice response, it can select a canned chain first.
 
 Current default mappings:
 
@@ -173,6 +179,6 @@ Current default mappings:
 | Technical stall | `copy_that` -> `running_it_now` |
 | Explicit Cindy relevance | `on_it_sugar` -> `running_it_now` |
 
-If a chain is selected, the bridge skips rendering a fresh generated voice line and logs the selected chain in the GM ping. If the voice bridge is already connected, it plays the clips sequentially. It does **not** force-join voice just to play a quick chain.
+If a chain is selected, the bridge can skip rendering a fresh generated voice line and log the selected chain for GM review or playback. The current table posture favors saved/manual playback rather than automatic speech, so this should be treated as a fast-response resource under GM control.
 
 The GM's native Discord soundboard can hold a smaller hand-picked subset. The larger local library is for voice-bridge/saved-clip playback and fast chained responses.

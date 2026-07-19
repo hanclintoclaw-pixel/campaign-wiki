@@ -2,8 +2,8 @@
 title: Cindy Lou Tooling and Discord Notes
 type: tech-note
 visibility: player-safe
-status: draft
-updated: 2026-07-14
+status: active
+updated: 2026-07-19
 tags: [cindy, tooling, discord, wiki, campaign-tech]
 ---
 
@@ -17,6 +17,16 @@ The goal of this page is twofold:
 
 - keep the overall picture readable
 - point to deeper technical pages detailed enough that the stack could be rebuilt
+
+## Current operating state
+
+As of 2026-07-19, Cindy's active table-support posture is:
+
+- **text-first and GM-controlled for voice:** Cindy can draft live responses and saved voice-line candidates, but routine live voice playback is manually triggered by the GM rather than auto-sent;
+- **Kokoro is the fast voice path:** the live bridge uses a warm Kokoro worker for quick generated clips, with one-shot generation still available as a fallback;
+- **short clips remain useful:** reusable phrases and saved clips are for quick acknowledgements, warnings, and handoffs, not for rules explanations or canon-heavy dialogue;
+- **monitoring is conservative:** direct questions to Cindy are response-worthy by default, but unsolicited GM nudges still require a real Matrix/security opening, stall, contradiction, or tactical blind spot;
+- **state is split by purpose:** wiki pages hold player-safe documentation, runtime files hold live-session state, and Cindy's internal memory tracks longer-term continuity.
 
 ## Cindy's campaign role
 
@@ -78,6 +88,8 @@ Known/customized behavior includes:
 - custom wake / routing behavior for Cindy prompts
 - voice chat integration work for joining, listening, and speaking in Discord audio
 - saved-clip playback support through the local voice bridge
+- warm Kokoro worker support for faster generated voice clips
+- manual GM-triggered playback for saved/generated Cindy lines
 - an archived GM-facing soundboard experiment, now marked outdated
 
 ## Repo map
@@ -126,9 +138,9 @@ For reconstructable implementation detail, use these pages:
 
 The current Cindy stack still has a few rough edges:
 
-- public URL stability for local-only tools is still being improved
 - some tooling is still prototype-grade rather than long-term hardened
-- live voice and wiki integration are not fully unified yet
+- live voice, wiki updates, and memory ingestion are not fully unified yet
+- generated voice clips still need to stay short because Discord playback can cut out on longer lines
 - the active system is documented well enough to rebuild, but not yet fully productized
 - the old soundboard path is archived and should not receive routine maintenance
 
@@ -136,7 +148,7 @@ The current Cindy stack still has a few rough edges:
 
 Likely next improvements:
 
-- make direct live voice playback cleaner and more observable
+- make GM-triggered saved/generated voice playback cleaner and more observable
 - improve campaign/wiki tooling documentation
 - keep a clearer record of what is canonical, what is operational, and what is experimental
 - move from ad-hoc glue toward a cleaner long-term service boundary
