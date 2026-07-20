@@ -3,7 +3,7 @@ title: Cindy Lou TTS Middle Layer
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-07-19
+updated: 2026-07-20
 parent_page: README.md
 tags: [cindy, voice, tts, kokoro, npc-tools]
 ---
@@ -46,6 +46,8 @@ The active Kokoro worker path also participates:
 ```
 
 That worker now accepts an `ipa` guide map so approved Kokoro pronunciations can be passed through the warm worker instead of being lost during live rendering.
+
+As of 2026-07-20, the worker is also protected by an idle-stop timer. It can remain warm during and shortly after a voice session, but it should not sit resident all day after session end or voice disconnect.
 
 ## Current flow
 
@@ -120,6 +122,7 @@ Current defaults:
 - Southern sculpting: enabled
 - saved/manual clips: enabled
 - auto-speaking: disabled unless explicitly enabled by the live voice controls
+- Kokoro worker: enabled, warm during voice use, idle-stops after `KOKORO_WORKER_IDLE_TIMEOUT_S=1800` seconds outside an active voice session
 
 ## Design rules
 
