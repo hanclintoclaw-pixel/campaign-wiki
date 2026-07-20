@@ -3,7 +3,7 @@ title: Cindy Lou Tooling and Discord Notes
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-07-19
+updated: 2026-07-20
 tags: [cindy, tooling, discord, wiki, campaign-tech]
 ---
 
@@ -20,11 +20,12 @@ The goal of this page is twofold:
 
 ## Current operating state
 
-As of 2026-07-19, Cindy's active table-support posture is:
+As of 2026-07-20, Cindy's active table-support posture is:
 
 - **text-first and GM-controlled for voice:** Cindy can draft live responses and saved voice-line candidates, but routine live voice playback is manually triggered by the GM rather than auto-sent;
 - **Kokoro is the fast voice path:** the live bridge uses a warm Kokoro worker for quick generated clips, with one-shot generation still available as a fallback;
-- **short clips remain useful:** reusable phrases and saved clips are for quick acknowledgements, warnings, and handoffs, not for rules explanations or canon-heavy dialogue;
+- **short clips remain useful:** reusable phrases and saved clips are for quick acknowledgements, warnings, handoffs, and very short stalling cues, not for rules explanations or canon-heavy dialogue;
+- **stalling voice is gated:** the bridge can play tiny stock presence lines after a short delay while a bespoke live response is still generating, but the behavior is controlled by `CINDY_STALLING_VOICE_ENABLED` and `!voice-stalling`;
 - **monitoring is conservative:** direct questions to Cindy are response-worthy by default, but unsolicited GM nudges still require a real Matrix/security opening, stall, contradiction, or tactical blind spot;
 - **state is split by purpose:** wiki pages hold player-safe documentation, runtime files hold live-session state, and Cindy's internal memory tracks longer-term continuity.
 
@@ -105,6 +106,7 @@ Known/customized behavior includes:
 - saved-clip playback support through the local voice bridge
 - TTS middle-layer sculpting for cleanup, pronunciation, and Southern cadence before Kokoro rendering
 - warm Kokoro worker support for faster generated voice clips
+- gated stalling voice cues for short presence barks while longer responses generate
 - manual GM-triggered playback for saved/generated Cindy lines
 - an archived GM-facing soundboard experiment, now marked outdated
 

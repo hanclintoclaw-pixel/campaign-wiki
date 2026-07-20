@@ -3,7 +3,7 @@ title: Cindy Lou Voice Clip Phrase Library
 type: npc-tooling
 visibility: player-safe
 status: active
-updated: 2026-07-19
+updated: 2026-07-20
 parent_page: README.md
 tags: [cindy, voice, clips, discord, npc-tools]
 ---
@@ -14,9 +14,11 @@ This page tracks Cindy Lou's short reusable voice clips for peppy live-table res
 
 ## Current live-use posture
 
-The clip library is currently part of a **GM-controlled voice workflow**. Cindy may prepare text and saved voice-line candidates during live play, but routine playback is manually triggered by the GM instead of being auto-sent into voice.
+The clip library is currently part of a **GM-controlled voice workflow**. Cindy may prepare text and saved voice-line candidates during live play, but routine full-response playback is manually controlled through the live voice bridge rather than treated as an always-on bot behavior.
 
 The active fast-generation path uses the local Kokoro worker for short generated lines. Longer or replayable NPC lines can still use higher-quality generated voice paths, but table playback should stay brief because Discord audio may cut out on longer clips.
+
+As of 2026-07-20, the bridge also has a gated **stalling voice** layer for tiny utility barks while a bespoke response is still being generated. This is meant to reduce confusing silence after a direct live prompt without replacing the real answer.
 
 ## Behavior goal
 
@@ -44,6 +46,7 @@ Avoid using clip chains for:
 - Do not spam repeated clips in the same scene.
 - Use a clip chain only when it is faster and clearer than generating a fresh line.
 - For dangerous Matrix moments, favor clear warnings over cute flavor.
+- Stalling cues should stay shorter and more utility-like than normal clip chains; they are only presence signals while the final answer is still rendering.
 
 Example patterns:
 
@@ -51,6 +54,57 @@ Example patterns:
 - **Matrix warning:** attention clip, then host/IC/trace warning.
 - **Small success:** confirmation clip, then victory/clean-access clip.
 - **Memory/admin:** acknowledgment clip, then saved/marked clip.
+
+## Live stalling voice cues _(active / gated)_
+
+The live bridge can now play one or two very short stock phrases if Cindy has been directly prompted but the full bespoke answer is not ready yet.
+
+Default timing:
+
+- first stalling cue after about **1.5 seconds**;
+- optional second cue after another **2.0 seconds**;
+- maximum **2 cues** per response;
+- final generated reply waits for any currently playing stalling cue to finish instead of cutting it off.
+
+Runtime controls:
+
+- `!voice-stalling on|off|toggle|status` - runtime toggle and status command;
+- `!voice-stalling-cache` - pre-render or refresh the cached stalling clips;
+- `!live-voice on|off|toggle|status` - controls whether fresh generated live replies are played into Discord voice;
+- `!voice-play-saved <clip_name>` - manual playback for a preserved/generated voice clip;
+- `!voice-stop` - stop current voice playback.
+
+Environment/config gates:
+
+- `LIVE_VOICE_PLAY_ENABLED=true` - allows fresh generated replies to play into voice;
+- `CINDY_SAVED_VOICE_ENABLED=true` - allows saved/generated clips to be produced;
+- `CINDY_STALLING_VOICE_ENABLED=true` - enables the stalling-cue layer;
+- `CINDY_STALLING_VOICE_INITIAL_DELAY_S=1.5` - first-cue delay;
+- `CINDY_STALLING_VOICE_REPEAT_DELAY_S=2.0` - follow-up cue delay;
+- `CINDY_STALLING_VOICE_MAX_PHRASES=2` - maximum stalling cues per answer;
+- `CINDY_STALLING_VOICE_CACHE_DIR=/Volumes/carbonite/claw/data/cindylou/runtime/stalling-voice-clips` - optional cache override.
+
+The initial stalling phrase pool is deliberately short and a little goofy:
+
+- Thinking on that.
+- Hold on now.
+- Let me check.
+- One sec, sugar.
+- I'm looking.
+- Give me a beat.
+- Working it out.
+- Lemme trace that.
+- Reticulating splines.
+- Re-entabulating byte-code.
+- Jiggling the flux capacitor.
+- Consulting the rubber duck.
+
+Implementation notes:
+
+- stalling clips are cached as WAV files before use;
+- phrase selection avoids repeating the most recent few stalling phrases;
+- the stalling layer only runs when saved voice, live voice playback, voice connection, and the stalling gate are all available;
+- prompts that explicitly request no voice still suppress saved/final voice generation and stalling cues.
 
 ## Needed words / phrases tally _(disabled / ready)_
 
