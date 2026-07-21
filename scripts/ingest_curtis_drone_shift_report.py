@@ -32,6 +32,16 @@ ASSET_PAGES = {
     "waddles": "Waddles.md",
 }
 
+ASSET_DISPLAY_NAMES = {
+    "belmont": "Belmont",
+    "buzz": "Buzz",
+    "mr. clean": "Mr. Clean",
+    "mr clean": "Mr. Clean",
+    "the finisher": "The Finisher",
+    "finisher": "The Finisher",
+    "waddles": "Waddles",
+}
+
 
 class IngestError(RuntimeError):
     pass
@@ -87,6 +97,11 @@ def parse_quality(raw: str) -> tuple[str, int]:
 
 def normalize_asset_name(asset_line: str) -> str:
     name = asset_line.split(" - ", 1)[0].strip()
+    normalized = name.lower()
+    for key in sorted(ASSET_DISPLAY_NAMES, key=len, reverse=True):
+        pattern = rf"(?<![a-z0-9]){re.escape(key)}(?:'s|s')?(?![a-z0-9])"
+        if re.search(pattern, normalized):
+            return ASSET_DISPLAY_NAMES[key]
     return re.sub(r"\s+", " ", name)
 
 
