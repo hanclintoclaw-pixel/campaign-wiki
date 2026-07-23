@@ -168,6 +168,8 @@ Quality is an abstract tool rating, not a permanent drone stat. Use it to descri
 - **0-2 Break-even maintenance** - fixed enough, routine note only.
 - **Below 0 Needs GM review** - no automatic penalty; final report asks GM whether anything matters.
 
+Follow-up TN tags such as **TN +1** are narrow continuity hooks for later related Work Orders. They should not become permanent drone stats, hidden applet penalties, or default live-session modifiers. Reuse them only when a future downtime job directly touches the same thrift-fit part, lingering vibration, reused gasket, or similar condition; during sessions, treat them as optional GM-facing color unless the GM explicitly applies the circumstance.
+
 ## Discarding untouched work orders
 
 If the daily cron rotates a work order and the previous one was not completed or reported, mark it conceptually as:

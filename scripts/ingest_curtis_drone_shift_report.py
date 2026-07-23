@@ -196,7 +196,7 @@ def completed_work_order_line(report: Report, day: date) -> str:
         f"{article(report.quality_label)} {report.quality_label.lower()}. Final report logged "
         f"**{format_yen(report.nuyen_delta, signed=True)}** net shift result and "
         f"**Maintenance Quality {report.quality_score}** after {work}."
-        f"{followup_sentence(report)} No permanent {report.asset_name}/drone stat changes apply unless the GM confirms them."
+        f"{followup_sentence(report)}"
     )
 
 
@@ -208,7 +208,7 @@ def vehicle_note_line(report: Report, day: date) -> str:
         f"The work included {work}. Final report logged "
         f"**{format_yen(report.nuyen_delta, signed=True)}** net shift result and "
         f"**Maintenance Quality {report.quality_score}**."
-        f"{followup_sentence(report)} No permanent {report.asset_name} stat changes apply unless the GM confirms them."
+        f"{followup_sentence(report)}"
     )
 
 

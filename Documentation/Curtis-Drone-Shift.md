@@ -88,6 +88,12 @@ The current labels are:
 
 Quality helps Cindy/GM interpret the final report. It should not automatically change vehicle or drone stats.
 
+## Follow-up TN hooks
+
+Small follow-up modifiers such as **TN +1** are lightweight continuity tags for future related downtime checks. They are not permanent drone stats, automatic applet penalties, or required session-play modifiers.
+
+Use them when creating or interpreting a later Work Order that clearly touches the same thrift-fit repair, reused part, lingering vibration, or similar narrow condition. In live sessions, treat them as GM-facing color or optional situational guidance only; do not apply them to normal vehicle/drone gameplay unless the GM explicitly calls for it.
+
 ## Final report and ingestion
 
 When Curtis completes a Work Order, the app provides a copyable report beginning with:
