@@ -56,6 +56,8 @@ This is explicitly a player-engagement prompt, not an obligation. Missed Work Or
 
 As of 2026-07-24, daily Drone Shift rotations should advance the GM-approved [Curtis Backpack Arms Build](../PCs/Curtis-Backpack-Arms-Build.md) as a **14-day diversion track** until the build is complete or the GM changes priority. Each active work order should still stand alone, but this track is intentionally more complex and expensive than routine repair jobs: expected total project spend is roughly **28,000-45,000¥**, with choices affecting cost, TNs, rework, compatibility, and final acceptance. Avoid permanent equipment/combat/stat benefits until Day 14 final GM acceptance and Curtis-page gear/usage-guide updates.
 
+Each daily rotation should read the project page first, choose the next incomplete day, preserve any carry-forward hooks from prior reports, and include a closeout note telling Cindy which day comes next. Day 14 is special: the final report must remind Cindy to update Curtis's page with the finished gear entry, total spend, usage guide, limitations, allowed end effectors, maintenance notes, and any GM-approved SR3 effects before the Backpack Arms rig becomes permanent campaign gear.
+
 ## Table flow
 
 A typical Work Order has 3-6 stages:
@@ -116,6 +118,8 @@ The report includes:
 - maintenance quality;
 - notable work log;
 - Cindy ingest/closeout note.
+
+Backpack Arms reports also include the project day, project page, budget note, next-day trigger, and final Day 14 Curtis-page handoff trigger.
 
 When the report is posted with `@CindyLouBot`, Cindy should:
 
