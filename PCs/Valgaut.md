@@ -85,12 +85,12 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** **14 Karma** after spending 3 Karma for Wyrmwatch Circle admission, pending the compatibility test.
+- **Known current Karma:** **14 Karma** after spending 3 Karma for Wyrmwatch Circle admission and passing the compatibility test.
 - **Known current nuyen:** at least **16,000¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 - **2026-07-24 — GM bonus for rules/initiative push:** **+6 Karma**.
-- **2026-07-24 — Wyrmwatch Circle admission cost:** **-3 Karma**, compatibility test pending.
+- **2026-07-24 — Wyrmwatch Circle admission cost:** **-3 Karma**; admitted after **3 successes** on the Magic 6 vs TN 5 compatibility test.
 
 ## Magical Knowledge Emphasis
 
@@ -104,7 +104,7 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 
 - Linked to the crew's front-line physical presence.
 - Linked to **Draco**.
-- Candidate for Draco Foundation [Wyrmwatch Circle](../Factions/Draco-Foundation/Wyrmwatch-Circle.md) admission and Grade 1 initiation at the [Cairo Testament Annex](../Locations/Cairo-Testament-Annex.md).
+- Admitted member of the Draco Foundation [Wyrmwatch Circle](../Factions/Draco-Foundation/Wyrmwatch-Circle.md), with Grade 1 initiation available at the [Cairo Testament Annex](../Locations/Cairo-Testament-Annex.md).
 
 ## Relevant Sessions
 
