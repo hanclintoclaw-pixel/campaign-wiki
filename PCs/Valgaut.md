@@ -3,7 +3,7 @@ title: Valgaut
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-23
+last_updated_session: 2026-07-24
 canon_status: current-sheet
 confidence: high
 tags: [pc, adept, active-crew]
@@ -15,6 +15,7 @@ sources:
   - Valgaut character sheet shared by player on 2026-06-04
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
+  - SR3 Core Rulebook pp. 168-169, 244-245
 ---
 
 # Valgaut
@@ -61,6 +62,15 @@ The following powers are confirmed by the player-shared character sheet.
 - **Sustenance**
 - **Magic Sense**
 - **Penetrating Strike 1**
+
+### 2026-07-24 Attribute Boost Retcon
+
+Rules review corrected Valgaut's Strength-boosting adept powers to keep the final boosted Strength within SR3 limits. The legal retcon is:
+
+- **Improved Physical Attribute (Strength) 2**
+- **Attribute Boost (Strength) 3**
+
+With Valgaut's current sheet-backed Strength 5, this gives him standing **Strength 7** from Improved Physical Attribute and a successful Attribute Boost raises him to **Strength 10** for the boost duration. This replaces the prior implied **Attribute Boost (Strength) 9**, which would have pushed him to Strength 14 and exceeded Attribute Boost's cap of twice the human Strength racial modified limit. Attribute Boost is compatible with Improved Physical Attribute in SR3, but the final boosted rating still controls the Attribute Boost Drain target number and Drain Level.
 
 ## Karma And Recent Advancement
 
