@@ -11,6 +11,7 @@ tags: [pc, curtis, drone-shift, wearable-gear, fabrication]
 sources:
   - Discord request and concept image, 2026-07-24
   - GM approval, 2026-07-24
+  - Curtis Backpack Arms Build Day 1 report, 2026-07-24
 ---
 
 # Curtis Backpack Arms Build
@@ -83,10 +84,14 @@ Daily Drone Shift work orders should pull from this sequence until the build is 
 ## Progress Log
 
 - **2026-07-24:** Project opened from Curtis/Ace request and converted to a **GM-approved 14-day diversion track**. Active tool work order set to **Day 1 — Load-path sketch and material coupons**. No permanent gear benefit applies until Day 14 final acceptance.
+- **Day 1/14 — 2026-07-24: Load-path sketch and material coupons completed.** Curtis spent **1,300¥** and finished at **Maintenance Quality 4 / Solid repair**. He established a believable folded six-arm carry envelope with three channels per side, a central spine plate, and hip-belt clearance; had to redraw the shoulder-to-hip load path after a failed Electronics B/R check exposed a bad shoulder-only mount; chose the cheaper **aircraft aluminum salvage coupon** path but failed the scrounge roll, making the stock usable but expensive after overbuying bushings and cutting around two mystery holes; then passed the rail bend-test at **TN 6** despite the salvage-stock penalty. Carry-forward: Day 2 / Day 4 should account for aircraft aluminum salvage uncertainty, bushing overbuy, two no-drill / mystery-hole areas, and a usable first rail profile. No permanent gear benefit applies yet.
 
-## Current Active Work Order
+## Current Track State
 
-- **Day 1/14:** [Curtis Drone Shift — Backpack Arms Load-Path Coupons](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/)
+- **Completed:** Day 1/14 — Load-path sketch and material coupons.
+- **Next queued daily update:** Day 2/14 — Backplate and hip-belt skeleton.
+- **Current project spend:** **1,300¥**.
+- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile.
 
 ## Open Final-Gear Decisions
 

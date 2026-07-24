@@ -17,6 +17,7 @@ sources:
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
   - Curtis Drone Shift report, 2026-07-24
+  - Curtis Backpack Arms Build Day 1 report, 2026-07-24
 ---
 
 # Curtis
@@ -99,7 +100,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Current sheet-backed core stats: **BOD 4**, **QUI 6**, **STR 5**, **CHA 1**, **INT 5**, **WIL 5**, **Essence 1.84**, **Reaction 5**, **Initiative 5+1D6**, **Magic -**.
 - Key crew tags: **Very Short**, **Ex-Caribbean Smuggler**.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
-- Current tracked nuyen: **40,915¥**.
+- Current tracked nuyen: **39,615¥**.
 - Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16.
 - He is actively building a **dolphin and hurricane seal habitat** for the possible relocation/rescue of **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
@@ -111,12 +112,12 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 ## Karma And Nuyen Ledger
 
 - **Known current Karma:** at least **11 Karma** from currently tracked wiki events, plus any earlier untracked balance.
-- **Known current nuyen:** **40,915¥**.
+- **Known current nuyen:** **39,615¥**.
 
 <details markdown="1">
 <summary>Show Karma and nuyen history</summary>
 
-- **Current nuyen history:** **210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft, **+15,000¥** from the Griswell / Alvin / Palermo job on 2026-07-02, **+180¥** net from completed Curtis Drone Shift Work Orders, **-10,800¥** for Grandpa's GM-approved flood rescue / short-dunk package on 2026-07-16, **-3,500¥** for Grandpa's crash cage on 2026-07-16, **-3,200¥** for Grandpa's flood ballast kit on 2026-07-16, **-475¥** for a Defiance Super Shock taser plus concealable holster on 2026-07-16, **-20¥** for Mr. Clean's climbing cleat kit on 2026-07-16, **-10¥** for 5 cans of SPAM on 2026-07-16, **+28,780¥** net from the Saab Dynamit 778 TI sale after Taco's cut and Finisher ammunition restock on 2026-07-19, **-3,000¥** in thank-you cuts to Mevin, Valgaut, and Kurgan for helping boost the car on 2026-07-19, and **+15,000¥** from the Pixel Sticks / Military-Grade Utilities payout on 2026-07-23.
+- **Current nuyen history:** **210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft, **+15,000¥** from the Griswell / Alvin / Palermo job on 2026-07-02, **+180¥** net from completed Curtis Drone Shift Work Orders, **-10,800¥** for Grandpa's GM-approved flood rescue / short-dunk package on 2026-07-16, **-3,500¥** for Grandpa's crash cage on 2026-07-16, **-3,200¥** for Grandpa's flood ballast kit on 2026-07-16, **-475¥** for a Defiance Super Shock taser plus concealable holster on 2026-07-16, **-20¥** for Mr. Clean's climbing cleat kit on 2026-07-16, **-10¥** for 5 cans of SPAM on 2026-07-16, **+28,780¥** net from the Saab Dynamit 778 TI sale after Taco's cut and Finisher ammunition restock on 2026-07-19, **-3,000¥** in thank-you cuts to Mevin, Valgaut, and Kurgan for helping boost the car on 2026-07-19, **+15,000¥** from the Pixel Sticks / Military-Grade Utilities payout on 2026-07-23, and **-1,300¥** Backpack Arms Build Day 1 project spend on 2026-07-24.
 - **2026-06-25 — Righteous Haze interlude:** **+4 Karma**, **+5,000¥** total payout / recovered value.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 
@@ -164,6 +165,8 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - **2026-07-23 — Taco's Walk-In Fan Chirp**: Curtis completed Taco's walk-in cooler fan-guard ticket as a solid repair. Final report logged **+25¥** net shift result and **Maintenance Quality 4** after Curtis confirmed the blade path was clear and the noise was vibration instead of a fan chewing its own guard, pinned the chirp to two flattened grommets and a condensation-dusted connector clip, spent extra tape and a backup screw evening out the thrift-fit pressure, and put in extra bench time damping one last squeak before Taco heard it. Follow-up note: trimmed and reused old grommets saved parts money but leaves **door-slam spin test TN +1** for thrift-fit fussiness, with the final report noting the reused-grommet fit. No permanent equipment or drone stat changes apply unless the GM confirms them.
 
 - **2026-07-24 — Grandpa's Glovebox Ground Hum**: Curtis completed Taco's Grandpa glovebox relay / dash-cam hum ticket as a break-even maintenance. Final report logged **+50¥** net shift result and **Maintenance Quality 2** after Curtis confirmed the circuit was safe, chased one innocent relay socket before finding the tired ground strap, braided a salvage ground strap, damped the last little buzz under the dash, and wrote a clean ticket. Follow-up note: the salvage ground strap saves parts money but leaves **accessory-load test TN +1** for thrift-fit fussiness on future related work-order checks; no permanent Grandpa/drone stat changes apply unless the GM confirms them.
+
+- **2026-07-24 — Backpack Arms Build Day 1: Load-Path Coupons**: Curtis completed the first day of the GM-approved Backpack Arms 14-day diversion track as a solid repair / project setup. Final report logged **-1,300¥** project spend and **Maintenance Quality 4** after defining a believable folded six-arm carry envelope, redrawing the shoulder-to-hip load path after a failed Electronics B/R check, choosing usable aircraft aluminum salvage coupons after an expensive failed scrounge, successfully bend-testing one rail at **TN 6** due to salvage-stock uncertainty, and writing a clean phase-one spec. Follow-up note: the aircraft aluminum salvage path and overbought bushing stock carry forward into Day 2 / Day 4 planning; no permanent Backpack Arms gear, combat, or stat benefit applies until Day 14 final GM acceptance.
 
 </details>
 
