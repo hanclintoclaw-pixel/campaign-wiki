@@ -2,6 +2,12 @@
   "schemaVersion": "cindylou.matrixHostIndex/v1",
   "hosts": [
     {
+      "id": "barrage-1918-host",
+      "name": "Barrage 1918 Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/barrage-1918-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Barrage-1918-Host.html"
+    },
+    {
       "id": "ares-nashville-regional-host",
       "name": "Ares Nashville Regional Host",
       "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/ares-nashville-regional-host.json",

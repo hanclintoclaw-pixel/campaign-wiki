@@ -10,6 +10,7 @@ Each entry includes a descriptive host profile plus example **SR3-style host sta
 
 ## Host records
 
+- [Barrage 1918 Host](Barrage-1918-Host.md)
 - [Lafayette Tower CAT Entertainment Host](Lafayette-Tower-CAT-Entertainment-Host.md)
 - [Nashville City Government Host](Nashville-City-Government-Host.md)
 - [Ares Nashville Regional Host](Ares-Nashville-Regional-Host.md)

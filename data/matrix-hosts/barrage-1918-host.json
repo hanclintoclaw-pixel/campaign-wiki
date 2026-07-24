@@ -1,0 +1,228 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "barrage-1918-host",
+  "name": "Barrage 1918 Host",
+  "wikiPage": "Tech/Matrix/Barrage-1918-Host.md",
+  "securityCode": "green",
+  "securityValue": 6,
+  "hostRating": 6,
+  "shutdownTally": 21,
+  "subsystem": {
+    "access": 6,
+    "control": 6,
+    "index": 5,
+    "files": 6,
+    "slave": 6
+  },
+  "taskTargetNumbers": {
+    "logon": 6,
+    "browsePublic": 4,
+    "searchCustomer": 6,
+    "staffRecords": 6,
+    "alterStore": 7,
+    "controlSlave": 6,
+    "evadeTrace": 6,
+    "fightIc": 6,
+    "privateEventFile": 6
+  },
+  "securitySheaf": [
+    { "threshold": 3, "label": "Maître d' Probe", "effect": "A formal service icon checks the intruder's reservation, persona style, and right to be beyond the dining room.", "encounter": { "type": "probe", "rating": 5 } },
+    { "threshold": 6, "label": "Wax-Seal Trace", "effect": "A red wax seal stamps the reservation book and starts following the route back toward the decker.", "encounter": { "type": "trace", "rating": 5 } },
+    { "threshold": 9, "label": "Menu-Card Scramble", "effect": "Menus, ledgers, and event notes shuffle into historical filler and theatrical tasting notes.", "encounter": { "type": "scramble", "rating": 5 } },
+    { "threshold": 12, "label": "Passive Alert: Velvet Rope Lockdown", "effect": "The host gets quietly suspicious. Velvet ropes slide into place and restaurant security may become aware.", "encounter": { "type": "generic", "rating": 6, "consequence": "Passive Alert: Barrage 1918 staff/security may become quietly aware of host intrusion. Notify the GM if unresolved pressure remains at run end." } },
+    { "threshold": 15, "label": "Brass-Stanchion Tar Baby", "effect": "Polished brass stanchions and velvet ropes try to hold the icon in place for a human security response.", "encounter": { "type": "tarBaby", "rating": 5 } },
+    { "threshold": 18, "label": "Active Security Notification", "effect": "Management or private-room security receives an actionable warning that someone is in the staff host.", "encounter": { "type": "trace", "rating": 6, "consequence": "Active Security Notification: restaurant management/security may receive a usable intrusion alert. Notify the GM if this remains unresolved." } }
+  ],
+  "sculpting": "A prestige war-museum restaurant host: brass fixtures, velvet ropes, campaign maps, antique menu cards, officer-club dining rooms, endorsement plaques, wine ledgers, and locked private-event folders. Secure areas become staff corridors, officer safes, procurement crates, and a camera-wall security cluster.",
+  "notes": "Green-6 upscale restaurant host for Barrage 1918. Public side contains menus and endorsements. Secure side contains three mundane 1-point paydata stores, security system access, and a hidden private-event planning file labeled Ask GM. Main clue route is tuned at two TN 6 / 2-success checks with default 14 dice, about 49.6% by raw branch-success odds.",
+  "flow": {
+    "startNodeId": "restaurant-grid-approach",
+    "nodes": [
+      {
+        "id": "restaurant-grid-approach",
+        "title": "Restaurant Grid Outside Barrage 1918",
+        "kind": "entry",
+        "description": "You hover in the polished downtown grid outside Barrage 1918. The host presents a theatrical public dining-room surface and a much quieter staff/management access route behind the maître d' stand.",
+        "choices": [
+          { "label": "Enter the public dining-room host", "to": "public-dining-room" },
+          { "label": "Break into the staff/management corridor", "to": "secure-staff-corridor", "testId": "logon", "unlockSuccesses": 2, "targetNumber": 6, "securityValue": 6 },
+          { "label": "Graceful Logoff", "to": "__front-door-graceful-logoff__" }
+        ]
+      },
+      {
+        "id": "public-dining-room",
+        "title": "Public Dining-Room Host",
+        "kind": "public",
+        "description": "The public sculpting is all polish: candlelit officer-club booths, campaign-map table diagrams, tasting-menu cards, reservation etiquette, and a tasteful amount of theatrical smoke.",
+        "choices": [
+          { "label": "Browse historical-war tasting menus", "to": "public-war-menus" },
+          { "label": "Read endorsements and critic plaques", "to": "public-endorsement-gallery" },
+          { "label": "Check private dining package blurbs", "to": "public-private-dining-blurbs" },
+          { "label": "Return to the restaurant grid", "to": "restaurant-grid-approach" }
+        ]
+      },
+      {
+        "id": "public-war-menus",
+        "title": "Historical-War Tasting Menus",
+        "kind": "public",
+        "description": "Public menus pair courses and drinks with sanitized historical-war themes: trench supper flights, siege-table desserts, campaign cocktails, ration-box amuse-bouches, and expensive explanations. Flavorful, legal, and not secret.",
+        "report": { "include": "never" },
+        "choices": [
+          { "label": "Return to the public dining room", "to": "public-dining-room" }
+        ]
+      },
+      {
+        "id": "public-endorsement-gallery",
+        "title": "Endorsement Gallery",
+        "kind": "public",
+        "description": "Critic quotes, influencer plaques, celebrity reservation blurbs, and corporate-host dinner photos shine behind glass. They establish prestige and clientele without exposing private data.",
+        "report": { "include": "never" },
+        "choices": [
+          { "label": "Return to the public dining room", "to": "public-dining-room" }
+        ]
+      },
+      {
+        "id": "public-private-dining-blurbs",
+        "title": "Public Private-Dining Packages",
+        "kind": "public",
+        "description": "The public package page advertises chef's tables, private salons, curated historical menus, and premium wine pairings. Actual guest names, room locks, and event plans live deeper in the staff host.",
+        "report": { "include": "never" },
+        "choices": [
+          { "label": "Return to the public dining room", "to": "public-dining-room" }
+        ]
+      },
+      {
+        "id": "secure-staff-corridor",
+        "title": "Secure Staff Corridor",
+        "kind": "private",
+        "description": "Behind the maître d' stand, the Host becomes practical: reservation ledgers, staff notes, wine-cellar locks, security maps, and private-event folders. Pick a target before the host decides you are not on the guest list.",
+        "choices": [
+          { "label": "Search VIP spend ledger paydata", "to": "vip-spend-ledger-paydata", "testId": "staffRecords", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 6 },
+          { "label": "Search rare-bottle procurement paydata", "to": "rare-bottle-procurement-paydata", "testId": "staffRecords", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 6 },
+          { "label": "Search staff tip-out fragments", "to": "staff-tipout-paydata", "testId": "searchCustomer", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 6 },
+          { "label": "Probe the security systems cluster", "to": "security-systems-cluster", "testId": "controlSlave", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 6 },
+          { "label": "Find the hidden private-event planning file", "to": "ask-gm-private-event-file", "testId": "privateEventFile", "unlockSuccesses": 2, "targetNumber": 6, "securityValue": 6 },
+          { "label": "Back out through the reservation surface", "to": "restaurant-grid-approach", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 5 }
+        ]
+      },
+      {
+        "id": "vip-spend-ledger-paydata",
+        "title": "Paydata: VIP Spend Ledger",
+        "kind": "paydata",
+        "description": "You recover a mundane 1-point paydata store: VIP spending patterns, comp history, private-room deposits, and repeat high-roller habits. Tell the GM you recovered Barrage 1918 VIP spend ledger paydata worth 1 Paydata Point by default.",
+        "report": {
+          "include": "always",
+          "title": "VIP spend ledger paydata",
+          "detail": "Mevin recovered mundane Barrage 1918 VIP spend ledger paydata worth 1 Paydata Point by default. Confirm names, dates, and sensitivity with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to secure staff corridor", "to": "secure-staff-corridor" },
+          { "label": "Log off with VIP spend ledger paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 5 }
+        ]
+      },
+      {
+        "id": "rare-bottle-procurement-paydata",
+        "title": "Paydata: Rare-Bottle Procurement",
+        "kind": "paydata",
+        "description": "You recover a mundane 1-point paydata store: rare-bottle purchases, vendor pressure, historical-menu ingredient sourcing, and black-market-adjacent procurement gossip. Tell the GM you recovered Barrage 1918 procurement paydata worth 1 Paydata Point by default.",
+        "report": {
+          "include": "always",
+          "title": "Rare-bottle procurement paydata",
+          "detail": "Mevin recovered mundane Barrage 1918 rare-bottle/procurement paydata worth 1 Paydata Point by default. Confirm vendor names and sensitivity with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to secure staff corridor", "to": "secure-staff-corridor" },
+          { "label": "Log off with procurement paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 5 }
+        ]
+      },
+      {
+        "id": "staff-tipout-paydata",
+        "title": "Paydata: Staff Tip-Out Fragments",
+        "kind": "paydata",
+        "description": "You recover a mundane 1-point paydata store: staff tip-outs, disciplinary fragments, private-room labor notes, and payroll-adjacent resentment. Tell the GM you recovered Barrage 1918 staff-fragment paydata worth 1 Paydata Point by default.",
+        "report": {
+          "include": "always",
+          "title": "Staff tip-out paydata",
+          "detail": "Mevin recovered mundane Barrage 1918 staff tip-out/disciplinary paydata worth 1 Paydata Point by default. Confirm personnel names and sensitivity with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to secure staff corridor", "to": "secure-staff-corridor" },
+          { "label": "Log off with staff paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 5 }
+        ]
+      },
+      {
+        "id": "security-systems-cluster",
+        "title": "Security Systems Cluster",
+        "kind": "confirmation",
+        "description": "You reach the security cluster: private-room camera pointers, kitchen-door locks, reservation terminal hooks, panic-button routing, and a security office alert board. Tell the GM you reached the Barrage 1918 security systems cluster; exact controls and physical coverage are GM-scoped.",
+        "report": {
+          "include": "always",
+          "title": "Security systems cluster access",
+          "detail": "Mevin reached Barrage 1918 security systems: private-room cameras, door locks, reservation terminals, panic-button routing, and alert board hooks. Confirm exact physical scope and controls with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Camera wall", "to": "security-camera-wall", "testId": "controlSlave", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 6 },
+          { "label": "Door and private-room locks", "to": "security-door-locks", "testId": "controlSlave", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 6 },
+          { "label": "Return to secure staff corridor", "to": "secure-staff-corridor" }
+        ]
+      },
+      {
+        "id": "security-camera-wall",
+        "title": "Camera Wall Access",
+        "kind": "confirmation",
+        "description": "You appear to have access to camera pointers for dining rooms, private salons, service corridors, and possibly the exterior entry. Tell the GM you have camera-wall access and ask which feeds are live, stored, blind, or spoofed.",
+        "report": {
+          "include": "always",
+          "title": "Camera wall access",
+          "detail": "Mevin reached Barrage 1918 camera pointers. Confirm live/stored feeds, blind spots, and spoofed coverage with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to security systems cluster", "to": "security-systems-cluster" }
+        ]
+      },
+      {
+        "id": "security-door-locks",
+        "title": "Door and Private-Room Locks",
+        "kind": "confirmation",
+        "description": "You appear to have access to lock status and maybe delayed command hooks for kitchen doors, private salons, wine-cellar gates, and staff corridors. Tell the GM before treating any physical door state as changed.",
+        "report": {
+          "include": "always",
+          "title": "Door and private-room lock access",
+          "detail": "Mevin reached Barrage 1918 door/private-room lock controls. Confirm whether access is live control, status-only, or delayed command access with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to security systems cluster", "to": "security-systems-cluster" }
+        ]
+      },
+      {
+        "id": "ask-gm-private-event-file",
+        "title": "Ask GM: Private Event Plans",
+        "kind": "gm-reward",
+        "description": "You find the hidden private-event planning file. It contains event plans, but the specifics are intentionally GM-controlled. Ask GM for specifics: event name, sponsor/client, date, guest/security implications, and why this file was hidden instead of ordinary reservation data.",
+        "report": {
+          "include": "always",
+          "title": "Ask GM: private event planning file",
+          "detail": "Mevin found the hidden Barrage 1918 private-event planning file. Ask GM for specifics: event name, sponsor/client, date, guest/security implications, and why the file was hidden.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to secure staff corridor", "to": "secure-staff-corridor" },
+          { "label": "Log off with the private-event file noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 6, "securityValue": 5 }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Logoff Route",
+        "kind": "exit",
+        "description": "You back out through reservation ledgers and close the connection. Tell the GM which paydata stores, security systems, and Ask GM event file you reached before leaving.",
+        "choices": []
+      }
+    ]
+  }
+}
