@@ -7,6 +7,7 @@
 - [Jacinda Hamich](Jacinda-Hamich.md)
 - [Ivan Toklas](Ivan.md)
 - [Chunky Sparkles](Chunky-Sparkles.md)
+- [Pixel Sticks 21st-Floor Cell](Pixel-Sticks-21st-Floor-Cell.md)
 - [Jet Set Morgan](Jet-Set-Morgan.md)
 - [Core 7](Core-7.md)
 - [Mother Yahweh](Mother-Yahweh.md)

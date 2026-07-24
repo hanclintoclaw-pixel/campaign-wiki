@@ -5,11 +5,12 @@ visibility: player-safe
 status: active
 canon_status: campaign-derived
 confidence: medium
-last_updated_session: 2026-07-16
+last_updated_session: 2026-07-23
 tags: [matrix, host, happy-cat, convenience-store, collectibles, teen-hangout, pixel-sticks]
 sources:
   - Session 2026-07-09
   - Session 2026-07-16
+  - Session 2026-07-23
   - Mevin Host Run Simulator seed profile
   - ../Locations/Happy-Cat-Konpeki-and-Collectibles.md
 ---
@@ -61,6 +62,14 @@ The profile below mirrors the current seed profile used by the [Mevin Host Run S
 - The hidden yard presented as a harder, cleaner, graffiti-coated staging host with tag fragments, utility crates, dead-drop lockers, route maps, burner personas, and reputation tags.
 - The yard felt like a disciplined Matrix gang's working space, with jobs sorted by risk, payout, sponsor, and bragging rights.
 - The run tripped a server shutdown, but the GM confirmed Mevin was not traced, tagged, or tied back to his jackpoint.
+
+## Session 2026-07-23 follow-up
+
+- Cindy/Mevin used the hidden tag yard / route-board context to recover usable insider handles for the 21st-floor approach.
+- Confirmed or supplied handles included **Handy-Sandy**, **Highbrow**, and **Pop Onomata**.
+- The 21st-floor hardware room confirmed that the upper-floor host terminal and laser-array infrastructure were nested through the Happy Cat host path.
+- The crew recovered used utilities for the Johnson-side handoff.
+- Mevin retained encrypted utility/paydata material from the upper-floor room for later research with Cindy Lou.
 
 ## What deckers find inside
 
@@ -140,6 +149,8 @@ Hidden Pixel Sticks rewards:
 - Do the store's local users overlap with any actual Pixel Sticks members?
 - Does Chunky Sparkles have any Matrix-side footprint or protection role?
 - What did the server shutdown hide or protect after Mevin reached the hidden yard?
+- What is inside Mevin's retained encrypted utility/paydata material?
+- Does Happy Cat still provide any route into surviving Pixel Sticks infrastructure after the 21st-floor breach?
 
 ## Related Pages
 
@@ -148,3 +159,4 @@ Hidden Pixel Sticks rewards:
 - [Pixel Sticks / Military-Grade Utilities Run](../../Arcs/Pixel-Sticks-Utility-Run.md)
 - [Session 2026-07-09](../../Sessions/2026-07-09.md)
 - [Session 2026-07-16](../../Sessions/2026-07-16.md)
+- [Session 2026-07-23](../../Sessions/2026-07-23.md)

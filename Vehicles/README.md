@@ -7,3 +7,4 @@
 - [Buzz](Buzz.md)
 - [Mr. Clean](Mr-Clean.md)
 - [Waddles](Waddles.md)
+- [Pixel Sticks Scorpion Drone](Pixel-Sticks-Scorpion-Drone.md)

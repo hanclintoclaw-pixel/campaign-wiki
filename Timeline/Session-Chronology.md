@@ -2,7 +2,7 @@
 title: Session Chronology
 type: timeline
 visibility: player-safe
-updated: 2026-07-19
+updated: 2026-07-24
 ---
 
 # Session Chronology
@@ -100,6 +100,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 72 | [Session 2026-07-09](../Sessions/2026-07-09.md) | 2026-07-09 | 2066-05-12 evening | provisional | The crew began the **Pixel Sticks / military-grade utilities** run. Ivan routed them to an anonymous high-end Johnson at Atlas's, who offered 40,000 nuyen to shut down a Matrix youth-gang threat and 20,000 nuyen for recovered utilities. Mevin identified the Pixel Sticks tag, spotted edited gaps in the dossier, and the team moved to Happy Cat Konpeki and Collectibles, where Valgaut sensed a powerful awakened animal and Mevin/Valgaut entered the local Matrix while Kurgan watched meatspace. |
 | 73 | [Session 2026-07-16](../Sessions/2026-07-16.md) | 2026-07-16 | 2066-05-12 evening | provisional | The crew continued the **Pixel Sticks** run at Happy Cat. Mevin found the hidden Pixel Sticks tag yard and camera access inside the Happy Cat host, Curtis identified a laser modem link into the neighboring Vernon Winfrey arkoblock, Valgaut and Kurgan recognized Chunky Sparkles inside the store, and the crew bypassed stairwell barricades to reach the 21st-floor landing near the suspected Pixel Sticks floors. |
 | 74 | [Mini-Run 2026-07-19 - Saab Dynamit Sale](../Sessions/2026-07-19-mini-saab-dynamit-sale.md) | 2026-07-19 | 2066-05-12 night | provisional | Curtis fenced a boosted **Saab Dynamit 778 TI** through Taco's buyer network, completed the late-night 612 Wharf Avenue handoff, dealt with a suspicious Americar tail using Buzz and The Finisher, netted **28,780¥** before crew thank-yous, and ended with **25,720¥** tracked funds after paying Mevin, Valgaut, and Kurgan. |
+| 75 | [Session 2026-07-23](../Sessions/2026-07-23.md) | 2026-07-23 | 2066-05-12 night | provisional | The crew breached the **Pixel Sticks** 21st-floor arkoblock space, disrupted the cell, recovered used military-grade utilities for the Johnson handoff, altered a scorpion combat drone's whitelist before using it as escape-cover against Chunky Sparkles, and received **60,000¥ total** plus **7 Karma each** while Mevin retained encrypted material for later work with Cindy Lou. |
 
 ## Read this sequence in plain English
 

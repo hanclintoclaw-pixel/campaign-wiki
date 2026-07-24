@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-16
+last_updated_session: 2026-07-23
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -13,6 +13,7 @@ sources:
   - ../Sessions/2026-07-09.md
   - ../Arcs/Pixel-Sticks-Utility-Run.md
   - ../Sessions/2026-07-16.md
+  - ../Sessions/2026-07-23.md
   - SR3 Matrix sourcebook stock cyberdeck tables / Hacking Pool rules
   - GM-authorized provisional stat expansion on 2026-07-11
 ---
@@ -59,6 +60,15 @@ Mevin is usually the crew member most responsible for:
 - Mevin hid the real quality of his cyberdeck well enough that it read more like a high-end cyberterminal than an obvious illegal deck.
 - During the 2026-07-16 Happy Cat host run, Mevin recovered the Bypass Key, gained camera network access, and found the hidden Pixel Sticks tag yard.
 - His intrusion tripped a server shutdown, but the GM confirmed he was not traced, tagged, or tied back to his jackpoint.
+- During the 2026-07-23 21st-floor breach, Mevin used Cindy Lou / Decker Experience support to pull Pixel Sticks handle names, talked his way into the cell's controlled space, used his shock hand on the active decker, recovered used utilities, and retained encrypted utility/paydata material for later work with Cindy Lou.
+
+## Karma And Nuyen Ledger
+
+- **Known current Karma:** at least **7 Karma** after the Session 2026-07-23 award. Earlier unspent/spent totals are not yet fully reconstructed on this page.
+- **Known current nuyen:** at least **16,000¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
+- **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
+- **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
+- **Retained asset:** encrypted utility/paydata material for later cracking or evaluation with Cindy Lou.
 
 ## Matrix Style
 
@@ -84,6 +94,7 @@ Mevin's Matrix play style, as established so far, emphasizes:
 - **2026-06-04** — used corporate-procedural insight to reframe the Alvin Flang / Griswell job as likely espionage with inside help.
 - **2026-07-09** — identified the Pixel Sticks tag, questioned the Johnson's edited dossier, recognized the utility-recovery implications, and began the Happy Cat / local Matrix investigation.
 - **2026-07-16** — entered the Happy Cat host, recovered the Bypass Key, gained camera network access, found the hidden Pixel Sticks tag yard, triggered a server shutdown, and escaped without confirmed trace.
+- **2026-07-23** — used Cindy Lou's host-context read to support the 21st-floor bluff, disabled the hostile decker with shock hand, recovered used utilities for the Johnson handoff, retained encrypted utility/paydata material, and earned **7 Karma** plus **15,000¥**.
 
 ## Table-Use SR3 Stat Block
 

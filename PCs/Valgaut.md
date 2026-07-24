@@ -3,7 +3,7 @@ title: Valgaut
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-16
+last_updated_session: 2026-07-23
 canon_status: current-sheet
 confidence: high
 tags: [pc, adept, active-crew]
@@ -14,6 +14,7 @@ sources:
   - memory/2026-06-04.md
   - Valgaut character sheet shared by player on 2026-06-04
   - ../Sessions/2026-07-16.md
+  - ../Sessions/2026-07-23.md
 ---
 
 # Valgaut
@@ -32,6 +33,7 @@ Active player character and the crew's physical adept. Valgaut is a human melee-
 - Key crew tags: **Axe Specialist**, **Dragon Fan**, **Some Formal Education**, **Awakened Loot Appraiser**.
 - He is associated with **Draco**.
 - During the Pixel Sticks investigation, Valgaut identified **Chunky Sparkles** inside Happy Cat as a magically alarming awakened creature expressing multiple creature signatures at once.
+- During the 2026-07-23 21st-floor breach, Valgaut joined the hard entry and cut down one surprised Pixel Sticks guard with his axe.
 - Current listed armor includes a **secure long coat** and **armor vest**.
 - Current listed vehicle: **Ford Americar**.
 
@@ -69,6 +71,13 @@ The following powers are confirmed by the player-shared character sheet.
 - Total spent in this update: **20 Karma**
 - Karma remaining after this spend: **4 Karma**
 
+## Karma And Nuyen Ledger
+
+- **Known current Karma:** **11 Karma** after the Session 2026-07-23 award.
+- **Known current nuyen:** at least **16,000¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
+- **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
+- **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
+
 ## Magical Knowledge Emphasis
 
 - Valgaut now has a clearly established interest in magical theory and awakened-world practical knowledge, especially:
@@ -85,6 +94,7 @@ The following powers are confirmed by the player-shared character sheet.
 ## Relevant Sessions
 
 - **2026-07-16** — magically assessed Chunky Sparkles inside Happy Cat and joined the crew's stairwell approach to the suspected Pixel Sticks floors.
+- **2026-07-23** — joined the 21st-floor Pixel Sticks breach, killed one guard during the hard entry, saw Chunky Sparkles re-enter the scene, and earned **7 Karma** plus **15,000¥**.
 
 ## Sources
 

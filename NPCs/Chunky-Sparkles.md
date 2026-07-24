@@ -6,10 +6,11 @@ status: active
 canon_status: canon
 confidence: medium
 tags: [npc, awakened-creature, happy-cat, pixel-sticks]
-updated: 2026-07-17
+updated: 2026-07-24
 aliases: [Chonky Sparkles, Junkie Sparkles]
 sources:
   - ../Sessions/2026-07-16.md
+  - ../Sessions/2026-07-23.md
 ---
 
 # Chunky Sparkles
@@ -28,6 +29,9 @@ sources:
 - It gave the crew a long considering look after a magical pressure event inside Happy Cat.
 - The space filled with a cotton-candy-like smell when it turned toward the crew.
 - Based on prior table memory, it is capable of profound and terrifying violence, but mostly prefers to graze.
+- During the crew's 21st-floor escape in Session 2026-07-23, Lizzo Wells arrived with Chunky Sparkles after the Pixel Sticks space was breached.
+- Chunky Sparkles was last seen fighting the Pixel Sticks scorpion drone as the crew fled by elevator.
+- News reports after the incident mentioned a major arkoblock explosion/shootout, but no confirmed Chunky Sparkles corpse.
 
 ## Role in the Campaign
 
@@ -47,10 +51,12 @@ sources:
 - Strong awakened presence.
 - Possible sensitivity to hostile intent, magic, or threatening behavior inside Happy Cat; the crew's later off-site test did not provoke a visible response.
 - Prior table memory suggests it can be extremely dangerous if provoked.
+- Capable of throwing or channeling lightning/electrical magical force, and briefly withstood attacks from the scorpion combat drone behind some kind of magical protection.
 
 ## Relevant Sessions
 
 - [Session 2026-07-16](../Sessions/2026-07-16.md) - identified inside Happy Cat and magically assessed by Valgaut.
+- [Session 2026-07-23](../Sessions/2026-07-23.md) - arrived with Lizzo Wells during the crew's escape and fought the Pixel Sticks scorpion drone.
 
 ## Open Questions
 
@@ -58,7 +64,10 @@ sources:
 - Who feeds, shelters, or controls it?
 - Does it protect the Pixel Sticks, the store, the youths, or only itself?
 - What exactly is its awakened nature?
+- Did it survive the scorpion drone fight, and is the crew now on its bad side?
+- What is its exact relationship with Lizzo Wells?
 
 ## Sources
 
 - [Session 2026-07-16](../Sessions/2026-07-16.md)
+- [Session 2026-07-23](../Sessions/2026-07-23.md)

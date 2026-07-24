@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-19
+last_updated_session: 2026-07-23
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -15,6 +15,7 @@ sources:
   - Curtis knowledge and language skills screenshot shared by player on 2026-06-05
   - ../Sessions/2026-06-25.md
   - ../Sessions/2026-07-16.md
+  - ../Sessions/2026-07-23.md
 ---
 
 # Curtis
@@ -87,13 +88,21 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Current sheet-backed core stats: **BOD 4**, **QUI 6**, **STR 5**, **CHA 1**, **INT 5**, **WIL 5**, **Essence 1.84**, **Reaction 5**, **Initiative 5+1D6**, **Magic -**.
 - Key crew tags: **Very Short**, **Ex-Caribbean Smuggler**.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
-- Current funds note preserved in dossier: **40,865¥** current nuyen balance (**210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft, **+15,000¥** from the Griswell / Alvin / Palermo job on 2026-07-02, **+130¥** net from completed Curtis Drone Shift Work Orders, **-10,800¥** for Grandpa's GM-approved flood rescue / short-dunk package on 2026-07-16, **-3,500¥** for Grandpa's crash cage on 2026-07-16, **-3,200¥** for Grandpa's flood ballast kit on 2026-07-16, **-475¥** for a Defiance Super Shock taser plus concealable holster on 2026-07-16, **-20¥** for Mr. Clean's climbing cleat kit on 2026-07-16, **-10¥** for 5 cans of SPAM on 2026-07-16, **+28,780¥** net from the Saab Dynamit 778 TI sale after Taco's cut and Finisher ammunition restock on 2026-07-19, **-3,000¥** in thank-you cuts to Mevin, Valgaut, and Kurgan for helping boost the car on 2026-07-19, and **+15,000¥** GM nuyen adjustment on 2026-07-23).
+- Current funds note preserved in dossier: **40,865¥** current nuyen balance (**210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft, **+15,000¥** from the Griswell / Alvin / Palermo job on 2026-07-02, **+130¥** net from completed Curtis Drone Shift Work Orders, **-10,800¥** for Grandpa's GM-approved flood rescue / short-dunk package on 2026-07-16, **-3,500¥** for Grandpa's crash cage on 2026-07-16, **-3,200¥** for Grandpa's flood ballast kit on 2026-07-16, **-475¥** for a Defiance Super Shock taser plus concealable holster on 2026-07-16, **-20¥** for Mr. Clean's climbing cleat kit on 2026-07-16, **-10¥** for 5 cans of SPAM on 2026-07-16, **+28,780¥** net from the Saab Dynamit 778 TI sale after Taco's cut and Finisher ammunition restock on 2026-07-19, **-3,000¥** in thank-you cuts to Mevin, Valgaut, and Kurgan for helping boost the car on 2026-07-19, and **+15,000¥** from the Pixel Sticks / Military-Grade Utilities payout on 2026-07-23).
 - Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16.
 - He is actively building a **dolphin and hurricane seal habitat** for the possible relocation/rescue of **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
 - During the 2066-05-09 interlude, Curtis backed Kurgan on the **Righteous Haze** job, using **Grandpa** as the lure/extraction vehicle.
 - Curtis earned **4 Karma** and **5,000¥ total payout / recovered value** from the Righteous Haze interlude.
 - During the Pixel Sticks investigation at Happy Cat, Curtis used Belmont to spot suspicious roof equipment, identified the laser modem path into the neighboring arkoblock, paid the 100¥ store-membership shakedown, and used Mr. Clean to unlatch a sealed stairwell barricade from the inside.
+- During the 2026-07-23 21st-floor breach, Curtis helped interpret and manipulate the scorpion combat drone's control setup with Mevin, added the crew to the whitelist, repaired/reactivated the sealed elevator enough for escape, and later wanted to search for Matrix/news sightings of Chunky Sparkles.
+
+## Karma And Nuyen Ledger
+
+- **Known current Karma:** at least **11 Karma** from currently tracked wiki events, plus any earlier untracked balance.
+- **Known current nuyen:** **40,865¥**.
+- **2026-06-25 — Righteous Haze interlude:** **+4 Karma**, **+5,000¥** total payout / recovered value.
+- **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 
 ## Rigger Asset Highlights
 
@@ -138,6 +147,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - 2026-06-25 — backed Kurgan in the backdated Righteous Haze interlude, using Grandpa and social cover to isolate the target.
 - 2026-07-16 — supported the Happy Cat / Vernon Winfrey arkoblock investigation with Belmont roof surveillance, laser-modem analysis, and Mr. Clean barricade bypass.
 - 2026-07-19 — [fenced the found Saab Dynamit 778 TI](../Sessions/2026-07-19-mini-saab-dynamit-sale.md) through Taco's buyer network, paid Taco's 10% cut, restocked Finisher's spent SMG ammunition, netted **+28,780¥**, then paid **1,000¥** each to Mevin, Valgaut, and Kurgan as thank-you cuts.
+- 2026-07-23 — helped manipulate the Pixel Sticks scorpion drone whitelist, got the sealed elevator working for the crew's escape, earned **7 Karma** plus **15,000¥**, and flagged tracking the drone / Chunky Sparkles aftermath as a possible follow-up.
 
 ## Sheet Snapshot
 

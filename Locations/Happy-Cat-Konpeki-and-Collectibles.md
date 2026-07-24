@@ -4,7 +4,7 @@ type: location
 visibility: player-safe
 status: active
 first_session: 2026-07-09
-last_updated_session: 2026-07-16
+last_updated_session: 2026-07-23
 canon_status: canon
 confidence: high
 tags: [location, nashville, convenience-store, collectibles, teen-hangout, arkoblocks]
@@ -12,6 +12,7 @@ sources:
   - User-provided map address on 2026-07-09
   - Discord session thread 1524939834832064645
   - ../Sessions/2026-07-16.md
+  - ../Sessions/2026-07-23.md
 ---
 
 # Happy Cat Konpeki and Collectibles
@@ -44,6 +45,8 @@ The store is small, bright, and stubbornly local, nestled between the huge arkob
 - Mevin's host intrusion revealed a hidden Pixel Sticks tag yard behind the public storefront host.
 - The roof has a laser modem link to a blacked-out window in the neighboring [Vernon Winfrey Arkoblock](Vernon-Winfrey-Arkoblock.md).
 - After Mevin tripped a server shutdown, the store pulled a shutter and an authoritative young woman's voice ordered a trace check; Mevin was not traced.
+- The 21st-floor breach confirmed the Happy Cat host / laser-array path nested into the upper-floor Pixel Sticks host infrastructure.
+- Names and handles tied to the Happy Cat / Pixel Sticks path now include Highbrow, Handy-Sandy, Pop Onomata, Ernie Pollock, Ziggy Hill, and Lizzo Wells.
 
 ## Open Questions
 
@@ -53,10 +56,12 @@ The store is small, bright, and stubbornly local, nestled between the huge arkob
 - Why is Chunky Sparkles inside the store, and who feeds or controls it?
 - Why does the Pixel Sticks / Matrix-vandalism pattern appear to spare or center on this location?
 - Is Happy Cat knowingly sheltering Pixel Sticks infrastructure, being used as cover, or both?
-- Who is the young woman heard after the server shutdown?
+- Is Lizzo Wells the young woman heard after the server shutdown?
+- What did Happy Cat's management or regulars know about the 21st-floor Pixel Sticks infrastructure?
 
 ## Sources
 
 - User-provided map address and description on 2026-07-09
 - Discord session thread 1524939834832064645
 - [Session 2026-07-16](../Sessions/2026-07-16.md)
+- [Session 2026-07-23](../Sessions/2026-07-23.md)
