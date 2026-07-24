@@ -64,6 +64,8 @@ The following powers are confirmed by the player-shared character sheet.
 - **Sustenance**
 - **Magic Sense**
 - **Penetrating Strike 1**
+- **Empathic Sense**
+- **Enhanced Perception 1**
 
 ### 2026-07-24 Attribute Boost Retcon
 
@@ -91,7 +93,7 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 - **2026-07-24 — GM bonus for rules/initiative push:** **+6 Karma**.
 - **2026-07-24 — Wyrmwatch Circle admission cost:** **-3 Karma**; admitted after **3 successes** on the Magic 6 vs TN 5 compatibility test.
-- **2026-07-24 — Wyrmwatch Circle Grade 1 initiation:** **-9 Karma** for group initiation with oath ordeal. Magic increased from 6 to 7, Initiate Grade became 1, and Valgaut gained **+1 adept Power Point** pending final power selection.
+- **2026-07-24 — Wyrmwatch Circle Grade 1 initiation:** **-9 Karma** for group initiation with oath ordeal. Magic increased from 6 to 7, Initiate Grade became 1, and Valgaut gained **+1 adept Power Point**, spent on **Empathic Sense** and **Enhanced Perception 1**.
 
 ## Magical Knowledge Emphasis
 
