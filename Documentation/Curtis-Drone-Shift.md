@@ -54,7 +54,7 @@ This is explicitly a player-engagement prompt, not an obligation. Missed Work Or
 
 ### Current multi-day priority
 
-As of 2026-07-24, daily Drone Shift rotations should usually advance the [Curtis Backpack Arms Build](../PCs/Curtis-Backpack-Arms-Build.md) one safe fabrication phase at a time until the build is complete or the GM changes priority. Each active work order should still stand alone, keep nuyen movement routine, and avoid permanent equipment/combat/stat benefits until final GM acceptance.
+As of 2026-07-24, daily Drone Shift rotations should advance the GM-approved [Curtis Backpack Arms Build](../PCs/Curtis-Backpack-Arms-Build.md) as a **14-day diversion track** until the build is complete or the GM changes priority. Each active work order should still stand alone, but this track is intentionally more complex and expensive than routine repair jobs: expected total project spend is roughly **28,000-45,000¥**, with choices affecting cost, TNs, rework, compatibility, and final acceptance. Avoid permanent equipment/combat/stat benefits until Day 14 final GM acceptance and Curtis-page gear/usage-guide updates.
 
 ## Table flow
 
@@ -78,7 +78,7 @@ The tool keeps the nuyen movement visible throughout the run:
 - **Success/failure swing cards** show how the selected roll can change the total before the player commits.
 - The final report records the total as `Nuyen delta`.
 
-Routine Work Orders should stay close to break-even. Small wins, parts costs, tips, or salvage finds are expected and should be applied to Curtis's running nuyen total during ingestion; large windfalls or penalties should wait for GM approval.
+Routine Work Orders should stay close to break-even. Small wins, parts costs, tips, or salvage finds are expected and should be applied to Curtis's running nuyen total during ingestion; large windfalls or penalties should wait for GM approval. GM-approved multi-day diversions, such as the Backpack Arms Build, may intentionally carry larger project-spend deltas when the project page and final report identify them as approved track costs.
 
 ## Quality score
 

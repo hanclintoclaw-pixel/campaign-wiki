@@ -138,12 +138,12 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 ## Active Projects
 
-- [Backpack Arms Build](Curtis-Backpack-Arms-Build.md) — staged Drone Shift project for a retractable six-arm wearable tool/combat-support rig; no permanent gear benefit applies until final GM acceptance.
+- [Backpack Arms Build](Curtis-Backpack-Arms-Build.md) — GM-approved 14-day Drone Shift diversion track for a retractable six-arm wearable tool/combat-support rig; expected total project spend is roughly **28,000-45,000¥**, and no permanent gear benefit applies until Day 14 final GM acceptance plus a finalized gear entry and usage guide.
 - [Dolphin and Hurricane Seal Habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) — buildout tracker for Core 7 and his seal friends.
 
 ## Drone Shift
 
-- [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) rotates daily downtime Work Orders. Until the Backpack Arms Build is complete or the GM changes priority, daily posts should usually advance that project one safe fabrication step at a time. Completed reports stay logged, small routine nuyen deltas are applied to Curtis's running total when Cindy ingests the final report, and missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; permanent drone/vehicle/equipment/stat changes still require GM confirmation.
+- [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) rotates daily downtime Work Orders. Until the Backpack Arms Build is complete or the GM changes priority, daily posts should advance that 14-day project one meaningful fabrication step at a time. Completed routine reports stay logged and small routine nuyen deltas are applied to Curtis's running total; Backpack Arms reports may apply larger GM-approved project-spend deltas to Curtis's running nuyen and project log. Missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; permanent drone/vehicle/equipment/combat/stat changes still require Day 14 final GM acceptance.
 
 ### Completed Work Orders
 
