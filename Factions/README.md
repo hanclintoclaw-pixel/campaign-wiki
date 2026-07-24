@@ -12,5 +12,6 @@
 - [Ironblood Orphans](Ironblood-Orphans.md)
 - [Interstate Connection](Interstate-Connection.md)
 - [Draco Foundation](Draco-Foundation.md)
+- [Draco Foundation - Wyrmwatch Circle](Draco-Foundation/Wyrmwatch-Circle.md)
 - [Federal Matrix Investigators](Federal-Matrix-Investigators.md)
 - [Heavenly Host](Heavenly-Host.md)
