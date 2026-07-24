@@ -138,11 +138,12 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 ## Active Projects
 
+- [Backpack Arms Build](Curtis-Backpack-Arms-Build.md) — staged Drone Shift project for a retractable six-arm wearable tool/combat-support rig; no permanent gear benefit applies until final GM acceptance.
 - [Dolphin and Hurricane Seal Habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) — buildout tracker for Core 7 and his seal friends.
 
 ## Drone Shift
 
-- [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) rotates daily downtime Work Orders. Completed reports stay logged, small routine nuyen deltas are applied to Curtis's running total when Cindy ingests the final report, and missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; permanent drone/vehicle/stat changes still require GM confirmation.
+- [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) rotates daily downtime Work Orders. Until the Backpack Arms Build is complete or the GM changes priority, daily posts should usually advance that project one safe fabrication step at a time. Completed reports stay logged, small routine nuyen deltas are applied to Curtis's running total when Cindy ingests the final report, and missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; permanent drone/vehicle/equipment/stat changes still require GM confirmation.
 
 ### Completed Work Orders
 

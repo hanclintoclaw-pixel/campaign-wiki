@@ -2,7 +2,7 @@
 title: Curtis Drone Shift Documentation
 type: documentation
 visibility: player-safe
-updated: 2026-07-19
+updated: 2026-07-24
 ---
 
 # Curtis Drone Shift Documentation
@@ -27,6 +27,7 @@ The goal is not to replace SR3 repair rules or the Drone Dashboard. It is a dail
 
 - Live app: [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/)
 - Curtis page: [PCs/Curtis](../PCs/Curtis.md)
+- Backpack Arms project plan: [Curtis Backpack Arms Build](../PCs/Curtis-Backpack-Arms-Build.md)
 - Work Order Guidelines: [Curtis Drone Shift Work Order Guidelines](Curtis-Drone-Shift-Work-Order-Guidelines.md)
 - Drone roster tracker: [Curtis Drone Dashboard](https://hanclintoclaw-pixel.github.io/drone-dashboard/)
 
@@ -50,6 +51,10 @@ Routine behavior:
 6. Announce the update in the originating Cindy thread.
 
 This is explicitly a player-engagement prompt, not an obligation. Missed Work Orders should not stack, create debt, or punish the player.
+
+### Current multi-day priority
+
+As of 2026-07-24, daily Drone Shift rotations should usually advance the [Curtis Backpack Arms Build](../PCs/Curtis-Backpack-Arms-Build.md) one safe fabrication phase at a time until the build is complete or the GM changes priority. Each active work order should still stand alone, keep nuyen movement routine, and avoid permanent equipment/combat/stat benefits until final GM acceptance.
 
 ## Table flow
 
