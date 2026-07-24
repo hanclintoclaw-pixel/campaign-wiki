@@ -32,7 +32,7 @@ Active player character and the crew's physical adept. Valgaut is a human melee-
 
 - Valgaut is played by **Caleb**.
 - He is a **physical adept**.
-- Current sheet-backed core stats: **BOD 4**, **QUI 5**, **STR 5**, **CHA 3**, **INT 4**, **WIL 6**, **Magic 6**, **Essence 6.00**.
+- Current sheet-backed / campaign-updated core stats: **BOD 4**, **QUI 5**, **STR 5**, **CHA 3**, **INT 4**, **WIL 6**, **Magic 7**, **Essence 6.00**, **Initiate Grade 1**.
 - Key crew tags: **Axe Specialist**, **Dragon Fan**, **Some Formal Education**, **Awakened Loot Appraiser**.
 - He is associated with **Draco**.
 - During the Pixel Sticks investigation, Valgaut identified **Chunky Sparkles** inside Happy Cat as a magically alarming awakened creature expressing multiple creature signatures at once.
@@ -85,12 +85,13 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** **14 Karma** after spending 3 Karma for Wyrmwatch Circle admission and passing the compatibility test.
+- **Known current Karma:** **5 Karma** after Wyrmwatch Circle admission and Grade 1 group initiation with oath ordeal.
 - **Known current nuyen:** at least **16,000¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 - **2026-07-24 — GM bonus for rules/initiative push:** **+6 Karma**.
 - **2026-07-24 — Wyrmwatch Circle admission cost:** **-3 Karma**; admitted after **3 successes** on the Magic 6 vs TN 5 compatibility test.
+- **2026-07-24 — Wyrmwatch Circle Grade 1 initiation:** **-9 Karma** for group initiation with oath ordeal. Magic increased from 6 to 7, Initiate Grade became 1, and Valgaut gained **+1 adept Power Point** pending final power selection.
 
 ## Magical Knowledge Emphasis
 
@@ -104,7 +105,7 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 
 - Linked to the crew's front-line physical presence.
 - Linked to **Draco**.
-- Admitted member of the Draco Foundation [Wyrmwatch Circle](../Factions/Draco-Foundation/Wyrmwatch-Circle.md), with Grade 1 initiation available at the [Cairo Testament Annex](../Locations/Cairo-Testament-Annex.md).
+- Initiated Grade 1 member of the Draco Foundation [Wyrmwatch Circle](../Factions/Draco-Foundation/Wyrmwatch-Circle.md), initiated by oath ordeal at the [Cairo Testament Annex](../Locations/Cairo-Testament-Annex.md).
 
 ## Relevant Sessions
 
