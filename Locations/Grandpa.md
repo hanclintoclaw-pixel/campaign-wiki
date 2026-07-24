@@ -13,6 +13,7 @@ sources:
   - memory/2026-04-09.md
   - PARTY_DOSSIER.md
   - Discord GM approval, 2026-07-16
+  - Curtis Drone Shift report, 2026-07-24
 ---
 
 # Grandpa
@@ -40,6 +41,7 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 
 ## Core Notes
 
+- **2026-07-24 Drone Shift:** Curtis completed the **Grandpa's Glovebox Ground Hum** work order as break-even maintenance, quieting the dash-cam / glovebox-light speaker hum with a cleaned salvage ground strap. The thrift-fit repair leaves **accessory-load test TN +1** for future related work-order checks only; it is not a permanent Grandpa stat change unless the GM confirms it.
 - Controls and captain's chair are modified for a **2-foot dwarf operator**.
 - Grandpa functions as Curtis's mobile rigger base and rolling support platform.
 - Curtis operated from Grandpa during the March 18/19 operational sequence.
