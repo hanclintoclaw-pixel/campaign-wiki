@@ -16,6 +16,8 @@ sources:
 
 # Pixel Sticks / Military-Grade Utilities Run
 
+![Pixel Sticks / Military-Grade Utilities Run banner](../assets/images/Pixel-Sticks-Utility-Run-Banner-2026-07-24.png)
+
 ## Current State
 
 The crew has accepted a deniable Matrix cleanup contract routed through **Ivan** at **Atlas's**. The stated target is a troublesome Matrix youth gang causing disruption across the Nashville telecom grid. The first identified tag is **Pixel Sticks**, but the deeper issue is not ordinary vandalism: someone has armed the group with cutting-edge utilities far beyond normal youth-gang capacity.
