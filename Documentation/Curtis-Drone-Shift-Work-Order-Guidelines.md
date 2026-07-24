@@ -2,7 +2,7 @@
 title: Curtis Drone Shift Work Order Guidelines
 type: documentation
 visibility: player-safe
-updated: 2026-07-19
+updated: 2026-07-24
 ---
 
 # Curtis Drone Shift Work Order Guidelines
@@ -192,11 +192,12 @@ Every work order must end with a copyable report containing:
 - notable roll log;
 - selected tradeoff tags or follow-up effects;
 - Cindy ingest note.
+- Cindy closeout confirmation must include Curtis's updated running nuyen total after the delta is applied.
 
 Suggested closing line:
 
 ```text
-Cindy ingest note: Add this as a Curtis downtime/maintenance event. Apply small routine nuyen deltas to Curtis's running total, but do not apply permanent drone stat changes unless the GM confirms them.
+Cindy ingest note: Add this as a Curtis downtime/maintenance event. Apply small routine nuyen deltas to Curtis's running total and include the updated nuyen total in the closeout confirmation, but do not apply permanent drone stat changes unless the GM confirms them.
 ```
 
 ## Daily generation checklist

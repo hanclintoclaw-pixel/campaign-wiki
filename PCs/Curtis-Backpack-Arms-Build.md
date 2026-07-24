@@ -45,7 +45,7 @@ When a `CURTIS DRONE SHIFT REPORT` for this project is posted with Cindy pinged,
 4. Mark the active Drone Shift Work Order as **Job Completed** conceptually.
 5. Set the next daily Drone Shift update to the next incomplete day in the Build Sequence.
 6. Preserve choice consequences in the next relevant work order, especially TN modifiers, rework notes, compatibility tags, and final-report flags.
-7. Include Curtis's updated current nuyen total in the confirmation response to every completed daily post.
+7. Include Curtis's updated running nuyen total in the closeout confirmation after applying the project spend.
 8. Do **not** add final gear benefits to Curtis until Day 14 is completed and accepted.
 
 ## Day 14 Finalization Trigger

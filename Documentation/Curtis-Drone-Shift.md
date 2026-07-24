@@ -56,7 +56,7 @@ This is explicitly a player-engagement prompt, not an obligation. Missed Work Or
 
 As of 2026-07-24, daily Drone Shift rotations should advance the GM-approved [Curtis Backpack Arms Build](../PCs/Curtis-Backpack-Arms-Build.md) as a **14-day diversion track** until the build is complete or the GM changes priority. Each active work order should still stand alone, but this track is intentionally more complex and expensive than routine repair jobs: expected total project spend is roughly **28,000-45,000¥**, with choices affecting cost, TNs, rework, compatibility, and final acceptance. Avoid permanent equipment/combat/stat benefits until Day 14 final GM acceptance and Curtis-page gear/usage-guide updates.
 
-Each daily rotation should read the project page first, choose the next incomplete day, preserve any carry-forward hooks from prior reports, and include a closeout note telling Cindy which day comes next. Day 14 is special: the final report must remind Cindy to update Curtis's page with the finished gear entry, total spend, usage guide, limitations, allowed end effectors, maintenance notes, and any GM-approved SR3 effects before the Backpack Arms rig becomes permanent campaign gear.
+Each daily rotation should read the project page first, choose the next incomplete day, preserve any carry-forward hooks from prior reports, and include a closeout note telling Cindy which day comes next. Closeout confirmations should always include Curtis's updated running nuyen total after applying the posted delta. Day 14 is special: the final report must remind Cindy to update Curtis's page with the finished gear entry, total spend, usage guide, limitations, allowed end effectors, maintenance notes, and any GM-approved SR3 effects before the Backpack Arms rig becomes permanent campaign gear.
 
 ## Table flow
 
@@ -126,8 +126,9 @@ When the report is posted with `@CindyLouBot`, Cindy should:
 1. ingest it into campaign memory as a Curtis downtime/maintenance event;
 2. mark the active Work Order as **Job Completed**;
 3. apply small routine nuyen deltas to Curtis's running total;
-4. avoid permanent drone stat changes unless the GM confirms them;
-5. preserve useful notes for future Work Orders or drone continuity.
+4. include Curtis's updated running nuyen total in the closeout confirmation;
+5. avoid permanent drone stat changes unless the GM confirms them;
+6. preserve useful notes for future Work Orders or drone continuity.
 
 ## Relationship to the Drone Dashboard
 
