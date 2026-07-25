@@ -90,9 +90,10 @@ Daily Drone Shift work orders should pull from this sequence until the build is 
 ## Current Track State
 
 - **Completed:** Day 1/14 — Load-path sketch and material coupons.
-- **Next queued daily update:** Day 2/14 — Backplate and hip-belt skeleton.
+- **Current active daily update:** Day 2/14 — Backplate and hip-belt skeleton.
+- **Next queued daily update:** Day 3/14 — Folded-profile dummy pack.
 - **Current project spend:** **1,300¥**.
-- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile.
+- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile. Day 2 should decide fixed welded aluminum spine vs modular machined frame plates before Day 3 folded-profile work.
 
 ## Open Final-Gear Decisions
 
