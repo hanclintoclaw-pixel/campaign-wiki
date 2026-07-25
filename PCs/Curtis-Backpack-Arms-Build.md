@@ -12,6 +12,7 @@ sources:
   - Discord request and concept image, 2026-07-24
   - GM approval, 2026-07-24
   - Curtis Backpack Arms Build Day 1 report, 2026-07-24
+  - Curtis Backpack Arms Build Day 2 report, 2026-07-25
 ---
 
 # Curtis Backpack Arms Build
@@ -86,14 +87,15 @@ Daily Drone Shift work orders should pull from this sequence until the build is 
 
 - **2026-07-24:** Project opened from Curtis/Ace request and converted to a **GM-approved 14-day diversion track**. Active tool work order set to **Day 1 — Load-path sketch and material coupons**. No permanent gear benefit applies until Day 14 final acceptance.
 - **Day 1/14 — 2026-07-24: Load-path sketch and material coupons completed.** Curtis spent **1,300¥** and finished at **Maintenance Quality 4 / Solid repair**. He established a believable folded six-arm carry envelope with three channels per side, a central spine plate, and hip-belt clearance; had to redraw the shoulder-to-hip load path after a failed Electronics B/R check exposed a bad shoulder-only mount; chose the cheaper **aircraft aluminum salvage coupon** path but failed the scrounge roll, making the stock usable but expensive after overbuying bushings and cutting around two mystery holes; then passed the rail bend-test at **TN 6** despite the salvage-stock penalty. Carry-forward: Day 2 / Day 4 should account for aircraft aluminum salvage uncertainty, bushing overbuy, two no-drill / mystery-hole areas, and a usable first rail profile. No permanent gear benefit applies yet.
+- **Day 2/14 — 2026-07-25: Backplate and hip-belt skeleton completed.** Curtis spent **1,600¥** and finished at **Maintenance Quality 7 / Clean shop win**. He transferred the Day 1 rail marks cleanly while keeping mystery holes out of the load-bearing path, confirmed hip-belt bracket geometry so the spine carries vertical load while the belt catches twist, chose the cheap **fixed welded aluminum spine**, hung the backplate skeleton straight enough for Day 3 folded-profile work, and wrote a clear skeleton spec. Carry-forward: the fixed welded aluminum spine keeps Day 2 cheaper but raises the skeleton load-transfer test **TN +1** for salvage-stock and service-access uncertainty and adds a later folded-pack service-access warning. No permanent gear benefit applies yet.
 
 ## Current Track State
 
-- **Completed:** Day 1/14 — Load-path sketch and material coupons.
-- **Current active daily update:** Day 2/14 — Backplate and hip-belt skeleton.
-- **Next queued daily update:** Day 3/14 — Folded-profile dummy pack.
-- **Current project spend:** **1,300¥**.
-- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile. Day 2 should decide fixed welded aluminum spine vs modular machined frame plates before Day 3 folded-profile work.
+- **Completed:** Day 1/14 — Load-path sketch and material coupons; Day 2/14 — Backplate and hip-belt skeleton.
+- **Current active daily update:** Day 3/14 — Folded-profile dummy pack.
+- **Next queued daily update:** Day 4/14 — Arm segment pattern.
+- **Current project spend:** **2,900¥**.
+- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile. The fixed welded aluminum spine raises the skeleton load-transfer test **TN +1** for salvage-stock and service-access uncertainty and adds a later folded-pack service-access warning during Day 3 folded-profile work.
 
 ## Open Final-Gear Decisions
 
