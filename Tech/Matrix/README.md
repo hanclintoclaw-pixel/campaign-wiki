@@ -18,5 +18,6 @@ Each entry includes a descriptive host profile plus example **SR3-style host sta
 - [Augmented Beef and Bacon Social Club Host](Augmented-Beef-and-Bacon-Social-Club-Host.md)
 - [Humanis Nashville Hidden Host](Humanis-Nashville-Hidden-Host.md)
 - [Happy Cat Public Storefront Host](Happy-Cat-Public-Storefront-Host.md)
+- [H-Block Crew Vanishing SAN Host](H-Block-Crew-Vanishing-SAN-Host.md)
 - [Ruby Falls Data Haven Host](Ruby-Falls-Data-Haven-Host.md)
 - [Noodle Stories Host](Noodle-Stories-Host.md)

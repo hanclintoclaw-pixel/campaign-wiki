@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "h-block-crew-vanishing-san-host",
+  "name": "H-Block Crew Vanishing SAN Host",
+  "wikiPage": "Tech/Matrix/H-Block-Crew-Vanishing-SAN-Host.md",
+  "securityCode": "green",
+  "securityValue": 6,
+  "hostRating": 6,
+  "subsystem": { "access": 4, "control": 4, "index": 4, "files": 5, "slave": 3 },
+  "taskTargetNumbers": {
+    "catchVanishingSan": 5,
+    "logon": 4,
+    "analyzeHost": 4,
+    "searchPrivate": 4,
+    "copyPaydata": 5,
+    "spoofControl": 5,
+    "evadeTrace": 5,
+    "fightIc": 7,
+    "secureStash": 6
+  },
+  "securitySheaf": [
+    { "threshold": 2, "label": "Probe IC", "effect": "Lookout icons start checking whether the intruder belongs in the alley." },
+    { "threshold": 4, "label": "Trace IC", "effect": "The host starts following the access path through burner tags and local LTG noise." },
+    { "threshold": 6, "label": "Tar Baby IC", "effect": "Chain-dog IC tries to pin the intruder in a debt-collector loop." },
+    { "threshold": 8, "label": "Killer / Blaster IC", "effect": "Shock-glove bruiser icons move from warning to attack." },
+    { "threshold": 10, "label": "Gray IC", "effect": "Gray-faced enforcer IC applies serious hostile pressure if the decker keeps digging." },
+    { "threshold": 12, "label": "Second Gray IC", "effect": "A second gray enforcer joins the alley, making continued searching visibly reckless." },
+    { "threshold": 15, "label": "Black IC", "effect": "One black-armored executioner icon arrives at the end of the sheaf. This is the terminal escalation." }
+  ],
+  "shutdownTally": 16,
+  "sculpting": "A flickering block-party alley host: cinderblock walls, tagged roll-up doors, stolen utility crates, burner-phone shrines, and a vanishing back door that only appears when the gang's tag animation finishes stuttering.",
+  "notes": "Low-tech H-Block Crew resource host. Easy private-side TNs and mostly one-success gates, but the Security Tally escalates into serious IC if a decker lingers.",
+  "flow": {
+    "startNodeId": "ltg-noise-wall",
+    "nodes": [
+      {
+        "id": "ltg-noise-wall",
+        "title": "LTG Noise Wall",
+        "kind": "entry",
+        "description": "A dirty local LTG wall jitters with gang tags, burner aliases, and dead storefront links. The H-Block door is not always present; it appears only when the tag animation stutters just right.",
+        "choices": [
+          { "label": "Catch the vanishing SAN window", "to": "tagged-alley-door", "testId": "catchVanishingSan", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 },
+          { "label": "Graceful logoff", "to": "logoff" }
+        ]
+      },
+      {
+        "id": "tagged-alley-door",
+        "title": "Tagged Alley Door",
+        "kind": "private",
+        "description": "The vanishing SAN resolves into a spray-painted service door under buzzing sodium light. The lock is crude, but the alley is listening.",
+        "choices": [
+          { "label": "Log on through the private gang door", "to": "private-block-hub", "testId": "logon", "unlockSuccesses": 1, "targetNumber": 4, "securityValue": 6 },
+          { "label": "Analyze the gang-tag routing", "to": "route-tags-confirmation", "testId": "analyzeHost", "unlockSuccesses": 1, "targetNumber": 4, "securityValue": 6 },
+          { "label": "Back out before the door vanishes", "to": "logoff" }
+        ]
+      },
+      {
+        "id": "route-tags-confirmation",
+        "title": "Gang-Tag Routing Read",
+        "kind": "confirmation",
+        "description": "You read the host's rough structure: easy private records, small controls, several paydata lockers, and one deeper bottom-level alias marked Secure Stash. Tell the GM you mapped the H-Block private host outline.",
+        "report": {
+          "include": "always",
+          "title": "H-Block host structure mapped",
+          "detail": "Mevin mapped the H-Block private host outline: routine private records, small controls, several paydata lockers, and a bottom-level alias marked Secure Stash.",
+          "notifyGm": false
+        },
+        "choices": [
+          { "label": "Step through the tagged alley door", "to": "private-block-hub", "testId": "logon", "unlockSuccesses": 1, "targetNumber": 4, "securityValue": 6 },
+          { "label": "Log off with the structure note", "to": "logoff" }
+        ]
+      },
+      {
+        "id": "private-block-hub",
+        "title": "Private Block Hub",
+        "kind": "private",
+        "description": "Inside, the host is a low-tech alley block: cinderblock bays, dented lockers, phone crates, stolen admin tools, and payment notes pinned under knives. Everything is reachable if you move fast.",
+        "choices": [
+          { "label": "Search chop-shop parts ledgers", "to": "chop-shop-parts-ledger-paydata", "testId": "searchPrivate", "unlockSuccesses": 1, "targetNumber": 4, "securityValue": 6 },
+          { "label": "Search burner account settlements", "to": "burner-account-settlements-paydata", "testId": "searchPrivate", "unlockSuccesses": 1, "targetNumber": 4, "securityValue": 6 },
+          { "label": "Search street payroll scraps", "to": "street-payroll-scraps-paydata", "testId": "searchPrivate", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 },
+          { "label": "Spoof burner-account controls", "to": "burner-controls-confirmation", "testId": "spoofControl", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 },
+          { "label": "Descend toward the Secure Stash alias", "to": "freight-elevator-bottom", "testId": "analyzeHost", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 },
+          { "label": "Evade trace and leave through the alley", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 }
+        ]
+      },
+      {
+        "id": "chop-shop-parts-ledger-paydata",
+        "title": "Paydata: Chop-Shop Parts Ledger",
+        "kind": "paydata",
+        "description": "You recover a 1-point paydata store: stolen parts lists, buyers, chop-shop timing, and barter-value notes. Tell the GM you recovered H-Block chop-shop ledger paydata worth 1 Paydata Point by default.",
+        "report": {
+          "include": "always",
+          "title": "Chop-shop parts ledger paydata",
+          "detail": "Mevin recovered H-Block chop-shop parts ledger paydata worth 1 Paydata Point by default. Confirm names, dates, and sensitivity with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to the private block hub", "to": "private-block-hub" },
+          { "label": "Log off with chop-shop ledger paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 }
+        ]
+      },
+      {
+        "id": "burner-account-settlements-paydata",
+        "title": "Paydata: Burner Account Settlements",
+        "kind": "paydata",
+        "description": "You recover a 1-point paydata store: burner Matrix accounts, credstick cash-out patterns, payment intermediaries, and short-lived settlement trails. Tell the GM you recovered H-Block burner-account paydata worth 1 Paydata Point by default.",
+        "report": {
+          "include": "always",
+          "title": "Burner account settlements paydata",
+          "detail": "Mevin recovered H-Block burner account settlements paydata worth 1 Paydata Point by default. Confirm intermediaries, handles, and sensitivity with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to the private block hub", "to": "private-block-hub" },
+          { "label": "Log off with burner-account paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 }
+        ]
+      },
+      {
+        "id": "street-payroll-scraps-paydata",
+        "title": "Paydata: Street Payroll Scraps",
+        "kind": "paydata",
+        "description": "You recover a 1-point paydata store: lookout payments, crew stipends, errand payouts, and recent for-hire action receipts. Tell the GM you recovered H-Block street-payroll paydata worth 1 Paydata Point by default.",
+        "report": {
+          "include": "always",
+          "title": "Street payroll scraps paydata",
+          "detail": "Mevin recovered H-Block street payroll scraps worth 1 Paydata Point by default. Confirm job names, payout recipients, and sensitivity with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to the private block hub", "to": "private-block-hub" },
+          { "label": "Log off with street-payroll paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 }
+        ]
+      },
+      {
+        "id": "burner-controls-confirmation",
+        "title": "Burner Controls Confirmation",
+        "kind": "confirmation",
+        "description": "You appear to have access to minor burner-account and message-drop controls. Tell the GM you reached H-Block burner controls; confirm what commands or account changes are legal before applying anything permanent.",
+        "report": {
+          "include": "always",
+          "title": "H-Block burner controls reached",
+          "detail": "Mevin reached H-Block burner-account/message-drop controls. Confirm with the GM before treating any account command or message change as permanent.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to the private block hub", "to": "private-block-hub" },
+          { "label": "Log off before the lookouts converge", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 }
+        ]
+      },
+      {
+        "id": "freight-elevator-bottom",
+        "title": "Freight Elevator Bottom",
+        "kind": "restricted",
+        "description": "A rattling freight elevator drops below the alley sculpting. At the bottom is a grime-caked lockbox labeled Secure Stash. The label feels fake; the lock feels real.",
+        "choices": [
+          { "label": "Open the Secure Stash alias", "to": "corporate-hire-secure-stash", "testId": "secureStash", "unlockSuccesses": 2, "targetNumber": 6, "securityValue": 6 },
+          { "label": "Climb back to the private block hub", "to": "private-block-hub" },
+          { "label": "Evade trace and leave from the bottom level", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 }
+        ]
+      },
+      {
+        "id": "corporate-hire-secure-stash",
+        "title": "Corporate Hire File",
+        "kind": "major-paydata",
+        "description": "The Secure Stash alias opens into the session-specific Corporate Hire file. You recover a protected 2-point paydata store tying the H-Block Crew to a corporate patron or brokered job. Tell the GM you recovered the Corporate Hire file; the GM provides the actual hire details.",
+        "report": {
+          "include": "always",
+          "title": "Corporate Hire file / Secure Stash",
+          "detail": "Mevin recovered the H-Block Corporate Hire file hidden under the Secure Stash alias, worth 2 Paydata Points by default. Ask the GM for the corporate patron, broker, target, date, and operational implications.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to the freight elevator bottom", "to": "freight-elevator-bottom" },
+          { "label": "Escape with the Corporate Hire file", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1, "targetNumber": 5, "securityValue": 6 }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Alley Logoff",
+        "kind": "exit",
+        "description": "The alley collapses back into LTG noise. Tell the GM which H-Block paydata chunks, control access, or Corporate Hire details you reached before leaving.",
+        "choices": []
+      }
+    ]
+  }
+}

@@ -26,6 +26,12 @@
       "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Happy-Cat-Public-Storefront-Host.html"
     },
     {
+      "id": "h-block-crew-vanishing-san-host",
+      "name": "H-Block Crew Vanishing SAN Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/h-block-crew-vanishing-san-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/H-Block-Crew-Vanishing-SAN-Host.html"
+    },
+    {
       "id": "humanis-nashville-hidden-host",
       "name": "Humanis Nashville Hidden Host",
       "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/humanis-nashville-hidden-host.json",
