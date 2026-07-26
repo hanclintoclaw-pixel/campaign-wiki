@@ -13,6 +13,7 @@ sources:
   - GM approval, 2026-07-24
   - Curtis Backpack Arms Build Day 1 report, 2026-07-24
   - Curtis Backpack Arms Build Day 2 report, 2026-07-25
+  - Day 3 work order discarded untouched, 2026-07-26
 ---
 
 # Curtis Backpack Arms Build
@@ -92,10 +93,11 @@ Daily Drone Shift work orders should pull from this sequence until the build is 
 ## Current Track State
 
 - **Completed:** Day 1/14 — Load-path sketch and material coupons; Day 2/14 — Backplate and hip-belt skeleton.
-- **Current active daily update:** Day 3/14 — Folded-profile dummy pack.
-- **Next queued daily update:** Day 4/14 — Arm segment pattern.
+- **Discarded with no change/no penalty:** Day 3/14 — Folded-profile dummy pack rotated out untouched on 2026-07-26. No nuyen movement, no drone/equipment/stat change, and no carry-forward bonus or penalty applies from that missed work order.
+- **Current active daily update:** Day 4/14 — Arm segment pattern.
+- **Next queued daily update:** Day 5/14 — Root joint cluster.
 - **Current project spend:** **2,900¥**.
-- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile. The fixed welded aluminum spine raises the skeleton load-transfer test **TN +1** for salvage-stock and service-access uncertainty and adds a later folded-pack service-access warning during Day 3 folded-profile work.
+- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile. The fixed welded aluminum spine keeps the Day 2 service-access warning as fabrication color, but the discarded Day 3 folded-profile dummy pack adds no project spend, no penalty, and no extra mechanical modifier. Day 4 should choose light drilled links or reinforced nested links; that choice affects reach/load and fatigue checks for Day 5 root-joint work.
 
 ## Open Final-Gear Decisions
 
