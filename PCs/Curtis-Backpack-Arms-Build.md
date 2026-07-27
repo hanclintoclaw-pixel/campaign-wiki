@@ -16,6 +16,7 @@ sources:
   - Day 3 work order discarded untouched, 2026-07-26
   - Curtis Backpack Arms Build Day 4 report, 2026-07-26
   - Day 5 work order discarded untouched, 2026-07-27
+  - Curtis Backpack Arms Build Day 6 report, 2026-07-27
 ---
 
 # Curtis Backpack Arms Build
@@ -93,15 +94,16 @@ Daily Drone Shift work orders should pull from this sequence until the build is 
 - **Day 2/14 — 2026-07-25: Backplate and hip-belt skeleton completed.** Curtis spent **1,600¥** and finished at **Maintenance Quality 7 / Clean shop win**. He transferred the Day 1 rail marks cleanly while keeping mystery holes out of the load-bearing path, confirmed hip-belt bracket geometry so the spine carries vertical load while the belt catches twist, chose the cheap **fixed welded aluminum spine**, hung the backplate skeleton straight enough for Day 3 folded-profile work, and wrote a clear skeleton spec. Carry-forward: the fixed welded aluminum spine keeps Day 2 cheaper but raises the skeleton load-transfer test **TN +1** for salvage-stock and service-access uncertainty and adds a later folded-pack service-access warning. No permanent gear benefit applies yet.
 - **Day 4/14 — 2026-07-26: Arm segment pattern completed.** Curtis spent **3,000¥** and finished at **Maintenance Quality 2 / Break-even maintenance** after the untouched Day 3 dummy-pack ticket rotated out with no spend or penalty. He squared six believable arm lanes around the hip-belt brackets and no-drill zones, chose **light drilled link patterns** after two blanks oil-canned under hand pressure, recut a wandering wrist-link master, set a **conservative reach envelope** despite extra flex, and wrote a clear segment-pattern sheet for Day 5. Carry-forward: light drilled links reduce immediate spend but leave a future maintenance-inspection warning and made the Day 4 fatigue/load test **TN +1**; the conservative reach envelope improves reliability, keeps the final usage guide stricter, and gives Day 5 root joints known link lengths plus gusset notes. No permanent gear benefit applies yet.
 - **Day 5/14 — 2026-07-27: Root joint cluster discarded untouched.** The Day 5 Drone Shift work order rotated out with no report submitted. No nuyen movement, no project spend, no drone/equipment/stat change, and no carry-forward bonus or penalty applies from the missed root-joint ticket. Day 6 proceeds from the existing Day 4 link-pattern notes rather than any new root-joint result.
+- **Day 6/14 — 2026-07-27: Retraction rails and lock detents completed.** Curtis spent **2,900¥** and finished at **Maintenance Quality 3 / Solid repair** after re-squaring the folded rail envelope around the belt hardware, choosing **simple spring detents**, recutting a chattered rail slot plate with a visible witness mark, setting a **conservative rail stroke** with a shim note before actuator work, and writing a clear Day 6 rail-lock sheet. Carry-forward: simple spring detents reduced immediate spend but made the deployment safety test **TN +1** and require a manual lock-check warning in the final usage guide; conservative rail stroke simplifies Day 7 actuator setup and keeps the final guide stricter. No permanent gear benefit applies yet.
 
 ## Current Track State
 
-- **Completed:** Day 1/14 — Load-path sketch and material coupons; Day 2/14 — Backplate and hip-belt skeleton; Day 4/14 — Arm segment pattern.
+- **Completed:** Day 1/14 — Load-path sketch and material coupons; Day 2/14 — Backplate and hip-belt skeleton; Day 4/14 — Arm segment pattern; Day 6/14 — Retraction rails and lock detents.
 - **Discarded with no change/no penalty:** Day 3/14 — Folded-profile dummy pack rotated out untouched on 2026-07-26; Day 5/14 — Root joint cluster rotated out untouched on 2026-07-27. No nuyen movement, no drone/equipment/stat change, and no carry-forward bonus or penalty applies from those missed work orders.
-- **Current active daily update:** Day 6/14 — Retraction rails and lock detents.
-- **Next queued daily update:** Day 7/14 — Actuator test mule.
-- **Current project spend:** **5,900¥**.
-- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile. The fixed welded aluminum spine keeps the Day 2 service-access warning as fabrication color, but the discarded Day 3 folded-profile dummy pack and discarded Day 5 root-joint cluster add no project spend, no penalty, and no extra mechanical modifier. Day 4 selected light drilled links and a conservative reach envelope: Day 6 rail-lock work should account for known link lengths, light-link fatigue inspection risk, and a stricter but easier-to-approve final usage guide.
+- **Current active daily update:** Day 7/14 — Actuator test mule.
+- **Next queued daily update:** Day 8/14 — Power and control trunk.
+- **Current project spend:** **8,800¥**.
+- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile. The fixed welded aluminum spine keeps the Day 2 service-access warning as fabrication color, but the discarded Day 3 folded-profile dummy pack and discarded Day 5 root-joint cluster add no project spend, no penalty, and no extra mechanical modifier. Day 4 selected light drilled links and a conservative reach envelope; Day 6 selected simple spring detents and a conservative rail stroke. Day 7 actuator work should account for known rail stops, the manual lock-check warning, light-link fatigue inspection risk, and a stricter but easier-to-approve final usage guide.
 
 ## Open Final-Gear Decisions
 
