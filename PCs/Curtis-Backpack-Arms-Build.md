@@ -50,8 +50,9 @@ When a `CURTIS DRONE SHIFT REPORT` for this project is posted with Cindy pinged,
 4. Mark the active Drone Shift Work Order as **Job Completed** conceptually.
 5. Set the next daily Drone Shift update to the next incomplete day in the Build Sequence.
 6. Preserve choice consequences in the next relevant work order, especially TN modifiers, rework notes, compatibility tags, and final-report flags.
-7. Include Curtis's updated running nuyen total in the closeout confirmation after applying the project spend.
-8. Do **not** add final gear benefits to Curtis until Day 14 is completed and accepted.
+7. Use this page's Progress Log and Current Track State as the source of preserved context when drafting future work orders, but do **not** repost prior-day details in daily Discord reports. Daily reports should stay concise: current-day work log, spend delta, quality, and newly created follow-up hooks only.
+8. Include Curtis's updated running nuyen total in the closeout confirmation after applying the project spend.
+9. Do **not** add final gear benefits to Curtis until Day 14 is completed and accepted.
 
 ## Day 14 Finalization Trigger
 
@@ -68,7 +69,7 @@ The final Discord update block from the Day 14 report should explicitly remind C
 
 ## Drone Shift Build Sequence
 
-Daily Drone Shift work orders should pull from this sequence until the build is complete or the GM changes priority.
+Daily Drone Shift work orders should pull from this sequence until the build is complete or the GM changes priority. Prior-day clues should be mined from the Progress Log and Current Track State during work-order design, then summarized internally rather than repeated in the Discord closeout report.
 
 | Day | Phase | Main choice pressure | Expected spend band | Carry-forward trigger |
 | --- | --- | --- | --- | --- |
