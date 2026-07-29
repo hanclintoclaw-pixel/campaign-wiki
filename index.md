@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-07-17
+updated: 2026-07-29
 ---
 
 # NASHVILLE SHADOWRUN
@@ -29,6 +29,7 @@ The crew is deep in the **[Pixel Sticks](Factions/Pixel-Sticks.md)** run, a Matr
 - [Player Characters](PCs/README.md)
 - [Drones / Vehicles](Vehicles/README.md)
 - [Minigames and Web Apps](Minigames.md)
+- [Trailer Video Clip Scenes](Trailer-Video-Scenes.md)
 - [Nashville Campaign Map](Maps/Nashville-Campaign-Map.md)
 - [Matrix Hosts](Tech/Matrix/README.md)
 

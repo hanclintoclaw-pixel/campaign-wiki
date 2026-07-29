@@ -2,7 +2,7 @@
 title: Campaign Navigation
 type: navigation
 visibility: player-safe
-updated: 2026-07-14
+updated: 2026-07-29
 ---
 
 # Campaign Navigation
@@ -19,6 +19,7 @@ updated: 2026-07-14
 - [Location Index](Locations/)
 - [Drone / Vehicle Index](Vehicles/README.md)
 - [Minigames and Web Apps](Minigames.md)
+- [Trailer Video Clip Scenes](Trailer-Video-Scenes.md)
 - [Curtis Drone Dashboard](https://hanclintoclaw-pixel.github.io/drone-dashboard/)
 - [Campaign Maps](Maps/README.md)
 - [Matrix Hosts](Tech/Matrix/README.md)
