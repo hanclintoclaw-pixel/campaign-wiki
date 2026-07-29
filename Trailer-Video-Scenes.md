@@ -65,6 +65,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 - [Chunky Sparkles vs. Mech](#chonky_sparkles_vs_mech)
 - [Cindy and Highbrow Parley in Happy Cat](#cindy_happy_cat_icon_parley)
 - [Cindy Explains Why Grandpa Is Not a Boat](#cindy_admonishes_curtis_boat_rv)
+- [Generic Mr. Johnson Meeting](#generic_mr_johnson_meeting)
 
 <section class="trailer-card" id="minefield_door_peek">
   <h2>Tiptoeing the Minefield</h2>
@@ -384,5 +385,19 @@ Camera motion: low tracking shot, slow push-in, then a quick whip-pan as the uni
   <details>
     <summary>Prompt</summary>
     <pre>Use the supplied 1280x720 reference image as the first-frame anchor. Preserve Cindy Lou Jenkins&#x27;s canonical SR3 Matrix icon as consistently as possible for the entire clip: full-body stylized country-pop decker/knowbot avatar, glowing pink rhinestone cowgirl hat, blonde hair, luminous blue eye, headset, mosaic neon jacket, vertical datastream textures, confident half-smile, and the same silhouette from frame to frame. Do not morph her outfit, face, hat, body shape, or color palette; animate only small natural gestures, mouth movement, blinking, slight head tilt, and one hat-brim gesture. Eight-second Matrix-stage clip. Cindy stands full-body in a neon Matrix space with simple gridlines and abstract schematic glyphs of Grandpa the RV trying to meet water: a boxy RV outline, blue wave icons, and a red warning slash. She faces slightly toward an offscreen Curtis, hands on hips at first, then raises one finger like a patient systems engineer explaining a very bad plan. Cindy delivers one short quip with dry Southern warmth: &#x27;Curtis, sugar, flood ballast makes Grandpa brave, not buoyant. An RV can visit water; a boat is built to come back.&#x27; The line should feel like friendly admonishment, not anger. Keep the camera mostly locked in a steady full-body medium-wide shot so the icon identity remains stable. Painterly neon Matrix style, SR3 cyberdeck iconography, high-detail comic mosaic look, magenta and cyan rim light, no readable text, no subtitles, no logos, no gore, no photorealistic human.</pre>
+  </details>
+</section>
+<section class="trailer-card" id="generic_mr_johnson_meeting">
+  <h2>Generic Mr. Johnson Meeting</h2>
+  <p class="trailer-meta"><strong>Coverage:</strong> Mr. Johnson, corporate meeting, generic Shadowrun mood</p>
+  <div class="trailer-grid">
+<figure class="trailer-take">
+  <video controls preload="metadata" playsinline src="assets/videos/trailer-scenes/generic_mr_johnson_meeting/generic_mr_johnson_meeting.1.mp4"></video>
+  <figcaption><a href="assets/videos/trailer-scenes/generic_mr_johnson_meeting/generic_mr_johnson_meeting.1.mp4">Clip: generic_mr_johnson_meeting.1.mp4</a></figcaption>
+</figure>
+  </div>
+  <details>
+    <summary>Prompt</summary>
+    <pre>Eight-second cinematic video, 1280x720, no dialogue, no subtitles, no readable text, no logos. Generic Shadowrun Third Edition cyberpunk-noir meeting scene, late-1980s and early-1990s corporate dystopia. POV of a runner entering a private corporate conference room. Start at the doorway, looking into a quiet room, then slowly walk forward with a restrained, smooth push-in. At the far side of a heavy conference table sits a boring white human male corporate fixer, a generic Mr. Johnson, in a conservative dark suit and plain tie. He is still, patient, and businesslike, not dramatic. He has very subtle light chrome only: a polished datajack at one temple, faint chrome knuckles resting near the table edge, and a discreet cyber-eye glint when he looks up. A closed black attaché case sits centered on the table in front of him, clearly visible. The room mixes old executive 1980s wood paneling, warm amber practical lighting, a heavy polished table, smoked glass, recessed blue status lights, fiber-optic wall seams, hidden security hardware, and a muted city-at-night window. Mood: quiet tension, expensive privacy, and professional danger, not action-heavy. Scene beats: seconds 0-2 the door frame and dark hallway edge the shot; seconds 2-5 the POV enters and the table, attaché case, and waiting man come into alignment; seconds 5-8 the Mr. Johnson calmly looks up, hands still near the case, ending in a composed medium-wide shot across the table as if the meeting is about to begin. Grounded, cinematic, painterly realistic but not photorealistic, subtle film grain, restrained dramatic lighting, no gore.</pre>
   </details>
 </section>
