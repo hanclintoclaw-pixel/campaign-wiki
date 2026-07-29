@@ -66,6 +66,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 - [Cindy and Highbrow Parley in Happy Cat](#cindy_happy_cat_icon_parley)
 - [Cindy Explains Why Grandpa Is Not a Boat](#cindy_admonishes_curtis_boat_rv)
 - [Generic Mr. Johnson Meeting](#generic_mr_johnson_meeting)
+- [Pixel Sticks Short Film: From Atlas&#x27;s to the Elevator](#pixel_sticks_short_film)
 
 <section class="trailer-card" id="minefield_door_peek">
   <h2>Tiptoeing the Minefield</h2>
@@ -85,7 +86,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic cyberpunk-fantasy trailer shot, original tabletop RPG campaign, Nashville neon-noir. A four-person runner crew tiptoes through a dark industrial service corridor like it is a minefield: scattered silver sensor discs, tripwire lasers barely visible in drifting dust, warning LEDs under peeling paint. The mood is tense and quiet, not a gunfight. One runner slowly cracks open a heavy steel door and the others freeze behind him, listening to server racks and distant voices beyond. Reflections of rain and city neon crawl across armor, coats, drones, and a compact cyberdeck. The camera pushes slowly from behind their shoulders toward the narrow slit of light, emphasizing caution, breath held, and danger just beyond the door. Painterly realistic, high-detail concept art look, dramatic rim lighting, wet concrete, volumetric dust, no logos, no text, no gore. Camera motion: slow low dolly forward, subtle handheld tension, ending on the door opening just enough to reveal blue-white light inside.</pre>
   </details>
 </section>
@@ -103,7 +104,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic Nashville cyberpunk-fantasy trailer shot inside Atlas&#x27;s, a two-story shadowrunner bar and private club just outside city limits. The lower bar is unusually empty: thirty chairs, amber lamps, old wood, cigarette haze, rain streaking the windows, and the city glowing beyond. The runner crew climbs toward a private upstairs room while a bartender watches without speaking. On the table upstairs, a sealed datachip, a burner comm, and a folded route map wait under one green banker lamp. The feeling is a job offer arriving when every other runner in town is already busy. Painterly realistic but not photorealistic, moody neon-noir color grade, practical warm bar light against cold blue rain, no logos, no text, no gore. Camera motion: slow crane from empty bar stools up the staircase to the private room door opening.</pre>
   </details>
 </section>
@@ -121,7 +122,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic Matrix intrusion shot, original cyberpunk tabletop campaign. Mevin, a cautious corporate decker represented by a sharp condor-like screaming birdman icon, glides through a cheerful convenience-store host that peels open into a hidden Matrix tag yard. Cute retail shelves and mascot signs dissolve into utility crates, route maps, dead-drop lockers, burner personas, risk tags, sponsor tags, and glowing reputation graffiti suspended in black virtual space. He pauses at the edge, reading the structure before touching anything. Include a subtle digital country-pop ghost of Cindy Lou as a small neon Vocaloid singer icon reflected in a glassy data panel beside him, watching but not stealing focus. Painterly realistic digital surrealism, neon-noir, no real-world logos, no readable text. Camera motion: smooth virtual tracking shot over Mevin&#x27;s shoulder as the false storefront folds away into the hidden yard.</pre>
   </details>
 </section>
@@ -139,7 +140,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic cyberpunk-fantasy surveillance shot. Curtis, a compact dwarf rigger in practical work gear, sits in the dim command nook of a battered RV while drone feeds flicker across rugged screens. Outside in rainy East Nashville, his tracked drone Belmont crawls along a rooftop edge, camera mast swiveling. The drone spots an odd roof-mounted laser modem assembly aimed at a blacked-out upper-floor window in the neighboring residential tower. Curtis leans in, one hand on the controls, face lit by green diagnostics and rain-streaked video. Painterly realistic, tense quiet reconnaissance, neon reflections, no logos, no text, no gore. Camera motion: split-feeling sequence, close on Curtis&#x27;s hands and screens, then cut-like glide to Belmont&#x27;s rooftop view locking onto the laser path.</pre>
   </details>
 </section>
@@ -157,7 +158,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic magical perception shot in a crowded cyberpunk collectibles shop, original campaign trailer style. Valgaut, a human physical adept in a secure long coat with a combat axe kept low and controlled, stands very still among neon display cases and noisy youths. Across the aisle is Chunky Sparkles: a pony-sized, rainbow-maned, winged and horned awakened creature that looks cute for one heartbeat, then blooms in astral overlays of storm-horse, bird, and impossible stitched-together magic. Valgaut&#x27;s eyes narrow as the cheerful shop turns ominous around him. Painterly realistic but not photorealistic, neon toy-store color hiding supernatural danger, no logos, no readable text, no gore. Camera motion: slow push into Valgaut&#x27;s face, then rack focus to the creature as ghostly astral animal silhouettes shimmer around it.</pre>
   </details>
 </section>
@@ -175,7 +176,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic infiltration shot in a grim residential tower stairwell. Kurgan, a fast cyber-samurai with shotgun-ready posture and observant eyes, carries Curtis the dwarf rigger on his shoulders up endless concrete stairs while the tiny utility drone Mr. Clean skitters ahead near the baseboards. The crew passes improvised barricades, cheap electronics, gang tags, dust, and flickering emergency lights. Everyone is moving slowly, quietly, and carefully, more minefield than battle. Painterly realistic Nashville cyberpunk, wet boots, cold fluorescent light, tense humor in the odd silhouette of Curtis riding overwatch, no logos, no text, no gore. Camera motion: low upward tracking shot spiraling with the stairs, ending on Mr. Clean squeezing toward a barricade latch.</pre>
   </details>
 </section>
@@ -193,7 +194,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic subterranean cyberpunk horror-rescue shot, original campaign trailer style. In buried Site 7, the runner crew stands before a life-support tank holding a heavily cybered dolphin suspended in green-blue water, cables and wetware harnesses disappearing into server columns. Nearby tanks suggest hurricane seals moving in shadow. A sterile machine voice seems to come from everywhere while a delivery cooler of fish sits absurdly on the floor. The scene should feel tragic and mysterious, a victim wrapped in machinery rather than a simple villain reveal. Painterly realistic, cold aquatic light, condensation, analog warning lamps, no logos, no readable text, no gore. Camera motion: slow reveal from the fish cooler and wet floor up to the dolphin&#x27;s eye opening behind glass.</pre>
   </details>
 </section>
@@ -211,7 +212,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic supernatural investigation shot in an abandoned hunting lodge converted into a counterfeit-food processing site. The runner crew advances through hanging plastic strips and freezer fog, flashlights and weapon lights cutting across ritual marks, industrial grinders, and crates of fake snack-food packaging with no readable brand names. In the far cold-room window, insectile spirit silhouettes twitch behind frosted glass, more implied than shown. The mood is horror, disgust, and caution rather than gore. Painterly realistic cyberpunk-fantasy, sickly fluorescent green, deep shadows, no logos, no text, no gore. Camera motion: slow creeping dolly through plastic strips toward the frosted silhouettes as the crew stops before crossing the threshold.</pre>
   </details>
 </section>
@@ -229,7 +230,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic civic-noir campaign trailer shot in a downtown Nashville office after hours. A broad-shouldered reform mayor with warm charisma and old street-fighter posture laughs across a polished table while a quiet chief of staff stands behind him with a tablet and a perfect poker face. Two shadowrunners sit opposite, half in shadow, sharing the joke while carefully reading the room. The laughter should feel friendly, expensive, and strategic all at once: a handshake, a favor, and a future obligation. Painterly realistic, warm office lamps against blue city night, no logos, no readable text, no gore. Camera motion: slow orbit around the laughing table, ending on one runner noticing the fine print beneath the charm.</pre>
   </details>
 </section>
@@ -247,7 +248,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic tense-social infiltration shot outside a 21st-floor steel security door in a battered arkoblock. Mevin steps through first with corporate-decker confidence, selling a dead-drop route-board cover story while Kurgan, Valgaut, and Curtis hang back as quiet muscle. Inside the cracked-open room are server rack glow, cameras, painted gang-decker murals, and a young orc-barbarian Matrix icon speaking from a display. The danger is in the bluff failing, not yet in bullets. Painterly realistic cyberpunk, blue server light, hallway grime, rain-muted city through high windows, no logos, no readable text, no gore. Camera motion: over-the-shoulder push from the crew behind Mevin into the room as the screen icon flickers awake.</pre>
   </details>
 </section>
@@ -265,7 +266,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic cyberpunk tech-thriller shot in a trashed upper-floor drone bay. Curtis and Mevin crouch beside a black scorpion-shaped corporate combat drone with hydraulic claws, weapon pods, and a tail cannon folded like a threat. Curtis has the control harness open, Mevin watches a cyberdeck display, and both are racing to add the crew to the machine&#x27;s whitelist without waking it wrong. Red standby lights pulse along the drone&#x27;s armor while distant shouting approaches. Painterly realistic, high-detail machinery, neon-noir, no corporate logos, no readable interface text, no gore. Camera motion: close tracking across Curtis&#x27;s tools and Mevin&#x27;s deck to the drone&#x27;s tail light blinking from red toward amber.</pre>
   </details>
 </section>
@@ -283,7 +284,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic Matrix cameo shot for an original cyberpunk-fantasy campaign. Inside a black-glass virtual honky-tonk made of fiber optics and neon sheet music, Cindy Lou appears as a country-pop Vocaloid singer avatar: big stage presence, warm Southern glamour, digital rhinestones, microphone made of data-light. She is not performing for fame; she is quietly turning a song into a search pattern while Mevin&#x27;s condor-like decker icon watches encrypted files bloom like fireflies around the stage. The tone is clever, stylish, and a little haunted. Painterly realistic digital surrealism, neon magenta and electric blue, no real-world logos, no readable lyrics, no photoreal celebrity likeness. Camera motion: slow stage dolly past the microphone to Cindy&#x27;s smile, then upward as music-note data becomes a map.</pre>
   </details>
 </section>
@@ -301,7 +302,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic quiet character shot in a rain-soaked warehouse yard. A hulking reinforced shipping-container computing unit sits on heavy supports, bristling with satellite uplinks, cooling hoses, armored cable bundles, warning lights, and improvised Southern charm: a tiny porch light, a stickered guitar case, and a speaker grille glowing softly. The runner crew stands small beside it, lit by the container&#x27;s server glow, as if visiting a person who happens to be made of steel and processors. This is Cindy Lou&#x27;s meatspace shell: massive, vulnerable, and oddly warm. Painterly realistic cyberpunk, wet pavement, amber interior server light, no logos, no readable text, no gore. Camera motion: slow reveal from rainwater dripping off cables to the whole container humming alive as the crew approaches.</pre>
   </details>
 </section>
@@ -319,7 +320,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic darkly funny escape shot inside a battered arkoblock elevator descending from chaos. The full runner crew is crammed inside: Mevin clutching recovered data, Valgaut holding his axe low, Kurgan braced by the doors, Curtis guarding a toolkit and drone controller, everyone soaked in sweat and neon. Through the closing elevator doors behind them, blue-white magical lightning and red machine-gun strobes flash from the hallway where a unicorn-like awakened creature and a scorpion combat drone fight offscreen. The elevator&#x27;s ding and absurd calm music contrast with the violence outside. Painterly realistic cyberpunk trailer look, tense but playful, no logos, no text, no gore. Camera motion: locked interior shot as doors slide shut on the chaos, then the crew exhales as the elevator drops.</pre>
   </details>
 </section>
@@ -341,7 +342,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Cinematic cyberpunk-fantasy action shot, original tabletop RPG campaign trailer style. A rain-slicked industrial loading yard at night, Nashville skyline barely visible beyond chain-link fences and humming transformer towers. In the foreground, a battered runner crew dives behind a scorched delivery van as blue-white lightning floods the frame. A luminous magical unicorn made of stormlight and glasslike astral energy rears up, its horn arcing with electricity, hooves splashing neon reflections across the pavement. Opposite it, a black corporate scorpion-shaped combat drone skitters out of smoke, armored tail cannon charging red, hydraulic claws scraping sparks from the concrete. The two monsters clash for one terrifying instant as the camera tracks low past the fleeing runners: lightning lashes, the scorpion tail fires, steam erupts, warning lights strobe, and the crew barely escapes through the chaos. Moody neon-noir color grade, painterly realistic but not photorealistic, dramatic rim lighting, volumetric rain and smoke, high-detail concept art look, tense trailer pacing, no logos, no text, no gore.
 
 Camera motion: low tracking shot, slow push-in, then a quick whip-pan as the unicorn and scorpion bot collide.</pre>
@@ -363,7 +364,7 @@ Camera motion: low tracking shot, slow push-in, then a quick whip-pan as the uni
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Use the supplied 1280x720 reference image as the first-frame anchor for Cindy Lou Jenkins&#x27;s canonical SR3 Matrix icon: a stylized country-pop decker/knowbot avatar with a glowing pink rhinestone cowgirl hat, blonde hair, luminous blue eye, headset, mosaic neon jacket, and vertical datastreams falling through her face and clothing. Preserve her silhouette, hat, color palette, mosaic/datastream texture, and confident half-smile as faithfully as possible. Twelve-second cinematic Matrix parley inside the Happy Cat public storefront host. The host sculpting is bright and cute at the surface: lucky-cat mascot shapes, collectible-card binders, snack-rack neon, receipt-tape trails, pop-up coupon storms, and sticker-covered message boards; underneath, glimpses of the hidden Pixel Sticks tag yard appear as graffiti route maps, dead-drop lockers, utility crates, burner-persona masks, and reputation tags. Cindy&#x27;s icon faces a second Matrix icon: a stylized youthful orc barbarian avatar representing Highbrow, built from green-blue polygon armor, tusks, a red neon crest, and a massive fantasy-axe silhouette made of security code. They converse obliquely like two operators who both know the direct words are dangerous: Cindy gestures toward harmless-looking coupon cats that briefly unfold into access-control diagrams; Highbrow taps a route-board token and it becomes a locked door, a laser modem beam, and a scorpion-shaped warning glyph. No readable text, no subtitles, no logos. Scene beats: seconds 0-3 Cindy&#x27;s icon resolves from falling data exactly like the reference image, holding her cowgirl-hat silhouette; seconds 3-6 the Happy Cat host blooms around her with cheerful retail clutter hiding darker Pixel Sticks infrastructure; seconds 6-9 Highbrow&#x27;s orc-barbarian icon steps in opposite her and the two exchange abstract speech ribbons and security glyphs; seconds 9-12 Cindy smiles knowingly, tips the glowing hat brim, and a safe route through the host appears as a thin blue line while Highbrow&#x27;s axe-code blocks the obvious path. Painterly neon Matrix style, SR3 cyberdeck iconography, high-detail comic mosaic look, dramatic magenta/cyan rim light, smooth camera drift, no photorealistic humans, no gore.</pre>
   </details>
 </section>
@@ -383,7 +384,7 @@ Camera motion: low tracking shot, slow push-in, then a quick whip-pan as the uni
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Use the supplied 1280x720 reference image as the first-frame anchor. Preserve Cindy Lou Jenkins&#x27;s canonical SR3 Matrix icon as consistently as possible for the entire clip: full-body stylized country-pop decker/knowbot avatar, glowing pink rhinestone cowgirl hat, blonde hair, luminous blue eye, headset, mosaic neon jacket, vertical datastream textures, confident half-smile, and the same silhouette from frame to frame. Do not morph her outfit, face, hat, body shape, or color palette; animate only small natural gestures, mouth movement, blinking, slight head tilt, and one hat-brim gesture. Eight-second Matrix-stage clip. Cindy stands full-body in a neon Matrix space with simple gridlines and abstract schematic glyphs of Grandpa the RV trying to meet water: a boxy RV outline, blue wave icons, and a red warning slash. She faces slightly toward an offscreen Curtis, hands on hips at first, then raises one finger like a patient systems engineer explaining a very bad plan. Cindy delivers one short quip with dry Southern warmth: &#x27;Curtis, sugar, flood ballast makes Grandpa brave, not buoyant. An RV can visit water; a boat is built to come back.&#x27; The line should feel like friendly admonishment, not anger. Keep the camera mostly locked in a steady full-body medium-wide shot so the icon identity remains stable. Painterly neon Matrix style, SR3 cyberdeck iconography, high-detail comic mosaic look, magenta and cyan rim light, no readable text, no subtitles, no logos, no gore, no photorealistic human.</pre>
   </details>
 </section>
@@ -397,7 +398,55 @@ Camera motion: low tracking shot, slow push-in, then a quick whip-pan as the uni
 </figure>
   </div>
   <details>
-    <summary>Prompt</summary>
+    <summary>Prompt / edit notes</summary>
     <pre>Eight-second cinematic video, 1280x720, no dialogue, no subtitles, no readable text, no logos. Generic Shadowrun Third Edition cyberpunk-noir meeting scene, late-1980s and early-1990s corporate dystopia. POV of a runner entering a private corporate conference room. Start at the doorway, looking into a quiet room, then slowly walk forward with a restrained, smooth push-in. At the far side of a heavy conference table sits a boring white human male corporate fixer, a generic Mr. Johnson, in a conservative dark suit and plain tie. He is still, patient, and businesslike, not dramatic. He has very subtle light chrome only: a polished datajack at one temple, faint chrome knuckles resting near the table edge, and a discreet cyber-eye glint when he looks up. A closed black attaché case sits centered on the table in front of him, clearly visible. The room mixes old executive 1980s wood paneling, warm amber practical lighting, a heavy polished table, smoked glass, recessed blue status lights, fiber-optic wall seams, hidden security hardware, and a muted city-at-night window. Mood: quiet tension, expensive privacy, and professional danger, not action-heavy. Scene beats: seconds 0-2 the door frame and dark hallway edge the shot; seconds 2-5 the POV enters and the table, attaché case, and waiting man come into alignment; seconds 5-8 the Mr. Johnson calmly looks up, hands still near the case, ending in a composed medium-wide shot across the table as if the meeting is about to begin. Grounded, cinematic, painterly realistic but not photorealistic, subtle film grain, restrained dramatic lighting, no gore.</pre>
+  </details>
+</section>
+<section class="trailer-card" id="pixel_sticks_short_film">
+  <h2>Pixel Sticks Short Film: From Atlas&#x27;s to the Elevator</h2>
+  <p class="trailer-meta"><strong>Coverage:</strong> compiled short film, Pixel Sticks run, broad canon summary</p>
+  <div class="trailer-grid">
+<figure class="trailer-take">
+  <video controls preload="metadata" playsinline src="assets/videos/trailer-scenes/pixel_sticks_short_film/pixel_sticks_short_film.1.mp4"></video>
+  <figcaption><a href="assets/videos/trailer-scenes/pixel_sticks_short_film/pixel_sticks_short_film.1.mp4">Clip: pixel_sticks_short_film.1.mp4</a></figcaption>
+</figure>
+  </div>
+  <details>
+    <summary>Prompt / edit notes</summary>
+    <pre>Compilation edit plan: silent short film, 1280x720, 30fps, assembled locally with ffmpeg from existing Sora clips and neon title cards.
+
+Title card: Nashville Shadowrun — A quiet job offer becomes a tour through cute storefronts, hidden hosts, and bad decisions with military-grade software.
+
+1. Atlas&#x27;s is too empty — When the runner bar is quiet, it usually means everybody else already knows the job is trouble.
+Clip: atlas_empty_bar_briefing.1.mp4
+
+2. The Johnson waits upstairs — The offer is simple: recover hot Matrix utilities before a youth gang turns city infrastructure into a body count.
+Clip: generic_mr_johnson_meeting.1.mp4
+
+3. Happy Cat looks harmless — Behind the snacks, collectibles, and lucky-cat clutter, Mevin finds the Pixel Sticks route yard.
+Clip: mevin_matrix_tag_yard.1.mp4
+
+4. Curtis finds the line — Belmont spots the roof gear: a laser path into the Vernon Winfrey Arkoblock.
+Clip: curtis_belmont_roof_recon.1.mp4
+
+5. Valgaut sees the wrongness — Chunky Sparkles is not decoration. The astral read says too many things are folded into one body.
+Clip: valgaut_reads_chunky_sparkles.1.mp4
+
+6. The crew chooses stairs — Public elevators are watched. The back way is dust, barricades, and bad electronics.
+Clip: kurgan_curtis_stairwell.1.mp4
+
+7. Mevin tries words first — A route-board bluff opens the door. Highbrow does not take the warning.
+Clip: twenty_first_floor_bluff.1.mp4
+
+8. Whitelist the monster — Curtis and Mevin do not disable the scorpion drone. They teach it who not to eat.
+Clip: curtis_drone_whitelist.1.mp4
+
+9. Then the hallway explodes — The drone and Chunky Sparkles settle the argument while the crew picks survival.
+Clip: chonky_sparkles_vs_mech.3.mp4
+
+10. Elevator music under fire — The crew gets the utilities, gets paid, and leaves the fallout behind them.
+Clip: elevator_escape_music.1.mp4
+
+End card: The run is over — The Pixel Sticks cell is broken. The hidden sponsors, the drone, and Chunky Sparkles are not.</pre>
   </details>
 </section>
