@@ -64,6 +64,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 - [Elevator Music Under Fire](#elevator_escape_music)
 - [Chunky Sparkles vs. Mech](#chonky_sparkles_vs_mech)
 - [Cindy and Highbrow Parley in Happy Cat](#cindy_happy_cat_icon_parley)
+- [Cindy Explains Why Grandpa Is Not a Boat](#cindy_admonishes_curtis_boat_rv)
 
 <section class="trailer-card" id="minefield_door_peek">
   <h2>Tiptoeing the Minefield</h2>
@@ -363,5 +364,25 @@ Camera motion: low tracking shot, slow push-in, then a quick whip-pan as the uni
   <details>
     <summary>Prompt</summary>
     <pre>Use the supplied 1280x720 reference image as the first-frame anchor for Cindy Lou Jenkins&#x27;s canonical SR3 Matrix icon: a stylized country-pop decker/knowbot avatar with a glowing pink rhinestone cowgirl hat, blonde hair, luminous blue eye, headset, mosaic neon jacket, and vertical datastreams falling through her face and clothing. Preserve her silhouette, hat, color palette, mosaic/datastream texture, and confident half-smile as faithfully as possible. Twelve-second cinematic Matrix parley inside the Happy Cat public storefront host. The host sculpting is bright and cute at the surface: lucky-cat mascot shapes, collectible-card binders, snack-rack neon, receipt-tape trails, pop-up coupon storms, and sticker-covered message boards; underneath, glimpses of the hidden Pixel Sticks tag yard appear as graffiti route maps, dead-drop lockers, utility crates, burner-persona masks, and reputation tags. Cindy&#x27;s icon faces a second Matrix icon: a stylized youthful orc barbarian avatar representing Highbrow, built from green-blue polygon armor, tusks, a red neon crest, and a massive fantasy-axe silhouette made of security code. They converse obliquely like two operators who both know the direct words are dangerous: Cindy gestures toward harmless-looking coupon cats that briefly unfold into access-control diagrams; Highbrow taps a route-board token and it becomes a locked door, a laser modem beam, and a scorpion-shaped warning glyph. No readable text, no subtitles, no logos. Scene beats: seconds 0-3 Cindy&#x27;s icon resolves from falling data exactly like the reference image, holding her cowgirl-hat silhouette; seconds 3-6 the Happy Cat host blooms around her with cheerful retail clutter hiding darker Pixel Sticks infrastructure; seconds 6-9 Highbrow&#x27;s orc-barbarian icon steps in opposite her and the two exchange abstract speech ribbons and security glyphs; seconds 9-12 Cindy smiles knowingly, tips the glowing hat brim, and a safe route through the host appears as a thin blue line while Highbrow&#x27;s axe-code blocks the obvious path. Painterly neon Matrix style, SR3 cyberdeck iconography, high-detail comic mosaic look, dramatic magenta/cyan rim light, smooth camera drift, no photorealistic humans, no gore.</pre>
+  </details>
+</section>
+<section class="trailer-card" id="cindy_admonishes_curtis_boat_rv">
+  <h2>Cindy Explains Why Grandpa Is Not a Boat</h2>
+  <p class="trailer-meta"><strong>Coverage:</strong> Cindy Matrix icon, Curtis, Grandpa, boat-RV plan</p>
+  <div class="trailer-grid trailer-reference-grid">
+<figure class="trailer-reference">
+  <img src="assets/images/trailer-scenes/cindy_admonishes_curtis_boat_rv/cindy_admonishes_curtis_boat_rv_reference.png" alt="Reference image for Cindy Explains Why Grandpa Is Not a Boat">
+  <figcaption><a href="assets/images/trailer-scenes/cindy_admonishes_curtis_boat_rv/cindy_admonishes_curtis_boat_rv_reference.png">Reference frame: cindy_admonishes_curtis_boat_rv_reference.png</a></figcaption>
+</figure>
+  </div>
+  <div class="trailer-grid">
+<figure class="trailer-take">
+  <video controls preload="metadata" playsinline src="assets/videos/trailer-scenes/cindy_admonishes_curtis_boat_rv/cindy_admonishes_curtis_boat_rv.1.mp4"></video>
+  <figcaption><a href="assets/videos/trailer-scenes/cindy_admonishes_curtis_boat_rv/cindy_admonishes_curtis_boat_rv.1.mp4">Clip: cindy_admonishes_curtis_boat_rv.1.mp4</a></figcaption>
+</figure>
+  </div>
+  <details>
+    <summary>Prompt</summary>
+    <pre>Use the supplied 1280x720 reference image as the first-frame anchor. Preserve Cindy Lou Jenkins&#x27;s canonical SR3 Matrix icon as consistently as possible for the entire clip: full-body stylized country-pop decker/knowbot avatar, glowing pink rhinestone cowgirl hat, blonde hair, luminous blue eye, headset, mosaic neon jacket, vertical datastream textures, confident half-smile, and the same silhouette from frame to frame. Do not morph her outfit, face, hat, body shape, or color palette; animate only small natural gestures, mouth movement, blinking, slight head tilt, and one hat-brim gesture. Eight-second Matrix-stage clip. Cindy stands full-body in a neon Matrix space with simple gridlines and abstract schematic glyphs of Grandpa the RV trying to meet water: a boxy RV outline, blue wave icons, and a red warning slash. She faces slightly toward an offscreen Curtis, hands on hips at first, then raises one finger like a patient systems engineer explaining a very bad plan. Cindy delivers one short quip with dry Southern warmth: &#x27;Curtis, sugar, flood ballast makes Grandpa brave, not buoyant. An RV can visit water; a boat is built to come back.&#x27; The line should feel like friendly admonishment, not anger. Keep the camera mostly locked in a steady full-body medium-wide shot so the icon identity remains stable. Painterly neon Matrix style, SR3 cyberdeck iconography, high-detail comic mosaic look, magenta and cyan rim light, no readable text, no subtitles, no logos, no gore, no photorealistic human.</pre>
   </details>
 </section>
