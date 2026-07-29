@@ -25,17 +25,20 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
 }
-.trailer-take {
+.trailer-take, .trailer-reference {
   margin: 0;
 }
-.trailer-take video {
+.trailer-take video, .trailer-reference img {
   width: 100%;
   border-radius: 10px;
   background: #111;
 }
-.trailer-take figcaption {
+.trailer-take figcaption, .trailer-reference figcaption {
   font-size: 0.9rem;
   margin-top: 0.35rem;
+}
+.trailer-reference-grid {
+  margin-bottom: 1rem;
 }
 .trailer-card pre {
   white-space: pre-wrap;
@@ -60,6 +63,7 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
 - [The Container That Sings Back](#cindy_container_shell)
 - [Elevator Music Under Fire](#elevator_escape_music)
 - [Chunky Sparkles vs. Mech](#chonky_sparkles_vs_mech)
+- [Cindy and Highbrow Parley in Happy Cat](#cindy_happy_cat_icon_parley)
 
 <section class="trailer-card" id="minefield_door_peek">
   <h2>Tiptoeing the Minefield</h2>
@@ -339,5 +343,25 @@ This page collects generated Sora test clips for the Nashville Shadowrun campaig
     <pre>Cinematic cyberpunk-fantasy action shot, original tabletop RPG campaign trailer style. A rain-slicked industrial loading yard at night, Nashville skyline barely visible beyond chain-link fences and humming transformer towers. In the foreground, a battered runner crew dives behind a scorched delivery van as blue-white lightning floods the frame. A luminous magical unicorn made of stormlight and glasslike astral energy rears up, its horn arcing with electricity, hooves splashing neon reflections across the pavement. Opposite it, a black corporate scorpion-shaped combat drone skitters out of smoke, armored tail cannon charging red, hydraulic claws scraping sparks from the concrete. The two monsters clash for one terrifying instant as the camera tracks low past the fleeing runners: lightning lashes, the scorpion tail fires, steam erupts, warning lights strobe, and the crew barely escapes through the chaos. Moody neon-noir color grade, painterly realistic but not photorealistic, dramatic rim lighting, volumetric rain and smoke, high-detail concept art look, tense trailer pacing, no logos, no text, no gore.
 
 Camera motion: low tracking shot, slow push-in, then a quick whip-pan as the unicorn and scorpion bot collide.</pre>
+  </details>
+</section>
+<section class="trailer-card" id="cindy_happy_cat_icon_parley">
+  <h2>Cindy and Highbrow Parley in Happy Cat</h2>
+  <p class="trailer-meta"><strong>Coverage:</strong> Cindy Matrix icon, Happy Cat host, Highbrow, Pixel Sticks security</p>
+  <div class="trailer-grid trailer-reference-grid">
+<figure class="trailer-reference">
+  <img src="assets/images/trailer-scenes/cindy_happy_cat_icon_parley/cindy_happy_cat_icon_parley_reference.png" alt="Reference image for Cindy and Highbrow Parley in Happy Cat">
+  <figcaption><a href="assets/images/trailer-scenes/cindy_happy_cat_icon_parley/cindy_happy_cat_icon_parley_reference.png">Reference frame: cindy_happy_cat_icon_parley_reference.png</a></figcaption>
+</figure>
+  </div>
+  <div class="trailer-grid">
+<figure class="trailer-take">
+  <video controls preload="metadata" playsinline src="assets/videos/trailer-scenes/cindy_happy_cat_icon_parley/cindy_happy_cat_icon_parley.1.mp4"></video>
+  <figcaption><a href="assets/videos/trailer-scenes/cindy_happy_cat_icon_parley/cindy_happy_cat_icon_parley.1.mp4">Clip: cindy_happy_cat_icon_parley.1.mp4</a></figcaption>
+</figure>
+  </div>
+  <details>
+    <summary>Prompt</summary>
+    <pre>Use the supplied 1280x720 reference image as the first-frame anchor for Cindy Lou Jenkins&#x27;s canonical SR3 Matrix icon: a stylized country-pop decker/knowbot avatar with a glowing pink rhinestone cowgirl hat, blonde hair, luminous blue eye, headset, mosaic neon jacket, and vertical datastreams falling through her face and clothing. Preserve her silhouette, hat, color palette, mosaic/datastream texture, and confident half-smile as faithfully as possible. Twelve-second cinematic Matrix parley inside the Happy Cat public storefront host. The host sculpting is bright and cute at the surface: lucky-cat mascot shapes, collectible-card binders, snack-rack neon, receipt-tape trails, pop-up coupon storms, and sticker-covered message boards; underneath, glimpses of the hidden Pixel Sticks tag yard appear as graffiti route maps, dead-drop lockers, utility crates, burner-persona masks, and reputation tags. Cindy&#x27;s icon faces a second Matrix icon: a stylized youthful orc barbarian avatar representing Highbrow, built from green-blue polygon armor, tusks, a red neon crest, and a massive fantasy-axe silhouette made of security code. They converse obliquely like two operators who both know the direct words are dangerous: Cindy gestures toward harmless-looking coupon cats that briefly unfold into access-control diagrams; Highbrow taps a route-board token and it becomes a locked door, a laser modem beam, and a scorpion-shaped warning glyph. No readable text, no subtitles, no logos. Scene beats: seconds 0-3 Cindy&#x27;s icon resolves from falling data exactly like the reference image, holding her cowgirl-hat silhouette; seconds 3-6 the Happy Cat host blooms around her with cheerful retail clutter hiding darker Pixel Sticks infrastructure; seconds 6-9 Highbrow&#x27;s orc-barbarian icon steps in opposite her and the two exchange abstract speech ribbons and security glyphs; seconds 9-12 Cindy smiles knowingly, tips the glowing hat brim, and a safe route through the host appears as a thin blue line while Highbrow&#x27;s axe-code blocks the obvious path. Painterly neon Matrix style, SR3 cyberdeck iconography, high-detail comic mosaic look, dramatic magenta/cyan rim light, smooth camera drift, no photorealistic humans, no gore.</pre>
   </details>
 </section>
