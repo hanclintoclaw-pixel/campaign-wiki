@@ -11,6 +11,7 @@ tags: [location, franklin, abandoned, museum, academy, kurgan, wilderness-headqu
 sources:
   - User-provided map address on 2026-07-03
   - JackalMoreau Discord request on 2026-07-31
+  - O'More location map uploads in Discord on 2026-07-31
 ---
 
 # The O'More College of Design
@@ -26,6 +27,33 @@ The crew cleared the location of hostiles. **Kurgan** is now planning to restore
 - **Address:** 423 S Margin St, Franklin, TN 37064
 - **Map point:** `35.9212564, -86.8684030`
 - **Confidence:** exact address geocode
+
+## Location Maps
+
+<details markdown="1">
+<summary>O'More College of Design map files</summary>
+
+### Basement Museum
+
+![O'More College of Design basement museum map](../assets/maps/omore-college-of-design/basement-museum.jpg)
+
+### Ground Floor
+
+![O'More College of Design ground floor map](../assets/maps/omore-college-of-design/ground-floor.jpg)
+
+### First Floor
+
+![O'More College of Design first floor map](../assets/maps/omore-college-of-design/first-floor.jpg)
+
+### Second Floor
+
+![O'More College of Design second floor map](../assets/maps/omore-college-of-design/second-floor.jpg)
+
+### Roof
+
+![O'More College of Design roof map](../assets/maps/omore-college-of-design/roof.jpg)
+
+</details>
 
 ## Known Facts
 
@@ -51,3 +79,4 @@ The crew cleared the location of hostiles. **Kurgan** is now planning to restore
 
 - User-provided map address on 2026-07-03
 - JackalMoreau Discord request on 2026-07-31
+- O'More location map uploads in Discord on 2026-07-31
