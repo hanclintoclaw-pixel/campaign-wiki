@@ -81,12 +81,12 @@ window.NASHVILLE_CAMPAIGN_POIS = [
     notes: "400-448 Vernon Winfrey Ave. Independent convenience store and collectibles shop; local teen hangout nestled between huge arkoblocks."
   },
   {
-    name: "Collapsed Art Museum",
+    name: "The O'More College of Design",
     type: "future-base",
     lat: 35.9212564,
     lng: -86.8684030,
     confidence: "exact",
-    wiki: "../Locations/Collapsed-Art-Museum.html",
-    notes: "423 S Margin St, Franklin. Abandoned museum Kurgan wants to renovate into a retirement fortress base."
+    wiki: "../Locations/O-More-College-of-Design.html",
+    notes: "423 S Margin St, Franklin. Abandoned art and design museum / academy Kurgan wants to restore as a wilderness headquarters."
   }
 ];

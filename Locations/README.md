@@ -31,7 +31,7 @@
 ## Franklin / Regional Locations
 
 - [Cairo Testament Annex](Cairo-Testament-Annex.md)
-- [Collapsed Art Museum](Collapsed-Art-Museum.md)
+- [The O'More College of Design](O-More-College-of-Design.md)
 
 ## See also
 
