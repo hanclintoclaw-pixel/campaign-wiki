@@ -2,7 +2,7 @@
 title: Session Chronology
 type: timeline
 visibility: player-safe
-updated: 2026-07-24
+updated: 2026-07-31
 ---
 
 # Session Chronology
@@ -101,6 +101,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 73 | [Session 2026-07-16](../Sessions/2026-07-16.md) | 2026-07-16 | 2066-05-12 evening | provisional | The crew continued the **Pixel Sticks** run at Happy Cat. Mevin found the hidden Pixel Sticks tag yard and camera access inside the Happy Cat host, Curtis identified a laser modem link into the neighboring Vernon Winfrey arkoblock, Valgaut and Kurgan recognized Chunky Sparkles inside the store, and the crew bypassed stairwell barricades to reach the 21st-floor landing near the suspected Pixel Sticks floors. |
 | 74 | [Mini-Run 2026-07-19 - Saab Dynamit Sale](../Sessions/2026-07-19-mini-saab-dynamit-sale.md) | 2026-07-19 | 2066-05-12 night | provisional | Curtis fenced a boosted **Saab Dynamit 778 TI** through Taco's buyer network, completed the late-night 612 Wharf Avenue handoff, dealt with a suspicious Americar tail using Buzz and The Finisher, netted **28,780¥** before crew thank-yous, and ended with **25,720¥** tracked funds after paying Mevin, Valgaut, and Kurgan. |
 | 75 | [Session 2026-07-23](../Sessions/2026-07-23.md) | 2026-07-23 | 2066-05-12 night | provisional | The crew breached the **Pixel Sticks** 21st-floor arkoblock space, disrupted the cell, recovered used military-grade utilities for the Johnson handoff, altered a scorpion combat drone's whitelist before using it as escape-cover against Chunky Sparkles, and received **60,000¥ total** plus **7 Karma each** while Mevin retained encrypted material for later work with Cindy Lou. |
+| 76 | [Session 2026-07-30](../Sessions/2026-07-30.md) | 2026-07-30 | 2066-05-12 night | provisional | In a player-driven follow-up, the crew returned to the **Core 7 / Site 7** mystery. Kurgan found old and fresh **Pyramid** cigarette clues at the old ravine, Mevin and Cindy confirmed CAS military-standard Site 7 hardware, Core 7 provided the Scarred Man Matrix profile, and follow-up legwork identified **Colonel Earl Stryker / Dead Soldier** as the disgraced CAS officer and later shadow operator tied to the old aquatic-mammal wetware project. |
 
 ## Read this sequence in plain English
 
@@ -114,6 +115,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 8. Session 2026-07-09 begins the **Pixel Sticks / military-grade utilities** run, provisionally placed on **2066-05-12 evening** until the exact in-world day is separately confirmed.
 9. Session 2026-07-16 continues the same evening and moves the crew from Happy Cat host discovery into the adjacent Vernon Winfrey arkoblock.
 10. Mini-Run 2026-07-19 is a Curtis-focused side run after the latest true session, provisionally placed on **2066-05-12 night**; it records the Saab Dynamit sale, Wharf Avenue tail, and Curtis funds changes without advancing the main Pixel Sticks scene.
+11. Session 2026-07-30 is a player-driven Core 7 / Site 7 follow-up on the same provisional night after the Pixel Sticks payout. It does not record a new payout or group Karma award, but it shifts the live investigation toward Earl Stryker / Dead Soldier.
 
 ## Gaps and caveats
 

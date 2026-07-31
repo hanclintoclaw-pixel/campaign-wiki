@@ -10,6 +10,7 @@
 - [Pixel Sticks 21st-Floor Cell](Pixel-Sticks-21st-Floor-Cell.md)
 - [Jet Set Morgan](Jet-Set-Morgan.md)
 - [Core 7](Core-7.md)
+- [Colonel Earl Stryker / Dead Soldier](Earl-Stryker.md)
 - [Mother Yahweh](Mother-Yahweh.md)
 - [Alvin Flang](Alvin-Flang.md)
 - [Diego](Diego.md)

@@ -3,7 +3,7 @@ title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
 status: active
-updated: 2026-07-10
+updated: 2026-07-31
 owner: Curtis
 contributors:
   - Ace Malone
@@ -16,6 +16,7 @@ sources:
   - JackalMoreau concept image in Discord on 2026-05-27
   - Ace Malone transport-planning clarification in Discord on 2026-06-22
   - JackalMoreau request for Mevin support plan in Discord on 2026-07-10
+  - Session 2026-07-30
 ---
 
 # Curtis Dolphin and Hurricane Seal Habitat
@@ -56,6 +57,7 @@ _Top-down gridded map of the planned compound-lot habitat, with tank zones, stor
 - Confirmed build site: **adjacent lot at [Taco's Garage and Workshop](../Locations/Tacos-Garage-and-Workshop.md)**, at **216-226 Thompson Ln, Nashville, TN 37211**, on land rather than shoreline
 - New critical constraint: relocation must be covert and safe because **Core 7/Cor7 is heavily chromed, machine-connected, and as much machine as dolphin**, while the hurricane seals are also enhanced animals rather than ordinary marine cargo
 - Detailed build requirements still to be defined
+- The recovered Site 7 hardware/data now supports Core 7 communicating through or near CLJ, giving Mevin and Cindy Lou a channel for Matrix-profile follow-up on the Scarred Man / Dead Soldier lead.
 
 ## Build Notes
 
@@ -152,6 +154,7 @@ Purpose: Mevin's contribution is not to replace Curtis's build work. His job is 
 ### Progress Log
 
 - **2026-07-10:** Mevin support track opened. First pending step is discreet Gallstone contact and vet-legwork setup.
+- **2026-07-30:** Player-driven Core 7 follow-up established that the recovered Site 7 hardware/data can support Mevin and CLJ parsing Core 7's Matrix memory of the Scarred Man, later identified as the Earl Stryker / Dead Soldier lead.
 
 ### Active Roll Prompt
 
