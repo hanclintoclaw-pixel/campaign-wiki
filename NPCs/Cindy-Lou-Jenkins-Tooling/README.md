@@ -31,6 +31,7 @@ The desired end state is a table companion that can listen, remember, speak when
 ## Shadowrun 3rd Edition workflows
 
 - [Matrix Searches](../../Tech/Matrix/Matrix-Searches.md) - player-facing workflow for SR3 Matrix research, Shadowland/data haven legwork, and host-local file/access-node searches.
+- [Contact Legwork](../../Tech/Matrix/Contact-Legwork.md) - player-facing workflow for SR3 contact asks, Friends of Friends, fees, wait times, and Wrong Party risk.
 
 ## Active behavior tools
 

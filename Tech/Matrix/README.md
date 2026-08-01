@@ -11,6 +11,7 @@ Each entry includes a descriptive host profile plus example **SR3-style host sta
 ## Rules workflows
 
 - [Matrix Searches](Matrix-Searches.md) — SR3 workflow for Matrix research, Shadowland/data haven legwork, and host-local search operations.
+- [Contact Legwork](Contact-Legwork.md) — SR3 workflow for contact asks, Friends of Friends, information fees, wait times, and Wrong Party risk.
 
 ## Host records
 
