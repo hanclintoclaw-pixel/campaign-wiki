@@ -4,7 +4,7 @@ permalink: /NPCs/Cindy-Lou-Jenkins-Tooling/
 type: npc-tooling-index
 visibility: player-safe
 status: active
-updated: 2026-07-20
+updated: 2026-07-31
 parent_page: ../Cindy-Lou-Jenkins.md
 tags: [cindy, tooling, voice, discord, npc-tools]
 ---
@@ -37,6 +37,7 @@ The desired end state is a table companion that can listen, remember, speak when
 - [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md) - active session-scoped working memory for live play.
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md) - sidecar alerting for stalled live transcription.
 - [Cindy Lou Post-Session Automation](Post-Session-Automation.md) - planned end-of-session cleanup, memory, and wiki workflow.
+- [Cindy Lou Anti-LLM In-Character Voice Pass](Anti-LLM-In-Character-Voice.md) - prose-shaping rules for in-character Cindy text so she sounds less like a generic model and more like a specific SA-knowbot.
 
 ## Architecture and archives
 
