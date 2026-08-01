@@ -18,6 +18,8 @@ sources:
 
 This workflow turns the SR3 Matrix search rules into a table procedure. It is a play aid, not a replacement for the books; when exact dice pools, subsystem ratings, or contact rules matter, use the cited source pages.
 
+For a guided worksheet version, use the [Matrix Search Guide](https://hanclintoclaw-pixel.github.io/matrix-search-guide/).
+
 ## Pick the kind of search
 
 Use the narrowest workflow that fits the question.
