@@ -29,6 +29,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 - [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) - click-through SR3-inspired Matrix host intrusion aid using Deck Manager exports and editable host profiles.
 - [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) - branching cyber-dungeon crawl that syncs Deck Manager state and pulls wiki host profile JSON.
 - [Matrix Search Guide](https://hanclintoclaw-pixel.github.io/matrix-search-guide/) - SR3 Matrix search workflow tool for choosing search paths, applying canon modifiers, and producing a GM-facing result report.
+- [Contact Legwork Guide](https://hanclintoclaw-pixel.github.io/contact-legwork-guide/) - SR3 in-session contact workflow tool for contact knowledge, costs, Friends of Friends, wait times, Wrong Party risk, and GM-ruling prompts.
 - [Spell Guide](https://hanclintoclaw-pixel.github.io/spell-guide/) - SR3 spell catalogue and Sorcery/Conjuring roll aid with a cybermystic UI shell.
 
 ## Cindy Lou Tooling

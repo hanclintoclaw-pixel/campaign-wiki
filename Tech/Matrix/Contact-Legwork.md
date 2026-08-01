@@ -17,6 +17,8 @@ sources:
 
 This workflow turns SR3 contact rules into a table procedure for asking NPC contacts for information, introductions, services, or gear. It is a play aid, not a replacement for the books; the GM still decides what a contact could plausibly know, whether they are available, what they want, and how loudly the inquiry echoes through the shadows.
 
+For a guided in-session worksheet version, use the [Contact Legwork Guide](https://hanclintoclaw-pixel.github.io/contact-legwork-guide/).
+
 ## Pick the legwork job
 
 Use the narrowest path that fits the ask.
