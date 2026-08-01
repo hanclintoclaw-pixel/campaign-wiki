@@ -1,12 +1,16 @@
 # Matrix Hosts
 
-Reference index for notable Nashville-area Matrix hosts, written in an SR3-flavored style for deckers, GMs, and continuity use.
+Reference index for notable Nashville-area Matrix hosts and Matrix table workflows, written in an SR3-flavored style for deckers, GMs, and continuity use.
 
 Each entry includes a descriptive host profile plus example **SR3-style host stats, IC mix, and routine task target numbers** for table use. Machine-readable host profiles for supported minigame tools are indexed at [data/matrix-hosts/index.json](../../data/matrix-hosts/index.json).
 
 ## Host-building guide
 
 - [Matrix Host Construction Guide](Host-Construction-Guide.md) — public door / secure door pattern, subsystem verbs, confirmation nodes, and Decker Experience profile guidance.
+
+## Rules workflows
+
+- [Matrix Searches](Matrix-Searches.md) — SR3 workflow for Matrix research, Shadowland/data haven legwork, and host-local search operations.
 
 ## Host records
 

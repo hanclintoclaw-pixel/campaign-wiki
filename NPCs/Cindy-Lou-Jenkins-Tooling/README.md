@@ -4,9 +4,9 @@ permalink: /NPCs/Cindy-Lou-Jenkins-Tooling/
 type: npc-tooling-index
 visibility: player-safe
 status: active
-updated: 2026-07-31
+updated: 2026-08-01
 parent_page: ../Cindy-Lou-Jenkins.md
-tags: [cindy, tooling, voice, discord, npc-tools]
+tags: [cindy, tooling, voice, discord, npc-tools, sr3]
 ---
 
 # Cindy Lou Tooling
@@ -27,6 +27,10 @@ The current build is working toward four connected goals:
 - **campaign continuity:** session scratchpads, memory ingestion, wiki updates, and post-session plans keep useful play facts from evaporating after the call ends.
 
 The desired end state is a table companion that can listen, remember, speak when invited, help with Shadowrun 3rd Edition reference and Matrix/campaign tooling, and preserve continuity between sessions while still respecting the GM's control of pacing and canon.
+
+## Shadowrun 3rd Edition workflows
+
+- [Matrix Searches](../../Tech/Matrix/Matrix-Searches.md) - player-facing workflow for SR3 Matrix research, Shadowland/data haven legwork, and host-local file/access-node searches.
 
 ## Active behavior tools
 
