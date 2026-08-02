@@ -16,7 +16,7 @@ sources:
 
 ## Overview
 
-Melchizedek is a newly defined magical NPC: a **Great Form Free Hearth Spirit**, built from the SR3 free spirit rules in *Magic in the Shadows*. He is Force 9 with Spirit Energy 4, and manifests to metahumans as a small goat-headed humanoid that hovers with unmistakably mystical poise. His exact personality, agenda, domain, and relationship to the campaign remain open for GM selection.
+Melchizedek is a newly defined magical NPC: a **Great Form Free Hearth Spirit**, built from the SR3 free spirit rules in *Magic in the Shadows*. He is Force 9 with Spirit Energy 4, and manifests to metahumans as a small goat-headed humanoid that hovers with unmistakably mystical poise. His current Personal Domain is a Nashville gambling hall/hotel owned by **Mucky**; his exact personality, agenda, and relationship to the campaign remain open for GM selection.
 
 ## Known Facts
 
@@ -27,7 +27,8 @@ Melchizedek is a newly defined magical NPC: a **Great Form Free Hearth Spirit**,
 - Spirit Energy: **4**.
 - Free spirit powers beyond his base spirit type: **Personal Domain**, **Wealth**, **Human Form**, and **Astral Gateway**.
 - When interacting with metahumans, he takes the form of a goat-headed humanoid about 4 feet high and tends to hover in a mystical fashion.
-- True name, domain location, chain of obligations, and relationship to the crew are **not yet established**.
+- Personal Domain: a gambling hall/hotel in Nashville owned by **Mucky**; the site is smaller than Melchizedek's maximum possible Personal Domain area, so the unused potential area is simply wasted.
+- True name, exact domain boundaries, chain of obligations, and relationship to the crew are **not yet established**.
 
 ## SR3 Rules Snapshot
 
@@ -44,19 +45,20 @@ Melchizedek is a newly defined magical NPC: a **Great Form Free Hearth Spirit**,
 
 ## Relationships
 
-- No campaign relationships established yet.
+- Linked to **Mucky** through his current Personal Domain: a Mucky-owned gambling hall/hotel in Nashville.
 
 ## Capabilities / Resources
 
 - Force 9 great-form spirit-level magical presence.
 - Spirit Energy 4.
 - Free spirit powers: **Personal Domain**, **Wealth**, **Human Form**, and **Astral Gateway**.
-- Hearth-domain theming suggests influence around homes, shelters, family spaces, hospitality, domestic safety, private rooms, or places treated as a dwelling.
-- Final domain location, relationship web, and spellcasting status remain unresolved.
+- Personal Domain: a Mucky-owned gambling hall/hotel in Nashville. The site is smaller than the Force 9 maximum area for the Personal Domain power, leaving the extra potential area unused.
+- Hearth-domain theming suggests influence around homes, shelters, family spaces, hospitality, domestic safety, private rooms, hotels, or places treated as a dwelling.
+- Exact domain boundaries, relationship web, and spellcasting status remain unresolved.
 
 ## Open Build Choices
 
-- Define Melchizedek's **personal domain**, and where its physical boundaries begin and end.
+- Define the exact name, layout, and physical boundaries of the Mucky-owned gambling hall/hotel that serves as Melchizedek's **Personal Domain**.
 - Decide whether his goat-headed hovering manifestation is his literal Human Form power, a stylized materialized appearance, or both.
 - Define his public face: comforting hearth guardian, ancient household god, predatory domestic spirit, occult fixer, bound servant, or another role.
 - Define what he wants from metahumans: Karma, worship, secrets, protection of a home, vengeance, hospitality bargains, or something alien.
