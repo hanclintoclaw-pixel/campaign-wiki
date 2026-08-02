@@ -15,6 +15,7 @@
 - [Alvin Flang](Alvin-Flang.md)
 - [Diego](Diego.md)
 - [Palermo](Palermo.md)
+- [Melchizedek](Melchizedek.md)
 
 ## Recurring Contacts / Principals
 
