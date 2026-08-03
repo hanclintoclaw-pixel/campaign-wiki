@@ -15,7 +15,7 @@ sources:
 
 # Melchizedek
 
-![Melchizedek](../assets/images/Melchizedek.png)
+![Melchizedek hovering in his metaplanar library, eating fast food while watching wired screens connected to a hotel portal](../assets/images/Melchizedek-Header-2026-08-02.png)
 
 ## Overview
 
