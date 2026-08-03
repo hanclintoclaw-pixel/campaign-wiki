@@ -34,6 +34,7 @@ Melchizedek is a magical NPC: a **Great Form Free Hearth Spirit**, built from th
 - Mucky supplies Melchizedek's fast food and trid feeds; the exact hotel/gambling-hall name and concept are pending input from Mucky's former player.
 - He is obsessed with knowledge of metahuman excess, especially trid content, Matrix feeds, and bad fast food.
 - He trades magical wealth for access to television, feeds, junk food, and similar indulgences.
+- His working arrangement with Mucky is spelled out in [The House Compact of Melchizedek and Mucky](Melchizedek-Mucky-House-Compact.md).
 - If denied access or interrupted while consuming his favored media/food, he may react violently and use his powers to compel people to provide what he wants.
 - True name, exact domain boundaries, chain of obligations, and relationship to the crew are **not yet established**.
 
@@ -55,6 +56,7 @@ Melchizedek is a magical NPC: a **Great Form Free Hearth Spirit**, built from th
 
 - Linked to **Mucky** through his current Personal Domain: a Mucky-owned gambling hall/hotel in Nashville.
 - Mucky currently supplies his fast food and trid feeds.
+- Their mutual understanding is documented in [The House Compact of Melchizedek and Mucky](Melchizedek-Mucky-House-Compact.md).
 
 ## Capabilities / Resources
 
