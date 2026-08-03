@@ -14,6 +14,8 @@ sources:
 
 # Melchizedek
 
+![Melchizedek hovering in his metaplanar library, eating fast food while watching wired screens connected to a hotel portal](../assets/images/Melchizedek-Header-2026-08-02.png)
+
 ## Overview
 
 Melchizedek is a magical NPC: a **Great Form Free Hearth Spirit**, built from the SR3 free spirit rules in *Magic in the Shadows*. He is Force 9 with Spirit Energy 4, and manifests to metahumans as a small goat-headed humanoid that hovers with unmistakably mystical poise. His current Personal Domain is a Nashville gambling hall/hotel owned by **Mucky**. He is obsessed with metahuman excess, especially trid content, Matrix feeds, and bad fast food.
@@ -25,8 +27,8 @@ Melchizedek is a magical NPC: a **Great Form Free Hearth Spirit**, built from th
 - Spirit category: **Nature spirit**, specifically a **Spirit of Man** subtype.
 - Force: **9**.
 - Spirit Energy: **4**.
-- Free spirit powers beyond his base spirit type: **Personal Domain**, **Wealth**, **Human Form**, and **Astral Gateway**.
-- When interacting with metahumans, he takes the form of a goat-headed humanoid about 4 feet high and tends to hover in a mystical fashion.
+- Free spirit powers beyond his base spirit type: **Personal Domain**, **Wealth**, **Sorcery**, and **Astral Gateway**.
+- When interacting with metahumans, he takes the form of a goat-headed humanoid about 4 feet high and tends to hover in a mystical fashion; this is treated as his materialized spirit appearance rather than the Human Form power.
 - Personal Domain: a gambling hall/hotel in Nashville owned by **Mucky**; the site is smaller than Melchizedek's maximum possible Personal Domain area, so the unused potential area is simply wasted.
 - He is obsessed with knowledge of metahuman excess, especially trid content, Matrix feeds, and bad fast food.
 - He trades magical wealth for access to television, feeds, junk food, and similar indulgences.
@@ -57,25 +59,29 @@ Melchizedek is a magical NPC: a **Great Form Free Hearth Spirit**, built from th
 - Spirit Energy 4.
 - Base hearth spirit powers: **Accident**, **Concealment**, **Confusion**, **Guard**, **Materialization**, and **Search**.
 - Great form Spirit of Man benefit: **Divination** for questions related to his domain.
-- Free spirit powers: **Personal Domain**, **Wealth**, **Human Form**, and **Astral Gateway**.
+- Free spirit powers: **Personal Domain**, **Wealth**, **Sorcery**, and **Astral Gateway**.
+- Sorcery Skill 4, with Spell Pool 9.
+- Known spells: **Stunbolt 4**, **Powerball 4**, and **Catalog 4**.
+- Melchizedek may know additional spells at GM discretion, especially if they fit his long-running obsession with observation, consumption, records, and control of his domain.
 - Personal Domain: a Mucky-owned gambling hall/hotel in Nashville. The site is smaller than the Force 9 maximum area for the Personal Domain power, leaving the extra potential area unused.
 - Hearth-domain theming suggests influence around homes, shelters, family spaces, hospitality, domestic safety, private rooms, hotels, or places treated as a dwelling.
 - He has carved out a persistent library-like space associated with his native metaplane, connected to a viewing dome where he observes and records non-astral being behavior.
-- Exact domain boundaries, relationship web, and spellcasting status remain unresolved.
+- Exact domain boundaries and relationship web remain unresolved.
 
 ## Open Build Choices
 
 - Define the exact name, layout, and physical boundaries of the Mucky-owned gambling hall/hotel that serves as Melchizedek's **Personal Domain**.
-- Decide whether his goat-headed hovering manifestation is his literal Human Form power, a stylized materialized appearance, or both.
 - Define his public face: comforting hearth guardian, ancient household god, predatory domestic spirit, occult fixer, bound servant, or another role.
 - Decide whether his compulsive consumption is comic, horrifying, transactional, addictive, or all of those at once.
 - Decide who currently feeds his appetite for trid, Matrix feeds, and fast food, and what happens when the supply is interrupted.
+- Decide whether he has additional spells beyond the three currently listed.
 
 ## Canon Notes
 
 - Under SR3, **Personal Domain** is a listed free spirit power. The spirit chooses a fixed domain appropriate to its nature; inside that domain, its Spirit Energy doubles for powers and physical attributes affected by Spirit Energy. For a Force 9 spirit, the maximum domain area is 90,000 square meters.
-- The **Human Form** power is described as assuming a metahuman form. A goat-headed, hovering humanoid is fully workable as spirit imagery, but if strict RAW matters, treat it as either an obvious stylization of Human Form or as Melchizedek's materialized spirit appearance rather than a perfectly mundane-looking metahuman disguise.
+- Melchizedek's goat-headed, hovering humanoid form is treated as his materialized spirit appearance. This avoids needing the **Human Form** free spirit power, which is more specifically for assuming a metahuman form.
 - A free spirit has a native metaplane, and **Astral Gateway** can connect travelers to that native metaplane. Melchizedek's persistent library/viewing-dome space should be treated as a GM-specific feature of his native metaplane rather than a standard mechanical entitlement every free spirit receives.
+- **Catalog 4** is chosen as a conceptual utility spell for indexing, ordering, and reviewing the countless records tied to his metaplanar library and overconsumption research.
 
 ## Relevant Sessions
 
