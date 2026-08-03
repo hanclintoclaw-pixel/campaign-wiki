@@ -35,7 +35,7 @@ The sale handoff at **612 Wharf Avenue** drew suspicious attention from an Ameri
 - Curtis put Grandpa on autopilot, launched **The Finisher**, and made two SMG attack passes against the Americar.
 - The Americar stopped on the freight road; Finisher took no repairable damage, though the return fire forced an ugly correction.
 - Curtis drove away from Taco's compound while Buzz checked for other tails.
-- Curtis later tried to source **Photovoltaic Chameleon Paint** for Grandpa. Taco could not source a kit immediately, and Curtis's Matrix search failed while creating a small trace/attention risk. The normal next Taco availability check is after **14 days**.
+- Curtis later tried to source **Photovoltaic Chameleon Paint** for Grandpa. Taco could not source a kit immediately, and Curtis's Matrix search failed while creating a small trace/attention risk. The normal next Taco availability check was after **14 days**; on 2026-08-02, Curtis checked back with Taco, sourced the kit, paid **7,500¥** after Street Index, and installed it on Grandpa.
 
 ## Mechanical / Economic Results
 
@@ -46,13 +46,14 @@ The sale handoff at **612 Wharf Avenue** drew suspicious attention from an Ameri
 - Curtis paid **1,000¥** each to **Mevin**, **Valgaut**, and **Kurgan**: **-3,000¥** total.
 - Curtis's tracked nuyen after the sale and thank-yous: **25,720¥**.
 - The chameleon paint reminder is set for **2026-08-02**, matching the normal **14-day** availability interval.
+- Follow-up on 2026-08-02: Taco sourced the Photovoltaic Chameleon Paint kit; Curtis paid **7,500¥**, installed it with 2 successes on Electronics 6 vs TN 6, and reduced the 72-hour base install to about **36 hours**.
 
 ## Changes to Campaign State
 
 - Curtis's funds increased from the Saab sale and were updated on his page.
 - Taco's role as Curtis's vehicle/salvage broker was reinforced.
 - The Saab Dynamit 778 TI is no longer in crew possession.
-- Grandpa remains unmodified by chameleon paint for now; no kit has been sourced yet.
+- Grandpa now has Photovoltaic Chameleon Paint installed.
 - A small future attention/trace flag exists from Curtis's failed Matrix search for chameleon paint suppliers.
 
 ## Updated Pages
