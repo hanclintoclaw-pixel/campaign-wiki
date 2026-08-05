@@ -26,6 +26,7 @@ sources:
   - Curtis Backpack Arms Build Day 9 report, 2026-07-30
   - Curtis Backpack Arms Build Day 10 report, 2026-07-31
   - Curtis Backpack Arms Build Day 13 report, 2026-08-02
+  - Curtis Backpack Arms Build Day 14 final acceptance report, 2026-08-05
 ---
 
 # Curtis
@@ -108,8 +109,8 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Current sheet-backed core stats: **BOD 4**, **QUI 6**, **STR 5**, **CHA 1**, **INT 5**, **WIL 5**, **Essence 1.84**, **Reaction 5**, **Initiative 5+1D6**, **Magic -**.
 - Key crew tags: **Very Short**, **Ex-Caribbean Smuggler**.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
-- Current tracked nuyen: **9,215¥**.
-- Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16.
+- Current tracked nuyen: **4,365¥**.
+- Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16; **Backpack Arms rig** finalized 2026-08-05 for conservative light tool work only.
 - He is actively building a **dolphin and hurricane seal habitat** for the possible relocation/rescue of **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
 - During the 2066-05-09 interlude, Curtis backed Kurgan on the **Righteous Haze** job, using **Grandpa** as the lure/extraction vehicle.
@@ -120,12 +121,12 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 ## Karma And Nuyen Ledger
 
 - **Known current Karma:** at least **11 Karma** from currently tracked wiki events, plus any earlier untracked balance.
-- **Known current nuyen:** **9,215¥**.
+- **Known current nuyen:** **4,365¥**.
 
 <details markdown="1">
 <summary>Show Karma and nuyen history</summary>
 
-- **Current nuyen history:** **210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft, **+15,000¥** from the Griswell / Alvin / Palermo job on 2026-07-02, **+180¥** net from completed Curtis Drone Shift Work Orders, **-10,800¥** for Grandpa's GM-approved flood rescue / short-dunk package on 2026-07-16, **-3,500¥** for Grandpa's crash cage on 2026-07-16, **-3,200¥** for Grandpa's flood ballast kit on 2026-07-16, **-475¥** for a Defiance Super Shock taser plus concealable holster on 2026-07-16, **-20¥** for Mr. Clean's climbing cleat kit on 2026-07-16, **-10¥** for 5 cans of SPAM on 2026-07-16, **+28,780¥** net from the Saab Dynamit 778 TI sale after Taco's cut and Finisher ammunition restock on 2026-07-19, **-3,000¥** in thank-you cuts to Mevin, Valgaut, and Kurgan for helping boost the car on 2026-07-19, **+15,000¥** from the Pixel Sticks / Military-Grade Utilities payout on 2026-07-23, **-1,300¥** Backpack Arms Build Day 1 project spend on 2026-07-24, **-1,600¥** Backpack Arms Build Day 2 project spend on 2026-07-25, **-3,000¥** Backpack Arms Build Day 4 project spend on 2026-07-26, **-2,900¥** Backpack Arms Build Day 6 project spend on 2026-07-27, **-4,150¥** Backpack Arms Build Day 7 project spend on 2026-07-28, **-3,000¥** Backpack Arms Build Day 8 project spend on 2026-07-29, **-2,800¥** Backpack Arms Build Day 9 project spend on 2026-07-30, **-2,200¥** Backpack Arms Build Day 10 project spend on 2026-07-31, **-3,250¥** Backpack Arms Build Day 13 project spend on 2026-08-02, and **-7,500¥** for Grandpa's Photovoltaic Chameleon Paint kit and install on 2026-08-02.
+- **Current nuyen history:** **210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft, **+15,000¥** from the Griswell / Alvin / Palermo job on 2026-07-02, **+180¥** net from completed Curtis Drone Shift Work Orders, **-10,800¥** for Grandpa's GM-approved flood rescue / short-dunk package on 2026-07-16, **-3,500¥** for Grandpa's crash cage on 2026-07-16, **-3,200¥** for Grandpa's flood ballast kit on 2026-07-16, **-475¥** for a Defiance Super Shock taser plus concealable holster on 2026-07-16, **-20¥** for Mr. Clean's climbing cleat kit on 2026-07-16, **-10¥** for 5 cans of SPAM on 2026-07-16, **+28,780¥** net from the Saab Dynamit 778 TI sale after Taco's cut and Finisher ammunition restock on 2026-07-19, **-3,000¥** in thank-you cuts to Mevin, Valgaut, and Kurgan for helping boost the car on 2026-07-19, **+15,000¥** from the Pixel Sticks / Military-Grade Utilities payout on 2026-07-23, **-1,300¥** Backpack Arms Build Day 1 project spend on 2026-07-24, **-1,600¥** Backpack Arms Build Day 2 project spend on 2026-07-25, **-3,000¥** Backpack Arms Build Day 4 project spend on 2026-07-26, **-2,900¥** Backpack Arms Build Day 6 project spend on 2026-07-27, **-4,150¥** Backpack Arms Build Day 7 project spend on 2026-07-28, **-3,000¥** Backpack Arms Build Day 8 project spend on 2026-07-29, **-2,800¥** Backpack Arms Build Day 9 project spend on 2026-07-30, **-2,200¥** Backpack Arms Build Day 10 project spend on 2026-07-31, **-3,250¥** Backpack Arms Build Day 13 project spend on 2026-08-02, **-7,500¥** for Grandpa's Photovoltaic Chameleon Paint kit and install on 2026-08-02, and **-4,850¥** Backpack Arms Build Day 14 final acceptance project spend on 2026-08-05.
 - **2026-06-25 — Righteous Haze interlude:** **+4 Karma**, **+5,000¥** total payout / recovered value.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 
@@ -139,6 +140,17 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - [Buzz](../Vehicles/Buzz.md) — generic surr drone
 - [Mr. Clean](../Vehicles/Mr-Clean.md) — GMM Fix-It
 - [Waddles](../Vehicles/Waddles.md) — Ares Felix SynthCat
+- [Backpack Arms rig](Curtis-Backpack-Arms-Build.md) — finalized wearable six-arm backpack utility rig for conservative light tool work; strict folded-carry, slow-deploy, socket, load, and maintenance limits apply.
+
+### Backpack Arms Usage Guide
+
+Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for conservative light tool work, not cyberware and not a combat extra-action system. The final build cost was **29,050¥** across the Drone Shift project track.
+
+- **Carry and deployment:** The rig rides as a compact backpack profile with strict folded-carry limits. Deployment is deliberately slow and manual-sequenced; Curtis must check locks, sockets, and safety stops before treating any arm as usable.
+- **Tool sockets:** Universal wrist sockets are allowed for light tools and dummy-tool-equivalent loads only. Socket labels, visible manual sequencing, the Day 10 conservative single-arm load card, and the stricter final load limit remain binding until the GM expands them.
+- **Combat limits:** No extra natural limbs, extra attacks, reach bonus, free bracing, or autonomous combat effects apply. Combat end effectors are not approved by this acceptance packet unless the GM later writes a separate allowance.
+- **Safety and maintenance:** Safety cutoffs must stay reachable. The rig uses documented lined sleeves, edge guards, replacement guards, simple spring detents, and manual lock checks; after rough use, snagging, socket resets, or heavy tool strain, Curtis should recheck guards, sockets, bushings, and the reused-ballast safe-load witness before relying on it again.
+- **SR3 effects:** Approved campaign effect is access to the described light utility-tool rig under these limits. Any dice bonus, action-economy change, reach effect, concealability ruling, damage threshold, or arm-disabled condition requires explicit GM confirmation.
 
 ## Relationships
 
@@ -147,12 +159,12 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 ## Active Projects
 
-- [Backpack Arms Build](Curtis-Backpack-Arms-Build.md) — GM-approved 14-day Drone Shift diversion track for a retractable six-arm wearable tool/combat-support rig; expected total project spend is roughly **28,000-45,000¥**, and no permanent gear benefit applies until Day 14 final GM acceptance plus a finalized gear entry and usage guide.
+- [Backpack Arms Build](Curtis-Backpack-Arms-Build.md) — completed GM-approved 14-day Drone Shift diversion track for a retractable six-arm wearable utility rig. Final accepted project spend is **29,050¥**; approved scope is conservative light tool work only.
 - [Dolphin and Hurricane Seal Habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) — buildout tracker for Core 7 and his seal friends.
 
 ## Drone Shift
 
-- [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) rotates daily downtime Work Orders. Until the Backpack Arms Build is complete or the GM changes priority, daily posts should advance that 14-day project one meaningful fabrication step at a time. Completed routine reports stay logged and small routine nuyen deltas are applied to Curtis's running total; Backpack Arms reports may apply larger GM-approved project-spend deltas to Curtis's running nuyen and project log. Missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; permanent drone/vehicle/equipment/combat/stat changes still require Day 14 final GM acceptance.
+- [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) rotates daily downtime Work Orders. The Backpack Arms diversion track completed on 2026-08-05 with final conservative tool-rig acceptance; completed routine reports stay logged and small routine nuyen deltas are applied to Curtis's running total. Missed/untouched copies are discarded with no nuyen movement, no drone state change, and no penalty; permanent drone/vehicle/equipment/combat/stat changes still require GM confirmation.
 
 ### Completed Work Orders
 
@@ -190,6 +202,8 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - **2026-07-31 — Backpack Arms Build Day 10: Single-Arm Lift Test**: Curtis completed the tenth day of the GM-approved Backpack Arms 14-day diversion track as a solid repair. Final report logged **-2,200¥** project spend and **Maintenance Quality 4** after fixturing the first arm safely, setting a conservative torque ceiling that keeps the universal socket inside its comfort zone, reusing a ballast fixture that reads consistently enough for cautious testing, running the single-arm lift, buying fresh bushings after the wrist twitched on release, flagging the safe-load number as strict until Day 14 review, and writing a clear Day 10 safe-load card. Follow-up note: conservative torque lowers risk and final approval friction but locks the first safe-load note to light tool work unless Day 14 GM acceptance expands it; reused shop ballast kept spend down but requires rechecking the safe-load witness after rough use; Day 11 three-arm side assembly should preserve the square first-arm fixture, visible socket labels, safety-stop discipline, conservative lift envelope, strict safe-load number, socket warning, side-assembly balance note, manual socket sequencing, and strict final load-limit language; no permanent Backpack Arms gear, combat, or stat benefit applies until Day 14 final GM acceptance.
 
 - **2026-08-02 — Backpack Arms Build Day 13: Wear-and-Snag Test**: Curtis completed the thirteenth day of the GM-approved Backpack Arms 14-day diversion track as a solid repair after the untouched Day 12 mirror-side replication ticket rotated out with no spend, bonus, or penalty. Final report logged **-3,250¥** project spend and **Maintenance Quality 4** after hanging the carry mockup square enough to test without pulling Curtis sideways, keeping the safety stops reachable, tuning for comfortable daily carry, lowering and calming the harness with fewer shoulder hot spots, buying documented lined sleeves and edge guards, failing the hallway snag test when the pack caught a rag strip and scuffed a socket cap, buying replacement guards, and writing a clean Day 13 wear card. Follow-up note: comfortable daily carry lowered the hallway snag-test TN by 1 and improves final wear-limit language, but slower deployment sequencing remains unless Day 14 approves otherwise; documented sleeves and edge guards also lowered the hallway snag-test TN by 1 and give Day 14 cleaner repair and maintenance paperwork; the failed snag lane preserves strict folded-carry limitations unless Day 14 GM acceptance expands them; no permanent Backpack Arms gear, combat, or stat benefit applies until Day 14 final GM acceptance.
+
+- **2026-08-05 — Backpack Arms Build Day 14: Load Card and Use Limits**: Curtis completed the final day of the GM-approved Backpack Arms 14-day diversion track as a solid repair / final acceptance. Final report logged **-4,850¥** project spend and **Maintenance Quality 5** after rebuilding the acceptance packet, choosing conservative light tool-work approval, buying final safety spares, passing the final cycle only after a snag and socket reset, buying replacement guards, writing stricter folded-carry limits, and finishing the player-facing usage guide. Follow-up note: the rig is accepted as conservative light utility gear only; no extra natural limbs, extra attacks, combat reach, free bracing, autonomous combat effects, or combat end-effectors apply unless the GM later expands approval.
 
 </details>
 

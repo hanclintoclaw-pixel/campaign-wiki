@@ -2,10 +2,11 @@
 title: Curtis Backpack Arms Build
 type: project
 visibility: player-safe
-status: active
+status: completed
 owner: Curtis
 started: 2026-07-24
-canon_status: gm-approved-build-track
+completed: 2026-08-05
+canon_status: finalized-conservative-tool-rig
 confidence: high
 tags: [pc, curtis, drone-shift, wearable-gear, fabrication]
 sources:
@@ -26,13 +27,14 @@ sources:
   - Curtis Backpack Arms Build Day 13 report, 2026-08-02
   - Prior Day 14 work order discarded untouched, 2026-08-04
   - Prior Day 14 work order discarded untouched, 2026-08-05
+  - Curtis Backpack Arms Build Day 14 final acceptance report, 2026-08-05
 ---
 
 # Curtis Backpack Arms Build
 
-Curtis is beginning a **GM-approved 14-day Drone Shift diversion track** to build a wearable retractable backpack rig with six compact mechanical arms: three per side, spidered off a central backplate, folding down into a small backpack profile, and carrying swappable tool or light-combat end effectors.
+Curtis completed a **GM-approved 14-day Drone Shift diversion track** to build a wearable retractable backpack rig with six compact mechanical arms: three per side, spidered off a central backplate, folding down into a small backpack profile, and carrying swappable light tool end effectors.
 
-The attached concept shows a compact metal spine/backpack with a shoulder-and-waist harness, six articulated arms, quick-change tool tips, and a folded carry profile. The campaign version should be garage-built, wearable for long periods, light enough to carry, strong enough for useful tool work, and safe enough not to wrench Curtis's spine sideways the first time an arm catches a doorframe.
+The attached concept shows a compact metal spine/backpack with a shoulder-and-waist harness, six articulated arms, quick-change tool tips, and a folded carry profile. The campaign version is garage-built, wearable for long periods, light enough to carry, strong enough for conservative light tool work, and limited tightly enough not to wrench Curtis's spine sideways the first time an arm catches a doorframe.
 
 ## Build Budget And Tone
 
@@ -47,7 +49,7 @@ Daily work orders should include real choices and visible costs. Cheaper salvage
 - **Retractable:** each arm must fold or nest into a locked backpack profile before any combat/tool rating is considered.
 - **Tool before weapon:** first working functions are clamps, probes, drivers, cutters, and stabilizers. Blades or combat striking require final GM approval.
 - **No free cyberware:** this is external wearable equipment, not extra natural limbs, extra cyberlimbs, or automatic extra attacks.
-- **Final acceptance gate:** no permanent equipment rating, combat modifier, drone-dashboard state, or sheet benefit applies until the Day 14 final acceptance report is approved and Curtis's page is updated with the finalized gear and usage guide.
+- **Final acceptance result:** Day 14 accepted the rig as conservative light utility gear only. No combat modifier, extra limb/attack effect, drone-dashboard state, or broader sheet benefit applies without later GM confirmation.
 
 ## Daily Ingest Triggers
 
@@ -114,25 +116,23 @@ Daily Drone Shift work orders should pull from this sequence until the build is 
 - **Day 13/14 — 2026-08-02: Wear test and snag test completed.** Curtis spent **3,250¥** and finished at **Maintenance Quality 4 / Solid repair** after hanging the carry mockup square enough to test without pulling Curtis sideways, keeping the safety stops reachable, choosing a comfortable daily-carry wear profile, setting the harness lower and calmer with fewer shoulder hot spots, buying documented lined sleeves and edge guards, tagging the receipts for Day 14 acceptance, failing the hallway snag test when the pack caught the rag strip and scuffed a socket cap, buying replacement guards, marking Day 14 for strict folded-carry limitations, and writing a clean Day 13 wear card. Carry-forward: comfortable daily carry lowered the hallway snag-test TN by 1 and improves final wear-limit language, but the final usage guide must keep slower deployment sequencing unless Day 14 approves otherwise; documented sleeves and edge guards lowered the hallway snag-test TN by 1 and give Day 14 cleaner repair and maintenance paperwork. Day 14 should treat comfort, safety-stop reach, documented anti-snag hardware, and clean maintenance paperwork as useful acceptance support, but must preserve the slower-deployment limitation and strict folded-carry limits unless the GM approves otherwise; strict load/socket/manual-sequencing warnings remain in force, and the failed snag lane is the main final-limitations input. No permanent gear benefit applies yet.
 - **Prior Day 14 prompt — 2026-08-04: Final acceptance and usage guide discarded untouched.** The 2026-08-03 Drone Shift work order rotated out with no report submitted. No nuyen movement, no project spend, no drone/equipment/stat change, and no carry-forward bonus or penalty applies. Because Day 14 is the final acceptance gate, the active daily update remains a refreshed Day 14 acceptance prompt rather than advancing to completed gear.
 - **Prior Day 14 prompt — 2026-08-05: Acceptance bench and usage guide discarded untouched.** The 2026-08-04 Drone Shift work order rotated out with no report submitted. No nuyen movement, no project spend, no drone/equipment/stat change, and no carry-forward bonus or penalty applies. Because Day 14 is still the final acceptance gate, the active daily update remains a refreshed Day 14 prompt rather than advancing to completed gear.
+- **Day 14/14 — 2026-08-05: Load card and use limits completed.** Curtis spent **4,850¥** and finished at **Maintenance Quality 5 / Solid repair**. He rebuilt the acceptance packet so the warnings trace back to test notes, chose the conservative approval scope for believable light tool work, bought final safety spares and a maintenance kit, ran the final acceptance cycle, and wrote the finalized usage guide. The final cycle only passed after a snag and socket reset, so Curtis bought replacement guards and wrote stricter folded-carry limits. Final acceptance scope: the Backpack Arms rig is accepted as conservative light utility gear only; no extra natural limbs, extra attacks, combat reach, or combat end-effectors apply unless the GM later expands the approval.
 
 ## Current Track State
 
-- **Completed:** Day 1/14 — Load-path sketch and material coupons; Day 2/14 — Backplate and hip-belt skeleton; Day 4/14 — Arm segment pattern; Day 6/14 — Retraction rails and lock detents; Day 7/14 — Actuator test mule; Day 8/14 — Power and control trunk; Day 9/14 — Quick-change wrist sockets; Day 10/14 — Single-arm lift and tool test; Day 13/14 — Wear test and snag test.
+- **Completed:** Day 1/14 — Load-path sketch and material coupons; Day 2/14 — Backplate and hip-belt skeleton; Day 4/14 — Arm segment pattern; Day 6/14 — Retraction rails and lock detents; Day 7/14 — Actuator test mule; Day 8/14 — Power and control trunk; Day 9/14 — Quick-change wrist sockets; Day 10/14 — Single-arm lift and tool test; Day 13/14 — Wear test and snag test; Day 14/14 — Load card and use limits.
 - **Discarded with no change/no penalty:** Day 3/14 — Folded-profile dummy pack rotated out untouched on 2026-07-26; Day 5/14 — Root joint cluster rotated out untouched on 2026-07-27; Day 11/14 — Three-arm side assembly rotated out untouched on 2026-08-01; Day 12/14 — Mirror-side replication rotated out untouched on 2026-08-02; prior Day 14/14 prompts rotated out untouched on 2026-08-04 and 2026-08-05. No nuyen movement, no drone/equipment/stat change, and no carry-forward bonus or penalty applies from those missed work orders.
-- **Current active daily update:** Day 14/14 — Load Card and Use Limits.
-- **Next queued daily update:** None; Day 14 is the final acceptance gate.
-- **Current project spend:** **24,200¥**.
-- **Carry-forward hooks:** aircraft aluminum salvage path; rail/frame tests should remember salvage-stock uncertainty, overbought bushings, two mystery-hole/no-drill areas, and one usable shoulder-to-hip rail profile. The fixed welded aluminum spine keeps the Day 2 service-access warning as fabrication color, but the discarded Day 3 folded-profile dummy pack, discarded Day 5 root-joint cluster, discarded Day 11 three-arm side assembly, and discarded Day 12 mirror-side replication add no project spend, no penalty, and no extra mechanical modifier. Day 4 selected light drilled links and a conservative reach envelope; Day 6 selected simple spring detents and a conservative rail stroke. Day 7 selected electric micro-servos with predictable throw, improving safety documentation, while the walked bracket tab keeps the light link flagged for closer fatigue inspection. Day 8 left clean, serviceable trunk lanes and clean safety cutoffs, but cheaper manual switches require slower sequencing, physical interlock discipline, and a stricter final usage warning. Day 9 caught the tight wrist envelope before socket cutting, selected universal wrist sockets for broad compatibility, preserved manual-switch/index labeling, and flagged one rocking wrist socket under dummy load. Day 10 held the first-arm fixture square, kept socket labels visible, set safety stops for a clean conservative starting envelope, chose a conservative torque ceiling, reused shop ballast, bought fresh bushings after wrist twitch on release, and wrote a defensible Day 10 safe-load card. Day 13 kept the carry mockup square, confirmed safety-stop reach, chose comfortable daily carry over aggressive deployment, reduced shoulder hot spots, bought documented lined sleeves and edge guards, tagged clean receipts for Day 14, failed the hallway snag test on a rag-strip catch and scuffed socket cap, bought replacement guards, and created a clean wear card. Comfortable daily carry and documented sleeves/edge guards each lowered the hallway snag-test TN by 1; the comfort choice improves final wear-limit language while preserving slower deployment sequencing unless Day 14 approves otherwise, and the documented hardware gives Day 14 cleaner repair and maintenance paperwork. Day 14 should use the Day 13 comfort result and failed snag lane as the main final-limitations input, preserve conservative torque and lift limits, socket-interlock discipline, visible manual sequencing, strict single-arm safe-load number, socket warning, side-assembly balance note, reused-ballast maintenance note, slower deployment, strict folded-carry limitations, manual lock checks, documented guard/sleeve maintenance, and stricter final load-limit language unless final GM acceptance explicitly expands them.
+- **Current active daily update:** None; the Day 14 final acceptance gate is complete.
+- **Next queued daily update:** None.
+- **Final project spend:** **29,050¥**.
+- **Final accepted scope:** conservative light tool-work utility rig. Strict folded-carry limits, slower manual deployment, socket-interlock discipline, visible manual sequencing, manual lock checks, conservative single-arm safe-load language, documented guard/sleeve maintenance, and post-snag/socket-reset inspections all remain in force.
 
-## Open Final-Gear Decisions
+## Final Gear Acceptance
 
-These are not blockers for daily work, but must be resolved by Day 14 acceptance:
-
-- Final total weight and concealability.
-- Whether combat end effectors are allowed, and if so what restrictions apply.
-- Whether any tool-use bonus, extra-action option, or reach benefit exists after final acceptance.
-- Whether the rig needs a dedicated control interface beyond manual switches and preset motions.
-- Repair threshold, maintenance interval, and what damage disables one arm versus the whole pack.
+- The rig is accepted as wearable utility gear for conservative light tool work only.
+- No extra natural limbs, extra attacks, combat reach, free bracing, autonomous combat effects, or combat end-effectors apply unless the GM later writes a separate expansion.
+- Any dice bonus, action-economy change, concealability ruling, damage threshold, or arm-disabled condition requires explicit GM confirmation.
+- Curtis's page now carries the active usage guide and final gear entry.
 
 ## Related
 
