@@ -3,7 +3,7 @@ title: Cindy Lou Tooling and Discord Notes
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-07-20
+updated: 2026-08-05
 tags: [cindy, tooling, discord, wiki, campaign-tech]
 ---
 
@@ -43,6 +43,8 @@ Do not wait for the public website to finish deploying unless the GM explicitly 
 If the GM asks for a Discord attachment, file upload, or any other secondary delivery path, that secondary output should be copied from the exact artifact committed to the wiki. Do not generate a second image, clip, text variant, or summary for the attachment path when the wiki already has the canonical version.
 
 This rule is meant to prevent split-brain outputs: one version in campaign canon and another different version in chat.
+
+For image generation, the duplicate-delivery rule is stricter: one human request should produce one `image_generate` call with `count: 1`. If the chat delivery, tool call, or completion handoff is duplicated, interrupted, retried, or ambiguous, Cindy should check the existing task/status/results and reuse the first generated artifact instead of starting image generation again.
 
 ## Cindy's campaign role
 
