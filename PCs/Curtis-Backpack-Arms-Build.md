@@ -28,6 +28,7 @@ sources:
   - Prior Day 14 work order discarded untouched, 2026-08-04
   - Prior Day 14 work order discarded untouched, 2026-08-05
   - Curtis Backpack Arms Build Day 14 final acceptance report, 2026-08-05
+  - Generated Curtis Backpack Arms rig art, 2026-08-05
 ---
 
 # Curtis Backpack Arms Build
@@ -35,6 +36,12 @@ sources:
 Curtis completed a **GM-approved 14-day Drone Shift diversion track** to build a wearable retractable backpack rig with six compact mechanical arms: three per side, spidered off a central backplate, folding down into a small backpack profile, and carrying swappable light tool end effectors.
 
 The attached concept shows a compact metal spine/backpack with a shoulder-and-waist harness, six articulated arms, quick-change tool tips, and a folded carry profile. The campaign version is garage-built, wearable for long periods, light enough to carry, strong enough for conservative light tool work, and limited tightly enough not to wrench Curtis's spine sideways the first time an arm catches a doorframe.
+
+## Final Rig Art
+
+![Curtis wearing the completed Backpack Arms rig](../assets/images/Curtis-Backpack-Arms-Rig-2026-08-05.png)
+
+_Generated campaign concept art of Curtis wearing the finalized Backpack Arms rig: six compact utility arms on a shoulder-and-waist backpack harness, conservative light tool tips, visible safety cutoffs, labeled sockets, and no combat extra-action effect._
 
 ## Build Budget And Tone
 

@@ -30,6 +30,7 @@ sources:
   - Discord request to begin explicit Curtis Karma tracking at 40 Karma, 2026-08-05
   - Discord request to buy Mech Bladed Weapons 4 for Curtis, 2026-08-05
   - Discord request to mark Curtis dolphin/seal habitat finished, 2026-08-05
+  - Generated Curtis Backpack Arms rig art, 2026-08-05
 ---
 
 # Curtis
@@ -149,6 +150,8 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - [Backpack Arms rig](Curtis-Backpack-Arms-Build.md) — finalized wearable six-arm backpack utility rig for conservative light tool work; strict folded-carry, slow-deploy, socket, load, and maintenance limits apply.
 
 ### Backpack Arms Usage Guide
+
+![Curtis wearing the completed Backpack Arms rig](../assets/images/Curtis-Backpack-Arms-Rig-2026-08-05.png)
 
 Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for conservative light tool work, not cyberware and not a combat extra-action system. The final build cost was **29,050¥** across the Drone Shift project track.
 
