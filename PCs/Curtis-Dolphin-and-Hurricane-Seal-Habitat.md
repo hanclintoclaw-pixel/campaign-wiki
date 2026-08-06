@@ -2,8 +2,9 @@
 title: Curtis Dolphin and Hurricane Seal Habitat
 type: project-note
 visibility: player-safe
-status: active
-updated: 2026-07-31
+status: completed
+updated: 2026-08-05
+completed: 2026-08-05
 owner: Curtis
 contributors:
   - Ace Malone
@@ -17,13 +18,14 @@ sources:
   - Ace Malone transport-planning clarification in Discord on 2026-06-22
   - JackalMoreau request for Mevin support plan in Discord on 2026-07-10
   - Session 2026-07-30
+  - Discord request to mark habitat finished, 2026-08-05
 ---
 
 # Curtis Dolphin and Hurricane Seal Habitat
 
 ## Overview
 
-Tracking the design and buildout of a dolphin and hurricane seal habitat for Core 7 and his seal friends.
+Tracking the finished dolphin and hurricane seal habitat for Core 7 and his seal friends.
 
 ## Concept Art
 
@@ -52,11 +54,11 @@ _Top-down gridded map of the planned compound-lot habitat, with tank zones, stor
 
 ## Current Status
 
-- Project page created
-- Initial concept established: shared habitat for **Core 7** and his seal friends
-- Confirmed build site: **adjacent lot at [Taco's Garage and Workshop](../Locations/Tacos-Garage-and-Workshop.md)**, at **216-226 Thompson Ln, Nashville, TN 37211**, on land rather than shoreline
-- New critical constraint: relocation must be covert and safe because **Core 7/Cor7 is heavily chromed, machine-connected, and as much machine as dolphin**, while the hurricane seals are also enhanced animals rather than ordinary marine cargo
-- Detailed build requirements still to be defined
+- **Finished status:** habitat build is complete as of 2026-08-05.
+- Initial concept established: shared habitat for **Core 7** and his seal friends.
+- Confirmed build site: **adjacent lot at [Taco's Garage and Workshop](../Locations/Tacos-Garage-and-Workshop.md)**, at **216-226 Thompson Ln, Nashville, TN 37211**, on land rather than shoreline.
+- Final build outcome: the habitat is mostly functional from the Day 25 acceptance pass and completed after the extra finish work. It has usable water loops, alarms, creature zones, maintenance lanes, Matrix monitor feeds, storm-proofing, and feed/medical support.
+- Continuing operating constraint: relocation must be covert and safe because **Core 7/Cor7 is heavily chromed, machine-connected, and as much machine as dolphin**, while the hurricane seals are also enhanced animals rather than ordinary marine cargo.
 - The recovered Site 7 hardware/data now supports Core 7 communicating through or near CLJ, giving Mevin and Cindy Lou a channel for Matrix-profile follow-up on the Scarred Man / Dead Soldier lead.
 
 ## Build Notes
@@ -83,11 +85,11 @@ Curtis should not plan this as a simple animal pickup. Moving Core 7/Cor7 and th
 ### To-do
 
 - [x] Define the intended location — adjacent lot at [Taco's Garage and Workshop](../Locations/Tacos-Garage-and-Workshop.md), 216-226 Thompson Ln, Nashville, TN 37211 (land build, no shoreline)
-- [ ] Define size and major enclosure zones
+- [x] Define size and major enclosure zones
 - [x] List environmental controls and support systems
-- [ ] Record materials, costs, and labor needs
+- [x] Record materials, costs, and labor needs
 - [x] Plan covert transport, life-support, and machine-interface stabilization for Core 7/Cor7 and the enhanced seals
-- [ ] Track build milestones and changes
+- [x] Track build milestones and changes
 
 ## Mevin Support Track
 
@@ -294,6 +296,7 @@ Then apply the side tracks:
 - **2026-06-26** — Logged Day 22 leak, fault, and weak-point sweep at 3 primary / 3 support (+3 PP, -2 CP), bringing totals to PP 43, CP -4, QE 6, provisional extra days +1.
 - **2026-06-27** — Logged Day 23 soft launch for systems integration at 2 primary / 2 support (+3 PP), bringing totals to PP 46, CP -4, QE 6, provisional extra days +1.
 - **2026-06-29** — Logged Day 24 emergency drills and contingency patching at 1 primary / 3 support (+1 PP), bringing totals to PP 47, CP -4, QE 6, provisional extra days +1.
+- **2026-08-05** — Marked the habitat finished. The Day 25 acceptance result remains the final build record: PP 49, CP -4, QE 6, mostly functional with 3 extra finish days required and now completed.
 - **2026-06-29** — Logged Day 25 final acceptance day at 2 primary / 2 support (+2 PP), bringing scheduled totals to PP 49, CP -4, QE 6; final 44-49 PP outcome roll added 2 extra days, for 3 extra finish days total including the unrecovered Day 21 provisional overrun.
 - **2026-06-23** — Replaced the open questions with settled habitat requirements: permanent base, open storm-proofed water, Matrix monitor feed, chrome-maintenance medical support, and no magical requirement.
 - **2026-06-21** — Logged Day 17 sensors, monitors, and warning systems at 3 primary / 3 support (+3 PP, -1 CP, +1 QE), initially leaving Days 13-14 pending.

@@ -29,6 +29,7 @@ sources:
   - Curtis Backpack Arms Build Day 14 final acceptance report, 2026-08-05
   - Discord request to begin explicit Curtis Karma tracking at 40 Karma, 2026-08-05
   - Discord request to buy Mech Bladed Weapons 4 for Curtis, 2026-08-05
+  - Discord request to mark Curtis dolphin/seal habitat finished, 2026-08-05
 ---
 
 # Curtis
@@ -115,7 +116,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Current tracked Karma: **25 Karma**.
 - Current tracked nuyen: **4,365¥**.
 - Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16; **Backpack Arms rig** finalized 2026-08-05 for conservative light tool work only.
-- He is actively building a **dolphin and hurricane seal habitat** for the possible relocation/rescue of **Core 7** and the site's other aquatic creatures.
+- He finished the [dolphin and hurricane seal habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) for **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
 - During the 2066-05-09 interlude, Curtis backed Kurgan on the **Righteous Haze** job, using **Grandpa** as the lure/extraction vehicle.
 - Curtis earned **4 Karma** and **5,000¥ total payout / recovered value** from the Righteous Haze interlude.
@@ -162,10 +163,10 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 - Linked to [Taco](../NPCs/Taco.md).
 - Linked to the crew's mobility, drone, and extraction infrastructure.
 
-## Active Projects
+## Projects
 
 - [Backpack Arms Build](Curtis-Backpack-Arms-Build.md) — completed GM-approved 14-day Drone Shift diversion track for a retractable six-arm wearable utility rig. Final accepted project spend is **29,050¥**; approved scope is conservative light tool work only.
-- [Dolphin and Hurricane Seal Habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) — buildout tracker for Core 7 and his seal friends.
+- [Dolphin and Hurricane Seal Habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) — finished habitat for Core 7 and his seal friends at Taco's compound, with storm-proofed water, Matrix monitor feeds, maintenance access, and covert-relocation constraints preserved.
 
 ## Drone Shift
 
