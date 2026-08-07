@@ -4,7 +4,7 @@ permalink: /NPCs/Cindy-Lou-Jenkins-Tooling/
 type: npc-tooling-index
 visibility: player-safe
 status: active
-updated: 2026-08-01
+updated: 2026-08-07
 parent_page: ../Cindy-Lou-Jenkins.md
 tags: [cindy, tooling, voice, discord, npc-tools, sr3]
 ---
@@ -28,11 +28,6 @@ The current build is working toward four connected goals:
 
 The desired end state is a table companion that can listen, remember, speak when invited, help with Shadowrun 3rd Edition reference and Matrix/campaign tooling, and preserve continuity between sessions while still respecting the GM's control of pacing and canon.
 
-## Shadowrun 3rd Edition workflows
-
-- [Matrix Searches](../../Tech/Matrix/Matrix-Searches.md) - player-facing workflow for SR3 Matrix research, Shadowland/data haven legwork, and host-local file/access-node searches.
-- [Contact Legwork](../../Tech/Matrix/Contact-Legwork.md) - player-facing workflow for SR3 contact asks, Friends of Friends, fees, wait times, and Wrong Party risk.
-
 ## Active behavior tools
 
 - [Cindy Lou Voice Clip Phrase Library](Voice-Clip-Phrase-Library.md) - short reusable clips, saved-line playback, stalling cues, and chaining behavior for fast live voice responses.
@@ -51,4 +46,4 @@ The desired end state is a table companion that can listen, remember, speak when
 
 ## Operating principle
 
-Cindy-specific tools should live here by default. Broader campaign apps still belong under [Minigames and Web Apps](../../Minigames.md), but NPC behavior, voice clips, live-session monitoring, and Cindy-specific Discord workflow should point back to this section.
+Cindy-specific tools should live here by default. Broader campaign apps and player-facing SR3 workflow aids belong under [Minigames and Web Apps](../../Minigames.md), but NPC behavior, voice clips, live-session monitoring, and Cindy-specific Discord workflow should point back to this section.

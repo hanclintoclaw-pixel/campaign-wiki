@@ -2,7 +2,7 @@
 title: Minigames and Web Apps
 type: index
 visibility: player-safe
-updated: 2026-08-01
+updated: 2026-08-07
 ---
 
 # Minigames and Web Apps
@@ -31,6 +31,15 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 - [Matrix Search Guide](https://hanclintoclaw-pixel.github.io/matrix-search-guide/) - SR3 Matrix search workflow tool for choosing search paths, applying canon modifiers, and producing a GM-facing result report.
 - [Contact Legwork Guide](https://hanclintoclaw-pixel.github.io/contact-legwork-guide/) - SR3 in-session contact workflow tool for contact knowledge, costs, Friends of Friends, wait times, Wrong Party risk, and GM-ruling prompts.
 - [Spell Guide](https://hanclintoclaw-pixel.github.io/spell-guide/) - SR3 spell catalogue and Sorcery/Conjuring roll aid with a cybermystic UI shell.
+
+## SR3 workflow aids
+
+These are player-facing table procedures, with guided web-app versions where available.
+
+- [Matrix Searches](Tech/Matrix/Matrix-Searches.md) - SR3 workflow for Matrix research, Shadowland/data haven legwork, and host-local file/access-node searches.
+- [Matrix Search Guide](https://hanclintoclaw-pixel.github.io/matrix-search-guide/) - guided worksheet app for Matrix search paths, canon modifiers, and GM-facing result reports.
+- [Contact Legwork](Tech/Matrix/Contact-Legwork.md) - SR3 workflow for contact asks, Friends of Friends, fees, wait times, and Wrong Party risk.
+- [Contact Legwork Guide](https://hanclintoclaw-pixel.github.io/contact-legwork-guide/) - guided worksheet app for contact knowledge, costs, FOF routing, wait times, and GM-ruling prompts.
 
 ## Cindy Lou Tooling
 
