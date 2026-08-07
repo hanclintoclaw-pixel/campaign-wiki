@@ -30,6 +30,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 - [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) - branching cyber-dungeon crawl that syncs Deck Manager state and pulls wiki host profile JSON.
 - [Matrix Search Guide](https://hanclintoclaw-pixel.github.io/matrix-search-guide/) - SR3 Matrix search workflow tool for choosing search paths, applying canon modifiers, and producing a GM-facing result report.
 - [Contact Legwork Guide](https://hanclintoclaw-pixel.github.io/contact-legwork-guide/) - SR3 in-session contact workflow tool for contact knowledge, costs, Friends of Friends, wait times, Wrong Party risk, and GM-ruling prompts.
+- [Buying New Items Guide](https://hanclintoclaw-pixel.github.io/buying-new-items-guide/) - SR3 in-world purchasing workflow tool for Availability, Street Index, Negotiation, legality, wrong-party risk, pickup, and installation status.
 - [Spell Guide](https://hanclintoclaw-pixel.github.io/spell-guide/) - SR3 spell catalogue and Sorcery/Conjuring roll aid with a cybermystic UI shell.
 
 ## SR3 workflow aids
@@ -41,6 +42,7 @@ These are player-facing table procedures, with guided web-app versions where ava
 - [Contact Legwork](Tech/Matrix/Contact-Legwork.md) - SR3 workflow for contact asks, Friends of Friends, fees, wait times, and Wrong Party risk.
 - [Contact Legwork Guide](https://hanclintoclaw-pixel.github.io/contact-legwork-guide/) - guided worksheet app for contact knowledge, costs, FOF routing, wait times, and GM-ruling prompts.
 - [Buying New Items](Tech/Matrix/Buying-New-Items.md) - SR3 workflow for Availability, Street Index, contacts, negotiation, legality, wrong-party risk, pickup, and installation status.
+- [Buying New Items Guide](https://hanclintoclaw-pixel.github.io/buying-new-items-guide/) - guided worksheet app for in-world purchases using campaign nuyen.
 
 ## Cindy Lou Tooling
 
