@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-23
+last_updated_session: 2026-08-06
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -33,6 +33,7 @@ sources:
   - Discord request to mark Curtis dolphin/seal habitat finished, 2026-08-05
   - Generated Curtis Backpack Arms rig art, 2026-08-05
   - Discord request to set Curtis's Karma to 3, 2026-08-06
+  - ../Sessions/2026-08-06.md
 ---
 
 # Curtis
@@ -116,8 +117,8 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Current sheet-backed core stats: **BOD 4**, **QUI 6**, **STR 5**, **CHA 1**, **INT 6**, **WIL 5**, **Essence 1.84**, **Reaction 5**, **Initiative 5+1D6**, **Magic -**.
 - Key crew tags: **Very Short**, **Ex-Caribbean Smuggler**.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
-- Current tracked Karma: **3 Karma**.
-- Current tracked nuyen: **4,365¥**.
+- Current tracked Karma: **10 Karma** after the 2026-08-06 session award.
+- Current tracked nuyen: **4,365¥**, before any GM-confirmed scorpion-drone recovery project costs.
 - Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16; **Backpack Arms rig** finalized 2026-08-05 for conservative light tool work only.
 - He finished the [dolphin and hurricane seal habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) for **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
@@ -125,19 +126,21 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Curtis earned **4 Karma** and **5,000¥ total payout / recovered value** from the Righteous Haze interlude.
 - During the Pixel Sticks investigation at Happy Cat, Curtis used Belmont to spot suspicious roof equipment, identified the laser modem path into the neighboring arkoblock, paid the 100¥ store-membership shakedown, and used Mr. Clean to unlatch a sealed stairwell barricade from the inside.
 - During the 2026-07-23 21st-floor breach, Curtis helped interpret and manipulate the scorpion combat drone's control setup with Mevin, added the crew to the whitelist, repaired/reactivated the sealed elevator enough for escape, and later wanted to search for Matrix/news sightings of Chunky Sparkles.
+- During the 2026-08-06 player-driven follow-up, Curtis tracked and recovered the damaged Pixel Sticks scorpion drone with Kurgan, used Belmont and The Finisher during the Highwaymen fight, and accepted the drone as a long-term staged rebuild / nuyen-sink project rather than an immediate asset.
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** **3 Karma** after 2026-08-06 Discord request.
-- **Known current nuyen:** **4,365¥**.
+- **Known current Karma:** **10 Karma** after the 2026-08-06 session award.
+- **Known current nuyen:** **4,365¥**, before any GM-confirmed scorpion-drone recovery project costs.
 
 <details markdown="1">
 <summary>Show Karma and nuyen history</summary>
 
-- **Current Karma history:** **40 Karma** tracking baseline set on 2026-08-05 by Discord request; **-15 Karma** spent on 2026-08-05 to buy **Mech Bladed Weapons 4**, leaving **25 Karma**; **-12 Karma** spent on 2026-08-05 to raise **Intelligence from 5 to 6**, leaving **13 Karma**; current Karma set to **3 Karma** by Discord request on 2026-08-06. Earlier wiki-tracked awards remain listed below as provenance, but the running count starts from the explicit 40-Karma baseline.
+- **Current Karma history:** **40 Karma** tracking baseline set on 2026-08-05 by Discord request; **-15 Karma** spent on 2026-08-05 to buy **Mech Bladed Weapons 4**, leaving **25 Karma**; **-12 Karma** spent on 2026-08-05 to raise **Intelligence from 5 to 6**, leaving **13 Karma**; current Karma set to **3 Karma** by Discord request on 2026-08-06; **+7 Karma** awarded for Session 2026-08-06, leaving **10 Karma**. Earlier wiki-tracked awards remain listed below as provenance, but the running count starts from the explicit 40-Karma baseline.
 - **Current nuyen history:** **210¥** after retrofit spending, then **+450¥** added on 2026-04-30, **+5,000¥** added and **-5,000¥** spent on Grandpa's morphing license plate on 2026-06-26, **+5,000¥** from a side mission with unretro, **-2,700¥** for a Rating 3 aquatic filtration / marine life-support knowsoft, **+15,000¥** from the Griswell / Alvin / Palermo job on 2026-07-02, **+180¥** net from completed Curtis Drone Shift Work Orders, **-10,800¥** for Grandpa's GM-approved flood rescue / short-dunk package on 2026-07-16, **-3,500¥** for Grandpa's crash cage on 2026-07-16, **-3,200¥** for Grandpa's flood ballast kit on 2026-07-16, **-475¥** for a Defiance Super Shock taser plus concealable holster on 2026-07-16, **-20¥** for Mr. Clean's climbing cleat kit on 2026-07-16, **-10¥** for 5 cans of SPAM on 2026-07-16, **+28,780¥** net from the Saab Dynamit 778 TI sale after Taco's cut and Finisher ammunition restock on 2026-07-19, **-3,000¥** in thank-you cuts to Mevin, Valgaut, and Kurgan for helping boost the car on 2026-07-19, **+15,000¥** from the Pixel Sticks / Military-Grade Utilities payout on 2026-07-23, **-1,300¥** Backpack Arms Build Day 1 project spend on 2026-07-24, **-1,600¥** Backpack Arms Build Day 2 project spend on 2026-07-25, **-3,000¥** Backpack Arms Build Day 4 project spend on 2026-07-26, **-2,900¥** Backpack Arms Build Day 6 project spend on 2026-07-27, **-4,150¥** Backpack Arms Build Day 7 project spend on 2026-07-28, **-3,000¥** Backpack Arms Build Day 8 project spend on 2026-07-29, **-2,800¥** Backpack Arms Build Day 9 project spend on 2026-07-30, **-2,200¥** Backpack Arms Build Day 10 project spend on 2026-07-31, **-3,250¥** Backpack Arms Build Day 13 project spend on 2026-08-02, **-7,500¥** for Grandpa's Photovoltaic Chameleon Paint kit and install on 2026-08-02, and **-4,850¥** Backpack Arms Build Day 14 final acceptance project spend on 2026-08-05.
 - **2026-06-25 — Righteous Haze interlude:** **+4 Karma**, **+5,000¥** total payout / recovered value.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
+- **2026-08-06 — Scorpion drone recovery:** **+7 Karma**, no nuyen payout recorded; recovered the damaged scorpion drone as a long-term project.
 
 </details>
 
@@ -225,6 +228,7 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 - 2026-07-16 — supported the Happy Cat / Vernon Winfrey arkoblock investigation with Belmont roof surveillance, laser-modem analysis, and Mr. Clean barricade bypass.
 - 2026-07-19 — [fenced the found Saab Dynamit 778 TI](../Sessions/2026-07-19-mini-saab-dynamit-sale.md) through Taco's buyer network, paid Taco's 10% cut, restocked Finisher's spent SMG ammunition, netted **+28,780¥**, then paid **1,000¥** each to Mevin, Valgaut, and Kurgan as thank-you cuts.
 - 2026-07-23 — helped manipulate the Pixel Sticks scorpion drone whitelist, got the sealed elevator working for the crew's escape, earned **7 Karma** plus **15,000¥**, and flagged tracking the drone / Chunky Sparkles aftermath as a possible follow-up.
+- 2026-08-06 — tracked the escaped scorpion drone with Kurgan, bought the needed remote-control encryption/decryption support through Taco, used Belmont and The Finisher against returning South Side Highwaymen, recovered the damaged drone, and earned **7 Karma**.
 
 ## Sheet Snapshot
 

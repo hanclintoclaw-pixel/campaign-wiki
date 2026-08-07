@@ -3,7 +3,7 @@ title: Kurgan
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-23
+last_updated_session: 2026-08-06
 canon_status: provisional
 confidence: medium
 tags: [pc, cyber-samurai, active-crew]
@@ -12,6 +12,7 @@ sources:
   - ../Sessions/2026-06-25.md
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
+  - ../Sessions/2026-08-06.md
 ---
 
 # Kurgan
@@ -32,14 +33,16 @@ Active player character and the crew's cyber-samurai.
 - Kurgan earned **4 Karma** and **5,000¥ total payout / recovered value** from the Righteous Haze interlude.
 - During the Pixel Sticks investigation, Kurgan recognized **Chunky Sparkles** inside Happy Cat and later led the crew's stairwell approach through the Vernon Winfrey arkoblock.
 - During the 2026-07-23 21st-floor breach, Kurgan helped shape the deception/hard-entry plan, managed the room-clearing pressure, used a hostile youth as a shield during the escape, and helped the crew get out through the elevator.
+- During the 2026-08-06 player-driven follow-up, Kurgan used Glenn and Herrick as fallout contacts, scouted the damaged scorpion drone in South Side Highwaymen territory, maintained the close stakeout, and stayed hidden through the recovery fight.
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** at least **11 Karma** from currently tracked wiki events, plus any earlier untracked balance.
+- **Known current Karma:** at least **18 Karma** from currently tracked wiki events, plus any earlier untracked balance.
 - **Known current nuyen:** at least **21,000¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-06-25 — Righteous Haze interlude:** **+4 Karma**, **+5,000¥** total payout / recovered value.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
+- **2026-08-06 — Scorpion drone recovery:** **+7 Karma**, no nuyen payout recorded.
 
 ## Relationships
 
@@ -52,6 +55,7 @@ Active player character and the crew's cyber-samurai.
 - 2026-06-25 — partial-party canon interlude with Curtis; solved the mayor's Righteous Haze problem and advanced Kurgan's potential City Hall security/fixer role.
 - 2026-07-16 — recognized Chunky Sparkles, assessed the gang-controlled arkoblock approach, carried Curtis up the stairwell, and scouted the crew to the 21st-floor landing.
 - 2026-07-23 — led much of the 21st-floor tactical planning and escape posture, helped pressure the surviving Pixel Sticks members, and earned **7 Karma** plus **15,000¥**.
+- 2026-08-06 — helped trace the escaped scorpion drone, called Glenn and Herrick for fallout leads, identified South Side Highwaymen territory and tags, scouted the drone on foot, and earned **7 Karma**.
 
 ## Sources
 

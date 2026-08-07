@@ -4,7 +4,7 @@ type: arc
 visibility: player-safe
 status: active
 first_session: 2026-07-09
-last_updated_session: 2026-07-23
+last_updated_session: 2026-08-06
 canon_status: canon
 confidence: high
 tags: [arc, current-run, matrix, youth-gang, utilities, nashville]
@@ -12,6 +12,7 @@ sources:
   - Discord session thread 1524939834832064645
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
+  - ../Sessions/2026-08-06.md
 ---
 
 # Pixel Sticks / Military-Grade Utilities Run
@@ -24,7 +25,7 @@ The crew has accepted a deniable Matrix cleanup contract routed through **Ivan**
 
 The paid run is resolved but the fallout is not. In [Session 2026-07-23](../Sessions/2026-07-23.md), the crew breached the [Vernon Winfrey Arkoblock](../Locations/Vernon-Winfrey-Arkoblock.md) 21st-floor Pixel Sticks space, disrupted the cell, recovered used utilities, and received the full **60,000¥** payout from the Johnson-side handoff.
 
-The messy leftovers are now the real story: Mevin retained encrypted utility/paydata material for later work with Cindy Lou, the crew added themselves to a high-end scorpion combat drone's whitelist before triggering it as escape-cover, and that drone was last seen fighting Chunky Sparkles during the crew's elevator escape.
+The messy leftovers are now the real story: Mevin retained encrypted utility/paydata material for later work with Cindy Lou, the crew added themselves to a high-end scorpion combat drone's whitelist before triggering it as escape-cover, and that drone later fled the arkoblock battle. In [Session 2026-08-06](../Sessions/2026-08-06.md), Curtis and Kurgan recovered the badly damaged drone from **South Side Highwaymen** territory after a two-day stakeout and a go-ganger fight.
 
 ## Known Contract Terms
 
@@ -53,13 +54,15 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - The upper-floor host terminal confirmed the physical side was nested through the Happy Cat host / laser-array path.
 - The used utilities were delivered for the recovery bonus, but Mevin retained encrypted utility/paydata material from the other room.
 - The cell had access to a high-end scorpion-like combat drone with a dangerous whitelist/go-nuts mode.
+- The scorpion drone survived the arkoblock aftermath, broke a police cordon under active camouflage, fled south toward old I-65 / 840 go-gang territory, and was recovered by Curtis and Kurgan in badly damaged condition.
+- Herrick confirmed someone sponsored the Pixel Sticks with high-end utilities, while unknown raiders or cleanup actors removed those utilities after the fight.
 
 ## Active Leads
 
 - Evaluate or crack Mevin's retained encrypted utility/paydata material.
-- Track the [Pixel Sticks Scorpion Drone](../Vehicles/Pixel-Sticks-Scorpion-Drone.md), if it survived.
-- Determine whether **Chunky Sparkles** survived and whether the crew is now on its bad side.
-- Identify the supplier/sponsor behind the utilities and drone hardware.
+- Diagnose, secure, or rebuild the recovered [Pixel Sticks Scorpion Drone](../Vehicles/Pixel-Sticks-Scorpion-Drone.md) without exposing the crew's biometric whitelist data.
+- Determine where **Chunky Sparkles** went after escaping Hidden Enforcers containment.
+- Identify the supplier/sponsor behind the utilities, ruthenium coating, and drone hardware.
 - Recover what was removed from the Johnson's dossier.
 - Preserve caution around proof-of-work, client identity, and whether the Johnson got everything they expected.
 
@@ -68,6 +71,7 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - [Session 2026-07-09](../Sessions/2026-07-09.md)
 - [Session 2026-07-16](../Sessions/2026-07-16.md)
 - [Session 2026-07-23](../Sessions/2026-07-23.md)
+- [Session 2026-08-06](../Sessions/2026-08-06.md)
 - [Pixel Sticks](../Factions/Pixel-Sticks.md)
 - [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md)
 - [Happy Cat Konpeki and Collectibles](../Locations/Happy-Cat-Konpeki-and-Collectibles.md)
@@ -84,7 +88,8 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - Are the Pixel Sticks pawns, thieves, test subjects, or a deliberate distraction?
 - What would the unedited monitoring data and Mevin's retained encrypted material reveal?
 - Is Chunky Sparkles at Happy Cat protection, coincidence, mascot, tenant, or threat?
-- What happened to the scorpion drone and Chunky Sparkles after the arkoblock shootout?
+- What traces, data, or usable hardware remain inside the recovered scorpion drone?
+- Where did Chunky Sparkles go after the arkoblock shootout and Hidden Enforcers response?
 - Does this run intersect with the broader citywide Matrix/influence-engine problem, or is it a separate local job?
 
 ## Sources
@@ -92,3 +97,4 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - Discord session thread 1524939834832064645
 - [Session 2026-07-16](../Sessions/2026-07-16.md)
 - [Session 2026-07-23](../Sessions/2026-07-23.md)
+- [Session 2026-08-06](../Sessions/2026-08-06.md)

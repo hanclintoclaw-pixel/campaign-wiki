@@ -2,14 +2,15 @@
 title: Pixel Sticks Scorpion Drone
 type: vehicle
 visibility: player-safe
-status: missing
+status: recovered-damaged
 first_session: 2026-07-23
-last_updated_session: 2026-07-23
+last_updated_session: 2026-08-06
 canon_status: canon
-confidence: medium
+confidence: high
 tags: [vehicle, drone, combat-drone, pixel-sticks, loose-asset]
 sources:
   - ../Sessions/2026-07-23.md
+  - ../Sessions/2026-08-06.md
 ---
 
 # Pixel Sticks Scorpion Drone
@@ -18,7 +19,9 @@ sources:
 
 The **Pixel Sticks scorpion drone** is a large, stylized combat drone found in the 21st-floor Pixel Sticks space inside the [Vernon Winfrey Arkoblock](../Locations/Vernon-Winfrey-Arkoblock.md). It looked like a showpiece security platform: scorpion-shaped, heavily armed, and built around an expensive robot brain capable of violent autonomous behavior.
 
-The crew did not cleanly capture it. Curtis and Mevin altered its whitelist, triggered its autonomous violence as escape-cover, and left it fighting [Chunky Sparkles](../NPCs/Chunky-Sparkles.md) and Lizzo Wells during the crew's elevator escape. Its current location and condition are unknown.
+The crew did not cleanly capture it during the 21st-floor breach. Curtis and Mevin altered its whitelist, triggered its autonomous violence as escape-cover, and left it fighting [Chunky Sparkles](../NPCs/Chunky-Sparkles.md) and Lizzo Wells during the crew's elevator escape.
+
+In [Session 2026-08-06](../Sessions/2026-08-06.md), Curtis and Kurgan tracked the drone south along the old I-65 / 840 corridor, found it badly damaged in **[South Side Highwaymen](../Factions/South-Side-Highwaymen.md)** territory, survived the returning go-ganger fight, and hauled the drone away. It is recovered but not operational; the table framed it as a long-term Curtis rebuild / nuyen sink rather than an immediate upgrade.
 
 ## Known Features
 
@@ -29,6 +32,8 @@ The crew did not cleanly capture it. Curtis and Mevin altered its whitelist, tri
 - High-end robot brain, likely worth hundreds of thousands of nuyen if intact.
 - Whitelist / do-not-kill list controlling who it spares during autonomous violence.
 - Dangerous go-nuts mode that threatens anyone not on the whitelist.
+- Ruthenium polymer active camouflage, now badly damaged / failing.
+- Deployable silver cyber-disks or road-denial modules; exact function not yet confirmed.
 
 ## Whitelist Details
 
@@ -50,17 +55,29 @@ During the escape, Mevin and Curtis added the crew to the whitelist. That may ke
 - Left fighting Chunky Sparkles as the crew fled by elevator.
 - Later news reported a major explosion/shootout at the arkoblock, but no confirmed destroyed drone wreck or Chunky Sparkles corpse.
 
+## Session 2026-08-06 Outcome
+
+- Broke through the police cordon after the arkoblock battle under active camouflage.
+- Fled south toward old I-65 / 840 go-gang territory.
+- Was identified as ruthenium-coated, corporate/military-grade hardware rather than ordinary gang gear.
+- Had apparently been calling for help or broadcasting for days without owner recovery.
+- Hid under debris with its cloak failing and silver disks deployed around nearby roadways.
+- Drew renewed attention from the **South Side Highwaymen**.
+- Survived the Highwaymen vehicle fight with support from Curtis's **Belmont** and **The Finisher**, but ended badly damaged and no longer cloaked.
+- Was recovered by Curtis as a long-term diagnostics / rebuild project.
+
 ## Open Questions
 
 - Who owns the drone?
 - Did the Pixel Sticks receive it, steal it, borrow it, or merely operate it for someone else?
-- Did it survive the fight with Chunky Sparkles?
+- What traces remain from its call-home signal or command history?
 - Does it still retain the crew's biometric whitelist data?
-- Can Curtis track, salvage, or neutralize it before it becomes a future problem?
+- Can Curtis safely rebuild, sanitize, or repurpose it before it becomes a future problem?
 
 ## Related Pages
 
 - [Session 2026-07-23](../Sessions/2026-07-23.md)
+- [Session 2026-08-06](../Sessions/2026-08-06.md)
 - [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md)
 - [Pixel Sticks](../Factions/Pixel-Sticks.md)
 - [Chunky Sparkles](../NPCs/Chunky-Sparkles.md)

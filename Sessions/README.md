@@ -46,6 +46,7 @@
 - [Mini-Run 2026-07-19 - Saab Dynamit Sale](2026-07-19-mini-saab-dynamit-sale.md)
 - [Session 2026-07-23](2026-07-23.md)
 - [Session 2026-07-30](2026-07-30.md)
+- [Session 2026-08-06](2026-08-06.md)
 - [Session 2061-11-14](2061-11-14.md)
 - [Session 2061-12-17](2061-12-17.md)
 - [Session 2062-01-20](2062-01-20.md)

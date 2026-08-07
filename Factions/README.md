@@ -2,6 +2,7 @@
 
 - [Lookout Mountain Collective](Lookout-Mountain-Collective.md)
 - [Pixel Sticks](Pixel-Sticks.md)
+- [South Side Highwaymen](South-Side-Highwaymen.md)
 - [The Princeps Group](The-Princeps-Group.md)
 - [SC Music](SC-Music.md)
 - [Ace Freelits](Ace-Freelits.md)
