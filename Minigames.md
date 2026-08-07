@@ -40,6 +40,7 @@ These are player-facing table procedures, with guided web-app versions where ava
 - [Matrix Search Guide](https://hanclintoclaw-pixel.github.io/matrix-search-guide/) - guided worksheet app for Matrix search paths, canon modifiers, and GM-facing result reports.
 - [Contact Legwork](Tech/Matrix/Contact-Legwork.md) - SR3 workflow for contact asks, Friends of Friends, fees, wait times, and Wrong Party risk.
 - [Contact Legwork Guide](https://hanclintoclaw-pixel.github.io/contact-legwork-guide/) - guided worksheet app for contact knowledge, costs, FOF routing, wait times, and GM-ruling prompts.
+- [Buying New Items](Tech/Matrix/Buying-New-Items.md) - SR3 workflow for Availability, Street Index, contacts, negotiation, legality, wrong-party risk, pickup, and installation status.
 
 ## Cindy Lou Tooling
 
