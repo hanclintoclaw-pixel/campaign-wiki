@@ -37,20 +37,18 @@ Drone Shift is currently a first-draft testing tool. It uses dummy Curtis skill 
 
 A final report can recommend a downtime note, nuyen delta, spare part, warning, or possible drone state implication. Small routine nuyen deltas should be applied to Curtis's running total when Cindy ingests the final report; larger payouts/penalties and permanent drone effects require GM confirmation.
 
-## Daily Work Order rotation
+## Daily Work Order reminder and progression
 
-A daily cron creates or rotates the active Work Order each morning at **7:00 AM America/New_York**.
+A daily cron pings Curtis/Ace in `#leeland` each morning at **8:00 AM America/Chicago** with the active Work Order and live link.
 
 Routine behavior:
 
-1. Retire the previous active Work Order.
-2. If no report was submitted, treat it as **Discarded / no change / no penalty**.
-3. Create the next named Work Order using a short descriptive title, without a `Tutorial N` prefix.
-4. Deploy the updated app.
-5. Ping Ace Malone in the designated Curtis/Ace channel with the Work Order title and live link.
-6. Announce the update in the originating Cindy thread.
+1. Keep the current active Work Order in the app until Curtis posts the copyable Morning Garage report/update in `#leeland`.
+2. Do not retire, discard, or advance the active project day just because a calendar day passed.
+3. When Curtis posts an accepted report, Cindy ingests the result, applies only permitted nuyen/notes, then advances the app to the next active Work Order and deploys it.
+4. Missed calendar days are **no change / no penalty** and do not stack debt or homework.
 
-This is explicitly a player-engagement prompt, not an obligation. Missed Work Orders should not stack, create debt, or punish the player.
+This is explicitly a player-engagement prompt, not an obligation. Project progress is report-gated, not time-gated.
 
 ### Current multi-day priority
 
@@ -174,6 +172,6 @@ Current limitations:
 - no automatic Drone Dashboard writeback;
 - no automatic campaign-memory ingestion until Curtis posts the final report and pings Cindy;
 - daily Work Order generation is still template-driven and may need manual tuning;
-- missed Work Orders are intentionally discarded rather than queued.
+- active project-day progression is intentionally gated on Curtis posting a Morning Garage report/update.
 
 The useful mental model is: **daily garage spotlight lane**. It gives Curtis a small, tactile workshop scene and a little nuyen/quality movement while leaving canon authority with the GM.

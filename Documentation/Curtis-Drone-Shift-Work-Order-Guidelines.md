@@ -170,15 +170,15 @@ Quality is an abstract tool rating, not a permanent drone stat. Use it to descri
 
 Follow-up TN tags such as **TN +1** are narrow continuity hooks for later related Work Orders. They should not become permanent drone stats, hidden applet penalties, or default live-session modifiers. Reuse them only when a future downtime job directly touches the same thrift-fit part, lingering vibration, reused gasket, or similar condition; during sessions, treat them as optional GM-facing color unless the GM explicitly applies the circumstance.
 
-## Discarding untouched work orders
+## Untouched work orders
 
-If the daily cron rotates a work order and the previous one was not completed or reported, mark it conceptually as:
+The daily reminder cron does not rotate or advance the active work order. If Curtis does not post a report/update, the active project day stays put and the missed calendar day is simply:
 
 ```text
-Discarded: no change, no nuyen movement, no drone state change, no penalty.
+No change: no nuyen movement, no drone state change, no penalty.
 ```
 
-Then remove it from the active app/page and publish the next named work order. Do not shame the player, stack missed jobs, or create debt from ignored prompts.
+Only replace or discard an untouched work order when the GM explicitly changes priority. Do not shame the player, stack missed jobs, or create debt from ignored prompts.
 
 ## Final report requirements
 
@@ -205,7 +205,7 @@ Cindy ingest note: Add this as a Curtis downtime/maintenance event. Apply small 
 When creating a new daily work order:
 
 1. Pick a short descriptive title that fits the specific shift; do not add a Tutorial number.
-2. Retire the previous active order as Discarded / no change / no penalty if no report was submitted.
+2. Confirm the prior active order has an accepted Curtis report before advancing the project day; otherwise keep the same active order unless the GM changes priority.
 3. Pick one asset or context: a drone, Grandpa, Taco's shop, salvage, customer repair, or field-prep task.
 4. Write a hook with one concrete sensory detail.
 5. Build 3-6 stages.
