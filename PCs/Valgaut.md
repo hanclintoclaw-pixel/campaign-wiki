@@ -3,7 +3,7 @@ title: Valgaut
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-24
+last_updated_session: 2026-08-13
 canon_status: current-sheet
 confidence: high
 tags: [pc, adept, active-crew]
@@ -15,6 +15,7 @@ sources:
   - Valgaut character sheet shared by player on 2026-06-04
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
+  - Discord GM fiat on 2026-08-13
   - SR3 Core Rulebook pp. 168-169, 244-245
   - ../Factions/Draco-Foundation/Wyrmwatch-Circle.md
   - ../Locations/Cairo-Testament-Annex.md
@@ -87,13 +88,14 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** **5 Karma** after Wyrmwatch Circle admission and Grade 1 group initiation with oath ordeal.
+- **Known current Karma:** **10 Karma** after GM fiat raised him to the Grade 2 group-initiation-with-ordeal threshold.
 - **Known current nuyen:** at least **16,000¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 - **2026-07-24 — GM bonus for rules/initiative push:** **+6 Karma**.
 - **2026-07-24 — Wyrmwatch Circle admission cost:** **-3 Karma**; admitted after **3 successes** on the Magic 6 vs TN 5 compatibility test.
 - **2026-07-24 — Wyrmwatch Circle Grade 1 initiation:** **-9 Karma** for group initiation with oath ordeal. Magic increased from 6 to 7, Initiate Grade became 1, and Valgaut gained **+1 adept Power Point**, spent on **Empathic Sense** and **Enhanced Perception 1**.
+- **2026-08-13 — GM fiat initiation catch-up:** **+5 Karma**, raising Valgaut from **5 Karma** to **10 Karma** so he has exactly enough for Grade 2 group initiation with an ordeal: `(5 + desired grade 2) x 1.5 = 10.5`, rounded down to **10 Karma**.
 
 ## Magical Knowledge Emphasis
 
