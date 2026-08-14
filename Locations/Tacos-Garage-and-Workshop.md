@@ -4,13 +4,14 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-05-28
-last_updated_session: 2026-07-03
+last_updated_session: 2026-08-13
 canon_status: canon
 confidence: high
 tags: [location, nashville, garage, workshop, salvage, dolphin-rescue]
 sources:
   - ../Sessions/2026-05-28.md
   - User-provided map address on 2026-07-03
+  - ../Sessions/2026-08-13.md
 ---
 
 # Taco's Garage and Workshop
@@ -31,6 +32,7 @@ Large vehicle repair, salvage, and workshop site run by **[Taco](../NPCs/Taco.md
 - Curtis is an ally and student of Taco, making this one of Curtis's most important logistics locations.
 - The site is the current player-safe mapped location for **Curtis's Dolphin Rescue** and related habitat preparation work.
 - By 2026-05-28, Taco's property was being considered as possible support infrastructure for a future **Core 7** dolphin relocation/rescue plan.
+- Taco previously kept **Chunky Sparkles** in an improvised field and planned to build a pen, but the creature flew away before he secured it properly.
 
 ## Relationships
 
@@ -41,13 +43,16 @@ Large vehicle repair, salvage, and workshop site run by **[Taco](../NPCs/Taco.md
 ## Relevant Sessions
 
 - 2026-05-28 — Taco's property surfaced as a practical logistics base for possible dolphin extraction planning.
+- 2026-08-13 — Taco admitted Chunky Sparkles had escaped from his improvised field containment before he built a real pen.
 
 ## Open Questions
 
 - What exact facilities are available on-site for aquatic life support?
 - How much of the dolphin rescue can happen at Taco's site versus requiring a specialized external facility?
+- Would Taco ever be trusted with awakened-creature containment again without a real pen, tracker, and handling plan?
 
 ## Sources
 
 - [Session 2026-05-28](../Sessions/2026-05-28.md)
 - User-provided map address on 2026-07-03
+- [Session 2026-08-13](../Sessions/2026-08-13.md)

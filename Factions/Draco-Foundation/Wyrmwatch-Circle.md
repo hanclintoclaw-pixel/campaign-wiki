@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 canon_status: provisional
 confidence: medium
-updated: 2026-07-24
+updated: 2026-08-14
 parent: Draco Foundation
 aliases:
   - Wyrmwatch Circle
@@ -16,6 +16,7 @@ sources:
   - ../Draco-Foundation.md
   - ../../PCs/Valgaut.md
   - ../../Locations/Cairo-Testament-Annex.md
+  - ../../Sessions/2026-08-13.md
   - SR3 Magic in the Shadows pp. 57-68
 ---
 
@@ -71,6 +72,12 @@ Recommended table path:
 6. **Recommended ordeal:** Oath or Deed. Oath binds him to the Circle's secrecy and stewardship; Deed requires a Foundation-approved field service.
 7. **Payoff:** if he completes Grade 1 normally, Magic rises from 6 to 7 and, as an adept, he gains **+1 Power Point**.
 
+### 2026-08-13 Chunky Sparkles Service
+
+Valgaut reported **[Chunky Sparkles](../../NPCs/Chunky-Sparkles.md)** to Wyrmwatch as an anomalous awakened creature tied to the recent Pixel Sticks fallout. The Circle treated locating, documenting, or ideally securing the creature as a deed-style service aligned with its stewardship mission.
+
+In [Session 2026-08-13](../../Sessions/2026-08-13.md), Valgaut led the crew to [Radnor Lake](../../Locations/Radnor-Lake.md), helped kill a regenerating gator-like awakened predator that threatened Chunky Sparkles, and lured Chunky Sparkles out using food and recovered command phrases. Wyrmwatch paid **20,000¥ total**, which Valgaut split evenly with the team. Player-safe status: the final handoff/drop-off was hand-waved as complete enough to count as Wyrmwatch service.
+
 ## Campaign Use
 
 Use Wyrmwatch when the campaign needs:
@@ -85,11 +92,15 @@ Use Wyrmwatch when the campaign needs:
 
 - Who is Valgaut's direct sponsor inside Wyrmwatch?
 - Does the Circle see Draco as inspiration, obligation, patron, or warning?
-- What deed would the Foundation consider sufficient for Valgaut's first ordeal?
-- What does Wyrmwatch already know about Chunky Sparkles and the recent Nashville awakened-creature weirdness?
+- What further service or oath will Wyrmwatch require from Valgaut after the Chunky Sparkles handoff?
+- What will Wyrmwatch do with Chunky Sparkles and the command-phrase information?
+- What does Wyrmwatch already know about the recent Nashville awakened-creature weirdness?
 
 ## Related Pages
 
 - [Draco Foundation](../Draco-Foundation.md)
 - [Cairo Testament Annex](../../Locations/Cairo-Testament-Annex.md)
 - [Valgaut](../../PCs/Valgaut.md)
+- [Session 2026-08-13](../../Sessions/2026-08-13.md)
+- [Chunky Sparkles](../../NPCs/Chunky-Sparkles.md)
+- [Radnor Lake](../../Locations/Radnor-Lake.md)

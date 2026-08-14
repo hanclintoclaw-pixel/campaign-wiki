@@ -4,13 +4,14 @@ type: vehicle
 visibility: player-safe
 status: recovered-damaged
 first_session: 2026-07-23
-last_updated_session: 2026-08-06
+last_updated_session: 2026-08-13
 canon_status: canon
 confidence: high
 tags: [vehicle, drone, combat-drone, pixel-sticks, loose-asset]
 sources:
   - ../Sessions/2026-07-23.md
   - ../Sessions/2026-08-06.md
+  - ../Sessions/2026-08-13.md
 ---
 
 # Pixel Sticks Scorpion Drone
@@ -23,13 +24,15 @@ The crew did not cleanly capture it during the 21st-floor breach. Curtis and Mev
 
 In [Session 2026-08-06](../Sessions/2026-08-06.md), Curtis and Kurgan tracked the drone south along the old I-65 / 840 corridor, found it badly damaged in **[South Side Highwaymen](../Factions/South-Side-Highwaymen.md)** territory, survived the returning go-ganger fight, and hauled the drone away. It is recovered but not operational; the table framed it as a long-term Curtis rebuild / nuyen sink rather than an immediate upgrade.
 
+In [Session 2026-08-13](../Sessions/2026-08-13.md), the table clarified the first salvage path: the wreck can provide the equivalent of a Rating 3 robot-brain core that Curtis may be able to scavenge into a couple of Rating 2 robot brains. Fully rebuilding the scorpion or replacing it with a true Rating 3 brain remains a later, expensive, customized project.
+
 ## Known Features
 
 - Large scorpion-like body.
 - Jaws-of-life style clamps in the claws.
 - SMG-like weapons in or near the claws.
 - Assault-cannon tail mount.
-- High-end robot brain, likely worth hundreds of thousands of nuyen if intact.
+- High-end robot brain, likely worth hundreds of thousands of nuyen if intact; current salvage target is effectively a damaged Rating 3 core that may yield two Rating 2 robot brains.
 - Whitelist / do-not-kill list controlling who it spares during autonomous violence.
 - Dangerous go-nuts mode that threatens anyone not on the whitelist.
 - Ruthenium polymer active camouflage, now badly damaged / failing.
@@ -73,11 +76,13 @@ During the escape, Mevin and Curtis added the crew to the whitelist. That may ke
 - What traces remain from its call-home signal or command history?
 - Does it still retain the crew's biometric whitelist data?
 - Can Curtis safely rebuild, sanitize, or repurpose it before it becomes a future problem?
+- Which drones, if any, should receive the salvaged Rating 2 robot brains?
 
 ## Related Pages
 
 - [Session 2026-07-23](../Sessions/2026-07-23.md)
 - [Session 2026-08-06](../Sessions/2026-08-06.md)
+- [Session 2026-08-13](../Sessions/2026-08-13.md)
 - [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md)
 - [Pixel Sticks](../Factions/Pixel-Sticks.md)
 - [Chunky Sparkles](../NPCs/Chunky-Sparkles.md)

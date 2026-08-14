@@ -19,6 +19,7 @@ sources:
   - SR3 Core Rulebook pp. 168-169, 244-245
   - ../Factions/Draco-Foundation/Wyrmwatch-Circle.md
   - ../Locations/Cairo-Testament-Annex.md
+  - ../Sessions/2026-08-13.md
 ---
 
 # Valgaut
@@ -88,14 +89,15 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** **10 Karma** after GM fiat raised him to the Grade 2 group-initiation-with-ordeal threshold.
-- **Known current nuyen:** at least **16,000¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
+- **Known current Karma:** **14 Karma** after the Session 2026-08-13 Wyrmwatch / Chunky Sparkles award.
+- **Known current nuyen:** at least **20,500¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 - **2026-07-24 — GM bonus for rules/initiative push:** **+6 Karma**.
 - **2026-07-24 — Wyrmwatch Circle admission cost:** **-3 Karma**; admitted after **3 successes** on the Magic 6 vs TN 5 compatibility test.
 - **2026-07-24 — Wyrmwatch Circle Grade 1 initiation:** **-9 Karma** for group initiation with oath ordeal. Magic increased from 6 to 7, Initiate Grade became 1, and Valgaut gained **+1 adept Power Point**, spent on **Empathic Sense** and **Enhanced Perception 1**.
 - **2026-08-13 — GM fiat initiation catch-up:** **+5 Karma**, raising Valgaut from **5 Karma** to **10 Karma** so he has exactly enough for Grade 2 group initiation with an ordeal: `(5 + desired grade 2) x 1.5 = 10.5`, rounded down to **10 Karma**.
+- **2026-08-13 — Wyrmwatch / Chunky Sparkles follow-up:** **+4 Karma**, **+5,000¥ share**, **-500¥ bait expense**, net **+4,500¥**; Valgaut led the Radnor Lake recovery/handoff service for Wyrmwatch.
 
 ## Magical Knowledge Emphasis
 
@@ -110,11 +112,13 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 - Linked to the crew's front-line physical presence.
 - Linked to **Draco**.
 - Initiated Grade 1 member of the Draco Foundation [Wyrmwatch Circle](../Factions/Draco-Foundation/Wyrmwatch-Circle.md), initiated by oath ordeal at the [Cairo Testament Annex](../Locations/Cairo-Testament-Annex.md).
+- Completed a Wyrmwatch service by locating **Chunky Sparkles** at [Radnor Lake](../Locations/Radnor-Lake.md), helping kill the regenerating lake predator, and luring the creature into the Wyrmwatch handoff.
 
 ## Relevant Sessions
 
 - **2026-07-16** — magically assessed Chunky Sparkles inside Happy Cat and joined the crew's stairwell approach to the suspected Pixel Sticks floors.
 - **2026-07-23** — joined the 21st-floor Pixel Sticks breach, killed one guard during the hard entry, saw Chunky Sparkles re-enter the scene, and earned **7 Karma** plus **15,000¥**.
+- **2026-08-13** — led the Wyrmwatch / Chunky Sparkles player-driven follow-up, bought bait, sensed the awakened pressure at Radnor Lake, finished the regenerating gator-like predator, lured Chunky Sparkles out, and earned **4 Karma** plus a net **4,500¥**.
 
 ## Sources
 
