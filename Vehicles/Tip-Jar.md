@@ -17,6 +17,10 @@ sources:
 
 # Tip Jar
 
+![Tip Jar, Cindy Lou Jenkins's Renraku Barback busking avatar](../assets/images/Tip-Jar-Header-2026-08-15.png)
+
+*Tip Jar gives Cindy Lou a visible meat-space busking body: charming enough for a street corner, mechanical enough that nobody mistakes her for flesh.*
+
 ## Overview
 
 **Tip Jar** is Cindy Lou Jenkins's customized **Renraku Barback**: an anthroform service drone repurposed as a meat-space busking avatar, social decoy, and public-facing performance body.
