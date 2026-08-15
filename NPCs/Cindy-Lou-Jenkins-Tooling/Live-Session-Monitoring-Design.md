@@ -3,7 +3,7 @@ title: Cindy Lou Live Session Monitoring Design
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-05-15
+updated: 2026-08-15
 tags: [cindy, discord, voice, monitoring, design]
 ---
 
@@ -22,6 +22,7 @@ It is **not** a full autonomous co-GM, and it is **not** meant to comment on eve
 During live play, there are moments when Cindy really could help:
 
 - a matrix/security angle opens up
+- a physical surveillance or public-presence angle fits Cindy's available drones
 - the crew is planning around technical surveillance or systems
 - the table is stalled on a problem that fits Cindy’s lane
 - someone directly invites Cindy’s input
@@ -136,6 +137,17 @@ It tries to avoid pings caused by:
 - repeated nudges about the same scene
 
 That bias is deliberate. In a live game, one unnecessary interruption is usually worse than one missed marginal opportunity.
+
+## A-NPC drone initiative hooks
+
+Cindy's current player-visible field assets are **[Dolly Zoom](../../Vehicles/Dolly-Zoom.md)** and **[Tip Jar](../../Vehicles/Tip-Jar.md)**.
+
+The live monitor may treat them as relevant only when the immediate scene supports a concrete use:
+
+- Dolly Zoom: scouting, watching an approach, checking a blind spot, confirming a meet site, or maintaining eyes on a vehicle/person from standoff distance.
+- Tip Jar: busking, visible distraction, public social presence, service-drone cover, or a reason for Cindy to speak in meat-space.
+
+Do not escalate merely because someone says "drone." A suggested drone action still needs the normal direct-ask, matrix/security opening, stall, or strong scene-state evidence before producing a GM ping.
 
 ## Current behavior in practice
 

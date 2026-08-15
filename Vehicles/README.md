@@ -2,6 +2,8 @@
 
 - [Curtis Drone Dashboard](https://hanclintoclaw-pixel.github.io/drone-dashboard/) — interactive SR3 session tracker for Curtis's drones and vehicles
 - [Grandpa](../Locations/Grandpa.md)
+- [Dolly Zoom](Dolly-Zoom.md)
+- [Tip Jar](Tip-Jar.md)
 - [Belmont](Belmont.md)
 - [The Finisher](The-Finisher.md)
 - [Buzz](Buzz.md)

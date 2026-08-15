@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-07-14
+last_updated_session: 2026-08-15
 canon_status: canonical-name
 confidence: medium
 aliases:
@@ -213,6 +213,15 @@ Starting from the **GMC Bulldog Sec.** stock chassis (**50 CF / 960 kg**):
 ### Canon boundary note
 
 A full **computer/electronics shop** inside the van was deliberately **not** recorded as canon hardware. Under *Rigger 3 Revised* vehicle customization rules, a shop alone is too space-hungry to be an easy fit inside a Bulldog while still leaving room for the rest of Cindy's shell. The write-up above therefore keeps the vehicle side canon and places the truly setting-specific AI host internals inside the explicit **house-rule SA-Knowbot Hardware Module**.
+
+## A-NPC field drones
+
+Cindy Lou also has two provisional in-game drone records for table use:
+
+- **[Dolly Zoom](../Vehicles/Dolly-Zoom.md)** - generic VTOL surveillance drone used as Cindy's eyes and ears.
+- **[Tip Jar](../Vehicles/Tip-Jar.md)** - customized Renraku Barback used as Cindy's meat-space busking avatar and public-facing field body.
+
+These assets are options for Cindy initiative suggestions during session play. They do not auto-deploy or override GM control of scene pacing, positioning, availability, or consequences.
 
 ## Important relationships
 

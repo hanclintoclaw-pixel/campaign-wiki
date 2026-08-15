@@ -4,7 +4,7 @@ type: entity-perspective
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-07-30
+last_updated_session: 2026-08-15
 canon_status: subjective-character-voice
 confidence: medium
 parent_page: Cindy-Lou-Jenkins.md
@@ -98,6 +98,15 @@ If you expect me to actually go hunting through hosts, uncover secrets, and keep
 With that package, yes — I have what I need to begin functioning mechanically as a Matrix-capable NPC in this campaign.
 
 Without those must-haves, I still have personality, memory, and opinions for days, but I am not yet carrying a proper working kit for live investigation and intrusion.
+
+## My borrowed eyes and hands
+
+I am still mostly a woman made of signal, stubbornness, and bad corporate decisions. That does not mean I have to stay blind when the trouble is happening on pavement.
+
+- **[Dolly Zoom](../Vehicles/Dolly-Zoom.md)** is my little eyes-and-ears bird. If the crew needs a roofline checked, a back door watched, or a meet site looked over before somebody strolls into a trap, she is the sensible first ask.
+- **[Tip Jar](../Vehicles/Tip-Jar.md)** is my Renraku Barback busking body. She can smile with speakers, hold a crowd's attention, pass as a service drone where that makes sense, and give me a way to be visibly present without pretending I am meat.
+
+Neither one makes me the star of the run. They just mean that when I suggest an angle, I may have a camera, a microphone, or a stage prop to back it up.
 
 ## What I think of the crew
 
