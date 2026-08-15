@@ -138,16 +138,57 @@ It tries to avoid pings caused by:
 
 That bias is deliberate. In a live game, one unnecessary interruption is usually worse than one missed marginal opportunity.
 
-## A-NPC drone initiative hooks
+## Cindy Lou initiative guidance
 
-Cindy's current player-visible field assets are **[Dolly Zoom](../../Vehicles/Dolly-Zoom.md)** and **[Tip Jar](../../Vehicles/Tip-Jar.md)**.
+Cindy may occasionally send the GM a private suggestion when she notices a moment where her NPC abilities could add fun, texture, or tactical options without taking agency away from the players.
 
-The live monitor may treat them as relevant only when the immediate scene supports a concrete use:
+Core principle: **Cindy offers options, not solutions.** The GM decides whether to ignore the suggestion, hold it, rephrase it, offer it to the table, or let Cindy speak or act in-character.
 
-- Dolly Zoom: scouting, watching an approach, checking a blind spot, confirming a meet site, or maintaining eyes on a vehicle/person from standoff distance.
-- Tip Jar: busking, visible distraction, public social presence, service-drone cover, or a reason for Cindy to speak in meat-space.
+### When a ping is appropriate
 
-Do not escalate merely because someone says "drone." A suggested drone action still needs the normal direct-ask, matrix/security opening, stall, or strong scene-state evidence before producing a GM ping.
+- A passive surveillance opportunity appears: a meet site, vehicle, door, rooftop, alley, crowd, or suspicious NPC could be quietly watched by **[Dolly Zoom](../../Vehicles/Dolly-Zoom.md)**.
+- A Matrix/security angle is present: hosts, cameras, comms, access logs, public terminals, credsticks, dataterms, drone networks, or building systems may matter.
+- Cindy's public avatar could be useful: **[Tip Jar](../../Vehicles/Tip-Jar.md)** could busk, distract, mingle, occupy attention, provide a plausible local presence, or make Cindy feel embodied in the scene.
+- The table is circling a problem and Cindy has a natural angle that gives the players a new option rather than the answer.
+- The scene would be more fun if Cindy had a tiny cameo, quip, offer, warning, or "I can try something" moment.
+- A player directly invites Cindy's input or the crew's current plan obviously depends on something Cindy is built to notice.
+
+### When not to ping
+
+- The players are actively solving the problem and Cindy would just be showing off.
+- The suggestion would replace a player's niche, especially decker, rigger, or social spotlight already being handled by someone at the table.
+- The idea is merely optimal but not especially fun, flavorful, or necessary.
+- The scene is emotional, dramatic, or character-focused and Cindy's intervention would flatten it into tactics.
+- The same beat has already been suggested recently.
+- The only trigger is hearing the word "drone," "camera," "Matrix," or "Cindy" without a concrete opportunity.
+
+### Frequency target
+
+Default expectation: **zero to one proactive Cindy suggestion per session is fine**.
+
+More than one is okay if the table is clearly enjoying Cindy as an active NPC, the suggestions are varied, and each one gives the GM a real option. Multiple pings in a short span should be rare unless Cindy is central to the current scene.
+
+### Ping shape
+
+A good ping should be short, GM-private, and optional.
+
+Examples:
+
+- `Cindy option: Dolly Zoom could quietly watch the rear exit while they keep negotiating. Low spotlight, gives them warning if someone bolts.`
+- `Cindy option: Tip Jar could busk outside the club as a harmless service-drone distraction, letting the crew approach under cover of a little street performance.`
+- `Cindy option: she might suggest checking the dataterm/camera logs here before they leave. Not a solution, just an angle.`
+
+### Priority order
+
+1. Protect player agency.
+2. Preserve spotlight balance.
+3. Add fun or useful texture.
+4. Use Cindy's established tools when they naturally fit.
+5. Stay quiet when the scene is already working.
+
+### Rating and tuning target
+
+This policy aims for roughly **8/10 alignment** with the GM's desired table experience: Cindy as a living NPC with occasional initiative, not a co-GM or a spotlight thief. The remaining tuning should come from actual session experience: if the pings feel too frequent, too timid, too tactical, or not flavorful enough, adjust this section and the live monitor prompts accordingly.
 
 ## Current behavior in practice
 
