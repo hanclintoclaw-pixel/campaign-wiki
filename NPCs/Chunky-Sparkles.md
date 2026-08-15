@@ -16,6 +16,8 @@ sources:
 
 # Chunky Sparkles
 
+![Chunky Sparkles at a corporate rooftop birthday party](../assets/images/Chunky-Sparkles-Profile-2026-08-14.png)
+
 ## Overview
 
 **Chunky Sparkles** is a bizarre awakened creature first reintroduced inside [Happy Cat Konpeki and Collectibles](../Locations/Happy-Cat-Konpeki-and-Collectibles.md). It appears roughly pony-sized, with a rainbow mane, wings, a multicolored tail, and a horn. Kurgan recognized it from an older unresolved promise to look after it, while Valgaut's magical senses read it as an alarming blend of multiple awakened-animal signatures. As of [Session 2026-08-13](../Sessions/2026-08-13.md), the crew found it at [Radnor Lake](../Locations/Radnor-Lake.md) and lured it into a Wyrmwatch / Draco Foundation handoff.
