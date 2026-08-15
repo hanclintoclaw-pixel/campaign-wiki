@@ -2,7 +2,7 @@
 title: Nashville Campaign Map
 type: map
 visibility: player-safe
-updated: 2026-07-09
+updated: 2026-08-15
 ---
 
 # Nashville Campaign Map

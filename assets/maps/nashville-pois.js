@@ -88,5 +88,14 @@ window.NASHVILLE_CAMPAIGN_POIS = [
     confidence: "exact",
     wiki: "../Locations/O-More-College-of-Design.html",
     notes: "423 S Margin St, Franklin. Abandoned art and design museum / academy Kurgan wants to restore as a wilderness headquarters."
+  },
+  {
+    name: "Radnor Lake",
+    type: "mystery",
+    lat: 36.06093990746219,
+    lng: -86.80293496992576,
+    confidence: "exact-user-provided-coordinate",
+    wiki: "../Locations/Radnor-Lake.html",
+    notes: "Overgrown awakened wilderness pocket where the crew recovered Chunky Sparkles and encountered blood ticks plus a regenerating lake predator."
   }
 ];

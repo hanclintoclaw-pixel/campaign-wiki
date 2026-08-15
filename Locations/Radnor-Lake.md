@@ -18,6 +18,8 @@ sources:
 
 **Radnor Lake** is an overgrown wilderness pocket south of Nashville. By 2066, it is no longer a simple public park: the water is suspiciously clear, the area feels maintained despite the lack of obvious caretakers, and the surrounding brush offers plenty of cover for animals, squatters, and awakened things.
 
+**Map:** [Nashville Campaign Map](../Maps/Nashville-Campaign-Map.md) pin at `36.06093990746219, -86.80293496992576`.
+
 The crew visited Radnor Lake during the [Session 2026-08-13](../Sessions/2026-08-13.md) player-driven follow-up to find **[Chunky Sparkles](../NPCs/Chunky-Sparkles.md)** for Valgaut's Wyrmwatch / Draco Foundation service.
 
 ## Known Features
