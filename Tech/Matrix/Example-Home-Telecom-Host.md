@@ -57,6 +57,24 @@ Use normal SR3 Matrix host assumptions:
   - Control connected appliances, cameras, locks, climate controls, or cleaning drones: **8**
   - Defeat broadcast encryption before touching the local wireless layer: use the relevant SR3 / *Matrix* wireless and encryption rules
 
+## Decker Experience profile
+
+This exemplar is loadable in the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) through [data/matrix-hosts/example-home-telecom-host.json](../../data/matrix-hosts/example-home-telecom-host.json).
+
+Profile design:
+
+- **Profile ID:** `example-home-telecom-host`
+- **Name:** Example Home Telecom Host
+- **Security code:** Blue
+- **Security value:** 4
+- **Shutdown Tally:** 16
+- **Public side:** household social/profile stand-ins, public photo clues, guestbook/neighborhood links
+- **Private side:** personal messages, private files, domestic accounts, call logs, calendars, device/access logs
+- **Device layer:** cameras/microphones, appliances/environment controls, household cleaning/service drone controls
+- **Bottom outcome:** full telecom host takeover; the player must notify the GM, who fills in exact devices, resident alerts, persistence, and provider/security response
+
+The profile is deliberately shallow. It gives Mevin useful generic buttons for a normal home host while leaving concrete names, files, images, schedules, devices, and secrets for the GM to supply at the table.
+
 ## Security Sheaf (SR3-style)
 
 The SSG default is intentionally tiny: **one Probe-2 IC program**. Do not turn every home telecom into a corporate crawl unless the household has a reason to pay for it.

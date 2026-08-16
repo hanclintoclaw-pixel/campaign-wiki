@@ -111,6 +111,8 @@ Hidden zones may show structure without revealing labels, preserving the sense t
 
 The Host Library currently includes several wiki-backed profiles, including:
 
+- **Example Home Telecom Host** — generic SSG home telecom profile with public social/profile stand-ins, private personal data, household device controls, and a full host takeover outcome.
+- **Example Public Dataterm Host** — generic SSG public terminal profile with local-grid information, recent-user/activity records, maintenance logs, and terminal device controls.
 - **Happy Cat Public Storefront Host** — starter host with harmless public side, private store records, a strange pet-food clue, and a hidden Pixel Sticks layer.
 - **Augmented Beef and Bacon Social Club Host** — consumer-brand host with multiple generic paydata opportunities and a permanent off-books luxury snack order outcome.
 - **Lafayette Tower CAT Entertainment Host** — high-danger megacorp entertainment host with a deeply hidden Ultraviolet layer.

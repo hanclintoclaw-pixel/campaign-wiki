@@ -1,0 +1,356 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "example-home-telecom-host",
+  "name": "Example Home Telecom Host",
+  "wikiPage": "Tech/Matrix/Example-Home-Telecom-Host.md",
+  "securityCode": "blue",
+  "securityValue": 4,
+  "hostRating": 4,
+  "shutdownTally": 16,
+  "subsystem": {
+    "access": 8,
+    "control": 8,
+    "index": 6,
+    "files": 6,
+    "slave": 6
+  },
+  "taskTargetNumbers": {
+    "logon": 8,
+    "browsePublic": 4,
+    "searchPublic": 6,
+    "privateFiles": 6,
+    "personalLogs": 6,
+    "controlSlave": 8,
+    "takeOverHost": 8,
+    "evadeTrace": 6,
+    "fightIc": 4
+  },
+  "securitySheaf": [
+    {
+      "threshold": 3,
+      "label": "Probe-2 Household Credential Check",
+      "effect": "A cheap household helper icon checks the decker's account, access path, and persona tags.",
+      "encounter": { "type": "probe", "rating": 2 }
+    },
+    {
+      "threshold": 7,
+      "label": "Suspicious Access Log",
+      "effect": "The telecom records odd account activity and queues a notification for the resident or service provider.",
+      "encounter": { "type": "generic", "rating": 2, "consequence": "The home telecom may notify the resident, landlord, or MSP that suspicious access occurred. Notify the GM if this remains unresolved." }
+    },
+    {
+      "threshold": 11,
+      "label": "Household Lockout Warning",
+      "effect": "Appliance panels blink red and the telecom prepares to lock the current session out of private controls.",
+      "encounter": { "type": "scramble", "rating": 3 }
+    },
+    {
+      "threshold": 16,
+      "label": "Telecom Session Dump",
+      "effect": "The telecom drops non-resident sessions and tries to preserve logs for later support review.",
+      "encounter": { "type": "generic", "rating": 4, "consequence": "Host shutdown/session dump. Resolve dump shock or clean disconnect effects as appropriate for the decker and connection mode." }
+    }
+  ],
+  "sculpting": "A household trid interface: public scrapbook pages, social posts, family photos, message frames, appliance panels, vidphone logs, calendar notes, cheap helper icons, and a locked domestic control console at the bottom.",
+  "notes": "Generic SSG home telecom host for Mevin Decker Experience. Shallow Blue-4 profile with public social/profile material, private personal data, household device controls, and a final full host takeover node. All concrete contents are GM-fill prompts.",
+  "flow": {
+    "startNodeId": "telecom-address",
+    "nodes": [
+      {
+        "id": "telecom-address",
+        "title": "Known Home Telecom Address",
+        "kind": "entry",
+        "description": "You are outside a generic household telecom host. The public face is ordinary social/profile clutter; the private side is the home's personal data and device-control layer. Use this as a stand-in until the GM fills in the household specifics.",
+        "choices": [
+          { "label": "Browse public-facing home pages", "to": "public-homepage" },
+          { "label": "Break into the private telecom host", "to": "private-foyer", "testId": "logon", "unlockSuccesses": 1 },
+          { "label": "Back away from the telecom address", "to": "logoff" }
+        ]
+      },
+      {
+        "id": "public-homepage",
+        "title": "Public Household Page",
+        "kind": "public",
+        "description": "The public surface shows the kind of ordinary information a resident might leave visible: profile blurbs, avatar tags, public photos, family names, hobby pages, neighborhood links, and a few stale message-board posts.",
+        "choices": [
+          { "label": "Public profile and social posts", "to": "public-social-standins", "testId": "browsePublic" },
+          { "label": "Public photos and household hints", "to": "public-photo-wall", "testId": "browsePublic" },
+          { "label": "Public guestbook and neighborhood links", "to": "public-neighborhood-links", "testId": "searchPublic" },
+          { "label": "Return to the telecom address", "to": "telecom-address" }
+        ]
+      },
+      {
+        "id": "public-social-standins",
+        "title": "Public Social Stand-Ins",
+        "kind": "confirmation",
+        "description": "You find public social/profile stand-ins. Tell the GM you have public telecom social data; ask what visible names, handles, hobbies, friends, affiliations, or careless posts fit this household.",
+        "report": {
+          "include": "always",
+          "title": "Public social/profile data",
+          "detail": "Mevin found public social/profile stand-ins on a home telecom. GM fills in visible names, handles, hobbies, friends, affiliations, or careless posts.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to public household page", "to": "public-homepage" }
+        ]
+      },
+      {
+        "id": "public-photo-wall",
+        "title": "Public Photo Wall",
+        "kind": "confirmation",
+        "description": "You find public photos, room glimpses, event tags, pet names, visible school/work logos, and timestamp crumbs. Tell the GM you have public photo-wall clues; ask what the images reveal.",
+        "report": {
+          "include": "always",
+          "title": "Public photo-wall clues",
+          "detail": "Mevin found public photos and household visual clues. GM fills in visible locations, timestamps, people, logos, pets, room details, or other clues.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to public household page", "to": "public-homepage" }
+        ]
+      },
+      {
+        "id": "public-neighborhood-links",
+        "title": "Neighborhood Links and Guestbook",
+        "kind": "confirmation",
+        "description": "You find public neighborhood links, guestbook posts, local service shortcuts, HOA/building notices, hobby groups, or old classifieds. Tell the GM you have public neighborhood-link clues; ask what matters here.",
+        "report": {
+          "include": "always",
+          "title": "Public neighborhood-link clues",
+          "detail": "Mevin found public neighborhood links/guestbook material. GM fills in local contacts, services, notices, classifieds, or social context.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to public household page", "to": "public-homepage" }
+        ]
+      },
+      {
+        "id": "private-foyer",
+        "title": "Private Telecom Foyer",
+        "kind": "private",
+        "description": "The public scrapbook folds into the private telecom shell: address books, vidphone logs, personal files, household calendars, appliance menus, and a deeper control console. Nothing here decides exact facts; every concrete detail goes through the GM.",
+        "choices": [
+          { "label": "Search private personal data", "to": "personal-data-hub", "testId": "privateFiles", "unlockSuccesses": 1 },
+          { "label": "Search logs, calls, and calendar traces", "to": "logs-calendar-hub", "testId": "personalLogs", "unlockSuccesses": 1 },
+          { "label": "Probe household device controls", "to": "household-device-hub", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Push for full host takeover", "to": "host-takeover-console", "testId": "takeOverHost", "unlockSuccesses": 2 },
+          { "label": "Back out to the public page", "to": "public-homepage", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "personal-data-hub",
+        "title": "Private Personal Data Hub",
+        "kind": "private",
+        "description": "Private files hover as photo albums, message folders, bill envelopes, journal locks, chip-reader ghosts, and family account tabs.",
+        "choices": [
+          { "label": "Personal messages and address book", "to": "personal-messages", "testId": "privateFiles", "unlockSuccesses": 1 },
+          { "label": "Private photos, journals, and saved files", "to": "private-files", "testId": "privateFiles", "unlockSuccesses": 1 },
+          { "label": "Bills, subscriptions, and domestic accounts", "to": "domestic-accounts", "testId": "privateFiles", "unlockSuccesses": 1 },
+          { "label": "Return to private foyer", "to": "private-foyer" }
+        ]
+      },
+      {
+        "id": "personal-messages",
+        "title": "Personal Messages and Address Book",
+        "kind": "confirmation",
+        "description": "You appear to have personal message and address-book access. Tell the GM; ask what contacts, call targets, saved mail, voicemails, or private handles exist for this household.",
+        "report": {
+          "include": "always",
+          "title": "Personal messages/address book",
+          "detail": "Mevin reached home telecom personal messages/address book. GM fills in contacts, call targets, saved mail, voicemails, or private handles.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to personal data hub", "to": "personal-data-hub" },
+          { "label": "Log off with message access noted", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "private-files",
+        "title": "Private Files and Journals",
+        "kind": "confirmation",
+        "description": "You appear to have private file access: saved photos, journals, work notes, school files, hobby files, or hidden folders. Tell the GM; ask what private contents are actually present.",
+        "report": {
+          "include": "always",
+          "title": "Private files/journals",
+          "detail": "Mevin reached home telecom private files. GM fills in saved photos, journals, work/school notes, hobby files, or hidden folders.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Copy stand-in personal paydata", "to": "personal-paydata" },
+          { "label": "Return to personal data hub", "to": "personal-data-hub" },
+          { "label": "Log off with private file access noted", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "domestic-accounts",
+        "title": "Bills and Domestic Accounts",
+        "kind": "confirmation",
+        "description": "You appear to have household account access: subscriptions, bills, service providers, landlord notices, delivery accounts, and recurring payments. Tell the GM; ask what domestic records matter.",
+        "report": {
+          "include": "always",
+          "title": "Bills/domestic accounts",
+          "detail": "Mevin reached home telecom bills and domestic accounts. GM fills in subscriptions, utilities, service providers, delivery accounts, landlord notices, or payment clues.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to personal data hub", "to": "personal-data-hub" },
+          { "label": "Log off with account access noted", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "personal-paydata",
+        "title": "Paydata: Personal Leverage Stand-In",
+        "kind": "paydata",
+        "description": "You copy modest personal paydata. It might be blackmail, schedule leverage, domestic proof, a useful contact link, or just intimate context. Tell the GM you recovered generic home-telecom personal paydata; the GM decides the exact contents and value.",
+        "report": {
+          "include": "always",
+          "title": "Generic home personal paydata",
+          "detail": "Mevin copied modest personal paydata from a home telecom. GM determines exact contents, value, and consequences.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to private files", "to": "private-files" },
+          { "label": "Log off with personal paydata", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "logs-calendar-hub",
+        "title": "Logs, Calls, and Calendar Traces",
+        "kind": "private",
+        "description": "Call records, telecom session logs, household calendars, wake/sleep reminders, delivery windows, and appliance activity traces sort themselves into domestic timelines.",
+        "choices": [
+          { "label": "Vidphone and comm logs", "to": "vidphone-logs", "testId": "personalLogs", "unlockSuccesses": 1 },
+          { "label": "Calendar and schedule traces", "to": "calendar-traces", "testId": "personalLogs", "unlockSuccesses": 1 },
+          { "label": "Device and access logs", "to": "device-access-logs", "testId": "personalLogs", "unlockSuccesses": 1 },
+          { "label": "Return to private foyer", "to": "private-foyer" }
+        ]
+      },
+      {
+        "id": "vidphone-logs",
+        "title": "Vidphone and Commlink Logs",
+        "kind": "confirmation",
+        "description": "You appear to have vidphone and comm-log access. Tell the GM; ask what incoming/outgoing calls, timestamps, saved callers, or suspicious missing entries are visible.",
+        "report": {
+          "include": "always",
+          "title": "Vidphone/comm logs",
+          "detail": "Mevin reached home telecom vidphone/comm logs. GM fills in calls, timestamps, callers, missing entries, and relevance.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to logs hub", "to": "logs-calendar-hub" }
+        ]
+      },
+      {
+        "id": "calendar-traces",
+        "title": "Calendar and Schedule Traces",
+        "kind": "confirmation",
+        "description": "You appear to have calendar and schedule traces. Tell the GM; ask what appointments, work hours, school pickups, deliveries, medications, trips, or routine gaps matter.",
+        "report": {
+          "include": "always",
+          "title": "Calendar/schedule traces",
+          "detail": "Mevin reached home telecom calendar traces. GM fills in appointments, work hours, deliveries, trips, routine gaps, or other timeline clues.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to logs hub", "to": "logs-calendar-hub" }
+        ]
+      },
+      {
+        "id": "device-access-logs",
+        "title": "Device and Access Logs",
+        "kind": "confirmation",
+        "description": "You appear to have household device and access logs. Tell the GM; ask what appliance activity, door/camera events, cleaning-drone events, or prior intrusion signs are visible.",
+        "report": {
+          "include": "always",
+          "title": "Device/access logs",
+          "detail": "Mevin reached home telecom device/access logs. GM fills in appliance activity, door/camera events, drone events, or prior intrusion signs.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to logs hub", "to": "logs-calendar-hub" }
+        ]
+      },
+      {
+        "id": "household-device-hub",
+        "title": "Household Device Controls",
+        "kind": "private",
+        "description": "Appliance controls, display panels, cameras, microphones, thermostat sliders, speaker zones, cleaning-drone hooks, and wireless node status lights hang from the telecom shell.",
+        "choices": [
+          { "label": "Camera and microphone access", "to": "camera-mic-access", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Appliances, lights, climate, and speakers", "to": "appliance-control", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Cleaning or service drone controls", "to": "household-drone-control", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Return to private foyer", "to": "private-foyer" }
+        ]
+      },
+      {
+        "id": "camera-mic-access",
+        "title": "Camera and Microphone Access",
+        "kind": "confirmation",
+        "description": "You appear to have access to camera/microphone feeds or records. Tell the GM; confirm which cameras or pickups exist, what they can see/hear, and whether live control is possible.",
+        "report": {
+          "include": "always",
+          "title": "Home camera/microphone access",
+          "detail": "Mevin reached home camera/mic access. GM confirms exact feeds, rooms, records, and live-control limits.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to household devices", "to": "household-device-hub" }
+        ]
+      },
+      {
+        "id": "appliance-control",
+        "title": "Appliance and Environment Control",
+        "kind": "confirmation",
+        "description": "You appear to have household appliance, light, climate, speaker, or display control. Tell the GM; confirm exact devices and whether commands happen now, queue later, or only alter settings.",
+        "report": {
+          "include": "always",
+          "title": "Home appliance/environment control",
+          "detail": "Mevin reached home appliance/environment controls. GM confirms exact devices and command timing/visibility.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to household devices", "to": "household-device-hub" }
+        ]
+      },
+      {
+        "id": "household-drone-control",
+        "title": "Cleaning / Service Drone Control",
+        "kind": "confirmation",
+        "description": "You appear to have simple household drone command access. Tell the GM; confirm whether any drones exist, where they are, what sensors they have, and what simple orders they can accept.",
+        "report": {
+          "include": "always",
+          "title": "Household drone control",
+          "detail": "Mevin reached household cleaning/service drone controls. GM confirms drone presence, location, sensors, and simple command limits.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to household devices", "to": "household-device-hub" }
+        ]
+      },
+      {
+        "id": "host-takeover-console",
+        "title": "Full Telecom Host Takeover",
+        "kind": "permanent-outcome",
+        "description": "You take over the home telecom host entirely: admin control, private files, logs, and attached household-device routing. Notify the GM immediately. The GM decides exact devices, available data, resident alerts, persistence, and any service-provider response.",
+        "report": {
+          "include": "always",
+          "title": "Full home telecom takeover",
+          "detail": "Mevin took over the generic home telecom host entirely. GM determines exact data, devices, resident alerts, persistence, and provider/security response.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Stay inside and review private foyer", "to": "private-foyer" },
+          { "label": "Log off after takeover", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Leave the Home Telecom",
+        "kind": "exit",
+        "description": "You fall back into ordinary Matrix traffic. Current-crawl lockouts are not permanent unless the GM says so; reset and retry after appropriate in-world time if allowed.",
+        "choices": []
+      }
+    ]
+  }
+}

@@ -61,6 +61,24 @@ Use normal SR3 Matrix host assumptions:
   - Control attached terminal devices, privacy booth locks, speakers, display, camera, or printer/fax functions: **8**
   - Bypass or disable physical anti-tamper from the host side: **8+**, plus GM adjudication for local hardware and alarms
 
+## Decker Experience profile
+
+This exemplar is loadable in the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) through [data/matrix-hosts/example-public-dataterm-host.json](../../data/matrix-hosts/example-public-dataterm-host.json).
+
+Profile design:
+
+- **Profile ID:** `example-public-dataterm-host`
+- **Name:** Example Public Dataterm Host
+- **Security code:** Green
+- **Security value:** 4
+- **Shutdown Tally:** 60
+- **Public side:** local-grid map/feed information, civic/service menus, neighborhood notices
+- **Protected records:** recent users/account traces, recent activities/session history, local search/public-service activity, maintenance/vandalism/outage logs
+- **Device layer:** camera/booth monitoring, printer/fax/scanner/display controls, privacy booth / panic button / anti-tamper status
+- **GM-fill model:** the tool tells the player what category of access was earned; the GM supplies actual names, handles, timestamps, feeds, and local facts
+
+The profile is built for quick table use when Mevin decks a generic public terminal rather than a named campaign host.
+
 ## Security Sheaf (SR3-style)
 
 The OCR-preserved SSG sample table gives the following dataterm host line and preserved events: **Security Code Green 4-8/8/8/8/8**.

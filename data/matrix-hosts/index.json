@@ -26,6 +26,18 @@
       "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Happy-Cat-Public-Storefront-Host.html"
     },
     {
+      "id": "example-home-telecom-host",
+      "name": "Example Home Telecom Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/example-home-telecom-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Example-Home-Telecom-Host.html"
+    },
+    {
+      "id": "example-public-dataterm-host",
+      "name": "Example Public Dataterm Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/example-public-dataterm-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Example-Public-Dataterm-Host.html"
+    },
+    {
       "id": "h-block-crew-vanishing-san-host",
       "name": "H-Block Crew Vanishing SAN Host",
       "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/h-block-crew-vanishing-san-host.json",

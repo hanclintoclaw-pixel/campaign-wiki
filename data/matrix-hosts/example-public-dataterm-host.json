@@ -1,0 +1,335 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "example-public-dataterm-host",
+  "name": "Example Public Dataterm Host",
+  "wikiPage": "Tech/Matrix/Example-Public-Dataterm-Host.md",
+  "securityCode": "green",
+  "securityValue": 4,
+  "hostRating": 4,
+  "shutdownTally": 60,
+  "subsystem": {
+    "access": 8,
+    "control": 8,
+    "index": 8,
+    "files": 8,
+    "slave": 8
+  },
+  "taskTargetNumbers": {
+    "logon": 8,
+    "browsePublic": 4,
+    "localGridInfo": 6,
+    "recentUsers": 8,
+    "activityLogs": 8,
+    "terminalRecords": 8,
+    "controlSlave": 8,
+    "evadeTrace": 8,
+    "fightIc": 8,
+    "antiTamper": 8
+  },
+  "securitySheaf": [
+    {
+      "threshold": 5,
+      "label": "Probe-6",
+      "effect": "The grid-provider kiosk checks the decker's public-account context, payment trail, and local access path.",
+      "encounter": { "type": "probe", "rating": 6 }
+    },
+    {
+      "threshold": 10,
+      "label": "Probe-8",
+      "effect": "A stronger provider-side credential audit starts comparing the icon to normal public terminal users.",
+      "encounter": { "type": "probe", "rating": 8 }
+    },
+    {
+      "threshold": 15,
+      "label": "Scout-6",
+      "effect": "A patrol routine maps what subsystem the intruder is touching and marks abnormal use for escalation.",
+      "encounter": { "type": "probe", "rating": 6, "consequence": "Scout IC may identify which records, logs, or device controls were touched. Notify the GM if unresolved." }
+    },
+    {
+      "threshold": 20,
+      "label": "Trace-8",
+      "effect": "Provider trace tape starts crawling back toward the decker's access route.",
+      "encounter": { "type": "trace", "rating": 8 }
+    },
+    {
+      "threshold": 25,
+      "label": "Passive Alert",
+      "effect": "The dataterm host enters Passive Alert. Subsystem ratings may effectively rise under alert conditions; public users still see a normal kiosk.",
+      "encounter": { "type": "generic", "rating": 4, "consequence": "Passive Alert: grid-provider monitoring or local terminal flags may become active. Notify the GM if unresolved." }
+    },
+    {
+      "threshold": 30,
+      "label": "Probe-6 with Killer-8 Trap",
+      "effect": "A familiar provider audit window hides a hostile trap routine.",
+      "encounter": { "type": "killer", "rating": 8, "consequence": "Trap-loaded Killer IC engaged from the dataterm sheaf. Resolve damage/consequences per the table's SR3 Matrix handling." }
+    },
+    {
+      "threshold": 35,
+      "label": "Trace-8 with Blaster-8 Trap",
+      "effect": "The trace path bites back with a hostile trap routine as it tries to pin the decker's origin.",
+      "encounter": { "type": "blaster", "rating": 8, "consequence": "Trap-loaded Blaster IC engaged from the dataterm sheaf. Resolve damage/consequences per the table's SR3 Matrix handling." }
+    }
+  ],
+  "sculpting": "A public grid-provider kiosk: transit maps, civic-service menus, pay-per-use prompts, local-grid notices, user-session receipts, terminal maintenance panels, camera eyes, privacy-booth curtains, and trace tape spooling toward the jackpoint.",
+  "notes": "Generic SSG public dataterm host for Mevin Decker Experience. Green-4 profile with public local-grid information, protected recent-user/session logs, activity records, terminal device controls, and GM-fill prompts for exact local contents.",
+  "flow": {
+    "startNodeId": "public-kiosk-face",
+    "nodes": [
+      {
+        "id": "public-kiosk-face",
+        "title": "Public Dataterm Kiosk",
+        "kind": "entry",
+        "description": "You are at a generic public dataterm: a grid-provider terminal with public services on the front and protected local records beneath. It can stand in for a street corner, mall, library, transit stop, post office, store, restaurant, or club terminal.",
+        "choices": [
+          { "label": "Use public local-grid services", "to": "public-grid-menu" },
+          { "label": "Break into protected dataterm records", "to": "provider-access-gate", "testId": "logon", "unlockSuccesses": 1 },
+          { "label": "Walk away from the dataterm", "to": "logoff" }
+        ]
+      },
+      {
+        "id": "public-grid-menu",
+        "title": "Public Local Grid Menu",
+        "kind": "public",
+        "description": "The public side offers normal citizen-facing services: local maps, transit, weather, civic forms, public feeds, directory search, paid calls, print/fax queues, and basic Matrix access. This is legal-use material unless the GM says otherwise.",
+        "choices": [
+          { "label": "Browse local grid map and public feeds", "to": "local-grid-public-info", "testId": "browsePublic" },
+          { "label": "Check civic/service menus", "to": "public-service-menu", "testId": "browsePublic" },
+          { "label": "Check public neighborhood notices", "to": "public-neighborhood-notices", "testId": "browsePublic" },
+          { "label": "Return to kiosk face", "to": "public-kiosk-face" }
+        ]
+      },
+      {
+        "id": "local-grid-public-info",
+        "title": "Local Grid Public Information",
+        "kind": "confirmation",
+        "description": "You get public local-grid information: nearby LTG context, map/search references, transit routes, weather/service notices, and public directory data. Tell the GM you have public local-grid info; ask what local facts this terminal can reveal.",
+        "report": {
+          "include": "always",
+          "title": "Public local-grid information",
+          "detail": "Mevin used a public dataterm for local-grid info. GM fills in nearby LTG context, maps, transit, service notices, directory data, or public feeds.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to public grid menu", "to": "public-grid-menu" }
+        ]
+      },
+      {
+        "id": "public-service-menu",
+        "title": "Civic and Service Menus",
+        "kind": "confirmation",
+        "description": "You find public civic forms, payment portals, service directories, emergency info, and provider-branded citizen services. Tell the GM you have public civic/service context; ask what applies here.",
+        "report": {
+          "include": "always",
+          "title": "Public civic/service menus",
+          "detail": "Mevin used a public dataterm for civic/service menus. GM fills in public forms, service directories, payment portals, emergency info, or provider notices.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to public grid menu", "to": "public-grid-menu" }
+        ]
+      },
+      {
+        "id": "public-neighborhood-notices",
+        "title": "Neighborhood Notices",
+        "kind": "confirmation",
+        "description": "You find public neighborhood notices: lost-and-found posts, event listings, local warnings, ads, outage notices, or vandalism reports. Tell the GM you have public neighborhood-notice access; ask what is relevant.",
+        "report": {
+          "include": "always",
+          "title": "Public neighborhood notices",
+          "detail": "Mevin used a public dataterm for neighborhood notices. GM fills in public warnings, events, ads, outage notices, vandalism reports, or local postings.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to public grid menu", "to": "public-grid-menu" }
+        ]
+      },
+      {
+        "id": "provider-access-gate",
+        "title": "Provider Access Gate",
+        "kind": "secure-entry",
+        "description": "Behind the public kiosk is the grid provider's protected surface: recent user sessions, activity logs, terminal devices, maintenance records, privacy-booth controls, and anti-tamper status.",
+        "choices": [
+          { "label": "Open protected records hub", "to": "protected-records-hub", "testId": "terminalRecords", "unlockSuccesses": 1 },
+          { "label": "Probe terminal device controls", "to": "terminal-device-hub", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Return to the public kiosk", "to": "public-kiosk-face", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "protected-records-hub",
+        "title": "Protected Dataterm Records Hub",
+        "kind": "private",
+        "description": "Session receipts, recent-user shadows, local-grid searches, vidphone call trails, print/fax/cache records, credstick checks, and maintenance tickets sort themselves into provider filing slots.",
+        "choices": [
+          { "label": "Recent users and account traces", "to": "recent-users", "testId": "recentUsers", "unlockSuccesses": 1 },
+          { "label": "Recent activities and session history", "to": "recent-activities", "testId": "activityLogs", "unlockSuccesses": 1 },
+          { "label": "Local search and public-service activity", "to": "local-search-activity", "testId": "activityLogs", "unlockSuccesses": 1 },
+          { "label": "Maintenance, vandalism, and outage logs", "to": "maintenance-logs", "testId": "terminalRecords", "unlockSuccesses": 1 },
+          { "label": "Return to provider access gate", "to": "provider-access-gate" }
+        ]
+      },
+      {
+        "id": "recent-users",
+        "title": "Recent Users and Account Traces",
+        "kind": "confirmation",
+        "description": "You appear to have recent-user and account-trace access: public handles, payment/account crumbs, login windows, jackpoint sessions, and possibly repeated users. Tell the GM; ask who used this dataterm recently and what identifiers are visible.",
+        "report": {
+          "include": "always",
+          "title": "Recent dataterm users",
+          "detail": "Mevin reached recent-user/account traces on a public dataterm. GM fills in handles, account crumbs, login windows, repeated users, or identifier limits.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Copy recent-user pattern paydata", "to": "recent-user-paydata" },
+          { "label": "Return to protected records", "to": "protected-records-hub" },
+          { "label": "Log off with recent-user access noted", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "recent-activities",
+        "title": "Recent Activities and Session History",
+        "kind": "confirmation",
+        "description": "You appear to have activity-log access: vidphone calls, Matrix sessions, public account use, print/fax jobs, chip/CD reads, scanner jobs, credstick checks, and temporary cache artifacts. Tell the GM; ask what recent activity matters.",
+        "report": {
+          "include": "always",
+          "title": "Recent dataterm activity",
+          "detail": "Mevin reached recent activity/session history on a public dataterm. GM fills in calls, sessions, print/fax jobs, chip/CD reads, scanner jobs, credstick checks, or cache artifacts.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Copy recent-activity paydata", "to": "recent-activity-paydata" },
+          { "label": "Return to protected records", "to": "protected-records-hub" },
+          { "label": "Log off with activity access noted", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "local-search-activity",
+        "title": "Local Search and Public-Service Activity",
+        "kind": "confirmation",
+        "description": "You appear to have local search and public-service activity records: maps queried, local directories searched, civic forms opened, service requests, transit lookups, and emergency info views. Tell the GM; ask what this reveals about the target or neighborhood.",
+        "report": {
+          "include": "always",
+          "title": "Local search/public-service activity",
+          "detail": "Mevin reached local search/public-service activity records. GM fills in maps, directories, forms, service requests, transit lookups, or emergency-info views.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to protected records", "to": "protected-records-hub" },
+          { "label": "Log off with search activity noted", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "maintenance-logs",
+        "title": "Maintenance, Vandalism, and Outage Logs",
+        "kind": "confirmation",
+        "description": "You appear to have maintenance logs: provider technician visits, anti-tamper alarms, vandalism reports, broken peripherals, outage windows, and suspicious service history. Tell the GM; ask what has happened to this dataterm recently.",
+        "report": {
+          "include": "always",
+          "title": "Dataterm maintenance/vandalism logs",
+          "detail": "Mevin reached dataterm maintenance, vandalism, anti-tamper, and outage logs. GM fills in service history and suspicious maintenance clues.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to protected records", "to": "protected-records-hub" },
+          { "label": "Log off with maintenance logs noted", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "recent-user-paydata",
+        "title": "Paydata: Recent User Pattern",
+        "kind": "paydata",
+        "description": "You copy modest recent-user pattern paydata: repeated handles, login windows, payment/account crumbs, or evidence that one person has been using this terminal as a routine touchpoint. Tell the GM; exact contents and value are GM-filled.",
+        "report": {
+          "include": "always",
+          "title": "Recent-user pattern paydata",
+          "detail": "Mevin copied recent-user pattern paydata from a public dataterm. GM determines exact contents, value, and consequences.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to recent users", "to": "recent-users" },
+          { "label": "Log off with recent-user paydata", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "recent-activity-paydata",
+        "title": "Paydata: Recent Activity Trail",
+        "kind": "paydata",
+        "description": "You copy modest recent-activity paydata: session history, vidphone/call traces, print/fax jobs, credstick checks, or cached activity that points somewhere useful. Tell the GM; exact contents and value are GM-filled.",
+        "report": {
+          "include": "always",
+          "title": "Recent-activity paydata",
+          "detail": "Mevin copied recent-activity paydata from a public dataterm. GM determines exact contents, value, and consequences.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to recent activity", "to": "recent-activities" },
+          { "label": "Log off with activity paydata", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "terminal-device-hub",
+        "title": "Terminal Device Controls",
+        "kind": "private",
+        "description": "The physical dataterm appears as a utility cabinet: camera eye, privacy-booth lock, panic-button light, display/speaker panels, printer/fax/scanner tray, credstick reader, wireless node, and anti-tamper mesh.",
+        "choices": [
+          { "label": "Camera, microphone, and booth monitoring", "to": "booth-monitoring", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Printer/fax/scanner and display controls", "to": "peripheral-controls", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Privacy booth lock, panic button, and anti-tamper status", "to": "privacy-anti-tamper", "testId": "antiTamper", "unlockSuccesses": 1 },
+          { "label": "Return to provider access gate", "to": "provider-access-gate" }
+        ]
+      },
+      {
+        "id": "booth-monitoring",
+        "title": "Camera / Booth Monitoring Access",
+        "kind": "confirmation",
+        "description": "You appear to have camera, microphone, or booth monitoring access. Tell the GM; confirm whether this dataterm has cameras, what area they cover, whether recordings exist, and whether live monitoring is possible.",
+        "report": {
+          "include": "always",
+          "title": "Dataterm camera/booth monitoring",
+          "detail": "Mevin reached dataterm camera/booth monitoring. GM confirms camera/mic presence, coverage, recordings, and live-monitoring limits.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to terminal device controls", "to": "terminal-device-hub" }
+        ]
+      },
+      {
+        "id": "peripheral-controls",
+        "title": "Printer / Fax / Scanner / Display Controls",
+        "kind": "confirmation",
+        "description": "You appear to have peripheral access: display, speaker, printer, fax, scanner, chip/CD reader, or local cache. Tell the GM; confirm what physical functions and stored artifacts exist.",
+        "report": {
+          "include": "always",
+          "title": "Dataterm peripheral controls",
+          "detail": "Mevin reached dataterm peripheral controls. GM confirms display/speaker/printer/fax/scanner/chip-reader functions and cache artifacts.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to terminal device controls", "to": "terminal-device-hub" }
+        ]
+      },
+      {
+        "id": "privacy-anti-tamper",
+        "title": "Privacy Booth / Panic / Anti-Tamper Status",
+        "kind": "confirmation",
+        "description": "You appear to have privacy booth, panic-button, lock, and anti-tamper status access. Tell the GM; confirm whether a booth exists, lock state, panic events, tamper alarms, and whether bypassing anything triggers provider or local security response.",
+        "report": {
+          "include": "always",
+          "title": "Dataterm booth/panic/anti-tamper status",
+          "detail": "Mevin reached privacy booth, panic button, lock, and anti-tamper status. GM confirms booth presence, lock state, panic events, tamper alarms, and response risks.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to terminal device controls", "to": "terminal-device-hub" },
+          { "label": "Log off before provider tamper review", "to": "logoff", "testId": "evadeTrace" }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Leave the Public Dataterm",
+        "kind": "exit",
+        "description": "You drop back into local Matrix traffic, leaving the public kiosk behind. Current-crawl lockouts are not permanent unless the GM says so; reset and retry after appropriate in-world time if allowed.",
+        "choices": []
+      }
+    ]
+  }
+}

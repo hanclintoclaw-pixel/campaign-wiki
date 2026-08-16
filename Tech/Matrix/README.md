@@ -16,7 +16,7 @@ Each entry includes a descriptive host profile plus example **SR3-style host sta
 
 ## Host type exemplars
 
-These are **not specific hosts**. They are SR3 rules-derived examples of common host categories and what kinds of information or device access they may contain.
+These are **not specific hosts**. They are SR3 rules-derived examples of common host categories and what kinds of information or device access they may contain. Both are also loadable generic profiles in the Mevin Decker Experience host library.
 
 - [Example Home Telecom Host](Example-Home-Telecom-Host.md)
 - [Example Public Dataterm Host](Example-Public-Dataterm-Host.md)
