@@ -2,7 +2,7 @@
 title: Current State
 type: dashboard
 visibility: player-safe
-updated: 2026-08-14
+updated: 2026-08-16
 ---
 
 # Current State
@@ -25,8 +25,9 @@ The immediate unresolved hooks are now what Wyrmwatch does with Chunky Sparkles,
 ## In-World Date
 
 - Current campaign year: **2066**
-- Most recently confirmed active date: **2066-05-12**, with provisional follow-up play pushing through the scorpion-drone stakeout and the Radnor Lake dawn scene.
-- Current active scene: **roughly 2066-05-15, provisional**, after the crew lured Chunky Sparkles out of Radnor Lake and completed the Wyrmwatch follow-up.
+- Current active date: **2066-05-15**, canon.
+- Current active scene: **early morning after the Radnor Lake / Wyrmwatch handoff**, with the crew having lured Chunky Sparkles out of Radnor Lake and completed the Wyrmwatch follow-up.
+- Recent time compression: the Pixel Sticks payout and Core 7 / Earl Stryker follow-up sit on **2066-05-12 night**; the scorpion-drone stakeout then consumes roughly forty-eight hours and leads into the **2066-05-14 night / 2066-05-15 dawn** Radnor Lake scene.
 
 ## Immediate Leads
 

@@ -3,7 +3,7 @@ title: Cindy Lou Post-Session Automation
 type: tech-note
 visibility: player-safe
 status: brainstorm
-updated: 2026-05-15
+updated: 2026-08-16
 tags: [cindy, automation, sessions, wiki, memory, design]
 ---
 
@@ -25,6 +25,8 @@ When a session is closed, Cindy should be able to detect that the session is a *
 - **Cindy Lou Jenkins A-NPC follow-through**
 
 The ideal version requires **no direct user prompting after the session ends**.
+
+The near-term version should still include one deliberate GM confirmation step: preserve the transcript quickly, then ask the GM to approve the canon ingest and answer any date / current-state questions before the public wiki is treated as settled.
 
 ## Why this matters
 
@@ -101,6 +103,22 @@ That page should include, in some cleaned-up form:
 
 The ideal experience is that a real session ends and a first-pass player-safe session record appears without anyone having to ask for it.
 
+### 1a. Current-state and chronology maintenance
+
+The session page is not enough by itself. Every session ingest should also decide whether the campaign's **Current State** and **Session Chronology** need to move.
+
+The workflow should explicitly check:
+
+- the starting in-world date and time
+- the ending in-world date and time
+- whether any downtime, stakeout, travel, healing, shopping, legwork, or project work advanced the clock
+- whether the latest active scene is now a new canonical date
+- whether the session is a backdated interlude that should not move the main current-state clock
+- whether new immediate leads replaced, resolved, or reprioritized the old Current State leads
+- whether newly introduced clues should become open questions, active hooks, or closed threads
+
+If the date cannot be inferred cleanly from the transcript, Cindy should not silently leave it loose. She should ask a compact clarification before marking the ingest complete.
+
 ### 2. Cindy’s internal notes and memory
 
 The automation should also update Cindy’s own continuity layer.
@@ -153,10 +171,55 @@ A reasonable post-session pipeline might look like this:
    - collect source transcript / notes
    - generate a first-pass session summary
    - create or update the wiki Session page
+   - run a chronology/current-state checkpoint
    - update Cindy’s internal notes
    - extract entities / open threads / follow-up tasks
    - queue anything uncertain for later review
-6. Optionally produce a short audit log explaining what was updated
+6. Ask the GM to approve the canon ingest if the session materially changed the campaign state
+7. After approval, publish the wiki updates and produce a short audit log explaining what was updated
+
+## Proposed GM confirmation loop
+
+The practical solution is a **two-stage closeout**.
+
+### Stage 1: immediate transcript preservation
+
+As soon as a session ends, Cindy should save or index the raw transcript and any live scratchpad notes. This can happen without waiting on the GM because it is preservation, not canon publication.
+
+Output should be quiet unless something failed.
+
+### Stage 2: 12-hour canon-ingest prompt
+
+Roughly **12 hours after the session ends**, Cindy should post a short prompt in the session channel asking whether to run the canon ingest.
+
+Suggested prompt shape:
+
+> Session transcript is preserved. Approve canon ingest for the wiki? I have three continuity checks before publish: current in-world date/time, whether this advances Current State, and any GM-only details to keep out of player-safe pages.
+
+The delay gives the GM time to sleep on the session while keeping the record fresh. The prompt should be tied to the session thread/channel so the context is obvious.
+
+### Stage 3: pushback when ingest is manually requested
+
+If the GM manually asks Cindy to ingest a session, Cindy should run a fast preflight before writing public pages. If any of the following are unclear, Cindy should ask before final publish:
+
+- **Date / time:** What in-world date and approximate time did the session end on?
+- **Clock movement:** Did downtime, travel, stakeout, healing, shopping, legwork, or project work advance the day?
+- **Current State:** Is this now the latest active campaign moment, or a backdated / side interlude?
+- **Public safety:** Are any transcript details GM-only even if players heard some adjacent table talk?
+- **Rewards and ledgers:** Were nuyen, Karma, gear, damage, favors, contacts, heat, or reputation changes final?
+- **Open hooks:** Which unresolved leads should be listed as immediate next actions rather than background mysteries?
+
+The pushback should be short and concrete, not a questionnaire dump. If only one or two items are uncertain, ask only those.
+
+## Date discipline rule
+
+Every public session ingest should end with one of these explicit outcomes:
+
+- **Advances current date:** update `Current-State.md` and `Timeline/Session-Chronology.md`.
+- **Does not advance current date:** say why, usually because it is a backdated interlude, same-night continuation, or side scene.
+- **Date unresolved:** leave the session marked provisional and queue a GM clarification instead of letting the uncertainty disappear.
+
+This should become part of the acceptance check for session closeout: no ingest is considered done until the session page, Current State, and chronology agree about date status.
 
 ## Important safety / quality rules
 

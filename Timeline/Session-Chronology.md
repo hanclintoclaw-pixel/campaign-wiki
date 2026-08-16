@@ -2,7 +2,7 @@
 title: Session Chronology
 type: timeline
 visibility: player-safe
-updated: 2026-08-14
+updated: 2026-08-16
 ---
 
 # Session Chronology
@@ -103,7 +103,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 75 | [Session 2026-07-23](../Sessions/2026-07-23.md) | 2026-07-23 | 2066-05-12 night | provisional | The crew breached the **Pixel Sticks** 21st-floor arkoblock space, disrupted the cell, recovered used military-grade utilities for the Johnson handoff, altered a scorpion combat drone's whitelist before using it as escape-cover against Chunky Sparkles, and received **60,000¥ total** plus **7 Karma each** while Mevin retained encrypted material for later work with Cindy Lou. |
 | 76 | [Session 2026-07-30](../Sessions/2026-07-30.md) | 2026-07-30 | 2066-05-12 night | provisional | In a player-driven follow-up, the crew returned to the **Core 7 / Site 7** mystery. Kurgan found old and fresh **Pyramid** cigarette clues at the old ravine, Mevin and Cindy confirmed CAS military-standard Site 7 hardware, Core 7 provided the Scarred Man Matrix profile, and follow-up legwork identified **Colonel Earl Stryker / Dead Soldier** as the disgraced CAS officer and later shadow operator tied to the old aquatic-mammal wetware project. |
 | 77 | [Session 2026-08-06](../Sessions/2026-08-06.md) | 2026-08-06 | 2066-05-12 night into roughly 2066-05-14 | provisional | Partial-party player-driven follow-up for **Curtis** and **Kurgan**. The pair traced the missing **Pixel Sticks scorpion drone** through police / Hidden Enforcers fallout, learned **Chunky Sparkles** escaped containment, found the damaged ruthenium-coated drone in **South Side Highwaymen** territory, survived the returning go-ganger fight with Belmont and The Finisher, and recovered the drone as a long-term Curtis rebuild project for **7 Karma** and no nuyen payout. |
-| 78 | [Session 2026-08-13](../Sessions/2026-08-13.md) | 2026-08-13 | roughly 2066-05-14 night into 2066-05-15 dawn | provisional | Player-driven **Valgaut / Wyrmwatch** follow-up. The full crew found **Chunky Sparkles** at **Radnor Lake**, used research, Taco's old handling context, Herrick's prisoner intel from **Lizzo Wells**, food bait, and command phrases to lure it out, killed a regenerating gator-like awakened predator, and completed the Wyrmwatch handoff for **5,000¥** and **4 Karma** each. |
+| 78 | [Session 2026-08-13](../Sessions/2026-08-13.md) | 2026-08-13 | 2066-05-14 night into 2066-05-15 dawn | canon | Player-driven **Valgaut / Wyrmwatch** follow-up. The full crew found **Chunky Sparkles** at **Radnor Lake**, used research, Taco's old handling context, Herrick's prisoner intel from **Lizzo Wells**, food bait, and command phrases to lure it out, killed a regenerating gator-like awakened predator, and completed the Wyrmwatch handoff for **5,000¥** and **4 Karma** each. This establishes the current active campaign date as **2066-05-15**. |
 
 ## Read this sequence in plain English
 
@@ -119,13 +119,13 @@ Ordered by **played date**. The in-world column carries either a source date or 
 10. Mini-Run 2026-07-19 is a Curtis-focused side run after the latest true session, provisionally placed on **2066-05-12 night**; it records the Saab Dynamit sale, Wharf Avenue tail, and Curtis funds changes without advancing the main Pixel Sticks scene.
 11. Session 2026-07-30 is a player-driven Core 7 / Site 7 follow-up on the same provisional night after the Pixel Sticks payout. It does not record a new payout or group Karma award, but it shifts the live investigation toward Earl Stryker / Dead Soldier.
 12. Session 2026-08-06 is a partial-party player-driven Pixel Sticks fallout session. It begins on the same provisional night but includes roughly forty-eight hours of stakeout time, recovering the scorpion drone and pushing the immediate active scene toward about 2066-05-14.
-13. Session 2026-08-13 is a player-driven Wyrmwatch / Chunky Sparkles follow-up after the scorpion-drone recovery. It likely runs from roughly 2066-05-14 night into 2066-05-15 dawn, but the exact in-world date remains provisional.
+13. Session 2026-08-13 is a player-driven Wyrmwatch / Chunky Sparkles follow-up after the scorpion-drone recovery. It runs from **2066-05-14 night into 2066-05-15 dawn**, and establishes **2066-05-15 early morning** as the current active campaign date.
 
 ## Gaps and caveats
 
 - [Session 2023-06-15](../Sessions/ARCHIVE_TRIAGE.md) survives only as an attendance-only archive fragment, so it remains chronology-only for now.
 - [Session 2024-01-25](../Sessions/ARCHIVE_TRIAGE.md) survives mainly as Vanessa build / tech notes, so it also remains chronology-only for now.
-- Some modern 2066 pages still need exact in-world day recovery from raw notes and recaps.
+- Some earlier modern 2066 pages still need exact in-world day recovery from raw notes and recaps, but the current active date is canonically anchored at **2066-05-15**.
 
 ## Related pages
 
