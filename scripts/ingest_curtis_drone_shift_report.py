@@ -261,13 +261,15 @@ def article(text: str) -> str:
 
 def completed_work_order_line(report: Report, day: date) -> str:
     if report.kind == "morning_garage":
+        choice = report.player_choice[:1].lower() + report.player_choice[1:]
+        result = re.sub(r"^Curtis\s+", "", report.result).rstrip(".")
+        result = result[:1].lower() + result[1:]
         return (
             f"- **{day.isoformat()} — {report.job}**: Curtis completed the "
             f"{report.project_track} work order as a {report.outcome.lower()}. Final report logged "
             f"**{format_yen(report.nuyen_delta, signed=True)}** project spend and "
-            f"**Quality {format_yen(report.quality_score, signed=True).removesuffix('¥')}** after choosing to "
-            f"{report.player_choice[:1].lower()}{report.player_choice[1:]}, rolling **{report.roll}**, "
-            f"and {report.result[:1].lower()}{report.result[1:]} Follow-up note: {report.rigger_note} "
+            f"**Quality {format_yen(report.quality_score, signed=True).removesuffix('¥')}** after choosing "
+            f"{choice}, rolling **{report.roll}**, and {result}. Follow-up note: {report.rigger_note} "
             "No permanent gear, drone, vehicle, combat, or stat change applies today unless the GM separately approves it."
         )
 
@@ -378,10 +380,13 @@ def update_current_nuyen_ledger(text: str, report: Report, day: date) -> str:
             f", and **{format_yen(report.nuyen_delta, signed=True)}** {report.job} project spend on "
             f"{day.isoformat()}"
         )
-        details_end = new_text.find("\n</details>")
-        if details_end == -1:
-            raise IngestError("Could not find Curtis nuyen history details block end.")
-        period = new_text.rfind(".", 0, details_end)
+        history_line_start = new_text.find("- **Current nuyen history:**")
+        if history_line_start == -1:
+            raise IngestError("Could not find Curtis nuyen history line.")
+        history_line_end = new_text.find("\n", history_line_start)
+        if history_line_end == -1:
+            history_line_end = len(new_text)
+        period = new_text.rfind(".", history_line_start, history_line_end)
         if period == -1:
             raise IngestError("Could not find Curtis nuyen history sentence end.")
         new_text = new_text[:period] + history_entry + new_text[period:]
