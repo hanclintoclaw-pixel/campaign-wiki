@@ -49,6 +49,7 @@ class IngestError(RuntimeError):
 
 @dataclass(frozen=True)
 class Report:
+    kind: str
     job: str
     asset_line: str
     asset_name: str
@@ -58,6 +59,14 @@ class Report:
     work_notes: tuple[str, ...]
     followups: tuple[str, ...]
     raw: str
+    project_track: str = ""
+    work_order: str = ""
+    lane: str = ""
+    player_choice: str = ""
+    roll: str = ""
+    outcome: str = ""
+    result: str = ""
+    rigger_note: str = ""
 
     @property
     def legacy_tutorial_number(self) -> int | None:
@@ -132,6 +141,9 @@ def parse_followups(text: str) -> tuple[str, ...]:
 
 
 def parse_report(text: str) -> Report:
+    if "CURTIS MORNING GARAGE REPORT" in text.upper():
+        return parse_morning_garage_report(text)
+
     if "CURTIS DRONE SHIFT REPORT" not in text.upper():
         raise IngestError("Report marker not found.")
 
@@ -151,6 +163,7 @@ def parse_report(text: str) -> Report:
         raise IngestError("Ingest note does not explicitly block permanent stat changes.")
 
     return Report(
+        kind="drone_shift",
         job=job,
         asset_line=asset_line,
         asset_name=normalize_asset_name(asset_line),
@@ -160,6 +173,63 @@ def parse_report(text: str) -> Report:
         work_notes=parse_work_notes(text),
         followups=parse_followups(text),
         raw=text,
+    )
+
+
+def parse_morning_garage_report(text: str) -> Report:
+    project_track = extract_field(text, "Project track")
+    work_order = extract_field(text, "Work Order")
+    lane = extract_field(text, "Lane")
+    if lane.lower() != "rigger school":
+        raise IngestError(f"Only routine Rigger School Morning Garage reports can be auto-ingested; got lane {lane!r}.")
+
+    asset_line = extract_field(text, "Asset")
+    player_choice = extract_field(text, "Player choice")
+    roll = extract_field(text, "Roll")
+    outcome = extract_field(text, "Outcome")
+    if outcome.lower() != "success":
+        raise IngestError(f"Only successful Morning Garage reports can be auto-ingested; got outcome {outcome!r}.")
+
+    result = extract_field(text, "Result")
+    nuyen_delta = parse_nuyen_delta(extract_field(text, "Nuyen delta"))
+    if abs(nuyen_delta) > SAFE_DELTA_LIMIT:
+        raise IngestError(f"Nuyen delta {nuyen_delta:+d}¥ exceeds routine auto-ingest limit of {SAFE_DELTA_LIMIT}¥.")
+
+    quality_score = int(extract_field(text, "Quality delta").replace("+", "").strip())
+    rigger_note = extract_field(text, "Rigger note")
+    ingest_note = extract_field(text, "Cindy ingest/closeout note")
+    if "apply the nuyen delta" not in ingest_note.lower() or "record the explicit player choice" not in ingest_note.lower():
+        raise IngestError("Morning Garage ingest note does not authorize the routine nuyen and continuity updates.")
+
+    sheet_change = extract_field(text, "Sheet change")
+    if "no permanent" not in sheet_change.lower():
+        raise IngestError("Morning Garage sheet change does not explicitly block permanent changes.")
+
+    day_match = re.search(r"\bday\s+(\d+)\s*/\s*(\d+)\b", project_track, flags=re.IGNORECASE)
+    if not day_match:
+        raise IngestError(f"Could not parse Morning Garage project day from: {project_track!r}")
+    day_number = int(day_match.group(1))
+    total_days = int(day_match.group(2))
+    job = f"Morning Garage Advanced Drone Pilot retrieval Day {day_number}: {work_order}"
+    return Report(
+        kind="morning_garage",
+        job=job,
+        asset_line=asset_line,
+        asset_name=normalize_asset_name(asset_line),
+        nuyen_delta=nuyen_delta,
+        quality_label="Quality",
+        quality_score=quality_score,
+        work_notes=(result,),
+        followups=(rigger_note,),
+        raw=text,
+        project_track=f"Advanced Drone Pilot retrieval Day {day_number}/{total_days}",
+        work_order=work_order,
+        lane=lane,
+        player_choice=player_choice,
+        roll=roll,
+        outcome=outcome,
+        result=result,
+        rigger_note=rigger_note,
     )
 
 
@@ -190,6 +260,17 @@ def article(text: str) -> str:
 
 
 def completed_work_order_line(report: Report, day: date) -> str:
+    if report.kind == "morning_garage":
+        return (
+            f"- **{day.isoformat()} — {report.job}**: Curtis completed the "
+            f"{report.project_track} work order as a {report.outcome.lower()}. Final report logged "
+            f"**{format_yen(report.nuyen_delta, signed=True)}** project spend and "
+            f"**Quality {format_yen(report.quality_score, signed=True).removesuffix('¥')}** after choosing to "
+            f"{report.player_choice[:1].lower()}{report.player_choice[1:]}, rolling **{report.roll}**, "
+            f"and {report.result[:1].lower()}{report.result[1:]} Follow-up note: {report.rigger_note} "
+            "No permanent gear, drone, vehicle, combat, or stat change applies today unless the GM separately approves it."
+        )
+
     work = sentence_join(report.work_notes)
     return (
         f"- **{day.isoformat()} — {report.job}**: Curtis completed Taco's {report.asset_name} ticket as "
@@ -218,7 +299,11 @@ def replace_once(text: str, old: str, new: str) -> str:
     return text.replace(old, new, 1)
 
 
-def update_funds_note(text: str, report: Report) -> str:
+def update_funds_note(text: str, report: Report, day: date) -> str:
+    ledger_text = update_current_nuyen_ledger(text, report, day)
+    if ledger_text != text:
+        return ledger_text
+
     pattern = re.compile(
         r"Current funds note preserved in dossier: \*\*(?P<balance>[+-]?[\d,]+)¥\*\* current nuyen balance "
         r"\((?P<body>.*?)\)",
@@ -229,7 +314,7 @@ def update_funds_note(text: str, report: Report) -> str:
         raise IngestError("Could not find Curtis current funds Drone Shift note.")
 
     drone_pattern = re.compile(
-        r"\*\*(?P<drone_delta>[+-][\d,]+)¥\*\* net from completed Curtis Drone Shift Work Orders"
+        r"\*\*(?P<drone_delta>[+-][\d,]+)¥\*\* net from completed Curtis Drone Shift(?: / Morning Garage)? Work Orders"
         r"(?P<label>[^,)]*)"
     )
     drone_match = drone_pattern.search(match.group("body"))
@@ -266,6 +351,43 @@ def update_funds_note(text: str, report: Report) -> str:
     return text[: match.start()] + replacement + text[match.end() :]
 
 
+def update_current_nuyen_ledger(text: str, report: Report, day: date) -> str:
+    current_pattern = re.compile(r"- \*\*Known current nuyen:\*\* \*\*(?P<balance>[+-]?[\d,]+)¥\*\*(?P<tail>[^\n]*)")
+    current_match = current_pattern.search(text)
+    history_pattern = re.compile(
+        r"\*\*(?P<drone_delta>[+-][\d,]+)¥\*\* net from completed Curtis Drone Shift / Morning Garage Work Orders"
+    )
+    history_match = history_pattern.search(text)
+    if not current_match or not history_match:
+        return text
+
+    old_balance = int(current_match.group("balance").replace(",", ""))
+    old_drone_delta = int(history_match.group("drone_delta").replace(",", ""))
+    new_text = current_pattern.sub(
+        f"- **Known current nuyen:** **{format_yen(old_balance + report.nuyen_delta)}**{current_match.group('tail')}",
+        text,
+        count=1,
+    )
+    new_text = history_pattern.sub(
+        f"**{format_yen(old_drone_delta + report.nuyen_delta, signed=True)}** net from completed Curtis Drone Shift / Morning Garage Work Orders",
+        new_text,
+        count=1,
+    )
+    if report.kind == "morning_garage":
+        history_entry = (
+            f", and **{format_yen(report.nuyen_delta, signed=True)}** {report.job} project spend on "
+            f"{day.isoformat()}"
+        )
+        details_end = new_text.find("\n</details>")
+        if details_end == -1:
+            raise IngestError("Could not find Curtis nuyen history details block end.")
+        period = new_text.rfind(".", 0, details_end)
+        if period == -1:
+            raise IngestError("Could not find Curtis nuyen history sentence end.")
+        new_text = new_text[:period] + history_entry + new_text[period:]
+    return new_text
+
+
 def report_already_recorded(text: str, report: Report) -> bool:
     if report.job in text:
         return True
@@ -281,7 +403,7 @@ def update_curtis(report: Report, day: date) -> bool:
     if report_already_recorded(text, report):
         return False
 
-    text = update_funds_note(text, report)
+    text = update_funds_note(text, report, day)
     marker = "## Relevant Sessions"
     line = completed_work_order_line(report, day)
     text = replace_once(text, marker, f"{line}\n\n{marker}")
@@ -296,6 +418,8 @@ def vehicle_path(report: Report) -> Path | None:
 
 
 def update_vehicle(report: Report, day: date) -> bool:
+    if report.kind == "morning_garage":
+        return False
     path = vehicle_path(report)
     if path is None or not path.exists():
         return False
@@ -319,7 +443,7 @@ def ensure_clean_worktree() -> None:
 
 
 def commit_and_push(report: Report, *, push: bool) -> None:
-    run(["git", "add", "PCs/Curtis.md", "Vehicles"])
+    run(["git", "add", "PCs/Curtis.md", "Vehicles", "scripts/ingest_curtis_drone_shift_report.py"])
     status = run(["git", "status", "--short"])
     if not status.strip():
         return
@@ -327,7 +451,7 @@ def commit_and_push(report: Report, *, push: bool) -> None:
         "git",
         "commit",
         "-m",
-        f"Ingest Curtis Drone Shift {report.job}",
+        f"Ingest Curtis {report.job}",
         "-m",
         "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>",
     ])
