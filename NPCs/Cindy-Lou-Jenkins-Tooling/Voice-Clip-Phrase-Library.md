@@ -3,7 +3,7 @@ title: Cindy Lou Voice Clip Phrase Library
 type: npc-tooling
 visibility: player-safe
 status: active
-updated: 2026-07-20
+updated: 2026-08-19
 parent_page: README.md
 tags: [cindy, voice, clips, discord, npc-tools]
 ---
@@ -73,6 +73,8 @@ Runtime controls:
 - `!live-voice on|off|toggle|status` - controls whether fresh generated live replies are played into Discord voice;
 - `!voice-play-saved <clip_name>` - manual playback for a preserved/generated voice clip;
 - `!voice-stop` - stop current voice playback.
+
+For the full current Discord command list, including session lifecycle, voice connection, debug, saved-clip, and direct TTS commands, see [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md).
 
 Environment/config gates:
 

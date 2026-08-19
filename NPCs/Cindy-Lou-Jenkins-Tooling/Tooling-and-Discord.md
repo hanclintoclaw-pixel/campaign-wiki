@@ -3,7 +3,7 @@ title: Cindy Lou Tooling and Discord Notes
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-08-05
+updated: 2026-08-19
 tags: [cindy, tooling, discord, wiki, campaign-tech]
 ---
 
@@ -106,6 +106,7 @@ Known/customized behavior includes:
 - custom wake / routing behavior for Cindy prompts
 - voice chat integration work for joining, listening, and speaking in Discord audio
 - saved-clip playback support through the local voice bridge
+- documented Discord voice bridge command controls for session lifecycle, voice connection, live playback, stalling cues, saved clips, and debug/status checks
 - TTS middle-layer sculpting for cleanup, pronunciation, and Southern cadence before Kokoro rendering
 - warm Kokoro worker support for faster generated voice clips
 - gated stalling voice cues for short presence barks while longer responses generate
@@ -149,6 +150,7 @@ Preserve the archived notes only for the useful implementation lesson:
 For reconstructable implementation detail, use these pages:
 
 - [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)
+- [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
 - [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
@@ -179,6 +181,7 @@ Likely next improvements:
 - [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)
 - [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)
+- [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
 - [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
