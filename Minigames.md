@@ -2,7 +2,7 @@
 title: Minigames and Web Apps
 type: index
 visibility: player-safe
-updated: 2026-08-07
+updated: 2026-08-22
 ---
 
 # Minigames and Web Apps
@@ -32,6 +32,7 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 - [Contact Legwork Guide](https://hanclintoclaw-pixel.github.io/contact-legwork-guide/) - SR3 in-session contact workflow tool for contact knowledge, costs, Friends of Friends, wait times, Wrong Party risk, and GM-ruling prompts.
 - [Buying New Items Guide](https://hanclintoclaw-pixel.github.io/buying-new-items-guide/) - SR3 in-world purchasing workflow tool for Availability, Street Index, Negotiation, legality, wrong-party risk, pickup, and installation status.
 - [Spell Guide](https://hanclintoclaw-pixel.github.io/spell-guide/) - SR3 spell catalogue and Sorcery/Conjuring roll aid with a cybermystic UI shell.
+- [SR3 GM Spirit Tool](Tools/SR3-GM-Spirit-Tool.md) - SR3 spirit and elemental calculator for Force-based attributes, attacks, initiative, powers, domains, and weaknesses.
 
 ## SR3 workflow aids
 
