@@ -12,7 +12,7 @@ aliases:
 sources:
   - Discord request, 2026-07-08
   - Discord image attachment, 2026-07-08
-  - ../Sessions/2064-03-01.md
+  - ../Sessions/Game-Date-Session-2064-03-01.md
 ---
 
 # Claude August
@@ -66,7 +66,7 @@ _Claude's true form._
 
 ## Relevant Sessions
 
-- [2064-03-01](../Sessions/2064-03-01.md) - archived notes reference Princeps ownership and a dragon-level power struggle around Lord August.
+- [2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md) - archived notes reference Princeps ownership and a dragon-level power struggle around Lord August.
 
 ## Related Pages
 
@@ -86,4 +86,4 @@ _Claude's true form._
 
 - Discord request, 2026-07-08.
 - Discord image attachment, 2026-07-08.
-- [Session 2064-03-01](../Sessions/2064-03-01.md).
+- [(Game Date) Session - 2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md).

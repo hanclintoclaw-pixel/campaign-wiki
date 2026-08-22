@@ -1,6 +1,8 @@
 # Sessions
 
-> Mixed-date warning: some session page slugs are **real-world played dates** and some are **in-world Shadowrun dates**. For the reconciled two-column chronology, use [Timeline / Session Chronology](../Timeline/Session-Chronology.md).
+> Date note: normal `Session YYYY-MM-DD` pages use real-world played dates. Pages labeled `(Game Date) Session - YYYY-MM-DD` come from archived notes whose only reliable date is the in-world Shadowrun date. For the reconciled two-column chronology, use [Timeline / Session Chronology](../Timeline/Session-Chronology.md).
+
+## Played-date sessions
 
 - [Session 2022-08-11](2022-08-11.md)
 - [Session 2023-01-28](2023-01-28.md)
@@ -28,6 +30,46 @@
 - [Session 2024-07-11](2024-07-11.md)
 - [Session 2024-09-26](2024-09-26.md)
 - [Session 2024-10-03](2024-10-03.md)
+
+## Archived game-date sessions
+
+These pages are ordered by their in-world date and kept here as campaign data sources, but they should not be read as real-world played dates.
+
+- [(Game Date) Session - 2061-11-14](Game-Date-Session-2061-11-14.md)
+- [(Game Date) Session - 2061-12-17](Game-Date-Session-2061-12-17.md)
+- [(Game Date) Session - 2062-01-20](Game-Date-Session-2062-01-20.md)
+- [(Game Date) Session - 2062-02-02](Game-Date-Session-2062-02-02.md)
+- [(Game Date) Session - 2062-02-08](Game-Date-Session-2062-02-08.md)
+- [(Game Date) Session - 2062-05-05](Game-Date-Session-2062-05-05.md)
+- [(Game Date) Session - 2062-05-18](Game-Date-Session-2062-05-18.md)
+- [(Game Date) Session - 2062-06-01](Game-Date-Session-2062-06-01.md)
+- [(Game Date) Session - 2062-11-01](Game-Date-Session-2062-11-01.md)
+- [(Game Date) Session - 2062-12-01](Game-Date-Session-2062-12-01.md)
+- [(Game Date) Session - 2064-02-15](Game-Date-Session-2064-02-15.md)
+- [(Game Date) Session - 2064-03-01](Game-Date-Session-2064-03-01.md)
+- [(Game Date) Session - 2064-03-02](Game-Date-Session-2064-03-02.md)
+- [(Game Date) Session - 2064-03-08](Game-Date-Session-2064-03-08.md)
+- [(Game Date) Session - 2064-03-18](Game-Date-Session-2064-03-18.md)
+- [(Game Date) Session - 2064-03-23](Game-Date-Session-2064-03-23.md)
+- [(Game Date) Session - 2064-04-14](Game-Date-Session-2064-04-14.md)
+- [(Game Date) Session - 2064-04-17](Game-Date-Session-2064-04-17.md)
+- [(Game Date) Session - 2064-04-20](Game-Date-Session-2064-04-20.md)
+- [(Game Date) Session - 2064-05-03](Game-Date-Session-2064-05-03.md)
+- [(Game Date) Session - 2064-07-13](Game-Date-Session-2064-07-13.md)
+- [(Game Date) Session - 2064-07-28](Game-Date-Session-2064-07-28.md)
+- [(Game Date) Session - 2064-08-02](Game-Date-Session-2064-08-02.md)
+- [(Game Date) Session - 2064-08-15](Game-Date-Session-2064-08-15.md)
+- [(Game Date) Session - 2064-09-12](Game-Date-Session-2064-09-12.md)
+- [(Game Date) Session - 2065-03-04](Game-Date-Session-2065-03-04.md)
+- [(Game Date) Session - 2065-03-21](Game-Date-Session-2065-03-21.md)
+- [(Game Date) Session - 2065-04-08](Game-Date-Session-2065-04-08.md)
+- [(Game Date) Session - 2065-05-01](Game-Date-Session-2065-05-01.md)
+- [(Game Date) Session - 2065-06-16](Game-Date-Session-2065-06-16.md)
+- [(Game Date) Session - 2065-07-01](Game-Date-Session-2065-07-01.md)
+- [(Game Date) Session - 2065-09-01](Game-Date-Session-2065-09-01.md)
+
+## Current played-date sessions
+
 - [Session 2026-03-13](2026-03-13.md)
 - [Session 2026-03-19](2026-03-19.md)
 - [Session 2026-03-26](2026-03-26.md)
@@ -48,38 +90,6 @@
 - [Session 2026-07-30](2026-07-30.md)
 - [Session 2026-08-06](2026-08-06.md)
 - [Session 2026-08-13](2026-08-13.md)
-- [Session 2061-11-14](2061-11-14.md)
-- [Session 2061-12-17](2061-12-17.md)
-- [Session 2062-01-20](2062-01-20.md)
-- [Session 2062-02-02](2062-02-02.md)
-- [Session 2062-02-08](2062-02-08.md)
-- [Session 2062-05-05](2062-05-05.md)
-- [Session 2062-05-18](2062-05-18.md)
-- [Session 2062-06-01](2062-06-01.md)
-- [Session 2062-11-01](2062-11-01.md)
-- [Session 2062-12-01](2062-12-01.md)
-- [Session 2064-02-15](2064-02-15.md)
-- [Session 2064-03-01](2064-03-01.md)
-- [Session 2064-03-02](2064-03-02.md)
-- [Session 2064-03-08](2064-03-08.md)
-- [Session 2064-03-18](2064-03-18.md)
-- [Session 2064-03-23](2064-03-23.md)
-- [Session 2064-04-14](2064-04-14.md)
-- [Session 2064-04-17](2064-04-17.md)
-- [Session 2064-04-20](2064-04-20.md)
-- [Session 2064-05-03](2064-05-03.md)
-- [Session 2064-07-13](2064-07-13.md)
-- [Session 2064-07-28](2064-07-28.md)
-- [Session 2064-08-02](2064-08-02.md)
-- [Session 2064-08-15](2064-08-15.md)
-- [Session 2064-09-12](2064-09-12.md)
-- [Session 2065-03-04](2065-03-04.md)
-- [Session 2065-03-21](2065-03-21.md)
-- [Session 2065-04-08](2065-04-08.md)
-- [Session 2065-05-01](2065-05-01.md)
-- [Session 2065-06-16](2065-06-16.md)
-- [Session 2065-07-01](2065-07-01.md)
-- [Session 2065-09-01](2065-09-01.md)
 
 ## Archive analysis
 

@@ -26,38 +26,38 @@ Ordered by **played date**. The in-world column carries either a source date or 
 
 | # | Session | Played date | In-world date | Status | Notes |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [Session 2061-11-14](../Sessions/2061-11-14.md) | 2021-12-23 | 2061-11-14 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 2 | [Session 2061-12-17](../Sessions/2061-12-17.md) | 2021-12-30 | 2061-12-17 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 3 | [Session 2062-01-20](../Sessions/2062-01-20.md) | 2022-01-06 | 2062-01-20 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 4 | [Session 2062-02-02](../Sessions/2062-02-02.md) | 2022-01-13 | 2062-02-02 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 5 | [Session 2062-02-08](../Sessions/2062-02-08.md) | 2022-01-20 | 2062-02-08 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 6 | [Session 2062-05-05](../Sessions/2062-05-05.md) | 2022-01-27 | 2062-05-05 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 7 | [Session 2062-05-18](../Sessions/2062-05-18.md) | 2022-02-03 | 2062-05-18 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 8 | [Session 2062-06-01](../Sessions/2062-06-01.md) | 2022-02-10 | 2062-06-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 9 | [Session 2062-11-01](../Sessions/2062-11-01.md) | 2022-02-17 | 2062-11-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 10 | [Session 2062-12-01](../Sessions/2062-12-01.md) | 2022-02-24 | 2062-12-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 11 | [Session 2064-02-15](../Sessions/2064-02-15.md) | 2022-03-03 | 2064-02-15 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 12 | [Session 2064-03-01](../Sessions/2064-03-01.md) | 2022-03-10 | 2064-03-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 13 | [Session 2064-03-02](../Sessions/2064-03-02.md) | 2022-03-17 | 2064-03-02 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 14 | [Session 2064-03-08](../Sessions/2064-03-08.md) | 2022-03-24 | 2064-03-08 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 15 | [Session 2064-03-18](../Sessions/2064-03-18.md) | 2022-03-31 | 2064-03-18 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 16 | [Session 2064-03-23](../Sessions/2064-03-23.md) | 2022-04-07 | 2064-03-23 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 17 | [Session 2064-04-14](../Sessions/2064-04-14.md) | 2022-04-14 | 2064-04-14 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 18 | [Session 2064-04-17](../Sessions/2064-04-17.md) | 2022-04-21 | 2064-04-17 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 19 | [Session 2064-04-20](../Sessions/2064-04-20.md) | 2022-04-28 | 2064-04-20 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 20 | [Session 2064-05-03](../Sessions/2064-05-03.md) | 2022-05-05 | 2064-05-03 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 21 | [Session 2064-07-13](../Sessions/2064-07-13.md) | 2022-05-12 | 2064-07-13 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 22 | [Session 2064-07-28](../Sessions/2064-07-28.md) | 2022-05-19 | 2064-07-28 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 23 | [Session 2064-08-02](../Sessions/2064-08-02.md) | 2022-05-26 | 2064-08-02 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 24 | [Session 2064-08-15](../Sessions/2064-08-15.md) | 2022-06-02 | 2064-08-15 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 25 | [Session 2064-09-12](../Sessions/2064-09-12.md) | 2022-06-09 | 2064-09-12 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 26 | [Session 2065-03-04](../Sessions/2065-03-04.md) | 2022-06-16 | 2065-03-04 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 27 | [Session 2065-03-21](../Sessions/2065-03-21.md) | 2022-06-23 | 2065-03-21 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 28 | [Session 2065-04-08](../Sessions/2065-04-08.md) | 2022-06-30 | 2065-04-08 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 29 | [Session 2065-05-01](../Sessions/2065-05-01.md) | 2022-07-07 | 2065-05-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 30 | [Session 2065-06-16](../Sessions/2065-06-16.md) | 2022-07-14 | 2065-06-16 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 31 | [Session 2065-07-01](../Sessions/2065-07-01.md) | 2022-07-21 | 2065-07-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
-| 32 | [Session 2065-09-01](../Sessions/2065-09-01.md) | 2022-07-28 | 2065-09-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 1 | [(Game Date) Session - 2061-11-14](../Sessions/Game-Date-Session-2061-11-14.md) | 2021-12-23 | 2061-11-14 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 2 | [(Game Date) Session - 2061-12-17](../Sessions/Game-Date-Session-2061-12-17.md) | 2021-12-30 | 2061-12-17 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 3 | [(Game Date) Session - 2062-01-20](../Sessions/Game-Date-Session-2062-01-20.md) | 2022-01-06 | 2062-01-20 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 4 | [(Game Date) Session - 2062-02-02](../Sessions/Game-Date-Session-2062-02-02.md) | 2022-01-13 | 2062-02-02 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 5 | [(Game Date) Session - 2062-02-08](../Sessions/Game-Date-Session-2062-02-08.md) | 2022-01-20 | 2062-02-08 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 6 | [(Game Date) Session - 2062-05-05](../Sessions/Game-Date-Session-2062-05-05.md) | 2022-01-27 | 2062-05-05 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 7 | [(Game Date) Session - 2062-05-18](../Sessions/Game-Date-Session-2062-05-18.md) | 2022-02-03 | 2062-05-18 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 8 | [(Game Date) Session - 2062-06-01](../Sessions/Game-Date-Session-2062-06-01.md) | 2022-02-10 | 2062-06-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 9 | [(Game Date) Session - 2062-11-01](../Sessions/Game-Date-Session-2062-11-01.md) | 2022-02-17 | 2062-11-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 10 | [(Game Date) Session - 2062-12-01](../Sessions/Game-Date-Session-2062-12-01.md) | 2022-02-24 | 2062-12-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 11 | [(Game Date) Session - 2064-02-15](../Sessions/Game-Date-Session-2064-02-15.md) | 2022-03-03 | 2064-02-15 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 12 | [(Game Date) Session - 2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md) | 2022-03-10 | 2064-03-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 13 | [(Game Date) Session - 2064-03-02](../Sessions/Game-Date-Session-2064-03-02.md) | 2022-03-17 | 2064-03-02 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 14 | [(Game Date) Session - 2064-03-08](../Sessions/Game-Date-Session-2064-03-08.md) | 2022-03-24 | 2064-03-08 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 15 | [(Game Date) Session - 2064-03-18](../Sessions/Game-Date-Session-2064-03-18.md) | 2022-03-31 | 2064-03-18 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 16 | [(Game Date) Session - 2064-03-23](../Sessions/Game-Date-Session-2064-03-23.md) | 2022-04-07 | 2064-03-23 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 17 | [(Game Date) Session - 2064-04-14](../Sessions/Game-Date-Session-2064-04-14.md) | 2022-04-14 | 2064-04-14 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 18 | [(Game Date) Session - 2064-04-17](../Sessions/Game-Date-Session-2064-04-17.md) | 2022-04-21 | 2064-04-17 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 19 | [(Game Date) Session - 2064-04-20](../Sessions/Game-Date-Session-2064-04-20.md) | 2022-04-28 | 2064-04-20 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 20 | [(Game Date) Session - 2064-05-03](../Sessions/Game-Date-Session-2064-05-03.md) | 2022-05-05 | 2064-05-03 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 21 | [(Game Date) Session - 2064-07-13](../Sessions/Game-Date-Session-2064-07-13.md) | 2022-05-12 | 2064-07-13 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 22 | [(Game Date) Session - 2064-07-28](../Sessions/Game-Date-Session-2064-07-28.md) | 2022-05-19 | 2064-07-28 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 23 | [(Game Date) Session - 2064-08-02](../Sessions/Game-Date-Session-2064-08-02.md) | 2022-05-26 | 2064-08-02 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 24 | [(Game Date) Session - 2064-08-15](../Sessions/Game-Date-Session-2064-08-15.md) | 2022-06-02 | 2064-08-15 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 25 | [(Game Date) Session - 2064-09-12](../Sessions/Game-Date-Session-2064-09-12.md) | 2022-06-09 | 2064-09-12 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 26 | [(Game Date) Session - 2065-03-04](../Sessions/Game-Date-Session-2065-03-04.md) | 2022-06-16 | 2065-03-04 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 27 | [(Game Date) Session - 2065-03-21](../Sessions/Game-Date-Session-2065-03-21.md) | 2022-06-23 | 2065-03-21 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 28 | [(Game Date) Session - 2065-04-08](../Sessions/Game-Date-Session-2065-04-08.md) | 2022-06-30 | 2065-04-08 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 29 | [(Game Date) Session - 2065-05-01](../Sessions/Game-Date-Session-2065-05-01.md) | 2022-07-07 | 2065-05-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 30 | [(Game Date) Session - 2065-06-16](../Sessions/Game-Date-Session-2065-06-16.md) | 2022-07-14 | 2065-06-16 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 31 | [(Game Date) Session - 2065-07-01](../Sessions/Game-Date-Session-2065-07-01.md) | 2022-07-21 | 2065-07-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
+| 32 | [(Game Date) Session - 2065-09-01](../Sessions/Game-Date-Session-2065-09-01.md) | 2022-07-28 | 2065-09-01 | played placeholder | Handwritten scanned note; page slug preserves the in-world date from the note. |
 | 33 | [Session 2022-08-11](../Sessions/2022-08-11.md) | 2022-08-11 | 2065-09-11 | in-world placeholder | The crew investigated leaks from the Gladwell Institute rehab facility and narrowed suspicion onto security chief **Eugene Booker**, while uncovering hints that he might be frightened, manipulated, or set up rather than acting alone. |
 | 34 | [Session 2023-01-28](../Sessions/2023-01-28.md) | 2023-01-28 | 2065-09-18 | in-world placeholder | The crew took a grim retrieval job involving missing employee **Genevieve Watson** and uncovered evidence that she had been secretly fitted with surveillance cyberware for covert recording and data extraction. |
 | 35 | [Session 2023-03-20](../Sessions/2023-03-20.md) | 2023-03-20 | 2065-09-25 | in-world placeholder | The crew pursued the Cindy lead by investigating her concert/NFT ecosystem, following the hardware trail to **Blue Rayven**, and confirming that someone had bought the matrix infrastructure needed to house her. |

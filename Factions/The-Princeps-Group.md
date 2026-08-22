@@ -14,7 +14,7 @@ tags: [faction, corporation, miltech, cas, huntsville]
 sources:
   - Discord request, 2026-07-08
   - ../Clues/Late-January-Headlines.md
-  - ../Sessions/2064-03-01.md
+  - ../Sessions/Game-Date-Session-2064-03-01.md
 ---
 
 # The Princeps Group
@@ -61,7 +61,7 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 
 ## Relevant Sessions
 
-- [2064-03-01](../Sessions/2064-03-01.md) - archived notes describe Princeps ownership as entangled with a dragon-level power struggle around Lord August.
+- [2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md) - archived notes describe Princeps ownership as entangled with a dragon-level power struggle around Lord August.
 
 ## Related Pages
 
@@ -81,4 +81,4 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 
 - Discord request, 2026-07-08.
 - [Late January Headlines](../Clues/Late-January-Headlines.md).
-- [Session 2064-03-01](../Sessions/2064-03-01.md).
+- [(Game Date) Session - 2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md).

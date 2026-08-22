@@ -271,14 +271,14 @@ That fits the version of Ivan surfaced by the campaign notes: a recurring dwarf 
 ## Sources
 
 - [Session 2023-05-11](../Sessions/2023-05-11.md)
-- [Session 2061-11-14](../Sessions/2061-11-14.md)
-- [Session 2062-01-20](../Sessions/2062-01-20.md)
-- [Session 2062-05-05](../Sessions/2062-05-05.md)
-- [Session 2062-06-01](../Sessions/2062-06-01.md)
-- [Session 2064-03-08](../Sessions/2064-03-08.md)
-- [Session 2064-08-02](../Sessions/2064-08-02.md)
-- [Session 2065-03-04](../Sessions/2065-03-04.md)
-- [Session 2065-03-21](../Sessions/2065-03-21.md)
+- [(Game Date) Session - 2061-11-14](../Sessions/Game-Date-Session-2061-11-14.md)
+- [(Game Date) Session - 2062-01-20](../Sessions/Game-Date-Session-2062-01-20.md)
+- [(Game Date) Session - 2062-05-05](../Sessions/Game-Date-Session-2062-05-05.md)
+- [(Game Date) Session - 2062-06-01](../Sessions/Game-Date-Session-2062-06-01.md)
+- [(Game Date) Session - 2064-03-08](../Sessions/Game-Date-Session-2064-03-08.md)
+- [(Game Date) Session - 2064-08-02](../Sessions/Game-Date-Session-2064-08-02.md)
+- [(Game Date) Session - 2065-03-04](../Sessions/Game-Date-Session-2065-03-04.md)
+- [(Game Date) Session - 2065-03-21](../Sessions/Game-Date-Session-2065-03-21.md)
 - [Session 2026-04-02](../Sessions/2026-04-02.md)
 - *Shadowrun, Third Edition*
 - *Man & Machine*
