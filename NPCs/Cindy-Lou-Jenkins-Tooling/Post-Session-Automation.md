@@ -3,7 +3,7 @@ title: Cindy Lou Post-Session Automation
 type: tech-note
 visibility: player-safe
 status: brainstorm
-updated: 2026-08-16
+updated: 2026-08-22
 tags: [cindy, automation, sessions, wiki, memory, design]
 ---
 
@@ -27,6 +27,8 @@ When a session is closed, Cindy should be able to detect that the session is a *
 The ideal version requires **no direct user prompting after the session ends**.
 
 The near-term version should still include one deliberate GM confirmation step: preserve the transcript quickly, then ask the GM to approve the canon ingest and answer any date / current-state questions before the public wiki is treated as settled.
+
+For the future locally hosted build, this should be treated as a **campaign maintenance harness** around local model reasoning, not as a free-form chat response. Local Qwen or a successor local model can read and classify messy transcript material, but deterministic code should own source collection, date discipline, ledger checks, link updates, status transitions, and acceptance gates.
 
 ## Why this matters
 
@@ -132,7 +134,7 @@ That likely includes:
 
 This is not just bookkeeping. It is how Cindy remains a coherent recurring presence instead of waking up half-forgetful every time.
 
-### 3. Entity and knowledge extraction
+### 3. Entity, lead, and knowledge extraction
 
 A finished version should probably also identify structured follow-up items such as:
 
@@ -142,8 +144,9 @@ A finished version should probably also identify structured follow-up items such
 - matrix/system elements
 - newly revealed clues
 - unresolved entities needing later cleanup
+- unresolved leads or high-value unanswered questions that should remain visible as possible player actions
 
-That extracted material can feed later wiki work, campaign memory, and search/index systems.
+That extracted material can feed later wiki work, campaign memory, search/index systems, and a rebuilt clue registry or lead board.
 
 ### 4. Cindy-specific A-NPC follow-through
 
@@ -211,6 +214,111 @@ If the GM manually asks Cindy to ingest a session, Cindy should run a fast prefl
 
 The pushback should be short and concrete, not a questionnaire dump. If only one or two items are uncertain, ask only those.
 
+## Deterministic handling for "summarize last night's session"
+
+When the GM asks Cindy to "summarize last night's session" or equivalent, the local-hosted build should treat that as a specific workflow, not an ordinary open-ended summarization prompt.
+
+### Request resolver
+
+1. Determine the intended session source before writing canon:
+   - prefer the most recent closed live-session transcript if it ended within the last 24 hours;
+   - otherwise use the most recent session thread with strong authentic-session signals;
+   - if multiple sessions qualify, ask which one instead of guessing.
+2. Resolve the output target:
+   - brief chat recap only;
+   - player-visible wiki Session page;
+   - full post-session closeout with Current State, chronology, character state, and lead-board checks.
+3. Apply the authentic campaign notes gate before making public wiki changes. Tech tests, planning-only chatter, and short debriefs should not create session pages.
+
+### Evidence packet
+
+Before asking a model to summarize, deterministic code should gather a compact packet:
+
+- transcript/thread id and time span;
+- attendance if available;
+- candidate played date and in-world date/time;
+- scene breaks or speaker/time clusters;
+- explicit GM reward/closeout posts;
+- extracted named NPCs, locations, factions, vehicles, Matrix hosts, clues, and player decisions;
+- candidate state changes: nuyen, Karma, gear, damage, heat, favors, contacts, projects, vehicles/drones, and ongoing conditions;
+- existing pages that may need updates.
+
+### Model role
+
+Local Qwen should be used for interpretation and drafting:
+
+- scene summary;
+- notable decisions;
+- player-safe wording;
+- candidate open threads;
+- ambiguity detection.
+
+It should not be the accountant of record. Deterministic code should verify date status, links, ledgers, required fields, duplicate page creation, and whether public output is allowed.
+
+### Required output classes
+
+The workflow should produce one of these explicit outcomes:
+
+- **chat recap only:** answer in Discord, no wiki mutation;
+- **draft session page:** create a provisional page or patch for GM review;
+- **publish-ready ingest:** session page plus required Current State / chronology / related-page updates are coherent;
+- **needs GM clarification:** ask concrete questions before publishing;
+- **no real session found:** explain that no authentic session source was found.
+
+The pushback should be narrow. If the only uncertainty is in-world date, ask only that. If rewards or equipment are unclear, ask those questions in concrete accounting language.
+
+## Lead board / unpulled-thread maintenance
+
+If the old Clue Registry is rebuilt, the better target is a **player-safe Lead Board** backed by an optional GM-facing thread ledger. The local-hosted post-session harness should maintain it as part of closeout.
+
+### Purpose
+
+The player-facing board should answer: "What could the crew still follow up on?" The GM-facing ledger should answer: "What unresolved pressure points are still available to pay off?"
+
+### Candidate entry schema
+
+Each lead/thread should have:
+
+- short hook name;
+- status: open, active, dormant, resolved, false lead, superseded, GM-only;
+- first seen and last touched session;
+- why it matters in one or two sentences;
+- player-known facts only;
+- concrete player-facing questions;
+- suggested next actions;
+- connected NPCs, factions, locations, sessions, artifacts, and Matrix systems;
+- confidence / spoiler-safety flag;
+- optional private GM notes or payoff ideas kept out of player-safe pages.
+
+### Post-session maintenance pass
+
+After each authentic session, deterministic code plus model assistance should classify leads into:
+
+- **new:** a new clue, mystery, lead, or unanswered question appeared;
+- **touched:** the session added evidence or changed priority;
+- **resolved:** the crew answered it, closed it, or made it irrelevant;
+- **dormant:** still valid but not an immediate next action;
+- **superseded:** replaced by a clearer question or newer lead;
+- **do not publish:** too spoiler-heavy, speculative, or GM-only.
+
+A session ingest is not complete until the lead board has either been updated or explicitly marked "no player-visible lead changes." This keeps the board from decaying into another stale index.
+
+### Quality bar
+
+Lead-board entries should be actionable, not archival. Prefer questions and next moves over vague lore labels.
+
+Good shape:
+
+- "Who owned the second drone tailing Jet Set Morgan?"
+- "Can the anonymous satellite sponsor be caught during the next live contact?"
+- "Which Late January headline threads are background color versus active campaign drivers?"
+
+Bad shape:
+
+- "Jet Set Morgan clue"
+- "Satellite thing"
+- "Investigate everything"
+
 ## Date discipline rule
 
 Every public session ingest should end with one of these explicit outcomes:
@@ -269,6 +377,8 @@ This page is intentionally preliminary. Some good unresolved questions:
 - How much of Cindy’s own post-session reflection should ever be player-visible?
 - Should entity extraction happen in the same workflow, or as a second pass?
 - What should be logged for auditability when the automation runs on its own?
+- Should the Lead Board live under `Clues/`, replace `Clues/README.md`, or become a new top-level `Leads/` section with `Clues/` retained for evidence pages?
+- How should GM-only lead-ledger notes be stored so public wiki pages never leak hidden payoffs?
 
 ## A likely end state
 
