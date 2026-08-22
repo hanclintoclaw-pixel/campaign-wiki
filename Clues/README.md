@@ -1,5 +1,6 @@
 ---
 title: Loose Threads / Unpulled Threads / Lead Board
+permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
