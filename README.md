@@ -10,7 +10,7 @@ Git-backed Markdown campaign memory for the Nashville Shadowrun game.
 - `NPCs/` — character dossiers
 - `Factions/` — corps, crews, and organizations
 - `Locations/` — apartments, clubs, offices, neighborhoods
-- `Clues/` — clue registry and evidence graph
+- `Clues/` — loose threads, unpulled leads, and archived clue evidence
 - `Arcs/` — major plot arcs
 - `Timeline/` — campaign chronology
 - `Templates/` — copyable starter pages for common wiki categories

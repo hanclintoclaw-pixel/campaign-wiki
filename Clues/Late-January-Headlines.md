@@ -2,12 +2,17 @@
 title: Late January Headlines
 type: clue
 visibility: player-safe
-updated: 2026-07-08
+status: archived
+updated: 2026-08-22
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/wordpress_ingest/Run Notes/headlines-from-late-january.md
 ---
 
 # Late January Headlines
+
+## Archive note
+
+This page is retained as a historical source because other wiki pages cite it, but it is no longer part of the active lead board. Its open questions come from an older campaign layer and should not be treated as current player priorities unless the GM reactivates them.
 
 ## Summary
 

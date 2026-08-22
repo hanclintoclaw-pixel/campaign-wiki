@@ -2,7 +2,7 @@
 title: Anonymous Sponsor Satellite Link
 type: entity
 visibility: player-safe
-status: active
+status: resolved
 first_session: 2026-03-26
 last_updated_session: 2026-04-02
 canon_status: provisional
@@ -14,6 +14,10 @@ sources:
 ---
 
 # Anonymous Sponsor Satellite Link
+
+## Resolution note
+
+This clue is no longer tracked as an active loose thread. It resolved into the broader **Core 7 / Site 7** influence-engine chain as the crew followed the Darla / Jet Set Morgan / counterfeit-promo investigation into the hidden Site 7 infrastructure.
 
 ## Overview
 

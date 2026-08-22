@@ -2,7 +2,7 @@
 title: Campaign Navigation
 type: navigation
 visibility: player-safe
-updated: 2026-07-29
+updated: 2026-08-22
 ---
 
 # Campaign Navigation
@@ -23,7 +23,7 @@ updated: 2026-07-29
 - [Curtis Drone Dashboard](https://hanclintoclaw-pixel.github.io/drone-dashboard/)
 - [Campaign Maps](Maps/README.md)
 - [Matrix Hosts](Tech/Matrix/README.md)
-- [Clue Registry](Clues/)
+- [Loose Threads / Lead Board](Clues/)
 - [Campaign Arc Index](Timeline/Arc-Index.md)
 - [Timeline](Timeline/index.md)
 - [Page Templates](Templates/README.md)

@@ -2,7 +2,7 @@
 title: Second Drone Tailing Jet Set Morgan
 type: entity
 visibility: player-safe
-status: active
+status: resolved
 first_session: 2026-04-09
 last_updated_session: 2026-04-09
 canon_status: provisional
@@ -13,6 +13,10 @@ sources:
 ---
 
 # Second Drone Tailing Jet Set Morgan
+
+## Resolution note
+
+This clue is no longer tracked as an active loose thread. It resolved into the broader **Core 7 / Site 7** surveillance and influence-chain investigation as the Jet Set Morgan / Darla trail led to 612 Wharf and the hidden Site 7 infrastructure.
 
 ## Overview
 
