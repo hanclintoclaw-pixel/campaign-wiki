@@ -22,3 +22,4 @@ Git-backed Markdown campaign memory for the Nashville Shadowrun game.
 - YAML frontmatter for structured metadata
 - Git history as audit trail
 - Cindy maintains pages primarily; humans can review and correct canon
+- Post-session closeout can patch `index.md` and `Current-State.md` with `scripts/update_current_campaign_state.py`

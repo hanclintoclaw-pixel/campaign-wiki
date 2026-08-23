@@ -3,7 +3,7 @@ title: Cindy Lou Post-Session Automation
 type: tech-note
 visibility: player-safe
 status: brainstorm
-updated: 2026-08-22
+updated: 2026-08-23
 tags: [cindy, automation, sessions, wiki, memory, design]
 ---
 
@@ -105,9 +105,9 @@ That page should include, in some cleaned-up form:
 
 The ideal experience is that a real session ends and a first-pass player-safe session record appears without anyone having to ask for it.
 
-### 1a. Current-state and chronology maintenance
+### 1a. Current Situation, Current State, and chronology maintenance
 
-The session page is not enough by itself. Every session ingest should also decide whether the campaign's **Current State** and **Session Chronology** need to move.
+The session page is not enough by itself. Every session ingest should also decide whether the front-page **Current Situation**, the campaign's **Current State**, and **Session Chronology** need to move.
 
 The workflow should explicitly check:
 
@@ -116,10 +116,12 @@ The workflow should explicitly check:
 - whether any downtime, stakeout, travel, healing, shopping, legwork, or project work advanced the clock
 - whether the latest active scene is now a new canonical date
 - whether the session is a backdated interlude that should not move the main current-state clock
+- whether the front page needs a new concise Current Situation paragraph
+- whether the fuller Current State focus, recent runs, in-world date, immediate leads, and open questions need changes
 - whether new immediate leads replaced, resolved, or reprioritized the old Current State leads
 - whether newly introduced clues should become open questions, active hooks, or closed threads
 
-If the date cannot be inferred cleanly from the transcript, Cindy should not silently leave it loose. She should ask a compact clarification before marking the ingest complete.
+If the date or current-state movement cannot be inferred cleanly from the transcript, Cindy should not silently leave it loose. She should ask a compact clarification before marking the ingest complete.
 
 ### 2. Cindy’s internal notes and memory
 
@@ -174,6 +176,8 @@ A reasonable post-session pipeline might look like this:
    - collect source transcript / notes
    - generate a first-pass session summary
    - create or update the wiki Session page
+   - draft a short front-page Current Situation paragraph
+   - draft fuller Current State updates for focus, recent runs, dates, immediate leads, and open questions
    - run a chronology/current-state checkpoint
    - update Cindy’s internal notes
    - extract entities / open threads / follow-up tasks
@@ -261,7 +265,7 @@ The workflow should produce one of these explicit outcomes:
 
 - **chat recap only:** answer in Discord, no wiki mutation;
 - **draft session page:** create a provisional page or patch for GM review;
-- **publish-ready ingest:** session page plus required Current State / chronology / related-page updates are coherent;
+- **publish-ready ingest:** session page plus required Current Situation, Current State, chronology, lead-board, and related-page updates are coherent;
 - **needs GM clarification:** ask concrete questions before publishing;
 - **no real session found:** explain that no authentic session source was found.
 
@@ -319,15 +323,57 @@ Bad shape:
 - "Satellite thing"
 - "Investigate everything"
 
+## Current situation / state maintenance rule
+
+Every public session ingest should produce one of these explicit outcomes for `index.md` and `Current-State.md`:
+
+- **Front-page situation changed:** replace the `## Current Situation` paragraph in `index.md` with a short, player-safe description of where the crew stands now.
+- **Front-page situation unchanged:** say why, usually because the session was a backdated interlude, pure bookkeeping, or did not alter the public campaign posture.
+- **Current State changed:** update `Current-State.md` more fully, including current focus, recent runs/follow-ups, in-world date, immediate leads, and open questions as needed.
+- **Current State unchanged:** say why and confirm that the existing focus, dates, leads, and open questions remain accurate.
+- **State unresolved:** leave the ingest provisional and queue a GM clarification instead of letting uncertainty disappear.
+
+Use `scripts/update_current_campaign_state.py` to apply approved state text from a JSON payload. The session-summary model should draft the prose; the deterministic script should own section replacement and frontmatter dates.
+
+Example payload:
+
+```json
+{
+  "current_situation": "The crew has just finished the Radnor Lake handoff and is deciding whether to pursue the scorpion-drone evidence, Wyrmwatch fallout, or the Core 7 / Dead Soldier lead next.",
+  "current_state": {
+    "current_focus": [
+      "The latest player-visible focus is the aftermath of the Radnor Lake / Wyrmwatch handoff.",
+      "The crew's most immediate practical choice is whether to analyze the recovered scorpion drone, follow Wyrmwatch's custody of Chunky Sparkles, or pursue the Core 7 / Dead Soldier trace."
+    ],
+    "recent_runs": [
+      "The Chunky Sparkles / Wyrmwatch follow-up remains the latest completed run.",
+      "The Pixel Sticks scorpion drone recovery remains an active evidence and salvage follow-up."
+    ],
+    "in_world_date": [
+      "Current campaign year: **2066**",
+      "Current active date: **2066-05-15**, canon."
+    ],
+    "immediate_leads": [
+      "diagnose the recovered Pixel Sticks Scorpion Drone",
+      "determine what Wyrmwatch does with Chunky Sparkles"
+    ],
+    "open_questions": [
+      "What does the recovered scorpion drone still contain?",
+      "Who taught the Chunky Sparkles command phrases?"
+    ]
+  }
+}
+```
+
 ## Date discipline rule
 
 Every public session ingest should end with one of these explicit outcomes:
 
-- **Advances current date:** update `Current-State.md` and `Timeline/Session-Chronology.md`.
+- **Advances current date:** update `Current-State.md`, `index.md`, and `Timeline/Session-Chronology.md`.
 - **Does not advance current date:** say why, usually because it is a backdated interlude, same-night continuation, or side scene.
 - **Date unresolved:** leave the session marked provisional and queue a GM clarification instead of letting the uncertainty disappear.
 
-This should become part of the acceptance check for session closeout: no ingest is considered done until the session page, Current State, and chronology agree about date status.
+This should become part of the acceptance check for session closeout: no ingest is considered done until the session page, Current Situation, Current State, and chronology agree about date status.
 
 ## Important safety / quality rules
 
