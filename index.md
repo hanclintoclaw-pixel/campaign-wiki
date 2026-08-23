@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-07-29
+updated: 2026-08-23
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,7 +20,7 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The crew is deep in the **[Pixel Sticks](Factions/Pixel-Sticks.md)** run, a Matrix-youth-gang job tied to suspiciously advanced attack utilities. After Mevin found the hidden tag yard in the **[Happy Cat](Locations/Happy-Cat-Konpeki-and-Collectibles.md)** host, the crew traced a laser modem link into the **[Vernon Winfrey Arkoblock](Locations/Vernon-Winfrey-Arkoblock.md)** and ended the latest session stacked at the 21st-floor landing.
+The crew has closed the **[Pixel Sticks](Factions/Pixel-Sticks.md)** job and the **[Chunky Sparkles](NPCs/Chunky-Sparkles.md)** follow-up, ending at dawn on **2066-05-15** after the **[Radnor Lake](Locations/Radnor-Lake.md)** / **[Wyrmwatch](Factions/Draco-Foundation/Wyrmwatch-Circle.md)** handoff. The active table posture is now fallout and follow-up: diagnosing Curtis's recovered **[scorpion drone](Vehicles/Pixel-Sticks-Scorpion-Drone.md)**, tracing who supplied the Pixel Sticks and Chunky command phrases, and deciding whether to pursue the **[Core 7 / Dead Soldier](Locations/612-Wharf-and-Site-7.md)** lead.
 
 ## Navigation
 
