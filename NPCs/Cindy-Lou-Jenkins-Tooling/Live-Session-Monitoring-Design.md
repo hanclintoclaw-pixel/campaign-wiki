@@ -3,7 +3,7 @@ title: Cindy Lou Live Session Monitoring Design
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-08-15
+updated: 2026-08-25
 tags: [cindy, discord, voice, monitoring, design]
 ---
 
@@ -90,6 +90,20 @@ It then decides between three outcomes:
 
 The current monitor is much more conservative than the first live draft.
 
+### Latency tuning pass: 2026-08-25
+
+A live-response review after the 2026-08-24 session found that STT and warm Kokoro rendering were usually fast, while the largest delays came from OpenClaw response generation and cold session startup.
+
+The active bridge now tightens that path by:
+
+- limiting live wake thread context with `LIVE_WAKE_CONTEXT_LIMIT`;
+- telling live wake prompts not to do tool/file/web lookups unless explicitly required;
+- capping automatic spoken playback to a short first-sentence summary via `LIVE_VOICE_SPOKEN_MAX_CHARS` while keeping the full text answer in Discord;
+- running Discord voice join and Kokoro warmup in parallel during `!session-start`;
+- adding `!voice-warm` / `!cindy-warm` for pre-session Kokoro, Whisper, and stalling-clip warmup;
+- capturing explicit timeline events for OpenClaw call start/done/timeout and saved-voice render/playback stages;
+- increasing the Kokoro worker idle window so a pre-warmed worker is less likely to shut down before play.
+
 ### It now explicitly separates conversation modes
 
 The monitor classifies windows into buckets such as:
@@ -122,6 +136,10 @@ The current version tightened this by using more exact matching, especially arou
 ### Post-session chatter is explicitly suppressed
 
 The monitor now has a dedicated notion of **post-session debrief** so “wrapping up,” thank-yous, aftercare chatter, and casual review do not look like live tactical openings.
+
+### Proactive pings are strictly throttled
+
+Non-direct GM pings now obey `LIVE_MONITOR_MIN_PING_INTERVAL_S` even when the inferred reason text changes. This prevents a table-talk or tooling-heavy stretch from producing several speculative Cindy Initiative pings in a few minutes. Direct Cindy wake replies still use the direct response path instead of this proactive monitor throttle.
 
 ## What it tries hard **not** to do
 

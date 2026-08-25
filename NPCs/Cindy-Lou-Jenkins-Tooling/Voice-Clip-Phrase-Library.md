@@ -3,7 +3,7 @@ title: Cindy Lou Voice Clip Phrase Library
 type: npc-tooling
 visibility: player-safe
 status: active
-updated: 2026-08-19
+updated: 2026-08-25
 parent_page: README.md
 tags: [cindy, voice, clips, discord, npc-tools]
 ---
@@ -16,7 +16,7 @@ This page tracks Cindy Lou's short reusable voice clips for peppy live-table res
 
 The clip library is currently part of a **GM-controlled voice workflow**. Cindy may prepare text and saved voice-line candidates during live play, but routine full-response playback is manually controlled through the live voice bridge rather than treated as an always-on bot behavior.
 
-The active fast-generation path uses the local Kokoro worker for short generated lines. Longer or replayable NPC lines can still use higher-quality generated voice paths, but table playback should stay brief because Discord audio may cut out on longer clips.
+The active fast-generation path uses the local Kokoro worker for short generated lines. Automatic live playback now speaks a short first-sentence summary of the generated text while leaving the full answer in the session thread. Longer or replayable NPC lines can still use higher-quality generated voice paths, but table playback should stay brief because Discord audio may cut out on longer clips.
 
 As of 2026-07-20, the bridge also has a gated **stalling voice** layer for tiny utility barks while a bespoke response is still being generated. This is meant to reduce confusing silence after a direct live prompt without replacing the real answer.
 
@@ -69,6 +69,7 @@ Default timing:
 Runtime controls:
 
 - `!voice-stalling on|off|toggle|status` - runtime toggle and status command;
+- `!voice-warm` / `!cindy-warm` - pre-warm Kokoro, Whisper, and stalling clips before a likely Cindy-heavy scene;
 - `!voice-stalling-cache` - pre-render or refresh the cached stalling clips;
 - `!live-voice on|off|toggle|status` - controls whether fresh generated live replies are played into Discord voice;
 - `!voice-play-saved <clip_name>` - manual playback for a preserved/generated voice clip;
@@ -84,7 +85,9 @@ Environment/config gates:
 - `CINDY_STALLING_VOICE_INITIAL_DELAY_S=1.5` - first-cue delay;
 - `CINDY_STALLING_VOICE_REPEAT_DELAY_S=2.0` - follow-up cue delay;
 - `CINDY_STALLING_VOICE_MAX_PHRASES=2` - maximum stalling cues per answer;
-- `CINDY_STALLING_VOICE_CACHE_DIR=/Volumes/carbonite/claw/data/cindylou/runtime/stalling-voice-clips` - optional cache override.
+- `CINDY_STALLING_VOICE_CACHE_DIR=/Volumes/carbonite/claw/data/cindylou/runtime/stalling-voice-clips` - optional cache override;
+- `LIVE_VOICE_SPOKEN_MAX_CHARS=220` - maximum length for automatic spoken summaries;
+- `KOKORO_WORKER_IDLE_TIMEOUT_S=7200` - keeps the worker warm for two hours after pre-warm/session end unless explicitly stopped.
 
 The initial stalling phrase pool is deliberately short and a little goofy:
 

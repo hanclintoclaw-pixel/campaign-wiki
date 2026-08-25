@@ -3,7 +3,7 @@ title: Cindy Lou Discord Voice Bridge Commands
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-08-19
+updated: 2026-08-25
 parent_page: README.md
 tags: [cindy, discord, voice, commands, npc-tools]
 ---
@@ -29,6 +29,7 @@ The current posture is **text-first and GM-controlled for voice**:
 - transcription and command/status messages go to the active session thread when one exists;
 - generated live voice can be toggled separately from text replies;
 - saved/generated clips are preserved first, then played manually or automatically only when the relevant gates allow it;
+- automatic live playback speaks a short first-sentence summary while the full text reply stays in the session thread;
 - Kokoro worker health is treated as part of session readiness because warm local TTS is what makes short live lines practical.
 
 ## Session lifecycle commands
@@ -49,10 +50,27 @@ What it does:
 - warms the Kokoro worker before treating the session as ready;
 - starts Whisper/STT warmup in the background;
 - forces the bridge to join the configured Discord voice channel;
+- runs Discord voice join and Kokoro warmup in parallel to reduce session-start latency;
 - starts the Kokoro worker health monitor;
 - reports whether voice join and Kokoro warmup succeeded.
 
 If Discord voice is blocked by DAVE / End-to-End Encryption, the command reports that separately and tells the operator to disable E2EE for the Shadowrun voice channel.
+
+### `!voice-warm`
+
+Alias: `!cindy-warm`
+
+Pre-warms the live voice path before a session or before a likely Cindy-heavy scene.
+
+What it does:
+
+- cancels any pending Kokoro idle shutdown;
+- warms the Kokoro worker;
+- warms Whisper/STT;
+- refreshes cached stalling clips when stalling voice is enabled;
+- reports elapsed time, Kokoro readiness, stalling-cache counts, and the current idle-stop window.
+
+Use this shortly before play if the operator wants the first Cindy response to avoid the cold Kokoro startup cost. It does not create a session thread or force Cindy into voice; use `!session-start` for the full session lifecycle.
 
 ### `!session-end`
 
@@ -149,7 +167,7 @@ Modes:
 - `toggle`, `flip` - invert the current setting;
 - `status`, `state`, `?` - report the current setting.
 
-When enabled, the runtime uses the current fresh-Kokoro path: generate/preserve the clip, then play it into Discord voice if the reply actually emitted and prompt-level no-voice suppression did not apply.
+When enabled, the runtime uses the current fresh-Kokoro path: generate/preserve the clip, then play it into Discord voice if the reply actually emitted and prompt-level no-voice suppression did not apply. For automatic live playback, the spoken clip is capped to a short first-sentence summary by `LIVE_VOICE_SPOKEN_MAX_CHARS`; the full text reply remains in Discord.
 
 ### `!voice-stalling [on|off|toggle|status]`
 
@@ -246,6 +264,9 @@ The bridge also has wake behavior controlled by configuration rather than Discor
 - `VOICE_WAKE_ENABLED` controls whether voice-transcript wake phrases can summon Cindy from voice transcription.
 - `ACTIVE_THREAD_WAKE_ENABLED` controls whether active session-thread messages/transcripts that mention Cindy can route to Cindy.
 - `WAKE_WORD` defaults to `cindy`.
+- `LIVE_WAKE_CONTEXT_LIMIT` limits how many recent thread messages are added to live wake prompts.
+- `OPENCLAW_BRIDGE_TIMEOUT_S` and `OPENCLAW_BRIDGE_PROCESS_GRACE_S` cap the OpenClaw subprocess wait for live wake answers.
+- `KOKORO_WORKER_IDLE_TIMEOUT_S` controls how long the warm Kokoro worker stays alive after session end or pre-warm.
 
 When active-thread wake is enabled, a transcript line or in-session text message that targets Cindy can be handled as a wake event without someone typing a `!` command. That path is separate from the command list above.
 
