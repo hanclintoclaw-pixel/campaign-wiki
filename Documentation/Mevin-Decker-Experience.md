@@ -2,7 +2,7 @@
 title: Mevin Decker Experience Documentation
 type: documentation
 visibility: player-safe
-updated: 2026-07-17
+updated: 2026-08-26
 ---
 
 # Mevin Decker Experience Documentation
@@ -11,7 +11,7 @@ For player-facing step-by-step use at the table, see the [Mevin Decker Experienc
 
 ## What it is
 
-The [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) is a live-table Matrix host crawl tool for Shadowrun 3rd Edition play. It turns a wiki-hosted Matrix host profile into a clickable, roll-gated flowchart that a decker player can use while the rest of the team continues acting in meatspace.
+The [Mevin Decker Experience V1](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) is a live-table Matrix host crawl tool for Shadowrun 3rd Edition play. The [Mevin Decker Experience V2](https://hanclintoclaw-pixel.github.io/mevin-decker-experience-v2/) is a separate clone for future iteration, currently matching V1 behavior. It turns a wiki-hosted Matrix host profile into a clickable, roll-gated flowchart that a decker player can use while the rest of the team continues acting in meatspace.
 
 The design goal is not to replace SR3 Matrix rules. It is a table helper: a fast, readable way to give the decker meaningful choices, rolls, Security Tally pressure, IC interruptions, and concrete rewards without making the GM run an entire separate rules subsystem from scratch every time someone jacks in.
 

@@ -2,19 +2,19 @@
 title: Mevin Decker Experience Player Manual
 type: documentation
 visibility: player-safe
-updated: 2026-07-12
+updated: 2026-08-26
 ---
 
 # Mevin Decker Experience Player Manual
 
-This manual explains how to use the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) during play.
+This manual explains how to use the [Mevin Decker Experience V1](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) during play. The [Mevin Decker Experience V2](https://hanclintoclaw-pixel.github.io/mevin-decker-experience-v2/) is available as a separate clone for future iteration.
 
 Use it when your character is jacked into a Matrix host and the GM wants the decking run to proceed as a focused table minigame while the rest of the team continues acting outside the Matrix.
 
 ## Quick start
 
 1. Open the [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) and confirm your deck, persona, and utilities are current.
-2. Open the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/).
+2. Open the [Mevin Decker Experience V1](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) or [Mevin Decker Experience V2](https://hanclintoclaw-pixel.github.io/mevin-decker-experience-v2/).
 3. Click **Sync Deck Manager**.
 4. Click **Load Host List** if the host list is not already visible.
 5. Choose the Host the GM told you to enter.

@@ -18,7 +18,7 @@ sources:
 
 A low-tech Matrix host run by the **H-Block Crew**, a primarily ork-based street gang that mixes small-time Matrix crime with for-hire meat-space actions. The host sits behind a **vanishing SAN**: the access path is not impossible to find, but it appears only in short, dirty windows among local LTG noise, burner aliases, and gang-tag chatter.
 
-The profile below mirrors the current seed profile used by the [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) and has a [machine-readable host profile](../../data/matrix-hosts/h-block-crew-vanishing-san-host.json) for Matrix minigame tools, including the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/).
+The profile below mirrors the current seed profile used by the [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) and has a [machine-readable host profile](../../data/matrix-hosts/h-block-crew-vanishing-san-host.json) for Matrix minigame tools, including the [Mevin Decker Experience V1](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) and [Mevin Decker Experience V2](https://hanclintoclaw-pixel.github.io/mevin-decker-experience-v2/).
 
 ## Host Stats (SR3-style)
 

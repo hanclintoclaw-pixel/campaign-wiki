@@ -59,7 +59,7 @@ Use normal SR3 Matrix host assumptions:
 
 ## Decker Experience profile
 
-This exemplar is loadable in the [Mevin Decker Experience](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) through [data/matrix-hosts/example-home-telecom-host.json](../../data/matrix-hosts/example-home-telecom-host.json).
+This exemplar is loadable in the [Mevin Decker Experience V1](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) and [Mevin Decker Experience V2](https://hanclintoclaw-pixel.github.io/mevin-decker-experience-v2/) through [data/matrix-hosts/example-home-telecom-host.json](../../data/matrix-hosts/example-home-telecom-host.json).
 
 Profile design:
 
