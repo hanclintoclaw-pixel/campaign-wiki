@@ -3,7 +3,7 @@ title: Cindy Lou Jenkins Journal
 type: journal-index
 visibility: player-safe
 status: active
-last_updated_session: 2026-07-30
+last_updated_session: 2026-08-26
 parent_page: ../Cindy-Lou-Jenkins-In-Her-Own-Words.md
 tags: [npc, cindy, journal, personality-profile, subjective]
 ---
@@ -27,3 +27,4 @@ For the broader first-person profile page, see: [Cindy Lou Jenkins, In Her Own W
 - [On Darla, Performance, and Influence](On-Darla-Performance-and-Influence.md)
 - [On SC Music and the Locked Door](On-SC-Music-and-the-Locked-Door.md)
 - [On Core 7 and Dead Soldier](On-Core-7-and-Dead-Soldier.md)
+- [On the Dead Soldier Trace](On-the-Dead-Soldier-Trace.md)

@@ -4,7 +4,7 @@ type: entity-perspective
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-08-15
+last_updated_session: 2026-08-26
 canon_status: subjective-character-voice
 confidence: medium
 parent_page: Cindy-Lou-Jenkins.md
@@ -177,6 +177,7 @@ That is not criticism. That is taxonomy.
 - [On Mucky and the Road Reapers](Cindy-Lou-Jenkins-Journal/On-Mucky-and-the-Road-Reapers.md)
 - [On Darla, Performance, and Influence](Cindy-Lou-Jenkins-Journal/On-Darla-Performance-and-Influence.md)
 - [On Core 7 and Dead Soldier](Cindy-Lou-Jenkins-Journal/On-Core-7-and-Dead-Soldier.md)
+- [On the Dead Soldier Trace](Cindy-Lou-Jenkins-Journal/On-the-Dead-Soldier-Trace.md)
 
 ## Related pages
 
