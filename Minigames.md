@@ -27,8 +27,8 @@ Public issue creation is not permission to mutate canon. Cindy should only act o
 - [Curtis Drone Shift](https://hanclintoclaw-pixel.github.io/curtis-drone-shift/) - daily garage work-order minigame for Curtis drone, vehicle, salvage, and Taco-shop maintenance scenes.
 - [Mevin Matrix Deck Manager](https://hanclintoclaw-pixel.github.io/mevin-deck-manager/) - SR3 cyberdeck, utility loadout, and host-run note tracker.
 - [Mevin Host Run Simulator](https://hanclintoclaw-pixel.github.io/mevin-host-run-simulator/) - click-through SR3-inspired Matrix host intrusion aid using Deck Manager exports and editable host profiles.
-- [Mevin Decker Experience V1](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) - locked V1 branching cyber-dungeon crawl that syncs Deck Manager state and pulls wiki host profile JSON.
-- [Mevin Decker Experience V2](https://hanclintoclaw-pixel.github.io/mevin-decker-experience-v2/) - V2 clone for future iteration, currently matching V1 behavior.
+- [Mevin Decker Experience V1](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) - frozen stable V1 branching cyber-dungeon crawl that syncs Deck Manager state and pulls wiki host profile JSON; do not change unless V1 is explicitly requested.
+- [Mevin Decker Experience V2](https://hanclintoclaw-pixel.github.io/mevin-decker-experience-v2/) - active-development V2 clone for future iteration, currently matching V1 behavior.
 - [Matrix Search Guide](https://hanclintoclaw-pixel.github.io/matrix-search-guide/) - SR3 Matrix search workflow tool for choosing search paths, applying canon modifiers, and producing a GM-facing result report.
 - [Contact Legwork Guide](https://hanclintoclaw-pixel.github.io/contact-legwork-guide/) - SR3 in-session contact workflow tool for contact knowledge, costs, Friends of Friends, wait times, Wrong Party risk, and GM-ruling prompts.
 - [Buying New Items Guide](https://hanclintoclaw-pixel.github.io/buying-new-items-guide/) - SR3 in-world purchasing workflow tool for Availability, Street Index, Negotiation, legality, wrong-party risk, pickup, and installation status.

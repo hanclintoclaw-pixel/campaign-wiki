@@ -7,7 +7,7 @@ updated: 2026-08-26
 
 # Mevin Decker Experience Player Manual
 
-This manual explains how to use the [Mevin Decker Experience V1](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) during play. The [Mevin Decker Experience V2](https://hanclintoclaw-pixel.github.io/mevin-decker-experience-v2/) is available as a separate clone for future iteration.
+This manual explains how to use the [Mevin Decker Experience V1](https://hanclintoclaw-pixel.github.io/mevin-decker-experience/) during play. V1 is frozen as the stable version. The [Mevin Decker Experience V2](https://hanclintoclaw-pixel.github.io/mevin-decker-experience-v2/) is available as the active-development clone for future iteration.
 
 Use it when your character is jacked into a Matrix host and the GM wants the decking run to proceed as a focused table minigame while the rest of the team continues acting outside the Matrix.
 
