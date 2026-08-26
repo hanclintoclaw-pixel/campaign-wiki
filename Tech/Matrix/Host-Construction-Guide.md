@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 canon_status: table-guidance
 confidence: high
-last_updated_session: 2026-07-17
+last_updated_session: 2026-08-26
 tags: [matrix, host, guide, decker-experience, sr3]
 sources:
   - GM/table-created host design guidance on 2026-07-11
@@ -135,6 +135,7 @@ Use one of these instead:
 - Let the first success reveal a useful staging location, clue, passcode, subsystem hub, or partial access before any second check.
 - Make the second check one of several meaningful options, not the only way forward.
 - Add a back-out/return/logoff option if the node is intentionally narrow or dangerous.
+- In V2, use optional node `navigation` metadata when map-based backtracking should be restricted; omitted `navigation` keeps the existing default that previously visited rooms are map-jumpable.
 
 Recommended intrusion topology:
 
@@ -147,6 +148,38 @@ Recommended intrusion topology:
 7. Clean or dangerous exit
 
 The profile should expose enough structure for the decker to make meaningful choices, but it should not over-answer GM-controlled facts.
+
+## Map Navigation Restrictions (V2)
+
+The V2 Decker Experience can selectively disable Host-map backtracking with optional per-node `navigation` metadata. This does **not** affect normal featured actions; it only controls whether a player can click a previously visited room on the map and jump there.
+
+Default behavior is backward-compatible: if a node omits `navigation`, a previously visited node remains map-jumpable.
+
+Use this for sealed rooms, one-way UV seams, collapsing access paths, dangerous containment zones, or places where retreat should require an explicit featured action.
+
+```json
+{
+  "id": "black-stage-door",
+  "title": "Black Stage Door",
+  "kind": "security",
+  "description": "The stage door seals behind your icon.",
+  "navigation": {
+    "allowMapJumpFrom": false,
+    "mapJumpDisabledReason": "The black stage door seals behind you; use a featured action to retreat."
+  },
+  "choices": [
+    { "label": "Retreat through the black stage door", "to": "secure-hub", "testId": "evadeTrace", "unlockSuccesses": 2 }
+  ]
+}
+```
+
+Supported fields:
+
+- `allowMapJumpTo: false` — the node can be visited normally, but cannot be re-entered by clicking it on the map afterward.
+- `allowMapJumpFrom: false` — while the decker is currently in this node, all map-click backtracking is disabled.
+- `mapJumpRequiresNoThreats: true` — disables relevant map jumps while an IC checkpoint is pending or active IC pressure exists.
+- `mapJumpMaxAlert: "normal" | "passive" | "active" | "shutdown"` — disables relevant map jumps when the current alert state is higher than that value.
+- `mapJumpDisabledReason` — custom text shown on disabled visited map nodes.
 
 ## Success Result Contract
 
