@@ -4,7 +4,7 @@ type: arc
 visibility: player-safe
 status: active
 first_session: 2026-07-09
-last_updated_session: 2026-08-13
+last_updated_session: 2026-08-27
 canon_status: canon
 confidence: high
 tags: [arc, current-run, matrix, youth-gang, utilities, nashville]
@@ -14,6 +14,7 @@ sources:
   - ../Sessions/2026-07-23.md
   - ../Sessions/2026-08-06.md
   - ../Sessions/2026-08-13.md
+  - ../Sessions/2026-08-27.md
 ---
 
 # Pixel Sticks / Military-Grade Utilities Run
@@ -26,7 +27,7 @@ The crew has accepted a deniable Matrix cleanup contract routed through **Ivan**
 
 The paid run is resolved but the fallout is not. In [Session 2026-07-23](../Sessions/2026-07-23.md), the crew breached the [Vernon Winfrey Arkoblock](../Locations/Vernon-Winfrey-Arkoblock.md) 21st-floor Pixel Sticks space, disrupted the cell, recovered used utilities, and received the full **60,000¥** payout from the Johnson-side handoff.
 
-The messy leftovers are now the real story: Mevin retained encrypted utility/paydata material for later work with Cindy Lou, the crew added themselves to a high-end scorpion combat drone's whitelist before triggering it as escape-cover, and that drone later fled the arkoblock battle. In [Session 2026-08-06](../Sessions/2026-08-06.md), Curtis and Kurgan recovered the badly damaged drone from **South Side Highwaymen** territory after a two-day stakeout and a go-ganger fight. In [Session 2026-08-13](../Sessions/2026-08-13.md), the crew found the escaped **Chunky Sparkles** at **[Radnor Lake](../Locations/Radnor-Lake.md)** and lured it into a Wyrmwatch / Draco Foundation handoff.
+The messy leftovers are now the real story: Mevin retained encrypted utility/paydata material for later work with Cindy Lou, the crew added themselves to a high-end scorpion combat drone's whitelist before triggering it as escape-cover, and that drone later fled the arkoblock battle. In [Session 2026-08-06](../Sessions/2026-08-06.md), Curtis and Kurgan recovered the badly damaged drone from **South Side Highwaymen** territory after a two-day stakeout and a go-ganger fight. In [Session 2026-08-13](../Sessions/2026-08-13.md), the crew found the escaped **Chunky Sparkles** at **[Radnor Lake](../Locations/Radnor-Lake.md)** and lured it into a Wyrmwatch / Draco Foundation handoff. In [Session 2026-08-27](../Sessions/2026-08-27.md), the crew questioned the surviving Pixel Sticks prisoners and confirmed the gang was used as a disposable proxy against **Cross Applied Technology** by an anonymous benefactor strongly implied to be **The Princeps Group / Claude August**.
 
 ## Known Contract Terms
 
@@ -59,14 +60,20 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - Herrick confirmed someone sponsored the Pixel Sticks with high-end utilities, while unknown raiders or cleanup actors removed those utilities after the fight.
 - Herrick later reached surviving Pixel Sticks prisoner **Lizzo Wells**, who knew a short set of Chunky Sparkles command phrases and incentives.
 - Chunky Sparkles was found at Radnor Lake and lured out by the crew for a Wyrmwatch / Draco Foundation follow-up.
+- In the follow-up interviews, surviving members described an anonymous Matrix benefactor, a dead drop of high-end utilities, and a transponder tied to the scorpion drone.
+- The sponsor's instructions targeted **Cross Applied Technology** subsidiaries and affiliates.
+- The benefactor used a high-resolution custom draconic humanoid Matrix icon, making **The Princeps Group / Claude August** the crew's strongest current suspect, though not yet legally proven.
+- **Lizzo Wells / Handy-Sandy** appears to be a probable otaku / self-described technoshaman and a Grid Overwatch person of interest.
+- **Imogene Viola** confirmed CAT arranged the original Pixel Sticks takedown contract and paid the crew **10,000¥** for follow-up intelligence / utility samples.
 
 ## Active Leads
 
 - Evaluate or crack Mevin's retained encrypted utility/paydata material.
 - Diagnose, secure, or rebuild the recovered [Pixel Sticks Scorpion Drone](../Vehicles/Pixel-Sticks-Scorpion-Drone.md) without exposing the crew's biometric whitelist data.
+- Trace the draconic humanoid Matrix icon strongly enough to prove or disprove the Princeps / Claude connection.
+- Determine what CAT can learn from the recovered utility samples and whether Imogene Viola offers direct follow-up work.
 - Identify who taught or supplied the Chunky Sparkles command phrases and food-incentive handling method.
 - Determine what Wyrmwatch / Draco Foundation custody means for Chunky Sparkles after the Radnor Lake handoff.
-- Identify the supplier/sponsor behind the utilities, ruthenium coating, and drone hardware.
 - Recover what was removed from the Johnson's dossier.
 - Preserve caution around proof-of-work, client identity, and whether the Johnson got everything they expected.
 
@@ -77,6 +84,7 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - [Session 2026-07-23](../Sessions/2026-07-23.md)
 - [Session 2026-08-06](../Sessions/2026-08-06.md)
 - [Session 2026-08-13](../Sessions/2026-08-13.md)
+- [Session 2026-08-27](../Sessions/2026-08-27.md)
 - [Pixel Sticks](../Factions/Pixel-Sticks.md)
 - [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md)
 - [Happy Cat Konpeki and Collectibles](../Locations/Happy-Cat-Konpeki-and-Collectibles.md)
@@ -89,12 +97,12 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 
 ## Open Questions
 
-- Who supplied the utilities and drone hardware?
+- Can the crew turn the Princeps / Claude implication into hard proof?
 - Are the Pixel Sticks pawns, thieves, test subjects, or a deliberate distraction?
 - What would the unedited monitoring data and Mevin's retained encrypted material reveal?
 - Was Chunky Sparkles at Happy Cat protection, coincidence, mascot, tenant, or threat?
 - What traces, data, or usable hardware remain inside the recovered scorpion drone?
-- Who created or taught the Chunky Sparkles command set used by Lizzo Wells?
+- Who created or taught the Chunky Sparkles command set used by Lizzo Wells, and was that the same friend who supplied Mr. Rainbow to her?
 - Does this run intersect with the broader citywide Matrix/influence-engine problem, or is it a separate local job?
 
 ## Sources
@@ -104,3 +112,4 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - [Session 2026-07-23](../Sessions/2026-07-23.md)
 - [Session 2026-08-06](../Sessions/2026-08-06.md)
 - [Session 2026-08-13](../Sessions/2026-08-13.md)
+- [Session 2026-08-27](../Sessions/2026-08-27.md)

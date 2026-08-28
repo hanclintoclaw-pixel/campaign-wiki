@@ -5,6 +5,9 @@
 ## Active Crew
 
 - [Mevin Kitnick](Mevin-Kitnick.md)
-- [Valgaut](Valgaut.md)
 - [Kurgan](Kurgan.md)
 - [Curtis](Curtis.md)
+
+## Temporarily Paused
+
+- [Valgaut](Valgaut.md)

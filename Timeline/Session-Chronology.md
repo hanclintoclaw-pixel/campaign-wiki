@@ -2,7 +2,7 @@
 title: Session Chronology
 type: timeline
 visibility: player-safe
-updated: 2026-08-16
+updated: 2026-08-28
 ---
 
 # Session Chronology
@@ -104,6 +104,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 76 | [Session 2026-07-30](../Sessions/2026-07-30.md) | 2026-07-30 | 2066-05-12 night | provisional | In a player-driven follow-up, the crew returned to the **Core 7 / Site 7** mystery. Kurgan found old and fresh **Pyramid** cigarette clues at the old ravine, Mevin and Cindy confirmed CAS military-standard Site 7 hardware, Core 7 provided the Scarred Man Matrix profile, and follow-up legwork identified **Colonel Earl Stryker / Dead Soldier** as the disgraced CAS officer and later shadow operator tied to the old aquatic-mammal wetware project. |
 | 77 | [Session 2026-08-06](../Sessions/2026-08-06.md) | 2026-08-06 | 2066-05-12 night into roughly 2066-05-14 | provisional | Partial-party player-driven follow-up for **Curtis** and **Kurgan**. The pair traced the missing **Pixel Sticks scorpion drone** through police / Hidden Enforcers fallout, learned **Chunky Sparkles** escaped containment, found the damaged ruthenium-coated drone in **South Side Highwaymen** territory, survived the returning go-ganger fight with Belmont and The Finisher, and recovered the drone as a long-term Curtis rebuild project for **7 Karma** and no nuyen payout. |
 | 78 | [Session 2026-08-13](../Sessions/2026-08-13.md) | 2026-08-13 | 2066-05-14 night into 2066-05-15 dawn | canon | Player-driven **Valgaut / Wyrmwatch** follow-up. The full crew found **Chunky Sparkles** at **Radnor Lake**, used research, Taco's old handling context, Herrick's prisoner intel from **Lizzo Wells**, food bait, and command phrases to lure it out, killed a regenerating gator-like awakened predator, and completed the Wyrmwatch handoff for **5,000¥** and **4 Karma** each. This establishes the current active campaign date as **2066-05-15**. |
+| 79 | [Session 2026-08-27](../Sessions/2026-08-27.md) | 2026-08-27 | 2066-05-15 daytime | provisional | Player-driven **Pixel Sticks sponsor** follow-up for Mevin, Kurgan, and Curtis after Valgaut was hard-paused. The crew interviewed surviving Pixel Sticks prisoners through Herrick, confirmed an anonymous dead-drop benefactor aimed them at **Cross Applied Technology**, strongly implicated **The Princeps Group / Claude August** through a draconic Matrix icon and prior feud context, identified **Lizzo Wells / Handy-Sandy** as a probable otaku / technoshaman and Grid Overwatch person of interest, and sold the intelligence / utility handoff to **Imogene Viola** for **10,000¥ total**. |
 
 ## Read this sequence in plain English
 
@@ -120,6 +121,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 11. Session 2026-07-30 is a player-driven Core 7 / Site 7 follow-up on the same provisional night after the Pixel Sticks payout. It does not record a new payout or group Karma award, but it shifts the live investigation toward Earl Stryker / Dead Soldier.
 12. Session 2026-08-06 is a partial-party player-driven Pixel Sticks fallout session. It begins on the same provisional night but includes roughly forty-eight hours of stakeout time, recovering the scorpion drone and pushing the immediate active scene toward about 2066-05-14.
 13. Session 2026-08-13 is a player-driven Wyrmwatch / Chunky Sparkles follow-up after the scorpion-drone recovery. It runs from **2066-05-14 night into 2066-05-15 dawn**, and establishes **2066-05-15 early morning** as the current active campaign date.
+14. Session 2026-08-27 follows the Pixel Sticks sponsor trail later on **2066-05-15** provisionally, confirming the attack was aimed at CAT and strongly implicating Princeps / Claude without creating fully public proof.
 
 ## Gaps and caveats
 

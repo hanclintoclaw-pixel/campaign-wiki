@@ -6,12 +6,13 @@ status: wyrmwatch-handoff
 canon_status: canon
 confidence: medium
 tags: [npc, awakened-creature, happy-cat, pixel-sticks]
-updated: 2026-08-14
+updated: 2026-08-28
 aliases: [Chonky Sparkles, Junkie Sparkles]
 sources:
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
   - ../Sessions/2026-08-13.md
+  - ../Sessions/2026-08-27.md
 ---
 
 # Chunky Sparkles
@@ -39,6 +40,7 @@ sources:
 - It responds to food incentives, especially hay and oats mixed with a high-calorie slurry of junk food, ground candy, and corn syrup.
 - Lizzo Wells knew or was given a short command set for it, including halt, come, attack, and flee, in an unfamiliar language.
 - During the Radnor Lake follow-up, its lightning was still dangerous but magically depleted; it responded favorably after the crew killed a predator threatening it and lured it away with food and commands.
+- In Session 2026-08-27, Lizzo called it **Mr. Rainbow**, said she inherited it from a friend she would not identify, and framed it as magical security she obtained after the Pixel Sticks money came through because she did not trust the scorpion drone.
 
 ## Role in the Campaign
 
@@ -53,7 +55,7 @@ sources:
 - Currently tied to [Draco Foundation - Wyrmwatch Circle](../Factions/Draco-Foundation/Wyrmwatch-Circle.md) through Valgaut's follow-up.
 - Recognized by [Kurgan](../PCs/Kurgan.md).
 - Magically assessed by [Valgaut](../PCs/Valgaut.md).
-- Near the current [Pixel Sticks](../Factions/Pixel-Sticks.md) investigation, though its exact relationship to the gang is unknown.
+- Near the current [Pixel Sticks](../Factions/Pixel-Sticks.md) investigation, though Session 2026-08-27 narrowed the relationship: Lizzo / Handy-Sandy appears to have brought it in as separate magical security rather than receiving it as part of the sponsor's drone package.
 
 ## Capabilities / Resources
 
@@ -67,11 +69,13 @@ sources:
 - [Session 2026-07-16](../Sessions/2026-07-16.md) - identified inside Happy Cat and magically assessed by Valgaut.
 - [Session 2026-07-23](../Sessions/2026-07-23.md) - arrived with Lizzo Wells during the crew's escape and fought the Pixel Sticks scorpion drone.
 - [Session 2026-08-13](../Sessions/2026-08-13.md) - found at Radnor Lake, threatened by a regenerating gator-like predator, and lured into a Wyrmwatch handoff after the crew saved it.
+- [Session 2026-08-27](../Sessions/2026-08-27.md) - Lizzo Wells / Handy-Sandy explained her Mr. Rainbow handling angle and said she inherited the creature from an unnamed friend.
 
 ## Open Questions
 
 - What exactly is its awakened nature?
 - Who originally taught or supplied the command phrases and incentives Lizzo Wells knew?
+- Who was Lizzo's unnamed friend who supplied or transferred Mr. Rainbow to her?
 - What will Wyrmwatch do with it after the Radnor Lake handoff?
 - Is the creature merely food-motivated, or did the rescue create a lasting attitude shift toward the crew?
 - What was its exact relationship with Lizzo Wells and the Pixel Sticks?
@@ -81,3 +85,4 @@ sources:
 - [Session 2026-07-16](../Sessions/2026-07-16.md)
 - [Session 2026-07-23](../Sessions/2026-07-23.md)
 - [Session 2026-08-13](../Sessions/2026-08-13.md)
+- [Session 2026-08-27](../Sessions/2026-08-27.md)

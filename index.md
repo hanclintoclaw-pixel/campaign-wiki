@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-08-23
+updated: 2026-08-28
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,7 +20,7 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The crew has closed the **[Pixel Sticks](Factions/Pixel-Sticks.md)** job and the **[Chunky Sparkles](NPCs/Chunky-Sparkles.md)** follow-up, ending at dawn on **2066-05-15** after the **[Radnor Lake](Locations/Radnor-Lake.md)** / **[Wyrmwatch](Factions/Draco-Foundation/Wyrmwatch-Circle.md)** handoff. The active table posture is now fallout and follow-up: diagnosing Curtis's recovered **[scorpion drone](Vehicles/Pixel-Sticks-Scorpion-Drone.md)**, tracing who supplied the Pixel Sticks and Chunky command phrases, and deciding whether to pursue the **[Core 7 / Dead Soldier](Locations/612-Wharf-and-Site-7.md)** lead.
+The crew has followed the **[Pixel Sticks](Factions/Pixel-Sticks.md)** sponsor trail through [Session 2026-08-27](Sessions/2026-08-27.md). The surviving Pixel Sticks prisoners confirmed an anonymous Matrix benefactor, a dead drop of high-end utilities, and a focused attack list against **[Cross Applied Technology](Organizations/Cross-Applied-Technology.md)** subsidiaries; the evidence now points strongly toward **[The Princeps Group](Factions/The-Princeps-Group.md)** / **[Claude August](NPCs/Claude-August.md)**, though not as courtroom-clean proof. **[Lizzo Wells / Handy-Sandy](NPCs/Lizzo-Wells-Handy-Sandy.md)** is now identified as a probable otaku / self-described technoshaman and Grid Overwatch person of interest, while **[Imogene Viola](NPCs/Imogene-Viola.md)** has paid the crew for the follow-up intelligence and may become a direct CAT contact.
 
 ## Navigation
 

@@ -2,7 +2,7 @@
 title: Campaign Arc Index
 type: arc-index
 visibility: player-safe
-updated: 2026-07-10
+updated: 2026-08-28
 ---
 
 # Campaign Arc Index
@@ -199,13 +199,23 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 ## 11. Pixel Sticks / military-grade utilities run
 
-**Core idea:** a deniable Matrix cleanup job begins as a youth-gang vandalism problem but immediately points toward outside backing, missing dossier data, and military-grade utilities loose on the Nashville grid.
+**Core idea:** a deniable Matrix cleanup job begins as a youth-gang vandalism problem but grows into a proxy-war thread involving military-grade utilities, a ruthenium-coated scorpion drone, Chunky Sparkles / Mr. Rainbow, and the escalating **Cross Applied Technology** versus **Princeps Group** conflict.
 
 **Key sessions**
 - [2026-07-09](../Sessions/2026-07-09.md)
+- [2026-07-16](../Sessions/2026-07-16.md)
+- [2026-07-23](../Sessions/2026-07-23.md)
+- [2026-08-06](../Sessions/2026-08-06.md)
+- [2026-08-13](../Sessions/2026-08-13.md)
+- [2026-08-27](../Sessions/2026-08-27.md)
 
 **Important names**
 - [Pixel Sticks](../Factions/Pixel-Sticks.md)
+- [Lizzo Wells / Handy-Sandy](../NPCs/Lizzo-Wells-Handy-Sandy.md)
+- [The Princeps Group](../Factions/The-Princeps-Group.md)
+- [Claude August](../NPCs/Claude-August.md)
+- [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md)
+- [Imogene Viola](../NPCs/Imogene-Viola.md)
 - [Ivan Toklas](../NPCs/Ivan.md)
 - [Happy Cat Konpeki and Collectibles](../Locations/Happy-Cat-Konpeki-and-Collectibles.md)
 

@@ -2,11 +2,11 @@
 title: Valgaut
 type: player-character
 visibility: player-safe
-status: active
-last_updated_session: 2026-08-13
+status: temporarily-paused
+last_updated_session: 2026-08-27
 canon_status: current-sheet
 confidence: high
-tags: [pc, adept, active-crew]
+tags: [pc, adept, temporarily-paused]
 sources:
   - PARTY_DOSSIER.md
   - memory/2026-03-13.md
@@ -20,6 +20,7 @@ sources:
   - ../Factions/Draco-Foundation/Wyrmwatch-Circle.md
   - ../Locations/Cairo-Testament-Annex.md
   - ../Sessions/2026-08-13.md
+  - ../Sessions/2026-08-27.md
 ---
 
 # Valgaut
@@ -28,12 +29,13 @@ sources:
 
 ## Overview
 
-Active player character and the crew's physical adept. Valgaut is a human melee-focused adept with a combat axe, a strong magical-lore bent, and a particular interest in dragons and awakened phenomena.
+Temporarily paused player character and the crew's physical adept. Valgaut is a human melee-focused adept with a combat axe, a strong magical-lore bent, and a particular interest in dragons and awakened phenomena.
 
 ## Known Facts
 
 - Valgaut is played by **Caleb**.
 - He is a **physical adept**.
+- As of Session 2026-08-27, Valgaut is hard-paused / temporarily retired from active table play until the player returns or the GM reintroduces him.
 - Current sheet-backed / campaign-updated core stats: **BOD 4**, **QUI 5**, **STR 5**, **CHA 3**, **INT 4**, **WIL 6**, **Magic 7**, **Essence 6.00**, **Initiate Grade 1**.
 - Key crew tags: **Axe Specialist**, **Dragon Fan**, **Some Formal Education**, **Awakened Loot Appraiser**.
 - He is associated with **Draco**.
@@ -119,6 +121,7 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 - **2026-07-16** — magically assessed Chunky Sparkles inside Happy Cat and joined the crew's stairwell approach to the suspected Pixel Sticks floors.
 - **2026-07-23** — joined the 21st-floor Pixel Sticks breach, killed one guard during the hard entry, saw Chunky Sparkles re-enter the scene, and earned **7 Karma** plus **15,000¥**.
 - **2026-08-13** — led the Wyrmwatch / Chunky Sparkles player-driven follow-up, bought bait, sensed the awakened pressure at Radnor Lake, finished the regenerating gator-like predator, lured Chunky Sparkles out, and earned **4 Karma** plus a net **4,500¥**.
+- **2026-08-27** — moved to hard-pause / temporary retirement status for active table play.
 
 ## Sources
 

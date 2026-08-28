@@ -4,7 +4,7 @@ type: vehicle
 visibility: player-safe
 status: recovered-damaged
 first_session: 2026-07-23
-last_updated_session: 2026-08-13
+last_updated_session: 2026-08-27
 canon_status: canon
 confidence: high
 tags: [vehicle, drone, combat-drone, pixel-sticks, loose-asset]
@@ -12,6 +12,7 @@ sources:
   - ../Sessions/2026-07-23.md
   - ../Sessions/2026-08-06.md
   - ../Sessions/2026-08-13.md
+  - ../Sessions/2026-08-27.md
 ---
 
 # Pixel Sticks Scorpion Drone
@@ -26,6 +27,8 @@ In [Session 2026-08-06](../Sessions/2026-08-06.md), Curtis and Kurgan tracked th
 
 In [Session 2026-08-13](../Sessions/2026-08-13.md), the table clarified the first salvage path: the wreck can provide the equivalent of a Rating 3 robot-brain core that Curtis may be able to scavenge into a couple of Rating 2 robot brains. Fully rebuilding the scorpion or replacing it with a true Rating 3 brain remains a later, expensive, customized project.
 
+In [Session 2026-08-27](../Sessions/2026-08-27.md), surviving Pixel Sticks prisoners confirmed that the drone was not built or meaningfully controlled by them. Their anonymous benefactor sent a transponder through the utility dead drop, and the drone later arrived at their headquarters with only enough control granted to keep it from killing the gang members.
+
 ## Known Features
 
 - Large scorpion-like body.
@@ -33,6 +36,7 @@ In [Session 2026-08-13](../Sessions/2026-08-13.md), the table clarified the firs
 - SMG-like weapons in or near the claws.
 - Assault-cannon tail mount.
 - High-end robot brain, likely worth hundreds of thousands of nuyen if intact; current salvage target is effectively a damaged Rating 3 core that may yield two Rating 2 robot brains.
+- Originally delivered or activated through a transponder provided in the Pixel Sticks sponsor dead drop.
 - Whitelist / do-not-kill list controlling who it spares during autonomous violence.
 - Dangerous go-nuts mode that threatens anyone not on the whitelist.
 - Ruthenium polymer active camouflage, now badly damaged / failing.
@@ -72,6 +76,7 @@ During the escape, Mevin and Curtis added the crew to the whitelist. That may ke
 ## Open Questions
 
 - Who owns the drone?
+- Was the drone supplied directly by Princeps / Claude, or by another actor using the same draconic presentation?
 - Did the Pixel Sticks receive it, steal it, borrow it, or merely operate it for someone else?
 - What traces remain from its call-home signal or command history?
 - Does it still retain the crew's biometric whitelist data?
@@ -83,6 +88,7 @@ During the escape, Mevin and Curtis added the crew to the whitelist. That may ke
 - [Session 2026-07-23](../Sessions/2026-07-23.md)
 - [Session 2026-08-06](../Sessions/2026-08-06.md)
 - [Session 2026-08-13](../Sessions/2026-08-13.md)
+- [Session 2026-08-27](../Sessions/2026-08-27.md)
 - [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md)
 - [Pixel Sticks](../Factions/Pixel-Sticks.md)
 - [Chunky Sparkles](../NPCs/Chunky-Sparkles.md)

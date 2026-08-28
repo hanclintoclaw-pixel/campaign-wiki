@@ -4,7 +4,7 @@ type: faction
 visibility: player-safe
 status: active
 first_session: 2026-07-09
-last_updated_session: 2026-07-23
+last_updated_session: 2026-08-27
 canon_status: canon
 confidence: medium
 tags: [faction, matrix-gang, youth-gang, nashville]
@@ -12,13 +12,14 @@ sources:
   - ../Sessions/2026-07-09.md
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
+  - ../Sessions/2026-08-27.md
 ---
 
 # Pixel Sticks
 
 ## Overview
 
-The **Pixel Sticks** are a Matrix youth gang or tag associated with recent vandalism and disruption across Nashville's telecom grid. Mevin's host run at Happy Cat found a hidden Pixel Sticks tag yard, and the physical trail led into the adjacent Vernon Winfrey arkoblock, where the crew disrupted a 21st-floor Pixel Sticks cell in Session 2026-07-23.
+The **Pixel Sticks** are a Matrix youth gang or tag associated with recent vandalism and disruption across Nashville's telecom grid. Mevin's host run at Happy Cat found a hidden Pixel Sticks tag yard, and the physical trail led into the adjacent Vernon Winfrey arkoblock, where the crew disrupted a 21st-floor Pixel Sticks cell in Session 2026-07-23. Follow-up prisoner interviews in Session 2026-08-27 confirmed the cell was being used as a disposable proxy against **Cross Applied Technology**.
 
 ## Known Facts
 
@@ -32,29 +33,30 @@ The **Pixel Sticks** are a Matrix youth gang or tag associated with recent vanda
 - Pixel Sticks tags appear around the 20th, 21st, and 22nd floors of the arkoblock, though another unknown gang or criminal group also appears to share the same floor stack.
 - The crew has not yet proven whether the Pixel Sticks are the true holders of the utilities, useful idiots, protected relatives, patsies, or a front for another actor.
 - The breached 21st-floor cell used handles including **Highbrow**, **Handy-Sandy**, and **Pop Onomata**.
-- Known associated names from the scorpion drone whitelist include **Ernie Pollock**, **Ziggy Hill**, and **Lizzo Wells**.
+- Known associated names from the scorpion drone whitelist include **Ernie Pollock**, **Ziggy Hill**, and **[Lizzo Wells / Handy-Sandy](../NPCs/Lizzo-Wells-Handy-Sandy.md)**.
 - The cell had access to a high-end scorpion-like combat drone with an autonomous whitelist/go-nuts mode.
 - The crew delivered the used utilities for the Johnson-side recovery bonus, while Mevin retained encrypted material from the cell for follow-up work.
+- Surviving members later told the crew that an anonymous Matrix benefactor contacted them, sent them to a dead drop for the high-end utilities and a transponder, and instructed them to target CAT subsidiaries.
+- The benefactor's high-resolution draconic humanoid Matrix icon strongly implicates **[The Princeps Group](The-Princeps-Group.md)** / **[Claude August](../NPCs/Claude-August.md)**, though the crew does not have proof beyond testimony and inference.
 
 ## Current Crew Read
 
-Mevin suspects the client or source is hiding something because the dossier has edited monitoring gaps and because the recovery bounty is much lower than the theoretical value of pristine high-end utilities. Kurgan reads the Johnson as a very serious corporate cutout, meaning the sponsor has resources and wants distance. After the 21st-floor breach, the crew knows the Pixel Sticks were using or guarding dangerous assets they may not fully understand, including encrypted utility material and a scorpion combat drone.
+Mevin suspects the client or source is hiding something because the dossier has edited monitoring gaps and because the recovery bounty is much lower than the theoretical value of pristine high-end utilities. Kurgan reads the Johnson as a very serious corporate cutout, meaning the sponsor has resources and wants distance. After the prisoner interviews, the crew reads the Pixel Sticks as useful idiots: dangerous enough to hurt people with high-end tools, but not the true sponsor or strategic mind behind the operation.
 
 ## Open Questions
 
-- Who leads the Pixel Sticks beyond the disrupted 21st-floor cell?
-- Is Lizzo Wells the same young woman heard ordering a trace check?
+- Who leads the Pixel Sticks beyond the disrupted 21st-floor cell, if anyone still does?
+- Can the Princeps / Claude implication be proven through Matrix icon traces, CAT forensics, or retained utility material?
 - Who supplied or lost the advanced utilities and scorpion drone?
-- Are the Pixel Sticks acting independently, being sponsored, or being set up?
-- What is their relationship to Happy Cat and Chunky Sparkles?
+- What is their remaining relationship to Happy Cat and Chunky Sparkles after Lizzo's Mr. Rainbow explanation?
 - What did Mevin retain in the encrypted utility/paydata material?
-- Did the scorpion drone survive its fight with Chunky Sparkles?
 
 ## Relevant Sessions
 
 - [Session 2026-07-09](../Sessions/2026-07-09.md)
 - [Session 2026-07-16](../Sessions/2026-07-16.md)
 - [Session 2026-07-23](../Sessions/2026-07-23.md)
+- [Session 2026-08-27](../Sessions/2026-08-27.md)
 
 ## Related Pages
 
@@ -63,4 +65,5 @@ Mevin suspects the client or source is hiding something because the dossier has 
 - [Happy Cat Konpeki and Collectibles](../Locations/Happy-Cat-Konpeki-and-Collectibles.md)
 - [Vernon Winfrey Arkoblock](../Locations/Vernon-Winfrey-Arkoblock.md)
 - [Chunky Sparkles](../NPCs/Chunky-Sparkles.md)
+- [Lizzo Wells / Handy-Sandy](../NPCs/Lizzo-Wells-Handy-Sandy.md)
 - [Pixel Sticks Scorpion Drone](../Vehicles/Pixel-Sticks-Scorpion-Drone.md)

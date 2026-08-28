@@ -6,13 +6,14 @@ status: active
 canon_status: canon
 confidence: high
 tags: [npc, corporate, dragon, princeps, cas]
-updated: 2026-07-08
+updated: 2026-08-28
 aliases:
   - Lord August
 sources:
   - Discord request, 2026-07-08
   - Discord image attachment, 2026-07-08
   - ../Sessions/Game-Date-Session-2064-03-01.md
+  - ../Sessions/2026-08-27.md
 ---
 
 # Claude August
@@ -38,12 +39,14 @@ _Claude's true form._
 - The players know Claude is secretly a juvenile western dragon.
 - Claude keeps his draconic nature hidden because the CAS may not recognize him as a citizen if exposed.
 - If the CAS does not recognize Claude's citizenship, his legal ownership of Princeps could be challenged or voided.
+- In Session 2026-08-27, the crew strongly connected the Pixel Sticks sponsor to Claude / Princeps through a draconic humanoid Matrix icon, the CAT target list, and the existing Princeps-CAT feud. This remains an implication rather than hard proof.
 
 ## Role in the Campaign
 
 - Corporate principal behind a protected CAS miltech research company.
 - Legal and political pressure point where corporate ownership, national security, and dragon identity collide.
 - A living reason Princeps's independence is fragile: the same secret that makes Claude extraordinary could imperil his ownership.
+- Current suspect behind the Pixel Sticks proxy attack on Cross Applied Technology interests, pending stronger evidence.
 
 ## Relationships
 
@@ -67,6 +70,7 @@ _Claude's true form._
 ## Relevant Sessions
 
 - [2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md) - archived notes reference Princeps ownership and a dragon-level power struggle around Lord August.
+- [2026-08-27](../Sessions/2026-08-27.md) - crew follow-up strongly implicated Claude / Princeps in the Pixel Sticks attack on CAT subsidiaries, based on the sponsor icon and corporate-conflict context.
 
 ## Related Pages
 
@@ -81,9 +85,11 @@ _Claude's true form._
 - Did Claude engineer the scandal, exploit it, or inherit an opening created by someone else?
 - Which corporate rivals know or suspect his true nature?
 - What legal theory keeps Claude's ownership intact if his dragon identity becomes impossible to deny?
+- Did Claude personally arrange the Pixel Sticks proxy attack, delegate it through Princeps assets, or get framed by someone using draconic imagery?
 
 ## Sources
 
 - Discord request, 2026-07-08.
 - Discord image attachment, 2026-07-08.
 - [(Game Date) Session - 2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md).
+- [Session 2026-08-27](../Sessions/2026-08-27.md).

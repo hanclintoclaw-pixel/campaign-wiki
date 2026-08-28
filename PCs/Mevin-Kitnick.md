@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-08-13
+last_updated_session: 2026-08-27
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -17,6 +17,7 @@ sources:
   - SR3 Matrix sourcebook stock cyberdeck tables / Hacking Pool rules
   - GM-authorized provisional stat expansion on 2026-07-11
   - ../Sessions/2026-08-13.md
+  - ../Sessions/2026-08-27.md
 ---
 
 # Mevin Kitnick
@@ -63,15 +64,17 @@ Mevin is usually the crew member most responsible for:
 - His intrusion tripped a server shutdown, but the GM confirmed he was not traced, tagged, or tied back to his jackpoint.
 - During the 2026-07-23 21st-floor breach, Mevin used Cindy Lou / Decker Experience support to pull Pixel Sticks handle names, talked his way into the cell's controlled space, used his shock hand on the active decker, recovered used utilities, and retained encrypted utility/paydata material for later work with Cindy Lou.
 - During the 2026-08-13 Wyrmwatch / Chunky Sparkles follow-up, Mevin supported Valgaut's research into nonviolent handling methods and helped recover the key feed information from prior Happy Cat observations.
+- During the 2026-08-27 Pixel Sticks sponsor follow-up, Mevin used etiquette, police-procedure, Matrix, and corporate-procedure angles to lead the prisoner interviews and package the findings for CAT.
 
 ## Karma And Nuyen Ledger
 
 - **Known current Karma:** at least **11 Karma** after the Session 2026-08-13 award. Earlier unspent/spent totals are not yet fully reconstructed on this page.
-- **Known current nuyen:** at least **21,000¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
+- **Known current nuyen:** at least **24,333¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 - **Retained asset:** encrypted utility/paydata material for later cracking or evaluation with Cindy Lou.
 - **2026-08-13 — Wyrmwatch / Chunky Sparkles follow-up:** **+4 Karma**, **+5,000¥**.
+- **2026-08-27 — Pixel Sticks sponsor follow-up:** **+3,333¥ approximate share** from CAT's **10,000¥** intelligence / utility-sample payment; no Karma recorded.
 
 ## Matrix Style
 
@@ -99,6 +102,7 @@ Mevin's Matrix play style, as established so far, emphasizes:
 - **2026-07-16** — entered the Happy Cat host, recovered the Bypass Key, gained camera network access, found the hidden Pixel Sticks tag yard, triggered a server shutdown, and escaped without confirmed trace.
 - **2026-07-23** — used Cindy Lou's host-context read to support the 21st-floor bluff, disabled the hostile decker with shock hand, recovered used utilities for the Johnson handoff, retained encrypted utility/paydata material, and earned **7 Karma** plus **15,000¥**.
 - **2026-08-13** — supported Valgaut's research into luring Chunky Sparkles, helped surface the creature's feed preference, joined the Radnor Lake support team, and earned **4 Karma** plus **5,000¥**.
+- **2026-08-27** — led the Pixel Sticks prisoner interviews, identified Lizzo / Handy-Sandy's raw Matrix connection signs, handled the CAT contact through Imogene Viola, and earned an approximate **3,333¥** share.
 
 ## Table-Use SR3 Stat Block
 
