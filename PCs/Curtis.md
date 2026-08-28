@@ -128,7 +128,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - Key crew tags: **Very Short**, **Ex-Caribbean Smuggler**.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
 - Current tracked Karma: **14 Karma** after the 2026-08-13 session award.
-- Current tracked nuyen: **6,690¥**, before any GM-confirmed scorpion-drone recovery project costs, plus an approximate **+3,333¥** share from the 2026-08-27 CAT intelligence payment pending exact odd-nuyen handling.
+- Current tracked nuyen: **5,640¥**, before any GM-confirmed scorpion-drone recovery project costs, plus an approximate **+3,333¥** share from the 2026-08-27 CAT intelligence payment pending exact odd-nuyen handling.
 - Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16; **Backpack Arms rig** finalized 2026-08-05 for conservative light tool work only; **1 recovered Advanced Drone Pilot Rating 2** passed sandbox testing on 2026-08-25 and was stored cleanly in a labeled protected box on 2026-08-26, but is not installed in any drone unless the GM separately approves installation.
 - He finished the [dolphin and hurricane seal habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) for **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
