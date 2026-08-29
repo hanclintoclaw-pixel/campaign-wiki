@@ -14,6 +14,7 @@ import subprocess
 import sys
 from dataclasses import dataclass
 from datetime import date
+from decimal import Decimal
 from pathlib import Path
 
 
@@ -233,10 +234,24 @@ def parse_morning_garage_report(text: str) -> Report:
     )
 
 
-def format_yen(value: int, *, signed: bool = False) -> str:
+YEN_AMOUNT_PATTERN = r"[+-]?[\d,]+(?:\.\d+)?"
+
+
+def parse_yen_amount(raw: str) -> Decimal:
+    return Decimal(raw.replace(",", ""))
+
+
+def format_yen(value: int | Decimal, *, signed: bool = False) -> str:
+    amount = Decimal(value)
+    sign = ""
     if signed:
-        return f"{value:+,d}¥"
-    return f"{value:,d}¥"
+        sign = "+" if amount >= 0 else "-"
+        amount = abs(amount)
+    if amount == amount.to_integral_value():
+        body = f"{int(amount):,d}"
+    else:
+        body = f"{amount:,.2f}".rstrip("0").rstrip(".")
+    return f"{sign}{body}¥"
 
 
 def sentence_join(parts: tuple[str, ...], limit: int = 4) -> str:
@@ -307,7 +322,7 @@ def update_funds_note(text: str, report: Report, day: date) -> str:
         return ledger_text
 
     pattern = re.compile(
-        r"Current funds note preserved in dossier: \*\*(?P<balance>[+-]?[\d,]+)¥\*\* current nuyen balance "
+        rf"Current funds note preserved in dossier: \*\*(?P<balance>{YEN_AMOUNT_PATTERN})¥\*\* current nuyen balance "
         r"\((?P<body>.*?)\)",
         flags=re.DOTALL,
     )
@@ -323,7 +338,7 @@ def update_funds_note(text: str, report: Report, day: date) -> str:
     if not drone_match:
         raise IngestError("Could not find Curtis Drone Shift subtotal in current funds note.")
 
-    old_balance = int(match.group("balance").replace(",", ""))
+    old_balance = parse_yen_amount(match.group("balance"))
     old_drone_delta = int(drone_match.group("drone_delta").replace(",", ""))
     new_balance = old_balance + report.nuyen_delta
     new_drone_delta = old_drone_delta + report.nuyen_delta
@@ -354,7 +369,9 @@ def update_funds_note(text: str, report: Report, day: date) -> str:
 
 
 def update_current_nuyen_ledger(text: str, report: Report, day: date) -> str:
-    current_pattern = re.compile(r"- \*\*Known current nuyen:\*\* \*\*(?P<balance>[+-]?[\d,]+)¥\*\*(?P<tail>[^\n]*)")
+    tracked_pattern = re.compile(rf"- Current tracked nuyen: \*\*(?P<balance>{YEN_AMOUNT_PATTERN})¥\*\*(?P<tail>[^\n]*)")
+    current_pattern = re.compile(rf"- \*\*Known current nuyen:\*\* \*\*(?P<balance>{YEN_AMOUNT_PATTERN})¥\*\*(?P<tail>[^\n]*)")
+    tracked_match = tracked_pattern.search(text)
     current_match = current_pattern.search(text)
     history_pattern = re.compile(
         r"\*\*(?P<drone_delta>[+-][\d,]+)¥\*\* net from completed Curtis Drone Shift / Morning Garage Work Orders"
@@ -363,13 +380,19 @@ def update_current_nuyen_ledger(text: str, report: Report, day: date) -> str:
     if not current_match or not history_match:
         return text
 
-    old_balance = int(current_match.group("balance").replace(",", ""))
+    old_balance = parse_yen_amount(current_match.group("balance"))
     old_drone_delta = int(history_match.group("drone_delta").replace(",", ""))
     new_text = current_pattern.sub(
         f"- **Known current nuyen:** **{format_yen(old_balance + report.nuyen_delta)}**{current_match.group('tail')}",
         text,
         count=1,
     )
+    if tracked_match:
+        new_text = tracked_pattern.sub(
+            f"- Current tracked nuyen: **{format_yen(parse_yen_amount(tracked_match.group('balance')) + report.nuyen_delta)}**{tracked_match.group('tail')}",
+            new_text,
+            count=1,
+        )
     new_text = history_pattern.sub(
         f"**{format_yen(old_drone_delta + report.nuyen_delta, signed=True)}** net from completed Curtis Drone Shift / Morning Garage Work Orders",
         new_text,
