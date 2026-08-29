@@ -284,7 +284,8 @@ def completed_work_order_line(report: Report, day: date) -> str:
             f"{report.project_track} work order as a {report.outcome.lower()}. Final report logged "
             f"**{format_yen(report.nuyen_delta, signed=True)}** project spend and "
             f"**Quality {format_yen(report.quality_score, signed=True).removesuffix('¥')}** after choosing "
-            f"{choice}, rolling **{report.roll}**, and {result}. Follow-up note: {report.rigger_note} "
+            f"{choice} and rolling **{report.roll}**. Result: {report.result.rstrip('.')}. "
+            f"Follow-up note: {report.rigger_note} "
             "No permanent gear, drone, vehicle, combat, or stat change applies today unless the GM separately approves it."
         )
 
