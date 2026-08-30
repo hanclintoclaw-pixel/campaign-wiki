@@ -181,8 +181,8 @@ def parse_morning_garage_report(text: str) -> Report:
     project_track = extract_field(text, "Project track")
     work_order = extract_field(text, "Work Order")
     lane = extract_field(text, "Lane")
-    if lane.lower() != "rigger school":
-        raise IngestError(f"Only routine Rigger School Morning Garage reports can be auto-ingested; got lane {lane!r}.")
+    if lane.lower() not in {"rigger school", "project"}:
+        raise IngestError(f"Only routine Rigger School or Project Morning Garage reports can be auto-ingested; got lane {lane!r}.")
 
     asset_line = extract_field(text, "Asset")
     player_choice = extract_field(text, "Player choice")
