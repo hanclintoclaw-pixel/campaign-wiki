@@ -27,6 +27,7 @@ It is not a separate website yet. It runs inside the local Discord voice bridge 
 - **Voice replay / interrupt controls commit:** `ed8e9be`.
 - **Marker note modal commit:** `fb8cea1`.
 - **Built-in 12-phrase soundboard dropdown commit:** `c7283e0`.
+- **Custom Speak Line modal commit:** `845bc37`.
 
 ## How to open it
 
@@ -151,9 +152,37 @@ Text fallback:
 !cindy-voice-line
 ```
 
+### Speak Line
+
+Opens a Discord text-entry modal for an exact GM-authored Cindy line.
+
+Fields:
+
+- **Header / context** - optional short label such as `Belisarius warning` or `Mucky aside`.
+- **Voice line to speak now** - required exact text for Cindy to say.
+
+On submit, the bridge:
+
+1. renders and saves the line as a preserved voice clip;
+2. makes it the panel's **last saved voice line**;
+3. posts the line text and saved-clip command into the active session thread for the session record;
+4. plays the line immediately if Cindy is connected to voice.
+
+Text fallback:
+
+```text
+!cindy-speak-line Sugar, that door is lying to you.
+```
+
+Alias:
+
+```text
+!cindy-speak-now
+```
+
 ### Play Last Voice
 
-Plays the most recent GM-panel-generated voice line for the current session.
+Plays the most recent GM-panel-generated or custom-spoken voice line for the current session.
 
 This exists so the GM does not need to copy and paste the generated `!voice-play-saved ...` command.
 
@@ -279,9 +308,10 @@ gm-control-panel-markers.jsonl
 6. Click **Summarize 5m**.
 7. Click **Generate Voice Line**.
 8. Click **Play Last Voice**.
-9. Try the **Play Cindy stock phrase...** dropdown.
-10. If needed, click **Interrupt Cindy**.
-11. At the end of play, use **Closeout Prompt**, then run `!session-end` when the session is truly over.
+9. Click **Speak Line**, type a short test line, and submit.
+10. Try the **Play Cindy stock phrase...** dropdown.
+11. If needed, click **Interrupt Cindy**.
+12. At the end of play, use **Closeout Prompt**, then run `!session-end` when the session is truly over.
 
 ## Design notes
 

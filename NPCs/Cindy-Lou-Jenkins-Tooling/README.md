@@ -32,7 +32,7 @@ The desired end state is a table companion that can listen, remember, speak when
 
 - [Cindy Lou Voice Clip Phrase Library](Voice-Clip-Phrase-Library.md) - short reusable clips, saved-line playback, stalling cues, and chaining behavior for fast live voice responses.
 - [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md) - current `!session-*`, `!voice-*`, `!cindy-*`, live voice, stalling voice, playback, panel, and wake-control command reference.
-- [Cindy Lou GM Control Panel](GM-Control-Panel.md) - Discord-native GM button panel for silence/resume, summaries, Cindy action suggestions, saved voice-line generation/playback, interruption, 12-phrase soundboard dropdown, canon markers, and closeout prompts.
+- [Cindy Lou GM Control Panel](GM-Control-Panel.md) - Discord-native GM button panel for silence/resume, summaries, Cindy action suggestions, saved/generated/custom voice-line playback, interruption, 12-phrase soundboard dropdown, canon markers, and closeout prompts.
 - [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md) - local text cleanup, pronunciation guides, and Southern cadence shaping before Kokoro renders speech.
 - [Cindy Lou Tooling and Discord Notes](Tooling-and-Discord.md) - current overview of Cindy's wiki, Discord, voice, and runtime support.
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md) - how Cindy watches live sessions, classifies prompts, and decides when a GM nudge or direct answer is warranted.

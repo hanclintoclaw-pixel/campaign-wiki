@@ -110,7 +110,7 @@ Known/customized behavior includes:
 - TTS middle-layer sculpting for cleanup, pronunciation, and Southern cadence before Kokoro rendering
 - warm Kokoro worker support for faster generated voice clips
 - gated stalling voice cues for short presence barks while longer responses generate
-- manual GM-triggered playback for saved/generated Cindy lines, including one-click **Play Last Voice**, **Interrupt Cindy**, and a 12-phrase built-in stock soundboard dropdown in the GM panel
+- manual GM-triggered playback for saved/generated/custom Cindy lines, including **Speak Line**, one-click **Play Last Voice**, **Interrupt Cindy**, and a 12-phrase built-in stock soundboard dropdown in the GM panel
 - an archived GM-facing soundboard experiment, now marked outdated
 
 ## Repo map

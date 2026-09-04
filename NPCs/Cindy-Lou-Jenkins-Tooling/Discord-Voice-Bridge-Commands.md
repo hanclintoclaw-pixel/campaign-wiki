@@ -49,7 +49,8 @@ Current buttons:
 - **Summarize 5m** - asks Cindy for a concise GM-facing summary of recent transcript.
 - **Suggest Cindy Action** - asks Cindy for one optional GM-facing action or HOLD SILENCE.
 - **Generate Voice Line** - drafts and saves one short Cindy voice line without playing it.
-- **Play Last Voice** - plays the most recent GM-panel-generated voice line for this session.
+- **Speak Line** - opens a text modal for the GM to type an exact Cindy line, then saves, posts, and plays it immediately.
+- **Play Last Voice** - plays the most recent GM-panel-generated or custom-spoken voice line for this session.
 - **Interrupt Cindy** - stops current voice playback.
 - **Soundboard dropdown** - plays one of 12 pre-rendered canon-voice Cindy stock phrases.
 - **Mark Canon** - opens a text-entry modal and saves a canon note with recent transcript context.
@@ -82,11 +83,19 @@ Text fallback for **Suggest Cindy Action**.
 
 Text fallback for **Generate Voice Line**.
 
+### `!cindy-speak-line <line>`
+
+Alias: `!cindy-speak-now`
+
+Text fallback for **Speak Line**. The button version opens a modal with an optional header and required line text. The text-command version speaks the provided line without a header.
+
+It saves the line as a preserved clip, posts the line text plus saved-clip command into the active session thread, makes it the panel's latest saved voice line, and plays it immediately if Cindy is connected to voice.
+
 ### `!cindy-play-last-voice`
 
 Aliases: `!cindy-play-last`, `!cindy-play`
 
-Text fallback for **Play Last Voice**. It plays the most recent GM-panel-generated voice line saved in the current session. The last saved panel line starts empty at each `!session-start`.
+Text fallback for **Play Last Voice**. It plays the most recent GM-panel-generated or custom-spoken voice line saved in the current session. The last saved panel line starts empty at each `!session-start`.
 
 ### `!cindy-interrupt`
 
