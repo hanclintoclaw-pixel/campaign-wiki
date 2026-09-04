@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-08-28
+updated: 2026-09-04
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,7 +20,7 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The crew has followed the **[Pixel Sticks](Factions/Pixel-Sticks.md)** sponsor trail through [Session 2026-08-27](Sessions/2026-08-27.md). The surviving Pixel Sticks prisoners confirmed an anonymous Matrix benefactor, a dead drop of high-end utilities, and a focused attack list against **[Cross Applied Technology](Organizations/Cross-Applied-Technology.md)** subsidiaries; the evidence now points strongly toward **[The Princeps Group](Factions/The-Princeps-Group.md)** / **[Claude August](NPCs/Claude-August.md)**, though not as courtroom-clean proof. **[Lizzo Wells / Handy-Sandy](NPCs/Lizzo-Wells-Handy-Sandy.md)** is now identified as a probable otaku / self-described technoshaman and Grid Overwatch person of interest, while **[Imogene Viola](NPCs/Imogene-Viola.md)** has paid the crew for the follow-up intelligence and may become a direct CAT contact.
+The current active run is the **[Byron Cedar / Judge Belisarius rush job](Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)** from [Session 2026-09-03](Sessions/2026-09-03.md). With **[Valgaut](PCs/Valgaut.md)** hard-paused, Abe joined using **[Kilimanjaro](PCs/Kilimanjaro.md)** as an alternate starter PC. **[Byron L. Cedar](NPCs/Byron-Cedar.md)** of **[HEMP Global Agronomics](Organizations/HEMP-Global-Agronomics.md)** hired Kilimanjaro to keep corrupt judge **[Hiram Belisarius](NPCs/Judge-Hiram-Belisarius.md)** out of court without killing or permanently removing him. The crew has lured Belisarius and bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** away from the diner / **[8th Street](Factions/8th-Street.md)** routine toward **[Mucky's Gambling Hall](Locations/Muckys-Gambling-Hall.md)**, with the final takedown still unresolved.
 
 ## Navigation
 
@@ -36,9 +36,10 @@ The crew has followed the **[Pixel Sticks](Factions/Pixel-Sticks.md)** sponsor t
 ## Crew
 
 - **Mevin Kitnick** — corpo decker
-- **Valgaut** — physical adept
 - **Kurgan** — cyber-samurai
 - **Curtis** — dwarf rigger / smuggler
+- **Valgaut** — physical adept, currently hard-paused
+- **Kilimanjaro** — alternate starter PC / cyber-samurai, currently used by Abe
 
 ## Design Notes
 

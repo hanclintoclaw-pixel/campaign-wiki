@@ -4,7 +4,7 @@ type: location
 visibility: player-safe
 status: active
 canon_scope: sr3-external-plus-campaign
-last_updated_session: 2026-04-29
+last_updated_session: 2026-09-03
 tags: [location, city, nashville, cas, sr3]
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/SR3_Target_Smugglers_Havens_FASA7215/source.md
@@ -16,6 +16,7 @@ sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2023-11-09.md
   - memory/2026-02-27.md
   - PARTY_DOSSIER.md
+  - ../Sessions/2026-09-03.md
 ---
 
 # Nashville
@@ -95,7 +96,8 @@ Relevant local elements include:
 - **Atlas's**, a neutral meeting ground and hiring center just outside the city limits
 - **Friendly Phyllis**, a fence embedded in local shadow traffic
 - **Herrick**, linked to Nashville PD shadowrun liaison structures
-- **Mucky**, a major criminal figure and local power broker
+- **Mucky**, a major criminal figure and local power broker whose gambling hall / hotel is now an active scene location
+- **8th Street**, a minor alley dice-game crew tied to Judge Belisarius's gambling debts
 - **Lorenzo Zoyle** and other figures tied to BTL trade, nightlife, and the broader underworld
 - **Taco** and associated logistics / repair networks
 
@@ -139,6 +141,7 @@ For specific sites, see the broader [Locations](README.md) index and current Nas
 - [Happy Cat Konpeki and Collectibles](Happy-Cat-Konpeki-and-Collectibles.md)
 - [Seven Directions Dojo](Seven-Directions-Dojo.md)
 - [Noodle Stories](Noodle-Stories.md)
+- [Mucky's Gambling Hall](Muckys-Gambling-Hall.md)
 
 ## See also
 

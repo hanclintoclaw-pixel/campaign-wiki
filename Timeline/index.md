@@ -2,7 +2,7 @@
 title: Campaign Timeline
 type: timeline
 visibility: player-safe
-updated: 2026-07-10
+updated: 2026-09-04
 ---
 
 # Campaign Timeline
@@ -208,15 +208,22 @@ For the cleaned-up master list that separates real-world played dates from Shado
 - **Summary:** The crew pivoted into a parallel corporate-espionage surveillance job routed through **Ivan** at **Atlas's**, tracked **Alvin Flang**, **Diego**, and an unidentified watcher at **Music Circle**, then concluded the job by identifying **Palermo** as the downstream paydata broker and turning in proof-chain.
 - **Session pages:** [2026-06-04](../Sessions/2026-06-04.md), [2026-07-02](../Sessions/2026-07-02.md)
 
-### Pixel Sticks / military-grade utilities run
-- **Played:** 2026-07-09 onward
-- **In-world:** 2066-05-12 evening (provisional)
-- **Summary:** The crew accepted a deniable Matrix cleanup contract from an anonymous high-end Johnson through **Ivan** at **Atlas's**. The target is **Pixel Sticks**, a Matrix youth-gang tag tied to Nashville telecom-grid vandalism and suspicious military-grade utilities. The first field lead is **Happy Cat Konpeki and Collectibles**, where the team found dense teen/Matrix traffic, possible decker clusters, and a powerful awakened animal.
-- **Session page:** [2026-07-09](../Sessions/2026-07-09.md)
+### Pixel Sticks / military-grade utilities run and fallout
+- **Played:** 2026-07-09 through 2026-08-27
+- **In-world:** 2066-05-12 evening through 2066-05-15 daytime (provisional)
+- **Summary:** The crew accepted a deniable Matrix cleanup contract from an anonymous high-end Johnson through **Ivan** at **Atlas's**. The run moved from **Happy Cat Konpeki and Collectibles** into the Vernon Winfrey arkoblock, recovered used military-grade utilities, exposed **Chunky Sparkles / Mr. Rainbow**, recovered the damaged scorpion drone, completed the Wyrmwatch handoff at Radnor Lake, and later strongly implicated **The Princeps Group / Claude August** as the Pixel Sticks sponsor through CAT-targeting evidence.
+- **Session pages:** [2026-07-09](../Sessions/2026-07-09.md), [2026-07-16](../Sessions/2026-07-16.md), [2026-07-23](../Sessions/2026-07-23.md), [2026-08-06](../Sessions/2026-08-06.md), [2026-08-13](../Sessions/2026-08-13.md), [2026-08-27](../Sessions/2026-08-27.md)
+
+### Byron Cedar / Judge Belisarius rush job
+- **Played:** 2026-09-03 onward
+- **In-world:** 2066-05-20 evening (provisional)
+- **Summary:** New-player starter contract introducing **Kilimanjaro** as Abe's alternate PC. **Byron L. Cedar** of **HEMP Global Agronomics** hired Kilimanjaro to keep corrupt judge **Hiram Belisarius** out of court without killing or permanently removing him. The crew located Belisarius and **Renaud Dupree**, scattered **8th Street**, and lured the target pair toward **Mucky's Gambling Hall** before stopping with the final takedown unresolved.
+- **Session page:** [2026-09-03](../Sessions/2026-09-03.md)
 
 ## Current Known In-World Anchor
 
 - **Known current campaign year:** 2066
+- **Current active date:** 2066-05-20 evening (provisional), after the 2066-05-15 hard anchor and during the Byron Cedar / Judge Belisarius rush job.
 - **Status:** revised per GM correction; modern Mayoral Race and Darla arcs should be treated as 2066, not 2064.
 
 ## Related navigation

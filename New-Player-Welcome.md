@@ -2,7 +2,7 @@
 title: New Player Welcome
 type: guide
 visibility: player-safe
-updated: 2026-06-28
+updated: 2026-09-04
 ---
 
 # New Player Welcome
@@ -15,12 +15,16 @@ You do **not** need to memorize the whole wiki before playing. This page is the 
 
 The campaign is set in and around **Nashville in the 2060s**, where megacorporations, music labels, media manipulation, street crews, local politics, Matrix ghosts, and old secrets all tangle together.
 
-The player crew currently includes:
+The active player crew currently includes:
 
 - **Mevin Kitnick** - a corporate decker with a deep relationship to the Matrix side of the campaign
-- **Valgaut** - a physical adept who brings spiritual and martial force to the table
 - **Kurgan** - a cybered street samurai with growing City Hall and fixer entanglements
 - **Curtis** - a dwarf rigger / smuggler with drones, vehicles, logistics, and animal-rescue complications
+
+Temporarily paused / alternate table characters currently include:
+
+- **Valgaut** - a physical adept who brings spiritual and martial force to the table, currently hard-paused
+- **Kilimanjaro** - Abe's alternate starter PC / generic Nashville cyber-samurai, used as a new-player on-ramp
 
 The campaign often starts from classic shadowrunning jobs - surveillance, extraction, security work, sabotage, investigation - and then follows the consequences when the crew discovers that the job is connected to something bigger.
 
@@ -78,7 +82,7 @@ These are always fair game:
 
 ## Current Campaign Flavor
 
-Recent play has involved hidden Matrix infrastructure, music-industry influence operations, counterfeit goods, civic corruption, awakened and cybered animals, corporate surveillance, and a warehouse / underwater-site mystery tied to **612 Wharf** and **Core 7**.
+Recent play has involved hidden Matrix infrastructure, music-industry influence operations, counterfeit goods, civic corruption, awakened and cybered animals, corporate surveillance, and a warehouse / underwater-site mystery tied to **612 Wharf** and **Core 7**. The current live run adds a more street-level legal/corruption problem: a HEMP Global Agronomics lawyer needs a crooked judge kept away from court, and the crew is trying to make that happen without turning it into an obvious hit.
 
 That sounds like a lot because it is. Do not worry about catching every thread immediately. Pick one or two active problems, learn the crew relationships, and let the rest come up through play.
 

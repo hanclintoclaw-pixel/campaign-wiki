@@ -4,7 +4,7 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-08-22
+updated: 2026-09-04
 tags: [leads, clues, open-threads]
 ---
 
@@ -21,6 +21,30 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 - **Cindy:** after each session closeout, mark leads as new, touched, resolved, dormant, or superseded.
 
 ## Active high-value leads
+
+### Complete the Byron Cedar / Judge Belisarius court-delay job
+
+**Status:** active current run
+
+**Last touched:** [Session 2026-09-03](../Sessions/2026-09-03.md)
+
+**Connected pages:** [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md), [Kilimanjaro](../PCs/Kilimanjaro.md), [Byron L. Cedar](../NPCs/Byron-Cedar.md), [Judge Hiram Belisarius](../NPCs/Judge-Hiram-Belisarius.md), [Renaud Dupree](../NPCs/Renaud-Dupree.md), [HEMP Global Agronomics](../Organizations/HEMP-Global-Agronomics.md), [Mucky's Gambling Hall](../Locations/Muckys-Gambling-Hall.md)
+
+Cedar hired Kilimanjaro to make sure Judge Belisarius misses court the next day without being killed, permanently removed from the docket, or obviously targeted. The crew has lured Belisarius and Renaud Dupree toward Mucky's, but the final incapacitation plan is not yet resolved.
+
+**Player-facing questions**
+
+- What case does HEMP Global Agronomics need delayed, and why is it urgent?
+- Can Belisarius be kept out of court for 24 to 48 hours while believing the failure was his own bad luck or overindulgence?
+- Can the crew manage Renaud Dupree without turning the job into a loud assault or killing the bodyguard?
+- Will Mucky or Melchizedek object to the crew using the gambling hall as the trap site?
+- Does Officer Davis Holbrook become relevant once Belisarius misses court?
+
+**Possible next actions**
+
+- Use Mucky's as the controlled venue and decide whether the con, drugs, booze, intimidation, or direct force carries the least risk.
+- Track Belisarius through Kilimanjaro's planted comm unit if the target pair moves unexpectedly.
+- Keep the result deniable enough that Cedar remains a future contact rather than a loose end.
 
 ### Trace Dead Soldier / the Scarred Man
 
@@ -82,25 +106,28 @@ Session reasoning tied Core 7's architecture to older Swiftwing / Cindy knowbot 
 - Ask SC Music questions only after deciding whether the crew wants leverage, exposure, or containment.
 - Preserve proof carefully before confronting corporate stakeholders.
 
-### Identify the Pixel Sticks sponsor / true Johnson client
+### Prove or exploit the Pixel Sticks sponsor / Princeps lead
 
-**Status:** active  
-**Last touched:** [Session 2026-08-06](../Sessions/2026-08-06.md)  
-**Connected pages:** [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md), [Pixel Sticks](../Factions/Pixel-Sticks.md), [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md)
+**Status:** active but no longer the current table scene
 
-The paid Matrix cleanup job is over, but the core sponsor question remains. The Pixel Sticks had military-grade utilities, ruthenium-coated hardware, a scorpion combat drone, and a suspiciously edited Johnson dossier.
+**Last touched:** [Session 2026-08-27](../Sessions/2026-08-27.md)
+
+**Connected pages:** [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md), [Pixel Sticks](../Factions/Pixel-Sticks.md), [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md), [The Princeps Group](../Factions/The-Princeps-Group.md), [Claude August](../NPCs/Claude-August.md), [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md), [Imogene Viola](../NPCs/Imogene-Viola.md)
+
+The paid Matrix cleanup job is over, and the later sponsor follow-up strongly implicated **The Princeps Group / Claude August** through the CAT target list, dead-drop story, draconic Matrix icon, high-end equipment, and prior CAT/Princeps feud context. The crew still lacks courtroom-clean proof, and CAT now has the handoff through Imogene Viola.
 
 **Player-facing questions**
 
-- Who supplied the utilities, drone hardware, and ruthenium coating?
-- Were the Pixel Sticks pawns, thieves, test subjects, or expendable carriers?
-- What was cut from the Johnson's monitoring dossier?
+- Can the crew prove Princeps / Claude involvement beyond prisoner testimony and inference?
+- What will CAT do with the evidence and recovered utility samples?
+- Will Imogene Viola turn into a direct CAT Johnson for anti-Princeps work?
+- Does Princeps know the crew tied the Pixel Sticks operation back to them?
 
 **Possible next actions**
 
 - Compare the Johnson dossier gaps against Mevin's retained encrypted material.
-- Use Herrick or surviving Pixel Sticks prisoners to pressure the sponsor chain.
-- Track who cleaned out or raided utilities after the arkoblock fight.
+- Trace the draconic humanoid Matrix icon if Mevin and Cindy want a more technical proof-chain.
+- Decide whether the next move is proof, leverage, direct CAT work, or letting the corporate feud cool.
 
 ### Crack Mevin's retained encrypted utility / paydata material
 
