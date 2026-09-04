@@ -55,6 +55,38 @@ Example patterns:
 - **Small success:** confirmation clip, then victory/clean-access clip.
 - **Memory/admin:** acknowledgment clip, then saved/marked clip.
 
+## GM panel stock soundboard _(active)_
+
+The first Discord-native GM panel soundboard set was added on 2026-09-04. It uses 12 freshly rendered canon-voice Kokoro WAV files, not the older dashboard/soundboard clips.
+
+Current dropdown phrases:
+
+- On it, sugar.
+- Give me a beat.
+- That tracks.
+- Hold up now.
+- I smell trouble.
+- Ask the GM.
+- Jack out, now.
+- Keep it quiet.
+- We got heat.
+- Little victory.
+- No promises.
+- I'm listening.
+
+Runtime behavior:
+
+- Open `!cindy-panel`.
+- Use the **Play Cindy stock phrase...** dropdown.
+- The bridge plays the matching clip if connected to voice.
+- **Interrupt Cindy** / `!cindy-interrupt` / `!voice-stop` can stop a wrong or stale clip.
+- Soundboard playback is logged in `gm-control-panel.jsonl`.
+
+Clip storage:
+
+- live/local copies: `/Users/hanclaw/.openclaw/workspace-cindylou/preserved_voice/cindy_panel_soundboard_*.wav`
+- private bridge-repo fallback copies: `soundboard_clips/cindy_panel_soundboard_*.wav`
+
 ## Live stalling voice cues _(active / gated)_
 
 The live bridge can now play one or two very short stock phrases if Cindy has been directly prompted but the full bespoke answer is not ready yet.

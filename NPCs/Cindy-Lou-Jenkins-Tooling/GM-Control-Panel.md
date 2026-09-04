@@ -26,6 +26,7 @@ It is not a separate website yet. It runs inside the local Discord voice bridge 
 - **Initial panel commit:** `ff4777e`.
 - **Voice replay / interrupt controls commit:** `ed8e9be`.
 - **Marker note modal commit:** `fb8cea1`.
+- **Built-in 12-phrase soundboard dropdown commit:** `c7283e0`.
 
 ## How to open it
 
@@ -186,6 +187,27 @@ Aliases:
 !cindy-shush
 ```
 
+### Soundboard dropdown
+
+The panel includes a dropdown labeled **Play Cindy stock phrase...**. Selecting a phrase plays the matching pre-rendered canon-voice WAV through Discord voice, if Cindy is connected.
+
+The first 12 stock phrases are:
+
+- On it, sugar.
+- Give me a beat.
+- That tracks.
+- Hold up now.
+- I smell trouble.
+- Ask the GM.
+- Jack out, now.
+- Keep it quiet.
+- We got heat.
+- Little victory.
+- No promises.
+- I'm listening.
+
+These clips were freshly rendered for the panel in Cindy's current Kokoro canon voice. They live in `preserved_voice` using stable `cindy_panel_soundboard_*.wav` filenames, with backup copies in the private voice bridge repo under `soundboard_clips/`.
+
 ### Mark Canon
 
 Opens a Discord text-entry modal for a canon note.
@@ -257,8 +279,9 @@ gm-control-panel-markers.jsonl
 6. Click **Summarize 5m**.
 7. Click **Generate Voice Line**.
 8. Click **Play Last Voice**.
-9. If needed, click **Interrupt Cindy**.
-10. At the end of play, use **Closeout Prompt**, then run `!session-end` when the session is truly over.
+9. Try the **Play Cindy stock phrase...** dropdown.
+10. If needed, click **Interrupt Cindy**.
+11. At the end of play, use **Closeout Prompt**, then run `!session-end` when the session is truly over.
 
 ## Design notes
 

@@ -51,6 +51,7 @@ Current buttons:
 - **Generate Voice Line** - drafts and saves one short Cindy voice line without playing it.
 - **Play Last Voice** - plays the most recent GM-panel-generated voice line for this session.
 - **Interrupt Cindy** - stops current voice playback.
+- **Soundboard dropdown** - plays one of 12 pre-rendered canon-voice Cindy stock phrases.
 - **Mark Canon** - opens a text-entry modal and saves a canon note with recent transcript context.
 - **Mark GM-Only** - opens a text-entry modal and saves a GM-only note with recent transcript context.
 - **Closeout Prompt** - posts the end-session checklist without ending the session.
@@ -92,6 +93,27 @@ Text fallback for **Play Last Voice**. It plays the most recent GM-panel-generat
 Aliases: `!cindy-interrupt-voice`, `!cindy-shush`
 
 Text fallback for **Interrupt Cindy**. It stops current Cindy voice playback, matching the safety intent of `!voice-stop`.
+
+### Soundboard dropdown
+
+The panel dropdown **Play Cindy stock phrase...** is not a text command. It is a Discord select menu embedded in `!cindy-panel`.
+
+The first stock set contains 12 fresh canon-voice clips:
+
+- On it, sugar.
+- Give me a beat.
+- That tracks.
+- Hold up now.
+- I smell trouble.
+- Ask the GM.
+- Jack out, now.
+- Keep it quiet.
+- We got heat.
+- Little victory.
+- No promises.
+- I'm listening.
+
+The bridge resolves these by stable filenames under Cindy's `preserved_voice` folder, with private repo fallback copies under `soundboard_clips/`.
 
 ### `!cindy-mark canon|gm-only [note text]`
 
