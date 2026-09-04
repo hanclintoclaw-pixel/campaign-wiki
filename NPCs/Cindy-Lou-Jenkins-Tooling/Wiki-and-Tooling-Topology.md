@@ -3,7 +3,7 @@ title: Cindy Lou Wiki and Tooling Topology
 type: tech-note
 visibility: player-safe
 status: draft
-updated: 2026-07-14
+updated: 2026-09-04
 tags: [cindy, wiki, tooling, architecture]
 ---
 
@@ -15,7 +15,7 @@ This page documents how Cindy's wiki presence, live tooling, and Discord behavio
 
 ## Main surfaces
 
-Cindy currently has three active player-visible or operator-visible surfaces, plus one outdated archived surface:
+Cindy currently has four active player-visible or operator-visible surfaces, plus one outdated archived surface:
 
 1. **objective dossier page**
    - `NPCs/Cindy-Lou-Jenkins.md`
@@ -23,7 +23,9 @@ Cindy currently has three active player-visible or operator-visible surfaces, pl
    - `NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md`
 3. **tooling summary page**
    - `NPCs/Cindy-Lou-Jenkins-Tooling/Tooling-and-Discord.md`
-4. **GM soundboard entry point** _(outdated)_
+4. **GM control panel documentation**
+   - `NPCs/Cindy-Lou-Jenkins-Tooling/GM-Control-Panel.md`
+5. **GM soundboard entry point** _(outdated)_
    - formerly linked from the in-world Cindy page via the small `π` symbol; no longer maintained
 
 ## Functional separation
@@ -61,6 +63,17 @@ Use it for:
 - how the pieces relate
 - where to look next for more technical detail
 
+### GM control panel
+
+The first live GM control panel is Discord-native. It is opened through `!cindy-panel` / `!gm-panel` and gives the GM buttons for silence/resume, summaries, Cindy action suggestions, saved voice-line generation, last-line playback, interruption, canon/GM-only markers, and closeout prompts.
+
+Use it for:
+
+- managing Cindy's table presence without copy/paste;
+- generating and manually playing short voice lines;
+- stopping bad or stale playback quickly;
+- marking beats for later closeout without editing the wiki mid-session.
+
 ### Technical sub-pages
 
 The technical sub-pages break the system into reconstructable parts.
@@ -91,6 +104,7 @@ This contains:
 - Discord bot runtime
 - text command handling
 - voice join/play behavior
+- Discord-native GM control panel command and button handling
 - archived queue consumer for the outdated soundboard prototype
 
 ### Soundboard app repo _(outdated)_
@@ -117,6 +131,12 @@ Do not maintain this app, its tunnel URL, or its clip catalog unless the GM expl
   - `/Volumes/carbonite/claw/data/cindylou/runtime/soundboard-queue`
 
 ## Current integration pattern
+
+### Discord-native GM panel path _(active)
+
+The active control path is now Discord-native: the GM runs `!cindy-panel`, then uses buttons handled inside the voice bridge process. This avoids the old problem where Cindy tried to trigger herself through bot-authored Discord commands.
+
+Panel actions are conservative. They either toggle live behavior, ask Cindy for a bounded GM-facing response, generate a saved voice line, play or interrupt the latest panel voice line, or append local marker/audit records for later closeout.
 
 ### Archived soundboard path _(outdated)_
 
@@ -153,11 +173,14 @@ As the system grows, the next useful pages would likely be:
 - Cindy memory/index pipeline notes
 - Discord thread/session routing notes
 - clip library conventions and naming rules
+- post-playtest notes for the Discord-native GM panel
 - deployment/public URL stabilization notes
 
 ## Related pages
 
 - [Cindy Lou Tooling and Discord Notes](Tooling-and-Discord.md)
+- [Cindy Lou GM Control Panel](GM-Control-Panel.md)
+- [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
 - [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)
 - [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_

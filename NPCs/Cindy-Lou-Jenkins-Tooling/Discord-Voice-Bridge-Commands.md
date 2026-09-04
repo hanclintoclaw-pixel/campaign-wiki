@@ -3,7 +3,7 @@ title: Cindy Lou Discord Voice Bridge Commands
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-08-25
+updated: 2026-09-04
 parent_page: README.md
 tags: [cindy, discord, voice, commands, npc-tools]
 ---
@@ -29,8 +29,77 @@ The current posture is **text-first and GM-controlled for voice**:
 - transcription and command/status messages go to the active session thread when one exists;
 - generated live voice can be toggled separately from text replies;
 - saved/generated clips are preserved first, then played manually or automatically only when the relevant gates allow it;
-- automatic live playback speaks a short first-sentence summary while the full text reply stays in the session thread;
-- Kokoro worker health is treated as part of session readiness because warm local TTS is what makes short live lines practical.
+- panel-generated voice lines are saved first, then played with the GM's **Play Last Voice** button or `!cindy-play-last-voice`;
+- Kokoro worker health is treated as part of session readiness because warm local TTS is what makes short live lines practical;
+- the GM control panel provides one-click silence/resume, summary, suggestion, voice-line, playback, interrupt, marker, and closeout controls.
+
+## GM control panel commands
+
+### `!cindy-panel`
+
+Aliases: `!gm-panel`, `!cindy-gm-panel`
+
+Opens the Discord-native GM control panel as a button card.
+
+Current buttons:
+
+- **Status** - compact session / voice / wake / Kokoro state.
+- **Stay Silent** - disables live wakes, active-thread wakes, proactive monitor, live playback, and stalling voice until resumed or restart.
+- **Resume Wakes** - resumes active-thread wakes and live playback.
+- **Summarize 5m** - asks Cindy for a concise GM-facing summary of recent transcript.
+- **Suggest Cindy Action** - asks Cindy for one optional GM-facing action or HOLD SILENCE.
+- **Generate Voice Line** - drafts and saves one short Cindy voice line without playing it.
+- **Play Last Voice** - plays the most recent GM-panel-generated voice line for this session.
+- **Interrupt Cindy** - stops current voice playback.
+- **Mark Canon** - saves a canon-relevant marker with recent transcript context.
+- **Mark GM-Only** - saves a GM-only marker with recent transcript context.
+- **Closeout Prompt** - posts the end-session checklist without ending the session.
+
+See [Cindy Lou GM Control Panel](GM-Control-Panel.md) for the full workflow.
+
+### `!cindy-status`
+
+Text fallback for the panel's **Status** button.
+
+### `!cindy-silent`
+
+Text fallback for **Stay Silent**.
+
+### `!cindy-resume`
+
+Text fallback for **Resume Wakes**.
+
+### `!cindy-summary`
+
+Text fallback for **Summarize 5m**.
+
+### `!cindy-suggest`
+
+Text fallback for **Suggest Cindy Action**.
+
+### `!cindy-voice-line`
+
+Text fallback for **Generate Voice Line**.
+
+### `!cindy-play-last-voice`
+
+Aliases: `!cindy-play-last`, `!cindy-play`
+
+Text fallback for **Play Last Voice**. It plays the most recent GM-panel-generated voice line saved in the current session. The last saved panel line starts empty at each `!session-start`.
+
+### `!cindy-interrupt`
+
+Aliases: `!cindy-interrupt-voice`, `!cindy-shush`
+
+Text fallback for **Interrupt Cindy**. It stops current Cindy voice playback, matching the safety intent of `!voice-stop`.
+
+### `!cindy-mark canon|gm-only`
+
+Text fallback for **Mark Canon** and **Mark GM-Only**.
+
+### `!cindy-closeout-prompt`
+
+Text fallback for **Closeout Prompt**. It does not run `!session-end`.
 
 ## Session lifecycle commands
 
@@ -44,7 +113,7 @@ What it does:
 
 - creates or reopens today's `Session YYYY-MM-DD` public thread in the configured text channel;
 - binds that thread as the active session thread;
-- resets live-session runtime state and transcript counters;
+- resets live-session runtime state, transcript counters, panel audit files, GM-only/canon marker files, and the panel's last saved voice line;
 - writes watchdog and live-monitor status files;
 - starts the external watchdog;
 - warms the Kokoro worker before treating the session as ready;
@@ -167,7 +236,7 @@ Modes:
 - `toggle`, `flip` - invert the current setting;
 - `status`, `state`, `?` - report the current setting.
 
-When enabled, the runtime uses the current fresh-Kokoro path: generate/preserve the clip, then play it into Discord voice if the reply actually emitted and prompt-level no-voice suppression did not apply. For automatic live playback, the spoken clip is capped to a short first-sentence summary by `LIVE_VOICE_SPOKEN_MAX_CHARS`; the full text reply remains in Discord.
+When enabled, the runtime uses the current fresh-Kokoro path: generate/preserve the clip, then play it into Discord voice if the reply actually emitted and prompt-level no-voice suppression did not apply. The preferred table workflow is still GM-controlled saved playback through the panel or `!voice-play-saved`, so automatic playback should be treated as optional and scene-dependent.
 
 ### `!voice-stalling [on|off|toggle|status]`
 
@@ -243,6 +312,14 @@ Plays a local audio file path through Discord voice.
 
 This is a lower-level operator/debug command. Unlike `!voice-play-saved`, it accepts a local path and depends on that path being reachable by the bridge process. Use the saved-clip command for ordinary table workflow.
 
+### `!voice-attach <text>`
+
+Aliases: `!cindy-attach`, `!voice-file`
+
+Generates preserved Cindy voice clip files from supplied text and attaches the resulting audio files directly in Discord.
+
+This is useful when the GM wants a downloadable/replayable clip artifact in chat rather than only a local saved-clip command. For live play, the GM control panel's **Generate Voice Line** plus **Play Last Voice** path is usually lower friction.
+
 ### `!voice-stop`
 
 Aliases: `!voice-shush`, `!cindy-stop`
@@ -256,6 +333,17 @@ Responses distinguish three cases:
 - playback stopped successfully.
 
 Use this if a clip is wrong, too long, overlapping, or no longer useful to the table.
+
+## GM panel runtime files
+
+The panel writes per-session local runtime files under the live-session runtime directory:
+
+```text
+gm-control-panel.jsonl
+gm-control-panel-markers.jsonl
+```
+
+`!session-start` clears them for the new session. `!session-end` archives them with the rest of the session runtime files.
 
 ## Wake behavior that is not a command
 

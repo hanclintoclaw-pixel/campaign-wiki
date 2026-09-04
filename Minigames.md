@@ -49,6 +49,7 @@ These are player-facing table procedures, with guided web-app versions where ava
 ## Cindy Lou Tooling
 
 - [Cindy Lou Tooling](NPCs/Cindy-Lou-Jenkins-Tooling/) - NPC behavior, live-session monitoring, voice clips, and Cindy-specific Discord support.
+- [Cindy Lou GM Control Panel](NPCs/Cindy-Lou-Jenkins-Tooling/GM-Control-Panel.md) - first-effort Discord-native GM button panel for silence/resume, summaries, Cindy action suggestions, saved voice lines, playback, interruption, markers, and closeout prompts.
 - [Cindy Lou Tooling Future Planning](NPCs/Cindy-Lou-Jenkins-Tooling/Future-Planning.md) - future planning for table dashboards, closeout workflows, GM controls, onboarding, and VTT companion aids.
 
 ## Documentation
@@ -70,7 +71,7 @@ These are player-facing table procedures, with guided web-app versions where ava
 - Live Session Dashboard for shared scene state, current objective, visible NPCs, open questions, and relevant wiki links.
 - Session Closeout Button for transcript preservation, draft wiki updates, GM approval, and deployment.
 - New Player Orientation Mode for alternate PCs / starter characters and guest onboarding.
-- GM Private Control Panel for Cindy live-session behavior, voice clips, silence, canon flags, and GM-only notes.
+- GM control panel polish after live testing, including better transcript context selection and possible later web-panel shell if Discord buttons feel too cramped.
 - VTT Companion Overlay for SR3 table reminders, combat/status notes, vehicle/drone quick stats, and links.
 - Player-facing Previously On Generator for short pre-session recaps.
 - NPC / Voice Line Scratchpad for quotes, pronunciations, moods, relationship shifts, and future callbacks.

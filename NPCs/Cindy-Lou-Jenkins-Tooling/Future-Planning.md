@@ -105,17 +105,27 @@ A web companion is safer and more portable than relying on one specific virtual 
 
 A small GM-facing panel for controlling Cindy's live behavior.
 
-Possible buttons:
+### First effort status: built 2026-09-04
 
-- Cindy stay silent
-- Cindy give short in-character line
-- Cindy analyze Matrix angle
-- generate saved voice clip
-- summarize last 5 minutes
-- mark this as canon
-- mark this GM-only
+A first Discord-native version now exists in the local voice bridge. It is opened with `!cindy-panel` / `!gm-panel` and documented at [Cindy Lou GM Control Panel](GM-Control-Panel.md).
 
-This would make Cindy feel present without making her unpredictable. It should route Cindy's initiative through GM control when the moment is not a direct player request.
+Current controls include:
+
+- Status
+- Stay Silent
+- Resume Wakes
+- Summarize 5m
+- Suggest Cindy Action
+- Generate Voice Line
+- Play Last Voice
+- Interrupt Cindy
+- Mark Canon
+- Mark GM-Only
+- Closeout Prompt
+
+This moved the idea from pure future planning into a first live implementation. Remaining future work is mostly polish: testing button ergonomics during play, improving transcript context selection, and deciding whether any web-panel layer is worth building later.
+
+This should continue routing Cindy's initiative through GM control when the moment is not a direct player request.
 
 ## 7. NPC / Voice Line Scratchpad
 
@@ -156,7 +166,7 @@ The table already has strong players, and Cindy interrupting with optimal plans 
 
 1. **Live Session Dashboard** - highest table value, especially for guests and returning players.
 2. **Session Closeout Button** - reduces the biggest recurring maintenance burden.
-3. **GM Private Control Panel for Cindy** - improves live control and reduces unwanted interruptions.
+3. **GM Private Control Panel for Cindy** - first Discord-native version built 2026-09-04; next work is playtesting and polish.
 4. **New Player Orientation Mode** - useful immediately for Kilimanjaro / alternate-PC onboarding.
 5. **Lead Board improvements** - build on the existing Clues board rather than splitting sources.
 6. **Previously On Generator** - strong quality-of-life improvement before sessions.
@@ -171,3 +181,4 @@ The table already has strong players, and Cindy interrupting with optimal plans 
 - [Cindy Lou Post-Session Automation](Post-Session-Automation.md)
 - [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md)
 - [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
+- [Cindy Lou GM Control Panel](GM-Control-Panel.md)

@@ -3,7 +3,7 @@ title: Cindy Lou Live Session Monitoring Design
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-08-25
+updated: 2026-09-04
 tags: [cindy, discord, voice, monitoring, design]
 ---
 
@@ -98,7 +98,7 @@ The active bridge now tightens that path by:
 
 - limiting live wake thread context with `LIVE_WAKE_CONTEXT_LIMIT`;
 - telling live wake prompts not to do tool/file/web lookups unless explicitly required;
-- capping automatic spoken playback to a short first-sentence summary via `LIVE_VOICE_SPOKEN_MAX_CHARS` while keeping the full text answer in Discord;
+- keeping automatic spoken playback gated and short while preserving the full text answer in Discord; the 2026-09-04 GM control panel now makes saved-line generation plus manual playback the preferred live-table path;
 - running Discord voice join and Kokoro warmup in parallel during `!session-start`;
 - adding `!voice-warm` / `!cindy-warm` for pre-session Kokoro, Whisper, and stalling-clip warmup;
 - capturing explicit timeline events for OpenClaw call start/done/timeout and saved-voice render/playback stages;

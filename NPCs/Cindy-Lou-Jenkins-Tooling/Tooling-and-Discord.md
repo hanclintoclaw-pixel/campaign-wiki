@@ -3,7 +3,7 @@ title: Cindy Lou Tooling and Discord Notes
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-08-19
+updated: 2026-09-04
 tags: [cindy, tooling, discord, wiki, campaign-tech]
 ---
 
@@ -20,9 +20,9 @@ The goal of this page is twofold:
 
 ## Current operating state
 
-As of 2026-07-20, Cindy's active table-support posture is:
+As of 2026-09-04, Cindy's active table-support posture is:
 
-- **text-first and GM-controlled for voice:** Cindy can draft live responses and saved voice-line candidates, but routine live voice playback is manually triggered by the GM rather than auto-sent;
+- **text-first and GM-controlled for voice:** Cindy can draft live responses and saved voice-line candidates, and the GM can now use the Discord-native [GM Control Panel](GM-Control-Panel.md) to generate, play, or interrupt panel voice lines without copy/paste;
 - **Kokoro is the fast voice path:** the live bridge uses a warm Kokoro worker for quick generated clips, with one-shot generation still available as a fallback;
 - **short clips remain useful:** reusable phrases and saved clips are for quick acknowledgements, warnings, handoffs, and very short stalling cues, not for rules explanations or canon-heavy dialogue;
 - **stalling voice is gated:** the bridge can play tiny stock presence lines after a short delay while a bespoke live response is still generating, but the behavior is controlled by `CINDY_STALLING_VOICE_ENABLED` and `!voice-stalling`;
@@ -106,11 +106,11 @@ Known/customized behavior includes:
 - custom wake / routing behavior for Cindy prompts
 - voice chat integration work for joining, listening, and speaking in Discord audio
 - saved-clip playback support through the local voice bridge
-- documented Discord voice bridge command controls for session lifecycle, voice connection, live playback, stalling cues, saved clips, and debug/status checks
+- documented Discord voice bridge command controls for session lifecycle, voice connection, live playback, stalling cues, saved clips, GM panel buttons, and debug/status checks
 - TTS middle-layer sculpting for cleanup, pronunciation, and Southern cadence before Kokoro rendering
 - warm Kokoro worker support for faster generated voice clips
 - gated stalling voice cues for short presence barks while longer responses generate
-- manual GM-triggered playback for saved/generated Cindy lines
+- manual GM-triggered playback for saved/generated Cindy lines, including one-click **Play Last Voice** and **Interrupt Cindy** controls in the GM panel
 - an archived GM-facing soundboard experiment, now marked outdated
 
 ## Repo map
@@ -151,6 +151,7 @@ For reconstructable implementation detail, use these pages:
 
 - [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)
 - [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
+- [Cindy Lou GM Control Panel](GM-Control-Panel.md)
 - [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
@@ -171,7 +172,7 @@ The current Cindy stack still has a few rough edges:
 
 Likely next improvements:
 
-- make GM-triggered saved/generated voice playback cleaner and more observable
+- playtest the first Discord-native GM control panel during a real session
 - improve campaign/wiki tooling documentation
 - keep a clearer record of what is canonical, what is operational, and what is experimental
 - move from ad-hoc glue toward a cleaner long-term service boundary
@@ -182,6 +183,7 @@ Likely next improvements:
 - [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)
 - [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
+- [Cindy Lou GM Control Panel](GM-Control-Panel.md)
 - [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
