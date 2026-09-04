@@ -1,5 +1,6 @@
 # Factions
 
+- [8th Street](8th-Street.md)
 - [Lookout Mountain Collective](Lookout-Mountain-Collective.md)
 - [Pixel Sticks](Pixel-Sticks.md)
 - [South Side Highwaymen](South-Side-Highwaymen.md)

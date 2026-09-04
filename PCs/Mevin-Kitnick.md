@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-08-27
+last_updated_session: 2026-09-03
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -18,6 +18,7 @@ sources:
   - GM-authorized provisional stat expansion on 2026-07-11
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
+  - ../Sessions/2026-09-03.md
 ---
 
 # Mevin Kitnick
@@ -65,6 +66,7 @@ Mevin is usually the crew member most responsible for:
 - During the 2026-07-23 21st-floor breach, Mevin used Cindy Lou / Decker Experience support to pull Pixel Sticks handle names, talked his way into the cell's controlled space, used his shock hand on the active decker, recovered used utilities, and retained encrypted utility/paydata material for later work with Cindy Lou.
 - During the 2026-08-13 Wyrmwatch / Chunky Sparkles follow-up, Mevin supported Valgaut's research into nonviolent handling methods and helped recover the key feed information from prior Happy Cat observations.
 - During the 2026-08-27 Pixel Sticks sponsor follow-up, Mevin used etiquette, police-procedure, Matrix, and corporate-procedure angles to lead the prisoner interviews and package the findings for CAT.
+- During the 2026-09-03 Byron Cedar rush job, Mevin used friendly-face social positioning and cyber-ear eavesdropping to monitor Judge Belisarius and Renaud Dupree, recorded their voices for possible Cindy analysis, and helped talk Belisarius down at Mucky's.
 
 ## Karma And Nuyen Ledger
 
@@ -103,6 +105,7 @@ Mevin's Matrix play style, as established so far, emphasizes:
 - **2026-07-23** — used Cindy Lou's host-context read to support the 21st-floor bluff, disabled the hostile decker with shock hand, recovered used utilities for the Johnson handoff, retained encrypted utility/paydata material, and earned **7 Karma** plus **15,000¥**.
 - **2026-08-13** — supported Valgaut's research into luring Chunky Sparkles, helped surface the creature's feed preference, joined the Radnor Lake support team, and earned **4 Karma** plus **5,000¥**.
 - **2026-08-27** — led the Pixel Sticks prisoner interviews, identified Lizzo / Handy-Sandy's raw Matrix connection signs, handled the CAT contact through Imogene Viola, and earned an approximate **3,333¥** share.
+- **2026-09-03** — joined Kilimanjaro's Byron Cedar rush job, eavesdropped on Belisarius and Dupree with enhanced hearing, recorded their voices for possible Cindy analysis, and helped keep the Mucky's lure moving; no payout or Karma recorded yet.
 
 ## Table-Use SR3 Stat Block
 

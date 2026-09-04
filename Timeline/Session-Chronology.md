@@ -2,7 +2,7 @@
 title: Session Chronology
 type: timeline
 visibility: player-safe
-updated: 2026-08-28
+updated: 2026-09-04
 ---
 
 # Session Chronology
@@ -105,6 +105,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 77 | [Session 2026-08-06](../Sessions/2026-08-06.md) | 2026-08-06 | 2066-05-12 night into roughly 2066-05-14 | provisional | Partial-party player-driven follow-up for **Curtis** and **Kurgan**. The pair traced the missing **Pixel Sticks scorpion drone** through police / Hidden Enforcers fallout, learned **Chunky Sparkles** escaped containment, found the damaged ruthenium-coated drone in **South Side Highwaymen** territory, survived the returning go-ganger fight with Belmont and The Finisher, and recovered the drone as a long-term Curtis rebuild project for **7 Karma** and no nuyen payout. |
 | 78 | [Session 2026-08-13](../Sessions/2026-08-13.md) | 2026-08-13 | 2066-05-14 night into 2066-05-15 dawn | canon | Player-driven **Valgaut / Wyrmwatch** follow-up. The full crew found **Chunky Sparkles** at **Radnor Lake**, used research, Taco's old handling context, Herrick's prisoner intel from **Lizzo Wells**, food bait, and command phrases to lure it out, killed a regenerating gator-like awakened predator, and completed the Wyrmwatch handoff for **5,000¥** and **4 Karma** each. This establishes the current active campaign date as **2066-05-15**. |
 | 79 | [Session 2026-08-27](../Sessions/2026-08-27.md) | 2026-08-27 | 2066-05-15 daytime | provisional | Player-driven **Pixel Sticks sponsor** follow-up for Mevin, Kurgan, and Curtis after Valgaut was hard-paused. The crew interviewed surviving Pixel Sticks prisoners through Herrick, confirmed an anonymous dead-drop benefactor aimed them at **Cross Applied Technology**, strongly implicated **The Princeps Group / Claude August** through a draconic Matrix icon and prior feud context, identified **Lizzo Wells / Handy-Sandy** as a probable otaku / technoshaman and Grid Overwatch person of interest, and sold the intelligence / utility handoff to **Imogene Viola** for **10,000¥ total**. |
+| 80 | [Session 2026-09-03](../Sessions/2026-09-03.md) | 2026-09-03 | 2066-05-20 evening | provisional | Contract-run starter session introducing **Kilimanjaro** as Abe's **Alternate PC** / new-player starter character. **Byron L. Cedar** of **HEMP Global Agronomics** hired Kilimanjaro to keep corrupt judge **Hiram Belisarius** out of court without killing or permanently removing him. The crew located Belisarius and bodyguard **Renaud Dupree**, scattered **8th Street**, lured the pair toward **Mucky's** for a supposed better gambling opportunity, and stopped with the final takedown unresolved. |
 
 ## Read this sequence in plain English
 
@@ -122,12 +123,13 @@ Ordered by **played date**. The in-world column carries either a source date or 
 12. Session 2026-08-06 is a partial-party player-driven Pixel Sticks fallout session. It begins on the same provisional night but includes roughly forty-eight hours of stakeout time, recovering the scorpion drone and pushing the immediate active scene toward about 2066-05-14.
 13. Session 2026-08-13 is a player-driven Wyrmwatch / Chunky Sparkles follow-up after the scorpion-drone recovery. It runs from **2066-05-14 night into 2066-05-15 dawn**, and establishes **2066-05-15 early morning** as the current active campaign date.
 14. Session 2026-08-27 follows the Pixel Sticks sponsor trail later on **2066-05-15** provisionally, confirming the attack was aimed at CAT and strongly implicating Princeps / Claude without creating fully public proof.
+15. Session 2026-09-03 moves to a new contract-run starter session on provisional **2066-05-20 evening**. It introduces **Kilimanjaro** as Abe's Alternate PC / starter character and starts the **Byron Cedar / Judge Belisarius** court-delay job, ending outside **Mucky's** before the final takedown.
 
 ## Gaps and caveats
 
 - [Session 2023-06-15](../Sessions/ARCHIVE_TRIAGE.md) survives only as an attendance-only archive fragment, so it remains chronology-only for now.
 - [Session 2024-01-25](../Sessions/ARCHIVE_TRIAGE.md) survives mainly as Vanessa build / tech notes, so it also remains chronology-only for now.
-- Some earlier modern 2066 pages still need exact in-world day recovery from raw notes and recaps, but the current active date is canonically anchored at **2066-05-15**.
+- Some earlier modern 2066 pages still need exact in-world day recovery from raw notes and recaps. The latest active scene is provisionally **2066-05-20 evening**, while **2066-05-15** remains the last hard campaign-date anchor before the new rush job.
 
 ## Related pages
 

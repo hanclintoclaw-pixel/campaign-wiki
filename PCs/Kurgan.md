@@ -3,7 +3,7 @@ title: Kurgan
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-08-27
+last_updated_session: 2026-09-03
 canon_status: provisional
 confidence: medium
 tags: [pc, cyber-samurai, active-crew]
@@ -15,6 +15,7 @@ sources:
   - ../Sessions/2026-08-06.md
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
+  - ../Sessions/2026-09-03.md
 ---
 
 # Kurgan
@@ -38,6 +39,7 @@ Active player character and the crew's cyber-samurai.
 - During the 2026-08-06 player-driven follow-up, Kurgan used Glenn and Herrick as fallout contacts, scouted the damaged scorpion drone in South Side Highwaymen territory, maintained the close stakeout, and stayed hidden through the recovery fight.
 - During the 2026-08-13 player-driven follow-up, Kurgan remembered the older Chunky Sparkles incident, used Herrick to get Lizzo Wells's command details, guided Valgaut through the Radnor Lake approach, and helped bring down the regenerating gator-like predator.
 - During the 2026-08-27 player-driven follow-up, Kurgan helped frame the Pixel Sticks sponsor inquiry for Herrick, checked **Lizzo Wells / Handy-Sandy** with **Kne@zle**, and supported the decision to approach CAT rather than Princeps.
+- During the 2026-09-03 Byron Cedar rush job, Kurgan served as Kilimanjaro's crew connection, joined the Belisarius job, kept overwatch near the diner, and suggested **Mucky's** as a plausible shadowrunner-friendly gambling destination.
 
 ## Karma And Nuyen Ledger
 
@@ -64,6 +66,7 @@ Active player character and the crew's cyber-samurai.
 - 2026-08-06 — helped trace the escaped scorpion drone, called Glenn and Herrick for fallout leads, identified South Side Highwaymen territory and tags, scouted the drone on foot, and earned **7 Karma**.
 - 2026-08-13 — supported Valgaut's Chunky Sparkles recovery, called Herrick for prisoner-side command intel, used wilderness survival to approach Radnor Lake safely, shot the regenerating predator, and earned **4 Karma** plus **5,000¥**.
 - 2026-08-27 — helped drive the Pixel Sticks sponsor follow-up, contacted Kne@zle about Handy-Sandy, and earned an approximate **3,333¥** share from CAT's intelligence payment.
+- 2026-09-03 — joined Kilimanjaro's Byron Cedar rush job, provided overwatch, and helped point the team toward Mucky's as the next-stage lure site; no payout or Karma recorded yet.
 
 ## Sources
 

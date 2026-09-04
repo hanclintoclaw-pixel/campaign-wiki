@@ -2,19 +2,20 @@
 title: Current State
 type: dashboard
 visibility: player-safe
-updated: 2026-08-28
+updated: 2026-09-04
 ---
 
 # Current State
 
 ## Current Focus
 
-The latest player-driven follow-up is [Session 2026-08-27](Sessions/2026-08-27.md): **Mevin**, **Kurgan**, and **Curtis** investigated who supplied the **[Pixel Sticks](Factions/Pixel-Sticks.md)** with military-grade Matrix utilities and the scorpion drone. Interviews with the surviving Pixel Sticks prisoners confirmed an anonymous Matrix benefactor, a dead drop of high-end utilities, a transponder tied to the drone, and instructions to target **[Cross Applied Technology](Organizations/Cross-Applied-Technology.md)** subsidiaries.
+The latest active run is [Session 2026-09-03](Sessions/2026-09-03.md): with **[Valgaut](PCs/Valgaut.md)** still hard-paused, Abe joined using **[Kilimanjaro](PCs/Kilimanjaro.md)** as an **Alternate PC** / starter character for new players. **[Byron L. Cedar](NPCs/Byron-Cedar.md)**, corporate lawyer for **[HEMP Global Agronomics](Organizations/HEMP-Global-Agronomics.md)**, hired Kilimanjaro to make sure corrupt circuit judge **[Hiram Belisarius](NPCs/Judge-Hiram-Belisarius.md)** misses court the next day without being killed, permanently removed from the docket, or obviously targeted.
 
-The strongest current read is that **[The Princeps Group](Factions/The-Princeps-Group.md)** / **[Claude August](NPCs/Claude-August.md)** was behind the Pixel Sticks attack as part of the ongoing CAT / Princeps feud, but the crew still lacks hard proof beyond prisoner testimony, a draconic Matrix icon, and context. **[Imogene Viola](NPCs/Imogene-Viola.md)** has now paid the crew **10,000¥** for the intelligence and may send future CAT work directly. **[Valgaut](PCs/Valgaut.md)** is temporarily hard-paused / retired from active table play.
+The current scene is paused outside **[Mucky's Gambling Hall](Locations/Muckys-Gambling-Hall.md)**. The crew has lured Belisarius and his heavily cybered troll bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** away from Belisarius's usual diner / **[8th Street](Factions/8th-Street.md)** alley gambling routine, but the final incapacitation plan is still unsettled.
 
 ## Recent Runs / Follow-ups
 
+- The **Byron Cedar / Judge Belisarius rush job** in [Session 2026-09-03](Sessions/2026-09-03.md) introduced **Kilimanjaro** as Abe's alternate starter PC, established Cedar and HEMP Global Agronomics as the employer side, identified Belisarius and Renaud Dupree as the target pair, scattered **8th Street**, and paused at **Mucky's** before the final takedown.
 - The **Pixel Sticks sponsor follow-up** in [Session 2026-08-27](Sessions/2026-08-27.md) identified the Pixel Sticks as disposable proxy assets aimed at CAT, strongly implicated Princeps / Claude, introduced **Lizzo Wells / Handy-Sandy** as a probable otaku / technoshaman and Grid Overwatch person of interest, and paid **10,000¥ total** to Mevin, Kurgan, and Curtis.
 - The **Chunky Sparkles / Wyrmwatch** follow-up in [Session 2026-08-13](Sessions/2026-08-13.md) found Chunky Sparkles at **Radnor Lake**, used Lizzo Wells's command phrases and food incentives to lure it out, and awarded **5,000¥** plus **4 Karma** each.
 - The **Pixel Sticks scorpion drone** follow-up in [Session 2026-08-06](Sessions/2026-08-06.md) recovered the damaged drone from **South Side Highwaymen** territory, confirmed **Chunky Sparkles** escaped Hidden Enforcers containment, and awarded **7 Karma** with no nuyen payout.
@@ -26,12 +27,17 @@ The strongest current read is that **[The Princeps Group](Factions/The-Princeps-
 ## In-World Date
 
 - Current campaign year: **2066**
-- Current active date: **2066-05-15**, provisional daytime after the Radnor Lake / Wyrmwatch handoff.
-- Current active posture: follow-up and fallout after the Pixel Sticks sponsor investigation, with CAT aware of the crew's evidence and Valgaut temporarily off active duty.
-- Recent time compression: the Pixel Sticks payout and Core 7 / Earl Stryker follow-up sit on **2066-05-12 night**; the scorpion-drone stakeout consumes roughly forty-eight hours; the Radnor Lake scene reaches **2066-05-15 dawn**; the 2026-08-27 follow-up appears to take place later on **2066-05-15** unless the GM corrects the timing.
+- Current active date: **2066-05-20 evening**, provisional next-Thursday placement after the 2066-05-15 campaign anchor.
+- Current active posture: live rush job to keep Judge Hiram Belisarius out of court, with Valgaut temporarily off active duty and Kilimanjaro filling the alternate-PC starter role.
+- Recent time compression: the Pixel Sticks payout and Core 7 / Earl Stryker follow-up sit on **2066-05-12 night**; the scorpion-drone stakeout consumes roughly forty-eight hours; the Radnor Lake scene reaches **2066-05-15 dawn**; the 2026-08-27 follow-up appears to take place later on **2066-05-15**; the 2026-09-03 rush job is provisionally placed on **2066-05-20 evening** unless the GM corrects the timing.
 
 ## Immediate Leads
 
+- finish the **Byron Cedar / Judge Belisarius** job by incapacitating Belisarius for 24 to 48 hours without killing him or making the job look targeted
+- manage or neutralize **Renaud Dupree** without turning the job into an obvious murder / assault case
+- decide whether using **Mucky's** and **Melchizedek's** house as the trap creates new obligations or backlash
+- learn what case **HEMP Global Agronomics** needs delayed
+- track whether **Officer Davis Holbrook** becomes relevant once Belisarius misses court
 - trace the draconic humanoid Matrix icon tied to the Pixel Sticks benefactor
 - decide how to handle possible CAT follow-up work through **Imogene Viola**
 - determine what CAT can learn from the recovered utility samples / forensic handoff
@@ -45,6 +51,10 @@ The strongest current read is that **[The Princeps Group](Factions/The-Princeps-
 
 ## Open Questions
 
+- Can the crew make Belisarius miss court cleanly enough for Cedar's purposes?
+- What case is Cedar trying to delay, and why is it urgent?
+- How much will Dupree resist once the con tightens?
+- Will Kilimanjaro remain an alternate starter PC, become Abe's continuing PC, or return to NPC/contact status?
 - Can the crew prove Princeps / Claude involvement beyond implication from the draconic icon, CAT target list, and prior feud?
 - What does CAT intend to do with the Pixel Sticks evidence?
 - Will Imogene Viola become a direct Johnson for the crew, bypassing Ivan?

@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-02
+last_updated_session: 2026-09-03
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -46,6 +46,7 @@ sources:
   - Curtis Morning Garage Advanced Drone Pilot retrieval Day 20 report, 2026-09-01
   - Curtis Morning Garage Advanced Drone Pilot retrieval Day 21 report, 2026-09-02
   - ../Sessions/2026-08-27.md
+  - ../Sessions/2026-09-03.md
 ---
 
 # Curtis
@@ -141,6 +142,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - During the 2026-08-06 player-driven follow-up, Curtis tracked and recovered the damaged Pixel Sticks scorpion drone with Kurgan, used Belmont and The Finisher during the Highwaymen fight, and accepted the drone as a long-term staged rebuild / nuyen-sink project rather than an immediate asset.
 - During the 2026-08-13 Wyrmwatch / Chunky Sparkles follow-up, Curtis used drone overwatch from Grandpa at Radnor Lake, helped identify the gator-like predator near Chunky Sparkles, and helped lure Chunky Sparkles out with food and vehicle support.
 - During the 2026-08-27 Pixel Sticks sponsor follow-up, Curtis pushed the sponsor-money angle, helped connect the case to the Princeps / CAT feud, used intimidation against Ziggy Hill, and supported selling the lead to CAT.
+- During the 2026-09-03 Byron Cedar rush job, Curtis used Grandpa for transport, bought cheap malt liquor for a drunken-cover plan, and used a strong etiquette play to lure Judge Belisarius and Renaud Dupree toward Mucky's for a supposed better gambling opportunity.
 
 ## Karma And Nuyen Ledger
 
@@ -157,6 +159,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - **2026-08-06 — Scorpion drone recovery:** **+7 Karma**, no nuyen payout recorded; recovered the damaged scorpion drone as a long-term project.
 - **2026-08-13 — Wyrmwatch / Chunky Sparkles follow-up:** **+4 Karma**, **+5,000¥**; supported Radnor Lake drone overwatch and extraction.
 - **2026-08-27 — Pixel Sticks sponsor follow-up:** **+3,333.33¥** exact share from CAT's **10,000¥** intelligence / utility-sample payment; no Karma recorded.
+- **2026-09-03 — Byron Cedar rush job:** joined the active Belisarius court-delay job, bought cheap malt liquor for the setup, and lured the target pair toward Mucky's; no payout, exact expense, or Karma recorded yet.
 
 </details>
 

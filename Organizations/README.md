@@ -1,5 +1,6 @@
 # Organizations
 
+- [HEMP Global Agronomics](HEMP-Global-Agronomics.md)
 - [Gladwell Institute](Gladwell-Institute.md)
 - [Cross Applied Technology](Cross-Applied-Technology.md)
 - [Swiftwing Records](Swiftwing-Records.md)

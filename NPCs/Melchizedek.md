@@ -6,7 +6,7 @@ status: active
 canon_status: provisional
 confidence: medium
 tags: [npc, spirit, free-spirit, great-form, hearth-spirit, magic]
-updated: 2026-08-02
+updated: 2026-09-04
 aliases: []
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/SR3_Magic_in_the_Shadows_FanPro/source.md
@@ -35,6 +35,7 @@ Melchizedek is a magical NPC: a **Great Form Free Hearth Spirit**, built from th
 - He is obsessed with knowledge of metahuman excess, especially trid content, Matrix feeds, and bad fast food.
 - He trades magical wealth for access to television, feeds, junk food, and similar indulgences.
 - His working arrangement with Mucky is spelled out in [The House Compact of Melchizedek and Mucky](Melchizedek-Mucky-House-Compact.md).
+- The site is now recorded as [Mucky's Gambling Hall](../Locations/Muckys-Gambling-Hall.md), the current lure destination in the Byron Cedar / Judge Belisarius rush job.
 - If denied access or interrupted while consuming his favored media/food, he may react violently and use his powers to compel people to provide what he wants.
 - True name, exact domain boundaries, chain of obligations, and relationship to the crew are **not yet established**.
 
@@ -57,6 +58,7 @@ Melchizedek is a magical NPC: a **Great Form Free Hearth Spirit**, built from th
 - Linked to **Mucky** through his current Personal Domain: a Mucky-owned gambling hall/hotel in Nashville.
 - Mucky currently supplies his fast food and trid feeds.
 - Their mutual understanding is documented in [The House Compact of Melchizedek and Mucky](Melchizedek-Mucky-House-Compact.md).
+- Linked to [Mucky's Gambling Hall](../Locations/Muckys-Gambling-Hall.md), where the crew is bringing Judge Belisarius and Renaud Dupree during the current job.
 
 ## Capabilities / Resources
 
@@ -155,6 +157,7 @@ Spirit Energy increases the effective Force used for Melchizedek's physical form
 ## Relevant Sessions
 
 - 2026-08-02 - GM requested an NPC wiki page for Melchizedek as a Great Form Free Hearth Spirit, Force 9.
+- 2026-09-03 - Mucky's gambling hall / hotel became the current destination for the Judge Belisarius lure.
 
 ## Sources
 

@@ -11,3 +11,7 @@
 ## Temporarily Paused
 
 - [Valgaut](Valgaut.md)
+
+## Alternate PCs / Starter Characters
+
+- [Kilimanjaro](Kilimanjaro.md) — starter street-samurai character currently used by Abe.

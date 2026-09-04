@@ -2,7 +2,7 @@
 title: Campaign Arc Index
 type: arc-index
 visibility: player-safe
-updated: 2026-08-28
+updated: 2026-09-04
 ---
 
 # Campaign Arc Index
@@ -13,6 +13,7 @@ This page groups the processed session archive into major recurring campaign thr
 
 The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-arc pages now live under this Campaign Arc Index:
 
+- [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)
 - [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md)
 - [OCW Side Threads](../Arcs/OCW-Side-Threads.md)
 - [Mucky and Professor X](../Arcs/Mucky-and-Professor-X.md)
@@ -221,6 +222,25 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 **Dedicated page**
 - [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md)
+
+## 12. Byron Cedar / Judge Belisarius rush job
+
+**Core idea:** a new-player starter contract brings **Kilimanjaro** into the active crew as an Alternate PC and tasks the runners with keeping corrupt judge **Hiram Belisarius** out of court without killing or permanently removing him.
+
+**Key sessions**
+- [2026-09-03](../Sessions/2026-09-03.md)
+
+**Important names**
+- [Kilimanjaro](../PCs/Kilimanjaro.md)
+- [Byron L. Cedar](../NPCs/Byron-Cedar.md)
+- [HEMP Global Agronomics](../Organizations/HEMP-Global-Agronomics.md)
+- [Judge Hiram Belisarius](../NPCs/Judge-Hiram-Belisarius.md)
+- [Renaud Dupree](../NPCs/Renaud-Dupree.md)
+- [8th Street](../Factions/8th-Street.md)
+- [Mucky's Gambling Hall](../Locations/Muckys-Gambling-Hall.md)
+
+**Dedicated page**
+- [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)
 
 ## Related pages
 
