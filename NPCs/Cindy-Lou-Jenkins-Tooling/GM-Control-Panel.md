@@ -25,6 +25,7 @@ It is not a separate website yet. It runs inside the local Discord voice bridge 
 - **Known-good pre-panel rollback:** `e56435a`.
 - **Initial panel commit:** `ff4777e`.
 - **Voice replay / interrupt controls commit:** `ed8e9be`.
+- **Marker note modal commit:** `fb8cea1`.
 
 ## How to open it
 
@@ -187,26 +188,26 @@ Aliases:
 
 ### Mark Canon
 
-Writes a local marker that the current beat should be treated as canon-relevant for later session closeout.
+Opens a Discord text-entry modal for a canon note.
 
-It includes recent transcript context, session ID, thread ID, timestamp, and user ID. It does **not** edit the wiki by itself.
+The submitted note is saved with an optional short label, recent transcript context, session ID, thread ID, timestamp, user ID, and intended use `session_closeout`. It does **not** edit the wiki by itself; it creates durable closeout material for Cindy to sweep into the later session archive.
 
 Text fallback:
 
 ```text
-!cindy-mark canon
+!cindy-mark canon Belisarius must miss court because of the HEMP liability hearing
 ```
 
 ### Mark GM-Only
 
-Writes a local marker that the current beat should be treated as GM-only or spoiler-sensitive during later closeout.
+Opens a Discord text-entry modal for a GM-only or spoiler-sensitive note.
 
-It does **not** publish, hide, or edit wiki content by itself. It only gives the closeout process a durable warning.
+The submitted note is saved with the same context as a canon note, but marked `gm_only` so later closeout knows not to put it on player-visible wiki pages by accident. It does **not** publish, hide, or edit wiki content by itself.
 
 Text fallback:
 
 ```text
-!cindy-mark gm-only
+!cindy-mark gm-only Dupree is secretly working for the judge's rival
 ```
 
 ### Closeout Prompt
@@ -241,6 +242,8 @@ The panel writes local audit files under the live-session runtime directory:
 gm-control-panel.jsonl
 gm-control-panel-markers.jsonl
 ```
+
+`gm-control-panel-markers.jsonl` is the important closeout file for typed Canon / GM-only modal notes. Each record includes `marker_type`, `label`, `note`, `session_id`, `thread_id`, `recent_transcript`, and `intended_use`.
 
 `!session-start` clears per-session panel state, including the last saved panel voice line and marker/audit files. `!session-end` archives those files with the rest of the session runtime state.
 

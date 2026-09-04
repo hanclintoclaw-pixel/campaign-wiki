@@ -123,7 +123,7 @@ Current controls include:
 - Mark GM-Only
 - Closeout Prompt
 
-This moved the idea from pure future planning into a first live implementation. Remaining future work is mostly polish: testing button ergonomics during play, improving transcript context selection, and deciding whether any web-panel layer is worth building later.
+This moved the idea from pure future planning into a first live implementation. A follow-up pass added text-entry modals for **Mark Canon** and **Mark GM-Only**, so the GM can type durable closeout notes instead of trying to time bookmark clicks during play. Remaining future work is mostly polish: testing button ergonomics during play, improving transcript context selection, and deciding whether any web-panel layer is worth building later.
 
 This should continue routing Cindy's initiative through GM control when the moment is not a direct player request.
 

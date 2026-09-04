@@ -51,8 +51,8 @@ Current buttons:
 - **Generate Voice Line** - drafts and saves one short Cindy voice line without playing it.
 - **Play Last Voice** - plays the most recent GM-panel-generated voice line for this session.
 - **Interrupt Cindy** - stops current voice playback.
-- **Mark Canon** - saves a canon-relevant marker with recent transcript context.
-- **Mark GM-Only** - saves a GM-only marker with recent transcript context.
+- **Mark Canon** - opens a text-entry modal and saves a canon note with recent transcript context.
+- **Mark GM-Only** - opens a text-entry modal and saves a GM-only note with recent transcript context.
 - **Closeout Prompt** - posts the end-session checklist without ending the session.
 
 See [Cindy Lou GM Control Panel](GM-Control-Panel.md) for the full workflow.
@@ -93,9 +93,9 @@ Aliases: `!cindy-interrupt-voice`, `!cindy-shush`
 
 Text fallback for **Interrupt Cindy**. It stops current Cindy voice playback, matching the safety intent of `!voice-stop`.
 
-### `!cindy-mark canon|gm-only`
+### `!cindy-mark canon|gm-only [note text]`
 
-Text fallback for **Mark Canon** and **Mark GM-Only**.
+Text fallback for **Mark Canon** and **Mark GM-Only**. The button version opens a Discord modal; the text-command version stores the note text after the marker type.
 
 ### `!cindy-closeout-prompt`
 
@@ -342,6 +342,8 @@ The panel writes per-session local runtime files under the live-session runtime 
 gm-control-panel.jsonl
 gm-control-panel-markers.jsonl
 ```
+
+`gm-control-panel-markers.jsonl` stores typed Canon / GM-only notes plus optional label, recent transcript context, session ID, thread ID, timestamp, user ID, and intended use `session_closeout`.
 
 `!session-start` clears them for the new session. `!session-end` archives them with the rest of the session runtime files.
 
