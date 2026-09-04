@@ -2,7 +2,7 @@
 title: Minigames and Web Apps
 type: index
 visibility: player-safe
-updated: 2026-08-26
+updated: 2026-09-04
 ---
 
 # Minigames and Web Apps
@@ -49,6 +49,7 @@ These are player-facing table procedures, with guided web-app versions where ava
 ## Cindy Lou Tooling
 
 - [Cindy Lou Tooling](NPCs/Cindy-Lou-Jenkins-Tooling/) - NPC behavior, live-session monitoring, voice clips, and Cindy-specific Discord support.
+- [Cindy Lou Tooling Future Planning](NPCs/Cindy-Lou-Jenkins-Tooling/Future-Planning.md) - future planning for table dashboards, closeout workflows, GM controls, onboarding, and VTT companion aids.
 
 ## Documentation
 
@@ -66,6 +67,13 @@ These are player-facing table procedures, with guided web-app versions where ava
 
 ## Candidate future apps
 
+- Live Session Dashboard for shared scene state, current objective, visible NPCs, open questions, and relevant wiki links.
+- Session Closeout Button for transcript preservation, draft wiki updates, GM approval, and deployment.
+- New Player Orientation Mode for alternate PCs / starter characters and guest onboarding.
+- GM Private Control Panel for Cindy live-session behavior, voice clips, silence, canon flags, and GM-only notes.
+- VTT Companion Overlay for SR3 table reminders, combat/status notes, vehicle/drone quick stats, and links.
+- Player-facing Previously On Generator for short pre-session recaps.
+- NPC / Voice Line Scratchpad for quotes, pronunciations, moods, relationship shifts, and future callbacks.
 - Dolphin habitat simulator for Ace Malone and related aquatic-support rolls.
 - Drone maintenance simulator canonicalizing repairs, upgrades, ammunition, and downtime costs.
 - Wiki WYSIWYG editor that stores drafts locally and persists proposed page edits through GitHub Issues.
