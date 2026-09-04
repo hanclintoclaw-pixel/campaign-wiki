@@ -49,6 +49,7 @@ Current buttons:
 - **Summarize 5m** - asks Cindy for a concise GM-facing summary of recent transcript.
 - **Suggest Cindy Action** - asks Cindy for one optional GM-facing action or HOLD SILENCE.
 - **Generate Voice Line** - drafts and saves one short Cindy voice line without playing it.
+- **Roll Test** - opens a modal for skill/pool, dice, target number, and context; posts a 🤠 session-thread result and speaks it if connected.
 - **Speak Line** - opens a text modal for the GM to type an exact Cindy line, then saves, posts, and plays it immediately.
 - **Play Last Voice** - plays the most recent GM-panel-generated or custom-spoken voice line for this session.
 - **Interrupt Cindy** - stops current voice playback.
@@ -82,6 +83,20 @@ Text fallback for **Suggest Cindy Action**.
 ### `!cindy-voice-line`
 
 Text fallback for **Generate Voice Line**.
+
+### `!cindy-roll <dice> <target-number> [skill/context]`
+
+Text fallback for **Roll Test**.
+
+Example:
+
+```text
+!cindy-roll 5 6 Cindy Computer
+```
+
+The button version opens a modal. It defaults to **Cindy Computer 5** against **TN 5**, supports an optional purpose/context field, uses SR3-style exploding sixes, posts the result to the active session thread with Cindy's 🤠 icon, logs the roll, and speaks the success count if Cindy is connected to voice.
+
+Default/preset reference values include Cindy Computer 5, Cindy Hacking Pool 4, common utility ratings from Cindy's table-use assumptions, Tip Jar Sensor/Pilot 2, Tip Jar fuzzy Pilot 4, Dolly Zoom Pilot 1, and Dolly Zoom Sensor 0.
 
 ### `!cindy-speak-line <line>`
 

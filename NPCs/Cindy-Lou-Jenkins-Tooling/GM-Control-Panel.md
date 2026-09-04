@@ -28,6 +28,7 @@ It is not a separate website yet. It runs inside the local Discord voice bridge 
 - **Marker note modal commit:** `fb8cea1`.
 - **Built-in 12-phrase soundboard dropdown commit:** `c7283e0`.
 - **Custom Speak Line modal commit:** `845bc37`.
+- **SR3 Roll Test modal commit:** `975a37c`.
 
 ## How to open it
 
@@ -150,6 +151,36 @@ Text fallback:
 
 ```text
 !cindy-voice-line
+```
+
+### Roll Test
+
+Opens a Discord modal for a specific SR3-style test.
+
+Fields:
+
+- **Skill / pool** - defaults to `Cindy Computer`.
+- **Dice** - defaults to `5`.
+- **Target Number** - defaults to `5`.
+- **Purpose / context** - optional note explaining what the roll is for.
+
+The bridge rolls SR3-style exploding sixes, counts results that meet or beat the target number, posts the result to the active session thread with Cindy's 🤠 icon, logs the roll in `gm-control-panel.jsonl`, and speaks a short result line in voice if Cindy is connected.
+
+Current default/preset reference values include:
+
+- **Cindy Computer:** 5
+- **Cindy Hacking Pool:** 4
+- **Analyze / Browse / Sleaze / Deception:** 5
+- **Validate / Read-Write / Spoof / Attack / Armor / Scanner:** 4
+- **Tip Jar Sensor / Pilot:** 2
+- **Tip Jar fuzzy Pilot:** 4
+- **Dolly Zoom Pilot:** 1
+- **Dolly Zoom Sensor:** 0
+
+Text fallback:
+
+```text
+!cindy-roll 5 6 Cindy Computer
 ```
 
 ### Speak Line
@@ -308,10 +339,11 @@ gm-control-panel-markers.jsonl
 6. Click **Summarize 5m**.
 7. Click **Generate Voice Line**.
 8. Click **Play Last Voice**.
-9. Click **Speak Line**, type a short test line, and submit.
-10. Try the **Play Cindy stock phrase...** dropdown.
-11. If needed, click **Interrupt Cindy**.
-12. At the end of play, use **Closeout Prompt**, then run `!session-end` when the session is truly over.
+9. Click **Roll Test**, set a TN, and submit.
+10. Click **Speak Line**, type a short test line, and submit.
+11. Try the **Play Cindy stock phrase...** dropdown.
+12. If needed, click **Interrupt Cindy**.
+13. At the end of play, use **Closeout Prompt**, then run `!session-end` when the session is truly over.
 
 ## Design notes
 
