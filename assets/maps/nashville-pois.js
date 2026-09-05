@@ -90,6 +90,15 @@ window.NASHVILLE_CAMPAIGN_POIS = [
     notes: "423 S Margin St, Franklin. Abandoned art and design museum / academy Kurgan wants to restore as a wilderness headquarters."
   },
   {
+    name: "Mucky's Place",
+    type: "runner-hub",
+    lat: 36.1276323,
+    lng: -86.8037892,
+    confidence: "exact-address",
+    wiki: "../Locations/Muckys-Place.html",
+    notes: "2108A W. Linden, Nashville TN. ShadowRunner night club frequented by Nashville's criminal elite, high rollers, crooked politicians, and well-heeled marks."
+  },
+  {
     name: "Radnor Lake",
     type: "mystery",
     lat: 36.06093990746219,
