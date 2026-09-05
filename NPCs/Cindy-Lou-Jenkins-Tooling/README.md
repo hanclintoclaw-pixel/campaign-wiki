@@ -38,7 +38,7 @@ The desired end state is a table companion that can listen, remember, speak when
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md) - how Cindy watches live sessions, classifies prompts, and decides when a GM nudge or direct answer is warranted.
 - [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md) - active session-scoped working memory for live play.
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md) - sidecar alerting for stalled live transcription.
-- [Cindy Lou Post-Session Automation](Post-Session-Automation.md) - planned end-of-session cleanup, memory, and wiki workflow.
+- [Cindy Lou Post-Session Automation](Post-Session-Automation.md) - local `scripts/cindy-session-closeout` packet builder plus end-of-session cleanup, memory, and wiki workflow.
 - [Cindy Lou Tooling Future Planning](Future-Planning.md) - future mini-tool and workflow ideas for shared table state, GM controls, session closeout, onboarding, and VTT companion aids.
 - [Cindy Lou Anti-LLM In-Character Voice Pass](Anti-LLM-In-Character-Voice.md) - prose-shaping rules for in-character Cindy text so she sounds less like a generic model and more like a specific SA-knowbot.
 

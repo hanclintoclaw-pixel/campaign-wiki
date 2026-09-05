@@ -2,8 +2,8 @@
 title: Cindy Lou Post-Session Automation
 type: tech-note
 visibility: player-safe
-status: brainstorm
-updated: 2026-08-23
+status: active-design
+updated: 2026-09-05
 tags: [cindy, automation, sessions, wiki, memory, design]
 ---
 
@@ -234,18 +234,43 @@ When the GM asks Cindy to "summarize last night's session" or equivalent, the lo
    - full post-session closeout with Current State, chronology, character state, and lead-board checks.
 3. Apply the authentic campaign notes gate before making public wiki changes. Tech tests, planning-only chatter, and short debriefs should not create session pages.
 
+### Local named command
+
+The local invocation name is:
+
+```bash
+cindy-session-closeout
+```
+
+It is symlinked from `~/.local/bin` to `/Users/hanclaw/claw/projects/cindylou/campaign-wiki/scripts/cindy-session-closeout`.
+
+Default behavior reads the most recent archived live-session transcript from the local live-session runtime and writes a compact packet to `/Volumes/carbonite/claw/data/cindylou/runtime/session-closeout/<session-id>/closeout-packet.md`. It has no Discord bot command and does not publish by itself.
+
+Useful variants:
+
+```bash
+cindy-session-closeout
+cindy-session-closeout --current
+cindy-session-closeout --session-dir /path/to/live-session/sessions/SESSION_ID
+cindy-session-closeout --transcript /path/to/transcript.jsonl --print
+```
+
+The packet is the remembered low-token prompt/context contract for future Cindy closeouts: read the packet first, inspect only the wiki pages implicated by its evidence, then perform the session-page/current-state/chronology/lead-board sweep.
+
 ### Evidence packet
 
-Before asking a model to summarize, deterministic code should gather a compact packet:
+Before asking a model to summarize, deterministic code should gather a compact packet. `scripts/cindy-session-closeout` currently gathers:
 
 - transcript/thread id and time span;
-- attendance if available;
-- candidate played date and in-world date/time;
-- scene breaks or speaker/time clusters;
-- explicit GM reward/closeout posts;
-- extracted named NPCs, locations, factions, vehicles, Matrix hosts, clues, and player decisions;
-- candidate state changes: nuyen, Karma, gear, damage, heat, favors, contacts, projects, vehicles/drones, and ongoing conditions;
-- existing pages that may need updates.
+- transcript last timestamp as the default stopped-at time;
+- attendance / speaker counts;
+- candidate played date and in-world date/time evidence;
+- explicit reward, ledger, character-state, and closeout evidence;
+- GM control-panel canon / GM-only markers;
+- a small orientation transcript sample;
+- the exact wiki surfaces and outcome contract for the closeout sweep.
+
+The model or coding agent should infer in-world date, rewards, and stop point from this packet and the transcript first. It should ask the GM only when the evidence is absent or contradictory.
 
 ### Model role
 
