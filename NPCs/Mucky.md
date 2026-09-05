@@ -28,18 +28,18 @@ Usually called **Mucky**. A major Nashville criminal figure, wolf shapeshifter, 
 - He is a wolf shapeshifter and physical adept.
 - He is described as a major criminal figure in Nashville.
 - He is considered an active contact.
-- His gambling hall / hotel is now recorded as [Mucky's Place](../Locations/Muckys-Place.md), the current destination in the Byron Cedar / Judge Belisarius rush job.
+- His night club is now recorded as [Mucky's Place](../Locations/Muckys-Place.md), the current destination in the Byron Cedar / Judge Belisarius rush job.
 
 ## Relationships
 
 - Allied to the crew through **Glenn**.
 - Part of the broader Nashville criminal/contact ecology around the party.
-- Linked to [Melchizedek](Melchizedek.md) through the gambling hall / hotel that serves as Melchizedek's Personal Domain.
+- Linked to [Melchizedek](Melchizedek.md) through the night club that serves as Melchizedek's Personal Domain.
 
 ## Relevant Sessions
 
 - 2026-02-27 — authoritative roster/contact update.
-- 2026-09-03 — the crew chose Mucky's gambling hall as the lure destination for Judge Belisarius and Renaud Dupree.
+- 2026-09-03 — the crew chose Mucky's night club as the lure destination for Judge Belisarius and Renaud Dupree.
 
 ## Open Questions
 
