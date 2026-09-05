@@ -39,6 +39,7 @@ There are shows, games, and private rooms for conducting business. Mucky is ther
   <img src="../assets/images/muckys-place/muckys-place-08.png" alt="Mucky's Place concept image 8" style="width: 100%; height: auto; border-radius: 8px;">
   <img src="../assets/images/muckys-place/muckys-place-09.png" alt="Mucky's Place concept image 9" style="width: 100%; height: auto; border-radius: 8px;">
   <img src="../assets/images/muckys-place/muckys-place-10.png" alt="Mucky's Place concept image 10" style="width: 100%; height: auto; border-radius: 8px;">
+  <img src="../assets/images/muckys-place/muckys-place-11.png" alt="Mucky's Place concept image 11" style="width: 100%; height: auto; border-radius: 8px;">
 </div>
 
 ## Known Facts
