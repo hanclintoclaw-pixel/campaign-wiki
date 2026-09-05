@@ -28,7 +28,7 @@ Usually called **Mucky**. A major Nashville criminal figure, wolf shapeshifter, 
 - He is a wolf shapeshifter and physical adept.
 - He is described as a major criminal figure in Nashville.
 - He is considered an active contact.
-- His gambling hall / hotel is now recorded as [Mucky's place](../Locations/Muckys-Place.md), the current destination in the Byron Cedar / Judge Belisarius rush job.
+- His gambling hall / hotel is now recorded as [Mucky's Place](../Locations/Muckys-Place.md), the current destination in the Byron Cedar / Judge Belisarius rush job.
 
 ## Relationships
 

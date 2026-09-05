@@ -28,7 +28,7 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 
 **Last touched:** [Session 2026-09-03](../Sessions/2026-09-03.md)
 
-**Connected pages:** [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md), [Kilimanjaro](../PCs/Kilimanjaro.md), [Byron L. Cedar](../NPCs/Byron-Cedar.md), [Judge Hiram Belisarius](../NPCs/Judge-Hiram-Belisarius.md), [Renaud Dupree](../NPCs/Renaud-Dupree.md), [HEMP Global Agronomics](../Organizations/HEMP-Global-Agronomics.md), [Mucky's place](../Locations/Muckys-Place.md)
+**Connected pages:** [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md), [Kilimanjaro](../PCs/Kilimanjaro.md), [Byron L. Cedar](../NPCs/Byron-Cedar.md), [Judge Hiram Belisarius](../NPCs/Judge-Hiram-Belisarius.md), [Renaud Dupree](../NPCs/Renaud-Dupree.md), [HEMP Global Agronomics](../Organizations/HEMP-Global-Agronomics.md), [Mucky's Place](../Locations/Muckys-Place.md)
 
 Cedar hired Kilimanjaro to make sure Judge Belisarius misses court the next day without being killed, permanently removed from the docket, or obviously targeted. The crew has lured Belisarius and Renaud Dupree toward Mucky's, but the final incapacitation plan is not yet resolved.
 

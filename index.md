@@ -20,7 +20,7 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The current active run is the **[Byron Cedar / Judge Belisarius rush job](Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)** from [Session 2026-09-03](Sessions/2026-09-03.md). With **[Valgaut](PCs/Valgaut.md)** hard-paused, Abe joined using **[Kilimanjaro](PCs/Kilimanjaro.md)** as an alternate starter PC. **[Byron L. Cedar](NPCs/Byron-Cedar.md)** of **[HEMP Global Agronomics](Organizations/HEMP-Global-Agronomics.md)** hired Kilimanjaro to keep corrupt judge **[Hiram Belisarius](NPCs/Judge-Hiram-Belisarius.md)** out of court without killing or permanently removing him. The crew has lured Belisarius and bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** away from the diner / **[8th Street](Factions/8th-Street.md)** routine toward **[Mucky's place](Locations/Muckys-Place.md)**, with the final takedown still unresolved.
+The current active run is the **[Byron Cedar / Judge Belisarius rush job](Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)** from [Session 2026-09-03](Sessions/2026-09-03.md). With **[Valgaut](PCs/Valgaut.md)** hard-paused, Abe joined using **[Kilimanjaro](PCs/Kilimanjaro.md)** as an alternate starter PC. **[Byron L. Cedar](NPCs/Byron-Cedar.md)** of **[HEMP Global Agronomics](Organizations/HEMP-Global-Agronomics.md)** hired Kilimanjaro to keep corrupt judge **[Hiram Belisarius](NPCs/Judge-Hiram-Belisarius.md)** out of court without killing or permanently removing him. The crew has lured Belisarius and bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** away from the diner / **[8th Street](Factions/8th-Street.md)** routine toward **[Mucky's Place](Locations/Muckys-Place.md)**, with the final takedown still unresolved.
 
 ## Navigation
 

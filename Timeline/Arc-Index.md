@@ -237,7 +237,7 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 - [Judge Hiram Belisarius](../NPCs/Judge-Hiram-Belisarius.md)
 - [Renaud Dupree](../NPCs/Renaud-Dupree.md)
 - [8th Street](../Factions/8th-Street.md)
-- [Mucky's place](../Locations/Muckys-Place.md)
+- [Mucky's Place](../Locations/Muckys-Place.md)
 
 **Dedicated page**
 - [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)

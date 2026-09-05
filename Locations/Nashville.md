@@ -141,7 +141,7 @@ For specific sites, see the broader [Locations](README.md) index and current Nas
 - [Happy Cat Konpeki and Collectibles](Happy-Cat-Konpeki-and-Collectibles.md)
 - [Seven Directions Dojo](Seven-Directions-Dojo.md)
 - [Noodle Stories](Noodle-Stories.md)
-- [Mucky's place](Muckys-Place.md)
+- [Mucky's Place](Muckys-Place.md)
 
 ## See also
 

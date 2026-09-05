@@ -11,7 +11,7 @@ updated: 2026-09-04
 
 The latest active run is [Session 2026-09-03](Sessions/2026-09-03.md): with **[Valgaut](PCs/Valgaut.md)** still hard-paused, Abe joined using **[Kilimanjaro](PCs/Kilimanjaro.md)** as an **Alternate PC** / starter character for new players. **[Byron L. Cedar](NPCs/Byron-Cedar.md)**, corporate lawyer for **[HEMP Global Agronomics](Organizations/HEMP-Global-Agronomics.md)**, hired Kilimanjaro to make sure corrupt circuit judge **[Hiram Belisarius](NPCs/Judge-Hiram-Belisarius.md)** misses court the next day without being killed, permanently removed from the docket, or obviously targeted.
 
-The current scene is paused outside **[Mucky's place](Locations/Muckys-Place.md)**. The crew has lured Belisarius and his heavily cybered troll bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** away from Belisarius's usual diner / **[8th Street](Factions/8th-Street.md)** alley gambling routine, but the final incapacitation plan is still unsettled.
+The current scene is paused outside **[Mucky's Place](Locations/Muckys-Place.md)**. The crew has lured Belisarius and his heavily cybered troll bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** away from Belisarius's usual diner / **[8th Street](Factions/8th-Street.md)** alley gambling routine, but the final incapacitation plan is still unsettled.
 
 ## Recent Runs / Follow-ups
 

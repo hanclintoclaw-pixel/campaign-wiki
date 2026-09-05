@@ -1,12 +1,12 @@
 ---
-title: Mucky's place
+title: Mucky's Place
 type: location
 visibility: player-safe
 status: active
 first_session: 2026-09-03
 last_updated_session: 2026-09-03
-canon_status: provisional
-confidence: medium
+canon_status: canon
+confidence: high
 aliases:
   - Mucky's Gambling Hall
   - Mucky's Place
@@ -17,19 +17,21 @@ sources:
   - ../NPCs/Melchizedek-Mucky-House-Compact.md
 ---
 
-# Mucky's place
+# Mucky's Place
 
 ## Overview
 
-**Mucky's place** is the currently active name for the Nashville gambling hall / hotel owned by **Mucky** and associated with **Melchizedek's** Personal Domain.
+**Mucky's Place** is a ShadowRunner club frequented by Nashville's criminal elite looking to do business, high rollers seeking hot streaks, crooked politicians making deals, and rubes with more money than brains. It is lively, and people can relax there knowing no one wants to start trouble with **Mucky's** security on patrol. People enjoy themselves at Mucky's Place; some would say even to a suspicious degree.
+
+There are shows, games, and private rooms for conducting business. Mucky is there most every night unless unavoidably detained. Always a wolf with a flair for the theatric, he revels in the attention and the hedonism. Being almost completely self-interested, it brings him great joy to build leverage and rake in cash.
 
 ## Known Facts
 
-- The site is a Mucky-owned gambling hall / hotel in Nashville.
-- It is shadowrunner- and criminal-scene-adjacent enough that Kurgan and Curtis could plausibly suggest it as a place to bring Judge Belisarius for a supposed higher-stakes game.
+- The site is a Mucky-owned ShadowRunner club in Nashville with shows, games, and private rooms for conducting business.
+- It is frequented by Nashville's criminal elite, high rollers, crooked politicians, and careless marks.
+- Mucky's security keeps the peace, making the club feel safe enough for patrons to relax and enjoy themselves.
 - **Melchizedek**, a Force 9 Great Form Free Hearth Spirit, treats the site as his Personal Domain under the house compact with Mucky.
 - The crew chose it as the next destination in Session 2026-09-03 after luring Belisarius away from his usual 8th Street alley dice game.
-- The exact public name, layout, and boundaries remain provisional.
 
 ## Relationships
 
@@ -44,7 +46,6 @@ sources:
 
 ## Open Questions
 
-- What is the establishment's final name, exact concept, and layout?
 - What does Mucky consider acceptable business in the parking lot or approach?
 - How does Melchizedek react to a rigged con involving a corrupt judge and a cybered troll bodyguard?
 

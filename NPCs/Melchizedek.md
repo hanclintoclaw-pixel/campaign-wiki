@@ -35,7 +35,7 @@ Melchizedek is a magical NPC: a **Great Form Free Hearth Spirit**, built from th
 - He is obsessed with knowledge of metahuman excess, especially trid content, Matrix feeds, and bad fast food.
 - He trades magical wealth for access to television, feeds, junk food, and similar indulgences.
 - His working arrangement with Mucky is spelled out in [The House Compact of Melchizedek and Mucky](Melchizedek-Mucky-House-Compact.md).
-- The site is now recorded as [Mucky's place](../Locations/Muckys-Place.md), the current lure destination in the Byron Cedar / Judge Belisarius rush job.
+- The site is now recorded as [Mucky's Place](../Locations/Muckys-Place.md), the current lure destination in the Byron Cedar / Judge Belisarius rush job.
 - If denied access or interrupted while consuming his favored media/food, he may react violently and use his powers to compel people to provide what he wants.
 - True name, exact domain boundaries, chain of obligations, and relationship to the crew are **not yet established**.
 
@@ -58,7 +58,7 @@ Melchizedek is a magical NPC: a **Great Form Free Hearth Spirit**, built from th
 - Linked to **Mucky** through his current Personal Domain: a Mucky-owned gambling hall/hotel in Nashville.
 - Mucky currently supplies his fast food and trid feeds.
 - Their mutual understanding is documented in [The House Compact of Melchizedek and Mucky](Melchizedek-Mucky-House-Compact.md).
-- Linked to [Mucky's place](../Locations/Muckys-Place.md), where the crew is bringing Judge Belisarius and Renaud Dupree during the current job.
+- Linked to [Mucky's Place](../Locations/Muckys-Place.md), where the crew is bringing Judge Belisarius and Renaud Dupree during the current job.
 
 ## Capabilities / Resources
 

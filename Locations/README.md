@@ -27,7 +27,7 @@
 - [Josie's Billiard Hall](Josies-Billiard-Hall.md)
 - [Seven Directions Dojo](Seven-Directions-Dojo.md)
 - [Noodle Stories](Noodle-Stories.md)
-- [Mucky's place](Muckys-Place.md)
+- [Mucky's Place](Muckys-Place.md)
 - [Radnor Lake](Radnor-Lake.md)
 
 ## Franklin / Regional Locations
