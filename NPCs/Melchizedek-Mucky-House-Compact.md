@@ -13,9 +13,12 @@ aliases:
 sources:
   - NPCs/Melchizedek.md
   - NPCs/Mucky.md
+  - Discord image attachment, 2026-09-04
 ---
 
 # The House Compact of Melchizedek and Mucky
+
+![The House Compact of Melchizedek and Mucky](../assets/images/Melchizedek-Mucky-House-Compact-2026-09-04.png)
 
 _A working agreement, understanding, covenant, compact, memorandum of proper respect, and/or entirely reasonable hospitality arrangement between Memphis Menthol Mephistopheles Muckmeyer, hereinafter **the Proprietor**, and Melchizedek, hereinafter **the Resident Divinity**, **the Little Goat Man**, **the House**, or **that hovering son of a bitch in Room Whatever**._
 
