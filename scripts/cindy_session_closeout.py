@@ -5,17 +5,33 @@ import argparse
 import json
 import os
 import re
+import shlex
+import subprocess
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Iterable
 
 
+REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT_ROOT = Path("/Volumes/carbonite/claw/data/cindylou/runtime/session-closeout")
 DEFAULT_LIVE_SESSION_CANDIDATES = [
     Path(os.environ.get("LIVE_SESSION_DIR", "")).expanduser() if os.environ.get("LIVE_SESSION_DIR") else None,
     Path("/Volumes/carbonite/claw/data/cindylou/runtime/live-session"),
     Path.home() / ".openclaw/workspace-cindylou/runtime/live-session",
+]
+REQUIRED_SWEEP_PATHS = [
+    "Sessions/",
+    "index.md",
+    "Current-State.md",
+    "Timeline/Session-Chronology.md",
+    "Clues/README.md",
+    "Arcs/README.md",
+    "NPCs/README.md",
+    "PCs/README.md",
+    "Locations/README.md",
+    "Factions/README.md",
+    "Organizations/README.md",
 ]
 
 DATE_RE = re.compile(
@@ -65,6 +81,15 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
             if isinstance(row, dict):
                 rows.append(row)
     return rows
+
+
+def read_text_if_exists(path: Path, max_chars: int) -> str:
+    if not path.exists():
+        return ""
+    text = path.read_text(encoding="utf-8")
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rstrip() + "\n\n[truncated]"
 
 
 def first_existing_live_session_dir() -> Path:
@@ -172,7 +197,33 @@ def render_lines(rows: Iterable[dict[str, Any]]) -> str:
     return "\n".join(lines) if lines else "- None found in transcript packet."
 
 
-def build_packet(args: argparse.Namespace) -> tuple[str, Path]:
+def git(args: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        ["git", *args],
+        cwd=REPO_ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        check=check,
+    )
+
+
+def porcelain_paths() -> list[str]:
+    result = git(["status", "--porcelain"], check=True)
+    return [line for line in result.stdout.splitlines() if line.strip()]
+
+
+def require_clean_worktree(allow_dirty: bool) -> None:
+    dirty = porcelain_paths()
+    if dirty and not allow_dirty:
+        joined = "\n".join(dirty)
+        raise RuntimeError(
+            "Refusing to run a mutating closeout with a dirty campaign-wiki worktree. "
+            "Commit/stash unrelated changes or pass --allow-dirty.\n" + joined
+        )
+
+
+def build_packet(args: argparse.Namespace) -> dict[str, Any]:
     session_dir, transcript_path = resolve_session(args)
     if not transcript_path.exists():
         raise FileNotFoundError(f"Transcript not found: {transcript_path}")
@@ -279,32 +330,244 @@ This is only for orientation. Prefer the evidence sections above, then inspect t
 
 {render_lines(sampled_rows)}
 """
-    return packet, out_path
+    return {
+        "session_dir": session_dir,
+        "transcript_path": transcript_path,
+        "session_id": session_id,
+        "session_date": session_date,
+        "first_timestamp": first_ts,
+        "last_timestamp": last_ts,
+        "authentic_hits": authentic_hits,
+        "packet": packet,
+        "out_dir": out_dir,
+        "packet_path": out_path,
+    }
+
+
+def build_wiki_context(session_date: str) -> str:
+    session_path = REPO_ROOT / "Sessions" / f"{session_date}.md"
+    existing_session = read_text_if_exists(session_path, 8000)
+    current_state = read_text_if_exists(REPO_ROOT / "Current-State.md", 9000)
+    index_page = read_text_if_exists(REPO_ROOT / "index.md", 5000)
+    chronology = read_text_if_exists(REPO_ROOT / "Timeline" / "Session-Chronology.md", 10000)
+    clues = read_text_if_exists(REPO_ROOT / "Clues" / "README.md", 10000)
+    template = read_text_if_exists(REPO_ROOT / "meta" / "TEMPLATE.session.md", 4000)
+    path_list = "\n".join(f"- `{path}`" for path in REQUIRED_SWEEP_PATHS)
+    existing_text = existing_session or "No existing candidate session page found. Create it if the transcript is authentic."
+    return f"""# Compact wiki context for session closeout
+
+## Required sweep surfaces
+
+{path_list}
+
+## Candidate session template
+
+```markdown
+{template}
+```
+
+## Existing candidate session page
+
+```markdown
+{existing_text}
+```
+
+## Current front page snapshot
+
+```markdown
+{index_page}
+```
+
+## Current State snapshot
+
+```markdown
+{current_state}
+```
+
+## Session Chronology snapshot
+
+```markdown
+{chronology}
+```
+
+## Lead Board snapshot
+
+```markdown
+{clues}
+```
+"""
+
+
+def build_agent_prompt(packet_path: Path, wiki_context_path: Path, manifest_path: Path, session_date: str) -> str:
+    return f"""You are running Cindy Lou's local post-session closeout workflow inside the campaign-wiki repository.
+
+Objective: summarize the session transcript and perform the full player-safe wiki closeout while minimizing broad context reads.
+
+Start with these local files:
+- Closeout evidence packet: `{packet_path}`
+- Compact wiki context: `{wiki_context_path}`
+- Run manifest/checklist: `{manifest_path}`
+
+Required behavior:
+1. Read the closeout packet first. Use its evidence sections before opening the full transcript.
+2. Use the transcript path from the packet for targeted follow-up searches only when the packet is insufficient.
+3. Infer in-world date/time, rewards/ledgers, and stopped-at time from transcript evidence first. Ask the GM only when evidence is absent or contradictory.
+4. Create or update `Sessions/{session_date}.md` with Summary, Major Scenes, NPCs Introduced / In Play, Clues Gained, Decisions Made, Rewards / Ledgers, Changes to Campaign State, Open Threads, and Sources.
+5. Create new pages for newly introduced NPCs, PCs, locations, factions, organizations, arcs, vehicles, Matrix hosts, or other durable entities that need wiki records. Update existing PC/NPC/location/faction/org/arc records when the transcript changes their state.
+6. Update cross-links and relevant indexes so the new pages are reachable.
+7. Update `index.md` Current Situation, `Current-State.md`, `Timeline/Session-Chronology.md`, and `Clues/README.md` if the session changes them. If one is unchanged, leave a clear reason in the final report.
+8. Keep public pages player-safe. Do not publish GM-only marker content unless the GM explicitly marked it public-safe.
+9. Preserve uncertainty honestly: provisional canon status is better than confident wrong canon.
+10. Run available repository checks such as `git diff --check`; do not invent new build tooling.
+
+Do not stop after drafting a summary. The expected output is the wiki mutation itself plus a concise final report with exactly one closeout outcome: publish-ready ingest, draft/provisional ingest, needs GM clarification, or no authentic session found.
+"""
+
+
+def write_workspace(packet_info: dict[str, Any]) -> dict[str, Path]:
+    out_dir = packet_info["out_dir"]
+    packet_path = packet_info["packet_path"]
+    wiki_context_path = out_dir / "wiki-context.md"
+    prompt_path = out_dir / "agent-prompt.md"
+    manifest_path = out_dir / "manifest.json"
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    packet_path.write_text(packet_info["packet"], encoding="utf-8")
+    wiki_context_path.write_text(build_wiki_context(packet_info["session_date"]), encoding="utf-8")
+
+    manifest = {
+        "schema": "cindylou.session-closeout/v1",
+        "session_id": packet_info["session_id"],
+        "session_date": packet_info["session_date"],
+        "repo_root": str(REPO_ROOT),
+        "session_dir": str(packet_info["session_dir"]),
+        "transcript_path": str(packet_info["transcript_path"]),
+        "packet_path": str(packet_path),
+        "wiki_context_path": str(wiki_context_path),
+        "prompt_path": str(prompt_path),
+        "candidate_session_page": f"Sessions/{packet_info['session_date']}.md",
+        "required_sweep_paths": REQUIRED_SWEEP_PATHS,
+        "acceptance": [
+            "session page created or updated",
+            "Current Situation explicitly changed or reported unchanged",
+            "Current-State explicitly changed or reported unchanged",
+            "Session Chronology explicitly changed or reported unchanged",
+            "Lead Board explicitly changed or reported unchanged",
+            "changed entities/pages linked from an index or parent page",
+            "date/reward/ledger uncertainty either resolved from transcript or reported as GM clarification",
+        ],
+    }
+    manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+    prompt_path.write_text(
+        build_agent_prompt(packet_path, wiki_context_path, manifest_path, packet_info["session_date"]),
+        encoding="utf-8",
+    )
+    return {"packet": packet_path, "wiki_context": wiki_context_path, "prompt": prompt_path, "manifest": manifest_path}
+
+
+def run_agent(command: str, prompt_path: Path, log_path: Path) -> None:
+    prompt_text = prompt_path.read_text(encoding="utf-8")
+    if "{prompt}" in command or "{prompt_path}" in command:
+        rendered = command.format(prompt=shlex.quote(str(prompt_path)), prompt_path=shlex.quote(str(prompt_path)))
+        stdin_text = None
+    else:
+        rendered = command
+        stdin_text = prompt_text
+    with log_path.open("w", encoding="utf-8") as log:
+        result = subprocess.run(
+            rendered,
+            cwd=REPO_ROOT,
+            shell=True,
+            input=stdin_text,
+            text=True,
+            stdout=log,
+            stderr=subprocess.STDOUT,
+        )
+    if result.returncode != 0:
+        raise RuntimeError(f"Agent command failed with exit code {result.returncode}; see {log_path}")
+
+
+def validate_closeout(session_date: str) -> list[str]:
+    issues: list[str] = []
+    changed = porcelain_paths()
+    if not changed:
+        issues.append("No campaign-wiki file changes detected after closeout run.")
+    session_path = REPO_ROOT / "Sessions" / f"{session_date}.md"
+    if not session_path.exists():
+        issues.append(f"Candidate session page is missing: Sessions/{session_date}.md")
+    for path in ["index.md", "Current-State.md", "Timeline/Session-Chronology.md", "Clues/README.md"]:
+        if not (REPO_ROOT / path).exists():
+            issues.append(f"Required sweep surface is missing: {path}")
+    diff_check = git(["diff", "--check"], check=False)
+    if diff_check.returncode != 0:
+        issues.append("git diff --check failed:\n" + diff_check.stdout.strip())
+    return issues
+
+
+def commit_and_push(args: argparse.Namespace, session_date: str) -> None:
+    if not args.commit and not args.push:
+        return
+    git(["add", "-A"])
+    if args.commit:
+        message = args.commit_message or f"Close out session {session_date}"
+        git(["commit", "-m", message, "-m", "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"])
+    if args.push:
+        git(["push"])
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Build a compact local closeout packet from a Cindy live-session transcript."
+        description="Build or run Cindy's low-token local post-session closeout workflow."
     )
     source = parser.add_mutually_exclusive_group()
     source.add_argument("--session-dir", type=Path, help="Archived live-session directory containing transcript.jsonl")
     source.add_argument("--transcript", type=Path, help="Specific transcript.jsonl path")
     source.add_argument("--current", action="store_true", help="Use the current live-session transcript instead of latest archive")
-    parser.add_argument("--out-dir", type=Path, help="Directory for closeout-packet.md")
+    parser.add_argument("--out-dir", type=Path, help="Directory for closeout-packet.md and run artifacts")
     parser.add_argument("--transcript-lines", type=int, default=70, help="Compact transcript sample line budget")
     parser.add_argument("--evidence-limit", type=int, default=18, help="Max evidence lines per evidence class")
     parser.add_argument("--tail-limit", type=int, default=12, help="Last transcript lines to include")
     parser.add_argument("--marker-limit", type=int, default=20, help="Max GM panel markers to include")
-    parser.add_argument("--print", action="store_true", help="Print the packet to stdout instead of writing it")
+    parser.add_argument("--print", action="store_true", help="Print the packet to stdout instead of writing artifacts")
+    parser.add_argument("--run-agent", action="store_true", help="Run the configured local model/coding agent on the generated prompt")
+    parser.add_argument("--agent-command", default=os.environ.get("CINDY_CLOSEOUT_AGENT"), help="Shell command for the local agent; stdin receives the prompt unless {prompt} is present")
+    parser.add_argument("--allow-dirty", action="store_true", help="Allow mutating runs when campaign-wiki already has uncommitted changes")
+    parser.add_argument("--commit", action="store_true", help="Commit resulting wiki changes after a successful agent run")
+    parser.add_argument("--push", action="store_true", help="Push after commit; implies no extra validation beyond git push")
+    parser.add_argument("--commit-message", help="Commit message for --commit")
     args = parser.parse_args()
 
-    packet, out_path = build_packet(args)
-    if args.print:
-        print(packet)
+    mutating = args.run_agent or args.commit or args.push
+    if mutating:
+        require_clean_worktree(args.allow_dirty)
+
+    packet_info = build_packet(args)
+    if args.print and not mutating:
+        print(packet_info["packet"])
         return
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(packet, encoding="utf-8")
-    print(f"wrote: {out_path}")
+
+    paths = write_workspace(packet_info)
+    print(f"wrote packet: {paths['packet']}")
+    print(f"wrote prompt: {paths['prompt']}")
+    print(f"wrote manifest: {paths['manifest']}")
+
+    if not args.run_agent:
+        print("prepared closeout workspace only; pass --run-agent with --agent-command or CINDY_CLOSEOUT_AGENT to mutate the wiki")
+        return
+    if not args.agent_command:
+        raise RuntimeError("--run-agent requires --agent-command or CINDY_CLOSEOUT_AGENT")
+
+    log_path = packet_info["out_dir"] / "agent-run.log"
+    run_agent(args.agent_command, paths["prompt"], log_path)
+    print(f"agent log: {log_path}")
+
+    issues = validate_closeout(packet_info["session_date"])
+    if issues:
+        for issue in issues:
+            print(f"validation issue: {issue}")
+        raise SystemExit(2)
+    print("closeout validation passed")
+    commit_and_push(args, packet_info["session_date"])
 
 
 if __name__ == "__main__":

@@ -244,7 +244,7 @@ cindy-session-closeout
 
 It is symlinked from `~/.local/bin` to `/Users/hanclaw/claw/projects/cindylou/campaign-wiki/scripts/cindy-session-closeout`.
 
-Default behavior reads the most recent archived live-session transcript from the local live-session runtime and writes a compact packet to `/Volumes/carbonite/claw/data/cindylou/runtime/session-closeout/<session-id>/closeout-packet.md`. It has no Discord bot command and does not publish by itself.
+Default behavior reads the most recent archived live-session transcript from the local live-session runtime and writes a low-token closeout workspace under `/Volumes/carbonite/claw/data/cindylou/runtime/session-closeout/<session-id>/`: `closeout-packet.md`, `wiki-context.md`, `agent-prompt.md`, and `manifest.json`. It has no Discord bot command and does not publish by itself unless explicitly run with a local agent plus commit/push flags.
 
 Useful variants:
 
@@ -253,13 +253,17 @@ cindy-session-closeout
 cindy-session-closeout --current
 cindy-session-closeout --session-dir /path/to/live-session/sessions/SESSION_ID
 cindy-session-closeout --transcript /path/to/transcript.jsonl --print
+CINDY_CLOSEOUT_AGENT='your-local-agent-command' cindy-session-closeout --run-agent
+CINDY_CLOSEOUT_AGENT='your-local-agent-command' cindy-session-closeout --run-agent --commit --push
 ```
 
-The packet is the remembered low-token prompt/context contract for future Cindy closeouts: read the packet first, inspect only the wiki pages implicated by its evidence, then perform the session-page/current-state/chronology/lead-board sweep.
+When `--run-agent` is used, the wrapper feeds `agent-prompt.md` to the configured local coding/model agent, then checks that the expected wiki surfaces exist and `git diff --check` passes. It refuses mutating runs from a dirty campaign-wiki worktree unless `--allow-dirty` is supplied. With `--commit --push`, the same named command can complete the full wiki closeout commit/publish path after the agent edits.
+
+The generated workspace is the remembered low-token prompt/context contract for future Cindy closeouts: read the packet first, inspect only the wiki pages implicated by its evidence, then perform the session-page/current-state/chronology/lead-board/entity sweep.
 
 ### Evidence packet
 
-Before asking a model to summarize, deterministic code should gather a compact packet. `scripts/cindy-session-closeout` currently gathers:
+Before asking a model to summarize, deterministic code should gather a compact packet. `cindy-session-closeout` currently gathers:
 
 - transcript/thread id and time span;
 - transcript last timestamp as the default stopped-at time;
@@ -268,7 +272,8 @@ Before asking a model to summarize, deterministic code should gather a compact p
 - explicit reward, ledger, character-state, and closeout evidence;
 - GM control-panel canon / GM-only markers;
 - a small orientation transcript sample;
-- the exact wiki surfaces and outcome contract for the closeout sweep.
+- compact snapshots of the session template, front page, Current State, Session Chronology, and Lead Board;
+- the exact wiki surfaces, entity/update expectations, and outcome contract for the closeout sweep.
 
 The model or coding agent should infer in-world date, rewards, and stop point from this packet and the transcript first. It should ask the GM only when the evidence is absent or contradictory.
 
