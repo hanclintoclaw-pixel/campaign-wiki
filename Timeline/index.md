@@ -217,7 +217,7 @@ For the cleaned-up master list that separates real-world played dates from Shado
 ### Byron Cedar / Judge Belisarius rush job
 - **Played:** 2026-09-03 onward
 - **In-world:** 2066-05-20 evening (provisional)
-- **Summary:** New-player starter contract introducing **Kilimanjaro** as Abe's alternate PC. **Byron L. Cedar** of **HEMP Global Agronomics** hired Kilimanjaro to keep corrupt judge **Hiram Belisarius** out of court without killing or permanently removing him. The crew located Belisarius and **Renaud Dupree**, scattered **8th Street**, and lured the target pair toward **Mucky's Gambling Hall** before stopping with the final takedown unresolved.
+- **Summary:** New-player starter contract introducing **Kilimanjaro** as Abe's alternate PC. **Byron L. Cedar** of **HEMP Global Agronomics** hired Kilimanjaro to keep corrupt judge **Hiram Belisarius** out of court without killing or permanently removing him. The crew located Belisarius and **Renaud Dupree**, scattered **8th Street**, and lured the target pair toward **Mucky's place** before stopping with the final takedown unresolved.
 - **Session page:** [2026-09-03](../Sessions/2026-09-03.md)
 
 ## Current Known In-World Anchor

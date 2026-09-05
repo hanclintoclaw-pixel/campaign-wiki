@@ -1,5 +1,5 @@
 ---
-title: Mucky's Gambling Hall
+title: Mucky's place
 type: location
 visibility: player-safe
 status: active
@@ -8,6 +8,7 @@ last_updated_session: 2026-09-03
 canon_status: provisional
 confidence: medium
 aliases:
+  - Mucky's Gambling Hall
   - Mucky's Place
 tags: [location, gambling, nashville, shadowrunner]
 sources:
@@ -15,11 +16,11 @@ sources:
   - ../NPCs/Melchizedek.md
 ---
 
-# Mucky's Gambling Hall
+# Mucky's place
 
 ## Overview
 
-**Mucky's Gambling Hall** is the currently active name for the Nashville gambling hall / hotel owned by **Mucky** and associated with **Melchizedek's** Personal Domain.
+**Mucky's place** is the currently active name for the Nashville gambling hall / hotel owned by **Mucky** and associated with **Melchizedek's** Personal Domain.
 
 ## Known Facts
 

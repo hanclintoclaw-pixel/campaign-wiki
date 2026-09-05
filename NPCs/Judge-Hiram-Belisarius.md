@@ -40,7 +40,7 @@ sources:
 - Target of [Byron L. Cedar](Byron-Cedar.md)'s current court-delay job.
 - Protected after hours by [Renaud Dupree](Renaud-Dupree.md).
 - Associated with [8th Street](../Factions/8th-Street.md) through gambling debts and alley dice games.
-- Currently being lured toward [Mucky's Gambling Hall](../Locations/Muckys-Gambling-Hall.md).
+- Currently being lured toward [Mucky's place](../Locations/Muckys-Place.md).
 
 ## Relevant Sessions
 
