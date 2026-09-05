@@ -14,6 +14,7 @@ tags: [location, gambling, nashville, shadowrunner]
 sources:
   - ../Sessions/2026-09-03.md
   - ../NPCs/Melchizedek.md
+  - ../NPCs/Melchizedek-Mucky-House-Compact.md
 ---
 
 # Mucky's place
@@ -34,6 +35,7 @@ sources:
 
 - Owned by [Memphis Menthol Mephistopheles Muckmeyer](../NPCs/Mucky.md).
 - Domain of [Melchizedek](../NPCs/Melchizedek.md).
+- Governed by [The House Compact of Melchizedek and Mucky](../NPCs/Melchizedek-Mucky-House-Compact.md).
 - Current destination in the [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md).
 
 ## Relevant Sessions
@@ -50,3 +52,4 @@ sources:
 
 - [Session 2026-09-03](../Sessions/2026-09-03.md)
 - [Melchizedek](../NPCs/Melchizedek.md)
+- [The House Compact of Melchizedek and Mucky](../NPCs/Melchizedek-Mucky-House-Compact.md)
