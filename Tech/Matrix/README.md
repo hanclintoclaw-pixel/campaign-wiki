@@ -24,6 +24,7 @@ These are **not specific hosts**. They are SR3 rules-derived examples of common 
 ## Host records
 
 - [Barrage 1918 Host](Barrage-1918-Host.md)
+- [Cutoff Capshaw Waystation Host](Cutoff-Capshaw-Waystation-Host.md)
 - [Lafayette Tower CAT Entertainment Host](Lafayette-Tower-CAT-Entertainment-Host.md)
 - [Nashville City Government Host](Nashville-City-Government-Host.md)
 - [Ares Nashville Regional Host](Ares-Nashville-Regional-Host.md)

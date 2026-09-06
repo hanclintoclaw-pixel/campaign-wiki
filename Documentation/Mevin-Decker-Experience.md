@@ -116,6 +116,7 @@ The Host Library currently includes several wiki-backed profiles, including:
 - **Happy Cat Public Storefront Host** — starter host with harmless public side, private store records, a strange pet-food clue, and a hidden Pixel Sticks layer.
 - **Augmented Beef and Bacon Social Club Host** — consumer-brand host with multiple generic paydata opportunities and a permanent off-books luxury snack order outcome.
 - **Lafayette Tower CAT Entertainment Host** — high-danger megacorp entertainment host with a deeply hidden Ultraviolet layer.
+- **Cutoff Capshaw Waystation Host** — low-security Blue host for the Cutoff's public mountain waystation board, with roll-free public trade/services nodes, limited cameras, small turret access, and a buried corporate-intel betrayal reveal.
 - Other campaign hosts such as Ares Nashville, Humanis Nashville, Nashville City Government, and SC Music.
 
 ## Limitations and table caveats

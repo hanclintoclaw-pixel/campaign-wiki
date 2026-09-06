@@ -8,6 +8,12 @@
       "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Barrage-1918-Host.html"
     },
     {
+      "id": "cutoff-capshaw-waystation-host",
+      "name": "Cutoff Capshaw Waystation Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/cutoff-capshaw-waystation-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Cutoff-Capshaw-Waystation-Host.html"
+    },
+    {
       "id": "ares-nashville-regional-host",
       "name": "Ares Nashville Regional Host",
       "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/ares-nashville-regional-host.json",

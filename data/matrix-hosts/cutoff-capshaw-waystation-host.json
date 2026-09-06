@@ -1,0 +1,297 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "cutoff-capshaw-waystation-host",
+  "name": "Cutoff Capshaw Waystation Host",
+  "wikiPage": "Tech/Matrix/Cutoff-Capshaw-Waystation-Host.md",
+  "securityCode": "blue",
+  "securityValue": 4,
+  "hostRating": 4,
+  "shutdownTally": 16,
+  "subsystem": {
+    "access": 4,
+    "control": 4,
+    "index": 4,
+    "files": 5,
+    "slave": 4,
+    "buriedFiles": 7,
+    "corpDeadDrop": 8
+  },
+  "taskTargetNumbers": {
+    "logon": 4,
+    "browsePublic": 3,
+    "waystationServices": 4,
+    "communityRecords": 5,
+    "controlSlave": 5,
+    "cameraAccess": 5,
+    "turretAccess": 6,
+    "hiddenLedger": 7,
+    "corpDeadDrop": 8,
+    "evadeTrace": 5,
+    "fightIc": 5
+  },
+  "securitySheaf": [
+    {
+      "threshold": 4,
+      "label": "Trail-Cam Probe",
+      "effect": "A cheap trail-camera icon tilts toward the intruder and compares persona noise against local maintenance habits.",
+      "encounter": { "type": "probe", "rating": 4 }
+    },
+    {
+      "threshold": 7,
+      "label": "Fence-Line Trace",
+      "effect": "A wire fence line starts crawling back toward the decker's route through patched rural LTG relays.",
+      "encounter": { "type": "trace", "rating": 4 }
+    },
+    {
+      "threshold": 10,
+      "label": "Passive Alert: Radio Check",
+      "effect": "Public trade signs keep blinking, but a maintenance radio starts asking for a human check-in.",
+      "encounter": { "type": "generic", "rating": 4, "consequence": "Passive Alert: a Cutoff watcher or the host maintainer may notice unusual maintenance traffic. Notify the GM if unresolved pressure remains." }
+    },
+    {
+      "threshold": 12,
+      "label": "Static Scramble",
+      "effect": "Handwritten ledger icons fuzz into CB static and bad photocopies, risking partial or noisy recovered data.",
+      "encounter": { "type": "scramble", "rating": 5 }
+    },
+    {
+      "threshold": 14,
+      "label": "Gate-Latch Tar Baby",
+      "effect": "A rusted gate latch and looped warning cable try to hold the icon long enough for someone on the mountain to respond.",
+      "encounter": { "type": "tarBaby", "rating": 5 }
+    }
+  ],
+  "sculpting": "A patched mountain waystation board at the edge of Capshaw Mountain: CB radio chatter, sun-faded trade signs, water-tank gauges, salvage stalls, footpath maps, clinic notices, fuel warnings, trail cameras, fence relays, and a locked maintenance shack buried behind hand-painted arrows.",
+  "notes": "Canon Blue-4 Cutoff host for the Mevin Decker Experience. Public areas require no checks and present trade, services, and waystation information. The private maintenance layer exposes limited cameras, a small defense turret network, community movement records, and a harder buried corporate-intel dead drop showing the rigger/decker maintainer is selling traveler and citizen intelligence to local corps.",
+  "flow": {
+    "startNodeId": "capshaw-grid-approach",
+    "nodes": [
+      {
+        "id": "capshaw-grid-approach",
+        "title": "Capshaw Mountain Grid Approach",
+        "kind": "entry",
+        "description": "You find the Cutoff where patched rural signal, hand-coded signs, and mountain relay noise meet. The public host is open on purpose: a waystation between wasteland roads and civilized supply lines. A smaller maintenance shack sits behind the public board.",
+        "choices": [
+          { "label": "Enter the public waystation board", "to": "public-waystation-board" },
+          { "label": "Pick the maintenance shack lock", "to": "maintenance-shack", "testId": "logon", "unlockSuccesses": 1 },
+          { "label": "Graceful Logoff", "to": "logoff" }
+        ]
+      },
+      {
+        "id": "public-waystation-board",
+        "title": "Public Waystation Board",
+        "kind": "public",
+        "description": "The public area is wide open. It advertises the Cutoff as a rough but functional mountain waystation: trade welcome, trouble discouraged, no corporate recruiters, no bounty hunters, and no questions asked unless you start making people nervous.",
+        "choices": [
+          { "label": "Browse trade advertisements", "to": "trade-ad-board" },
+          { "label": "Check services and repair offers", "to": "services-kiosk" },
+          { "label": "Read the waystation explanation", "to": "waystation-explainer" },
+          { "label": "Check road and path notices", "to": "road-path-notices" },
+          { "label": "Return to the Capshaw grid approach", "to": "capshaw-grid-approach" },
+          { "label": "Leave the public host", "to": "logoff" }
+        ]
+      },
+      {
+        "id": "trade-ad-board",
+        "title": "Trade Advertisement Board",
+        "kind": "public",
+        "description": "Sun-bleached signs advertise barter for clean water, spare parts, batteries, canned food, ammunition components, tire patches, boot leather, fuel additives, preserved seeds, and safe introductions to mountain guides. Nothing here needs a roll; it is meant to be found.",
+        "report": { "include": "never" },
+        "choices": [
+          { "label": "Return to the public board", "to": "public-waystation-board" }
+        ]
+      },
+      {
+        "id": "services-kiosk",
+        "title": "Services and Repair Kiosk",
+        "kind": "public",
+        "description": "The service kiosk lists patch medicine, generator repair, water testing, low-grade Matrix message drops, mechanical advice, tarp-and-rope shelter, meal tokens, salvage brokerage, and warnings about what not to bring through the Cutoff gates.",
+        "report": { "include": "never" },
+        "choices": [
+          { "label": "Return to the public board", "to": "public-waystation-board" }
+        ]
+      },
+      {
+        "id": "waystation-explainer",
+        "title": "What the Cutoff Claims to Be",
+        "kind": "public",
+        "description": "A plain-spoken explainer describes the Cutoff as a wildcat outcast community on Capshaw Mountain: not a town, not a gang, not a corp, but a stopover where wasteland travelers can trade, wash dust off, hear road warnings, and decide whether civilization is worth entering today.",
+        "report": { "include": "never" },
+        "choices": [
+          { "label": "Return to the public board", "to": "public-waystation-board" }
+        ]
+      },
+      {
+        "id": "road-path-notices",
+        "title": "Road and Footpath Notices",
+        "kind": "public",
+        "description": "Notices mark washed-out switchbacks, rumored patrol corridors, safe water hours, animal trouble, bad bridges, bridge trolls that might be literal or just rude, and the least-bad route down toward city services. It is public survival information, not an access gate.",
+        "report": { "include": "never" },
+        "choices": [
+          { "label": "Return to the public board", "to": "public-waystation-board" }
+        ]
+      },
+      {
+        "id": "maintenance-shack",
+        "title": "Locked Maintenance Shack",
+        "kind": "private",
+        "description": "Behind the public board, the sculpting becomes a plywood maintenance shack lit by one bare bulb. Cable spools, radio repeaters, camera feeds, turret warning panels, and greasy logbooks share the same cheap workbench.",
+        "choices": [
+          { "label": "Open community movement records", "to": "movement-records", "testId": "communityRecords", "unlockSuccesses": 1 },
+          { "label": "Access the limited camera network", "to": "camera-network", "testId": "cameraAccess", "unlockSuccesses": 1 },
+          { "label": "Access the defense turret network", "to": "turret-network", "testId": "turretAccess", "unlockSuccesses": 1 },
+          { "label": "Search for buried maintainer files", "to": "maintainer-ledger", "testId": "hiddenLedger", "unlockSuccesses": 2, "targetNumber": 7, "securityValue": 5 },
+          { "label": "Back out to the public board", "to": "public-waystation-board", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "movement-records",
+        "title": "Community Movement Records",
+        "kind": "confirmation",
+        "description": "You appear to have access to rough movement records: arrivals, exits, barter disputes, service tokens, watch notes, guide assignments, and warnings attached to people who passed through the Cutoff. Tell the GM you have movement-record access; confirm what names, dates, aliases, and gaps are visible.",
+        "report": {
+          "include": "always",
+          "title": "Cutoff movement records access",
+          "detail": "Mevin reached Cutoff movement records. Confirm visible arrivals, exits, barter notes, guide assignments, warnings, aliases, dates, and data gaps with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Copy traveler-pattern paydata", "to": "traveler-pattern-paydata" },
+          { "label": "Return to maintenance shack", "to": "maintenance-shack" },
+          { "label": "Log off with movement records noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "camera-network",
+        "title": "Limited Camera Network",
+        "kind": "confirmation",
+        "description": "You appear to have access to the Cutoff's limited camera network: gate trail-cams, fuel shed angles, barter-lane views, one clinic-adjacent blind corner, and several feeds deliberately pointed at useless trees. Tell the GM you have camera access; confirm which feeds are live, stored, fake, broken, or socially dangerous to use.",
+        "report": {
+          "include": "always",
+          "title": "Cutoff camera network access",
+          "detail": "Mevin reached the Cutoff's limited camera network. Confirm live feeds, stored footage, blind spots, broken/fake feeds, and sensitive coverage with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Search camera gaps for suspicious visitors", "to": "camera-gap-paydata" },
+          { "label": "Return to maintenance shack", "to": "maintenance-shack" },
+          { "label": "Log off with camera access noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "turret-network",
+        "title": "Small Defense Turret Network",
+        "kind": "confirmation",
+        "description": "You appear to have access to a small defense turret network: mostly old pintle mounts, warning lights, limited remote traverse, and more deterrent than battlefield control. Tell the GM you reached turret access; confirm physical scope, safety locks, ammo state, current facing, and whether changing anything would alert the watch.",
+        "report": {
+          "include": "always",
+          "title": "Cutoff defense turret access",
+          "detail": "Mevin reached the Cutoff's small defense turret network. Confirm turret count, physical scope, safety locks, ammo state, facing, and alert risk with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Spoof turret watch status", "to": "turret-status-spoof", "testId": "controlSlave", "unlockSuccesses": 2 },
+          { "label": "Return to maintenance shack", "to": "maintenance-shack" },
+          { "label": "Log off with turret access noted", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "turret-status-spoof",
+        "title": "Permanent Outcome: Turret Watch Status Spoofed",
+        "kind": "permanent-outcome",
+        "description": "You spoof or alter a turret watch-status panel. Notify the GM: this is a permanent campaign-state change. Specify whether the spoof makes a turret look ready, offline, harmless, pointed elsewhere, or still under local control.",
+        "report": {
+          "include": "always",
+          "title": "Turret watch status spoofed",
+          "detail": "Mevin changed a Cutoff turret watch-status panel. Tell the GM what was spoofed and whether it implies ready, offline, harmless, redirected, or locally controlled status.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to turret network", "to": "turret-network" },
+          { "label": "Log off before a watch check", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "maintainer-ledger",
+        "title": "Buried Maintainer Ledger",
+        "kind": "private",
+        "description": "Under the ordinary logbooks, you find a private ledger disguised as dead repeater diagnostics. It cross-references travelers, illnesses, debts, rig signatures, guide routes, and polite little payment marks that do not look local.",
+        "choices": [
+          { "label": "Break the corporate dead-drop cipher", "to": "corporate-intel-cache", "testId": "corpDeadDrop", "unlockSuccesses": 2, "targetNumber": 8, "securityValue": 6 },
+          { "label": "Copy partial maintainer irregularities", "to": "maintainer-irregularities-paydata", "testId": "hiddenLedger", "unlockSuccesses": 1 },
+          { "label": "Return to maintenance shack", "to": "maintenance-shack", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "corporate-intel-cache",
+        "title": "Major Reveal: Corporate Intel Dead Drop",
+        "kind": "major-reward",
+        "description": "The buried files open. The rigger/decker who maintains the Cutoff host is deep in the pockets of local corps, feeding them traveler names, health notes, road choices, market needs, security gaps, and citizen gossip from people who trusted the waystation. Tell the GM immediately; exact corporate recipients, proof quality, and fallout are GM-controlled.",
+        "report": {
+          "include": "always",
+          "title": "Corporate intel dead drop found",
+          "detail": "Mevin found buried files showing the Cutoff host's rigger/decker maintainer is selling traveler/citizen intelligence to local corps. Confirm corporate recipients, proof quality, exposed citizens, and fallout with the GM.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Package the dead-drop proof", "to": "corp-dead-drop-paydata" },
+          { "label": "Return to buried maintainer ledger", "to": "maintainer-ledger" },
+          { "label": "Log off with the proof", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "traveler-pattern-paydata",
+        "title": "Paydata: Traveler Pattern Notes",
+        "kind": "paydata",
+        "description": "You copy modest local paydata from movement records: recurring travelers, barter rhythms, guide-route pressure, and signs that somebody values who passes between the wastelands and the city. Tell the GM you recovered Cutoff traveler-pattern paydata.",
+        "choices": [
+          { "label": "Return to movement records", "to": "movement-records" },
+          { "label": "Log off with traveler paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "camera-gap-paydata",
+        "title": "Paydata: Camera Gap Notes",
+        "kind": "paydata",
+        "description": "You copy notes on camera gaps, suspicious blank windows, repeat visitors, and places where the Cutoff sees less than its public confidence suggests. Tell the GM you recovered Cutoff camera-gap paydata.",
+        "choices": [
+          { "label": "Return to camera network", "to": "camera-network" },
+          { "label": "Log off with camera paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "maintainer-irregularities-paydata",
+        "title": "Paydata: Maintainer Irregularities",
+        "kind": "paydata",
+        "description": "You copy circumstantial paydata: unexplained payment marks, inconsistent repeater logs, and file tags that suggest the host maintainer is hiding an outside relationship even if you have not cracked the dead drop yet. Tell the GM you recovered maintainer-irregularity paydata.",
+        "choices": [
+          { "label": "Return to buried maintainer ledger", "to": "maintainer-ledger" },
+          { "label": "Log off with maintainer paydata", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "corp-dead-drop-paydata",
+        "title": "Paydata: Corporate Dead-Drop Proof",
+        "kind": "paydata",
+        "description": "You package proof of corporate intelligence feeding: payment tokens, transmission windows, categories of citizens tracked, and sanitized packets meant for local corporate buyers. Tell the GM this is sensitive proof and ask how much is portable, admissible, or dangerous to sell.",
+        "report": {
+          "include": "always",
+          "title": "Corporate dead-drop proof packaged",
+          "detail": "Mevin packaged proof from the Cutoff corporate dead drop. GM determines portability, value, recipients, and whether selling it endangers exposed citizens.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to corporate intel cache", "to": "corporate-intel-cache" },
+          { "label": "Log off with corporate proof", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Clean Exit to the Mountain Grid",
+        "kind": "exit",
+        "description": "The hand-painted signs and CB static fall behind you. If you only used the public board, nothing in the Cutoff host required a roll or intrusion. If you reached private systems, tell the GM what access, paydata, permanent changes, or unresolved security pressure remains.",
+        "choices": []
+      }
+    ]
+  }
+}
