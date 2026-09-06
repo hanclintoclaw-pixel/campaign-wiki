@@ -68,6 +68,7 @@ class Report:
     outcome: str = ""
     result: str = ""
     rigger_note: str = ""
+    milestone_sheet_change: str = ""
 
     @property
     def legacy_tutorial_number(self) -> int | None:
@@ -88,6 +89,11 @@ def extract_field(text: str, label: str) -> str:
     if not match:
         raise IngestError(f"Missing required field: {label}")
     return match.group(1).strip()
+
+
+def optional_field(text: str, label: str) -> str:
+    match = re.search(rf"^{re.escape(label)}:\s*(.+)$", text, flags=re.IGNORECASE | re.MULTILINE)
+    return match.group(1).strip() if match else ""
 
 
 def parse_nuyen_delta(raw: str) -> int:
@@ -192,9 +198,8 @@ def parse_morning_garage_report(text: str) -> Report:
         raise IngestError(f"Only successful Morning Garage reports can be auto-ingested; got outcome {outcome!r}.")
 
     result = extract_field(text, "Result")
-    nuyen_delta = parse_nuyen_delta(extract_field(text, "Nuyen delta"))
-    if abs(nuyen_delta) > SAFE_DELTA_LIMIT:
-        raise IngestError(f"Nuyen delta {nuyen_delta:+d}¥ exceeds routine auto-ingest limit of {SAFE_DELTA_LIMIT}¥.")
+    nuyen_raw = extract_field(text, "Nuyen delta")
+    nuyen_delta = parse_nuyen_delta(nuyen_raw)
 
     quality_score = int(extract_field(text, "Quality delta").replace("+", "").strip())
     rigger_note = extract_field(text, "Rigger note")
@@ -202,8 +207,18 @@ def parse_morning_garage_report(text: str) -> Report:
     if "apply the nuyen delta" not in ingest_note.lower() or "record the explicit player choice" not in ingest_note.lower():
         raise IngestError("Morning Garage ingest note does not authorize the routine nuyen and continuity updates.")
 
-    sheet_change = extract_field(text, "Sheet change")
-    if "no permanent" not in sheet_change.lower():
+    sheet_change = optional_field(text, "Sheet change")
+    milestone_sheet_change = optional_field(text, "Milestone sheet change")
+    if milestone_sheet_change:
+        milestone_lower = milestone_sheet_change.lower()
+        if (
+            "recovered gear" not in milestone_lower
+            or "project complete" not in milestone_lower
+            or "installation remains" not in milestone_lower
+            or "gm-approved" not in milestone_lower
+        ):
+            raise IngestError("Morning Garage milestone sheet change is not a conservative recovered-gear closeout.")
+    elif "no permanent" not in sheet_change.lower():
         raise IngestError("Morning Garage sheet change does not explicitly block permanent changes.")
 
     day_match = re.search(r"\bday\s+(\d+)\s*/\s*(\d+)\b", project_track, flags=re.IGNORECASE)
@@ -211,6 +226,14 @@ def parse_morning_garage_report(text: str) -> Report:
         raise IngestError(f"Could not parse Morning Garage project day from: {project_track!r}")
     day_number = int(day_match.group(1))
     total_days = int(day_match.group(2))
+    if abs(nuyen_delta) > SAFE_DELTA_LIMIT and not (
+        milestone_sheet_change
+        and "gm-permitted" in nuyen_raw.lower()
+        and day_number == total_days
+        and "milestone" in work_order.lower()
+    ):
+        raise IngestError(f"Nuyen delta {nuyen_delta:+d}¥ exceeds routine auto-ingest limit of {SAFE_DELTA_LIMIT}¥.")
+
     job = f"Morning Garage Advanced Drone Pilot retrieval Day {day_number}: {work_order}"
     return Report(
         kind="morning_garage",
@@ -231,6 +254,7 @@ def parse_morning_garage_report(text: str) -> Report:
         outcome=outcome,
         result=result,
         rigger_note=rigger_note,
+        milestone_sheet_change=milestone_sheet_change,
     )
 
 
@@ -279,6 +303,11 @@ def completed_work_order_line(report: Report, day: date) -> str:
         choice = report.player_choice[:1].lower() + report.player_choice[1:]
         result = re.sub(r"^Curtis\s+", "", report.result).rstrip(".")
         result = result[:1].lower() + result[1:]
+        closeout = (
+            f"Milestone sheet change accepted: {report.milestone_sheet_change.rstrip('.')}"
+            if report.milestone_sheet_change
+            else "No permanent gear, drone, vehicle, combat, or stat change applies today unless the GM separately approves it."
+        )
         return (
             f"- **{day.isoformat()} — {report.job}**: Curtis completed the "
             f"{report.project_track} work order as a {report.outcome.lower()}. Final report logged "
@@ -286,7 +315,7 @@ def completed_work_order_line(report: Report, day: date) -> str:
             f"**Quality {format_yen(report.quality_score, signed=True).removesuffix('¥')}** after choosing "
             f"{choice} and rolling **{report.roll}**. Result: {report.result.rstrip('.')}. "
             f"Follow-up note: {report.rigger_note} "
-            "No permanent gear, drone, vehicle, combat, or stat change applies today unless the GM separately approves it."
+            f"{closeout}."
         )
 
     work = sentence_join(report.work_notes)
@@ -417,6 +446,44 @@ def update_current_nuyen_ledger(text: str, report: Report, day: date) -> str:
     return new_text
 
 
+def update_morning_garage_milestone(text: str, report: Report, day: date) -> str:
+    if report.kind != "morning_garage" or not report.milestone_sheet_change:
+        return text
+
+    result = text
+    gear_old = (
+        "**1 recovered Advanced Drone Pilot Rating 2** passed sandbox testing on 2026-08-25 and was stored cleanly "
+        "in a labeled protected box on 2026-08-26, but is not installed in any drone unless the GM separately approves installation."
+    )
+    gear_new = (
+        "**2 recovered Advanced Drone Pilot Rating 2 units**: #1 passed sandbox testing on 2026-08-25 and was stored "
+        "cleanly in a labeled protected box on 2026-08-26; #2 passed cleanly on "
+        f"{day.isoformat()} and closed the 24-day retrieval project. Neither pilot is installed in any drone unless "
+        "the GM separately approves installation."
+    )
+    result = replace_once(result, gear_old, gear_new)
+
+    asset_marker = (
+        "- Advanced Drone Pilot Rating 2 #1 — recovered gear; passed Curtis's sandbox acceptance test on 2026-08-25, "
+        "stored cleanly in a labeled protected box on 2026-08-26, and not installed in any drone unless the GM "
+        "separately approves installation."
+    )
+    asset_addition = (
+        f"{asset_marker}\n"
+        f"- Advanced Drone Pilot Rating 2 #2 — recovered gear; passed Curtis's clean closeout test on {day.isoformat()}, "
+        "completed the 24-day retrieval project, and is not installed in any drone unless the GM separately approves installation."
+    )
+    result = replace_once(result, asset_marker, asset_addition)
+
+    projects_marker = "- [Dolphin and Hurricane Seal Habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) — finished habitat for Core 7 and his seal friends at Taco's compound, with storm-proofed water, Matrix monitor feeds, maintenance access, and covert-relocation constraints preserved."
+    project_line = (
+        f"- Advanced Drone Pilot retrieval — completed on {day.isoformat()} as a 24-day Morning Garage project; Curtis "
+        "recovered two Advanced Drone Pilot Rating 2 units as gear, with installation remaining a separate GM-approved step."
+    )
+    result = replace_once(result, projects_marker, f"{projects_marker}\n{project_line}")
+    return result
+
+
 def report_already_recorded(text: str, report: Report) -> bool:
     if report.job in text:
         return True
@@ -433,6 +500,7 @@ def update_curtis(report: Report, day: date) -> bool:
         return False
 
     text = update_funds_note(text, report, day)
+    text = update_morning_garage_milestone(text, report, day)
     marker = "## Relevant Sessions"
     line = completed_work_order_line(report, day)
     text = replace_once(text, marker, f"{line}\n\n{marker}")
