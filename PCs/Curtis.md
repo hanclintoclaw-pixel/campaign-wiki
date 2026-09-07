@@ -47,6 +47,7 @@ sources:
   - Curtis Morning Garage Advanced Drone Pilot retrieval Day 21 report, 2026-09-02
   - ../Sessions/2026-08-27.md
   - ../Sessions/2026-09-03.md
+  - Discord GM approval for Pilot 2 brain installs, 2026-09-07
 ---
 
 # Curtis
@@ -132,7 +133,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
 - Current tracked Karma: **14 Karma** after the 2026-08-13 session award.
 - Current tracked nuyen: **6,503.33¥**, before any GM-confirmed scorpion-drone recovery project costs.
-- Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16; **Backpack Arms rig** finalized 2026-08-05 for conservative light tool work only; **2 recovered Advanced Drone Pilot Rating 2 units**: #1 passed sandbox testing on 2026-08-25 and was stored cleanly in a labeled protected box on 2026-08-26; #2 passed cleanly on 2026-09-06 and closed the 24-day retrieval project. Neither pilot is installed in any drone unless the GM separately approves installation.
+- Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16; **Backpack Arms rig** finalized 2026-08-05 for conservative light tool work only; **2 recovered Advanced Drone Pilot Rating 2 units** from the Pixel Sticks scorpion-drone salvage project were installed with GM approval on 2026-09-07: one in **Grandpa** and one in **The Finisher**.
 - He finished the [dolphin and hurricane seal habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) for **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
 - During the 2066-05-09 interlude, Curtis backed Kurgan on the **Righteous Haze** job, using **Grandpa** as the lure/extraction vehicle.
