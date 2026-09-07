@@ -44,6 +44,31 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 - **Flood ballast kit:** removable low-slung ballast package with baffled underfloor water-ballast tanks, locking steel ballast trays, frame brackets, fill indicators, and automatic dump valves. Cost paid by Curtis: **3,200¥**. Installed by Curtis in **18 hours** on 2026-07-16: Car B/R 3 vs TN 4 scored 1 success for 16 hours of tanks/brackets work, and Electronics 6 vs TN 4 scored 2 successes for 2 hours of indicator/dump-valve work. When filled, the kit adds about **1,500 kg** of low-mounted ballast for floodwater crossings. Table effect: **-1 TN** to resist being shoved/swept by moving water, but **+1 TN** to tight maneuvering/recovery tests while filled; drain afterward to return to normal driving posture.
 - **Advanced Drone Pilot Rating 2 brain:** recovered from the Pixel Sticks scorpion-drone salvage project and installed by Curtis on 2026-09-07. Install rolls: Car B/R 3 vs TN 4 scored 1 success, Electronics 6 vs TN 5 scored 2 successes, and Car 4 road/autonav shakedown vs TN 4 scored 2 successes. Grandpa passes controlled shakedown; autonomous use remains conservative and command-limited unless the GM expands it.
 
+## Pilot 2 House Rules / Command Limits
+
+Grandpa's Pilot 2 brain is a conservative driving assistant and mobile-base caretaker, not a true independent tactical actor. It can follow simple, pre-authorized commands when Curtis is not actively rigging or directly driving, but it does not improvise combat plans, perform illegal chase maneuvers, choose targets, or override crew safety without explicit Curtis or GM authorization.
+
+Allowed autonomous commands:
+
+- **Hold position / keep engine ready**
+- **Follow this vehicle at safe distance**
+- **Drive to a known waypoint by normal roads**
+- **Circle the block / reposition nearby**
+- **Maintain stealthy parked profile**
+- **Open, close, lock, or unlock approved vehicle systems**
+- **Manage onboard cameras, lights, paint pattern, comms relay, and basic alerts**
+- **Emergency extraction only if crew is incapacitated or Curtis pre-authorized it**
+
+Limits:
+
+- No ramming, vehicular combat, pursuit tricks, or high-risk stunts unless Curtis is jumped in, remote-controlling, or the GM calls for a specific test.
+- No firing weapons or deploying offensive systems unless separately installed and explicitly authorized.
+- No spoofing police/emergency credentials on its own.
+- No abandoning crew unless Curtis gave a clear priority order.
+- If orders conflict, Grandpa prioritizes: **crew survival > keeping Curtis alive > avoiding public heat > preserving the vehicle > completing the route**.
+
+Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extraction readiness, and mobile-base management. It should make Curtis feel prepared, not replace Curtis's rigger spotlight.
+
 ## Core Notes
 
 - **2026-07-24 Drone Shift:** Curtis completed the **Grandpa's Glovebox Ground Hum** work order as break-even maintenance, quieting the dash-cam / glovebox-light speaker hum with a cleaned salvage ground strap. The thrift-fit repair leaves **accessory-load test TN +1** for future related work-order checks only; it is not a permanent Grandpa stat change unless the GM confirms it.
