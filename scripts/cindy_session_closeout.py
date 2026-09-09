@@ -55,6 +55,11 @@ AUTHENTIC_RE = re.compile(
     r"matrix|spell|combat|initiative|legwork|stakeout|contact|npc|shadowrun)\b",
     re.IGNORECASE,
 )
+SESSION_CLOSEOUT_INTENT_RE = re.compile(
+    r"\b(?:summari[sz]e|recap|close\s*out|closeout|ingest|wiki\s*update|session\s*update|"
+    r"update\s*(?:the\s*)?wiki|last\s*night|yesterday|latest\s*(?:game|session)|after\s*session)\b",
+    re.IGNORECASE,
+)
 
 
 def parse_timestamp(value: Any) -> datetime | None:
@@ -83,6 +88,10 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
     return rows
 
 
+def row_text(row: dict[str, Any]) -> str:
+    return str(row.get("text") or row.get("content") or "")
+
+
 def read_text_if_exists(path: Path, max_chars: int) -> str:
     if not path.exists():
         return ""
@@ -92,6 +101,21 @@ def read_text_if_exists(path: Path, max_chars: int) -> str:
     return text[:max_chars].rstrip() + "\n\n[truncated]"
 
 
+def read_markdown_context(path: Path, max_chars: int, *, tail_chars: int = 3500) -> str:
+    if not path.exists():
+        return ""
+    text = path.read_text(encoding="utf-8")
+    if len(text) <= max_chars:
+        return text
+    tail_budget = min(tail_chars, max(1000, max_chars // 3))
+    head_budget = max_chars - tail_budget
+    return (
+        text[:head_budget].rstrip()
+        + "\n\n[truncated middle; preserving latest/lower-page context]\n\n"
+        + text[-tail_budget:].lstrip()
+    )
+
+
 def first_existing_live_session_dir() -> Path:
     for candidate in DEFAULT_LIVE_SESSION_CANDIDATES:
         if candidate and candidate.exists():
@@ -99,41 +123,133 @@ def first_existing_live_session_dir() -> Path:
     raise FileNotFoundError("No live-session directory found; pass --session-dir or --transcript")
 
 
-def latest_archived_session(live_session_dir: Path) -> Path:
+def transcript_authenticity(
+    rows: list[dict[str, Any]],
+    *,
+    min_rows: int,
+    min_hits: int,
+    min_duration_s: int,
+) -> dict[str, Any]:
+    timestamps = [ts for ts in (parse_timestamp(row.get("timestamp")) for row in rows) if ts]
+    text_rows = [row for row in rows if row_text(row).strip()]
+    authentic_hits = sum(1 for row in text_rows if AUTHENTIC_RE.search(row_text(row)))
+    duration_s = 0
+    if timestamps:
+        duration_s = int(max(0.0, (max(timestamps) - min(timestamps)).total_seconds()))
+
+    has_rows = len(text_rows) >= min_rows
+    has_hits = authentic_hits >= min_hits
+    has_duration = duration_s >= min_duration_s if timestamps else True
+    dense_hits = authentic_hits >= max(min_hits * 2, 10) and len(text_rows) >= max(12, min_rows // 3)
+
+    if (has_rows and has_hits and has_duration) or dense_hits:
+        verdict = "authentic"
+    elif has_hits or (has_rows and authentic_hits >= max(2, min_hits // 2)):
+        verdict = "provisional"
+    else:
+        verdict = "not_authentic"
+    return {
+        "verdict": verdict,
+        "text_rows": len(text_rows),
+        "authentic_hits": authentic_hits,
+        "duration_s": duration_s,
+        "has_timestamps": bool(timestamps),
+        "min_rows": min_rows,
+        "min_hits": min_hits,
+        "min_duration_s": min_duration_s,
+    }
+
+
+def candidate_session_score(info: dict[str, Any]) -> tuple[int, int, int, float]:
+    auth = info.get("authenticity", {})
+    verdict_rank = {"authentic": 2, "provisional": 1, "not_authentic": 0}.get(str(auth.get("verdict")), 0)
+    return (
+        verdict_rank,
+        int(auth.get("authentic_hits", 0) or 0),
+        int(auth.get("text_rows", 0) or 0),
+        float(info.get("mtime", 0.0) or 0.0),
+    )
+
+
+def archived_session_candidates(live_session_dir: Path, args: argparse.Namespace) -> list[dict[str, Any]]:
     sessions_dir = live_session_dir / "sessions"
     if not sessions_dir.exists():
         raise FileNotFoundError(f"No archived sessions directory found at {sessions_dir}")
-    candidates = [path for path in sessions_dir.iterdir() if (path / "transcript.jsonl").exists()]
-    if not candidates:
+    paths = [path for path in sessions_dir.iterdir() if (path / "transcript.jsonl").exists()]
+    if not paths:
         raise FileNotFoundError(f"No archived session transcript found under {sessions_dir}")
-    return max(candidates, key=lambda path: (path / "transcript.jsonl").stat().st_mtime).resolve()
+    cutoff = datetime.now().timestamp() - max(1, int(args.source_window_hours * 3600))
+    candidates: list[dict[str, Any]] = []
+    for path in paths:
+        transcript = path / "transcript.jsonl"
+        mtime = transcript.stat().st_mtime
+        if args.source_window_hours > 0 and mtime < cutoff:
+            continue
+        try:
+            rows = read_jsonl(transcript)
+            authenticity = transcript_authenticity(
+                rows,
+                min_rows=args.authentic_min_rows,
+                min_hits=args.authentic_min_hits,
+                min_duration_s=args.authentic_min_duration_s,
+            )
+        except Exception as exc:
+            authenticity = {
+                "verdict": "not_authentic",
+                "error": str(exc),
+                "text_rows": 0,
+                "authentic_hits": 0,
+                "duration_s": 0,
+            }
+        candidates.append({
+            "session_dir": path.resolve(),
+            "transcript_path": transcript.resolve(),
+            "mtime": mtime,
+            "authenticity": authenticity,
+        })
+    if not candidates and args.source_window_hours > 0:
+        original_window = args.source_window_hours
+        args.source_window_hours = 0
+        candidates = archived_session_candidates(live_session_dir, args)
+        for candidate in candidates:
+            candidate.setdefault("resolver_notes", []).append(f"no candidates found inside {original_window:g}h window; widened to all archives")
+    return sorted(candidates, key=candidate_session_score, reverse=True)
 
 
-def resolve_session(args: argparse.Namespace) -> tuple[Path, Path]:
+def resolve_session(args: argparse.Namespace) -> dict[str, Any]:
     if args.transcript:
         transcript = args.transcript.expanduser().resolve()
-        return transcript.parent, transcript
+        return {"session_dir": transcript.parent, "transcript_path": transcript, "resolver_notes": ["explicit transcript path"]}
     if args.session_dir:
         session_dir = args.session_dir.expanduser().resolve()
-        return session_dir, session_dir / "transcript.jsonl"
+        return {"session_dir": session_dir, "transcript_path": session_dir / "transcript.jsonl", "resolver_notes": ["explicit session directory"]}
     live_session_dir = first_existing_live_session_dir()
     if args.current:
-        return live_session_dir, live_session_dir / "transcript.jsonl"
-    session_dir = latest_archived_session(live_session_dir)
-    return session_dir, session_dir / "transcript.jsonl"
+        return {"session_dir": live_session_dir, "transcript_path": live_session_dir / "transcript.jsonl", "resolver_notes": ["current live-session transcript requested"]}
+    candidates = archived_session_candidates(live_session_dir, args)
+    selected = candidates[0]
+    notes = selected.setdefault("resolver_notes", [])
+    notes.extend([
+        f"selected best archived transcript from {len(candidates)} candidate(s)",
+        f"source window hours: {args.source_window_hours:g}",
+    ])
+    if selected["authenticity"].get("verdict") != "authentic":
+        notes.append("no fully authentic recent session candidate found; selected highest-scoring candidate for preservation/review")
+    selected["candidate_count"] = len(candidates)
+    return selected
 
 
 def display_line(row: dict[str, Any]) -> str:
     timestamp = str(row.get("timestamp") or "").strip()
     speaker = str(row.get("speaker") or row.get("author") or "Unknown").strip()
-    text = " ".join(str(row.get("text") or row.get("content") or "").split())
+    text = " ".join(row_text(row).split())
     return f"- {timestamp} | {speaker}: {text}"
 
 
 def matching_rows(rows: Iterable[dict[str, Any]], pattern: re.Pattern[str], limit: int) -> list[dict[str, Any]]:
     matches: list[dict[str, Any]] = []
     for row in rows:
-        text = str(row.get("text") or row.get("content") or "")
+        text = row_text(row)
         if pattern.search(text):
             matches.append(row)
     return matches[-limit:]
@@ -197,6 +313,23 @@ def render_lines(rows: Iterable[dict[str, Any]]) -> str:
     return "\n".join(lines) if lines else "- None found in transcript packet."
 
 
+def infer_intent(args: argparse.Namespace) -> dict[str, Any]:
+    phrase = " ".join(args.intent or []).strip()
+    recognized = bool(SESSION_CLOSEOUT_INTENT_RE.search(phrase)) if phrase else True
+    lowered = phrase.lower()
+    if phrase and not any([args.current, args.session_dir, args.transcript]):
+        if any(token in lowered for token in ["current", "live", "right now", "ongoing"]):
+            args.current = True
+    if phrase and any(token in lowered for token in ["preview", "show packet", "print packet"]):
+        args.print = True
+    return {
+        "phrase": phrase,
+        "recognized": recognized,
+        "source_hint": "current" if args.current else ("explicit" if args.session_dir or args.transcript else "latest-authentic-archive"),
+        "requested_operation": "wiki-closeout" if recognized else "unknown",
+    }
+
+
 def git(args: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
     return subprocess.run(
         ["git", *args],
@@ -224,7 +357,10 @@ def require_clean_worktree(allow_dirty: bool) -> None:
 
 
 def build_packet(args: argparse.Namespace) -> dict[str, Any]:
-    session_dir, transcript_path = resolve_session(args)
+    intent = infer_intent(args)
+    resolved = resolve_session(args)
+    session_dir = resolved["session_dir"]
+    transcript_path = resolved["transcript_path"]
     if not transcript_path.exists():
         raise FileNotFoundError(f"Transcript not found: {transcript_path}")
 
@@ -234,8 +370,14 @@ def build_packet(args: argparse.Namespace) -> dict[str, Any]:
 
     timestamps = [ts for ts in (parse_timestamp(row.get("timestamp")) for row in rows) if ts]
     speakers = Counter(str(row.get("speaker") or row.get("author") or "Unknown").strip() for row in rows)
-    text_rows = [row for row in rows if str(row.get("text") or row.get("content") or "").strip()]
-    authentic_hits = sum(1 for row in text_rows if AUTHENTIC_RE.search(str(row.get("text") or row.get("content") or "")))
+    text_rows = [row for row in rows if row_text(row).strip()]
+    authenticity = transcript_authenticity(
+        rows,
+        min_rows=args.authentic_min_rows,
+        min_hits=args.authentic_min_hits,
+        min_duration_s=args.authentic_min_duration_s,
+    )
+    authentic_hits = int(authenticity.get("authentic_hits", 0) or 0)
     session_date = infer_session_date(rows, session_dir)
     session_id = session_dir.name
     first_ts = min(timestamps).isoformat() if timestamps else "unknown"
@@ -257,11 +399,23 @@ def build_packet(args: argparse.Namespace) -> dict[str, Any]:
     marker_text = "\n".join(markers) if markers else "- None found."
     thread_text = ", ".join(thread_ids) if thread_ids else "unknown"
     channel_text = ", ".join(channel_ids) if channel_ids else "unknown"
+    resolver_text = "\n".join(f"- {note}" for note in resolved.get("resolver_notes", [])) or "- None."
+    authenticity_verdict = str(authenticity.get("verdict") or "unknown")
+    clarification_flags = []
+    if not date_rows:
+        clarification_flags.append("in-world date/time not found in evidence packet")
+    if not reward_rows:
+        clarification_flags.append("final rewards/ledger changes not found in evidence packet")
+    if authenticity_verdict != "authentic":
+        clarification_flags.append(f"transcript authenticity is {authenticity_verdict}")
+    clarification_text = "\n".join(f"- {flag}" for flag in clarification_flags) if clarification_flags else "- None from deterministic preflight."
 
     packet = f"""# Cindy session closeout packet: {session_id}
 
 ## Deterministic source facts
 
+- Invoked intent phrase: `{intent['phrase'] or 'default closeout'}`
+- Intent recognized as closeout: {intent['recognized']}
 - Session id: `{session_id}`
 - Transcript: `{transcript_path}`
 - Transcript rows: {len(rows)} total / {len(text_rows)} with text
@@ -269,9 +423,19 @@ def build_packet(args: argparse.Namespace) -> dict[str, Any]:
 - Last transcript timestamp / likely stopped-at time: {last_ts}
 - Discord channel ids: {channel_text}
 - Discord thread ids: {thread_text}
+- Authentic-session verdict: {authenticity_verdict}
 - Authentic-session signal rows: {authentic_hits}
+- Transcript duration seconds: {authenticity.get('duration_s', 0)}
 - Candidate wiki session page: `Sessions/{session_date}.md`
 - Closeout packet path: `{out_path}`
+
+## Source resolver notes
+
+{resolver_text}
+
+## Preflight clarification flags
+
+{clarification_text}
 
 ## Attendance evidence
 
@@ -331,13 +495,19 @@ This is only for orientation. Prefer the evidence sections above, then inspect t
 {render_lines(sampled_rows)}
 """
     return {
+        "intent": intent,
         "session_dir": session_dir,
         "transcript_path": transcript_path,
         "session_id": session_id,
         "session_date": session_date,
         "first_timestamp": first_ts,
         "last_timestamp": last_ts,
+        "rows": len(rows),
+        "text_rows": len(text_rows),
+        "authenticity": authenticity,
         "authentic_hits": authentic_hits,
+        "clarification_flags": clarification_flags,
+        "resolver_notes": resolved.get("resolver_notes", []),
         "packet": packet,
         "out_dir": out_dir,
         "packet_path": out_path,
@@ -346,11 +516,11 @@ This is only for orientation. Prefer the evidence sections above, then inspect t
 
 def build_wiki_context(session_date: str) -> str:
     session_path = REPO_ROOT / "Sessions" / f"{session_date}.md"
-    existing_session = read_text_if_exists(session_path, 8000)
-    current_state = read_text_if_exists(REPO_ROOT / "Current-State.md", 9000)
-    index_page = read_text_if_exists(REPO_ROOT / "index.md", 5000)
-    chronology = read_text_if_exists(REPO_ROOT / "Timeline" / "Session-Chronology.md", 10000)
-    clues = read_text_if_exists(REPO_ROOT / "Clues" / "README.md", 10000)
+    existing_session = read_markdown_context(session_path, 8000)
+    current_state = read_markdown_context(REPO_ROOT / "Current-State.md", 9000)
+    index_page = read_markdown_context(REPO_ROOT / "index.md", 5000)
+    chronology = read_markdown_context(REPO_ROOT / "Timeline" / "Session-Chronology.md", 10000)
+    clues = read_markdown_context(REPO_ROOT / "Clues" / "README.md", 10000)
     template = read_text_if_exists(REPO_ROOT / "meta" / "TEMPLATE.session.md", 4000)
     path_list = "\n".join(f"- `{path}`" for path in REQUIRED_SWEEP_PATHS)
     existing_text = existing_session or "No existing candidate session page found. Create it if the transcript is authentic."
@@ -398,27 +568,30 @@ def build_wiki_context(session_date: str) -> str:
 """
 
 
-def build_agent_prompt(packet_path: Path, wiki_context_path: Path, manifest_path: Path, session_date: str) -> str:
+def build_agent_prompt(packet_path: Path, wiki_context_path: Path, manifest_path: Path, facts_path: Path, plan_path: Path, session_date: str) -> str:
     return f"""You are running Cindy Lou's local post-session closeout workflow inside the campaign-wiki repository.
 
 Objective: summarize the session transcript and perform the full player-safe wiki closeout while minimizing broad context reads.
 
 Start with these local files:
 - Closeout evidence packet: `{packet_path}`
+- Structured facts: `{facts_path}`
+- Workflow plan/contract: `{plan_path}`
 - Compact wiki context: `{wiki_context_path}`
 - Run manifest/checklist: `{manifest_path}`
 
 Required behavior:
-1. Read the closeout packet first. Use its evidence sections before opening the full transcript.
+1. Read the closeout packet, structured facts, and workflow plan first. Use their evidence sections before opening the full transcript.
 2. Use the transcript path from the packet for targeted follow-up searches only when the packet is insufficient.
-3. Infer in-world date/time, rewards/ledgers, and stopped-at time from transcript evidence first. Ask the GM only when evidence is absent or contradictory.
-4. Create or update `Sessions/{session_date}.md` with Summary, Major Scenes, NPCs Introduced / In Play, Clues Gained, Decisions Made, Rewards / Ledgers, Changes to Campaign State, Open Threads, and Sources.
-5. Create new pages for newly introduced NPCs, PCs, locations, factions, organizations, arcs, vehicles, Matrix hosts, or other durable entities that need wiki records. Update existing PC/NPC/location/faction/org/arc records when the transcript changes their state.
-6. Update cross-links and relevant indexes so the new pages are reachable.
-7. Update `index.md` Current Situation, `Current-State.md`, `Timeline/Session-Chronology.md`, and `Clues/README.md` if the session changes them. If one is unchanged, leave a clear reason in the final report.
-8. Keep public pages player-safe. Do not publish GM-only marker content unless the GM explicitly marked it public-safe.
-9. Preserve uncertainty honestly: provisional canon status is better than confident wrong canon.
-10. Run available repository checks such as `git diff --check`; do not invent new build tooling.
+3. If structured facts say authenticity is not `authentic`, stop with `no authentic session found` or `needs GM clarification` unless the GM explicitly approved provisional ingest.
+4. Infer in-world date/time, rewards/ledgers, and stopped-at time from transcript evidence first. Ask the GM only when evidence is absent or contradictory.
+5. Create or update `Sessions/{session_date}.md` with Summary, Major Scenes, NPCs Introduced / In Play, Clues Gained, Decisions Made, Rewards / Ledgers, Changes to Campaign State, Open Threads, and Sources.
+6. Create new pages for newly introduced NPCs, PCs, locations, factions, organizations, arcs, vehicles, Matrix hosts, or other durable entities that need wiki records. Update existing PC/NPC/location/faction/org/arc records when the transcript changes their state.
+7. Update cross-links and relevant indexes so the new pages are reachable.
+8. Update `index.md` Current Situation, `Current-State.md`, `Timeline/Session-Chronology.md`, and `Clues/README.md` if the session changes them. If one is unchanged, leave a clear reason in the final report.
+9. Keep public pages player-safe. Do not publish GM-only marker content unless the GM explicitly marked it public-safe.
+10. Preserve uncertainty honestly: provisional canon status is better than confident wrong canon.
+11. Run available repository checks such as `git diff --check`; do not invent new build tooling.
 
 Do not stop after drafting a summary. The expected output is the wiki mutation itself plus a concise final report with exactly one closeout outcome: publish-ready ingest, draft/provisional ingest, needs GM clarification, or no authentic session found.
 """
@@ -430,22 +603,95 @@ def write_workspace(packet_info: dict[str, Any]) -> dict[str, Path]:
     wiki_context_path = out_dir / "wiki-context.md"
     prompt_path = out_dir / "agent-prompt.md"
     manifest_path = out_dir / "manifest.json"
+    facts_path = out_dir / "closeout-facts.json"
+    plan_path = out_dir / "closeout-plan.json"
 
     out_dir.mkdir(parents=True, exist_ok=True)
     packet_path.write_text(packet_info["packet"], encoding="utf-8")
     wiki_context_path.write_text(build_wiki_context(packet_info["session_date"]), encoding="utf-8")
+    source_artifacts = {
+        "event_ledger": str(packet_info["session_dir"] / "event-ledger.jsonl"),
+        "scene_scratchpad": str(packet_info["session_dir"] / "scene-scratchpad.json"),
+        "prompt_view": str(packet_info["session_dir"] / "prompt-view.json"),
+        "recent_delta": str(packet_info["session_dir"] / "recent-delta.json"),
+        "gm_markers": str(packet_info["session_dir"] / "gm-control-panel-markers.jsonl"),
+    }
+    facts = {
+        "schema": "cindylou.session-closeout-facts/v1",
+        "intent": packet_info["intent"],
+        "session_id": packet_info["session_id"],
+        "session_date": packet_info["session_date"],
+        "first_timestamp": packet_info["first_timestamp"],
+        "last_timestamp": packet_info["last_timestamp"],
+        "transcript_path": str(packet_info["transcript_path"]),
+        "row_counts": {
+            "total": packet_info["rows"],
+            "text": packet_info["text_rows"],
+        },
+        "authenticity": packet_info["authenticity"],
+        "resolver_notes": packet_info["resolver_notes"],
+        "clarification_flags": packet_info["clarification_flags"],
+        "source_artifacts": {
+            name: {"path": path, "exists": Path(path).exists()}
+            for name, path in source_artifacts.items()
+        },
+        "candidate_public_outputs": {
+            "session_page": f"Sessions/{packet_info['session_date']}.md",
+            "front_page": "index.md",
+            "current_state": "Current-State.md",
+            "chronology": "Timeline/Session-Chronology.md",
+            "lead_board": "Clues/README.md",
+        },
+    }
+    facts_path.write_text(json.dumps(facts, indent=2) + "\n", encoding="utf-8")
+
+    plan = {
+        "schema": "cindylou.session-closeout-plan/v1",
+        "outcome_contract": [
+            "publish-ready ingest",
+            "draft/provisional ingest",
+            "needs GM clarification",
+            "no authentic session found",
+        ],
+        "phases": [
+            "preflight/authenticate",
+            "extract structured facts",
+            "draft or update session page",
+            "sweep current situation/current state/chronology/lead board",
+            "update changed entity pages and indexes",
+            "validate public safety, links, and required sections",
+        ],
+        "model_context_order": [
+            str(prompt_path),
+            str(packet_path),
+            str(facts_path),
+            str(plan_path),
+            str(wiki_context_path),
+            "targeted transcript/source artifact lookups only when needed",
+        ],
+        "hard_stops": [
+            "Do not publish if authenticity.verdict is not authentic unless GM explicitly approves provisional ingest.",
+            "Do not publish GM-only marker text to player-visible pages.",
+            "Do not invent date, rewards, or ledger outcomes when transcript evidence is absent.",
+        ],
+    }
+    plan_path.write_text(json.dumps(plan, indent=2) + "\n", encoding="utf-8")
 
     manifest = {
-        "schema": "cindylou.session-closeout/v1",
+        "schema": "cindylou.session-closeout/v2",
         "session_id": packet_info["session_id"],
         "session_date": packet_info["session_date"],
         "repo_root": str(REPO_ROOT),
         "session_dir": str(packet_info["session_dir"]),
         "transcript_path": str(packet_info["transcript_path"]),
         "packet_path": str(packet_path),
+        "facts_path": str(facts_path),
+        "plan_path": str(plan_path),
         "wiki_context_path": str(wiki_context_path),
         "prompt_path": str(prompt_path),
         "candidate_session_page": f"Sessions/{packet_info['session_date']}.md",
+        "authenticity": packet_info["authenticity"],
+        "clarification_flags": packet_info["clarification_flags"],
         "required_sweep_paths": REQUIRED_SWEEP_PATHS,
         "acceptance": [
             "session page created or updated",
@@ -459,10 +705,17 @@ def write_workspace(packet_info: dict[str, Any]) -> dict[str, Path]:
     }
     manifest_path.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
     prompt_path.write_text(
-        build_agent_prompt(packet_path, wiki_context_path, manifest_path, packet_info["session_date"]),
+        build_agent_prompt(packet_path, wiki_context_path, manifest_path, facts_path, plan_path, packet_info["session_date"]),
         encoding="utf-8",
     )
-    return {"packet": packet_path, "wiki_context": wiki_context_path, "prompt": prompt_path, "manifest": manifest_path}
+    return {
+        "packet": packet_path,
+        "wiki_context": wiki_context_path,
+        "prompt": prompt_path,
+        "manifest": manifest_path,
+        "facts": facts_path,
+        "plan": plan_path,
+    }
 
 
 def run_agent(command: str, prompt_path: Path, log_path: Path) -> None:
@@ -507,7 +760,23 @@ def validate_closeout(session_date: str) -> list[str]:
 def commit_and_push(args: argparse.Namespace, session_date: str) -> None:
     if not args.commit and not args.push:
         return
-    git(["add", "-A"])
+    allowed_paths = [
+        "Sessions",
+        "index.md",
+        "Current-State.md",
+        "Timeline",
+        "Clues",
+        "Arcs",
+        "NPCs",
+        "PCs",
+        "Locations",
+        "Factions",
+        "Organizations",
+        "Vehicles",
+        "Tech",
+        "Documentation",
+    ]
+    git(["add", "--", *[path for path in allowed_paths if (REPO_ROOT / path).exists()]])
     if args.commit:
         message = args.commit_message or f"Close out session {session_date}"
         git(["commit", "-m", message, "-m", "Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>"])
@@ -523,11 +792,17 @@ def main() -> None:
     source.add_argument("--session-dir", type=Path, help="Archived live-session directory containing transcript.jsonl")
     source.add_argument("--transcript", type=Path, help="Specific transcript.jsonl path")
     source.add_argument("--current", action="store_true", help="Use the current live-session transcript instead of latest archive")
+    parser.add_argument("intent", nargs="*", help="Optional fuzzy request phrase, e.g. 'summarize last night' or 'update the wiki from the latest game'")
     parser.add_argument("--out-dir", type=Path, help="Directory for closeout-packet.md and run artifacts")
     parser.add_argument("--transcript-lines", type=int, default=70, help="Compact transcript sample line budget")
     parser.add_argument("--evidence-limit", type=int, default=18, help="Max evidence lines per evidence class")
     parser.add_argument("--tail-limit", type=int, default=12, help="Last transcript lines to include")
     parser.add_argument("--marker-limit", type=int, default=20, help="Max GM panel markers to include")
+    parser.add_argument("--source-window-hours", type=float, default=36, help="Recent archive window for fuzzy/latest session selection; 0 means all archives")
+    parser.add_argument("--authentic-min-rows", type=int, default=40, help="Minimum text transcript rows for a normal authentic-session verdict")
+    parser.add_argument("--authentic-min-hits", type=int, default=6, help="Minimum campaign-play keyword hits for a normal authentic-session verdict")
+    parser.add_argument("--authentic-min-duration-s", type=int, default=900, help="Minimum transcript duration for a normal authentic-session verdict when timestamps exist")
+    parser.add_argument("--allow-inauthentic", action="store_true", help="Allow mutating model runs even if deterministic preflight does not mark the transcript authentic")
     parser.add_argument("--print", action="store_true", help="Print the packet to stdout instead of writing artifacts")
     parser.add_argument("--run-agent", action="store_true", help="Run the configured local model/coding agent on the generated prompt")
     parser.add_argument("--agent-command", default=os.environ.get("CINDY_CLOSEOUT_AGENT"), help="Shell command for the local agent; stdin receives the prompt unless {prompt} is present")
@@ -542,12 +817,20 @@ def main() -> None:
         require_clean_worktree(args.allow_dirty)
 
     packet_info = build_packet(args)
+    auth_verdict = str(packet_info["authenticity"].get("verdict") or "unknown")
+    if mutating and auth_verdict != "authentic" and not args.allow_inauthentic:
+        raise RuntimeError(
+            f"Refusing mutating closeout because transcript authenticity is {auth_verdict}. "
+            "Review the generated packet or pass --allow-inauthentic for an explicit provisional run."
+        )
     if args.print and not mutating:
         print(packet_info["packet"])
         return
 
     paths = write_workspace(packet_info)
     print(f"wrote packet: {paths['packet']}")
+    print(f"wrote facts: {paths['facts']}")
+    print(f"wrote plan: {paths['plan']}")
     print(f"wrote prompt: {paths['prompt']}")
     print(f"wrote manifest: {paths['manifest']}")
 

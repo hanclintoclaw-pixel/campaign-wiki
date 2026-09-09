@@ -55,6 +55,7 @@ The system is therefore best described as **active support with GM approval**, n
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md) - sidecar alerting for stalled live transcription.
 - [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md) - evidence capture for raw audio, STT, prompts, model outputs, and TTS artifacts used to debug and tune live behavior.
 - [Cindy Lou Post-Session Automation](Post-Session-Automation.md) - local `scripts/cindy-session-closeout` packet builder plus end-of-session cleanup, memory, and wiki workflow.
+- [Cindy Lou Durable Session Closeout Contract](Durable-Session-Closeout-Contract.md) - persistent Skill Workshop process contract and fuzzy local command behavior for robust lower-token session summaries and wiki ingests.
 - [Cindy Lou Tooling Future Planning](Future-Planning.md) - future mini-tool and workflow ideas for shared table state, GM controls, session closeout, onboarding, and VTT companion aids.
 - [Cindy Lou Anti-LLM In-Character Voice Pass](Anti-LLM-In-Character-Voice.md) - prose-shaping rules for in-character Cindy text so she sounds less like a generic model and more like a specific SA-knowbot.
 

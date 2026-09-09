@@ -203,6 +203,7 @@ As the system grows, the next useful pages would likely be:
 - [Cindy Lou GM Control Panel](GM-Control-Panel.md)
 - [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
 - [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md)
+- [Cindy Lou Durable Session Closeout Contract](Durable-Session-Closeout-Contract.md)
 - [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)
 - [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_
