@@ -297,11 +297,11 @@ The status response includes:
 - whether stalling voice is enabled;
 - initial, repeat, and long-running delay settings;
 - maximum stalling phrase count;
-- acknowledgement phrases;
-- normal stalling phrases;
-- long-running stalling phrase.
+- acknowledgement-tier phrases;
+- working-tier phrases;
+- long-running fallback phrase.
 
-Stalling voice is a presence cue, not a replacement for the real answer. It only matters when the saved-voice/live-voice gates, voice connection, and prompt context allow it.
+Stalling voice is a presence cue, not a replacement for the real answer. It only matters when the saved-voice/live-voice gates, voice connection, and prompt context allow it. The automatic phrase catalog is intentionally restrained: short acknowledgements first, then context-aware rules/canon/Matrix working cues, then a quiet long-running cue if the model is still building the bespoke answer.
 
 ### `!voice-stalling-cache`
 

@@ -93,8 +93,9 @@ The live bridge can now play one or two very short stock phrases if Cindy has be
 
 Default timing:
 
-- first stalling cue after about **1.5 seconds**;
-- optional second cue after another **2.0 seconds**;
+- first stalling cue after about **1.2 seconds**;
+- optional second cue after another **2.8 seconds**;
+- long-running cue after another **5.5 seconds** if the answer is still not ready;
 - maximum **2 cues** per response;
 - final generated reply waits for any currently playing stalling cue to finish instead of cutting it off.
 
@@ -118,32 +119,46 @@ Environment/config gates:
 - `LIVE_VOICE_PLAY_ENABLED=true` - allows fresh generated replies to play into voice;
 - `CINDY_SAVED_VOICE_ENABLED=true` - allows saved/generated clips to be produced;
 - `CINDY_STALLING_VOICE_ENABLED=true` - enables the stalling-cue layer;
-- `CINDY_STALLING_VOICE_INITIAL_DELAY_S=1.5` - first-cue delay;
-- `CINDY_STALLING_VOICE_REPEAT_DELAY_S=2.0` - follow-up cue delay;
+- `CINDY_STALLING_VOICE_INITIAL_DELAY_S=1.2` - first-cue delay;
+- `CINDY_STALLING_VOICE_REPEAT_DELAY_S=2.8` - follow-up cue delay;
+- `CINDY_STALLING_VOICE_LONG_DELAY_S=5.5` - long-running cue delay after normal stall cues;
 - `CINDY_STALLING_VOICE_MAX_PHRASES=2` - maximum stalling cues per answer;
 - `CINDY_STALLING_VOICE_CACHE_DIR=/Volumes/carbonite/claw/data/cindylou/runtime/stalling-voice-clips` - optional cache override;
 - `LIVE_VOICE_SPOKEN_MAX_CHARS=220` - legacy/current cap retained for automatic spoken summaries when that path is enabled;
 - `KOKORO_WORKER_IDLE_TIMEOUT_S=7200` - keeps the worker warm for two hours after pre-warm/session end unless explicitly stopped.
 
-The initial stalling phrase pool is deliberately short and a little goofy:
+The automatic stalling phrase pool is now deliberately restrained. It is designed as audio UI, not comedy.
 
-- Thinking on that.
-- Hold on now.
-- Let me check.
-- One sec, sugar.
-- I'm looking.
-- Give me a beat.
-- Working it out.
-- Lemme trace that.
-- Reticulating splines.
-- Re-entabulating byte-code.
-- Jiggling the flux capacitor.
-- Consulting the rubber duck.
+Acknowledgement tier:
+
+- I hear you.
+- Got it.
+- On it.
+- One beat.
+- I'm checking.
+- Let me look.
+
+Working tier:
+
+- Checking that.
+- Looking close.
+- Running the numbers.
+- Checking the rules.
+- Tracing that.
+- Running a quiet trace.
+
+Long-running tier:
+
+- Still checking.
+- Still tracing that.
+- Give me another second.
+
+Context tags steer selection toward rules, canon/wiki, Matrix/decking, or general-purpose cues. Automatic stalling avoids recent repeats with per-phrase cooldown metadata. The older goofy lines should stay manual / GM-triggered only, not automatic latency masking.
 
 Implementation notes:
 
 - stalling clips are cached as WAV files before use;
-- phrase selection avoids repeating the most recent few stalling phrases;
+- phrase selection uses tier/context metadata and avoids repeating recent phrases;
 - the stalling layer only runs when saved voice, live voice playback, voice connection, and the stalling gate are all available;
 - prompts that explicitly request no voice still suppress saved/final voice generation and stalling cues.
 
