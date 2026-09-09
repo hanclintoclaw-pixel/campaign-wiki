@@ -3,7 +3,7 @@ title: Cindy Lou Discord Voice Bridge Commands
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-09-04
+updated: 2026-09-09
 parent_page: README.md
 tags: [cindy, discord, voice, commands, npc-tools]
 ---
@@ -403,6 +403,7 @@ The bridge also has wake behavior controlled by configuration rather than Discor
 - `LIVE_WAKE_CONTEXT_LIMIT` limits how many recent thread messages are added to live wake prompts.
 - `OPENCLAW_BRIDGE_TIMEOUT_S` and `OPENCLAW_BRIDGE_PROCESS_GRACE_S` cap the OpenClaw subprocess wait for live wake answers.
 - `KOKORO_WORKER_IDLE_TIMEOUT_S` controls how long the warm Kokoro worker stays alive after session end or pre-warm.
+- `SESSION_CAPTURE_ENABLED` and related `SESSION_CAPTURE_*` settings control whether raw audio, prompt contexts, model outputs, and TTS artifacts are preserved for replay/debugging.
 
 When active-thread wake is enabled, a transcript line or in-session text message that targets Cindy can be handled as a wake event without someone typing a `!` command. That path is separate from the command list above.
 
@@ -413,3 +414,4 @@ When active-thread wake is enabled, a transcript line or in-session text message
 - [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
+- [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md)

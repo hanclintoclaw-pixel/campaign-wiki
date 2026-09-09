@@ -3,7 +3,7 @@ title: Cindy Lou Tooling Future Planning
 type: planning
 visibility: player-safe
 status: future-planning
-updated: 2026-09-04
+updated: 2026-09-09
 tags: [cindy, tooling, minigames, workflow, future-planning, discord, vtt]
 sources:
   - Discord discussion 2026-09-04
@@ -14,6 +14,8 @@ sources:
 This page preserves future build ideas for the Nashville Shadowrun table's Cindy Lou tooling, mini-tools, and play workflow aids.
 
 The main design judgment from the 2026-09-04 discussion: the best next tools are not more autonomous advice. They are **shared table state, lower friction, GM-controlled affordances, and better continuity** across Discord voice, the virtual tabletop, the wiki, and player-facing web apps.
+
+As of 2026-09-09, the first Discord-native GM control panel, live Cindy Initiative proposal path, external watchdog, and session capture/replay layer are all represented in the tooling docs. The remaining future work is less about inventing another advice bot and more about turning those pieces into reliable table workflow: visible shared state, GM approval screens, replay/evaluation, and closeout review.
 
 ## Planning Principles
 
@@ -124,6 +126,8 @@ Current controls include:
 - Closeout Prompt
 
 This moved the idea from pure future planning into a first live implementation. Follow-up passes added text-entry modals for **Mark Canon** and **Mark GM-Only**, so the GM can type durable closeout notes instead of trying to time bookmark clicks during play, plus a 12-phrase built-in soundboard dropdown using fresh canon-voice Cindy clips. Remaining future work is mostly polish: testing button ergonomics during play, improving transcript context selection, and deciding whether any web-panel layer is worth building later.
+
+The panel also now includes custom **Speak Line** playback and an SR3-style **Roll Test** modal, so the live GM workflow covers both voice control and bounded Cindy action resolution.
 
 This should continue routing Cindy's initiative through GM control when the moment is not a direct player request.
 

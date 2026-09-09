@@ -3,7 +3,7 @@ title: Cindy Lou TTS Middle Layer
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-07-20
+updated: 2026-09-09
 parent_page: README.md
 tags: [cindy, voice, tts, kokoro, npc-tools]
 ---
@@ -49,6 +49,8 @@ That worker now accepts an `ipa` guide map so approved Kokoro pronunciations can
 
 As of 2026-07-20, the worker is also protected by an idle-stop timer. It can remain warm during and shortly after a voice session, but it should not sit resident all day after session end or voice disconnect.
 
+As of 2026-09-09, the active bridge keeps the Kokoro worker warm for up to `KOKORO_WORKER_IDLE_TIMEOUT_S=7200` seconds after pre-warm/session end and has a health monitor that can report worker readiness problems during live sessions.
+
 ## Current flow
 
 1. Cindy drafts or receives a text line.
@@ -82,8 +84,8 @@ Recurring campaign names and terms that need exact pronunciation use Kokoro IPA 
 | Term | Approved sound | Kokoro IPA guide |
 | --- | --- | --- |
 | Valgaut | VAHL-got | `Valgaut=vˈɑːlɡɑt` |
-| Kurgan | CUR-guhn | `Kurgan=kˈɜːɹɡən` |
-| nuyen | NEW-yen | `nuyen=nˈuːjɛn` |
+| Kurgan | CUR-gun | `Kurgan=ˈkɜːɹɡʌn` |
+| nuyen | NEW-yen | `nuyen=ˈnuːjɛn` |
 
 The important rule is: for Kokoro, keep those words intact and pass the IPA guide. Do not replace `Valgaut` or `Kurgan` with rough spelling in the Kokoro path, because that was tested and sounded worse.
 
@@ -122,7 +124,7 @@ Current defaults:
 - Southern sculpting: enabled
 - saved/manual clips: enabled
 - auto-speaking: disabled unless explicitly enabled by the live voice controls
-- Kokoro worker: enabled, warm during voice use, idle-stops after `KOKORO_WORKER_IDLE_TIMEOUT_S=1800` seconds outside an active voice session
+- Kokoro worker: enabled, warm during voice use, idle-stops after `KOKORO_WORKER_IDLE_TIMEOUT_S=7200` seconds outside an active voice session
 
 ## Design rules
 

@@ -3,7 +3,7 @@ title: Cindy Lou Voice Clip Phrase Library
 type: npc-tooling
 visibility: player-safe
 status: active
-updated: 2026-09-04
+updated: 2026-09-09
 parent_page: README.md
 tags: [cindy, voice, clips, discord, npc-tools]
 ---
@@ -18,7 +18,7 @@ The clip library is currently part of a **GM-controlled voice workflow**. Cindy 
 
 The active fast-generation path uses the local Kokoro worker for short generated lines. The preferred live-table workflow is now GM-controlled: Cindy can generate and save a short line, then the GM can play the latest panel-generated clip through the [GM Control Panel](GM-Control-Panel.md). Longer or replayable NPC lines can still use higher-quality generated voice paths, but table playback should stay brief because Discord audio may cut out on longer clips.
 
-As of 2026-09-04, the bridge also has a gated **stalling voice** layer for tiny utility barks while a bespoke response is still being generated. This is meant to reduce confusing silence after a direct live prompt without replacing the real answer, and it now sits alongside the GM panel's generate/play/interrupt workflow.
+As of 2026-09-09, the bridge also has a gated **stalling voice** layer for tiny utility barks while a bespoke response is still being generated. This is meant to reduce confusing silence after a direct live prompt without replacing the real answer, and it now sits alongside the GM panel's generate/play/interrupt workflow.
 
 ## Behavior goal
 

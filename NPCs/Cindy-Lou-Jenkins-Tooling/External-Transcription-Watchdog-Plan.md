@@ -3,7 +3,7 @@ title: Cindy Lou External Transcription Watchdog Plan
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-05-22
+updated: 2026-09-09
 tags: [cindy, discord, voice, monitoring, watchdog, implementation-plan]
 ---
 
@@ -21,7 +21,11 @@ That way, a stuck or degraded transcription loop cannot be trusted as the only t
 
 ## Current implementation status
 
-As of **2026-05-22**, the first-pass version of this watchdog has been wired into the live voice bridge runtime.
+As of **2026-09-09**, the watchdog is wired into the live voice bridge runtime and implemented as a separate local process:
+
+```text
+/Users/hanclaw/claw/projects/discord_voice_patch/voice_bridge_watchdog.py
+```
 
 Implemented now:
 
@@ -29,14 +33,17 @@ Implemented now:
 - voice bridge launches an external `voice_bridge_watchdog.py` process on session start
 - watchdog polls live session health on a timer
 - watchdog detects **recent audio + stale transcript**
+- watchdog also checks no-transcription-activity, stale status files, missing voice-bridge PID, and Kokoro worker readiness during active sessions
+- watchdog deduplicates alerts through the shared response-claim path
 - watchdog logs alerts to `watchdog-alerts.jsonl`
-- watchdog posts a GM ping through an independent Discord REST message path
+- watchdog posts a GM ping through an independent Discord REST message path using the bot token, rather than relying on the stuck transcription loop
+- watchdog sends a recovery note when a prior stall condition clears
 - watchdog exits when the session is marked inactive
 
 Still worth improving later:
 
 - richer STT error counters in exported health status
-- more nuanced queue/backpressure heuristics
+- more nuanced queue/backpressure heuristics beyond the current transcript-count and timestamp checks
 - optional dedicated webhook or notifier identity separate from the bot token
 - a cleaner operator test harness for simulated failures
 
@@ -263,13 +270,15 @@ That closes the loop and reassures the GM that the issue cleared.
 
 ## Alert classes
 
-Recommended reason classes:
+Current/recommended reason classes:
 
 - `audio_recent_but_transcript_stale`
+- `no_transcription_activity`
 - `stt_error_burst`
 - `status_file_stale`
 - `voice_bridge_process_missing`
 - `voice_disconnected_while_session_active`
+- `kokoro_worker_not_ready`
 
 ## Alert text
 
@@ -283,13 +292,13 @@ The real GM mention token should come from config or session metadata, not be ha
 
 ## Recommended notifier path
 
-Preferred order:
+Preferred order for a more isolated future notifier:
 
 1. **Discord webhook** to the GM monitoring destination
 2. separate tiny alert bot/process
 3. other local notifier that can post into the GM channel/thread
 
-Recommendation: use a webhook if thread/channel routing is workable, because it is simple and independent.
+The current implementation posts through Discord REST with the bot token from the watchdog process. That is independent of the live transcription loop, but not as isolated as a dedicated webhook/notifier identity would be.
 
 ## Process supervision model
 
@@ -341,27 +350,28 @@ Add:
 - easy test mode / simulated stall mode
 - optional synthetic health pings into a debug thread
 
-## Concrete files to add
+## Concrete files
 
-Recommended first-pass additions:
+Implemented now:
 
 - `/Users/hanclaw/claw/projects/discord_voice_patch/voice_bridge_watchdog.py`
+- `/Users/hanclaw/claw/projects/discord_voice_patch/voice_chat.py`
+
+Previously suggested but not currently present as separate files:
+
 - `/Users/hanclaw/claw/projects/discord_voice_patch/watchdog_notify.py`
 - `/Users/hanclaw/.openclaw/workspace-cindylou/bin/test_voice_watchdog.sh`
 
-And extend:
-
-- `/Users/hanclaw/claw/projects/discord_voice_patch/voice_chat.py`
-
 ## Config knobs
 
-Suggested env/config values:
+Current/suggested env/config values:
 
 - `WATCHDOG_ENABLED=true`
 - `WATCHDOG_POLL_INTERVAL_S=10`
 - `WATCHDOG_AUDIO_RECENT_S=20`
-- `WATCHDOG_TRANSCRIPT_STALE_S=75`
-- `WATCHDOG_DEBOUNCE_POLLS=3`
+- `WATCHDOG_NO_TRANSCRIPT_ACTIVITY_S=120`
+- `WATCHDOG_TRANSCRIPT_STALE_S=120`
+- `WATCHDOG_DEBOUNCE_POLLS=1`
 - `WATCHDOG_ALERT_COOLDOWN_S=600`
 - `WATCHDOG_WEBHOOK_URL=...`
 

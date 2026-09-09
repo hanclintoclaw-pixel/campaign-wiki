@@ -3,7 +3,7 @@ title: Cindy Lou Post-Session Automation
 type: tech-note
 visibility: player-safe
 status: active-design
-updated: 2026-09-05
+updated: 2026-09-09
 tags: [cindy, automation, sessions, wiki, memory, design]
 ---
 
@@ -173,7 +173,7 @@ A reasonable post-session pipeline might look like this:
 3. **Authenticity gate runs**
 4. If not authentic, do nothing or log a quiet note
 5. If authentic:
-   - collect source transcript / notes
+   - collect source transcript / notes, including GM panel markers and session-capture artifacts when useful
    - generate a first-pass session summary
    - create or update the wiki Session page
    - draft a short front-page Current Situation paragraph
@@ -470,3 +470,4 @@ That is the higher-level function this page is sketching.
 - [Cindy Lou Tooling and Discord Notes](Tooling-and-Discord.md)
 - [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md)
 - [Cindy Lou GM Control Panel](GM-Control-Panel.md)
+- [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md)

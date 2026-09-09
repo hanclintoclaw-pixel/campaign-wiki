@@ -3,7 +3,7 @@ title: Cindy Lou Session Scratchpad Implementation Plan
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-05-22
+updated: 2026-09-09
 tags: [cindy, discord, voice, monitoring, scratchpad, implementation-plan]
 ---
 
@@ -22,7 +22,7 @@ The scratchpad should be a **working memory for one live session**, not a semi-p
 
 ## Current implementation status
 
-As of **2026-05-22**, the first implementation pass of this design has been started in the live voice bridge runtime.
+As of **2026-09-09**, the scratchpad design is live in the voice bridge as a staged implementation. It is no longer just a plan, but it is still not a fully mature scene model.
 
 Implemented now:
 
@@ -37,20 +37,24 @@ Implemented now:
 - `prompt-view.json` is now emitted as a reply/ping-facing projection
 - `field_last_reinforced_at` groundwork is now present in the scratchpad state
 - the old cross-session scratchpad contamination path is cut off at session start
+- immediate 30-second events are separated from the wider lookback window
+- active, recent, and background entity buckets are populated from recent transcript evidence
+- `monitor-status.json` and timeline events expose the last scan/decision for debugging
+- a first-pass pre-ping short-horizon guard checks whether a proposed GM ping is still supported by very recent transcript evidence
 
 Not implemented yet:
 
 - stronger event typing beyond the current heuristic first pass
 - more aggressive scene-transition-driven rebuilds outside the timed loop
 - fuller decay/confidence aging logic across all fields
-- richer entity bucket handling (`active_now` / `recent` / `background`)
-- a fully mature pre-ping short-horizon guard pass
+- richer entity extraction than capitalized-name and keyword heuristics
+- replay-grade scoring for whether prompt-view quality is actually improving live replies
 
 So this page is now partly a plan and partly a record of the staged rollout.
 
-## Core problem with the current version
+## Original problem this design is solving
 
-The current scratchpad is failing in three main ways:
+The pre-scratchpad monitor failed in three main ways:
 
 1. **it is too sticky across sessions**
    - old matrix/warehouse context can bleed into a later session
@@ -61,7 +65,7 @@ The current scratchpad is failing in three main ways:
 3. **it is too slow and too blunt**
    - it updates on a timer, but not with enough scene-awareness or transition logic
 
-The result is a scratchpad that can preserve some useful facts, but often does not reflect the actual current table moment well enough to drive sharp Cindy behavior.
+The current scratchpad fixes the worst session-contamination behavior and gives Cindy a better current-scene projection, but it still depends on lightweight heuristics. The remaining work is not "make a file exist"; it is making the file reliably represent the table's actual current scene under messy speech-to-text conditions.
 
 ## Design principle
 

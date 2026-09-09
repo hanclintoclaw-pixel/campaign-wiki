@@ -3,7 +3,7 @@ title: Cindy Lou Live Session Monitoring Design
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-09-04
+updated: 2026-09-09
 tags: [cindy, discord, voice, monitoring, design]
 ---
 
@@ -80,11 +80,12 @@ At a high level, the system scores each short transcript window for things like:
 - direct references to Cindy
 - whether the conversation sounds in-game, mixed, or mostly table chatter
 
-It then decides between three outcomes:
+It then decides between four outcomes:
 
 - **silent** — keep watching, say nothing
 - **draft_ready** — this may matter soon, but do not interrupt yet
 - **ping_now** — this looks like a genuinely useful moment to alert the GM
+- **initiative_proposal** — a concrete non-direct Cindy option exists, so send the GM a private approval ping instead of a public reply
 
 ## What changed in the current version
 
@@ -140,6 +141,22 @@ The monitor now has a dedicated notion of **post-session debrief** so “wrappin
 ### Proactive pings are strictly throttled
 
 Non-direct GM pings now obey `LIVE_MONITOR_MIN_PING_INTERVAL_S` even when the inferred reason text changes. This prevents a table-talk or tooling-heavy stretch from producing several speculative Cindy Initiative pings in a few minutes. Direct Cindy wake replies still use the direct response path instead of this proactive monitor throttle.
+
+### Cindy Initiative proposals are now a separate outcome
+
+The current live bridge does not treat most non-direct monitor hits as immediate pings. Matrix/security/stall/scene-pivot reasons first become `draft_ready`, then `_derive_cindy_initiative_proposal(...)` must find a specific Cindy-shaped action before anything goes to the GM.
+
+That proposal includes:
+
+- `proposal_type`
+- `trigger`
+- Cindy's read of why the moment matters
+- proposed bounded action
+- visibility note
+- risk note
+- GM ask
+
+This is the active safety boundary: Cindy proposes a possible move privately, and the GM decides whether to approve, change, ignore, or hold it.
 
 ## What it tries hard **not** to do
 
@@ -210,7 +227,7 @@ This policy aims for roughly **8/10 alignment** with the GM's desired table expe
 
 ## Current behavior in practice
 
-As of 2026-05-15, the live-monitor architecture has been implemented in the Discord voice bridge runtime here:
+As of 2026-09-09, the live-monitor architecture is implemented in the Discord voice bridge runtime here:
 
 - `/Users/hanclaw/claw/projects/discord_voice_patch/voice_chat.py`
 
@@ -221,11 +238,25 @@ The runtime keeps local state files under:
 Important examples:
 
 - `transcript.jsonl` — raw voice transcript events
+- `event-ledger.jsonl` — normalized transcript-derived live events
 - `recent-delta.json` — short-horizon noisy analysis
 - `scene-scratchpad.json` — more stable scene memory
 - `scene-state.json` — combined state output
+- `prompt-view.json` — compact reply/ping-facing projection of current scene state
+- `monitor-status.json` — live monitor state, last scan, and last decision metadata
 - `checkpoint.json` — last processed position
 - `pings.jsonl` — ping history / audit trail
+
+Current configured posture in the active bridge environment:
+
+- `LIVE_MONITOR_ENABLED=true`
+- `LIVE_MONITOR_INTERVAL_S=30`
+- `LIVE_MONITOR_LOOKBACK_S=300`
+- `LIVE_MONITOR_MIN_PING_INTERVAL_S=900`
+- `LIVE_MONITOR_PING_THREAD_ID` points at the GM interaction thread
+- `LIVE_MONITOR_GM_MENTION_ID` points at the GM's Discord mention id
+
+Those settings mean the monitor is installed and enabled, but it only evaluates during an active live session. Outside a session, its normal state is idle.
 
 ## Validation summary
 
@@ -251,7 +282,8 @@ A stricter experimental pass was also tested afterward. It cleaned up remaining 
 
 So the practical status is:
 
-- **live runtime:** conservative tuned version
+- **live runtime:** conservative tuned version with GM-gated Cindy Initiative proposals
+- **manual control surface:** GM panel `Suggest Cindy Action` can ask for one optional action on demand
 - **stricter candidate:** staged and tested, but not yet adopted as the default live behavior
 
 ## What this means for a casual reader
@@ -308,4 +340,5 @@ Key files include:
 - Discord voice bridge runtime
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
 - [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md)
+- [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md)
 - [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)

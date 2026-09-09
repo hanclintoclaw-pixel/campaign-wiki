@@ -3,7 +3,7 @@ title: Cindy Lou Tooling and Discord Notes
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-09-04
+updated: 2026-09-09
 tags: [cindy, tooling, discord, wiki, campaign-tech]
 ---
 
@@ -20,13 +20,15 @@ The goal of this page is twofold:
 
 ## Current operating state
 
-As of 2026-09-04, Cindy's active table-support posture is:
+As of 2026-09-09, Cindy's active table-support posture is:
 
 - **text-first and GM-controlled for voice:** Cindy can draft live responses and saved voice-line candidates, and the GM can now use the Discord-native [GM Control Panel](GM-Control-Panel.md) to generate, play, or interrupt panel voice lines without copy/paste;
 - **Kokoro is the fast voice path:** the live bridge uses a warm Kokoro worker for quick generated clips, with one-shot generation still available as a fallback;
 - **short clips remain useful:** reusable phrases and saved clips are for quick acknowledgements, warnings, handoffs, and very short stalling cues, not for rules explanations or canon-heavy dialogue;
 - **stalling voice is gated:** the bridge can play tiny stock presence lines after a short delay while a bespoke live response is still generating, but the behavior is controlled by `CINDY_STALLING_VOICE_ENABLED` and `!voice-stalling`;
 - **monitoring is conservative:** direct questions to Cindy are response-worthy by default, but unsolicited GM nudges still require a real Matrix/security opening, stall, contradiction, or tactical blind spot;
+- **Cindy Initiative is GM-private:** non-direct monitor hits must become concrete `cindy_initiative_proposal` records before they ping the GM, and those pings ask for approval rather than posting public actions;
+- **session capture is on:** the bridge can preserve raw audio, audio windows, transcript events, prompt contexts, model outputs, and TTS files for replay/debugging under the configured capture root;
 - **state is split by purpose:** wiki pages hold player-safe documentation, runtime files hold live-session state, and Cindy's internal memory tracks longer-term continuity.
 
 ## Canon-first generated content workflow
@@ -109,8 +111,11 @@ Known/customized behavior includes:
 - documented Discord voice bridge command controls for session lifecycle, voice connection, live playback, stalling cues, saved clips, GM panel buttons, and debug/status checks
 - TTS middle-layer sculpting for cleanup, pronunciation, and Southern cadence before Kokoro rendering
 - warm Kokoro worker support for faster generated voice clips
+- Kokoro worker health monitoring during active sessions
 - gated stalling voice cues for short presence barks while longer responses generate
 - manual GM-triggered playback for saved/generated/custom Cindy lines, including **Speak Line**, one-click **Play Last Voice**, **Interrupt Cindy**, SR3-style **Roll Test**, and a 12-phrase built-in stock soundboard dropdown in the GM panel
+- external transcription/health watchdog alerts when an active session has audio but stale transcript output, missing bridge process, stale status, no transcription activity, or an unready Kokoro worker
+- session capture/replay artifacts for diagnosing latency, STT quality, prompt context, model responses, and rendered audio
 - an archived GM-facing soundboard experiment, now marked outdated
 
 ## Repo map
@@ -155,6 +160,7 @@ For reconstructable implementation detail, use these pages:
 - [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
+- [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md)
 - [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md)
 - [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_
 
@@ -187,6 +193,7 @@ Likely next improvements:
 - [Cindy Lou TTS Middle Layer](TTS-Middle-Layer.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
 - [Cindy Lou External Transcription Watchdog Plan](External-Transcription-Watchdog-Plan.md)
+- [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md)
 - [Cindy Lou Session Scratchpad Implementation Plan](Session-Scratchpad-Implementation-Plan.md)
 - [Campaign Navigation](../../Navigation.md)
 - [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_

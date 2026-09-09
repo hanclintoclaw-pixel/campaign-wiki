@@ -2,7 +2,7 @@
 title: Minigames and Web Apps
 type: index
 visibility: player-safe
-updated: 2026-09-04
+updated: 2026-09-09
 ---
 
 # Minigames and Web Apps
@@ -49,7 +49,8 @@ These are player-facing table procedures, with guided web-app versions where ava
 ## Cindy Lou Tooling
 
 - [Cindy Lou Tooling](NPCs/Cindy-Lou-Jenkins-Tooling/) - NPC behavior, live-session monitoring, voice clips, and Cindy-specific Discord support.
-- [Cindy Lou GM Control Panel](NPCs/Cindy-Lou-Jenkins-Tooling/GM-Control-Panel.md) - first-effort Discord-native GM button panel for silence/resume, summaries, Cindy action suggestions, saved voice lines, playback, interruption, markers, and closeout prompts.
+- [Cindy Lou GM Control Panel](NPCs/Cindy-Lou-Jenkins-Tooling/GM-Control-Panel.md) - first-effort Discord-native GM button panel for silence/resume, summaries, Cindy action suggestions, saved/custom voice lines, SR3 roll tests, playback, interruption, stock phrases, markers, and closeout prompts.
+- [Cindy Lou Live Session Capture and Replay](NPCs/Cindy-Lou-Jenkins-Tooling/Live-Session-Capture-and-Replay.md) - local evidence capture for raw audio, transcript events, prompt contexts, model outputs, and TTS artifacts used to tune Cindy's live behavior.
 - [Cindy Lou Tooling Future Planning](NPCs/Cindy-Lou-Jenkins-Tooling/Future-Planning.md) - future planning for table dashboards, closeout workflows, GM controls, onboarding, and VTT companion aids.
 
 ## Documentation

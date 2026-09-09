@@ -3,12 +3,12 @@ title: Cindy Lou GM Control Panel
 type: tech-note
 visibility: player-safe
 status: first-effort-live
-updated: 2026-09-04
+updated: 2026-09-09
 parent_page: README.md
 tags: [cindy, discord, voice, gm-tools, control-panel, npc-tools]
 sources:
   - Discord planning discussion 2026-09-04
-  - Private voice bridge backup commits ff4777e and ed8e9be
+  - Private voice bridge backup commits ff4777e, ed8e9be, fb8cea1, c7283e0, 845bc37, and 975a37c
 ---
 
 # Cindy Lou GM Control Panel
@@ -29,6 +29,7 @@ It is not a separate website yet. It runs inside the local Discord voice bridge 
 - **Built-in 12-phrase soundboard dropdown commit:** `c7283e0`.
 - **Custom Speak Line modal commit:** `845bc37`.
 - **SR3 Roll Test modal commit:** `975a37c`.
+- **Current doc refresh:** 2026-09-09, checked against the live bridge command set and runtime config.
 
 ## How to open it
 
@@ -362,5 +363,6 @@ The current implementation is deliberately conservative:
 - [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
 - [Cindy Lou Voice Clip Phrase Library](Voice-Clip-Phrase-Library.md)
 - [Cindy Lou Live Session Monitoring Design](Live-Session-Monitoring-Design.md)
+- [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md)
 - [Cindy Lou Post-Session Automation](Post-Session-Automation.md)
 - [Cindy Lou Tooling Future Planning](Future-Planning.md)

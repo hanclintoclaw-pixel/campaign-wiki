@@ -2,8 +2,8 @@
 title: Cindy Lou Wiki and Tooling Topology
 type: tech-note
 visibility: player-safe
-status: draft
-updated: 2026-09-04
+status: active
+updated: 2026-09-09
 tags: [cindy, wiki, tooling, architecture]
 ---
 
@@ -65,13 +65,14 @@ Use it for:
 
 ### GM control panel
 
-The first live GM control panel is Discord-native. It is opened through `!cindy-panel` / `!gm-panel` and gives the GM buttons for silence/resume, summaries, Cindy action suggestions, saved voice-line generation, last-line playback, interruption, canon/GM-only markers, and closeout prompts.
+The first live GM control panel is Discord-native. It is opened through `!cindy-panel` / `!gm-panel` and gives the GM buttons for silence/resume, summaries, Cindy action suggestions, saved voice-line generation, custom speak-now lines, last-line playback, interruption, SR3 roll tests, stock phrase playback, canon/GM-only markers, and closeout prompts.
 
 Use it for:
 
 - managing Cindy's table presence without copy/paste;
 - generating and manually playing short voice lines;
 - stopping bad or stale playback quickly;
+- rolling bounded Cindy/vehicle/drone checks in an SR3-style exploding-six format;
 - marking beats for later closeout without editing the wiki mid-session.
 
 ### Technical sub-pages
@@ -105,6 +106,12 @@ This contains:
 - text command handling
 - voice join/play behavior
 - Discord-native GM control panel command and button handling
+- live transcript/session-thread routing
+- active-thread wake handling
+- live monitor and Cindy Initiative proposal logic
+- external transcription watchdog launcher/status export
+- session capture/replay artifact writing
+- Kokoro worker orchestration and health monitoring
 - archived queue consumer for the outdated soundboard prototype
 
 ### Soundboard app repo _(outdated)_
@@ -127,6 +134,10 @@ Do not maintain this app, its tunnel URL, or its clip catalog unless the GM expl
   - `/Users/hanclaw/.openclaw/workspace-cindylou/preserved_voice`
 - logs:
   - `/Volumes/carbonite/claw/data/cindylou/logs`
+- live-session state:
+  - `/Volumes/carbonite/claw/data/cindylou/runtime/live-session`
+- live-session capture artifacts:
+  - `/Volumes/falcon/claw/data/cindylou/session-captures`
 - soundboard queue _(outdated)_:
   - `/Volumes/carbonite/claw/data/cindylou/runtime/soundboard-queue`
 
@@ -137,6 +148,16 @@ Do not maintain this app, its tunnel URL, or its clip catalog unless the GM expl
 The active control path is now Discord-native: the GM runs `!cindy-panel`, then uses buttons handled inside the voice bridge process. This avoids the old problem where Cindy tried to trigger herself through bot-authored Discord commands.
 
 Panel actions are conservative. They either toggle live behavior, ask Cindy for a bounded GM-facing response, generate a saved voice line, play or interrupt the latest panel voice line, or append local marker/audit records for later closeout.
+
+### Live monitor / Cindy Initiative path _(active)_
+
+The live monitor runs inside the voice bridge when `LIVE_MONITOR_ENABLED=true`. It reads the transcript/event ledger during active sessions, maintains short-horizon and scene-scratchpad state, and may emit GM-private Cindy Initiative proposals when a concrete Cindy-shaped opening exists.
+
+This path is deliberately weaker than direct GM control: it proposes, but does not decide. Proactive suggestions remain private to the GM and should not auto-speak or mutate canon.
+
+### Session capture path _(active)_
+
+The bridge can write raw and interpreted live-session artifacts under `/Volumes/falcon/claw/data/cindylou/session-captures`. This supports post-session debugging and future replay/evaluation of STT, prompt selection, model output, and TTS rendering without relying only on the public session thread.
 
 ### Archived soundboard path _(outdated)_
 
@@ -172,15 +193,16 @@ As the system grows, the next useful pages would likely be:
 
 - Cindy memory/index pipeline notes
 - Discord thread/session routing notes
-- clip library conventions and naming rules
 - post-playtest notes for the Discord-native GM panel
 - deployment/public URL stabilization notes
+- replay/evaluation notes from captured live-session runs
 
 ## Related pages
 
 - [Cindy Lou Tooling and Discord Notes](Tooling-and-Discord.md)
 - [Cindy Lou GM Control Panel](GM-Control-Panel.md)
 - [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
+- [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md)
 - [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)
 - [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_
