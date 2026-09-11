@@ -2,7 +2,7 @@
 title: Campaign Timeline
 type: timeline
 visibility: player-safe
-updated: 2026-09-04
+updated: 2026-09-11
 ---
 
 # Campaign Timeline
@@ -215,15 +215,15 @@ For the cleaned-up master list that separates real-world played dates from Shado
 - **Session pages:** [2026-07-09](../Sessions/2026-07-09.md), [2026-07-16](../Sessions/2026-07-16.md), [2026-07-23](../Sessions/2026-07-23.md), [2026-08-06](../Sessions/2026-08-06.md), [2026-08-13](../Sessions/2026-08-13.md), [2026-08-27](../Sessions/2026-08-27.md)
 
 ### Byron Cedar / Judge Belisarius rush job
-- **Played:** 2026-09-03 onward
-- **In-world:** 2066-05-20 evening (provisional)
-- **Summary:** New-player starter contract introducing **Kilimanjaro** as Abe's alternate PC. **Byron L. Cedar** of **HEMP Global Agronomics** hired Kilimanjaro to keep corrupt judge **Hiram Belisarius** out of court without killing or permanently removing him. The crew located Belisarius and **Renaud Dupree**, scattered **8th Street**, and lured the target pair toward **Mucky's Place** before stopping with the final takedown unresolved.
-- **Session page:** [2026-09-03](../Sessions/2026-09-03.md)
+- **Played:** 2026-09-03 through 2026-09-10; contract complete
+- **In-world:** 2066-05-20 evening through 2066-05-21 evening, after court closed (provisional calendar placement)
+- **Summary:** New-player starter contract introducing **Kilimanjaro** as Abe's alternate PC. Cedar hired the crew to keep Belisarius out of court. With Mucky's cooperation, the crew sedated and extracted the judge, survived Dupree's armed pursuit, and held Belisarius through the following court day before releasing him near 8th Street Cafe under a staged gambling-debt story. Dupree survived his vehicle crash. Cedar accepted the result surprisingly happily despite the public kidnapping. All PCs received **5 Karma**, and Curtis and Mevin received **20,000¥ each**.
+- **Session pages:** [2026-09-03](../Sessions/2026-09-03.md), [2026-09-10](../Sessions/2026-09-10.md)
 
 ## Current Known In-World Anchor
 
 - **Known current campaign year:** 2066
-- **Current active date:** 2066-05-20 evening (provisional), after the 2066-05-15 hard anchor and during the Byron Cedar / Judge Belisarius rush job.
+- **Current active date:** 2066-05-21 evening, after court closed (provisional), following the completed Byron Cedar / Judge Belisarius rush job. The next-day advance is explicit; the inherited calendar placement and exact stop time are not confirmed.
 - **Status:** revised per GM correction; modern Mayoral Race and Darla arcs should be treated as 2066, not 2064.
 
 ## Related navigation

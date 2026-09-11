@@ -3,7 +3,7 @@ title: Valgaut
 type: player-character
 visibility: player-safe
 status: temporarily-paused
-last_updated_session: 2026-08-27
+last_updated_session: 2026-09-10
 canon_status: current-sheet
 confidence: high
 tags: [pc, adept, temporarily-paused]
@@ -21,6 +21,7 @@ sources:
   - ../Locations/Cairo-Testament-Annex.md
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
+  - ../Sessions/2026-09-10.md
 ---
 
 # Valgaut
@@ -91,7 +92,7 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** **14 Karma** after the Session 2026-08-13 Wyrmwatch / Chunky Sparkles award.
+- **Known current Karma:** **19 Karma** after the Session 2026-09-10 all-PC award.
 - **Known current nuyen:** at least **20,500¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
@@ -100,6 +101,8 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 - **2026-07-24 — Wyrmwatch Circle Grade 1 initiation:** **-9 Karma** for group initiation with oath ordeal. Magic increased from 6 to 7, Initiate Grade became 1, and Valgaut gained **+1 adept Power Point**, spent on **Empathic Sense** and **Enhanced Perception 1**.
 - **2026-08-13 — GM fiat initiation catch-up:** **+5 Karma**, raising Valgaut from **5 Karma** to **10 Karma** so he has exactly enough for Grade 2 group initiation with an ordeal: `(5 + desired grade 2) x 1.5 = 10.5`, rounded down to **10 Karma**.
 - **2026-08-13 — Wyrmwatch / Chunky Sparkles follow-up:** **+4 Karma**, **+5,000¥ share**, **-500¥ bait expense**, net **+4,500¥**; Valgaut led the Radnor Lake recovery/handoff service for Wyrmwatch.
+
+- **2026-09-10 — GM all-PC closeout award:** **+5 Karma**, **14 -> 19 Karma**, per the GM's explicit all-PC instruction on 2026-09-11. Valgaut remains hard-paused and was not present in the closing run; no nuyen payout or return to active play is implied.
 
 ## Magical Knowledge Emphasis
 

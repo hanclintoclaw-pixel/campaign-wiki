@@ -2,7 +2,7 @@
 title: Campaign Arc Index
 type: arc-index
 visibility: player-safe
-updated: 2026-09-04
+updated: 2026-09-11
 ---
 
 # Campaign Arc Index
@@ -225,10 +225,11 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 ## 12. Byron Cedar / Judge Belisarius rush job
 
-**Core idea:** a new-player starter contract brings **Kilimanjaro** into the active crew as an Alternate PC and tasks the runners with keeping corrupt judge **Hiram Belisarius** out of court without killing or permanently removing him.
+**Core idea:** a new-player starter contract brought **Kilimanjaro** into the crew to keep corrupt judge **Hiram Belisarius** out of court. **Contract completed and paid** in Session 2026-09-10 after a Mucky-assisted extraction, armed pursuit, and staged gambling-debt cover. Cedar's unexpectedly happy acceptance and surviving Dupree remain possible fallout, not an unfinished takedown.
 
 **Key sessions**
 - [2026-09-03](../Sessions/2026-09-03.md)
+- [2026-09-10](../Sessions/2026-09-10.md)
 
 **Important names**
 - [Kilimanjaro](../PCs/Kilimanjaro.md)

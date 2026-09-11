@@ -11,6 +11,8 @@
 
 ## Nashville Locations
 
+- [8th Street Cafe](8th-Street-Cafe.md)
+
 - [Darla Ledue's Penthouse](Darla-Penthouse.md)
 - [Grandpa](Grandpa.md)
 - [Happy Cat Konpeki and Collectibles](Happy-Cat-Konpeki-and-Collectibles.md)

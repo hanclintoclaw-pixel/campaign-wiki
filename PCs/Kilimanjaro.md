@@ -4,7 +4,7 @@ type: player-character
 visibility: player-safe
 status: alternate
 player: Abe
-last_updated_session: 2026-09-03
+last_updated_session: 2026-09-10
 canon_status: provisional
 confidence: high
 aliases:
@@ -12,19 +12,20 @@ aliases:
 tags: [pc, alternate-pc, starter-character, cyber-samurai]
 sources:
   - ../Sessions/2026-09-03.md
+  - ../Sessions/2026-09-10.md
 ---
 
 # Kilimanjaro
 
 ## Overview
 
-**Kilimanjaro** is an **Alternate PC** / starter character used for new players. Abe played him in [Session 2026-09-03](../Sessions/2026-09-03.md) as a temporary table on-ramp; if Abe later builds a bespoke long-term PC, Kilimanjaro can return to the NPC/contact pool.
+**Kilimanjaro** is an **Alternate PC** / starter character used for new players. Abe played him in [Session 2026-09-03](../Sessions/2026-09-03.md) and its [2026-09-10 conclusion](../Sessions/2026-09-10.md) as a temporary table on-ramp; if Abe later builds a bespoke long-term PC, Kilimanjaro can return to the NPC/contact pool.
 
 ## Player and Role
 
 - **Player:** Abe, when used as a starter PC.
 - **Archetype / role:** generic Nashville cyber-samurai / solo operator.
-- **Current status:** alternate / starter PC, active in the current Byron Cedar rush job.
+- **Current status:** alternate / starter PC; the Byron Cedar rush job is complete. A future return to NPC status or a new bespoke PC for Abe was discussed, not finalized.
 
 ## Known Facts
 
@@ -44,15 +45,24 @@ sources:
 - **Underworld Politics 4** helped assess the low-end 8th Street alley crew.
 - Has enough surveillance and security experience to know Judge Belisarius's habits from prior work.
 
+## Karma And Nuyen Ledger
+
+- **2026-09-10 — Byron Cedar / Judge Belisarius closeout:** **+5 Karma**; tracked awarded subtotal **5 Karma**, with no reconstructed earlier balance.
+- Kilimanjaro volunteered his share to cover Mucky's assistance, allowing Curtis and Mevin to retain **20,000¥ each**. Mucky had requested **10% of the 60,000¥ take**; the final amount retained by Kilimanjaro was not explicitly recorded. Do not assume either a full 20,000¥ net payout or a zero personal balance.
+- Lost **several hundred nuyen** at the card table; exact loss not recorded.
+- Expended one high-explosive grenade from the Ares Alpha's underslung launcher. Mevin located the personal comm unit previously planted on Belisarius; its return to Kilimanjaro's inventory was not explicitly narrated.
+
 ## Relationships
 
 - Linked to [Byron L. Cedar](../NPCs/Byron-Cedar.md) as a recurring low-risk security/surveillance client.
 - Linked to [Kurgan](Kurgan.md) through previous work.
-- Linked to the active crew through the current rush job.
+- Linked to the active crew through the completed rush job; accepted a reduced personal take to preserve goodwill.
 
 ## Relevant Sessions
 
 - **2026-09-03** - introduced as Abe's alternate starter PC; received the Byron Cedar rush job, brought in the crew, scattered 8th Street with a flash grenade, and planted a comm unit on Judge Belisarius.
+
+- **[2026-09-10](../Sessions/2026-09-10.md)** - stayed beside the judge at the card table, carried him out after Mevin's tranq patch, disabled Dupree's pursuing vehicle with a grenade, helped prepare the holding/release cover, and covered Mucky's cut from his own share. Dupree survived the crash.
 
 ## Open Questions
 

@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-09-04
+updated: 2026-09-11
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,7 +20,9 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The current active run is the **[Byron Cedar / Judge Belisarius rush job](Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)** from [Session 2026-09-03](Sessions/2026-09-03.md). With **[Valgaut](PCs/Valgaut.md)** hard-paused, Abe joined using **[Kilimanjaro](PCs/Kilimanjaro.md)** as an alternate starter PC. **[Byron L. Cedar](NPCs/Byron-Cedar.md)** of **[HEMP Global Agronomics](Organizations/HEMP-Global-Agronomics.md)** hired Kilimanjaro to keep corrupt judge **[Hiram Belisarius](NPCs/Judge-Hiram-Belisarius.md)** out of court without killing or permanently removing him. The crew has lured Belisarius and bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** away from the diner / **[8th Street](Factions/8th-Street.md)** routine toward **[Mucky's Place](Locations/Muckys-Place.md)**, with the final takedown still unresolved.
+The **[Byron Cedar / Judge Belisarius rush job](Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)** concluded in **[Session 2026-09-10](Sessions/2026-09-10.md)**. Curtis, Mevin, and Kilimanjaro extracted Belisarius from **[Mucky's Place](Locations/Muckys-Place.md)**, escaped his bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** in a vehicle chase, and kept the judge out of court before releasing him near **[8th Street Cafe](Locations/8th-Street-Cafe.md)** under a staged gambling-debt shakedown story. Dupree survived; **[Byron L. Cedar](NPCs/Byron-Cedar.md)** accepted the result surprisingly happily despite the public kidnapping. **All PCs received 5 Karma; Curtis and Mevin received 20,000¥ each.**
+
+The crew is between runs, provisionally **2066-05-21 evening, after court closed**; no exact in-world stop time was stated. Cedar's underlying case and Dupree's possible retaliation remain open, alongside the Pixel Sticks sponsor and Core 7 / Dead Soldier threads. Valgaut remains hard-paused; Kilimanjaro remains an alternate starter PC.
 
 ## Navigation
 

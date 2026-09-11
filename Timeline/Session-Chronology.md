@@ -2,7 +2,7 @@
 title: Session Chronology
 type: timeline
 visibility: player-safe
-updated: 2026-09-04
+updated: 2026-09-11
 ---
 
 # Session Chronology
@@ -106,6 +106,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 78 | [Session 2026-08-13](../Sessions/2026-08-13.md) | 2026-08-13 | 2066-05-14 night into 2066-05-15 dawn | canon | Player-driven **Valgaut / Wyrmwatch** follow-up. The full crew found **Chunky Sparkles** at **Radnor Lake**, used research, Taco's old handling context, Herrick's prisoner intel from **Lizzo Wells**, food bait, and command phrases to lure it out, killed a regenerating gator-like awakened predator, and completed the Wyrmwatch handoff for **5,000¥** and **4 Karma** each. This establishes the current active campaign date as **2066-05-15**. |
 | 79 | [Session 2026-08-27](../Sessions/2026-08-27.md) | 2026-08-27 | 2066-05-15 daytime | provisional | Player-driven **Pixel Sticks sponsor** follow-up for Mevin, Kurgan, and Curtis after Valgaut was hard-paused. The crew interviewed surviving Pixel Sticks prisoners through Herrick, confirmed an anonymous dead-drop benefactor aimed them at **Cross Applied Technology**, strongly implicated **The Princeps Group / Claude August** through a draconic Matrix icon and prior feud context, identified **Lizzo Wells / Handy-Sandy** as a probable otaku / technoshaman and Grid Overwatch person of interest, and sold the intelligence / utility handoff to **Imogene Viola** for **10,000¥ total**. |
 | 80 | [Session 2026-09-03](../Sessions/2026-09-03.md) | 2026-09-03 | 2066-05-20 evening | provisional | Contract-run starter session introducing **Kilimanjaro** as Abe's **Alternate PC** / new-player starter character. **Byron L. Cedar** of **HEMP Global Agronomics** hired Kilimanjaro to keep corrupt judge **Hiram Belisarius** out of court without killing or permanently removing him. The crew located Belisarius and bodyguard **Renaud Dupree**, scattered **8th Street**, lured the pair toward **Mucky's** for a supposed better gambling opportunity, and stopped with the final takedown unresolved. |
+| 81 | [Session 2026-09-10](../Sessions/2026-09-10.md) | 2026-09-10 | 2066-05-20 evening through 2066-05-21 evening, after court closed | provisional calendar; confirmed outcome | **Curtis, Mevin, and Kilimanjaro** completed the Belisarius court-delay job. Mucky assisted for a cut; the judge was sedated and extracted, Dupree's armored pursuit ended in a crash he survived, and the crew held Belisarius through court before releasing him near 8th Street Cafe under a debt-shakedown cover. Cedar accepted and paid despite the public kidnapping. **5 Karma to all PCs; 20,000¥ each to Curtis and Mevin.** |
 
 ## Read this sequence in plain English
 
@@ -124,6 +125,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 13. Session 2026-08-13 is a player-driven Wyrmwatch / Chunky Sparkles follow-up after the scorpion-drone recovery. It runs from **2066-05-14 night into 2066-05-15 dawn**, and establishes **2066-05-15 early morning** as the current active campaign date.
 14. Session 2026-08-27 follows the Pixel Sticks sponsor trail later on **2066-05-15** provisionally, confirming the attack was aimed at CAT and strongly implicating Princeps / Claude without creating fully public proof.
 15. Session 2026-09-03 moves to a new contract-run starter session on provisional **2066-05-20 evening**. It introduces **Kilimanjaro** as Abe's Alternate PC / starter character and starts the **Byron Cedar / Judge Belisarius** court-delay job, ending outside **Mucky's** before the final takedown.
+16. Session 2026-09-10 resumes the Mucky's scene on the same provisional evening, then explicitly advances through the following court day. Belisarius's release and the completed contract place the current endpoint at provisional **2066-05-21 evening, after court closed**; the transcript does not supply an exact in-world clock time. Cedar's underlying case and Dupree's potential retaliation remain unresolved.
 
 ## Gaps and caveats
 

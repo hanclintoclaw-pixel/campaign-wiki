@@ -3,13 +3,14 @@ title: The Finisher
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-07
+last_updated_session: 2026-09-10
 canon_status: provisional
 confidence: medium
 tags: [vehicle, drone, roto-drone, rigger, curtis]
 sources:
   - PARTY_DOSSIER.md
   - Discord GM approval for Pilot 2 brain install, 2026-09-07
+  - ../Sessions/2026-09-10.md
 ---
 
 # The Finisher
@@ -40,6 +41,12 @@ Part of the campaign's dedicated **Drones / Vehicles** reference layer rather th
 
 An armed rotating-wing drone in Curtis's active combat/surveillance toolkit.
 
+During the Session 2026-09-10 Belisarius getaway, The Finisher operated on its approved Pilot 2 brain while Curtis rigged Grandpa. It failed a tire shot against Dupree's armored reinforced pursuing vehicle, then chipped the vehicle with SMG fire. The pursuing vehicle's pop-up LMG missed the drone, and no new Finisher damage or repair cost is confirmed.
+
+## Relevant Sessions
+
+- 2026-09-10 — deployed during the Belisarius getaway; engaged Dupree's pursuing vehicle without confirmed damage to the drone.
+
 ## Taco Fillings
 
 > "The Finisher's for fast violence and ugly angles. Use altitude, hit from where folks ain't ready, and then move before they solve the problem. If you hover like you're posing for a catalog, somebody's gonna swat your bird outta the air."
@@ -47,3 +54,4 @@ An armed rotating-wing drone in Curtis's active combat/surveillance toolkit.
 ## Sources
 
 - `PARTY_DOSSIER.md`
+- [Session 2026-09-10](../Sessions/2026-09-10.md)

@@ -2,20 +2,20 @@
 title: Current State
 type: dashboard
 visibility: player-safe
-updated: 2026-09-04
+updated: 2026-09-11
 ---
 
 # Current State
 
 ## Current Focus
 
-The latest active run is [Session 2026-09-03](Sessions/2026-09-03.md): with **[Valgaut](PCs/Valgaut.md)** still hard-paused, Abe joined using **[Kilimanjaro](PCs/Kilimanjaro.md)** as an **Alternate PC** / starter character for new players. **[Byron L. Cedar](NPCs/Byron-Cedar.md)**, corporate lawyer for **[HEMP Global Agronomics](Organizations/HEMP-Global-Agronomics.md)**, hired Kilimanjaro to make sure corrupt circuit judge **[Hiram Belisarius](NPCs/Judge-Hiram-Belisarius.md)** misses court the next day without being killed, permanently removed from the docket, or obviously targeted.
+The **[Byron Cedar / Judge Belisarius rush job](Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)** is complete following **[Session 2026-09-10](Sessions/2026-09-10.md)**. Curtis, Mevin, and Kilimanjaro used Mucky's cooperation and Cindy's gambling support to isolate Belisarius, extracted him under sedation, and escaped a public vehicle chase. Kilimanjaro disabled **[Renaud Dupree](NPCs/Renaud-Dupree.md)**'s armored vehicle; Dupree survived.
 
-The current scene is paused outside **[Mucky's Place](Locations/Muckys-Place.md)**. The crew has lured Belisarius and his heavily cybered troll bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** away from Belisarius's usual diner / **[8th Street](Factions/8th-Street.md)** alley gambling routine, but the final incapacitation plan is still unsettled.
+The crew hid Belisarius through the next court day, then released him near **[8th Street Cafe](Locations/8th-Street-Cafe.md)** with a gambling-debt shakedown cover story. **[Byron L. Cedar](NPCs/Byron-Cedar.md)** accepted the outcome and paid despite the conspicuous kidnapping. **All PCs received 5 Karma; Curtis and Mevin received 20,000¥ each.** No next contract was selected. Valgaut remains hard-paused, and Kilimanjaro remains an alternate starter PC.
 
 ## Recent Runs / Follow-ups
 
-- The **Byron Cedar / Judge Belisarius rush job** in [Session 2026-09-03](Sessions/2026-09-03.md) introduced **Kilimanjaro** as Abe's alternate starter PC, established Cedar and HEMP Global Agronomics as the employer side, identified Belisarius and Renaud Dupree as the target pair, scattered **8th Street**, and paused at **Mucky's** before the final takedown.
+- The **Byron Cedar / Judge Belisarius rush job**, begun in [Session 2026-09-03](Sessions/2026-09-03.md), concluded in [Session 2026-09-10](Sessions/2026-09-10.md). Mucky agreed to help for 10% of the take; Kilimanjaro volunteered to cover Mucky's cut from his own share. Belisarius missed court and was released alive; Dupree survived his vehicle crash. Cedar's unexpectedly positive acceptance leaves a new employer-side mystery, not an unfinished contract.
 - The **Pixel Sticks sponsor follow-up** in [Session 2026-08-27](Sessions/2026-08-27.md) identified the Pixel Sticks as disposable proxy assets aimed at CAT, strongly implicated Princeps / Claude, introduced **Lizzo Wells / Handy-Sandy** as a probable otaku / technoshaman and Grid Overwatch person of interest, and paid **10,000¥ total** to Mevin, Kurgan, and Curtis.
 - The **Chunky Sparkles / Wyrmwatch** follow-up in [Session 2026-08-13](Sessions/2026-08-13.md) found Chunky Sparkles at **Radnor Lake**, used Lizzo Wells's command phrases and food incentives to lure it out, and awarded **5,000¥** plus **4 Karma** each.
 - The **Pixel Sticks scorpion drone** follow-up in [Session 2026-08-06](Sessions/2026-08-06.md) recovered the damaged drone from **South Side Highwaymen** territory, confirmed **Chunky Sparkles** escaped Hidden Enforcers containment, and awarded **7 Karma** with no nuyen payout.
@@ -27,17 +27,16 @@ The current scene is paused outside **[Mucky's Place](Locations/Muckys-Place.md)
 ## In-World Date
 
 - Current campaign year: **2066**
-- Current active date: **2066-05-20 evening**, provisional next-Thursday placement after the 2066-05-15 campaign anchor.
-- Current active posture: live rush job to keep Judge Hiram Belisarius out of court, with Valgaut temporarily off active duty and Kilimanjaro filling the alternate-PC starter role.
-- Recent time compression: the Pixel Sticks payout and Core 7 / Earl Stryker follow-up sit on **2066-05-12 night**; the scorpion-drone stakeout consumes roughly forty-eight hours; the Radnor Lake scene reaches **2066-05-15 dawn**; the 2026-08-27 follow-up appears to take place later on **2066-05-15**; the 2026-09-03 rush job is provisionally placed on **2066-05-20 evening** unless the GM corrects the timing.
+- Current active date: **2066-05-21 evening, after court closed (provisional)**. The session explicitly advances through the next court day after the prior **2066-05-20 evening** placement; the absolute calendar date remains provisional.
+- Current active posture: between runs after Belisarius's release and Cedar's acceptance; no exact in-world stop time or next mission was recorded. Valgaut remains temporarily off active duty and Kilimanjaro remains an alternate starter PC.
+- Recent time compression: the Pixel Sticks payout and Core 7 / Earl Stryker follow-up sit on **2066-05-12 night**; the scorpion-drone stakeout consumes roughly forty-eight hours; the Radnor Lake scene reaches **2066-05-15 dawn**; the 2026-08-27 follow-up appears to take place later on **2066-05-15**; the 2026-09-03 rush job is provisionally placed on **2066-05-20 evening**, and its 2026-09-10 conclusion advances through the following court day to **2066-05-21 evening**, unless the GM corrects the calendar placement.
 
 ## Immediate Leads
 
-- finish the **Byron Cedar / Judge Belisarius** job by incapacitating Belisarius for 24 to 48 hours without killing him or making the job look targeted
-- manage or neutralize **Renaud Dupree** without turning the job into an obvious murder / assault case
-- decide whether using **Mucky's** and **Melchizedek's** house as the trap creates new obligations or backlash
-- learn what case **HEMP Global Agronomics** needs delayed
-- track whether **Officer Davis Holbrook** becomes relevant once Belisarius misses court
+- learn what case **HEMP Global Agronomics** needed delayed and why Cedar was pleased despite the public kidnapping
+- monitor surviving **Renaud Dupree**, the missing-person publicity, and whether the gambling-debt cover story holds
+- keep Mucky's 10% assistance agreement distinct from the confirmed net payouts; Kilimanjaro covered his cut, but Kilimanjaro's exact remaining balance was not stated
+- track any reaction from **8th Street** to a shakedown story pointing toward their neighborhood, or from **Officer Davis Holbrook** to the missed court appearance
 - trace the draconic humanoid Matrix icon tied to the Pixel Sticks benefactor
 - decide how to handle possible CAT follow-up work through **Imogene Viola**
 - determine what CAT can learn from the recovered utility samples / forensic handoff
@@ -51,9 +50,9 @@ The current scene is paused outside **[Mucky's Place](Locations/Muckys-Place.md)
 
 ## Open Questions
 
-- Can the crew make Belisarius miss court cleanly enough for Cedar's purposes?
-- What case is Cedar trying to delay, and why is it urgent?
-- How much will Dupree resist once the con tightens?
+- Why did Cedar accept the job so enthusiastically despite an obvious public kidnapping and shootout?
+- What case was delayed, and what did the delay actually accomplish for HEMP?
+- Will Dupree seek retaliation or identify the crew, and how far does the staged debt-collection story protect them?
 - Will Kilimanjaro remain an alternate starter PC, become Abe's continuing PC, or return to NPC/contact status?
 - Can the crew prove Princeps / Claude involvement beyond implication from the draconic icon, CAT target list, and prior feud?
 - What does CAT intend to do with the Pixel Sticks evidence?

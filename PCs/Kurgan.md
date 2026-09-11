@@ -3,7 +3,7 @@ title: Kurgan
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-03
+last_updated_session: 2026-09-10
 canon_status: provisional
 confidence: medium
 tags: [pc, cyber-samurai, active-crew]
@@ -16,6 +16,7 @@ sources:
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
   - ../Sessions/2026-09-03.md
+  - ../Sessions/2026-09-10.md
 ---
 
 # Kurgan
@@ -41,9 +42,11 @@ Active player character and the crew's cyber-samurai.
 - During the 2026-08-27 player-driven follow-up, Kurgan helped frame the Pixel Sticks sponsor inquiry for Herrick, checked **Lizzo Wells / Handy-Sandy** with **Kne@zle**, and supported the decision to approach CAT rather than Princeps.
 - During the 2026-09-03 Byron Cedar rush job, Kurgan served as Kilimanjaro's crew connection, joined the Belisarius job, kept overwatch near the diner, and suggested **Mucky's** as a plausible shadowrunner-friendly gambling destination.
 
+- At the start of [Session 2026-09-10](../Sessions/2026-09-10.md), Kurgan withdrew from the encounter to preserve plausible deniability around his City Hall connections and retirement ambitions; he did not take part in the closing extraction or chase.
+
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** at least **22 Karma** from currently tracked wiki events, plus any earlier untracked balance.
+- **Known current Karma:** at least **27 Karma** from currently tracked wiki events, plus any earlier untracked balance.
 - **Known current nuyen:** at least **29,333¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-06-25 — Righteous Haze interlude:** **+4 Karma**, **+5,000¥** total payout / recovered value.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
@@ -51,6 +54,8 @@ Active player character and the crew's cyber-samurai.
 - **2026-08-06 — Scorpion drone recovery:** **+7 Karma**, no nuyen payout recorded.
 - **2026-08-13 — Wyrmwatch / Chunky Sparkles follow-up:** **+4 Karma**, **+5,000¥**.
 - **2026-08-27 — Pixel Sticks sponsor follow-up:** **+3,333¥ approximate share** from CAT's **10,000¥** intelligence / utility-sample payment; no Karma recorded.
+
+- **2026-09-10 — GM all-PC closeout award:** **+5 Karma**, tracked total **22 -> 27**. Kurgan was not recorded as an active participant in the closing session; the GM's explicit all-PC award on 2026-09-11 applies independently of attendance. No nuyen payout was assigned to Kurgan.
 
 ## Relationships
 

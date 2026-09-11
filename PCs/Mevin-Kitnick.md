@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-03
+last_updated_session: 2026-09-10
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -19,6 +19,7 @@ sources:
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
   - ../Sessions/2026-09-03.md
+  - ../Sessions/2026-09-10.md
 ---
 
 # Mevin Kitnick
@@ -70,13 +71,15 @@ Mevin is usually the crew member most responsible for:
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** at least **11 Karma** after the Session 2026-08-13 award. Earlier unspent/spent totals are not yet fully reconstructed on this page.
-- **Known current nuyen:** at least **24,333¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
+- **Known current Karma:** at least **16 Karma** after the Session 2026-09-10 award. Earlier unspent/spent totals are not yet fully reconstructed on this page.
+- **Known current nuyen:** at least **44,333¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page; unpriced session expenses remain unreconciled.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 - **Retained asset:** encrypted utility/paydata material for later cracking or evaluation with Cindy Lou.
 - **2026-08-13 — Wyrmwatch / Chunky Sparkles follow-up:** **+4 Karma**, **+5,000¥**.
 - **2026-08-27 — Pixel Sticks sponsor follow-up:** **+3,333¥ approximate share** from CAT's **10,000¥** intelligence / utility-sample payment; no Karma recorded.
+
+- **2026-09-10 — Byron Cedar / Judge Belisarius closeout:** **+5 Karma**, **+20,000¥** confirmed net payout; tracked totals **11 -> 16 Karma** and **24,333¥ -> 44,333¥**. Kilimanjaro covered Mucky's cut from his own share, so no additional deduction applies to Mevin. A credstick offered during the Mucky approach and a used tranq patch have no recorded cost; no amount is invented.
 
 ## Matrix Style
 
@@ -106,6 +109,8 @@ Mevin's Matrix play style, as established so far, emphasizes:
 - **2026-08-13** — supported Valgaut's research into luring Chunky Sparkles, helped surface the creature's feed preference, joined the Radnor Lake support team, and earned **4 Karma** plus **5,000¥**.
 - **2026-08-27** — led the Pixel Sticks prisoner interviews, identified Lizzo / Handy-Sandy's raw Matrix connection signs, handled the CAT contact through Imogene Viola, and earned an approximate **3,333¥** share.
 - **2026-09-03** — joined Kilimanjaro's Byron Cedar rush job, eavesdropped on Belisarius and Dupree with enhanced hearing, recorded their voices for possible Cindy analysis, and helped keep the Mucky's lure moving; no payout or Karma recorded yet.
+
+- **[2026-09-10](../Sessions/2026-09-10.md)** — negotiated Mucky's assistance, applied the tranq patch, secured the judge and screened his cyber-eye feed, then devised the gambling-debt shakedown cover using Cindy's signal spoofing. The completed contract paid **20,000¥** and **5 Karma**.
 
 ## Table-Use SR3 Stat Block
 

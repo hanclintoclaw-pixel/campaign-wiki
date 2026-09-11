@@ -4,7 +4,7 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-09-04
+updated: 2026-09-11
 tags: [leads, clues, open-threads]
 ---
 
@@ -22,29 +22,29 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 
 ## Active high-value leads
 
-### Complete the Byron Cedar / Judge Belisarius court-delay job
+### Explain Cedar's satisfaction and watch the Belisarius fallout
 
-**Status:** active current run
+**Status:** contract resolved; employer mystery and fallout active
 
-**Last touched:** [Session 2026-09-03](../Sessions/2026-09-03.md)
+**Last touched:** [Session 2026-09-10](../Sessions/2026-09-10.md)
 
 **Connected pages:** [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md), [Kilimanjaro](../PCs/Kilimanjaro.md), [Byron L. Cedar](../NPCs/Byron-Cedar.md), [Judge Hiram Belisarius](../NPCs/Judge-Hiram-Belisarius.md), [Renaud Dupree](../NPCs/Renaud-Dupree.md), [HEMP Global Agronomics](../Organizations/HEMP-Global-Agronomics.md), [Mucky's Place](../Locations/Muckys-Place.md)
 
-Cedar hired Kilimanjaro to make sure Judge Belisarius misses court the next day without being killed, permanently removed from the docket, or obviously targeted. The crew has lured Belisarius and Renaud Dupree toward Mucky's, but the final incapacitation plan is not yet resolved.
+Belisarius missed court and was released alive near [8th Street Cafe](../Locations/8th-Street-Cafe.md). The GM confirmed the job complete and paid. Mucky knowingly helped for a cut; the crew escaped after Kilimanjaro disabled Dupree's armored vehicle. Dupree survived, and the kidnapping generated a missing-person news story. The crew staged a gambling-debt shakedown cover with Cindy's signal spoofing, but that does not establish that all witnesses or records were neutralized.
 
 **Player-facing questions**
 
-- What case does HEMP Global Agronomics need delayed, and why is it urgent?
-- Can Belisarius be kept out of court for 24 to 48 hours while believing the failure was his own bad luck or overindulgence?
-- Can the crew manage Renaud Dupree without turning the job into a loud assault or killing the bodyguard?
-- Will Mucky or Melchizedek object to the crew using the gambling hall as the trap site?
-- Does Officer Davis Holbrook become relevant once Belisarius misses court?
+- What case did HEMP Global Agronomics need delayed, and why was Cedar surprisingly pleased despite the very public kidnapping and shootout?
+- Will Dupree identify or retaliate against the crew after surviving his crash?
+- Will the staged debt-collection story hold, or bring pressure onto 8th Street and the crew?
+- Does Officer Davis Holbrook become involved in the aftermath? No intervention by him was established this session.
 
 **Possible next actions**
 
-- Use Mucky's as the controlled venue and decide whether the con, drugs, booze, intimidation, or direct force carries the least risk.
-- Track Belisarius through Kilimanjaro's planted comm unit if the target pair moves unexpectedly.
-- Keep the result deniable enough that Cedar remains a future contact rather than a loose end.
+- Ask Cedar about the outcome of the delayed case, without assuming the contract remains unfinished.
+- Follow missing-person / court news and any word of Dupree's recovery or response.
+- Treat Mucky as a knowing business participant, not an unsuspecting victim; his 10% cut was covered from Kilimanjaro's share.
+- Preserve the distinction between the apparent local cyber-eye tracking feed and unproven claims about offsite recording or erased evidence.
 
 ### Trace Dead Soldier / the Scarred Man
 

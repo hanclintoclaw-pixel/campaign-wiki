@@ -32,6 +32,7 @@
 - [Ansen Moscow](Ansen-Moscow.md)
 - [Byron L. Cedar](Byron-Cedar.md)
 - [Blue Rayven](Blue-Rayven.md)
+- [Big Lou / Big Blue](Big-Lou.md)
 - [Candace Wrapper](Candace-Wrapper.md)
 - [Chunky Sparkles](Chunky-Sparkles.md)
 - [Claude August](Claude-August.md)

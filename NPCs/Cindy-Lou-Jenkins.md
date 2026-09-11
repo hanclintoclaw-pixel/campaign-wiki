@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-08-15
+last_updated_session: 2026-09-10
 canon_status: canonical-name
 confidence: medium
 aliases:
@@ -19,6 +19,7 @@ sources:
   - memory/2026-02-27.md
   - PARTY_DOSSIER.md
   - NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md
+  - ../Sessions/2026-09-10.md
 ---
 
 # Cindy Lou Jenkins
@@ -222,6 +223,12 @@ Cindy Lou also has two provisional in-game drone records for table use:
 - **[Tip Jar](../Vehicles/Tip-Jar.md)** - customized Renraku Barback used as Cindy's meat-space busking avatar and public-facing field body.
 
 These assets are options for Cindy initiative suggestions during session play. They do not auto-deploy or override GM control of scene pacing, positioning, availability, or consequences.
+
+## Recent Field Work
+
+In [Session 2026-09-10](../Sessions/2026-09-10.md), Cindy supported the completed [Byron Cedar / Judge Belisarius job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md). With Belisarius accepting a gambling advantage, his cyber-eye was paired through Grandpa so Cindy could receive the visual feed and send advice. Her statistical guidance helped him win despite poor play and mounting intoxication.
+
+The crew also identified a separate local cyber-eye signal, most plausibly a bodyguard tracking / live-view aid for Renaud Dupree. After the extraction, Cindy's Computer test succeeded with **three successes**, and the GM accepted that she could reproduce the signal or supply its frequency for the crew's use. Mevin incorporated that support into the resolved gambling-debt shakedown cover. This does **not** establish a discovered offsite server, erased recordings, or immunity from later identification.
 
 ## Important relationships
 

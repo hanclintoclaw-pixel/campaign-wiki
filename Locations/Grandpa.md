@@ -4,7 +4,7 @@ type: vehicle
 visibility: player-safe
 status: active
 first_session: 2026-03-20
-last_updated_session: 2026-09-07
+last_updated_session: 2026-09-10
 canon_status: current
 confidence: high
 tags: [vehicle, rv, mobile-base, rigger, curtis]
@@ -16,6 +16,7 @@ sources:
   - Curtis Drone Shift report, 2026-07-24
   - Discord #leeland Curtis/Taco chameleon paint install, 2026-08-02
   - Discord GM approval for Pilot 2 brain install, 2026-09-07
+  - ../Sessions/2026-09-10.md
 ---
 
 # Grandpa
@@ -77,6 +78,8 @@ Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extract
 - Curtis operated from Grandpa during the March 18/19 operational sequence.
 - Grandpa served as the platform from which the crew monitored surveillance feeds during the Jet Set Morgan tail.
 - A satellite dish had previously been mounted on the RV for encrypted-contact monitoring.
+- During the Session 2026-09-10 Belisarius getaway, Curtis rigged Grandpa into a sharp turn while The Finisher operated on its approved Pilot 2 brain.
+- No new Grandpa damage, repair cost, or Pilot downgrade is confirmed from the getaway.
 
 ## Matrix Retrofit / Luxury Mobile Connection
 
@@ -103,6 +106,7 @@ Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extract
 
 - 2026-03-18 / 2026-03-19 — mobile operational base during Curtis-centered action.
 - 2026-04-09 — used as the support node for Jet Set Morgan surveillance.
+- 2026-09-10 — getaway vehicle during the completed Belisarius court-delay job.
 
 ## Taco Fillings
 
@@ -113,3 +117,4 @@ Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extract
 - `memory/2026-03-20.md`
 - `memory/2026-04-09.md`
 - `PARTY_DOSSIER.md`
+- [Session 2026-09-10](../Sessions/2026-09-10.md)
