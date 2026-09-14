@@ -4,7 +4,7 @@ type: vehicle
 visibility: player-safe
 status: active
 first_session: 2026-03-20
-last_updated_session: 2026-09-10
+last_updated_session: 2026-09-14
 canon_status: current
 confidence: high
 tags: [vehicle, rv, mobile-base, rigger, curtis]
@@ -17,6 +17,7 @@ sources:
   - Discord #leeland Curtis/Taco chameleon paint install, 2026-08-02
   - Discord GM approval for Pilot 2 brain install, 2026-09-07
   - ../Sessions/2026-09-10.md
+  - Discord #leeland Grandpa standard armor retrofit approval, 2026-09-14
 ---
 
 # Grandpa
@@ -31,7 +32,7 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 
 - **Handling:** 4/3
 - **Speed/Acceleration:** 115/6
-- **Body/Armor:** 4/4
+- **Body/Armor:** 4/6
 - **Signature:** 3
 - **Pilot:** 2
 - **Cargo:** 22/1593 with ballast kit empty; approximately 18/393 with ballast filled
@@ -44,6 +45,7 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 - **Crash cage:** padded, hydraulically cushioned passenger cabin/seating that grants occupants **+6 dice** on crash Damage Resistance Tests. Cost paid by Curtis: **3,500¥**. Installed on 2026-07-16. Rules source: *Rigger 3 Revised*, p. 132.
 - **Flood ballast kit:** removable low-slung ballast package with baffled underfloor water-ballast tanks, locking steel ballast trays, frame brackets, fill indicators, and automatic dump valves. Cost paid by Curtis: **3,200¥**. Installed by Curtis in **18 hours** on 2026-07-16: Car B/R 3 vs TN 4 scored 1 success for 16 hours of tanks/brackets work, and Electronics 6 vs TN 4 scored 2 successes for 2 hours of indicator/dump-valve work. When filled, the kit adds about **1,500 kg** of low-mounted ballast for floodwater crossings. Table effect: **-1 TN** to resist being shoved/swept by moving water, but **+1 TN** to tight maneuvering/recovery tests while filled; drain afterward to return to normal driving posture.
 - **Advanced Drone Pilot Rating 2 brain:** recovered from the Pixel Sticks scorpion-drone salvage project and installed by Curtis on 2026-09-07. Install rolls: Car B/R 3 vs TN 4 scored 1 success, Electronics 6 vs TN 5 scored 2 successes, and Car 4 road/autonav shakedown vs TN 4 scored 2 successes. Grandpa passes controlled shakedown; autonomous use remains conservative and command-limited unless the GM expands it.
+- **Standard armor retrofit:** standard vehicle armor package raising Grandpa from **Armor 4 to Armor 6**. Cost paid by Curtis: **16,500¥**. Sourced through Taco starting **2066-05-21 evening**; Etiquette 4 vs TN 6 scored 1 success for a **7-day** sourcing interval. Taco's shop was available immediately once the kit arrived. Curtis installed the package in about **36 hours**: Car B/R 3 vs TN 4 scored 2 successes, Electronics 6 vs TN 4 scored 4 successes to preserve chameleon paint/sensors/accessory integration, and Car 4 vs TN 4 scored 3 successes on shakedown. Grandpa can start using the Armor 6 rating in game on **2066-05-30 morning**. The retrofit represents reinforced side and rear panels, armored engine compartment, underbody protection, cabin ballistic lining, and strengthened doors/hatches; it is not smart armor, ablative armor, ruthenium, or radar-absorbing material.
 
 ## Pilot 2 House Rules / Command Limits
 
@@ -80,6 +82,7 @@ Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extract
 - A satellite dish had previously been mounted on the RV for encrypted-contact monitoring.
 - During the Session 2026-09-10 Belisarius getaway, Curtis rigged Grandpa into a sharp turn while The Finisher operated on its approved Pilot 2 brain.
 - No new Grandpa damage, repair cost, or Pilot downgrade is confirmed from the getaway.
+- Grandpa's standard armor retrofit is complete and usable from **2066-05-30 morning** onward, raising his active armor rating to **6**.
 
 ## Matrix Retrofit / Luxury Mobile Connection
 
@@ -118,3 +121,4 @@ Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extract
 - `memory/2026-04-09.md`
 - `PARTY_DOSSIER.md`
 - [Session 2026-09-10](../Sessions/2026-09-10.md)
+- Discord #leeland Grandpa standard armor retrofit approval, 2026-09-14
