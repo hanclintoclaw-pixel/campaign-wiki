@@ -3,7 +3,7 @@ title: Kurgan
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-10
+last_updated_session: 2026-09-17
 canon_status: provisional
 confidence: medium
 tags: [pc, cyber-samurai, active-crew]
@@ -17,6 +17,7 @@ sources:
   - ../Sessions/2026-08-27.md
   - ../Sessions/2026-09-03.md
   - ../Sessions/2026-09-10.md
+  - ../Sessions/2026-09-17.md
 ---
 
 # Kurgan
@@ -43,6 +44,7 @@ Active player character and the crew's cyber-samurai.
 - During the 2026-09-03 Byron Cedar rush job, Kurgan served as Kilimanjaro's crew connection, joined the Belisarius job, kept overwatch near the diner, and suggested **Mucky's** as a plausible shadowrunner-friendly gambling destination.
 
 - At the start of [Session 2026-09-10](../Sessions/2026-09-10.md), Kurgan withdrew from the encounter to preserve plausible deniability around his City Hall connections and retirement ambitions; he did not take part in the closing extraction or chase.
+- Kurgan was absent from [Session 2026-09-17](../Sessions/2026-09-17.md), but the new White Creek / Ring of Fire job explicitly touches **Humanis** territory and was noted by the GM as originally written with Kurgan in mind.
 
 ## Karma And Nuyen Ledger
 
@@ -61,6 +63,7 @@ Active player character and the crew's cyber-samurai.
 
 - Linked to the crew's high-speed combat role.
 - Linked historically to **Humanis**.
+- Currently relevant to the [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md) because his former Humanis association may become useful or dangerous if he joins the continuation.
 - Linked to **[Mayor Mike Haggar](../NPCs/Mayor-Mike-Haggar.md)** and **[Joseph Neumann](../NPCs/Joseph-Neumann.md)** through the Righteous Haze job.
 
 ## Relevant Sessions
@@ -72,8 +75,10 @@ Active player character and the crew's cyber-samurai.
 - 2026-08-13 — supported Valgaut's Chunky Sparkles recovery, called Herrick for prisoner-side command intel, used wilderness survival to approach Radnor Lake safely, shot the regenerating predator, and earned **4 Karma** plus **5,000¥**.
 - 2026-08-27 — helped drive the Pixel Sticks sponsor follow-up, contacted Kne@zle about Handy-Sandy, and earned an approximate **3,333¥** share from CAT's intelligence payment.
 - 2026-09-03 — joined Kilimanjaro's Byron Cedar rush job, provided overwatch, and helped point the team toward Mucky's as the next-stage lure site; no payout or Karma recorded yet.
+- 2026-09-17 — absent, but the new Ring of Fire / Humanis job was identified as a natural Kurgan-relevant run; no payout or Karma recorded.
 
 ## Sources
 
 - `PARTY_DOSSIER.md`
 - [Session 2026-06-25](../Sessions/2026-06-25.md)
+- [Session 2026-09-17](../Sessions/2026-09-17.md)

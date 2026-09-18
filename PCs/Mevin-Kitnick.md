@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-10
+last_updated_session: 2026-09-17
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -20,6 +20,7 @@ sources:
   - ../Sessions/2026-08-27.md
   - ../Sessions/2026-09-03.md
   - ../Sessions/2026-09-10.md
+  - ../Sessions/2026-09-17.md
 ---
 
 # Mevin Kitnick
@@ -68,6 +69,7 @@ Mevin is usually the crew member most responsible for:
 - During the 2026-08-13 Wyrmwatch / Chunky Sparkles follow-up, Mevin supported Valgaut's research into nonviolent handling methods and helped recover the key feed information from prior Happy Cat observations.
 - During the 2026-08-27 Pixel Sticks sponsor follow-up, Mevin used etiquette, police-procedure, Matrix, and corporate-procedure angles to lead the prisoner interviews and package the findings for CAT.
 - During the 2026-09-03 Byron Cedar rush job, Mevin used friendly-face social positioning and cyber-ear eavesdropping to monitor Judge Belisarius and Renaud Dupree, recorded their voices for possible Cindy analysis, and helped talk Belisarius down at Mucky's.
+- During the 2026-09-17 Humanis evidence retrieval opening, Mevin identified the pre-Crash data problem as a physical/evidence retrieval rather than a normal Matrix theft, sourced a primitive 9-pin old-interface device with Cindy's help, assessed White Creek for Matrix/satellite clues, and queued a Humanis hidden-host approach after Cindy detected an intermittent signal tied to the location.
 
 ## Karma And Nuyen Ledger
 
@@ -80,6 +82,7 @@ Mevin is usually the crew member most responsible for:
 - **2026-08-27 — Pixel Sticks sponsor follow-up:** **+3,333¥ approximate share** from CAT's **10,000¥** intelligence / utility-sample payment; no Karma recorded.
 
 - **2026-09-10 — Byron Cedar / Judge Belisarius closeout:** **+5 Karma**, **+20,000¥** confirmed net payout; tracked totals **11 -> 16 Karma** and **24,333¥ -> 44,333¥**. Kilimanjaro covered Mucky's cut from his own share, so no additional deduction applies to Mevin. A credstick offered during the Mucky approach and a used tranq patch have no recorded cost; no amount is invented.
+- **2026-09-17 — Humanis evidence retrieval opening:** no Karma, payout, or tracked personal expense recorded yet.
 
 ## Matrix Style
 
@@ -111,6 +114,7 @@ Mevin's Matrix play style, as established so far, emphasizes:
 - **2026-09-03** — joined Kilimanjaro's Byron Cedar rush job, eavesdropped on Belisarius and Dupree with enhanced hearing, recorded their voices for possible Cindy analysis, and helped keep the Mucky's lure moving; no payout or Karma recorded yet.
 
 - **[2026-09-10](../Sessions/2026-09-10.md)** — negotiated Mucky's assistance, applied the tranq patch, secured the judge and screened his cyber-eye feed, then devised the gambling-debt shakedown cover using Cindy's signal spoofing. The completed contract paid **20,000¥** and **5 Karma**.
+- **[2026-09-17](../Sessions/2026-09-17.md)** — joined the Sandusky / White Creek job, sourced a pre-Crash-compatible 9-pin device with Cindy's help, assessed the Ring of Fire site for satellite/Matrix clues, and prepared to approach the Humanis Nashville hidden host before the table paused.
 
 ## Table-Use SR3 Stat Block
 

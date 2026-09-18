@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-09-11
+updated: 2026-09-18
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,9 +20,9 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The **[Byron Cedar / Judge Belisarius rush job](Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)** concluded in **[Session 2026-09-10](Sessions/2026-09-10.md)**. Curtis, Mevin, and Kilimanjaro extracted Belisarius from **[Mucky's Place](Locations/Muckys-Place.md)**, escaped his bodyguard **[Renaud Dupree](NPCs/Renaud-Dupree.md)** in a vehicle chase, and kept the judge out of court before releasing him near **[8th Street Cafe](Locations/8th-Street-Cafe.md)** under a staged gambling-debt shakedown story. Dupree survived; **[Byron L. Cedar](NPCs/Byron-Cedar.md)** accepted the result surprisingly happily despite the public kidnapping. **All PCs received 5 Karma; Curtis and Mevin received 20,000¥ each.**
+The crew has started the **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** in **[Session 2026-09-17](Sessions/2026-09-17.md)**. An anonymous Mr. Johnson hired Curtis, Mevin, and Kilimanjaro to recover pre-Crash paper records and physical evidence on **[Lula Bell Sandusky](NPCs/Lula-Bell-Sandusky.md)** from the old **[White Creek Civic Center](Locations/White-Creek-Civic-Center.md)** north of Nashville.
 
-The crew is between runs, provisionally **2066-05-21 evening, after court closed**; no exact in-world stop time was stated. Cedar's underlying case and Dupree's possible retaliation remain open, alongside the Pixel Sticks sponsor and Core 7 / Dead Soldier threads. Valgaut remains hard-paused; Kilimanjaro remains an alternate starter PC.
+The site is held by **[Paul Hardcastle](NPCs/Paul-Hardcastle.md)** and the **[Ring of Fire](Factions/Ring-of-Fire.md)**, a **[Humanis](Factions/Humanis.md)**-affiliated smuggling gang. The crew reconned the fortified low-tech building, hid **[Buzz](Vehicles/Buzz.md)** on the roof as a passive listener, sourced smoke/flash gear and gas masks, and paused before Mevin's Matrix approach to a Humanis hidden host. **No award or final payout has been recorded yet.** The active date is provisional late May 2066, at least two in-world legwork days after the Johnson meet.
 
 ## Navigation
 

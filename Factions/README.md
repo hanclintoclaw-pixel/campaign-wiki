@@ -11,6 +11,7 @@
 - [The Herons](The-Herons.md)
 - [Mallrats](Mallrats.md)
 - [Humanis](Humanis.md)
+- [Ring of Fire](Ring-of-Fire.md)
 - [Ironblood Orphans](Ironblood-Orphans.md)
 - [Interstate Connection](Interstate-Connection.md)
 - [Draco Foundation](Draco-Foundation.md)

@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-09-10
+last_updated_session: 2026-09-17
 canon_status: canonical-name
 confidence: medium
 aliases:
@@ -20,6 +20,7 @@ sources:
   - PARTY_DOSSIER.md
   - NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md
   - ../Sessions/2026-09-10.md
+  - ../Sessions/2026-09-17.md
 ---
 
 # Cindy Lou Jenkins
@@ -229,6 +230,8 @@ These assets are options for Cindy initiative suggestions during session play. T
 In [Session 2026-09-10](../Sessions/2026-09-10.md), Cindy supported the completed [Byron Cedar / Judge Belisarius job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md). With Belisarius accepting a gambling advantage, his cyber-eye was paired through Grandpa so Cindy could receive the visual feed and send advice. Her statistical guidance helped him win despite poor play and mounting intoxication.
 
 The crew also identified a separate local cyber-eye signal, most plausibly a bodyguard tracking / live-view aid for Renaud Dupree. After the extraction, Cindy's Computer test succeeded with **three successes**, and the GM accepted that she could reproduce the signal or supply its frequency for the crew's use. Mevin incorporated that support into the resolved gambling-debt shakedown cover. This does **not** establish a discovered offsite server, erased recordings, or immunity from later identification.
+
+In [Session 2026-09-17](../Sessions/2026-09-17.md), Cindy supported the opening of the [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md). She helped Mevin source a primitive old-interface device with a 9-pin connector for possible pre-Crash terminals, then later detected a disappearing signal consistent with an intermittent Matrix connection tied to **[White Creek Civic Center](../Locations/White-Creek-Civic-Center.md)**. The table stopped before the Humanis-host / Matrix approach resolved.
 
 ## Important relationships
 

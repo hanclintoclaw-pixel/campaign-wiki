@@ -12,6 +12,7 @@ The standalone Plot Arcs page has been retired. Use the [Campaign Arc Index](../
 Dedicated plot arc pages remain available through the Campaign Arc Index:
 
 - [Byron Cedar / Judge Belisarius Rush Job](Byron-Cedar-Judge-Belisarius-Rush-Job.md)
+- [Humanis Evidence Retrieval](Humanis-Evidence-Retrieval.md)
 - [Pixel Sticks / Military-Grade Utilities Run](Pixel-Sticks-Utility-Run.md)
 - [OCW Side Threads](OCW-Side-Threads.md)
 - [Mucky and Professor X](Mucky-and-Professor-X.md)

@@ -14,6 +14,7 @@
 - [Mina "Red Silk" Park](Mina-Red-Silk-Park.md)
 - [Otis "Gutter Sonnet" Bell](Otis-Gutter-Sonnet-Bell.md)
 - [Palermo](Palermo.md)
+- [Paul Hardcastle](Paul-Hardcastle.md)
 - [Rosalind "Sister Anode" Pike](Rosalind-Sister-Anode-Pike.md)
 - [Taco](Taco.md)
 
@@ -59,6 +60,7 @@
 - [Lizzo Wells / Handy-Sandy](Lizzo-Wells-Handy-Sandy.md)
 - [Lorenzo Zoyle](Lorenzo-Zoyle.md)
 - [Luis Santangelo](Luis-Santangelo.md)
+- [Lula Bell Sandusky](Lula-Bell-Sandusky.md)
 - [March Hare](March-Hare.md)
 - [Mayor Mike Haggar](Mayor-Mike-Haggar.md)
 - [McGillicuddy](McGillicuddy.md)

@@ -2,7 +2,7 @@
 title: Session Chronology
 type: timeline
 visibility: player-safe
-updated: 2026-09-11
+updated: 2026-09-18
 ---
 
 # Session Chronology
@@ -107,6 +107,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 79 | [Session 2026-08-27](../Sessions/2026-08-27.md) | 2026-08-27 | 2066-05-15 daytime | provisional | Player-driven **Pixel Sticks sponsor** follow-up for Mevin, Kurgan, and Curtis after Valgaut was hard-paused. The crew interviewed surviving Pixel Sticks prisoners through Herrick, confirmed an anonymous dead-drop benefactor aimed them at **Cross Applied Technology**, strongly implicated **The Princeps Group / Claude August** through a draconic Matrix icon and prior feud context, identified **Lizzo Wells / Handy-Sandy** as a probable otaku / technoshaman and Grid Overwatch person of interest, and sold the intelligence / utility handoff to **Imogene Viola** for **10,000¥ total**. |
 | 80 | [Session 2026-09-03](../Sessions/2026-09-03.md) | 2026-09-03 | 2066-05-20 evening | provisional | Contract-run starter session introducing **Kilimanjaro** as Abe's **Alternate PC** / new-player starter character. **Byron L. Cedar** of **HEMP Global Agronomics** hired Kilimanjaro to keep corrupt judge **Hiram Belisarius** out of court without killing or permanently removing him. The crew located Belisarius and bodyguard **Renaud Dupree**, scattered **8th Street**, lured the pair toward **Mucky's** for a supposed better gambling opportunity, and stopped with the final takedown unresolved. |
 | 81 | [Session 2026-09-10](../Sessions/2026-09-10.md) | 2026-09-10 | 2066-05-20 evening through 2066-05-21 evening, after court closed | provisional calendar; confirmed outcome | **Curtis, Mevin, and Kilimanjaro** completed the Belisarius court-delay job. Mucky assisted for a cut; the judge was sedated and extracted, Dupree's armored pursuit ended in a crash he survived, and the crew held Belisarius through court before releasing him near 8th Street Cafe under a debt-shakedown cover. Cedar accepted and paid despite the public kidnapping. **5 Karma to all PCs; 20,000¥ each to Curtis and Mevin.** |
+| 82 | [Session 2026-09-17](../Sessions/2026-09-17.md) | 2026-09-17 | late May 2066 after Belisarius job; at least two legwork days pass | provisional | **Curtis, Mevin, and Kilimanjaro** began the **Humanis evidence retrieval**. An anonymous Johnson hired them to recover old pre-Crash evidence on **Lula Bell Sandusky** from **Paul Hardcastle** and the **Ring of Fire** at the old **White Creek Civic Center**. The crew reconned the low-tech fortified site, hid **Buzz** on the roof as a passive listener, sourced smoke/flash gear and gas masks, and stopped before Mevin's Humanis-host / Matrix approach. No awards yet. |
 
 ## Read this sequence in plain English
 
@@ -125,13 +126,14 @@ Ordered by **played date**. The in-world column carries either a source date or 
 13. Session 2026-08-13 is a player-driven Wyrmwatch / Chunky Sparkles follow-up after the scorpion-drone recovery. It runs from **2066-05-14 night into 2066-05-15 dawn**, and establishes **2066-05-15 early morning** as the current active campaign date.
 14. Session 2026-08-27 follows the Pixel Sticks sponsor trail later on **2066-05-15** provisionally, confirming the attack was aimed at CAT and strongly implicating Princeps / Claude without creating fully public proof.
 15. Session 2026-09-03 moves to a new contract-run starter session on provisional **2066-05-20 evening**. It introduces **Kilimanjaro** as Abe's Alternate PC / starter character and starts the **Byron Cedar / Judge Belisarius** court-delay job, ending outside **Mucky's** before the final takedown.
-16. Session 2026-09-10 resumes the Mucky's scene on the same provisional evening, then explicitly advances through the following court day. Belisarius's release and the completed contract place the current endpoint at provisional **2066-05-21 evening, after court closed**; the transcript does not supply an exact in-world clock time. Cedar's underlying case and Dupree's potential retaliation remain unresolved.
+16. Session 2026-09-10 resumes the Mucky's scene on the same provisional evening, then explicitly advances through the following court day. Belisarius's release and the completed contract place that endpoint at provisional **2066-05-21 evening, after court closed**; the transcript does not supply an exact in-world clock time. Cedar's underlying case and Dupree's potential retaliation remain unresolved.
+17. Session 2026-09-17 begins a new **Humanis evidence retrieval** job sometime after the Belisarius job. The transcript does not provide an absolute in-world date, but it does include at least two days of legwork after the Johnson meet: initial prep/recon and a later supply/Matrix-prep day. The active scene is therefore provisionally late May 2066, with **Buzz** already planted on the White Creek roof and Mevin's Matrix approach queued.
 
 ## Gaps and caveats
 
 - [Session 2023-06-15](../Sessions/ARCHIVE_TRIAGE.md) survives only as an attendance-only archive fragment, so it remains chronology-only for now.
 - [Session 2024-01-25](../Sessions/ARCHIVE_TRIAGE.md) survives mainly as Vanessa build / tech notes, so it also remains chronology-only for now.
-- Some earlier modern 2066 pages still need exact in-world day recovery from raw notes and recaps. The latest active scene is provisionally **2066-05-20 evening**, while **2066-05-15** remains the last hard campaign-date anchor before the new rush job.
+- Some earlier modern 2066 pages still need exact in-world day recovery from raw notes and recaps. The latest active scene is provisionally **late May 2066 after the Belisarius job**, while **2066-05-15** remains the last hard campaign-date anchor before the September-played rush job sequence.
 
 ## Related pages
 

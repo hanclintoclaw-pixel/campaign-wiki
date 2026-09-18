@@ -2,7 +2,7 @@
 title: Campaign Arc Index
 type: arc-index
 visibility: player-safe
-updated: 2026-09-11
+updated: 2026-09-18
 ---
 
 # Campaign Arc Index
@@ -14,6 +14,7 @@ This page groups the processed session archive into major recurring campaign thr
 The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-arc pages now live under this Campaign Arc Index:
 
 - [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)
+- [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md)
 - [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md)
 - [OCW Side Threads](../Arcs/OCW-Side-Threads.md)
 - [Mucky and Professor X](../Arcs/Mucky-and-Professor-X.md)
@@ -242,6 +243,25 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 **Dedicated page**
 - [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)
+
+## 13. Humanis evidence retrieval
+
+**Core idea:** an anonymous Johnson hired the crew to retrieve old pre-Crash records and physical evidence on **Lula Bell Sandusky** from a fortified **Humanis**-affiliated smuggling site north of Nashville. The opening session established **Paul Hardcastle**, the **Ring of Fire**, **White Creek**, and an active recon posture with Buzz hidden on the roof.
+
+**Key sessions**
+- [2026-09-17](../Sessions/2026-09-17.md)
+
+**Important names**
+- [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md)
+- [Paul Hardcastle](../NPCs/Paul-Hardcastle.md)
+- [Ring of Fire](../Factions/Ring-of-Fire.md)
+- [Humanis](../Factions/Humanis.md)
+- [White Creek Civic Center](../Locations/White-Creek-Civic-Center.md)
+- [Kilimanjaro](../PCs/Kilimanjaro.md)
+- [Kurgan](../PCs/Kurgan.md)
+
+**Dedicated page**
+- [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md)
 
 ## Related pages
 

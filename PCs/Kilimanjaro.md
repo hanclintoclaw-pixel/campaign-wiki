@@ -4,7 +4,7 @@ type: player-character
 visibility: player-safe
 status: alternate
 player: Abe
-last_updated_session: 2026-09-10
+last_updated_session: 2026-09-17
 canon_status: provisional
 confidence: high
 aliases:
@@ -13,6 +13,7 @@ tags: [pc, alternate-pc, starter-character, cyber-samurai]
 sources:
   - ../Sessions/2026-09-03.md
   - ../Sessions/2026-09-10.md
+  - ../Sessions/2026-09-17.md
 ---
 
 # Kilimanjaro
@@ -36,6 +37,7 @@ sources:
 - Kilimanjaro prioritized reputation over greed and offered the job as an even split.
 - He is conspicuous: armed, heavily combat-oriented, and not subtle by default.
 - He carries secure communications gear, assault-rifle capability, special ammunition / explosives, and jazz as a combat stimulant.
+- During the 2026-09-17 Humanis evidence retrieval opening, Kilimanjaro used athletics and stealth to scout the White Creek Civic Center, reach the roof, identify the roof hatch / maglock, observe Paul Hardcastle, and hide Buzz in dead roof equipment as a passive listener.
 
 ## Capabilities
 
@@ -51,6 +53,7 @@ sources:
 - Kilimanjaro volunteered his share to cover Mucky's assistance, allowing Curtis and Mevin to retain **20,000¥ each**. Mucky had requested **10% of the 60,000¥ take**; the final amount retained by Kilimanjaro was not explicitly recorded. Do not assume either a full 20,000¥ net payout or a zero personal balance.
 - Lost **several hundred nuyen** at the card table; exact loss not recorded.
 - Expended one high-explosive grenade from the Ares Alpha's underslung launcher. Mevin located the personal comm unit previously planted on Belisarius; its return to Kilimanjaro's inventory was not explicitly narrated.
+- **2026-09-17 — Humanis evidence retrieval prep:** spent **2,000¥** for three flash improvised bombs and three smoke improvised bombs. No Karma or job payout recorded yet.
 
 ## Relationships
 
@@ -63,6 +66,7 @@ sources:
 - **2026-09-03** - introduced as Abe's alternate starter PC; received the Byron Cedar rush job, brought in the crew, scattered 8th Street with a flash grenade, and planted a comm unit on Judge Belisarius.
 
 - **[2026-09-10](../Sessions/2026-09-10.md)** - stayed beside the judge at the card table, carried him out after Mevin's tranq patch, disabled Dupree's pursuing vehicle with a grenade, helped prepare the holding/release cover, and covered Mucky's cut from his own share. Dupree survived the crash.
+- **[2026-09-17](../Sessions/2026-09-17.md)** - joined the Humanis evidence retrieval, recognized the Sandusky / Humanis ideological angle, infiltrated the White Creek Civic Center exterior and roof, saw Paul Hardcastle arrive, and helped plant Buzz for longer surveillance.
 
 ## Open Questions
 
@@ -72,3 +76,4 @@ sources:
 ## Sources
 
 - [Session 2026-09-03](../Sessions/2026-09-03.md)
+- [Session 2026-09-17](../Sessions/2026-09-17.md)

@@ -4,7 +4,7 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-09-11
+updated: 2026-09-18
 tags: [leads, clues, open-threads]
 ---
 
@@ -21,6 +21,32 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 - **Cindy:** after each session closeout, mark leads as new, touched, resolved, dormant, or superseded.
 
 ## Active high-value leads
+
+### Recover the Sandusky evidence from the Ring of Fire
+
+**Status:** active run in progress
+
+**Last touched:** [Session 2026-09-17](../Sessions/2026-09-17.md)
+
+**Connected pages:** [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md), [White Creek Civic Center](../Locations/White-Creek-Civic-Center.md), [Paul Hardcastle](../NPCs/Paul-Hardcastle.md), [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md), [Ring of Fire](../Factions/Ring-of-Fire.md), [Humanis](../Factions/Humanis.md), [Buzz](../Vehicles/Buzz.md), [Kurgan](../PCs/Kurgan.md)
+
+An anonymous Johnson hired the crew to recover pre-Crash paper records and physical evidence on **Lula Bell Sandusky**, a public moral crusader pressuring Mayor Haggar over rumored metahuman status. The material is believed to be in the basement of the old White Creek police station / civic center, now held by **Paul Hardcastle** and the **Ring of Fire**, a Humanis-affiliated smuggling gang. The crew has reconned the site, planted **Buzz** on the roof as a passive listener, and sourced smoke/flash gear and gas masks.
+
+**Player-facing questions**
+
+- Who hired the crew to retrieve Sandusky's old evidence, and what do they intend to do with it?
+- What did Sandusky do as a young woman, and why is it useful now?
+- Does Sandusky have direct Humanis ties, or does her current crusade merely overlap with their ideology?
+- What does the intermittent Matrix signal at White Creek connect to?
+- Can the crew spoof Hardcastle / Ring of Fire orders or otherwise pull Torchmen away before entering?
+- Will Kurgan's former Humanis connection become leverage, cover, or a complication?
+
+**Possible next actions**
+
+- Run Mevin's planned Humanis-host / Matrix approach.
+- Review Buzz's passive audio for Hardcastle's voice, route schedules, call signs, or behavior patterns.
+- Decide on the breach plan: spoofed job call, roof-maglock entry, smoke/gas-mask approach, cyber-disk diversion, or a blended version.
+- Bring enough carrying capacity for a filing-drawer-plus quantity of paper and physical evidence.
 
 ### Explain Cedar's satisfaction and watch the Belisarius fallout
 

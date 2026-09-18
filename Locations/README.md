@@ -31,6 +31,7 @@
 - [Noodle Stories](Noodle-Stories.md)
 - [Mucky's Place](Muckys-Place.md)
 - [Radnor Lake](Radnor-Lake.md)
+- [White Creek Civic Center](White-Creek-Civic-Center.md)
 
 ## Franklin / Regional Locations
 

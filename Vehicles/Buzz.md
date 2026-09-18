@@ -3,12 +3,13 @@ title: Buzz
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-04-11
-canon_status: provisional
-confidence: medium
+last_updated_session: 2026-09-17
+canon_status: canon
+confidence: high
 tags: [vehicle, drone, vtol, rigger, curtis]
 sources:
   - PARTY_DOSSIER.md
+  - ../Sessions/2026-09-17.md
 ---
 
 # Buzz
@@ -37,6 +38,8 @@ Part of the campaign's dedicated **Drones / Vehicles** reference layer rather th
 
 A light aerial surveillance/support drone.
 
+As of [Session 2026-09-17](../Sessions/2026-09-17.md), Buzz is deployed on the roof of **[White Creek Civic Center](../Locations/White-Creek-Civic-Center.md)**, hidden inside dead roofing equipment as a passive listening asset. Curtis expects it can keep listening for several days before needing recharge. No damage or detection was recorded.
+
 ## Taco Fillings
 
 > "Buzz ain't there to be brave. Buzz is there to see first, see quiet, and tell you not to walk into a stupid mess. If this one starts drawing heat, you've already misused it."
@@ -50,3 +53,4 @@ A light aerial surveillance/support drone.
 ## Sources
 
 - `PARTY_DOSSIER.md`
+- [Session 2026-09-17](../Sessions/2026-09-17.md)
