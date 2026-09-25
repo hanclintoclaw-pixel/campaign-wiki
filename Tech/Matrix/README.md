@@ -2,7 +2,7 @@
 
 Reference index for notable Nashville-area Matrix hosts and Matrix table workflows, written in an SR3-flavored style for deckers, GMs, and continuity use.
 
-Each entry includes a descriptive host profile plus example **SR3-style host stats, IC mix, and routine task target numbers** for table use. Machine-readable host profiles for supported minigame tools are indexed at [data/matrix-hosts/index.json](../../data/matrix-hosts/index.json).
+Most entries include a descriptive host profile plus example **SR3-style host stats, IC mix, and routine task target numbers** for table use. Session-discovery records may instead document only what the crew actually reached, without inventing a full host stat block. Machine-readable host profiles for supported minigame tools are indexed at [data/matrix-hosts/index.json](../../data/matrix-hosts/index.json).
 
 ## Host-building guide
 
@@ -31,6 +31,7 @@ These are **not specific hosts**. They are SR3 rules-derived examples of common 
 - [SC Music Corporate Host](SC-Music-Corporate-Host.md)
 - [Augmented Beef and Bacon Social Club Host](Augmented-Beef-and-Bacon-Social-Club-Host.md)
 - [Humanis Nashville Hidden Host](Humanis-Nashville-Hidden-Host.md)
+- [White Creek Waystation Host](White-Creek-Waystation-Host.md) - actual discoveries from Session 2026-09-24, distinct from the generic Humanis profile.
 - [Happy Cat Public Storefront Host](Happy-Cat-Public-Storefront-Host.md)
 - [H-Block Crew Vanishing SAN Host](H-Block-Crew-Vanishing-SAN-Host.md)
 - [Ruby Falls Data Haven Host](Ruby-Falls-Data-Haven-Host.md)

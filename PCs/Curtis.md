@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-17
+last_updated_session: 2026-09-24
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -49,6 +49,7 @@ sources:
   - ../Sessions/2026-09-03.md
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
+  - ../Sessions/2026-09-24.md
   - Discord GM approval for Pilot 2 brain installs, 2026-09-07
 ---
 
@@ -135,7 +136,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
 - Current tracked Karma: **19 Karma** after the 2026-09-10 session award.
 - Current tracked nuyen: **7,503.33¥**, before any GM-confirmed scorpion-drone recovery project costs and any unpriced session expenses.
-- Current gear note preserved in dossier: **6 incendiary grenades** on hand after restock; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16; **Backpack Arms rig** finalized 2026-08-05 for conservative light tool work only; **2 recovered Advanced Drone Pilot Rating 2 units** from the Pixel Sticks scorpion-drone salvage project were installed with GM approval on 2026-09-07: one in **Grandpa** and one in **The Finisher**.
+- Current gear note preserved in dossier: **5 incendiary grenades** remaining from the six-grenade restock after Belmont fired one in Session 2026-09-24; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16; **Backpack Arms rig** finalized 2026-08-05 for conservative light tool work only; **2 recovered Advanced Drone Pilot Rating 2 units** from the Pixel Sticks scorpion-drone salvage project were installed with GM approval on 2026-09-07: one in **Grandpa** and one in **The Finisher**.
 - He finished the [dolphin and hurricane seal habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) for **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
 - During the 2066-05-09 interlude, Curtis backed Kurgan on the **Righteous Haze** job, using **Grandpa** as the lure/extraction vehicle.
@@ -149,6 +150,8 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
 - During [Session 2026-09-10](../Sessions/2026-09-10.md), Curtis helped arrange Mucky's distraction, rigged Grandpa through the getaway while The Finisher covered the pursuit, and found an out-of-the-way holding location for Belisarius. The job concluded with **+5 Karma** and **+20,000¥**; no new damage to Grandpa or The Finisher was confirmed.
 - During [Session 2026-09-17](../Sessions/2026-09-17.md), Curtis used Buzz for White Creek reconnaissance, identified the Ring of Fire's low-tech posture, hid Buzz on the roof for passive listening, and bought six smoke improvised bombs plus two additional gas masks.
+
+- During [Session 2026-09-24](../Sessions/2026-09-24.md), Curtis reviewed Buzz's recordings, prepared the disguised gas package with Mevin, breached White Creek's barricade in Grandpa without damage, and directed Belmont and The Finisher. Buzz was safely recalled. Curtis let one fleeing ganger escape and ended by heading inside with Mevin in gas masks, leaving The Finisher guarding Grandpa.
 
 ## Karma And Nuyen Ledger
 
@@ -168,6 +171,7 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - **2026-09-03 — Byron Cedar rush job:** joined the Belisarius court-delay job, bought cheap malt liquor for the setup, and lured the target pair toward Mucky's; no payout or Karma at this earlier pause, and the expense remains unpriced.
 - **2026-09-10 — Byron Cedar / Judge Belisarius closeout:** **+5 Karma**, **+20,000¥** confirmed net payout. Karma **14 -> 19**; nuyen **6,503.33¥ -> 26,503.33¥**. Kilimanjaro covered Mucky's cut from his own share; do not deduct it again from Curtis. In-session Karma Pool use is not a recorded advancement spend.
 - **2026-09-17 — Humanis evidence retrieval prep:** **-2,500¥** for six smoke improvised bombs and two additional gas masks; tracked nuyen **10,003.33¥ -> 7,503.33¥**. Buzz was deployed on the White Creek roof; no damage or loss recorded. No Karma or job payout yet.
+- **2026-09-24 - White Creek breach:** no award or payout; **19 Karma / 7,503.33¥** remains the tracked balance before pending expenses. Hard-shell carrying cases were approved, but the transcript shifts from a 100¥ quote to 50¥ per case without settling quantity or personal/group allocation; no definite debit is applied. Grandpa's existing hand truck is not charged again. Belmont used **one incendiary grenade** (six -> five); other drone ammunition was not counted. Buzz returned safely, and no vehicle/drone repair cost was recorded. Curtis's Karma Pool discussion/extra dice do not change advancement Karma; the exact remaining pool needs reconciliation.
 
 </details>
 
@@ -308,6 +312,7 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 - 2026-07-23 — helped manipulate the Pixel Sticks scorpion drone whitelist, got the sealed elevator working for the crew's escape, earned **7 Karma** plus **15,000¥**, and flagged tracking the drone / Chunky Sparkles aftermath as a possible follow-up.
 - 2026-08-06 — tracked the escaped scorpion drone with Kurgan, bought the needed remote-control encryption/decryption support through Taco, used Belmont and The Finisher against returning South Side Highwaymen, recovered the damaged drone, and earned **7 Karma**.
 - 2026-09-17 — used Buzz for White Creek reconnaissance, confirmed the low-tech Ring of Fire security posture, left Buzz hidden on the roof, sourced smoke/gas-mask gear, and stopped before the Matrix / breach phase.
+- [2026-09-24](../Sessions/2026-09-24.md) - executed the delivery-triggered White Creek breach, directed combat drones, recovered Buzz, and headed inside with Mevin while Kilimanjaro reached the basement. No awards; evidence not yet recovered.
 
 ## Sheet Snapshot
 
@@ -315,6 +320,8 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
   **Body 4**, **Quickness 6**, **Strength 5**, **Charisma 1**, **Intelligence 5**, **Willpower 5**, **Essence 1.84**, **Reaction 5**, **Initiative 5+1D6**, **Magic -**.
 
 ## Sources
+
+- [Session 2026-09-24](../Sessions/2026-09-24.md)
 
 - `PARTY_DOSSIER.md`
 - [Session 2026-06-04](../Sessions/2026-06-04.md)

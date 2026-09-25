@@ -3,13 +3,14 @@ title: Buzz
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-17
+last_updated_session: 2026-09-24
 canon_status: canon
 confidence: high
 tags: [vehicle, drone, vtol, rigger, curtis]
 sources:
   - PARTY_DOSSIER.md
   - ../Sessions/2026-09-17.md
+  - ../Sessions/2026-09-24.md
 ---
 
 # Buzz
@@ -38,7 +39,7 @@ Part of the campaign's dedicated **Drones / Vehicles** reference layer rather th
 
 A light aerial surveillance/support drone.
 
-As of [Session 2026-09-17](../Sessions/2026-09-17.md), Buzz is deployed on the roof of **[White Creek Civic Center](../Locations/White-Creek-Civic-Center.md)**, hidden inside dead roofing equipment as a passive listening asset. Curtis expects it can keep listening for several days before needing recharge. No damage or detection was recorded.
+Buzz was planted on the roof of **[White Creek Civic Center](../Locations/White-Creek-Civic-Center.md)** in [Session 2026-09-17](../Sessions/2026-09-17.md). During [Session 2026-09-24](../Sessions/2026-09-24.md), its recordings captured Paul Hardcastle and other Torchmen, tracked site traffic, and confirmed the disguised package being carried inside. **Curtis then recalled Buzz to dock safely aboard Grandpa. It is no longer left on the roof.** No damage or loss was recorded.
 
 ## Taco Fillings
 
@@ -52,5 +53,6 @@ As of [Session 2026-09-17](../Sessions/2026-09-17.md), Buzz is deployed on the r
 
 ## Sources
 
+- [Session 2026-09-24](../Sessions/2026-09-24.md)
 - `PARTY_DOSSIER.md`
 - [Session 2026-09-17](../Sessions/2026-09-17.md)

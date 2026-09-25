@@ -4,12 +4,13 @@ type: entity
 visibility: player-safe
 status: active
 first_session:
-last_updated_session: 2026-08-15
+last_updated_session: 2026-09-24
 canon_status: canon
 confidence: high
 tags: [location, nashville, safehouse, crew-secret]
 sources:
   - User-provided map address on 2026-07-03
+  - ../Sessions/2026-09-24.md
   - SR3 Sprawl Survival Guide, Detailed Lifestyles, pp. 127-145
 ---
 
@@ -27,7 +28,7 @@ A hidden crew safehouse in East Nashville, held onto after a job that never made
 
 ## Known Facts
 
-- The team held onto this location after an undocumented job.
+- The team held onto this location after an old bank job whose exact date remains undocumented. In Session 2026-09-24, the GM recalled another hapless runner group staking out the same bank from the shop; the crew took over the operation, and Glenn lived upstairs while the flunkies worked below.
 - It is used as a place for the crew to lie low.
 - Nobody outside the group is known to know about it.
 - Despite the name, its value is not comfort; its value is secrecy, deniability, and a place to disappear for a while.
@@ -77,6 +78,7 @@ For campaign use, this cost represents keeping the site viable as a group safeho
 ### Resident / Staff Notes
 
 - **Two flunkies** keep the thrift-store cover open, rotate stock, notice suspicious customers, and maintain the everyday pattern that makes the building boring.
+- In [Session 2026-09-24](../Sessions/2026-09-24.md), the [two flunkies](../NPCs/Thrift-Store-Flunkies.md) were explicitly established as **Mevin's Level 1 contacts**. They handled the White Creek delivery handoff for promised Double Downs; no injury or safehouse exposure was confirmed.
 - The flunkies are not assumed to be combatants. If threatened, their best use is warning, delay, plausible-deniability chatter, and keeping the front business normal.
 - The site is a fallback and recovery location, not a full lifestyle replacement for every runner unless the crew intentionally moves in.
 
@@ -88,11 +90,12 @@ For campaign use, this cost represents keeping the site viable as a group safeho
 ## Open Questions
 
 - What supplies, escape routes, or security measures are stored there?
-- Which past job originally put the location in the crew's hands?
+- Which bank and exact session date belong to the old job that put the location in the crew's hands?
 - Who are the two flunkies, and how much do they know about the crew?
 - Which safehouse upgrades should be bought next: stronger sensors, better utilities, a hidden garage bay, or medical recovery space?
 
 ## Sources
 
+- [Session 2026-09-24](../Sessions/2026-09-24.md) - recovered bank-job history and the flunkies' current contact/delivery role.
 - User-provided map address on 2026-07-03
 - *Sprawl Survival Guide*, pp. 127-145 - Detailed Lifestyles, lifestyle Edges/Flaws, and sample Safehouse package.

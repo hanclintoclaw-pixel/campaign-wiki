@@ -4,7 +4,7 @@ type: player-character
 visibility: player-safe
 status: alternate
 player: Abe
-last_updated_session: 2026-09-17
+last_updated_session: 2026-09-24
 canon_status: provisional
 confidence: high
 aliases:
@@ -14,6 +14,7 @@ sources:
   - ../Sessions/2026-09-03.md
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
+  - ../Sessions/2026-09-24.md
 ---
 
 # Kilimanjaro
@@ -39,6 +40,10 @@ sources:
 - He carries secure communications gear, assault-rifle capability, special ammunition / explosives, and jazz as a combat stimulant.
 - During the 2026-09-17 Humanis evidence retrieval opening, Kilimanjaro used athletics and stealth to scout the White Creek Civic Center, reach the roof, identify the roof hatch / maglock, observe Paul Hardcastle, and hide Buzz in dead roof equipment as a passive listener.
 
+## Current Position
+
+At the end of [Session 2026-09-24](../Sessions/2026-09-24.md), Kilimanjaro is **inside White Creek's basement storage room with his hand truck**, having entered through the unlocked roof hatch and descended past the second-floor sleeping quarters. The room contains newer packages and old boxes; the Sandusky evidence has not been identified or recovered. Curtis and Mevin are heading inside to join the search.
+
 ## Capabilities
 
 - Strong physical/combat baseline; described as a bog-standard street samurai rather than a specialist infiltrator.
@@ -55,10 +60,13 @@ sources:
 - Expended one high-explosive grenade from the Ares Alpha's underslung launcher. Mevin located the personal comm unit previously planted on Belisarius; its return to Kilimanjaro's inventory was not explicitly narrated.
 - **2026-09-17 — Humanis evidence retrieval prep:** spent **2,000¥** for three flash improvised bombs and three smoke improvised bombs. No Karma or job payout recorded yet.
 
+- **2026-09-24 - White Creek breach:** spent **1,000¥** on four Neuro-Stun VII grenades and **50¥** on rope: **1,050¥ confirmed new expenses**, plus an unpriced second hand truck. All four gas grenades were used in the delivered package. Kilimanjaro also fired **two fragmentation mini-grenades** and used **one flashbang**. No Karma or payout; remaining ammunition and absolute nuyen balance are not fully reconstructed. The earlier flash-versus-damaging improvised-bomb discussion does not settle a revised inventory.
+
 ## Relationships
 
 - Linked to [Byron L. Cedar](../NPCs/Byron-Cedar.md) as a recurring low-risk security/surveillance client.
 - Linked to [Kurgan](Kurgan.md) through previous work.
+- **Unnamed arms contact:** established and successfully reached in Session 2026-09-24 to source the gas grenades. Name and contact level were not supplied; do not invent them.
 - Linked to the active crew through the completed rush job; accepted a reduced personal take to preserve goodwill.
 
 ## Relevant Sessions
@@ -68,6 +76,8 @@ sources:
 - **[2026-09-10](../Sessions/2026-09-10.md)** - stayed beside the judge at the card table, carried him out after Mevin's tranq patch, disabled Dupree's pursuing vehicle with a grenade, helped prepare the holding/release cover, and covered Mucky's cut from his own share. Dupree survived the crash.
 - **[2026-09-17](../Sessions/2026-09-17.md)** - joined the Humanis evidence retrieval, recognized the Sandusky / Humanis ideological angle, infiltrated the White Creek Civic Center exterior and roof, saw Paul Hardcastle arrive, and helped plant Buzz for longer surveillance.
 
+- **[2026-09-24](../Sessions/2026-09-24.md)** - sourced supplies through his arms contact, climbed the roof, destroyed one guard's cover and killed the other with fragmentation grenades, entered through the unlocked hatch, put three upstairs occupants down with a flashbang amid the gas, and reached the basement storage room. No wound or award recorded.
+
 ## Open Questions
 
 - Will Abe keep using Kilimanjaro, build a bespoke long-term PC, or let Kilimanjaro revert to an NPC?
@@ -75,5 +85,6 @@ sources:
 
 ## Sources
 
+- [Session 2026-09-24](../Sessions/2026-09-24.md)
 - [Session 2026-09-03](../Sessions/2026-09-03.md)
 - [Session 2026-09-17](../Sessions/2026-09-17.md)

@@ -4,12 +4,13 @@ type: faction
 visibility: player-safe
 status: active
 first_session: 2026-09-17
-last_updated_session: 2026-09-17
+last_updated_session: 2026-09-24
 canon_status: canon
 confidence: high
 tags: [faction, humanis, smuggling, gang, active-threat]
 sources:
   - ../Sessions/2026-09-17.md
+  - ../Sessions/2026-09-24.md
 ---
 
 # Ring of Fire
@@ -29,15 +30,18 @@ Humanis-affiliated smuggling gang based around **[White Creek Civic Center](../L
 
 ## Current Relevance
 
-The crew has accepted a job to retrieve pre-Crash evidence from the Ring of Fire's basement. The preferred plan is still forming, but current ideas include Matrix spoofing, drawing members away on a fake job, smoke/gas-mask entry, and using roof access.
+The crew breached the base in [Session 2026-09-24](../Sessions/2026-09-24.md) after Mevin forged a pickup order in its [waystation host](../Tech/Matrix/White-Creek-Waystation-Host.md). Gang members unwittingly carried the disguised gas package inside. Two exterior guards were killed, several occupants incapacitated, exterior cladding ignited, and one unidentified man escaped on foot. The gang is **not confirmed destroyed**: about half its roughly twenty members were away before the assault, and Hardcastle's fate is unknown.
+
+Recovered logistics and personal-message material showed discontent, long/overnight pickup patrols, and considerable operational independence, without resolving higher Humanis command links. The crew is now beginning the basement evidence search; no recovered Sandusky material or completed contract is recorded.
 
 ## Open Questions
 
-- How many Torchmen are present at any given time?
-- What calls or emergencies reliably draw them away from the base?
+- Where are Hardcastle and the remaining occupants, and when will absent patrols return?
+- Will the escaped ganger or the rescheduled legitimate shipment expose the crew?
 - How much does the gang know about the old evidence in the basement?
 - Who in Humanis receives benefit from their route control?
 
 ## Sources
 
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
+- [Session 2026-09-24](../Sessions/2026-09-24.md)

@@ -73,6 +73,7 @@
 - [Renaud Dupree](Renaud-Dupree.md)
 - [Righteous Haze](Righteous-Haze.md)
 - [Skizzix](Skizzix.md)
+- [Thrift-store Flunkies](Thrift-Store-Flunkies.md)
 - [Viper](Viper.md)
 
 ## Related Reference Layers

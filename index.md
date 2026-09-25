@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-09-18
+updated: 2026-09-25
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,9 +20,9 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The crew has started the **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** in **[Session 2026-09-17](Sessions/2026-09-17.md)**. An anonymous Mr. Johnson hired Curtis, Mevin, and Kilimanjaro to recover pre-Crash paper records and physical evidence on **[Lula Bell Sandusky](NPCs/Lula-Bell-Sandusky.md)** from the old **[White Creek Civic Center](Locations/White-Creek-Civic-Center.md)** north of Nashville.
+The **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** is still underway after **[Session 2026-09-24](Sessions/2026-09-24.md)**. Mevin forged a pickup order in the Ring of Fire's **[waystation host](Tech/Matrix/White-Creek-Waystation-Host.md)**, and his thrift-store contacts delivered the disguised gas package that opened the crew's breach of **[White Creek Civic Center](Locations/White-Creek-Civic-Center.md)**.
 
-The site is held by **[Paul Hardcastle](NPCs/Paul-Hardcastle.md)** and the **[Ring of Fire](Factions/Ring-of-Fire.md)**, a **[Humanis](Factions/Humanis.md)**-affiliated smuggling gang. The crew reconned the fortified low-tech building, hid **[Buzz](Vehicles/Buzz.md)** on the roof as a passive listener, sourced smoke/flash gear and gas masks, and paused before Mevin's Matrix approach to a Humanis hidden host. **No award or final payout has been recorded yet.** The active date is provisional late May 2066, at least two in-world legwork days after the Johnson meet.
+**Kilimanjaro has reached the crowded basement storage room; Curtis and Mevin are heading inside in gas masks.** Buzz is safely docked in Grandpa, and The Finisher is guarding the RV. Two exterior guards are dead, several occupants are incapacitated, exterior cladding is burning, and one unidentified ganger escaped on foot. **Paul Hardcastle's fate is unknown, and Lula Bell Sandusky's evidence has not yet been identified or recovered. No awards or payout yet.** The nighttime scene remains provisionally late May 2066 or later; use of Grandpa's new armor places it no earlier than May 30 under the existing retrofit schedule.
 
 ## Navigation
 

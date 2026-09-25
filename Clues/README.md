@@ -4,7 +4,7 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-09-18
+updated: 2026-09-25
 tags: [leads, clues, open-threads]
 ---
 
@@ -26,27 +26,28 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 
 **Status:** active run in progress
 
-**Last touched:** [Session 2026-09-17](../Sessions/2026-09-17.md)
+**Last touched:** [Session 2026-09-24](../Sessions/2026-09-24.md)
 
 **Connected pages:** [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md), [White Creek Civic Center](../Locations/White-Creek-Civic-Center.md), [Paul Hardcastle](../NPCs/Paul-Hardcastle.md), [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md), [Ring of Fire](../Factions/Ring-of-Fire.md), [Humanis](../Factions/Humanis.md), [Buzz](../Vehicles/Buzz.md), [Kurgan](../PCs/Kurgan.md)
 
-An anonymous Johnson hired the crew to recover pre-Crash paper records and physical evidence on **Lula Bell Sandusky**, a public moral crusader pressuring Mayor Haggar over rumored metahuman status. The material is believed to be in the basement of the old White Creek police station / civic center, now held by **Paul Hardcastle** and the **Ring of Fire**, a Humanis-affiliated smuggling gang. The crew has reconned the site, planted **Buzz** on the roof as a passive listener, and sourced smoke/flash gear and gas masks.
+An anonymous Johnson hired the crew to recover pre-Crash paper records and physical evidence on **Lula Bell Sandusky**, a public moral crusader pressuring Mayor Haggar over rumored metahuman status. The material is believed to be in the basement of the old White Creek police station / civic center, now held by **Paul Hardcastle** and the **Ring of Fire**, a Humanis-affiliated smuggling gang. Mevin has now breached the [waystation host](../Tech/Matrix/White-Creek-Waystation-Host.md) and forged a pickup order, enabling a disguised gas delivery and the crew's assault. **Kilimanjaro reached the crowded basement; Curtis and Mevin are heading inside. The evidence is not yet identified or recovered.** Buzz has returned to Grandpa, exterior cladding is burning, and an unidentified ganger escaped. Hardcastle was present before the attack but has not been located afterward.
 
 **Player-facing questions**
 
 - Who hired the crew to retrieve Sandusky's old evidence, and what do they intend to do with it?
 - What did Sandusky do as a young woman, and why is it useful now?
 - Does Sandusky have direct Humanis ties, or does her current crusade merely overlap with their ideology?
-- What does the intermittent Matrix signal at White Creek connect to?
-- Can the crew spoof Hardcastle / Ring of Fire orders or otherwise pull Torchmen away before entering?
+- Which boxes hold the requested evidence, and how does the secure holding area mentioned in the downloaded records relate to this storage room?
+- Where is Hardcastle, who remains inside, and could absent patrols or the escaped ganger bring reinforcements?
+- Will the genuine shipment whose order Mevin advanced expose the deception?
 - Will Kurgan's former Humanis connection become leverage, cover, or a complication?
 
 **Possible next actions**
 
-- Run Mevin's planned Humanis-host / Matrix approach.
-- Review Buzz's passive audio for Hardcastle's voice, route schedules, call signs, or behavior patterns.
-- Decide on the breach plan: spoofed job call, roof-maglock entry, smoke/gas-mask approach, cyber-disk diversion, or a blended version.
-- Bring enough carrying capacity for a filing-drawer-plus quantity of paper and physical evidence.
+- Search the basement and identify the correct old records and physical evidence before loading them.
+- Bring Curtis and Mevin together with Kilimanjaro, maintain Grandpa's cover, and manage extraction around gas and fire.
+- Use the hand trucks and carrying gear already acquired; do not treat the job as complete until the material is recovered and handed off.
+- Preserve the downloaded logistics records and Buzz's audio as follow-up leads. The Matrix intrusion and pickup forgery are resolved; Hardcastle voice spoofing was never used.
 
 ### Explain Cedar's satisfaction and watch the Belisarius fallout
 

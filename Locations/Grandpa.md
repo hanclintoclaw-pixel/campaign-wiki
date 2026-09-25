@@ -4,7 +4,7 @@ type: vehicle
 visibility: player-safe
 status: active
 first_session: 2026-03-20
-last_updated_session: 2026-09-14
+last_updated_session: 2026-09-24
 canon_status: current
 confidence: high
 tags: [vehicle, rv, mobile-base, rigger, curtis]
@@ -19,6 +19,7 @@ sources:
   - ../Sessions/2026-09-10.md
   - Discord #leeland Grandpa standard armor retrofit approval, 2026-09-14
   - Discord #leeland Grandpa hand truck equipment add, 2026-09-24
+  - ../Sessions/2026-09-24.md
 ---
 
 # Grandpa
@@ -50,7 +51,7 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 
 ## Onboard Equipment
 
-- **Hand truck:** portable cargo-moving dolly stored aboard Grandpa for loading, unloading, and moving heavy gear.
+- **Hand truck:** portable cargo-moving dolly stored aboard Grandpa for loading, unloading, and moving heavy gear. Reconfirmed during Session 2026-09-24; this is the existing item, not a second purchase. Kilimanjaro separately acquired his own hand truck.
 
 ## Pilot 2 House Rules / Command Limits
 
@@ -89,6 +90,10 @@ Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extract
 - No new Grandpa damage, repair cost, or Pilot downgrade is confirmed from the getaway.
 - Grandpa's standard armor retrofit is complete and usable from **2066-05-30 morning** onward, raising his active armor rating to **6**.
 
+## White Creek Breach / Current Position
+
+In [Session 2026-09-24](../Sessions/2026-09-24.md), Curtis brought Grandpa through White Creek's vehicle barricade; the GM explicitly ruled **no damage to the reinforced RV**. It carried the crew and deployed Belmont and The Finisher. Buzz was recalled and docked safely. At the stopping point Curtis and Mevin are heading toward the building, with The Finisher guarding Grandpa. No new equipment upgrade or autonomous-combat capability was granted.
+
 ## Matrix Retrofit / Luxury Mobile Connection
 
 - Hardened deck bay / workstation
@@ -102,7 +107,7 @@ Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extract
 
 ## Operational Capability
 
-- **Mevin** can perform mobile Matrix access/runs from inside Grandpa while **Curtis** drives or rigs.
+- **Mevin** can perform mobile Matrix access/runs from inside Grandpa while **Curtis** drives or rigs, subject to available connectivity. In Session 2026-09-24, the GM ruled the rural White Creek connection too unreliable for dependable active decking despite the retrofit, so Mevin completed the host work in Nashville before traveling.
 - Supports hot-extraction posture with live connectivity.
 
 ## Relationships
@@ -121,6 +126,8 @@ Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extract
 > "Listen, Curtis, Grandpa ain't a battering ram unless you get stupid or desperate, and those two conditions love each other. This rig's for staying alive, staying linked, and getting your people out fast when the room turns mean. Keep your lanes clean, keep your power conditioned, and don't let some hotshot decker turn your home into a lightning strike."
 
 ## Sources
+
+- [Session 2026-09-24](../Sessions/2026-09-24.md)
 
 - `memory/2026-03-20.md`
 - `memory/2026-04-09.md`

@@ -2,7 +2,7 @@
 title: Current State
 type: dashboard
 visibility: player-safe
-updated: 2026-09-18
+updated: 2026-09-25
 ---
 
 # Current State
@@ -11,11 +11,13 @@ updated: 2026-09-18
 
 The active table scene is the **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** begun in **[Session 2026-09-17](Sessions/2026-09-17.md)**. An anonymous Mr. Johnson hired Curtis, Mevin, and Kilimanjaro to recover pre-Crash paper records and physical evidence on **[Lula Bell Sandusky](NPCs/Lula-Bell-Sandusky.md)** from the old **[White Creek Civic Center](Locations/White-Creek-Civic-Center.md)** north of Nashville.
 
-The site is occupied by **[Paul Hardcastle](NPCs/Paul-Hardcastle.md)** and the **[Ring of Fire](Factions/Ring-of-Fire.md)**, a **[Humanis](Factions/Humanis.md)**-affiliated smuggling gang. The crew completed initial recon, learned the site is fortified but deliberately low-tech, hid **[Buzz](Vehicles/Buzz.md)** on the roof as a passive listener, sourced smoke/flash gear and gas masks, and paused before Mevin's planned Matrix approach to a Humanis hidden host. **No final award or payout has been recorded yet.**
+In **[Session 2026-09-24](Sessions/2026-09-24.md)**, Mevin breached the Ring of Fire's **[waystation host](Tech/Matrix/White-Creek-Waystation-Host.md)** and forged a routine pickup order; his **[thrift-store flunkies](NPCs/Thrift-Store-Flunkies.md)** handled the delivery. The disguised gas package and drone-backed breach opened a route inside. **Kilimanjaro is in the crowded basement storage room; Curtis and Mevin are heading into the building in gas masks. The Sandusky evidence has not been identified or recovered. No awards or payout yet.**
+
+**Buzz is docked aboard Grandpa**, Belmont is in the parking lot, and The Finisher is guarding the RV. Two exterior guards were killed, several occupants incapacitated, and one unidentified man allowed to flee on foot. Exterior cladding is burning. **Paul Hardcastle was present before the attack, but his current location and condition remain unknown.** Roughly half the gang had been away on patrol; the site and gang are not declared cleared or destroyed.
 
 ## Recent Runs / Follow-ups
 
-- The **Humanis evidence retrieval** began in [Session 2026-09-17](Sessions/2026-09-17.md). The crew accepted a job to retrieve old Sandusky records from the Ring of Fire's White Creek base, planted Buzz on the roof, sourced entry/distraction gear, and stopped before the Humanis-host / Matrix phase. No rewards yet.
+- The **Humanis evidence retrieval** began in [Session 2026-09-17](Sessions/2026-09-17.md) and advanced through Matrix legwork, a forged delivery, and the White Creek breach in [Session 2026-09-24](Sessions/2026-09-24.md). The basement has been reached, not searched to completion; no rewards yet.
 - The **Byron Cedar / Judge Belisarius rush job**, begun in [Session 2026-09-03](Sessions/2026-09-03.md), concluded in [Session 2026-09-10](Sessions/2026-09-10.md). Mucky agreed to help for 10% of the take; Kilimanjaro volunteered to cover Mucky's cut from his own share. Belisarius missed court and was released alive; Dupree survived his vehicle crash. Cedar's unexpectedly positive acceptance leaves a new employer-side mystery, not an unfinished contract.
 - The **Pixel Sticks sponsor follow-up** in [Session 2026-08-27](Sessions/2026-08-27.md) identified the Pixel Sticks as disposable proxy assets aimed at CAT, strongly implicated Princeps / Claude, introduced **Lizzo Wells / Handy-Sandy** as a probable otaku / technoshaman and Grid Overwatch person of interest, and paid **10,000¥ total** to Mevin, Kurgan, and Curtis.
 - The **Chunky Sparkles / Wyrmwatch** follow-up in [Session 2026-08-13](Sessions/2026-08-13.md) found Chunky Sparkles at **Radnor Lake**, used Lizzo Wells's command phrases and food incentives to lure it out, and awarded **5,000¥** plus **4 Karma** each.
@@ -28,16 +30,18 @@ The site is occupied by **[Paul Hardcastle](NPCs/Paul-Hardcastle.md)** and the *
 ## In-World Date
 
 - Current campaign year: **2066**
-- Current active date: **late May 2066, after the Belisarius job (provisional)**. The 2026-09-17 transcript does not state an absolute in-world date, but it includes at least two in-world legwork days after the Johnson meet.
-- Current active posture: active reconnaissance / planning for the Humanis evidence retrieval. Valgaut remains temporarily off active duty; Kilimanjaro remains an alternate starter PC; Kurgan was absent but the run explicitly touches Humanis history.
+- Current active date: **late May 2066 or later, nighttime (provisional)**. Session 2026-09-24 adds a day or two of Matrix probing, supply time, and a few hours of preparation to the prior legwork. No exact date or clock time is spoken. The GM uses Grandpa's new armor during the breach; its existing approved schedule makes **2066-05-30 morning** the earliest availability. Do not sum potentially overlapping prep intervals into an invented exact date.
+- Current active posture: interior evidence search following the White Creek breach. Kilimanjaro is in the basement; Curtis and Mevin are approaching the building. Valgaut remains off active duty; Kilimanjaro remains an alternate starter PC; Kurgan was again absent.
 - Recent time compression: the Pixel Sticks payout and Core 7 / Earl Stryker follow-up sit on **2066-05-12 night**; the scorpion-drone stakeout consumes roughly forty-eight hours; the Radnor Lake scene reaches **2066-05-15 dawn**; the 2026-08-27 follow-up appears to take place later on **2066-05-15**; the 2026-09-03 rush job is provisionally placed on **2066-05-20 evening**, and its 2026-09-10 conclusion advances through the following court day to **2066-05-21 evening**, unless the GM corrects the calendar placement.
 
 ## Immediate Leads
 
-- run or resolve Mevin's next-step Matrix approach to the **Humanis Nashville Hidden Host** / intermittent White Creek signal
-- review **Buzz**'s roof recording for Paul Hardcastle's voice, Torchman movement patterns, and possible spoofing leverage
-- decide whether the entry plan uses spoofed orders, smoke/gas masks, roof maglock access, cyber-disks / disc mines, or another distraction
-- recover and move the Sandusky paper files / physical evidence from the White Creek basement
+- identify the Sandusky records among the newer packages and moldering boxes in the basement, then recover the actual evidence
+- reunite the crew and manage extraction from the gas-affected building with exterior fire still active
+- locate **Paul Hardcastle** and assess remaining occupants or returning patrols without assuming the base is clear
+- watch for consequences from the escaped ganger and the genuine pickup order Mevin moved a day early
+- preserve Buzz's recovered recordings and Mevin's downloaded logistics files; the Matrix approach and delivery deception have already succeeded
+- reconcile carrying-case costs, Kilimanjaro's extra hand truck, courier food, ammunition, and Curtis's remaining Karma Pool; do not award payout before completion
 - identify who hired the crew for the Sandusky evidence and what they intend to do with it
 - learn what case **HEMP Global Agronomics** needed delayed and why Cedar was pleased despite the public kidnapping
 - monitor surviving **Renaud Dupree**, the missing-person publicity, and whether the gambling-debt cover story holds
@@ -58,7 +62,8 @@ The site is occupied by **[Paul Hardcastle](NPCs/Paul-Hardcastle.md)** and the *
 
 - Who hired the crew to retrieve Lula Bell Sandusky's old evidence, and why now?
 - What did Sandusky do in the old record, and is it leverage, blackmail, proof, or bait?
-- Can the Ring of Fire be drawn away without fighting the whole fortified site?
+- Where is Hardcastle after the breach, and will the escaped ganger bring help?
+- Can the crew find and extract the correct evidence before fire, gas, or returning patrols complicate the search?
 - Will Kurgan's former Humanis connection help, hurt, or complicate the continuation?
 - Why did Cedar accept the job so enthusiastically despite an obvious public kidnapping and shootout?
 - What case was delayed, and what did the delay actually accomplish for HEMP?

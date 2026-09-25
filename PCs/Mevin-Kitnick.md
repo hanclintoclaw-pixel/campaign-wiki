@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-17
+last_updated_session: 2026-09-24
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -21,6 +21,7 @@ sources:
   - ../Sessions/2026-09-03.md
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
+  - ../Sessions/2026-09-24.md
 ---
 
 # Mevin Kitnick
@@ -71,6 +72,8 @@ Mevin is usually the crew member most responsible for:
 - During the 2026-09-03 Byron Cedar rush job, Mevin used friendly-face social positioning and cyber-ear eavesdropping to monitor Judge Belisarius and Renaud Dupree, recorded their voices for possible Cindy analysis, and helped talk Belisarius down at Mucky's.
 - During the 2026-09-17 Humanis evidence retrieval opening, Mevin identified the pre-Crash data problem as a physical/evidence retrieval rather than a normal Matrix theft, sourced a primitive 9-pin old-interface device with Cindy's help, assessed White Creek for Matrix/satellite clues, and queued a Humanis hidden-host approach after Cindy detected an intermittent signal tied to the location.
 
+- During [Session 2026-09-24](../Sessions/2026-09-24.md), Mevin breached the [White Creek waystation host](../Tech/Matrix/White-Creek-Waystation-Host.md), downloaded shipment/patrol records and a secure-holding reference, then used Forgery to move an existing pickup order a day early. His thrift-store contacts handled the delivery. He assisted Curtis's electronics preparation, stayed protected in Grandpa through the firefight, and was heading into the building with Curtis at the pause. The basement evidence remains uncollected.
+
 ## Karma And Nuyen Ledger
 
 - **Known current Karma:** at least **16 Karma** after the Session 2026-09-10 award. Earlier unspent/spent totals are not yet fully reconstructed on this page.
@@ -83,6 +86,7 @@ Mevin is usually the crew member most responsible for:
 
 - **2026-09-10 — Byron Cedar / Judge Belisarius closeout:** **+5 Karma**, **+20,000¥** confirmed net payout; tracked totals **11 -> 16 Karma** and **24,333¥ -> 44,333¥**. Kilimanjaro covered Mucky's cut from his own share, so no additional deduction applies to Mevin. A credstick offered during the Mucky approach and a used tranq patch have no recorded cost; no amount is invented.
 - **2026-09-17 — Humanis evidence retrieval opening:** no Karma, payout, or tracked personal expense recorded yet.
+- **2026-09-24 - White Creek breach:** no Karma, payout, or priced personal expenditure established. Promised Double Downs to the thrift-store couriers; settlement and price remain unrecorded. Existing tracked Karma/nuyen totals are unchanged.
 
 ## Matrix Style
 
@@ -97,6 +101,7 @@ Mevin's Matrix play style, as established so far, emphasizes:
 ## Relationships
 
 - Linked to [Herrick](../NPCs/Herrick.md).
+- **[Thrift-store flunkies](../NPCs/Thrift-Store-Flunkies.md): Level 1 contacts**, explicitly confirmed in Session 2026-09-24. Two unnamed associates at the crew's [Thrift Store Flophouse](../Locations/Thrift-Store-Flophouse.md); they completed the White Creek delivery handoff.
 - Linked to [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md).
 - Linked to the crew's Matrix and technical problem-solving role.
 - Linked to [Ivan Toklas](../NPCs/Ivan.md) through multiple jobs routed through Atlas's.
@@ -115,6 +120,8 @@ Mevin's Matrix play style, as established so far, emphasizes:
 
 - **[2026-09-10](../Sessions/2026-09-10.md)** — negotiated Mucky's assistance, applied the tranq patch, secured the judge and screened his cyber-eye feed, then devised the gambling-debt shakedown cover using Cindy's signal spoofing. The completed contract paid **20,000¥** and **5 Karma**.
 - **[2026-09-17](../Sessions/2026-09-17.md)** — joined the Sandusky / White Creek job, sourced a pre-Crash-compatible 9-pin device with Cindy's help, assessed the Ring of Fire site for satellite/Matrix clues, and prepared to approach the Humanis Nashville hidden host before the table paused.
+
+- **[2026-09-24](../Sessions/2026-09-24.md)** - completed White Creek Matrix legwork and the forged pickup, enlisted his Level 1 thrift-store contacts, assisted the gas-package electronics, and began the ground approach with Curtis after the initial fighting. No rewards; evidence search continues.
 
 ## Table-Use SR3 Stat Block
 
@@ -258,6 +265,8 @@ For the Mevin Decker Experience, use the following defaults unless the player su
 - **Pool automation note:** The Decker Experience auto-adds free Hacking Pool to tested rolls. Hacking Pool may be tied up during a run for Detection Factor reservation or IC suppression.
 
 ## Sources
+
+- [Session 2026-09-24](../Sessions/2026-09-24.md)
 
 - `PARTY_DOSSIER.md`
 - [Session 2026-06-04](../Sessions/2026-06-04.md)

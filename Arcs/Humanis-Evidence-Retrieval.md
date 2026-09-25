@@ -4,12 +4,13 @@ type: arc
 visibility: player-safe
 status: active
 first_session: 2026-09-17
-last_updated_session: 2026-09-17
+last_updated_session: 2026-09-24
 canon_status: canon
 confidence: high
 tags: [arc, contract, humanis, smuggling, evidence, active]
 sources:
   - ../Sessions/2026-09-17.md
+  - ../Sessions/2026-09-24.md
 ---
 
 # Humanis Evidence Retrieval
@@ -35,24 +36,28 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 - The town's refugee-processing infrastructure remains partly in place from the early Sixth World panic.
 - The Ring of Fire appears deliberately low-tech: no visible roof cameras, no detected local drone/radio net, and no satellite dish.
 - People are active on the second floor, and at least some food and power are present.
-- There is an intermittent Matrix signal tied to the site.
+- The intermittent Matrix signal was resolved in [Session 2026-09-24](../Sessions/2026-09-24.md) as a [thin logistics host](../Tech/Matrix/White-Creek-Waystation-Host.md), apparently tapped into a fiber trunk. Mevin recovered shipment/patrol information and references to secure holding, but found no connected security controls.
 
 ## Current Assets / State
 
-- **Buzz** is hidden on the roof inside dead roofing equipment, positioned to listen passively for several days.
-- Kilimanjaro identified a roof hatch with a maglock as a possible entry point.
-- Mevin has a thrift-store old-interface device that may help with pre-Crash terminals.
-- The active crew has smoke/flash improvised bombs, smoke bombs, gas masks, and possible cyber-disks / disc mines staged for the next approach.
-- The table stopped before the Humanis-host / Matrix approach.
+- **Kilimanjaro is inside the basement storage room**, which contains new packages and moldering old boxes. The Sandusky evidence has not been identified or recovered.
+- **Curtis and Mevin are heading inside in gas masks**; The Finisher guards Grandpa, Belmont is in the parking lot, and **Buzz has safely returned to the RV**.
+- Mevin forged a routine pickup order for one day earlier; his [thrift-store flunkies](../NPCs/Thrift-Store-Flunkies.md) delivered the disguised Neuro-Stun VII package, which gang members carried inside.
+- The breach killed two exterior guards, incapacitated several occupants, and ignited exterior cladding. One unidentified man fled on foot without pursuit. About half the gang was away beforehand; Hardcastle's current fate is unknown.
+- Kilimanjaro used the roof hatch, which was unlocked on this visit despite the previous maglock observation. He passed through the upper-floor sleeping area and descended to the basement.
+- Mevin retains the old-interface device and downloaded logistics records. The crew has gas masks and two hand trucks; carrying-case costs remain unreconciled.
+- **No awards or payout.** The active scene is nighttime, provisionally late May 2066 or later; Grandpa's approved new-armor availability implies May 30 or later.
 
 ## Open Questions
 
 - Who is the Johnson, and why target Sandusky now?
 - What did Sandusky do in the old record?
-- Will the Ring of Fire respond to a spoofed Hardcastle order or fake smuggling call?
-- What does the intermittent Matrix signal connect to?
+- Where among the basement contents is the requested evidence, and can it be extracted intact?
+- Where is Hardcastle, and will the escaped ganger or absent patrols bring help?
+- Will the genuine pickup order that Mevin altered expose the deception?
 - Can Kurgan's Humanis past provide access, cover, or complications?
 
 ## Sources
 
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
+- [Session 2026-09-24](../Sessions/2026-09-24.md)

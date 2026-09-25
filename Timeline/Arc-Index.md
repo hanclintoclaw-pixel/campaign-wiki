@@ -2,7 +2,7 @@
 title: Campaign Arc Index
 type: arc-index
 visibility: player-safe
-updated: 2026-09-18
+updated: 2026-09-25
 ---
 
 # Campaign Arc Index
@@ -248,8 +248,11 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 **Core idea:** an anonymous Johnson hired the crew to retrieve old pre-Crash records and physical evidence on **Lula Bell Sandusky** from a fortified **Humanis**-affiliated smuggling site north of Nashville. The opening session established **Paul Hardcastle**, the **Ring of Fire**, **White Creek**, and an active recon posture with Buzz hidden on the roof.
 
+**Current posture:** [Session 2026-09-24](../Sessions/2026-09-24.md) advanced through a forged pickup and a drone-backed breach. Kilimanjaro is in the basement storage room; Curtis and Mevin are heading inside. Buzz is recovered, Hardcastle's fate is unknown, and the evidence is still uncollected. No awards yet.
+
 **Key sessions**
 - [2026-09-17](../Sessions/2026-09-17.md)
+- [2026-09-24](../Sessions/2026-09-24.md)
 
 **Important names**
 - [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md)

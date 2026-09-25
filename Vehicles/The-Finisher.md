@@ -3,7 +3,7 @@ title: The Finisher
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-10
+last_updated_session: 2026-09-24
 canon_status: provisional
 confidence: medium
 tags: [vehicle, drone, roto-drone, rigger, curtis]
@@ -11,6 +11,7 @@ sources:
   - PARTY_DOSSIER.md
   - Discord GM approval for Pilot 2 brain install, 2026-09-07
   - ../Sessions/2026-09-10.md
+  - ../Sessions/2026-09-24.md
 ---
 
 # The Finisher
@@ -43,6 +44,8 @@ An armed rotating-wing drone in Curtis's active combat/surveillance toolkit.
 
 During the Session 2026-09-10 Belisarius getaway, The Finisher operated on its approved Pilot 2 brain while Curtis rigged Grandpa. It failed a tire shot against Dupree's armored reinforced pursuing vehicle, then chipped the vehicle with SMG fire. The pursuing vehicle's pop-up LMG missed the drone, and no new Finisher damage or repair cost is confirmed.
 
+During [Session 2026-09-24](../Sessions/2026-09-24.md), The Finisher operated under Curtis's Captain's Chair orders at White Creek. Its initial fire missed, but it killed the guard exposed by Kilimanjaro's grenade. After comms confirmation that Kilimanjaro was clear, it shot out the west-side second-floor windows. **At the stopping point it is guarding Grandpa while Curtis and Mevin head inside.** No damage or stat change was recorded.
+
 ## Relevant Sessions
 
 - 2026-09-10 — deployed during the Belisarius getaway; engaged Dupree's pursuing vehicle without confirmed damage to the drone.
@@ -53,5 +56,6 @@ During the Session 2026-09-10 Belisarius getaway, The Finisher operated on its a
 
 ## Sources
 
+- [Session 2026-09-24](../Sessions/2026-09-24.md)
 - `PARTY_DOSSIER.md`
 - [Session 2026-09-10](../Sessions/2026-09-10.md)
