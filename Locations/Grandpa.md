@@ -18,6 +18,7 @@ sources:
   - Discord GM approval for Pilot 2 brain install, 2026-09-07
   - ../Sessions/2026-09-10.md
   - Discord #leeland Grandpa standard armor retrofit approval, 2026-09-14
+  - Discord #leeland Grandpa hand truck equipment add, 2026-09-24
 ---
 
 # Grandpa
@@ -46,6 +47,10 @@ Curtis's **Ford-Canada Bison RV** / BusMod base and mobile command platform.
 - **Flood ballast kit:** removable low-slung ballast package with baffled underfloor water-ballast tanks, locking steel ballast trays, frame brackets, fill indicators, and automatic dump valves. Cost paid by Curtis: **3,200¥**. Installed by Curtis in **18 hours** on 2026-07-16: Car B/R 3 vs TN 4 scored 1 success for 16 hours of tanks/brackets work, and Electronics 6 vs TN 4 scored 2 successes for 2 hours of indicator/dump-valve work. When filled, the kit adds about **1,500 kg** of low-mounted ballast for floodwater crossings. Table effect: **-1 TN** to resist being shoved/swept by moving water, but **+1 TN** to tight maneuvering/recovery tests while filled; drain afterward to return to normal driving posture.
 - **Advanced Drone Pilot Rating 2 brain:** recovered from the Pixel Sticks scorpion-drone salvage project and installed by Curtis on 2026-09-07. Install rolls: Car B/R 3 vs TN 4 scored 1 success, Electronics 6 vs TN 5 scored 2 successes, and Car 4 road/autonav shakedown vs TN 4 scored 2 successes. Grandpa passes controlled shakedown; autonomous use remains conservative and command-limited unless the GM expands it.
 - **Standard armor retrofit:** standard vehicle armor package raising Grandpa from **Armor 4 to Armor 6**. Cost paid by Curtis: **16,500¥**. Sourced through Taco starting **2066-05-21 evening**; Etiquette 4 vs TN 6 scored 1 success for a **7-day** sourcing interval. Taco's shop was available immediately once the kit arrived. Curtis installed the package in about **36 hours**: Car B/R 3 vs TN 4 scored 2 successes, Electronics 6 vs TN 4 scored 4 successes to preserve chameleon paint/sensors/accessory integration, and Car 4 vs TN 4 scored 3 successes on shakedown. Grandpa can start using the Armor 6 rating in game on **2066-05-30 morning**. The retrofit represents reinforced side and rear panels, armored engine compartment, underbody protection, cabin ballistic lining, and strengthened doors/hatches; it is not smart armor, ablative armor, ruthenium, or radar-absorbing material.
+
+## Onboard Equipment
+
+- **Hand truck:** portable cargo-moving dolly stored aboard Grandpa for loading, unloading, and moving heavy gear.
 
 ## Pilot 2 House Rules / Command Limits
 
@@ -122,3 +127,4 @@ Table note: Pilot 2 lets Grandpa be useful for unattended repositioning, extract
 - `PARTY_DOSSIER.md`
 - [Session 2026-09-10](../Sessions/2026-09-10.md)
 - Discord #leeland Grandpa standard armor retrofit approval, 2026-09-14
+- Discord #leeland Grandpa hand truck equipment add, 2026-09-24
