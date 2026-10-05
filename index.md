@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-09-25
+updated: 2026-10-05
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,9 +20,9 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** is still underway after **[Session 2026-09-24](Sessions/2026-09-24.md)**. Mevin forged a pickup order in the Ring of Fire's **[waystation host](Tech/Matrix/White-Creek-Waystation-Host.md)**, and his thrift-store contacts delivered the disguised gas package that opened the crew's breach of **[White Creek Civic Center](Locations/White-Creek-Civic-Center.md)**.
+The **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** remains underway after **[Session 2026-10-01](Sessions/2026-10-01.md)**. The crew recovered Sandusky-labeled records, concealed paydata, and an old terminal from **[White Creek Civic Center](Locations/White-Creek-Civic-Center.md)**, then withdrew as the building burned.
 
-**Kilimanjaro has reached the crowded basement storage room; Curtis and Mevin are heading inside in gas masks.** Buzz is safely docked in Grandpa, and The Finisher is guarding the RV. Two exterior guards are dead, several occupants are incapacitated, exterior cladding is burning, and one unidentified ganger escaped on foot. **Paul Hardcastle's fate is unknown, and Lula Bell Sandusky's evidence has not yet been identified or recovered. No awards or payout yet.** The nighttime scene remains provisionally late May 2066 or later; use of Grandpa's new armor places it no earlier than May 30 under the existing retrofit schedule.
+**Curtis, Mevin, Kilimanjaro, Kurgan, and Kyron made it out with the recovered material; their escape from the area and return to Nashville are not yet confirmed.** Two fire elementals were seen inside the burning civic center, and Kyron perceived a powerful tainted spirit above it. The records have not been read, the extra paydata is unidentified, and the Johnson handoff remains pending. **No awards or payout yet.** The nighttime scene remains provisionally late May 2066 or later; use of Grandpa's new armor places it no earlier than May 30 under the existing retrofit schedule.
 
 ## Navigation
 

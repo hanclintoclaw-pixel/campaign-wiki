@@ -4,7 +4,7 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-09-25
+updated: 2026-10-05
 tags: [leads, clues, open-threads]
 ---
 
@@ -26,27 +26,29 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 
 **Status:** active run in progress
 
-**Last touched:** [Session 2026-09-24](../Sessions/2026-09-24.md)
+**Last touched:** [Session 2026-10-01](../Sessions/2026-10-01.md)
 
 **Connected pages:** [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md), [White Creek Civic Center](../Locations/White-Creek-Civic-Center.md), [Paul Hardcastle](../NPCs/Paul-Hardcastle.md), [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md), [Ring of Fire](../Factions/Ring-of-Fire.md), [Humanis](../Factions/Humanis.md), [Buzz](../Vehicles/Buzz.md), [Kurgan](../PCs/Kurgan.md)
 
-An anonymous Johnson hired the crew to recover pre-Crash paper records and physical evidence on **Lula Bell Sandusky**, a public moral crusader pressuring Mayor Haggar over rumored metahuman status. The material is believed to be in the basement of the old White Creek police station / civic center, now held by **Paul Hardcastle** and the **Ring of Fire**, a Humanis-affiliated smuggling gang. Mevin has now breached the [waystation host](../Tech/Matrix/White-Creek-Waystation-Host.md) and forged a pickup order, enabling a disguised gas delivery and the crew's assault. **Kilimanjaro reached the crowded basement; Curtis and Mevin are heading inside. The evidence is not yet identified or recovered.** Buzz has returned to Grandpa, exterior cladding is burning, and an unidentified ganger escaped. Hardcastle was present before the attack but has not been located afterward.
+An anonymous Johnson hired the crew to recover pre-Crash paper records and physical evidence on **Lula Bell Sandusky**, a public moral crusader pressuring Mayor Haggar over rumored metahuman status. The crew recovered a large cache labeled with Sandusky's pre-Crash arrest-record information, additional concealed paydata, and an old terminal from the basement of the White Creek civic center. **The physical material is out of the building, but has not been read, appraised, or handed to the Johnson; the job remains active and unpaid.** The building was engulfed when the crew withdrew. Two fire elementals were seen inside and Kyron perceived a great-form tainted spirit of man above it. Crew escape and the fate of Paul Hardcastle / the Ring of Fire remain unresolved.
 
 **Player-facing questions**
 
 - Who hired the crew to retrieve Sandusky's old evidence, and what do they intend to do with it?
 - What did Sandusky do as a young woman, and why is it useful now?
 - Does Sandusky have direct Humanis ties, or does her current crusade merely overlap with their ideology?
-- Which boxes hold the requested evidence, and how does the secure holding area mentioned in the downloaded records relate to this storage room?
-- Where is Hardcastle, who remains inside, and could absent patrols or the escaped ganger bring reinforcements?
+- What do the recovered Sandusky records establish, and do they match the Johnson's request?
+- What is in the concealed paydata and the old terminal, and is either related to Sandusky?
+- Did the crew evade pursuit and return safely? Where is Hardcastle, and what happened to the Ring of Fire occupants?
+- Who directed the fire elementals, and what was the great-form tainted spirit doing above the site?
 - Will the genuine shipment whose order Mevin advanced expose the deception?
 - Will Kurgan's former Humanis connection become leverage, cover, or a complication?
 
 **Possible next actions**
 
-- Search the basement and identify the correct old records and physical evidence before loading them.
-- Bring Curtis and Mevin together with Kilimanjaro, maintain Grandpa's cover, and manage extraction around gas and fire.
-- Use the hand trucks and carrying gear already acquired; do not treat the job as complete until the material is recovered and handed off.
+- Read/catalog the recovered records, identify/appraise the extra paydata, and test the recovered terminal safely.
+- Complete the promised secure handoff in Nashville; do not treat recovery alone as job completion.
+- Establish escape, pursuit, and the condition of the civic center and its occupants before making claims about Hardcastle or the gang.
 - Preserve the downloaded logistics records and Buzz's audio as follow-up leads. The Matrix intrusion and pickup forgery are resolved; Hardcastle voice spoofing was never used.
 
 ### Explain Cedar's satisfaction and watch the Belisarius fallout

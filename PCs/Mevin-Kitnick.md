@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-01
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -22,6 +22,7 @@ sources:
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
+  - ../Sessions/2026-10-01.md
 ---
 
 # Mevin Kitnick
@@ -72,7 +73,8 @@ Mevin is usually the crew member most responsible for:
 - During the 2026-09-03 Byron Cedar rush job, Mevin used friendly-face social positioning and cyber-ear eavesdropping to monitor Judge Belisarius and Renaud Dupree, recorded their voices for possible Cindy analysis, and helped talk Belisarius down at Mucky's.
 - During the 2026-09-17 Humanis evidence retrieval opening, Mevin identified the pre-Crash data problem as a physical/evidence retrieval rather than a normal Matrix theft, sourced a primitive 9-pin old-interface device with Cindy's help, assessed White Creek for Matrix/satellite clues, and queued a Humanis hidden-host approach after Cindy detected an intermittent signal tied to the location.
 
-- During [Session 2026-09-24](../Sessions/2026-09-24.md), Mevin breached the [White Creek waystation host](../Tech/Matrix/White-Creek-Waystation-Host.md), downloaded shipment/patrol records and a secure-holding reference, then used Forgery to move an existing pickup order a day early. His thrift-store contacts handled the delivery. He assisted Curtis's electronics preparation, stayed protected in Grandpa through the firefight, and was heading into the building with Curtis at the pause. The basement evidence remains uncollected.
+- During [Session 2026-09-24](../Sessions/2026-09-24.md), Mevin breached the [White Creek waystation host](../Tech/Matrix/White-Creek-Waystation-Host.md), downloaded shipment/patrol records and a secure-holding reference, then used Forgery to move an existing pickup order a day early. His thrift-store contacts handled the delivery.
+- During [Session 2026-10-01](../Sessions/2026-10-01.md), Mevin searched the civic center and carried an old terminal with its attached monitor out of the burning structure. The recovered Sandusky-labeled records and concealed paydata still need review; the crew's escape and return are unresolved.
 
 ## Karma And Nuyen Ledger
 
@@ -267,6 +269,7 @@ For the Mevin Decker Experience, use the following defaults unless the player su
 ## Sources
 
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
+- [Session 2026-10-01](../Sessions/2026-10-01.md)
 
 - `PARTY_DOSSIER.md`
 - [Session 2026-06-04](../Sessions/2026-06-04.md)

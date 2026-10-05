@@ -8,6 +8,10 @@
 - [Kurgan](Kurgan.md)
 - [Curtis](Curtis.md)
 
+## Newly Introduced
+
+- [Kyron](Kyron.md) — joined the White Creek operation on 2026-10-01; character-sheet details remain unconfirmed.
+
 ## Temporarily Paused
 
 - [Valgaut](Valgaut.md)

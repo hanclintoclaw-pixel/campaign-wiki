@@ -4,7 +4,7 @@ type: player-character
 visibility: player-safe
 status: alternate
 player: Abe
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-01
 canon_status: provisional
 confidence: high
 aliases:
@@ -15,6 +15,7 @@ sources:
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
+  - ../Sessions/2026-10-01.md
 ---
 
 # Kilimanjaro
@@ -42,7 +43,7 @@ sources:
 
 ## Current Position
 
-At the end of [Session 2026-09-24](../Sessions/2026-09-24.md), Kilimanjaro is **inside White Creek's basement storage room with his hand truck**, having entered through the unlocked roof hatch and descended past the second-floor sleeping quarters. The room contains newer packages and old boxes; the Sandusky evidence has not been identified or recovered. Curtis and Mevin are heading inside to join the search.
+At the end of [Session 2026-10-01](../Sessions/2026-10-01.md), Kilimanjaro had exited the burning White Creek Civic Center carrying recovered Sandusky-labeled records and other material. The crew intended to flee toward its vehicles, but escape and return remain unconfirmed. The material has not yet been read or handed to the Johnson.
 
 ## Capabilities
 
@@ -77,6 +78,7 @@ At the end of [Session 2026-09-24](../Sessions/2026-09-24.md), Kilimanjaro is **
 - **[2026-09-17](../Sessions/2026-09-17.md)** - joined the Humanis evidence retrieval, recognized the Sandusky / Humanis ideological angle, infiltrated the White Creek Civic Center exterior and roof, saw Paul Hardcastle arrive, and helped plant Buzz for longer surveillance.
 
 - **[2026-09-24](../Sessions/2026-09-24.md)** - sourced supplies through his arms contact, climbed the roof, destroyed one guard's cover and killed the other with fragmentation grenades, entered through the unlocked hatch, put three upstairs occupants down with a flashbang amid the gas, and reached the basement storage room. No wound or award recorded.
+- **[2026-10-01](../Sessions/2026-10-01.md)** - searched the basement with Kurgan, helped move out the Sandusky-labeled records and concealed paydata, and withdrew with the team as two fire elementals accelerated the blaze. No wound or award recorded.
 
 ## Open Questions
 
@@ -86,5 +88,6 @@ At the end of [Session 2026-09-24](../Sessions/2026-09-24.md), Kilimanjaro is **
 ## Sources
 
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
+- [Session 2026-10-01](../Sessions/2026-10-01.md)
 - [Session 2026-09-03](../Sessions/2026-09-03.md)
 - [Session 2026-09-17](../Sessions/2026-09-17.md)

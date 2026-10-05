@@ -4,13 +4,14 @@ type: location
 visibility: player-safe
 status: active-site
 first_session: 2026-09-17
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-01
 canon_status: canon
 confidence: high
 tags: [location, white-creek, humanis, smuggling, active-site]
 sources:
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
+  - ../Sessions/2026-10-01.md
 ---
 
 # White Creek Civic Center
@@ -30,7 +31,7 @@ Old police station / town hall in **White Creek**, a small ruined hill-country c
 - A back roof hatch was noted as maglocked during the first recon. On 2026-09-24 it was explicitly **unlocked**; Kilimanjaro opened it and descended by ladder into the second-floor stairwell.
 - The roof has old HVAC / vent equipment, including a food-smoke vent and dead equipment used to conceal Buzz until its safe recall on 2026-09-24.
 - The second floor includes sleeping quarters; Kilimanjaro encountered three men there during the breach.
-- The stairwell descends to a basement door opening into a crowded room containing newer packages and moldering old boxes. Sandusky's evidence has not been located among them.
+- The crowded basement contained newer packages, moldering boxes, a large cache labeled with Lula Bell Sandusky's pre-Crash arrest-record information, and additional concealed paydata. The crew removed the Sandusky material and extra paydata; an old terminal and attached monitor were also carried out.
 
 ## Security Read
 
@@ -42,16 +43,17 @@ Old police station / town hall in **White Creek**, a small ruined hill-country c
 
 ## Current Crew Assets
 
-- **Kilimanjaro is in the basement storage room**; Curtis and Mevin are heading into the building in gas masks. The evidence search is unfinished.
+- The crew exited the building with the recovered records, terminal, and paydata. Safe escape from the area is not yet confirmed; the material has not yet been examined or handed to the Johnson.
 - **[Buzz](../Vehicles/Buzz.md)** is safely docked aboard Grandpa; Belmont is in the parking lot and The Finisher guards the RV.
 
 ## September 24 Breach
 
 A forged pickup order brought the crew's disguised gas package through the side door in Torchman hands. Grandpa broke through the vehicle barricade without damage. Kilimanjaro and The Finisher killed the two exterior guards; several occupants were incapacitated, and one unidentified ganger fled on foot unpursued.
 
-Belmont's incendiary shot struck above a window and set exterior cladding alight. The Finisher shot out west-side second-floor windows after confirming Kilimanjaro was elsewhere. Neither the whole building nor its basement contents were declared destroyed or cleared. Paul Hardcastle was on site before the attack, but his later location and condition are unknown; about half the gang was away before the breach.
+Belmont's incendiary shot struck above a window and set exterior cladding alight. The Finisher shot out west-side second-floor windows after confirming Kilimanjaro was elsewhere. Two fire elementals were seen methodically accelerating the blaze. Kyron perceived a great-form tainted spirit of man above the building. The crew chose to withdraw with its recovered material; the front was engulfed when they left. The site's ultimate condition and the fate of Hardcastle and the remaining occupants are unknown; about half the gang was away before the breach.
 
 ## Sources
 
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
+- [Session 2026-10-01](../Sessions/2026-10-01.md)

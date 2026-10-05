@@ -4,13 +4,14 @@ type: npc
 visibility: player-safe
 status: active
 first_session: 2026-09-17
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-01
 canon_status: canon
 confidence: high
 tags: [npc, politics, moral-crusader, evidence-target]
 sources:
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
+  - ../Sessions/2026-10-01.md
 ---
 
 # Lula Bell Sandusky
@@ -29,7 +30,7 @@ Public moral crusader and city-issues commentator whose current rhetoric has bec
 
 ## Retrieval Status
 
-In [Session 2026-09-24](../Sessions/2026-09-24.md), the crew breached White Creek and Kilimanjaro reached a basement full of newer packages and old boxes. **Her evidence has not yet been identified or recovered**, and nothing new about the underlying case was established. The job and intended use of the evidence remain unresolved.
+In [Session 2026-10-01](../Sessions/2026-10-01.md), the crew recovered a large cache labeled with Sandusky's pre-Crash arrest-record information from the White Creek basement. The records have not yet been read or handed to the Johnson, so their contents and bearing on the underlying case remain unknown.
 
 ## Open Questions
 
@@ -41,3 +42,4 @@ In [Session 2026-09-24](../Sessions/2026-09-24.md), the crew breached White Cree
 
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
+- [Session 2026-10-01](../Sessions/2026-10-01.md)

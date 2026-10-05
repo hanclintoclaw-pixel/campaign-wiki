@@ -4,13 +4,14 @@ type: arc
 visibility: player-safe
 status: active
 first_session: 2026-09-17
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-01
 canon_status: canon
 confidence: high
 tags: [arc, contract, humanis, smuggling, evidence, active]
 sources:
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
+  - ../Sessions/2026-10-01.md
 ---
 
 # Humanis Evidence Retrieval
@@ -40,20 +41,21 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 
 ## Current Assets / State
 
-- **Kilimanjaro is inside the basement storage room**, which contains new packages and moldering old boxes. The Sandusky evidence has not been identified or recovered.
-- **Curtis and Mevin are heading inside in gas masks**; The Finisher guards Grandpa, Belmont is in the parking lot, and **Buzz has safely returned to the RV**.
+- The crew recovered a large cache labeled with Sandusky's pre-Crash arrest-record information, additional concealed paydata, and an old terminal with attached monitor. The material is out of White Creek but has not yet been read or handed off.
+- Curtis, Mevin, Kilimanjaro, Kurgan, and Kyron exited the burning civic center. They intended to return to their vehicles and flee; pursuit and safe return are not established.
 - Mevin forged a routine pickup order for one day earlier; his [thrift-store flunkies](../NPCs/Thrift-Store-Flunkies.md) delivered the disguised Neuro-Stun VII package, which gang members carried inside.
-- The breach killed two exterior guards, incapacitated several occupants, and ignited exterior cladding. One unidentified man fled on foot without pursuit. About half the gang was away beforehand; Hardcastle's current fate is unknown.
+- The breach killed two exterior guards and incapacitated several occupants. One unidentified man fled on foot during the earlier breach. The civic center was engulfed when the crew withdrew; two fire elementals were seen accelerating the fire, and Kyron perceived a great-form tainted spirit of man above it. About half the gang was away beforehand; Hardcastle's current fate is unknown.
 - Kilimanjaro used the roof hatch, which was unlocked on this visit despite the previous maglock observation. He passed through the upper-floor sleeping area and descended to the basement.
 - Mevin retains the old-interface device and downloaded logistics records. The crew has gas masks and two hand trucks; carrying-case costs remain unreconciled.
-- **No awards or payout.** The active scene is nighttime, provisionally late May 2066 or later; Grandpa's approved new-armor availability implies May 30 or later.
+- **No awards or payout; the contract remains active pending interpretation and handoff.** The active scene is nighttime, provisionally late May 2066 or later; Grandpa's approved new-armor availability implies May 30 or later.
 
 ## Open Questions
 
 - Who is the Johnson, and why target Sandusky now?
-- What did Sandusky do in the old record?
-- Where among the basement contents is the requested evidence, and can it be extracted intact?
-- Where is Hardcastle, and will the escaped ganger or absent patrols bring help?
+- What does the recovered Sandusky cache establish, and does it match the Johnson's request?
+- What do the extra paydata and old terminal contain?
+- Where is Hardcastle, and will absent patrols or the escaped ganger bring help?
+- Who directed the fire elementals, and what is the great-form tainted spirit's connection to the scene?
 - Will the genuine pickup order that Mevin altered expose the deception?
 - Can Kurgan's Humanis past provide access, cover, or complications?
 
@@ -61,3 +63,4 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
+- [Session 2026-10-01](../Sessions/2026-10-01.md)

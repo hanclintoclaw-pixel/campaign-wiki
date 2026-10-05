@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-01
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -50,6 +50,7 @@ sources:
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
+  - ../Sessions/2026-10-01.md
   - Discord GM approval for Pilot 2 brain installs, 2026-09-07
 ---
 
@@ -151,7 +152,8 @@ Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 - During [Session 2026-09-10](../Sessions/2026-09-10.md), Curtis helped arrange Mucky's distraction, rigged Grandpa through the getaway while The Finisher covered the pursuit, and found an out-of-the-way holding location for Belisarius. The job concluded with **+5 Karma** and **+20,000¥**; no new damage to Grandpa or The Finisher was confirmed.
 - During [Session 2026-09-17](../Sessions/2026-09-17.md), Curtis used Buzz for White Creek reconnaissance, identified the Ring of Fire's low-tech posture, hid Buzz on the roof for passive listening, and bought six smoke improvised bombs plus two additional gas masks.
 
-- During [Session 2026-09-24](../Sessions/2026-09-24.md), Curtis reviewed Buzz's recordings, prepared the disguised gas package with Mevin, breached White Creek's barricade in Grandpa without damage, and directed Belmont and The Finisher. Buzz was safely recalled. Curtis let one fleeing ganger escape and ended by heading inside with Mevin in gas masks, leaving The Finisher guarding Grandpa.
+- During [Session 2026-09-24](../Sessions/2026-09-24.md), Curtis reviewed Buzz's recordings, prepared the disguised gas package with Mevin, breached White Creek's barricade in Grandpa without damage, and directed Belmont and The Finisher. Buzz was safely recalled; Curtis let one fleeing ganger escape and entered the building with Mevin.
+- During [Session 2026-10-01](../Sessions/2026-10-01.md), Curtis used his mechanical arms and carrier bin to remove recovered records and other material from the burning civic center. The crew withdrew rather than engage the fire elementals; escape remains unresolved. No damage or award was recorded.
 
 ## Karma And Nuyen Ledger
 
@@ -312,7 +314,8 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 - 2026-07-23 — helped manipulate the Pixel Sticks scorpion drone whitelist, got the sealed elevator working for the crew's escape, earned **7 Karma** plus **15,000¥**, and flagged tracking the drone / Chunky Sparkles aftermath as a possible follow-up.
 - 2026-08-06 — tracked the escaped scorpion drone with Kurgan, bought the needed remote-control encryption/decryption support through Taco, used Belmont and The Finisher against returning South Side Highwaymen, recovered the damaged drone, and earned **7 Karma**.
 - 2026-09-17 — used Buzz for White Creek reconnaissance, confirmed the low-tech Ring of Fire security posture, left Buzz hidden on the roof, sourced smoke/gas-mask gear, and stopped before the Matrix / breach phase.
-- [2026-09-24](../Sessions/2026-09-24.md) - executed the delivery-triggered White Creek breach, directed combat drones, recovered Buzz, and headed inside with Mevin while Kilimanjaro reached the basement. No awards; evidence not yet recovered.
+- [2026-09-24](../Sessions/2026-09-24.md) - executed the delivery-triggered White Creek breach, directed combat drones, recovered Buzz, and headed inside with Mevin while Kilimanjaro reached the basement. No awards.
+- [2026-10-01](../Sessions/2026-10-01.md) - carried recovered material out using his mechanical arms and bin as the building burned; withdrew with the crew. No awards.
 
 ## Sheet Snapshot
 
@@ -322,6 +325,7 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 ## Sources
 
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
+- [Session 2026-10-01](../Sessions/2026-10-01.md)
 
 - `PARTY_DOSSIER.md`
 - [Session 2026-06-04](../Sessions/2026-06-04.md)

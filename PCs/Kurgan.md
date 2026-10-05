@@ -45,6 +45,7 @@ Active player character and the crew's cyber-samurai.
 
 - At the start of [Session 2026-09-10](../Sessions/2026-09-10.md), Kurgan withdrew from the encounter to preserve plausible deniability around his City Hall connections and retirement ambitions; he did not take part in the closing extraction or chase.
 - Kurgan was absent from [Session 2026-09-17](../Sessions/2026-09-17.md), but the new White Creek / Ring of Fire job explicitly touches **Humanis** territory and was noted by the GM as originally written with Kurgan in mind.
+- During [Session 2026-10-01](../Sessions/2026-10-01.md), Kurgan rejoined the White Creek operation, helped search and move the Sandusky-labeled records, and killed an unidentified ganger who was choking on the gas. He took the victim's original-run Dukes of Hazzard commemorative medallion; no value or award was recorded.
 
 ## Karma And Nuyen Ledger
 

@@ -4,13 +4,14 @@ type: npc
 visibility: player-safe
 status: active
 first_session: 2026-09-17
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-01
 canon_status: canon
 confidence: high
 tags: [npc, humanis, ring-of-fire, smuggler, antagonist]
 sources:
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
+  - ../Sessions/2026-10-01.md
 ---
 
 # Paul Hardcastle
@@ -31,6 +32,8 @@ Humanis-linked smuggling figure operating north of Nashville. He leads or fronts
 
 Buzz recorded Hardcastle talking with other Torchmen and observed him coming and going in a white sports car. He appeared to live at the civic center while conducting business in Nashville, and the GM confirmed him present before the crew's attack. **His position and condition after the breach are unknown.** Neither the two dead exterior guards nor the fleeing man was identified as Hardcastle.
 
+In [Session 2026-10-01](../Sessions/2026-10-01.md), his distinctive white hot rod was visible outside while the crew withdrew from the burning civic center, but Hardcastle himself was not located. The car's presence does not establish his whereabouts or condition.
+
 The crew considered voice impersonation but instead used a forged logistics order. No Hardcastle voice-spoofing success is recorded.
 
 ## Open Questions
@@ -43,3 +46,4 @@ The crew considered voice impersonation but instead used a forged logistics orde
 
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
+- [Session 2026-10-01](../Sessions/2026-10-01.md)
