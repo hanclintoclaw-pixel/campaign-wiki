@@ -33,6 +33,15 @@ sources:
 
 He reads as a working shadowrunner with real corporate-security experience rather than a pure street punk. His useful edge is not just that he can deck; it is that he understands how corporate systems fail, how internal access gets abused, and when a dossier is telling the truth badly on purpose.
 
+## 10-01 Portraits
+
+After the 2026-10-01 session, Mevin and the other established runners introduced themselves to a new visitor. The GM asked for SR3-flavored illustrations based on those self-descriptions. Two Mevin images appear because I accidentally repeated the three-image generation run; they are alternate outputs from that mishap, not separate canon depictions.
+
+**Prompt record:** The exact original tool wording was not retained in the accessible run record. These prompt summaries are reconstructed from the request and image subjects, not verbatim quotations. Both asked for a Shadowrun 3rd Edition-era painted cyberpunk illustration.
+
+- **Portrait 1 — prompt summary:** Friendly, pudgy, talkative decker in a lived-in Matrix workspace, caught mid-explanation with expressive hands and glowing computer displays; use a gritty, colorful SR3-era cyberpunk illustration style. [View image](../assets/images/Session-2026-10-01-Mevin-Portrait-1.png).
+- **Portrait 2 — prompt summary:** A second warm but streetwise decker portrait, presenting the friendly, pudgy, talkative character amid cluttered screens and neon city light in a painted Shadowrun 3rd Edition aesthetic. [View image](../assets/images/Session-2026-10-01-Mevin-Portrait-2.png).
+
 ## Character Profile
 
 - **Role:** Decker / Matrix investigator / technical backline

@@ -60,6 +60,15 @@ sources:
 
 Active player character, **dwarf**, and the crew's drone-and-vehicle rigger.
 
+## 10-01 Portraits
+
+After the 2026-10-01 session, Curtis and the other established runners introduced themselves to a new visitor. The GM asked for SR3-flavored illustrations based on those self-descriptions. Two Curtis images appear because I accidentally repeated the three-image generation run; they are alternate outputs from that mishap, not separate canon depictions.
+
+**Prompt record:** The exact original tool wording was not retained in the accessible run record. These prompt summaries are reconstructed from the request and image subjects, not verbatim quotations. Both asked for a Shadowrun 3rd Edition-era painted cyberpunk illustration.
+
+- **Portrait 1 — prompt summary:** Full-length portrait of Curtis as described: a 99 cm dwarf with white hair, a white beard, blue eyes, and mechanical arms, rendered as a capable working runner in a rain-soaked neon city. [View image](../assets/images/Session-2026-10-01-Curtis-Portrait-1.png).
+- **Portrait 2 — prompt summary:** A second SR3-style full-length take on the same transcript-grounded Curtis description, emphasizing the dwarf's white hair and beard, blue eyes, and mechanical arms against a gritty, cinematic urban backdrop. [View image](../assets/images/Session-2026-10-01-Curtis-Portrait-2.png).
+
 ## Attributes
 
 - **BOD 4**

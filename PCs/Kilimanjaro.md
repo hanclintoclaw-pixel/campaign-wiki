@@ -24,6 +24,15 @@ sources:
 
 **Kilimanjaro** is an **Alternate PC** / starter character used for new players. Abe played him in [Session 2026-09-03](../Sessions/2026-09-03.md) and its [2026-09-10 conclusion](../Sessions/2026-09-10.md) as a temporary table on-ramp; if Abe later builds a bespoke long-term PC, Kilimanjaro can return to the NPC/contact pool.
 
+## 10-01 Portraits
+
+After the 2026-10-01 session, the established runners introduced themselves to a new visitor. The GM asked for SR3-flavored illustrations based on those self-descriptions. Two Kilimanjaro images appear because I accidentally repeated the three-image generation run; they are alternate outputs from that mishap, not separate canon depictions. His physical appearance was not specified, so both images keep his identity obscured rather than inventing facial or metatype details.
+
+**Prompt record:** The exact original tool wording was not retained in the accessible run record. These prompt summaries are reconstructed from the request and image subjects, not verbatim quotations. Both asked for a Shadowrun 3rd Edition-era painted cyberpunk illustration.
+
+- **Portrait 1 — prompt summary:** Armed, action-focused shadowrunner in a rain-slick neon city; keep the face and identifying appearance hidden, conveying a conspicuous combat specialist through silhouette, armor, and weapon rather than invented personal features. [View image](../assets/images/Session-2026-10-01-Kilimanjaro-Portrait-1.png).
+- **Portrait 2 — prompt summary:** A second SR3-style cinematic street-samurai portrait, heavily armed and silhouetted against a neon urban night, with face and physical identity deliberately obscured. [View image](../assets/images/Session-2026-10-01-Kilimanjaro-Portrait-2.png).
+
 ## Player and Role
 
 - **Player:** Abe, when used as a starter PC.
