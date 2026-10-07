@@ -23,9 +23,14 @@ sources:
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-01.md
+  - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
 ---
 
 # Mevin Kitnick
+
+![Mevin Kitnick, GM-confirmed crew portrait crop](../assets/images/Mevin-Crew-Portrait-2026-07-16.png)
+
+*Preferred visual reference: the screen-left figure in the crew portrait, cropped from the GM-identified left-to-right lineup.*
 
 ## Overview
 
@@ -36,6 +41,8 @@ He reads as a working shadowrunner with real corporate-security experience rathe
 ## 10-01 Portraits
 
 After the 2026-10-01 session, Mevin and the other established runners introduced themselves to a new visitor. The GM asked for SR3-flavored illustrations based on those self-descriptions. Two Mevin images appear because I accidentally repeated the three-image generation run; they are alternate outputs from that mishap, not separate canon depictions.
+
+The GM-confirmed crew portrait above is the preferred likeness reference; the two illustrations below are earlier generated interpretations.
 
 **Prompt record:** The exact original tool wording was not retained in the accessible run record. These prompt summaries are reconstructed from the request and image subjects, not verbatim quotations. Both asked for a Shadowrun 3rd Edition-era painted cyberpunk illustration.
 

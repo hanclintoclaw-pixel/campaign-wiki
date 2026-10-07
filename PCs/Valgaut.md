@@ -22,15 +22,24 @@ sources:
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
   - ../Sessions/2026-09-10.md
+  - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
 ---
 
 # Valgaut
 
-![Valgaut](../assets/images/Valgaut.png)
+![Valgaut, GM-confirmed crew portrait crop](../assets/images/Valgaut-Crew-Portrait-2026-07-16.png)
+
+*Preferred visual reference: the second figure from screen-left in the crew portrait, cropped from the GM-identified left-to-right lineup.*
 
 ## Overview
 
 Temporarily paused player character and the crew's physical adept. Valgaut is a human melee-focused adept with a combat axe, a strong magical-lore bent, and a particular interest in dragons and awakened phenomena.
+
+## Earlier Alternate Portrait
+
+The GM-confirmed crew portrait above is the preferred likeness reference. This earlier standalone illustration is retained as an alternate depiction.
+
+![Earlier alternate Valgaut portrait](../assets/images/Valgaut.png)
 
 ## Known Facts
 

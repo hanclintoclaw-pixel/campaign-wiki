@@ -18,9 +18,14 @@ sources:
   - ../Sessions/2026-09-03.md
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
+  - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
 ---
 
 # Kurgan
+
+![Kurgan, GM-confirmed crew portrait crop](../assets/images/Kurgan-Crew-Portrait-2026-07-16.png)
+
+*Preferred visual reference: the third figure from screen-left in the crew portrait, cropped from the GM-identified left-to-right lineup.*
 
 ## Overview
 
