@@ -24,6 +24,7 @@ sources:
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-01.md
   - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
+  - GM-confirmed appearance details, 2026-10-07
 ---
 
 # Mevin Kitnick
@@ -31,6 +32,13 @@ sources:
 ![Mevin Kitnick, GM-confirmed crew portrait crop](../assets/images/Mevin-Crew-Portrait-2026-07-16.png)
 
 *Preferred visual reference: the screen-left figure in the crew portrait, cropped from the GM-identified left-to-right lineup.*
+
+## Visual Profile (Image-Generation Reference)
+
+- **Metatype / gender:** Human male.
+- **Build:** A little out of shape.
+- **Typical clothing:** Professional, futuristic corpo-style clothes.
+- **Signature gear:** A cyberdeck carried at his waist or along his back.
 
 ## Overview
 
