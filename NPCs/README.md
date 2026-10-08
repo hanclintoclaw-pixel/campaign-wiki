@@ -27,9 +27,17 @@
 
 ## Awakened Critters — Tennessee
 
+### Nature Spirits
+
 - [The Broadway Chord](Broadway-Chord-City-Spirit.md) — Lower Broadway city spirit
 - [The Hushwater Bend](Hushwater-Bend-River-Spirit.md) — Tennessee River spirit near Chattanooga
 - [The Smoky Crown](Smoky-Crown-Mountain-Spirit.md) — Great Smoky Mountains spirit
+
+### Awakened Animals
+
+- [The Cornfield Harehound](Cornfield-Harehound.md) — Bell Witch-inspired Red River valley hound
+- [The Copper-Eyed Wampus](Copper-Eyed-Wampus.md) — East Tennessee wildcat cryptid-inspired Awakened animal
+- [The Piney Ridge Wildman](Piney-Ridge-Wildman.md) — Tennessee Wildman / Sasquatch-style forest critter
 
 ## General NPCs
 
