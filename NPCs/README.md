@@ -25,6 +25,12 @@
 - [Memphis Menthol Mephistopheles Muckmeyer (Mucky)](Mucky.md)
 - [Vanessa](Vanessa.md)
 
+## Awakened Critters — Tennessee
+
+- [The Broadway Chord](Broadway-Chord-City-Spirit.md) — Lower Broadway city spirit
+- [The Hushwater Bend](Hushwater-Bend-River-Spirit.md) — Tennessee River spirit near Chattanooga
+- [The Smoky Crown](Smoky-Crown-Mountain-Spirit.md) — Great Smoky Mountains spirit
+
 ## General NPCs
 
 - [Alanzo Sparks](Alanzo-Sparks.md)
