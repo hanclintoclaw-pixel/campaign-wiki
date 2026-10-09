@@ -248,12 +248,13 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 **Core idea:** an anonymous Johnson hired the crew to retrieve old pre-Crash records and physical evidence on **Lula Bell Sandusky** from a fortified **Humanis**-affiliated smuggling site north of Nashville. The opening session established **Paul Hardcastle**, the **Ring of Fire**, **White Creek**, and an active recon posture with Buzz hidden on the roof.
 
-**Current posture:** [Session 2026-10-01](../Sessions/2026-10-01.md) records recovery of Sandusky-labeled records, concealed paydata, and an old terminal from the burning site. The crew withdrew, but escape and return are unresolved; the material has not been read or handed off. Hardcastle's fate remains unknown. No awards yet.
+**Current posture:** [Session 2026-10-08](../Sessions/2026-10-08.md) records the crew's return to Nashville and confirms that the Sandusky files document her past in violent proto-Humanis activity. **Joseph Neumann** offered **55,000¥** for the mayor's private custody, but Kurgan left the offer open; the original Johnson handoff and crew decision about copies/disposition are pending. Glenn says the Hidden Enforcers banished the tainted spirit. No Karma, payout, or job-completion award; the crew did acquire armor and weapons during a separate downtown encounter.
 
 **Key sessions**
 - [2026-09-17](../Sessions/2026-09-17.md)
 - [2026-09-24](../Sessions/2026-09-24.md)
 - [2026-10-01](../Sessions/2026-10-01.md)
+- [2026-10-08](../Sessions/2026-10-08.md)
 
 **Important names**
 - [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md)

@@ -4,7 +4,7 @@ type: location
 visibility: player-safe
 status: active
 canon_scope: sr3-external-plus-campaign
-last_updated_session: 2026-09-03
+last_updated_session: 2026-10-08
 tags: [location, city, nashville, cas, sr3]
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/SR3_Target_Smugglers_Havens_FASA7215/source.md
@@ -17,6 +17,7 @@ sources:
   - memory/2026-02-27.md
   - PARTY_DOSSIER.md
   - ../Sessions/2026-09-03.md
+  - ../Sessions/2026-10-08.md
 ---
 
 # Nashville
@@ -142,6 +143,7 @@ For specific sites, see the broader [Locations](README.md) index and current Nas
 - [Seven Directions Dojo](Seven-Directions-Dojo.md)
 - [Noodle Stories](Noodle-Stories.md)
 - [Mucky's Place](Muckys-Place.md)
+- City Hall-adjacent parking structure — [Session 2026-10-08](../Sessions/2026-10-08.md) records a stripped-marking CAS military drop pod landing here; its deployment and occupants' purpose remain unknown.
 
 ## See also
 

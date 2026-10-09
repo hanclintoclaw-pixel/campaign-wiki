@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-01
+last_updated_session: 2026-10-08
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -51,6 +51,7 @@ sources:
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-01.md
+  - ../Sessions/2026-10-08.md
   - Discord GM approval for Pilot 2 brain installs, 2026-09-07
 ---
 
@@ -162,7 +163,7 @@ After the 2026-10-01 session, Curtis and the other established runners introduce
 - During [Session 2026-09-17](../Sessions/2026-09-17.md), Curtis used Buzz for White Creek reconnaissance, identified the Ring of Fire's low-tech posture, hid Buzz on the roof for passive listening, and bought six smoke improvised bombs plus two additional gas masks.
 
 - During [Session 2026-09-24](../Sessions/2026-09-24.md), Curtis reviewed Buzz's recordings, prepared the disguised gas package with Mevin, breached White Creek's barricade in Grandpa without damage, and directed Belmont and The Finisher. Buzz was safely recalled; Curtis let one fleeing ganger escape and entered the building with Mevin.
-- During [Session 2026-10-01](../Sessions/2026-10-01.md), Curtis used his mechanical arms and carrier bin to remove recovered records and other material from the burning civic center. The crew withdrew rather than engage the fire elementals; escape remains unresolved. No damage or award was recorded.
+- During [Session 2026-10-01](../Sessions/2026-10-01.md), Curtis used his mechanical arms and carrier bin to remove recovered records and other material from the burning civic center. In [Session 2026-10-08](../Sessions/2026-10-08.md), he helped resolve the downtown pod encounter without a firefight; the crew returned to Nashville and acquired armor and weapons. Individual allocation and mechanical stats remain open. No Karma or payout was recorded.
 
 ## Karma And Nuyen Ledger
 
@@ -325,6 +326,7 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 - 2026-09-17 — used Buzz for White Creek reconnaissance, confirmed the low-tech Ring of Fire security posture, left Buzz hidden on the roof, sourced smoke/gas-mask gear, and stopped before the Matrix / breach phase.
 - [2026-09-24](../Sessions/2026-09-24.md) - executed the delivery-triggered White Creek breach, directed combat drones, recovered Buzz, and headed inside with Mevin while Kilimanjaro reached the basement. No awards.
 - [2026-10-01](../Sessions/2026-10-01.md) - carried recovered material out using his mechanical arms and bin as the building burned; withdrew with the crew. No awards.
+- [2026-10-08](../Sessions/2026-10-08.md) - helped bluff the four pod occupants and recover their armor and weapons without a firefight. No Karma or payout.
 
 ## Sheet Snapshot
 

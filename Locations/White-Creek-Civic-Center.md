@@ -4,7 +4,7 @@ type: location
 visibility: player-safe
 status: active-site
 first_session: 2026-09-17
-last_updated_session: 2026-10-01
+last_updated_session: 2026-10-08
 canon_status: canon
 confidence: high
 tags: [location, white-creek, humanis, smuggling, active-site]
@@ -12,6 +12,7 @@ sources:
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-01.md
+  - ../Sessions/2026-10-08.md
 ---
 
 # White Creek Civic Center
@@ -43,7 +44,7 @@ Old police station / town hall in **White Creek**, a small ruined hill-country c
 
 ## Current Crew Assets
 
-- The crew exited the building with the recovered records, terminal, and paydata. Safe escape from the area is not yet confirmed; the material has not yet been examined or handed to the Johnson.
+- The crew left the site with the recovered records, terminal, and paydata, and reached Nashville in [Session 2026-10-08](../Sessions/2026-10-08.md). The Sandusky records have now been reviewed enough to confirm her past in violent proto-Humanis activity; the extra paydata and terminal remain unexamined, and the handoff is pending.
 - **[Buzz](../Vehicles/Buzz.md)** is safely docked aboard Grandpa; Belmont is in the parking lot and The Finisher guards the RV.
 
 ## September 24 Breach
@@ -57,3 +58,4 @@ Belmont's incendiary shot struck above a window and set exterior cladding alight
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
 - [Session 2026-10-01](../Sessions/2026-10-01.md)
+- [Session 2026-10-08](../Sessions/2026-10-08.md)

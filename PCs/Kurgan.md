@@ -3,7 +3,7 @@ title: Kurgan
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-17
+last_updated_session: 2026-10-08
 canon_status: provisional
 confidence: medium
 tags: [pc, cyber-samurai, active-crew]
@@ -18,6 +18,7 @@ sources:
   - ../Sessions/2026-09-03.md
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
+  - ../Sessions/2026-10-08.md
   - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
   - GM-confirmed appearance details, 2026-10-07
 ---
@@ -59,6 +60,7 @@ Active player character and the crew's cyber-samurai.
 - At the start of [Session 2026-09-10](../Sessions/2026-09-10.md), Kurgan withdrew from the encounter to preserve plausible deniability around his City Hall connections and retirement ambitions; he did not take part in the closing extraction or chase.
 - Kurgan was absent from [Session 2026-09-17](../Sessions/2026-09-17.md), but the new White Creek / Ring of Fire job explicitly touches **Humanis** territory and was noted by the GM as originally written with Kurgan in mind.
 - During [Session 2026-10-01](../Sessions/2026-10-01.md), Kurgan rejoined the White Creek operation, helped search and move the Sandusky-labeled records, and killed an unidentified ganger who was choking on the gas. He took the victim's original-run Dukes of Hazzard commemorative medallion; no value or award was recorded.
+- During [Session 2026-10-08](../Sessions/2026-10-08.md), Kurgan called Joseph Neumann about the Sandusky material and left the mayor's 55,000¥ offer pending. He also called Glenn for help with the tainted spirit and agreed to follow up about the Hidden Enforcers' response. Kurgan helped resolve the City Hall pod encounter without combat; the acquired gear's final individual allocation is unrecorded. No Karma or payout.
 
 ## Karma And Nuyen Ledger
 
@@ -96,3 +98,4 @@ Active player character and the crew's cyber-samurai.
 - `PARTY_DOSSIER.md`
 - [Session 2026-06-25](../Sessions/2026-06-25.md)
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
+- [Session 2026-10-08](../Sessions/2026-10-08.md)

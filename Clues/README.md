@@ -4,7 +4,7 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-10-05
+updated: 2026-10-08
 tags: [leads, clues, open-threads]
 ---
 
@@ -26,29 +26,30 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 
 **Status:** active run in progress
 
-**Last touched:** [Session 2026-10-01](../Sessions/2026-10-01.md)
+**Last touched:** [Session 2026-10-08](../Sessions/2026-10-08.md)
 
 **Connected pages:** [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md), [White Creek Civic Center](../Locations/White-Creek-Civic-Center.md), [Paul Hardcastle](../NPCs/Paul-Hardcastle.md), [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md), [Ring of Fire](../Factions/Ring-of-Fire.md), [Humanis](../Factions/Humanis.md), [Buzz](../Vehicles/Buzz.md), [Kurgan](../PCs/Kurgan.md)
 
-An anonymous Johnson hired the crew to recover pre-Crash paper records and physical evidence on **Lula Bell Sandusky**, a public moral crusader pressuring Mayor Haggar over rumored metahuman status. The crew recovered a large cache labeled with Sandusky's pre-Crash arrest-record information, additional concealed paydata, and an old terminal from the basement of the White Creek civic center. **The physical material is out of the building, but has not been read, appraised, or handed to the Johnson; the job remains active and unpaid.** The building was engulfed when the crew withdrew. Two fire elementals were seen inside and Kyron perceived a great-form tainted spirit of man above it. Crew escape and the fate of Paul Hardcastle / the Ring of Fire remain unresolved.
+An anonymous Johnson hired the crew to recover pre-Crash paper records and physical evidence on **Lula Bell Sandusky**, a public moral crusader pressuring Mayor Haggar over rumored metahuman status. The crew recovered the Sandusky cache, concealed paydata, and an old terminal from the White Creek civic center, then reached Nashville. The files establish Sandusky's youth involvement in violent proto-Humanis activity, but the legal/political value and disposition remain unresolved. **Joseph Neumann** offered **55,000¥** for the mayor's private custody; the offer is unaccepted and the run remains unpaid. Glenn reported that the Hidden Enforcers banished the tainted spirit, but its powerful summoner is unidentified. Near City Hall, the crew acquired heavy armor and weapons from four disguised pod occupants; the drone/pod's employer and purpose remain unknown.
 
 **Player-facing questions**
 
-- Who hired the crew to retrieve Sandusky's old evidence, and what do they intend to do with it?
-- What did Sandusky do as a young woman, and why is it useful now?
+- Who hired the crew to retrieve Sandusky's old evidence, and what do they intend to do with it? Why did the mayor's office not issue the original job?
+- What legal/political leverage do the Sandusky records create, and why is it useful now?
 - Does Sandusky have direct Humanis ties, or does her current crusade merely overlap with their ideology?
-- What do the recovered Sandusky records establish, and do they match the Johnson's request?
+- Will the crew accept Neumann's 55,000¥ offer, retain copies, or hand over the material to the original Johnson? What are the risks of multiple copies/recipients?
 - What is in the concealed paydata and the old terminal, and is either related to Sandusky?
-- Did the crew evade pursuit and return safely? Where is Hardcastle, and what happened to the Ring of Fire occupants?
-- Who directed the fire elementals, and what was the great-form tainted spirit doing above the site?
+- Where is Hardcastle, and what happened to the Ring of Fire occupants?
+- Who summoned the tainted spirit, and what was it doing above the site? What does Glenn need from Kurgan after the Hidden Enforcers banished it?
+- Who sent the Princeps-style drone and stripped-marking drop pod to City Hall, and who were its four occupants?
 - Will the genuine shipment whose order Mevin advanced expose the deception?
 - Will Kurgan's former Humanis connection become leverage, cover, or a complication?
 
 **Possible next actions**
 
 - Read/catalog the recovered records, identify/appraise the extra paydata, and test the recovered terminal safely.
-- Complete the promised secure handoff in Nashville; do not treat recovery alone as job completion.
-- Establish escape, pursuit, and the condition of the civic center and its occupants before making claims about Hardcastle or the gang.
+- Decide material custody with the crew, then contact the original Johnson and arrange a secure handoff; recovery alone is not job completion.
+- Establish the condition of the civic center and its occupants before making claims about Hardcastle or the gang.
 - Preserve the downloaded logistics records and Buzz's audio as follow-up leads. The Matrix intrusion and pickup forgery are resolved; Hardcastle voice spoofing was never used.
 
 ### Explain Cedar's satisfaction and watch the Belisarius fallout

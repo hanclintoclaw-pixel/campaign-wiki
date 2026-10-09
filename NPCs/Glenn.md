@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-02-27
-last_updated_session: 2026-08-06
+last_updated_session: 2026-10-08
 canon_status: provisional
 confidence: medium
 tags: [npc, mage, contact]
@@ -12,6 +12,7 @@ sources:
   - memory/2026-02-27.md
   - PARTY_DOSSIER.md
   - ../Sessions/2026-08-06.md
+  - ../Sessions/2026-10-08.md
 ---
 
 # Glenn
@@ -27,6 +28,7 @@ High-level hermetic mage and active contact with the crew; a member of the Hidde
 - He is a member of the **Hidden Enforcers**.
 - He is an active contact for the group.
 - During the Pixel Sticks aftermath, Glenn confirmed the Hidden Enforcers were called in because of **Chunky Sparkles**, but they lost containment when the awakened creature slipped away.
+- During [Session 2026-10-08](../Sessions/2026-10-08.md), Glenn projected at Kurgan's request to investigate the tainted spirit associated with White Creek. He later reported that the Hidden Enforcers banished it and that its summoner had concealed their presence; he expects Kurgan to follow up regarding the resources used.
 
 ## Relationships
 
@@ -38,12 +40,14 @@ High-level hermetic mage and active contact with the crew; a member of the Hidde
 
 - 2026-02-27 — authoritative roster/contact update.
 - 2026-08-06 — confirmed Hidden Enforcers involvement in the Chunky Sparkles aftermath and that the creature escaped containment.
+- 2026-10-08 — investigated the tainted spirit and reported its banishment by the Hidden Enforcers.
 
 ## Open Questions
 
 - What level of Hidden Enforcers support can Glenn currently provide?
 - How directly involved is he in the current anti-insect-spirit and influence-network fallout?
 - Can Glenn or the Hidden Enforcers track Chunky Sparkles after the failed containment?
+- Who summoned the tainted spirit, and what follow-up or obligation will Glenn ask of Kurgan?
 
 ## Sources
 

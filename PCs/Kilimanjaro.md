@@ -4,7 +4,7 @@ type: player-character
 visibility: player-safe
 status: alternate
 player: Abe
-last_updated_session: 2026-10-01
+last_updated_session: 2026-10-08
 canon_status: provisional
 confidence: high
 aliases:
@@ -16,6 +16,7 @@ sources:
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-01.md
+  - ../Sessions/2026-10-08.md
 ---
 
 # Kilimanjaro
@@ -52,7 +53,7 @@ After the 2026-10-01 session, the established runners introduced themselves to a
 
 ## Current Position
 
-At the end of [Session 2026-10-01](../Sessions/2026-10-01.md), Kilimanjaro had exited the burning White Creek Civic Center carrying recovered Sandusky-labeled records and other material. The crew intended to flee toward its vehicles, but escape and return remain unconfirmed. The material has not yet been read or handed to the Johnson.
+At the end of [Session 2026-10-08](../Sessions/2026-10-08.md), Kilimanjaro had returned to Nashville with the recovered Sandusky records and other material. The main evidence decision and Johnson handoff remain pending. He helped assess the military drop pod and its occupants; the crew acquired armor and weapons without fighting them. Exact gear allocation remains unrecorded; no Karma or payout was awarded.
 
 ## Capabilities
 
@@ -88,6 +89,7 @@ At the end of [Session 2026-10-01](../Sessions/2026-10-01.md), Kilimanjaro had e
 
 - **[2026-09-24](../Sessions/2026-09-24.md)** - sourced supplies through his arms contact, climbed the roof, destroyed one guard's cover and killed the other with fragmentation grenades, entered through the unlocked hatch, put three upstairs occupants down with a flashbang amid the gas, and reached the basement storage room. No wound or award recorded.
 - **[2026-10-01](../Sessions/2026-10-01.md)** - searched the basement with Kurgan, helped move out the Sandusky-labeled records and concealed paydata, and withdrew with the team as two fire elementals accelerated the blaze. No wound or award recorded.
+- **[2026-10-08](../Sessions/2026-10-08.md)** - helped assess the Princeps-style military pod and resolve the four occupants' arrival through a bluff/disguise plan; the crew took heavy armor and weapons. No Karma or payout; individual gear allocation remains open.
 
 ## Open Questions
 
