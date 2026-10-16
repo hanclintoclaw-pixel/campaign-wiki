@@ -23,20 +23,19 @@ This reveal is campaign canon. The statline below is a deliberately tuned encoun
 
 | Statistic | Value |
 |---|---|
-| Type | Master Shedim (campaign-specific greater spirit of man) |
+| Type | Master Shedim (campaign-tuned free spirit; not a Spirit of Man) |
 | Force | 8 |
-| Spirit Energy | 3 (effective Force 11 when adding Spirit Energy to Force-based powers and the spirit's physical form) |
+| Spirit Energy | 3 (Force + Spirit Energy = 11 where the rules call for the Shedim's Force plus Spirit Energy, including Inhabitation and Karma Drain) |
 | Astral Combat Pool | 12 (Force × 1.5) |
 | Karma Pool | 5 (GM encounter dial; adjust to the crew's average) |
-| Initiative | Astral 31 + 1D6; physical form 22 + 1D6 |
-| Spirit of Man-derived attributes, using effective Force 11 | B 12, Q 13, I 9, W 11, R 12 |
-| Unarmed attack | 9M when physically manifested (Spirit of Man base attack, `(F−2)M`, using effective Force 11). The inhabited vessel uses its own physical capabilities unless a Shedim power or the scene's established effects say otherwise. |
+| Initiative | Astral: use the SR3 spirit/free-spirit astral initiative rules, including Spirit Energy. A Shedim has no materialized physical form or separate physical initiative; while inhabiting a vessel, use the vessel's initiative and actions. |
+| Attributes | In astral form, use the Shedim's Force-based attributes (Force 8). While inhabiting a vessel, its Physical attributes are increased by Force + Spirit Energy (11); it retains its own Mental attributes, rather than the vessel's. |
+| Physical attacks | No physical unarmed attack while in astral form: Shedim cannot materialize. In a vessel, resolve attacks using that vessel's current physical capabilities and normal SR3 rules. |
 | Master Shedim powers | Aura Masking, Compulsion, Deathly Aura, Fear, Immunity (Age, Pathogens, Toxins), Inhabitation, Karma Drain, Regeneration |
 | Optional powers | Magical Guard and Shadowcloak. Add Noxious Breath or Silence only if they suit the scene; do not stack every option by default. |
-| Spirit-form protection | If she manifests physically rather than inhabiting a vessel, apply SR3 spirit materialization and Immunity to Normal Weapons rules using effective Force 11 (22 armor against normal weapons). This protection does not make the inhabited mortal vessel invulnerable; resolve attacks against that vessel normally. |
-| Weaknesses | No special weakness beyond the Shedim's published rules is assigned in this campaign build. A discovered true name, ward, banishing attempt, or astral confrontation can provide leverage under the normal SR3 rules. |
+| Defenses and weaknesses | Shedim cannot materialize; do not give her a materialized-spirit Immunity to Normal Weapons rating. While she inhabits a body, physical attacks affect the vessel and mana spells affect the Shedim. Shedim have Allergy (Sunlight, Mild). A discovered true name, ward, banishing attempt, or astral confrontation can provide leverage under normal SR3 rules. |
 
-The effective-Force attribute and power ratings apply the free-spirit Spirit Energy guidance. Initiative and the Spirit of Man base line follow the SR3 spirit rules. The particular Force, Spirit Energy, Karma Pool, and optional powers above are GM tuning choices for this encounter.
+Force 8, Spirit Energy 3, Karma Pool 5, and the selected optional powers are GM tuning choices for this encounter, not a printed stat block. A master Shedim can inhabit a dead or living vessel and absorbs its former inhabitant's memories and personality. When it inhabits a corpse, its Regeneration may restore the body to the semblance of life: three successes on the Force + Spirit Energy Inhabitation Test restore it to full health; fewer successes leave Physical and/or Mental Flaws. This is not a way to restore Lula's fireball-destroyed former vessel; if she survives, she needs another vessel.
 
 ## Running Her at the Table — GM Notes
 
@@ -46,10 +45,10 @@ Lula's immediate priorities are to learn who has the White Creek evidence, preve
 
 ### Making the fight fair and legible
 
-- **Separate vessel from spirit.** Let astral perception, the emerging manifestation, and her change in behavior make the reveal understandable. Do not quietly apply materialized-spirit immunity to the former host body.
+- **Separate vessel from spirit.** Let astral perception, her insubstantial astral form, and her change in behavior make the reveal understandable. Shedim cannot materialize; do not quietly apply materialized-spirit immunity to a vessel.
 - **Show her powers before they decide the scene.** Compulsion and Fear should have sensory or behavioral tells. Give the players a chance to recognize the magical pressure and respond with appropriate SR3 defenses or countermeasures.
 - **Give mundane characters useful jobs.** Covering exits, protecting the evidence and witnesses, disrupting her security, and forcing her to spend actions are meaningful contributions even if they cannot directly harm an astral spirit.
-- **Let magical characters contest her.** Astral combat, banishing, wards, and appropriate magical support are the direct ways to challenge a spirit. Her Force 8 makes her formidable; Spirit Energy 3 and Karma Pool 5 are adjustable if the crew is outmatched.
+- **Let magical characters contest her.** Astral combat, banishing, wards, and appropriate magical support are the direct ways to challenge her. Her Force 8 makes her formidable; Spirit Energy 3 and Karma Pool 5 are adjustable if the crew is outmatched. If she is inhabiting a body, keep physical-vessel damage distinct from damage to the Shedim itself.
 - **Make the escape cost something.** If the scene needs a continuing villain, she can abandon a doomed vessel and flee rather than fight until destroyed. The escape should leave a trace: a witness, a damaged ward, a recognizable astral signature, or a clue to the next identity. If the crew successfully contains or banishes her, honor that result.
 
 ### If she returns
@@ -60,8 +59,8 @@ The unresolved campaign question is how this entity returned after the Hidden En
 
 ## Rules Basis and Adaptation Notes
 
-- *Threats 2*, “Can You See the Real Me?” / “Master Shedim,” printed pp. 53–54: identifies Shedim as spirits that possess physical bodies; describes master Shedim and their powers, enhanced Inhabitation/Regeneration, and memory-taking. It directs readers to *Year of the Comet*, pp. 149–153, for standard Shedim rules.
-- *Shadowrun, Third Edition*, “Spirits and Dragons,” pp. 264–269: spirit forms, materialization, initiative, Spirit of Man attributes, and Immunity to Normal Weapons.
-- *Magic in the Shadows*, “Free Spirits,” pp. 113–118: Spirit Energy, its use with Force-based powers and physical forms, and its addition to astral Initiative.
+- *Year of the Comet*, “The Shedim,” printed pp. 149–153: Shedim use Force for their attributes, cannot materialize, lose Force while left in astral form, gain Spirit Energy, have Allergy (Sunlight, Mild), and use the published rules for Inhabitation and Karma Drain. These pages also distinguish effects on the Shedim from effects on its vessel.
+- *Threats 2*, “Can You See the Real Me?” / “Master Shedim,” printed pp. 53–54: master-Shedim powers, corpse restoration and Flaws based on Inhabitation successes, and absorption of a vessel's memories and personality.
+- *Magic in the Shadows*, “Free Spirits,” pp. 113–118: Spirit Energy uses and advancement; *Year of the Comet* points to p. 114 for the general Spirit Energy rules.
 
-Because the local indexed corpus has the *Threats 2* master-Shedim entry but not the cited *Year of the Comet* stat pages, the build above combines the published master-Shedim power list with SR3 spirit/free-spirit construction rules and explicitly marked encounter tuning. It should not be read as an exact transcription of a printed Shedim stat block.
+This is a campaign-tuned encounter profile, not a verbatim published stat block. The prior draft incorrectly treated Lula as a Spirit of Man with a materialized physical form. *Year of the Comet* clarifies that Shedim cannot materialize; this page now models her Force, Spirit Energy, vessel-dependent physical attributes, powers, and weakness accordingly.
