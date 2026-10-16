@@ -146,17 +146,17 @@ Non-direct GM pings now obey `LIVE_MONITOR_MIN_PING_INTERVAL_S` even when the in
 
 The current live bridge does not treat most non-direct monitor hits as immediate pings. Matrix/security/stall/scene-pivot reasons first become `draft_ready`, then `_derive_cindy_initiative_proposal(...)` must find a specific Cindy-shaped action before anything goes to the GM.
 
-That proposal includes:
+The proposal path also requires the short-horizon pre-ping guard to pass for **every** unsolicited proposal. A broad scene match or stale opening is not enough. The displayed trigger is selected from recent evidence that matches the proposal's action category, rather than falling back to generic plan text.
 
-- `proposal_type`
-- `trigger`
-- Cindy's read of why the moment matters
-- proposed bounded action
-- visibility note
-- risk note
-- GM ask
+The GM ping is intentionally compact:
 
-This is the active safety boundary: Cindy proposes a possible move privately, and the GM decides whether to approve, change, ignore, or hold it.
+- the specific recent evidence (“Why now”)
+- one bounded, concrete Cindy move
+- a short in-character voice line prepared for that move
+- a saved voice clip and `!voice-play-saved` command when TTS rendering succeeds
+- an explicit note that this is a proposal and no action has been taken or announced to players
+
+The GM remains the approval boundary for actions that could affect the fiction, reveal information, spend resources, or call for a test. The prepared line makes the suggestion easy to use at the table, but it is not itself an in-world action. A future bounded-initiative mode could allow Cindy to make very low-impact NPC choices on her own, but it needs an explicit allowlist of permitted actions and must remain off by default; Jev is not part of the current path.
 
 ## What it tries hard **not** to do
 
