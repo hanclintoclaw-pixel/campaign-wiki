@@ -4,7 +4,7 @@ type: arc
 visibility: player-safe
 status: active
 first_session: 2026-09-17
-last_updated_session: 2026-10-08
+last_updated_session: 2026-10-15
 canon_status: canon
 confidence: high
 tags: [arc, contract, humanis, smuggling, evidence, active]
@@ -13,6 +13,7 @@ sources:
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-01.md
   - ../Sessions/2026-10-08.md
+  - ../Sessions/2026-10-15.md
 ---
 
 # Humanis Evidence Retrieval
@@ -53,6 +54,8 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 - Kilimanjaro used the roof hatch, which was unlocked on this visit despite the previous maglock observation. He passed through the upper-floor sleeping area and descended to the basement.
 - Mevin retains the old-interface device and downloaded logistics records. The crew has gas masks and two hand trucks; carrying-case costs remain unreconciled.
 - **No Karma, nuyen payout, or job-completion award; acquired gear is recorded in Session 2026-10-08.** The contract remains active pending the crew's decision about the evidence and a handoff. The active scene remains nighttime, provisionally late May 2066 or later; Grandpa's approved new-armor availability implies May 30 or later.
+- During [Session 2026-10-15](../Sessions/2026-10-15.md), the crew contacted the original Johnson and attempted a public physical drop in Nashville. **Lula Bell Sandusky** appeared with armed security, magically compelled Curtis, and signaled an attack when he admitted examining the material. Kyron's fireball wrecked one armored van and ignited another; the GM reported two guards dead and one surviving among those caught. Sandusky's physical body was apparently killed, and the tainted greater spirit of man previously reported banished emerged from it. The evidence remains with the crew; no transfer, payment, or award occurred.
+- Sandusky's apparent death, the spirit's reappearance, the Johnson's identity/fate, the ownership of the vans, and the crew's injuries / combat resolution remain unresolved.
 
 ## Open Questions
 
@@ -73,3 +76,4 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
 - [Session 2026-10-01](../Sessions/2026-10-01.md)
 - [Session 2026-10-08](../Sessions/2026-10-08.md)
+- [Session 2026-10-15](../Sessions/2026-10-15.md)

@@ -2,9 +2,9 @@
 title: Lula Bell Sandusky
 type: npc
 visibility: player-safe
-status: active
+status: apparently deceased; spirit manifestation unresolved
 first_session: 2026-09-17
-last_updated_session: 2026-10-01
+last_updated_session: 2026-10-15
 canon_status: canon
 confidence: high
 tags: [npc, politics, moral-crusader, evidence-target]
@@ -12,6 +12,7 @@ sources:
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-01.md
+  - ../Sessions/2026-10-15.md
 ---
 
 # Lula Bell Sandusky
@@ -30,10 +31,12 @@ Public moral crusader and city-issues commentator whose current rhetoric has bec
 
 ## Retrieval Status
 
-In [Session 2026-10-01](../Sessions/2026-10-01.md), the crew recovered a large cache labeled with Sandusky's pre-Crash arrest-record information from the White Creek basement. The records have not yet been read or handed to the Johnson, so their contents and bearing on the underlying case remain unknown.
+The crew recovered a large cache labeled with Sandusky's pre-Crash arrest-record information from White Creek and reviewed it enough to learn of her youth involvement in violent proto-Humanis activity. In [Session 2026-10-15](../Sessions/2026-10-15.md), Sandusky appeared at the planned public handoff with armed security. Astral perception identified her as awakened; the GM indicated she had likely masked her presence for years. She used magic to compel Curtis to answer truthfully and signaled an attack after learning he had examined the evidence. A fireball shattered her physical form, which the GM described as apparently dead; the tainted greater spirit of man that had inhabited her emerged. The transcript does not establish whether the spirit was her soul, how it returned after the Hidden Enforcers reportedly banished it, or whether her body/fate can be reversed.
 
 ## Open Questions
 
+- Is Sandusky physically dead, and can her body or fate be recovered? What is her relationship to the tainted greater spirit of man that emerged from her?
+- Why did Sandusky attend or intervene in the Johnson drop, and how did she learn that the crew had examined the evidence?
 - What did Sandusky do as a young woman during the Return-of-Magic / Crash-era chaos?
 - Who wants the evidence now, and do they intend blackmail, exposure, leverage, or protection?
 - Does she have a direct Humanis connection or only ideological overlap?
@@ -43,3 +46,4 @@ In [Session 2026-10-01](../Sessions/2026-10-01.md), the crew recovered a large c
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
 - [Session 2026-10-01](../Sessions/2026-10-01.md)
+- [Session 2026-10-15](../Sessions/2026-10-15.md)

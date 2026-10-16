@@ -2,7 +2,7 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-10-08
+updated: 2026-10-16
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,9 +20,9 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** remains underway after **[Session 2026-10-08](Sessions/2026-10-08.md)**. The crew brought the recovered Sandusky records, extra paydata, and old terminal from **[White Creek Civic Center](Locations/White-Creek-Civic-Center.md)** back to Nashville. The records establish Lula Bell Sandusky's youth involvement in violent proto-Humanis activity; their legal/political value and final disposition remain unsettled.
+The **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** remains active after [Session 2026-10-15](Sessions/2026-10-15.md). The crew tried to hand the recovered Sandusky evidence to the original anonymous Johnson at a public Nashville drop. **Lula Bell Sandusky** appeared with armed security, magically compelled Curtis to answer questions, and signaled an attack. Kyron's fireball destroyed one van and ignited another; Sandusky's physical body was apparently killed, and the tainted greater spirit of man that had inhabited her emerged. The evidence remains with the crew; no handoff, payment, Karma, or completion award occurred.
 
-**Joseph Neumann** denied that the mayor's office issued the original job, but offered **55,000¥** for the mayor's private custody of the material. The crew has not accepted the offer or contacted the original Johnson for a handoff. Glenn reports the Hidden Enforcers banished the tainted spirit seen over White Creek, though its summoner remains unknown. Near City Hall, the crew bluffed four armed pod occupants and acquired heavy security armor and weapons. **No Karma or nuyen payout; the run is not complete.** The in-world night remains provisionally late May 2066 or later, no earlier than May 30 under the existing armor schedule.
+The two armored vans' ownership and the relationship between Sandusky, the Johnson, Mayor Haggar/Joseph Neumann, and Princeps are unresolved. The campaign date remains provisionally late May 2066 or later, nighttime.
 
 ## Navigation
 
