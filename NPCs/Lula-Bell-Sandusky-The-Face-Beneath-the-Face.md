@@ -13,6 +13,8 @@ sources:
 
 # The Face Beneath the Face
 
+![Lula Bell Sandusky greets supporters at a Tennessee campaign rally as the translucent, alien Shedim looms behind her.](../assets/images/Lula-Bell-Sandusky-Shedim-Campaign-Event.png)
+
 > “You saw the woman die. You never met the thing that was wearing her.”
 
 The entity known publicly as **Lula Bell Sandusky** is a **master Shedim**: a powerful, alien spirit that inhabited a body and used its identity to move through human society. The elderly woman the crew knew was the Shedim's vessel and mask. When the fireball destroyed that body at the Nashville handoff, the tainted spirit emerged. It is not confirmed that the spirit can restore that particular vessel.
