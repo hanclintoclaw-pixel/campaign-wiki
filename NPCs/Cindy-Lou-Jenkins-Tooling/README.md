@@ -43,6 +43,10 @@ Current live posture:
 
 The system is therefore best described as **active support with GM approval**, not autonomous co-GM behavior.
 
+## Stat and rules reference
+
+- [Cindy's In-Character Stats](Cindys-In-Character-Stats.md) - consolidated mechanical numbers for Cindy as a table-playable Semi-Autonomous Knowbot A-NPC: Matrix profile, Computer skill, utility ratings, GM-panel roll presets, drone presets, and mobile-shell quick reference.
+
 ## Active behavior tools
 
 - [Cindy Lou Voice Clip Phrase Library](Voice-Clip-Phrase-Library.md) - short reusable clips, saved-line playback, stalling cues, and chaining behavior for fast live voice responses.
