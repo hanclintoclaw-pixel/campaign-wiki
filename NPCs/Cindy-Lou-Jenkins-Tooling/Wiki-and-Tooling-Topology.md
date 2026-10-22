@@ -3,7 +3,7 @@ title: Cindy Lou Wiki and Tooling Topology
 type: tech-note
 visibility: player-safe
 status: active
-updated: 2026-09-09
+updated: 2026-10-21
 tags: [cindy, wiki, tooling, architecture]
 ---
 
@@ -12,6 +12,88 @@ tags: [cindy, wiki, tooling, architecture]
 ## Purpose
 
 This page documents how Cindy's wiki presence, live tooling, and Discord behavior fit together at a systems level.
+
+## Architecture at a glance
+
+This snapshot distinguishes the long-running services from whether a live game session is currently connected. It was checked on 2026-10-21; process/configuration status can change independently of this page.
+
+![Cindy Lou architecture: Discord, voice transcription and playback, memory services, and manual post-session wiki closeout](../../assets/images/Cindy-Lou-Architecture.svg)
+
+The diagram is a pre-rendered SVG because this GitHub Pages site uses Jekyll/Kramdown without Mermaid rendering support. The editable Mermaid source is included below.
+
+<details markdown="1">
+<summary>Mermaid source</summary>
+
+```mermaid
+flowchart LR
+  subgraph DISCORD[Discord]
+    PLAYERS[Players and GM]
+    VOICECH[Voice channel]
+    THREAD[Active session thread]
+    CHAT[Text mentions and commands]
+  end
+
+  subgraph BRIDGE[Local voice bridge — process up, session idle]
+    CAP[Discord voice receive]
+    STT[faster-whisper STT]
+    WAKE[Transcript and thread watcher]
+    TTS[Kokoro TTS]
+    PLAY[Manual saved-clip playback]
+  end
+
+  OPENCLAW[OpenClaw agent runtime<br/>reasoning and response]
+  PLAYERS --> VOICECH --> CAP --> STT
+  STT -->|transcript text| THREAD
+  STT -->|append events| JSONL[Session transcript JSONL<br/>workspace runtime]
+  THREAD --> WAKE -->|direct asks / wake events| OPENCLAW
+  CHAT --> OPENCLAW -->|text replies| THREAD
+  OPENCLAW -. optional rendered line .-> TTS -. manual play .-> PLAY --> VOICECH
+
+  subgraph MEM[Memory and campaign knowledge]
+    FILES[Workspace continuity files<br/>USER, dossier, memory notes]
+    SEARCH[OpenClaw memory search]
+    API[Local memory API :8091<br/>health check passed]
+    CLEAN[Carbonite cleaned memory data]
+    WIKIAPI[Knowledge wiki service :8889<br/>login gated]
+    WIKIDATA[Campaign knowledge data]
+  end
+  OPENCLAW <--> SEARCH <--> FILES
+  OPENCLAW -. integration not verified .-> API
+  API <--> CLEAN
+  WIKIAPI <--> WIKIDATA
+  SEARCH -. integration not verified .-> WIKIAPI
+
+  subgraph CLOSE[Manual post-session closeout]
+    CMD[cindy-session-closeout]
+    PACKET[Closeout packet and wiki context]
+    AGENT[Configured local agent / coding model]
+    REPO[Campaign wiki source repo]
+    PAGES[GitHub Pages site]
+  end
+  JSONL -->|after session| CMD --> PACKET --> AGENT --> REPO --> PAGES
+  GM[GM review / canon checks] -. guides approval .-> AGENT
+
+  CODE[Code: cindylou project repo<br/>and discord_voice_patch] -. runs services .-> BRIDGE
+  RAW[Raw SR3 books<br/>Google Drive] -. rules lookup / ingestion .-> OPENCLAW
+  DATA[Carbonite data volume<br/>runtime, captures, indexes, caches] -. stores artifacts .-> BRIDGE
+
+  LEGACY[Legacy standalone text bot<br/>not running; log stale since Jul 19] -. inactive .-> CHAT
+```
+
+</details>
+
+### Verified operating snapshot (2026-10-21)
+
+- The local Discord voice-bridge process was present, but its latest session status says the session ended on 2026-10-15 and `voice_connected` is false. The bridge is therefore running idle, not currently transcribing live voice.
+- That session used local `faster-whisper`; recognized speech was posted to the Discord session thread and appended to a local `transcript.jsonl`.
+- Automatic spoken replies are disabled in the bridge configuration. Kokoro and saved-clip playback are available as a manually controlled voice path; the saved status showed the Kokoro worker stopped after session end.
+- The local memory API on port 8091 answered its health check. The separate knowledge-wiki service on port 8889 returned its password gate. The OpenClaw memory-search tool also searches continuity files; these are distinct from the campaign-memory API/data store.
+- The older standalone Discord text bot was not running when checked, and its log was last modified on 2026-07-19. This does not describe the OpenClaw agent runtime delivering ordinary text replies.
+- These are a dated snapshot, not a live dashboard. In particular, a running bridge process does not mean that voice capture is currently connected.
+
+### Transcript to published campaign record
+
+The voice bridge's `transcript.jsonl` is an additional local session record, not just a copy of the messages visible in Discord. After a session, an operator can manually run `cindy-session-closeout` (or provide a specific archived session/transcript). The wrapper prepares a compact evidence packet and wiki context under the Carbonite closeout runtime directory. A configured local agent can then use that packet to draft the session summary and sweep related campaign pages; the workflow checks the result, and its optional `--commit --push` path publishes the approved changes to the GitHub Pages wiki. Packet preparation alone does not edit or publish the wiki. See [Post-Session Automation](Post-Session-Automation.md) for invocation details and safeguards.
 
 ## Main surfaces
 
@@ -204,6 +286,7 @@ As the system grows, the next useful pages would likely be:
 - [Cindy Lou Discord Voice Bridge Commands](Discord-Voice-Bridge-Commands.md)
 - [Cindy Lou Live Session Capture and Replay](Live-Session-Capture-and-Replay.md)
 - [Cindy Lou Durable Session Closeout Contract](Durable-Session-Closeout-Contract.md)
+- [Cindy Lou Post-Session Automation](Post-Session-Automation.md)
 - [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md)
 - [Cindy Lou Jenkins, In Her Own Words](../Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_

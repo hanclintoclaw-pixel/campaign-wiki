@@ -65,7 +65,7 @@ The system is therefore best described as **active support with GM approval**, n
 
 ## Architecture and archives
 
-- [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md) - how Cindy's wiki, tooling, and Discord surfaces fit together.
+- [Cindy Lou Wiki and Tooling Topology](Wiki-and-Tooling-Topology.md) - architecture diagram and status snapshot showing how Discord, transcription, voice, memory, and post-session wiki publication fit together.
 - [Cindy Lou Soundboard and Voice Bridge](Soundboard-and-Voice-Bridge.md) _(outdated)_ - archived notes from the old custom soundboard web-app prototype.
 
 ## Operating principle
