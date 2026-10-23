@@ -2,9 +2,9 @@
 title: Humanis Evidence Retrieval
 type: arc
 visibility: player-safe
-status: active
+status: paid and closed out; fallout active
 first_session: 2026-09-17
-last_updated_session: 2026-10-15
+last_updated_session: 2026-10-22
 canon_status: canon
 confidence: high
 tags: [arc, contract, humanis, smuggling, evidence, active]
@@ -14,6 +14,7 @@ sources:
   - ../Sessions/2026-10-01.md
   - ../Sessions/2026-10-08.md
   - ../Sessions/2026-10-15.md
+  - ../Sessions/2026-10-22.md
 ---
 
 # Humanis Evidence Retrieval
@@ -56,6 +57,9 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 - **No Karma, nuyen payout, or job-completion award; acquired gear is recorded in Session 2026-10-08.** The contract remains active pending the crew's decision about the evidence and a handoff. The active scene remains nighttime, provisionally late May 2066 or later; Grandpa's approved new-armor availability implies May 30 or later.
 - During [Session 2026-10-15](../Sessions/2026-10-15.md), the crew contacted the original Johnson and attempted a public physical drop in Nashville. **Lula Bell Sandusky** appeared with armed security, magically compelled Curtis, and signaled an attack when he admitted examining the material. Kyron's fireball wrecked one armored van and ignited another; the GM reported two guards dead and one surviving among those caught. Sandusky's physical body was apparently killed, and the tainted greater spirit of man previously reported banished emerged from it. The evidence remains with the crew; no transfer, payment, or award occurred.
 - Sandusky's apparent death, the spirit's reappearance, the Johnson's identity/fate, the ownership of the vans, and the crew's injuries / combat resolution remain unresolved.
+- During [Session 2026-10-22](../Sessions/2026-10-22.md), the crew won the drop-site fight. Kyron's Mana Ball and Kurgan's shotgun bolts drove the shedim to nine of ten boxes of damage, and Kurgan's final pass banished it. Kyron's assensing identified the entity as a **shedim** — a spirit type new to the Sixth World within the last couple of years — banished for one turn of the moon (roughly thirty days), which is not permanent death. The only reliable permanent kill is a portal to its home metaplane, beyond the crew's current means.
+- **The contract is now paid.** The crew sold the evidence package, including Buzz's footage of Sandusky exploding and the monster emerging, to Mayor Haggar's office through Joseph Neumann for **12,000¥ each and 8 Karma each**, against the GM's recollection of a **60,000¥** original contract figure. A competing bid to Princeps was refused hostilely. The **original Johnson was never contacted again** and remains unidentified.
+- Surviving complications: a possessed corpse is frozen at Taco's compound as Kyron's prospective ritual link; **Tom Erlichman**, a captured Humanis guard, is chained and unconscious there and has not been questioned; two guards were executed by Curtis after fleeing; the McDonald's host was wiped by Cindy Lou after its panic button was pressed.
 
 ## Open Questions
 
@@ -69,6 +73,10 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 - Will the crew accept Neumann's 55,000¥ offer, retain copies, or complete the original Johnson's handoff? Who is the original Johnson, and how will multiple interested parties change the risk?
 - Who deployed the stripped-marking pod and four armed personnel near City Hall, and what were they trying to accomplish?
 - What does Glenn need from Kurgan after the Hidden Enforcers' intervention, and can they learn who summoned the spirit?
+- **The thirty-day clock.** The shedim returns in roughly a month. Does the crew pursue a metaplane portal, build defenses, or accept the risk on the reasoning that it cannot identify them?
+- **What does the crew still hold** after selling to the mayor — copies, the Buzz footage, the concealed paydata, Mevin's old terminal?
+- **What does Tom Erlichman know**, including whether Sandusky's demeanor changed at some point, and what happens to an unconscious Humanis captive held by a crew on good terms with MetroPedy?
+- How does the **original Johnson** react to learning the material went to the mayor instead of them?
 
 ## Sources
 
@@ -77,3 +85,4 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 - [Session 2026-10-01](../Sessions/2026-10-01.md)
 - [Session 2026-10-08](../Sessions/2026-10-08.md)
 - [Session 2026-10-15](../Sessions/2026-10-15.md)
+- [Session 2026-10-22](../Sessions/2026-10-22.md)

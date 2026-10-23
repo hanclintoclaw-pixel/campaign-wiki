@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-03-19
-last_updated_session: 2026-10-08
+last_updated_session: 2026-10-22
 canon_status: provisional
 confidence: medium
 tags: [npc, politics, city-power, mayoral-staff]
@@ -12,6 +12,7 @@ sources:
   - PARTY_DOSSIER.md
   - ../Sessions/2026-06-25.md
   - ../Sessions/2026-10-08.md
+  - ../Sessions/2026-10-22.md
 ---
 
 # Joseph Neumann
@@ -41,6 +42,7 @@ City power-broker figure and mayoral intermediary. By the 2066-05-09 interlude, 
 - 2026-03-19 — active elimination transitioned into containment/debrief with city power brokers.
 - 2026-06-25 — contacted Kurgan on the mayor's behalf and handled pickup logistics during the Righteous Haze interlude.
 - 2026-10-08 — offered 55,000¥ for private mayoral custody of the Sandusky evidence; Kurgan deferred a decision.
+- 2026-10-22 — **the sale closed.** The crew delivered the evidence package, including Buzz's footage of Sandusky's transformation and death, to the mayor's office for **12,000¥ per crew member** (five runners, 60,000¥ total, matching the GM's recollection of the original contract's quoted figure). The GM confirmed the crew are on good terms with both the mayor's office and MetroPedy, and Curtis argued in favor of the sale partly to give Haggar a genuine warning about a threat that could return.
 
 ## Open Questions
 

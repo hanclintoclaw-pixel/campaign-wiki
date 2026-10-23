@@ -3,7 +3,7 @@ title: Belmont
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-22
 canon_status: provisional
 confidence: medium
 tags: [vehicle, drone, crawler, rigger, curtis]
@@ -11,6 +11,7 @@ sources:
   - PARTY_DOSSIER.md
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-09-24.md
+  - ../Sessions/2026-10-22.md
 ---
 
 # Belmont
@@ -56,3 +57,12 @@ In [Session 2026-09-24](../Sessions/2026-09-24.md), Belmont deployed from Grandp
 
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
 - `PARTY_DOSSIER.md`
+
+## Combat Record
+
+- **[Session 2026-10-22](../Sessions/2026-10-22.md):** deployed from Grandpa's rear ramp on a detached ramp, then driven **through the front wall of the McDonald's**, past a Coke machine, onto two Sandusky security guards who broke and fled rather than fight. Curtis's maneuver rolled Track/Remote Operations 5 dice plus 5 control-pool dice against target number 4 for three successes, then two more on the follow-up, giving a confident turn. Curtis's action economy was spent by the deployment, so the guards' escape and their subsequent execution by Belmont's machine guns happened on later turns. The GM noted the mini-tank is **not fast enough to run down fleeing men** — a role-against-fleeing-targets roll would have been prohibitively high, and Curtis chose machine guns over stun grenades because he had not loaded any. No Belmont damage recorded.
+- Ammunition: submachine-gun expenditure confirmed but not counted. Curtis used Kurgan's 250¥ from the captured guard toward replacement rounds. The five remaining incendiary grenades from the Session 2026-09-24 restock were **not** used; no stun or flash grenades were loaded.
+
+## Sources
+
+- [Session 2026-10-22](../Sessions/2026-10-22.md)

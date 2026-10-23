@@ -3,7 +3,7 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-08
+last_updated_session: 2026-10-22
 canon_status: provisional
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
@@ -103,8 +103,8 @@ Mevin is usually the crew member most responsible for:
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** at least **16 Karma** after the Session 2026-09-10 award. Earlier unspent/spent totals are not yet fully reconstructed on this page.
-- **Known current nuyen:** at least **44,333¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page; unpriced session expenses remain unreconciled.
+- **Known current Karma:** at least **24 Karma** after the Session 2026-10-22 award. Earlier unspent/spent totals are not yet fully reconstructed on this page.
+- **Known current nuyen:** at least **56,333¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page; unpriced session expenses remain unreconciled.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 - **Retained asset:** encrypted utility/paydata material for later cracking or evaluation with Cindy Lou.
@@ -113,6 +113,7 @@ Mevin is usually the crew member most responsible for:
 
 - **2026-09-10 — Byron Cedar / Judge Belisarius closeout:** **+5 Karma**, **+20,000¥** confirmed net payout; tracked totals **11 -> 16 Karma** and **24,333¥ -> 44,333¥**. Kilimanjaro covered Mucky's cut from his own share, so no additional deduction applies to Mevin. A credstick offered during the Mucky approach and a used tranq patch have no recorded cost; no amount is invented.
 - **2026-09-17 — Humanis evidence retrieval opening:** no Karma, payout, or tracked personal expense recorded yet.
+- **2026-10-22 — McDonald's drop-site combat and evidence sale:** **+8 Karma**, **+12,000¥**. Mevin rolled **Police Procedures versus 5 for three successes**, which surfaced the McDonald's panic button behind the counter and told the crew the police response window was vanishingly short. He declined to chase fleeing guards while injured, delegated the host wipe rather than do it himself because he was in pain, and made the failed **corporate etiquette check versus 5 and 10** on the hostile Princeps phone call while drugged on Curtis's stimpaks — his "friendly face" did not count over the phone. He took painkillers from Curtis's supply at the compound; no price recorded.
 - **2026-09-24 - White Creek breach:** no Karma, payout, or priced personal expenditure established. Promised Double Downs to the thrift-store couriers; settlement and price remain unrecorded. Existing tracked Karma/nuyen totals are unchanged.
 
 ## Matrix Style
@@ -303,3 +304,4 @@ For the Mevin Decker Experience, use the following defaults unless the player su
 - [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md)
 - SR3 *Matrix* sourcebook stock cyberdeck table and Hacking Pool rules
 - GM-authorized provisional stat expansion on 2026-07-11
+- [Session 2026-10-22](../Sessions/2026-10-22.md)

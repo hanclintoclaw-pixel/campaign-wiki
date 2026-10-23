@@ -3,7 +3,7 @@ title: Buzz
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-22
 canon_status: canon
 confidence: high
 tags: [vehicle, drone, vtol, rigger, curtis]
@@ -11,6 +11,7 @@ sources:
   - PARTY_DOSSIER.md
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
+  - ../Sessions/2026-10-22.md
 ---
 
 # Buzz
@@ -41,6 +42,16 @@ A light aerial surveillance/support drone.
 
 Buzz was planted on the roof of **[White Creek Civic Center](../Locations/White-Creek-Civic-Center.md)** in [Session 2026-09-17](../Sessions/2026-09-17.md). During [Session 2026-09-24](../Sessions/2026-09-24.md), its recordings captured Paul Hardcastle and other Torchmen, tracked site traffic, and confirmed the disguised package being carried inside. **Curtis then recalled Buzz to dock safely aboard Grandpa. It is no longer left on the roof.** No damage or loss was recorded.
 
+## Session 2026-10-22 — The Footage That Sold The Job
+
+Buzz remained deployed throughout the McDonald's fight; Curtis confirmed on the GM's question that the drone was still up and on the board, so the GM used Grandpa's and Buzz's sensors to describe the zombies pounding on the RV.
+
+Then, on the GM's own roll, Buzz produced the session's most valuable asset. Curtis had earlier established that **Grandpa is not always recording, but Buzz would have caught it** — meaning the drone's standing surveillance captured Lula Bell Sandusky exploding in front of her security guards with a monster emerging from her body. The GM rolled **two dice against target number 2** — low because surveillance is simply Buzz's job — and produced **the one and the two, the worst possible successful result**. A success is a success.
+
+The file became the crown jewel of the evidence package, and prompted Kilimanjaro's "Our price just went up." It was handed to Mayor Haggar's office as part of the sale. Whether the crew kept their own copy is **not established**.
+
+Preserve it. It is the only known video proof that a prominent civic commentator was a shedim and died on camera.
+
 ## Taco Fillings
 
 > "Buzz ain't there to be brave. Buzz is there to see first, see quiet, and tell you not to walk into a stupid mess. If this one starts drawing heat, you've already misused it."
@@ -56,3 +67,4 @@ Buzz was planted on the roof of **[White Creek Civic Center](../Locations/White-
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
 - `PARTY_DOSSIER.md`
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
+- [Session 2026-10-22](../Sessions/2026-10-22.md)

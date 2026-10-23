@@ -2,7 +2,7 @@
 title: Current State
 type: dashboard
 visibility: player-safe
-updated: 2026-10-16
+updated: 2026-10-23
 ---
 
 # Current State
@@ -11,13 +11,15 @@ updated: 2026-10-16
 
 The active table scene is the **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** begun in **[Session 2026-09-17](Sessions/2026-09-17.md)**. An anonymous Mr. Johnson hired Curtis, Mevin, and Kilimanjaro to recover pre-Crash paper records and physical evidence on **[Lula Bell Sandusky](NPCs/Lula-Bell-Sandusky.md)** from the old **[White Creek Civic Center](Locations/White-Creek-Civic-Center.md)** north of Nashville.
 
-In **[Session 2026-10-01](Sessions/2026-10-01.md)**, the crew recovered Sandusky-labeled records, concealed paydata, and an old terminal from the burning civic center. **[Session 2026-10-08](Sessions/2026-10-08.md)** brought them back to Nashville, confirmed the records' compromising contents, and left Joseph Neumann's **55,000¥** offer open. In **[Session 2026-10-15](Sessions/2026-10-15.md)**, they contacted the anonymous original Johnson and attempted a public physical drop. Lula Bell Sandusky appeared with armed security, magically compelled Curtis, and signaled an attack. Kyron's fireball wrecked/exploded the vans; Sandusky's body was apparently killed, and the tainted greater spirit of man that had inhabited it emerged. The evidence remains with the crew. **No handoff, payment, Karma, or completion award.**
+In **[Session 2026-10-01](Sessions/2026-10-01.md)**, the crew recovered Sandusky-labeled records, concealed paydata, and an old terminal from the burning civic center. **[Session 2026-10-08](Sessions/2026-10-08.md)** brought them back to Nashville, confirmed the records' compromising contents, and left Joseph Neumann's **55,000¥** offer open. In **[Session 2026-10-15](Sessions/2026-10-15.md)**, they contacted the anonymous original Johnson and attempted a public physical drop. Lula Bell Sandusky appeared with armed security, magically compelled Curtis, and signaled an attack. Kyron's fireball wrecked/exploded the vans; Sandusky's body was destroyed, and the spirit that had inhabited it emerged.
 
-The crew had previously understood that **Glenn / the Hidden Enforcers** banished this spirit after White Creek; how it returned and its connection to Sandusky are unknown. **Paul Hardcastle's whereabouts and condition remain unknown**, and the Ring of Fire's wider status is still unresolved. The original Johnson's identity, van ownership, and the respective interests of Neumann/Mayor Haggar and Princeps remain unclear.
+**[Session 2026-10-22](Sessions/2026-10-22.md) concluded the run.** The crew won the drop-site fight; Kyron identified the entity as a **shedim** and Kurgan's final shotgun pass banished it for one turn of the moon, roughly **thirty days** — a vacation, not a death. The crew sold the evidence package, including Buzz's footage of Sandusky transforming and dying, to Mayor Haggar's office through Joseph Neumann for **12,000¥ each and 8 Karma each**. A Princeps approach was refused hostilely. They are holding two loose ends at Taco's compound: **a possessed corpse** Kyron wants as a ritual link, and **[Tom Erlichman](NPCs/Tom-Erlichman.md)**, an unconscious chained Humanis guard who has not been questioned.
+
+The crew had previously understood that **Glenn / the Hidden Enforcers** banished this spirit after White Creek; how it returned is still unknown, and the crew's own banishment is now known to expire in about thirty days. **The original Johnson was never contacted again and remains unidentified.** **Paul Hardcastle's whereabouts and condition remain unknown**, and the Ring of Fire's wider status is still unresolved. The original Johnson's identity, van ownership, and the respective interests of Neumann/Mayor Haggar and Princeps remain unclear.
 
 ## Recent Runs / Follow-ups
 
-- The **Humanis evidence retrieval** began in [Session 2026-09-17](Sessions/2026-09-17.md), advanced through Matrix legwork and a forged delivery in [Session 2026-09-24](Sessions/2026-09-24.md), and recovered evidence in [Session 2026-10-01](Sessions/2026-10-01.md). [Session 2026-10-08](Sessions/2026-10-08.md) confirms the cache's compromising content and records Neumann's unaccepted **55,000¥** offer. In [Session 2026-10-15](Sessions/2026-10-15.md), the attempted original-Johnson handoff was interrupted by Sandusky and an attack; the crew still holds the evidence, and the run remains unpaid and unfinished.
+- The **Humanis evidence retrieval** began in [Session 2026-09-17](Sessions/2026-09-17.md), advanced through Matrix legwork and a forged delivery in [Session 2026-09-24](Sessions/2026-09-24.md), and recovered evidence in [Session 2026-10-01](Sessions/2026-10-01.md). [Session 2026-10-08](Sessions/2026-10-08.md) confirmed the cache's compromising content and recorded Neumann's **55,000¥** offer. The [Session 2026-10-15](Sessions/2026-10-15.md) handoff was interrupted by Sandusky. **[Session 2026-10-22](Sessions/2026-10-22.md) concluded it:** the shedim was banished, the evidence was sold to the mayor's office for **12,000¥ each plus 8 Karma each**, and the original Johnson was left behind. Fallout continues through the thirty-day banishment clock, the captive guard, and the frozen corpse.
 - The **Byron Cedar / Judge Belisarius rush job**, begun in [Session 2026-09-03](Sessions/2026-09-03.md), concluded in [Session 2026-09-10](Sessions/2026-09-10.md). Mucky agreed to help for 10% of the take; Kilimanjaro volunteered to cover Mucky's cut from his own share. Belisarius missed court and was released alive; Dupree survived his vehicle crash. Cedar's unexpectedly positive acceptance leaves a new employer-side mystery, not an unfinished contract.
 - The **Pixel Sticks sponsor follow-up** in [Session 2026-08-27](Sessions/2026-08-27.md) identified the Pixel Sticks as disposable proxy assets aimed at CAT, strongly implicated Princeps / Claude, introduced **Lizzo Wells / Handy-Sandy** as a probable otaku / technoshaman and Grid Overwatch person of interest, and paid **10,000¥ total** to Mevin, Kurgan, and Curtis.
 - The **Chunky Sparkles / Wyrmwatch** follow-up in [Session 2026-08-13](Sessions/2026-08-13.md) found Chunky Sparkles at **Radnor Lake**, used Lizzo Wells's command phrases and food incentives to lure it out, and awarded **5,000¥** plus **4 Karma** each.
@@ -31,13 +33,16 @@ The crew had previously understood that **Glenn / the Hidden Enforcers** banishe
 
 - Current campaign year: **2066**
 - Current active date: **late May 2066 or later, nighttime (provisional)**. Session 2026-09-24 adds a day or two of Matrix probing, supply time, and a few hours of preparation to the prior legwork. No exact date or clock time is spoken. The GM uses Grandpa's new armor during the breach; its existing approved schedule makes **2066-05-30 morning** the earliest availability. Do not sum potentially overlapping prep intervals into an invented exact date.
-- Current active posture: the crew attempted the physical evidence handoff at a public Nashville drop, but Sandusky and armed security interrupted it. After a fireball, Sandusky's body was apparently killed and the tainted greater spirit of man inhabiting it emerged. The crew retains the evidence; the Johnson, payment, injuries, and combat outcome remain unresolved. Valgaut remains off active duty; Kilimanjaro remains an alternate starter PC; Kurgan has rejoined and Kyron remains newly introduced.
+- Current active posture: the run is paid and closed out. The crew has regrouped at Taco's compound with a captive Humanis guard, a frozen possessed corpse, and a thirty-day countdown on a banished master shedim. Valgaut remains off active duty; Kilimanjaro remains an alternate starter PC; Kurgan has rejoined; **Kyron is now an established active crew member** and the team's only astral perceiver.
 - Recent time compression: the Pixel Sticks payout and Core 7 / Earl Stryker follow-up sit on **2066-05-12 night**; the scorpion-drone stakeout consumes roughly forty-eight hours; the Radnor Lake scene reaches **2066-05-15 dawn**; the 2026-08-27 follow-up appears to take place later on **2066-05-15**; the 2026-09-03 rush job is provisionally placed on **2066-05-20 evening**, and its 2026-09-10 conclusion advances through the following court day to **2066-05-21 evening**, unless the GM corrects the calendar placement.
 
 ## Immediate Leads
 
-- resolve the McDonald's drop-site combat and re-emerged tainted spirit; establish injuries, casualties, and vehicle damage
-- re-establish contact with the original Johnson and complete or renegotiate the interrupted evidence handoff and payment
+- **~30-day shedim clock:** decide whether to pursue a metaplane portal, build wards/defenses, or accept the risk on the theory that it cannot identify the crew without a ritual link
+- **Question Tom Erlichman**, the captured Humanis guard, including whether Sandusky's demeanor changed over time
+- **Account for what the crew still holds** after the sale: copies, Buzz's transformation footage, the concealed paydata, Mevin's old terminal
+- Resolve whether the frozen possessed corpse works as a **ritual link**, and whether Kyron burns a contact on a magic researcher
+- Re-establish contact with the **original Johnson**, who was never reached and does not know the material went to the mayor
 - identify and appraise the concealed paydata without assuming it relates to Sandusky
 - determine whether Mevin's recovered old terminal can be accessed and what it contains
 - decide whether to accept Neumann's 55,000¥ offer, how to handle any copies, and how/when to deliver the evidence; the prior attempt to hand it to the Johnson was interrupted
@@ -67,7 +72,9 @@ The crew had previously understood that **Glenn / the Hidden Enforcers** banishe
 
 ## Open Questions
 
-- Who hired the crew to retrieve Lula Bell Sandusky's old evidence, and why now?
+- **What happens when the shedim returns in roughly thirty days**, and does it come back as Lula Bell Sandusky?
+- Who hired the crew to retrieve Lula Bell Sandusky's old evidence, and why now? How will they react to learning the material went to the mayor?
+- What will **Princeps** do about a crew that tried to sell them material they expected to take free?
 - What did Sandusky do in the old record, and is it leverage, blackmail, proof, or bait?
 - Where is Hardcastle after the breach, and will the escaped ganger bring help?
 - Will the crew accept Neumann's offer, keep copies, or make a secure handoff to the original Johnson?

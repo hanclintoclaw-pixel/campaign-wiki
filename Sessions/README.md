@@ -98,6 +98,7 @@ These pages are ordered by their in-world date and kept here as campaign data so
 - [Session 2026-10-01](2026-10-01.md)
 - [Session 2026-10-08](2026-10-08.md)
 - [Session 2026-10-15](2026-10-15.md)
+- [Session 2026-10-22](2026-10-22.md)
 
 ## Archive analysis
 

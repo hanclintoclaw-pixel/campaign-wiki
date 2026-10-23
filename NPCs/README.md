@@ -88,6 +88,7 @@
 - [Righteous Haze](Righteous-Haze.md)
 - [Skizzix](Skizzix.md)
 - [Thrift-store Flunkies](Thrift-Store-Flunkies.md)
+- [Tom Erlichman](Tom-Erlichman.md)
 - [Viper](Viper.md)
 
 ## Related Reference Layers

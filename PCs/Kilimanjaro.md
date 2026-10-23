@@ -4,7 +4,7 @@ type: player-character
 visibility: player-safe
 status: alternate
 player: Abe
-last_updated_session: 2026-10-08
+last_updated_session: 2026-10-22
 canon_status: provisional
 confidence: high
 aliases:
@@ -71,6 +71,7 @@ At the end of [Session 2026-10-08](../Sessions/2026-10-08.md), Kilimanjaro had r
 - Expended one high-explosive grenade from the Ares Alpha's underslung launcher. Mevin located the personal comm unit previously planted on Belisarius; its return to Kilimanjaro's inventory was not explicitly narrated.
 - **2026-09-17 — Humanis evidence retrieval prep:** spent **2,000¥** for three flash improvised bombs and three smoke improvised bombs. No Karma or job payout recorded yet.
 
+- **2026-10-22 — McDonald's drop-site combat and evidence sale:** **+8 Karma**, **+12,000¥**. Kilimanjaro could not spend his share, so at Abe's request and with the GM's agreement he **hid the 12,000¥ for a future character to find**; it is earned and preserved, not lost. Kurgan noted it would not be the first time one character muled money to another. Underslung grenade launcher use consumed **one rifle grenade**.
 - **2026-09-24 - White Creek breach:** spent **1,000¥** on four Neuro-Stun VII grenades and **50¥** on rope: **1,050¥ confirmed new expenses**, plus an unpriced second hand truck. All four gas grenades were used in the delivered package. Kilimanjaro also fired **two fragmentation mini-grenades** and used **one flashbang**. No Karma or payout; remaining ammunition and absolute nuyen balance are not fully reconstructed. The earlier flash-versus-damaging improvised-bomb discussion does not settle a revised inventory.
 
 ## Relationships
@@ -90,6 +91,7 @@ At the end of [Session 2026-10-08](../Sessions/2026-10-08.md), Kilimanjaro had r
 - **[2026-09-24](../Sessions/2026-09-24.md)** - sourced supplies through his arms contact, climbed the roof, destroyed one guard's cover and killed the other with fragmentation grenades, entered through the unlocked hatch, put three upstairs occupants down with a flashbang amid the gas, and reached the basement storage room. No wound or award recorded.
 - **[2026-10-01](../Sessions/2026-10-01.md)** - searched the basement with Kurgan, helped move out the Sandusky-labeled records and concealed paydata, and withdrew with the team as two fire elementals accelerated the blaze. No wound or award recorded.
 - **[2026-10-08](../Sessions/2026-10-08.md)** - helped assess the Princeps-style military pod and resolve the four occupants' arrival through a bluff/disguise plan; the crew took heavy armor and weapons. No Karma or payout; individual gear allocation remains open.
+- **[2026-10-22](../Sessions/2026-10-22.md)** - opened at initiative 20, killed a living guard outright with burst fire, asked the tactical question that led to the grenade launcher, and fired the rifle grenade that destroyed the security van and two zombies while putting the shedim at nine of ten boxes. His cover position meant the spirit's retaliatory black-energy bolt splashed on a wall behind him. Supported Kurgan's chase and helped restrain the captive. **+12,000¥ (hidden for a future character), +8 Karma.**
 
 ## Open Questions
 
@@ -102,3 +104,4 @@ At the end of [Session 2026-10-08](../Sessions/2026-10-08.md), Kilimanjaro had r
 - [Session 2026-10-01](../Sessions/2026-10-01.md)
 - [Session 2026-09-03](../Sessions/2026-09-03.md)
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
+- [Session 2026-10-22](../Sessions/2026-10-22.md)

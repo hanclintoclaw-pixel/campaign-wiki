@@ -3,7 +3,7 @@ title: Kurgan
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-08
+last_updated_session: 2026-10-22
 canon_status: provisional
 confidence: medium
 tags: [pc, cyber-samurai, active-crew]
@@ -61,11 +61,12 @@ Active player character and the crew's cyber-samurai.
 - Kurgan was absent from [Session 2026-09-17](../Sessions/2026-09-17.md), but the new White Creek / Ring of Fire job explicitly touches **Humanis** territory and was noted by the GM as originally written with Kurgan in mind.
 - During [Session 2026-10-01](../Sessions/2026-10-01.md), Kurgan rejoined the White Creek operation, helped search and move the Sandusky-labeled records, and killed an unidentified ganger who was choking on the gas. He took the victim's original-run Dukes of Hazzard commemorative medallion; no value or award was recorded.
 - During [Session 2026-10-08](../Sessions/2026-10-08.md), Kurgan called Joseph Neumann about the Sandusky material and left the mayor's 55,000¥ offer pending. He also called Glenn for help with the tainted spirit and agreed to follow up about the Hidden Enforcers' response. Kurgan helped resolve the City Hall pod encounter without combat; the acquired gear's final individual allocation is unrecorded. No Karma or payout.
+- During [Session 2026-10-22](../Sessions/2026-10-22.md), Kurgan opened combat at initiative 27, held his first action, then asked Kyron in character whether the mage's mana strike had looked effective before committing to the spirit himself. His shotgun bolts registered as Moderate wounds despite the shedim's astral protection and mundane-weapon protection, and **his final all-success pass at target number 2 banished it**. He spent 2 Karma on Curtis's behalf to break Lula Bell Sandusky's lingering compulsion. He then ran down the fleeing guard [Tom Erlichman](../NPCs/Tom-Erlichman.md) in an opposed Athletics contest, won by a single margin, read his Humanis affiliation and genuine horror through Street Etiquette, and chose to knock him out rather than kill him for later questioning. He assigned the guard's provisional name and took the identity to hold. He took 250¥ off the captive and handed it to Curtis, and helped move the possessed corpse into the compound's deep freeze. He pressed Kyron hard on whether banishment was permanent — the player concern that surfaced the thirty-day clock. **+12,000¥, +8 Karma.**
 
 ## Karma And Nuyen Ledger
 
-- **Known current Karma:** at least **27 Karma** from currently tracked wiki events, plus any earlier untracked balance.
-- **Known current nuyen:** at least **29,333¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
+- **Known current Karma:** at least **35 Karma** from currently tracked wiki events, plus any earlier untracked balance.
+- **Known current nuyen:** at least **41,583¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-06-25 — Righteous Haze interlude:** **+4 Karma**, **+5,000¥** total payout / recovered value.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
@@ -73,6 +74,7 @@ Active player character and the crew's cyber-samurai.
 - **2026-08-13 — Wyrmwatch / Chunky Sparkles follow-up:** **+4 Karma**, **+5,000¥**.
 - **2026-08-27 — Pixel Sticks sponsor follow-up:** **+3,333¥ approximate share** from CAT's **10,000¥** intelligence / utility-sample payment; no Karma recorded.
 
+- **2026-10-22 — Sandusky evidence sale to the mayor's office:** **+8 Karma**, **+12,000¥**, plus **250¥** taken from the captured guard and handed to Curtis toward cleanup and ammunition. Kurgan also spent **2 Karma** in-session on Curtis's behalf to break the compulsion effect; in-session pool use is not an advancement spend. Tracked totals **27 -> 35 Karma** and **29,333¥ -> 41,583¥** (12,000¥ sale share plus 250¥ guard money; the 250¥ was contributed to Curtis, so treat the net personal effect as the 12,000¥ share unless the GM rules otherwise).
 - **2026-09-10 — GM all-PC closeout award:** **+5 Karma**, tracked total **22 -> 27**. Kurgan was not recorded as an active participant in the closing session; the GM's explicit all-PC award on 2026-09-11 applies independently of attendance. No nuyen payout was assigned to Kurgan.
 
 ## Relationships
@@ -92,6 +94,7 @@ Active player character and the crew's cyber-samurai.
 - 2026-08-27 — helped drive the Pixel Sticks sponsor follow-up, contacted Kne@zle about Handy-Sandy, and earned an approximate **3,333¥** share from CAT's intelligence payment.
 - 2026-09-03 — joined Kilimanjaro's Byron Cedar rush job, provided overwatch, and helped point the team toward Mucky's as the next-stage lure site; no payout or Karma recorded yet.
 - 2026-09-17 — absent, but the new Ring of Fire / Humanis job was identified as a natural Kurgan-relevant run; no payout or Karma recorded.
+- [2026-10-22](../Sessions/2026-10-22.md) — banished the shedim with the final shotgun pass, broke Curtis's compulsion with Karma, captured the surviving Humanis guard, and helped close out the evidence sale. **+12,000¥, +8 Karma.**
 
 ## Sources
 
@@ -99,3 +102,4 @@ Active player character and the crew's cyber-samurai.
 - [Session 2026-06-25](../Sessions/2026-06-25.md)
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
 - [Session 2026-10-08](../Sessions/2026-10-08.md)
+- [Session 2026-10-22](../Sessions/2026-10-22.md)

@@ -3,7 +3,7 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-08
+last_updated_session: 2026-10-22
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
@@ -165,6 +165,7 @@ After the 2026-10-01 session, Curtis and the other established runners introduce
 
 - During [Session 2026-09-24](../Sessions/2026-09-24.md), Curtis reviewed Buzz's recordings, prepared the disguised gas package with Mevin, breached White Creek's barricade in Grandpa without damage, and directed Belmont and The Finisher. Buzz was safely recalled; Curtis let one fleeing ganger escape and entered the building with Mevin.
 - During [Session 2026-10-01](../Sessions/2026-10-01.md), Curtis used his mechanical arms and carrier bin to remove recovered records and other material from the burning civic center. In [Session 2026-10-08](../Sessions/2026-10-08.md), he helped resolve the downtown pod encounter without a firefight; the crew returned to Nashville and acquired armor and weapons. Individual allocation and mechanical stats remain open. No Karma or payout was recorded.
+- During [Session 2026-10-22](../Sessions/2026-10-22.md), Curtis joined from a hotel room in Troy, Michigan, with only a work laptop and an unresponsive TV, and played the whole session in theater-of-the-mind from the GM's descriptions. He rolled Willpower 5 against 6 and **spent 2 Karma** to throw off Lula Bell Sandusky's lingering truth-compulsion, regaining his clear-headed judgment about the dwarf who had tried to have him killed. He then climbed into Grandpa's captain's chair, deployed [Belmont](../Vehicles/Belmont.md) down the rear ramp, and drove the Doberman **through the front wall of the McDonald's** past a Coke machine to bear on two guards, spending his actions for the turn on the deployment. After they fled, he cold-bloodedly cut both of them down with the mini-tank's machine guns because he had not loaded stun grenades — the GM marked it as killing them for the crime of not knowing their boss was a secret monster. He gave Kyron permission to store a possessed corpse in Grandpa's under-floor storage, later moved to the compound's deep freeze, and set up chains, padlocks, a chair, and a head bag for the captive. Kurgan handed him the guard's 250¥ toward cleanup and submachine-gun ammunition. He argued successfully for handing the transformation footage to the mayor, partly on the genuine grounds that Haggar deserved a warning, and rolled Electronics to anonymize Mevin's hostile Princeps call. **+12,000¥ and +8 Karma already recorded per the GM's 2026-10-22 request.**
 
 ## Karma And Nuyen Ledger
 
@@ -328,6 +329,7 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 - [2026-09-24](../Sessions/2026-09-24.md) - executed the delivery-triggered White Creek breach, directed combat drones, recovered Buzz, and headed inside with Mevin while Kilimanjaro reached the basement. No awards.
 - [2026-10-01](../Sessions/2026-10-01.md) - carried recovered material out using his mechanical arms and bin as the building burned; withdrew with the crew. No awards.
 - [2026-10-08](../Sessions/2026-10-08.md) - helped bluff the four pod occupants and recover their armor and weapons without a firefight. No Karma or payout.
+- [2026-10-22](../Sessions/2026-10-22.md) - broke Sandusky's compulsion by spending Karma, drove Belmont through the McDonald's wall, executed two fleeing guards, cleared the evidence sale to the mayor, and set up the compound's captive containment. **+12,000¥, +8 Karma.**
 
 ## Sheet Snapshot
 

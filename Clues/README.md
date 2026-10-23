@@ -4,7 +4,7 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-10-16
+updated: 2026-10-23
 tags: [leads, clues, open-threads]
 ---
 
@@ -24,13 +24,13 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 
 ### Recover the Sandusky evidence from the Ring of Fire
 
-**Status:** active run in progress
+**Status:** **resolved — sold and paid** ([Session 2026-10-22](../Sessions/2026-10-22.md)); fallout active
 
-**Last touched:** [Session 2026-10-15](../Sessions/2026-10-15.md)
+**Last touched:** [Session 2026-10-22](../Sessions/2026-10-22.md)
 
 **Connected pages:** [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md), [White Creek Civic Center](../Locations/White-Creek-Civic-Center.md), [Paul Hardcastle](../NPCs/Paul-Hardcastle.md), [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md), [Ring of Fire](../Factions/Ring-of-Fire.md), [Humanis](../Factions/Humanis.md), [Buzz](../Vehicles/Buzz.md), [Kurgan](../PCs/Kurgan.md)
 
-An anonymous Johnson hired the crew to recover pre-Crash physical evidence on **Lula Bell Sandusky**. The crew recovered the cache, concealed paydata, and an old terminal from White Creek; the files show Sandusky's youth involvement in violent proto-Humanis activity. **Joseph Neumann** offered **55,000¥** for the mayor's private custody, still unaccepted. During the attempted physical handoff to the original Johnson in Nashville, Sandusky appeared with armed security, compelled Curtis to answer honestly, and signaled an attack. Kyron's fireball wrecked/exploded the security vans; Sandusky's physical body was apparently killed, and the tainted greater spirit of man previously reported banished emerged from it. The crew still has the evidence. No handoff, payment, or award occurred. The Johnson, van ownership, Sandusky's motives, and the spirit's return remain unknown.
+An anonymous Johnson hired the crew to recover pre-Crash physical evidence on **Lula Bell Sandusky**. The crew recovered the cache, concealed paydata, and an old terminal from White Creek; the files show Sandusky's youth involvement in violent proto-Humanis activity. The attempted handoff to the original Johnson turned into a firefight, the shedim wearing Sandusky's body emerged, and in [Session 2026-10-22](../Sessions/2026-10-22.md) the crew fought and banished it. **The evidence was then sold to Mayor Haggar's office through Joseph Neumann for 12,000¥ each plus 8 Karma each**, including Buzz's footage of Sandusky transforming and dying. The original Johnson was never contacted again and remains unidentified. The retrieval itself is closed; what remains is fallout, listed below.
 
 **Player-facing questions**
 
@@ -47,10 +47,57 @@ An anonymous Johnson hired the crew to recover pre-Crash physical evidence on **
 
 **Possible next actions**
 
-- Read/catalog the recovered records, identify/appraise the extra paydata, and test the recovered terminal safely.
-- Resolve the interrupted drop-site encounter, re-establish contact with the Johnson, then decide custody and arrange a secure handoff; recovery alone is not job completion.
+- Account for what the crew **still holds** after the sale: copies, Buzz's transformation footage, the concealed paydata, and Mevin's old terminal.
+- Re-establish contact with the **original Johnson**, who does not know the material went to the mayor.
 - Establish the condition of the civic center and its occupants before making claims about Hardcastle or the gang.
 - Preserve the downloaded logistics records and Buzz's audio as follow-up leads. The Matrix intrusion and pickup forgery are resolved; Hardcastle voice spoofing was never used.
+
+### The banished shedim returns in roughly thirty days
+
+**Status:** **new — active clock**
+
+**Last touched:** [Session 2026-10-22](../Sessions/2026-10-22.md)
+
+**Connected pages:** [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md), [The Face Beneath the Face](../NPCs/Lula-Bell-Sandusky-The-Face-Beneath-the-Face.md), [Kyron](../PCs/Kyron.md), [Kurgan](../PCs/Kurgan.md), [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md)
+
+Kyron identified the entity as a **shedim** — a spirit type new to the Sixth World within the last couple of years — and established the rules the crew now lives with. Banishment sends it home for **one turn of the moon**, about thirty days, unable to return under any circumstance during that window. It is not death. The only reliable permanent kill is to **open a portal to its home metaplane and destroy it there**, which Kyron assessed as a major undertaking beyond the crew's current means. The crew's working theory is that the entity cannot identify them without a **ritual link** and will not return to the burned Sandusky identity, so they have deliberately not prepared. The GM has not confirmed that theory is safe. A possessed corpse sits in Taco's deep freeze as a potential ritual-link research subject.
+
+**Player-facing questions**
+
+- Does the crew spend the thirty days preparing, or accept the risk?
+- Can Kyron open a metaplane portal, alone or with outside magical support?
+- Does the frozen corpse work as a ritual link, and is back-tracing the spirit actually wise?
+- Does "Lula Bell Sandusky" come back as herself, or pick a new vessel and identity?
+- What did the Hidden Enforcers commit to banish it after White Creek, and does Glenn's answer now look different?
+
+**Possible next actions**
+
+- Have Kyron burn a contact on a magic researcher, as the GM explicitly suggested, rather than grinding failed rolls.
+- Ask Glenn what the Hidden Enforcers used, and whether they knew it was a shedim.
+- Decide before it returns: wards, allies, a weapon, or a plan to leave town.
+
+### Question the captured Humanis guard
+
+**Status:** **new — active captive**
+
+**Last touched:** [Session 2026-10-22](../Sessions/2026-10-22.md)
+
+**Connected pages:** [Tom Erlichman](../NPCs/Tom-Erlichman.md), [Humanis](../Factions/Humanis.md), [Kurgan](../PCs/Kurgan.md), [Curtis](../PCs/Curtis.md), [Taco's Garage and Workshop](../Locations/Tacos-Garage-and-Workshop.md)
+
+The crew knocked out rather than executed one Sandusky security guard, and he is **chained, gagged, and bagged at Taco's compound, still unconscious**. He is Humanis-affiliated, lightly chromed, and was visibly disturbed by what he had been sitting next to. He is the only living witness to Sandusky's private security operation, and Curtis specifically wants to know whether her demeanor changed at some point — the pattern the crew saw with the insect-spirit-possessed councilman. He also has a system ID, so his disappearance is a public record.
+
+**Player-facing questions**
+
+- When did Sandusky's demeanor change, and did the security staff notice?
+- Who hired and paid the guard detail, and were they told what they were protecting?
+- What does the crew do with an unconscious Humanis captive, given their good standing with MetroPedy?
+- Will his Humanis cell notice he is missing, and does that complicate Kurgan's past?
+
+**Possible next actions**
+
+- Wake him up and question him, with Kurgan's Humanis background doing the work.
+- Decide before anyone else asks: release, hand over to Herrick/MetroPedy, or keep.
+- Check whether Taco knows what is chained up and what is frozen on his property.
 
 ### Explain Cedar's satisfaction and watch the Belisarius fallout
 
