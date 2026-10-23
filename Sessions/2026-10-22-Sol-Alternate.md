@@ -8,7 +8,7 @@ attendance: [GM, Curtis, Mevin, Kurgan, Kilimanjaro, Kyron]
 session_type: continuing contract run / Sandusky combat, retreat, and evidence sale
 canon_status: provisional
 status: alternate
-review_state: under-review
+review_state: reviewed
 primary_summary: 2026-10-22.md
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-10-23
@@ -23,10 +23,11 @@ sources:
 ---
 # Session 2026-10-22 (Alternate Summary)
 
-> **Status: alternate record, under review.** This page was generated independently of the
-> [published summary for 2026-10-22](2026-10-22.md), from the raw session transcript only, so the
-> table can compare the two accounts side by side. It is not the canonical session record. Where the
-> two differ, see **Reviewer Notes** near the end of this page.
+> **Status: retained alternate record.** This page was generated independently of the
+> [canonical summary for 2026-10-22](2026-10-22.md), from the raw session transcript only, so the table
+> could compare two accounts of the same session. The table has since reviewed both and published a
+> synthesized canonical record; see **Adjudication** near the end of this page for how the differences
+> were settled. This page is kept as generation history.
 >
 > Generated with `openai/gpt-6.1-sol`.
 
@@ -163,69 +164,27 @@ The GM's supplied table-time estimate was roughly **8:00-10:00 p.m. Central**. T
 - **Character transitions:** Kurgan discussed the mayor-office fixer relationship as an eventual retirement avenue; Kilimanjaro discussed cash for an unnamed successor. Neither departure or replacement was finalized.
 - **Next session:** the GM proposed **Thursday, October 29, 2026**, asking for hard conflicts. No blocker was voiced in the captured replies; Curtis's player expected to remain remote from the hotel, so visual access may again depend on streaming/narration. The session did not record a new start time.
 
-## Reviewer Notes — Items for GM Verification
+## Adjudication — Resolved by the GM, 2026-10-23
 
-An independent pass re-checked both session records for 2026-10-22 against the raw transcript only.
-It did not adjudicate canon; the items below are where a record is not supported by what was actually
-said at the table, so the GM can confirm or correct. Transcript times are Eastern.
+Both session records for this date were reviewed by the table. The GM settled the points on which they
+diverged, and the canonical [Session 2026-10-22](2026-10-22.md) record now reflects those rulings. This
+page is retained as generation history rather than as a live list of open disputes.
 
-**Points where the published summary diverges from the transcript**
+- **Karma spend.** It came from a **Karma pool**, so the question of which character's reserve it drew
+  against is moot. The canonical record books it as Curtis's pool, with the GM adding 2 more.
+- **The captive's name.** **Tom Erlichman is settled canon.** No provenance qualifier is needed.
+- **Mana Ball.** Force level and dice arithmetic are combat cruft; the canonical record keeps the outcome
+  and drops the bookkeeping.
+- **The final shambler's spell.** Settled as **Power Bolt**; the canonical record uses that without qualification.
+- **Belmont.** Drove through the McDonald's and **then** shot the fleeing guards down. That sequence stands.
+- **Timing.** "Early hours" is accepted as general placement, and the GM sets the hour the events went
+  down at about **1 a.m.**
 
-- **Karma expenditure:** the published summary states that Kurgan spent two Karma. The table record is
-  that Curtis asked for two (21:36:20) and the GM said he would put an additional two Karma (21:36:24).
-  No Kurgan expenditure is established.
-- **The captive's name:** Tom Erlichman was supplied by the GM (22:36:36) and repeated by Kurgan
-  (22:36:49). The published summary attributes the naming to Kurgan.
-- **Credstick value:** the published summary carries 250¥. The transcript's captured figure is
-  "250 million" (22:37:03), which reads as a transcription problem. Booked amount unverified.
-- **Mana Ball Force and dice:** the table said "at four, three" (21:32:14), and the roll supports
-  Sorcery 5 + Spell Pool 3 = 8 dice, target number 4, six successes (21:34:03-21:34:28). The published
-  summary asserts Force 4 and reports the arithmetic as 5+4=8.
-- **Drain and condition bookkeeping:** the transcript does not record the drain resolution or how
-  condition tracks reconciled, and the published summary does not flag that gap.
-- **Final shambler's attack:** the spell used was Power Bolt (22:03:45-22:04:30); the published summary
-  says Mana Bolt.
-- **Casualty count in the opening:** the published summary's opening says one guard was killed, but two
-  fleeing guards were cut down (22:02:11-22:02:21), reconfirmed at 22:04:43-22:04:53.
-- **Opening damage attribution:** the grenade and the van explosion contributed to the spirit reaching
-  nine of ten boxes (21:54:03-21:54:43). The published summary's opening omits this; its detailed scene
-  gets it right.
-- **Belmont's entry:** Belmont crashed through the window and the soda machine and came into view of the
-  guards (21:41:37), rather than landing on top of them.
-- **Who asked for the footage wipe:** Mevin asked Cindy Lou Jenkins to wipe the host (22:25:16), not
-  Kilimanjaro. The voice-bridge reboot at 22:26:30-22:26:40 was the GM speaking, not Cindy.
-- **"Early hours":** the published summary describes the session continuing into the early hours. The
-  transcript does not establish an advance of time or date; the remaining material is proposed and
-  compressed at 22:51:00.
-- **Sandusky's shell and the decision not to prepare:** the GM's framing was conditional — "in theory"
-  without a ritual link (22:41:55-22:42:03) and "not a pressing issue" (22:50:42-22:50:44). The published
-  summary states the research conclusion and the decision more firmly than the table did.
-- **Carried-over material:** the published summary includes items this transcript does not independently
-  support — Curtis's exact balances, the earlier 55,000¥ offer, the White Creek threads, concealed paydata
-  and an old terminal, and the prior Hidden Enforcers banishment. These may be legitimate carry-over from
-  earlier sessions; they are simply not verifiable here.
-
-**Items this alternate record flags as unverified**
-
-- The credstick denomination (see above) and Mana Ball's Force.
-- Drain resolution and condition reconciliation, which the transcript does not capture.
-- Both records carry time and carry-over metadata that this transcript cannot confirm on its own.
-
-**Useful things the table may want that neither record initially emphasized**
-
-- Mevin took no physical wound from the blast (22:37:43-22:37:59), which the GM clarified.
-- The painkiller target changed during play (22:54:24-22:54:55).
-- One shambler remained unresolved at the end.
-- The corpse is a possible research asset, not a settled resource.
-- Kyron's offered final Wolf-themed lodge insight and contact were never taken up.
-- The crew handed the mayor a *copy*; custody of the originals is unresolved.
-- Kurgan's payment transfer is recorded, but the successor-cash possibility was not completed.
-
-**Provenance note.** This alternate record was produced blind: it saw only the transcript, the GM's
-table-time estimate, and Session 2026-10-15 as a format exemplar. It has no comparable material
-contradiction of the transcript in the review pass, and it is roughly 85% longer than the published
-summary (about 7,300 words against about 4,000), which is the cost of its hedging. Both records'
-provenance is recorded in their front matter.
+**Still open, and deliberately left open in the canonical record:** the credstick figure captured as
+"250 million"; custody of the original evidence after the mayor received a copy; whether "Lula Bell
+Sandusky" was ever an ordinary person and how a shell could be rebuilt; whether the frozen specimen
+yields a working ritual link; the unclaimed Wolf-themed lodge insight and magical-research contact; the
+successor-cash arrangement; and Tom Erlichman's testimony and eventual disposition.
 
 ## Sources
 

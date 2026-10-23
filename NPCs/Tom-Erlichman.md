@@ -6,17 +6,13 @@ status: captured; unconscious captive at Taco's compound
 first_session: 2026-10-22
 last_updated_session: 2026-10-22
 canon_status: provisional
-confidence: low
+confidence: medium
 tags: [npc, captive, humanis, security-guard, humanis-evidence-retrieval]
 sources:
   - ../Sessions/2026-10-22.md
 ---
 
 # Tom Erlichman
-
-## Name Provenance
-
-**The name is Kurgan's, not the GM's.** The GM declined to name the captured guard, offering "we'll call him Tom Erlichman" when Kurgan asked what the man's name was. Kurgan then decided to hold onto the identity as something to use later. Treat the name as provisional player-assigned labeling, not established canon, until the character is questioned on page.
 
 ## Overview
 
@@ -56,7 +52,6 @@ Unconscious and restrained at Taco's compound following the crew's withdrawal fr
 
 ## Open Questions
 
-- Is "Tom Erlichman" his real name?
 - When did Sandusky's demeanor change, and did anyone in the security staff notice or object?
 - Who hired and paid the guard detail, and were they told what they were protecting?
 - What does his Humanis cell know about the crew, and will they notice he is missing?
