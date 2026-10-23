@@ -53,6 +53,7 @@ sources:
   - ../Sessions/2026-10-01.md
   - ../Sessions/2026-10-08.md
   - Discord GM approval for Pilot 2 brain installs, 2026-09-07
+  - Discord request to add 12,000¥ and 8 Karma to Curtis, 2026-10-22
 ---
 
 # Curtis
@@ -145,8 +146,8 @@ After the 2026-10-01 session, Curtis and the other established runners introduce
 - Current sheet-backed core stats: **BOD 4**, **QUI 6**, **STR 5**, **CHA 1**, **INT 6**, **WIL 5**, **Essence 1.84**, **Reaction 5**, **Initiative 5+1D6**, **Magic -**.
 - Key crew tags: **Very Short**, **Ex-Caribbean Smuggler**.
 - He is an ally and student of [Taco](../NPCs/Taco.md).
-- Current tracked Karma: **19 Karma** after the 2026-09-10 session award.
-- Current tracked nuyen: **7,503.33¥**, before any GM-confirmed scorpion-drone recovery project costs and any unpriced session expenses.
+- Current tracked Karma: **27 Karma** after the 2026-10-22 award (+8 Karma).
+- Current tracked nuyen: **19,503.33¥** after the 2026-10-22 award (+12,000¥), before any GM-confirmed scorpion-drone recovery project costs and any unpriced session expenses.
 - Current gear note preserved in dossier: **5 incendiary grenades** remaining from the six-grenade restock after Belmont fired one in Session 2026-09-24; **Defiance Super Shock taser** with **concealable holster** purchased 2026-07-16; **5 cans of SPAM** purchased 2026-07-16; **Backpack Arms rig** finalized 2026-08-05 for conservative light tool work only; **2 recovered Advanced Drone Pilot Rating 2 units** from the Pixel Sticks scorpion-drone salvage project were installed with GM approval on 2026-09-07: one in **Grandpa** and one in **The Finisher**.
 - He finished the [dolphin and hurricane seal habitat](Curtis-Dolphin-and-Hurricane-Seal-Habitat.md) for **Core 7** and the site's other aquatic creatures.
 - By **2026-06-04**, that habitat work was active enough that Curtis was also staying in contact with **Core 7** through recurring fish deliveries.
