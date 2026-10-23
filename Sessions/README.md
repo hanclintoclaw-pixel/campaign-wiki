@@ -100,6 +100,7 @@ These pages are ordered by their in-world date and kept here as campaign data so
 - [Session 2026-10-15](2026-10-15.md)
 - [Session 2026-10-22](2026-10-22.md)
 - [Session 2026-10-22 (Alternate Summary)](2026-10-22-Sol-Alternate.md) — retained independent blind re-generation of the same session, with the GM's adjudication of the differences
+- [Session 2026-10-22 (Qwen Summary)](2026-10-22-Qwen-Summary.md) — independent player-safe Qwen summary, retained for comparison
 
 ## Archive analysis
 
