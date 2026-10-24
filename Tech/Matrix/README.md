@@ -36,3 +36,4 @@ These are **not specific hosts**. They are SR3 rules-derived examples of common 
 - [H-Block Crew Vanishing SAN Host](H-Block-Crew-Vanishing-SAN-Host.md)
 - [Ruby Falls Data Haven Host](Ruby-Falls-Data-Haven-Host.md)
 - [Noodle Stories Host](Noodle-Stories-Host.md)
+- [Princeps Nashville Staging Host](Princeps-Nashville-Staging-Host.md) - GM-authored covert CAS miltech staging host used to probe the Princeps / Cross Applied Technology feud.

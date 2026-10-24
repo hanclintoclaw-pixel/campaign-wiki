@@ -27,6 +27,10 @@ A corporate actor with Nashville interests ranging from biotech-adjacent recover
 - **Imogene Viola** confirmed she arranged the original Pixel Sticks takedown contract through the shadow pipeline and later paid the crew **10,000¥** for follow-up intelligence and utility samples.
 - The crew now reads the Pixel Sticks attack as part of CAT's ongoing conflict with **[The Princeps Group](../Factions/The-Princeps-Group.md)**, though proof remains circumstantial.
 
+## GM notes
+
+- A covert **Princeps staging host** has been authored as a candidate route to attribution evidence: [Princeps Nashville Staging Host](../Tech/Matrix/Princeps-Nashville-Staging-Host.md). The crew does **not** know it exists; reaching it must be earned through play, and nothing recovered from it should be allowed to settle the feud on its own.
+
 ## Key people
 
 - [Imogene Viola](../NPCs/Imogene-Viola.md)
@@ -42,6 +46,7 @@ A corporate actor with Nashville interests ranging from biotech-adjacent recover
 
 - [Lafayette Tower](../Locations/Lafayette-Tower.md)
 - [Skizzix](../NPCs/Skizzix.md)
+- [Princeps Nashville Staging Host](../Tech/Matrix/Princeps-Nashville-Staging-Host.md)
 
 ## Open questions
 

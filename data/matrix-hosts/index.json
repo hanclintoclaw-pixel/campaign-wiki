@@ -84,6 +84,12 @@
       "name": "SC Music Corporate Host",
       "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/sc-music-corporate-host.json",
       "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/SC-Music-Corporate-Host.html"
+    },
+    {
+      "id": "princeps-nashville-staging-host",
+      "name": "Princeps Nashville Staging Host",
+      "url": "https://hanclintoclaw-pixel.github.io/campaign-wiki/data/matrix-hosts/princeps-nashville-staging-host.json",
+      "wikiPage": "https://hanclintoclaw-pixel.github.io/campaign-wiki/Tech/Matrix/Princeps-Nashville-Staging-Host.html"
     }
   ]
 }

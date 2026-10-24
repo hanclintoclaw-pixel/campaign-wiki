@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "cindylou.matrixHostProfile/v1",
+  "id": "princeps-nashville-staging-host",
+  "name": "Princeps Nashville Staging Host",
+  "wikiPage": "Tech/Matrix/Princeps-Nashville-Staging-Host.md",
+  "securityCode": "***",
+  "securityValue": 9,
+  "hostRating": 9,
+  "shutdownTally": 21,
+  "subsystem": { "access": 13, "control": 11, "index": 14, "files": 12, "slave": 11 },
+  "taskTargetNumbers": {
+    "logon": 10,
+    "browsePublic": 5,
+    "searchCustomer": 11,
+    "staffRecords": 10,
+    "alterStore": 11,
+    "controlSlave": 10,
+    "evadeTrace": 9,
+    "fightIc": 10,
+    "findUvSeam": 12,
+    "breachUv": 13
+  },
+  "securitySheaf": [
+    {
+      "threshold": 3,
+      "label": "Visitor Badge Challenge",
+      "effect": "The procurement front desk runs your vendor credential against the day's approved buyer list and holds the lobby until a human verifier signs off.",
+      "encounter": { "type": "probe", "rating": 8 }
+    },
+    {
+      "threshold": 6,
+      "label": "Threat Correlation",
+      "effect": "Your signature is correlated against archived attack traffic on Cross Applied Technology, and your visitor file is reclassified as suspect.",
+      "encounter": { "type": "trace", "rating": 8 }
+    },
+    {
+      "threshold": 9,
+      "label": "Tasking Fork",
+      "effect": "Your session's tasking metadata is forked into plant dossiers, and every requisition you file inherits a flagged-buyer routing code.",
+      "encounter": { "type": "scramble", "rating": 9 }
+    },
+    {
+      "threshold": 12,
+      "label": "Handler Approval Loop",
+      "effect": "Each action you take is filed as a requisition awaiting a handler countersignature that never clears, pinning you to the counter.",
+      "encounter": { "type": "tarBaby", "rating": 9 }
+    },
+    {
+      "threshold": 15,
+      "label": "Tasking Vault Custody",
+      "effect": "The vault custodian treats the session as hostile penetration of compartmented tasking and seals the compartment with you inside it.",
+      "encounter": { "type": "black", "rating": 10, "terminalOnFail": true }
+    }
+  ],
+  "sculpting": "From the outside a bland CAS procurement office of requisition counters and vendor portals, but behind the filing wall sit compartmented ops rooms staging strikes on Cross Applied Technology.",
+  "notes": "Staging host for the Cross Applied Technology arc: deckers breach the procurement front to trace tasking, and the sheaf escalates from badge checks to terminal black IC guarding the vault. Attribution evidence is a lead, not proof against any named Princeps principal.",
+  "flow": {
+    "startNodeId": "vendor-portal",
+    "nodes": [
+      {
+        "id": "vendor-portal",
+        "title": "Procurement Vestibule",
+        "kind": "entry",
+        "description": "An immaculate front vestibule where every door asks for a stated reason. Notices are current, directories are neat, and nothing here admits it hides anything.",
+        "choices": [
+          { "label": "Open the public tender board", "to": "tender-board" },
+          { "label": "Work the unlisted liaison queue", "to": "vendor-files", "testId": "logon", "unlockSuccesses": 2 },
+          { "label": "Log off quietly", "to": "logoff" }
+        ]
+      },
+      {
+        "id": "tender-board",
+        "title": "Public Tender Board",
+        "kind": "public",
+        "description": "Official requisition notices and liaison directories, posted for any registered vendor. Everything is legible, ordinary, and completely unremarkable.",
+        "choices": [
+          { "label": "Search archived approval references", "to": "vendor-files", "testId": "searchCustomer", "unlockSuccesses": 1 },
+          { "label": "Return to the procurement vestibule", "to": "vendor-portal" }
+        ]
+      },
+      {
+        "id": "vendor-files",
+        "title": "Vendor Records Room",
+        "kind": "file-access",
+        "description": "Routine vendor records filed exactly as expected, except one folder sits out of place, uncatalogued and slightly warm to the touch.",
+        "choices": [
+          { "label": "Open the odd requisition memo", "to": "requisition-memo", "testId": "staffRecords", "unlockSuccesses": 1 },
+          { "label": "Check the device ledger", "to": "device-ledger", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Look for the Deep Archive seam", "to": "archive-seam", "testId": "findUvSeam", "unlockSuccesses": 2 },
+          { "label": "Return to the procurement vestibule", "to": "vendor-portal" }
+        ]
+      },
+      {
+        "id": "requisition-memo",
+        "title": "Odd Requisition Memo",
+        "kind": "confirmation",
+        "description": "A Princeps Huntsville letterhead memo names a \"Lafayette package\" with a delivery window, and nothing more. Tell the GM exactly what you found and ask them to confirm scope.",
+        "report": {
+          "include": "always",
+          "title": "Lafayette package requisition memo",
+          "detail": "Mevin recovered a Princeps Huntsville letterhead requisition naming a \"Lafayette package\" with a delivery window. Confirm the memo's date, author field, and whether the delivery window matches a known incident before the crew acts on it.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to the vendor files", "to": "vendor-files" }
+        ]
+      },
+      {
+        "id": "device-ledger",
+        "title": "Device Ledger",
+        "kind": "paydata",
+        "description": "Procurement entries for field devices whose delivery windows match a known dead drop. Timing lines up neatly; names and orders do not appear anywhere.",
+        "report": {
+          "include": "always",
+          "title": "Field device procurement ledger",
+          "detail": "Mevin copied device procurement entries whose delivery windows align with a known utility dead drop. Ask the GM which entries are corroborated and whether the ledger itself is a plant.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to the vendor files", "to": "vendor-files" }
+        ]
+      },
+      {
+        "id": "archive-seam",
+        "title": "Unindexed Seam",
+        "kind": "restricted",
+        "description": "A route that should not be indexed, stitched between filing routines and missed by every audit pass. The system forgets it exists whenever you look away.",
+        "choices": [
+          { "label": "Breach the Deep Archive", "to": "deep-archive", "testId": "breachUv", "unlockSuccesses": 2 },
+          { "label": "Tap the guardhouse slave panel", "to": "slave-panel", "testId": "controlSlave", "unlockSuccesses": 1 },
+          { "label": "Back out to the vendor files", "to": "vendor-files" }
+        ]
+      },
+      {
+        "id": "slave-panel",
+        "title": "Guardhouse Slave Panel",
+        "kind": "confirmation",
+        "description": "Apparent access to the leased site's cameras and door badge reader. Tell the GM what you see and ask what the site actually covers before you trust it.",
+        "report": {
+          "include": "always",
+          "title": "Leased-site camera and badge access",
+          "detail": "Mevin reached the leased site's camera and door-badge slave systems. Confirm which cameras exist, whether badge history is readable, and what the physical site actually covers.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to the seam", "to": "archive-seam" }
+        ]
+      },
+      {
+        "id": "deep-archive",
+        "title": "Deep Archive",
+        "kind": "restricted",
+        "description": "Compartmented ops records behind numbered doors and sealed dispatch boxes. The order here is military discipline, not menace, and every section keeps its own counsel.",
+        "choices": [
+          { "label": "Copy the Lafayette package tasking file", "to": "attribution-cache", "testId": "staffRecords", "unlockSuccesses": 2 },
+          { "label": "Fight through the blackout sentry", "to": "attribution-cache", "testId": "fightIc", "unlockSuccesses": 2 },
+          { "label": "Return to the seam", "to": "archive-seam" }
+        ]
+      },
+      {
+        "id": "attribution-cache",
+        "title": "Attribution Cache",
+        "kind": "major-reward",
+        "description": "A recovered package of tasking, procurement, and payment records tying the staging to Princeps as a lead. Worth nothing unless you walk out carrying it.",
+        "report": {
+          "include": "always",
+          "title": "Attribution cache recovered",
+          "detail": "Mevin reached a package of tasking, procurement, and payment records implicating Princeps as a lead only. The GM decides whether any document is authentic, altered, a plant, or a deliberate signature, and whether Claude August or any named principal is actually tied to the attacks.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Burst out past the trace", "to": "logoff", "testId": "evadeTrace", "unlockSuccesses": 1 },
+          { "label": "Plant a false-flag dispatch", "to": "false-flag-drop", "testId": "alterStore", "unlockSuccesses": 2 },
+          { "label": "Return to the archive", "to": "deep-archive" }
+        ]
+      },
+      {
+        "id": "false-flag-drop",
+        "title": "False-Flag Plant",
+        "kind": "permanent-outcome",
+        "description": "You seed the compartment with a dispatch blaming someone else for the staging. The audit trail records the tampering the moment you do it. Notify the GM before you commit.",
+        "report": {
+          "include": "always",
+          "title": "False-flag dispatch planted",
+          "detail": "Mevin planted a fabricated dispatch inside the ops compartment. The GM must decide who benefits, whether the tamper-evident seal flags Princeps's own audit log, and how Princeps reacts once the plant is discovered.",
+          "notifyGm": true
+        },
+        "choices": [
+          { "label": "Return to the cache", "to": "attribution-cache" }
+        ]
+      },
+      {
+        "id": "logoff",
+        "title": "Clean Exit",
+        "kind": "exit",
+        "description": "The cover surface closes back over the intrusion. Notices refresh, directories settle, and the vestibule is once again the most boring place on the grid.",
+        "choices": []
+      }
+    ]
+  }
+}

@@ -59,6 +59,7 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 - **[Confederated American States](../Locations/Confederated-American-States.md):** Patron, protector, and likely major customer.
 - **CAS military:** Close research and procurement relationship.
 - **[Cross Applied Technology](../Organizations/Cross-Applied-Technology.md):** Active rival in a tit-for-tat corporate conflict around Nashville; the crew now strongly suspects Princeps used the Pixel Sticks as disposable deniable attackers against CAT subsidiaries.
+- **[Princeps Nashville Staging Host](../Tech/Matrix/Princeps-Nashville-Staging-Host.md):** GM-authored covert Nashville-foothold host presented as a CAS defense-procurement liaison front, with a concealed compartment used to stage attacks on Cross elements. Unknown to the crew; a route to attribution evidence, not proof.
 - **International megacorps:** Strategic rivals and acquisition threats, especially in miltech.
 - **Former Princeps leadership:** Displaced after a financial scandal created the opening for Claude's takeover.
 
@@ -78,6 +79,7 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 
 - How much of the former leadership scandal was real corruption, political theater, or draconic maneuvering?
 - Which CAS military programs depend on Princeps research?
+- Does the Nashville staging host carry the tasking records that would tie the Pixel Sticks attacks to Huntsville, or only records designed to look like it?
 - Which megacorporate interests are most invested in undermining or acquiring Princeps?
 - How far would the CAS government go to protect Claude if his dragon identity became legally actionable?
 - Did Princeps / Claude directly sponsor the Pixel Sticks, or was the draconic icon a deliberate frame?
