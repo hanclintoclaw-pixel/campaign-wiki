@@ -26,5 +26,7 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-10-27 — Roster prefetch and first-token stall](Change-Notes/2026-10-27-Roster-Prefetch-And-First-Token-Stall.md)
+
 - [2026-10-26 — Voice bridge prefetch and wake-latency corrections](Change-Notes/2026-10-26-Wake-Prefetch-And-Latency-Corrections.md)
 - [2026-10-25 — Wake path latency, retrieval ranking, and two self-corrections](Change-Notes/2026-10-25-Wake-Path-And-Retrieval.md)
