@@ -11,6 +11,7 @@ sources:
   - PARTY_DOSSIER.md
   - ../Sessions/2026-06-04.md
   - Curtis attributes screenshot shared by player on 2026-06-05
+  - GM / Sherman (Daniel) confirmed Curtis is a dwarf, live session 2026-10-28
   - Curtis active skills screenshot shared by player on 2026-06-05
   - Curtis knowledge and language skills screenshot shared by player on 2026-06-05
   - ../Sessions/2026-06-25.md
