@@ -2,7 +2,7 @@
 title: Voice Bridge Change Notes
 type: documentation
 visibility: player-safe
-updated: 2026-10-25
+updated: 2026-10-28
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-10-25
 ---
@@ -25,6 +25,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 6. Link each new entry from the Entries list on this page.
 
 ## Entries
+
+- [2026-10-28 — Wake excerpts, rules honesty, and the prompt-size solve](Change-Notes/2026-10-28-Wake-Excerpts-And-Rules-Honesty.md)
 
 - [2026-10-27 — Roster prefetch and first-token stall](Change-Notes/2026-10-27-Roster-Prefetch-And-First-Token-Stall.md)
 
