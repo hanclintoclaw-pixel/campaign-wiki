@@ -7,7 +7,7 @@ subject: Otaku; Deep Resonance; Ex Pacis
 last_updated_session: 2026-08-30
 tags: [cindy, journal, otaku, matrix, deep-resonance, threats-2, shadowrun-canon, personality-profile]
 sources:
-  - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/SR3_Matrix_FASA7909/source.md
+  - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/SR3_Matrix_7909/source.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/SR3_Threats_2_FASA10652_OCR/source.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/SR3_System_Failure_FanPro25014/source.md
 ---
