@@ -35,12 +35,22 @@ An earlier equipment-suite run reported 12 failures while an unrelated recursive
 
 Bridge process `26743` started at 21:51:59 EDT on 2026-10-28, after the commit timestamp of 21:51:40 EDT, verifying deployment by timestamp (ad-hoc probe).
 
+The tier reached a real table the following evening. Three `wake_tier` events with `tier="equipment"`, all `accepted: true`, appear in capture `2026-10-29T20-40-28-shadowrun` at 20:45:22, 20:46:42, and 20:58:29 EDT, carrying 783, 549, and 608 injected characters in 0.503, 0.391, and 0.266 seconds (session capture log). The first was the intended use: an Ares Predator II stats question answered substantively at 372 reply characters in 4.951 seconds, naming heavy pistol, Damage 9M, SA only, 15-round clip, and Concealability 4 with a citation (session capture log).
+
+The second and third show two defects. The vehicle question ("base body stat for a Ford Canada bison") accepted 3 rows but injected only 549 characters and the reply deflected on Body. The curated row does carry `Body/Armor` = `4/4`, but the injector selects columns through an exact-match whitelist of bare headings, and the vehicles dataset uses compound headings (`Body/Armor`, `Speed/Accel`, `Pilot/Sensor`, `Sig/Autonav`) which match nothing and are silently dropped; 3 vehicle stats survived against 7 gear stats for the pistol (ad-hoc probe). The third accepted a rules question -- "what attribute is launch weapons connected to" -- because "weapon" matches the noun list, returning gear rows with no skill link, and the model correctly refused to voice a number from them (session capture log).
+
 ## Still open
 
-Production activation evidence is zero: no `wake_tier` event with `tier="equipment"` has appeared in a session capture log (session capture log). All 55 passing equipment tests are harness-side (unit test). The tier has never fired at a real table; the first live gear question remains the actual test.
+Four production wake turns now run through this tier and the harness never saw two of them. The column whitelist truncates every dataset whose headings are compound, which under-delivers precisely when the trust gate has done its job correctly -- the model was told the source lacked Body because the injector had already discarded it. The intent gate admits skill-link questions carrying an item noun, burning a turn on gear rows that cannot answer the question asked. Neither defect is covered by a unit test, because the 55 harness cases assert the tier's own fixtures rather than the real vehicles row shape (unit test).
+
+Desired behaviour and acceptance criteria are written up in the bridge repo as `SUBSTANTIVE_ANSWERS_FROM_SOURCE.md`. The trust gate is not the problem and is not proposed for change.
 
 The kill-switch setting is absent, not off. `LIVE_WAKE_EQUIPMENT_ENABLED` does not appear in `.env`, and the launchd plist injects only `PATH`, so the code default of `true` makes the tier live-reachable (ad-hoc probe). No test asserts the running default.
 
 ## Corrections
+
+The claim that production activation evidence was zero is retracted. This note was written and published on the afternoon of 2026-10-29 against the last capture then on disk, and said the tier "has never fired at a real table." The same evening's session produced three accepted equipment-tier events, listed above (session capture log). The claim was true of the evidence available at writing time and wrong as a statement about the world; an absence of evidence gathered hours earlier is not a property of the system. Re-check live state before publishing it as a finding.
+
+The claim that the intent gate separates equipment questions from rules rulings is too strong as written. Its decline cases were verified only against the three phrasings in the unit test (unit test). A fourth phrasing not in that test -- a skill-link question naming a weapon -- is admitted in production (session capture log).
 
 The requester's session notes carried `LIVE_WAKE_EQUIPMENT_ENABLED=false`, but checking `.env` and the launchd plist showed the flag was absent, so the default `true` applies (ad-hoc probe). An absent flag is not a disabled flag, and a remembered config value is not a measured one.
