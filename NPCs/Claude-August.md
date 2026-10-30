@@ -31,7 +31,7 @@ _Claude's true form._
 
 ## Overview
 
-**Claude August** is the young CEO and controlling owner of **[The Princeps Group](../Factions/The-Princeps-Group.md)**, a Huntsville-based CAS miltech corporation. He appears to be a teenage human, but he is a **juvenile western dragon**. On October 29 the GM clarified that this is essentially an **open secret**, tolerated by the government despite non-human-ownership noncompliance.
+**Claude August** is the young CEO and controlling owner of **[The Princeps Group](../Factions/The-Princeps-Group.md)**, a Huntsville-based CAS miltech corporation. He appears to be a teenage human, but he is a **juvenile Great Dragon**. On October 29 the GM clarified that this is essentially an **open secret**, tolerated by the government despite non-human-ownership noncompliance.
 
 ## Known Facts
 
@@ -82,7 +82,7 @@ _Claude's true form._
 
 ## GM Reference
 
-- [Claude August — GM Statistics](Claude-August-Statistics.md) — Western dragon baseline and explicitly labeled juvenile table preset.
+- [Claude August — GM Statistics](Claude-August-Statistics.md) — Western Dragon raw-stat baseline with Claude's Great Dragon abilities; table-ready GM build.
 
 ## Related Pages
 
