@@ -1,4 +1,5 @@
 ---
+permalink: /Sessions/
 title: Sessions
 type: index
 visibility: player-safe

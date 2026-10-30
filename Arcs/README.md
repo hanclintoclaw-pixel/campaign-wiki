@@ -1,4 +1,5 @@
 ---
+permalink: /Arcs/
 title: Plot Arcs Index Retired
 type: retired-index
 visibility: player-safe
