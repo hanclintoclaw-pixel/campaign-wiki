@@ -35,13 +35,17 @@ An earlier equipment-suite run reported 12 failures while an unrelated recursive
 
 Bridge process `26743` started at 21:51:59 EDT on 2026-10-28, after the commit timestamp of 21:51:40 EDT, verifying deployment by timestamp (ad-hoc probe).
 
-The tier reached a real table the following evening. Three `wake_tier` events with `tier="equipment"`, all `accepted: true`, appear in capture `2026-10-29T20-40-28-shadowrun` at 20:45:22, 20:46:42, and 20:58:29 EDT, carrying 783, 549, and 608 injected characters in 0.503, 0.391, and 0.266 seconds (session capture log). The first was the intended use: an Ares Predator II stats question answered substantively at 372 reply characters in 4.951 seconds, naming heavy pistol, Damage 9M, SA only, 15-round clip, and Concealability 4 with a citation (session capture log).
+The tier reached a real table the following evening. Four `wake_tier` events with `tier="equipment"`, all `accepted: true`, appear in the bridge runtime log at 20:45:22, 20:46:42, 20:58:29, and 21:12:51 EDT, injecting 534, 300, 359, and 216 characters over 3 rows each. An earlier version of this note reported three events and misattributed those character counts; the counts above are re-paired line by line against each turn's own transcript (bridge runtime log). The first was the intended use: an Ares Predator II stats question answered substantively at 372 reply characters in 4.951 seconds, naming heavy pistol, Damage 9M, SA only, 15-round clip, and Concealability 4 with a citation (session capture log).
+
+A fourth accepted a plain conversational statement -- "That is not a problem. I'll say that maybe not a voice, but over chat" -- which is not a lookup of any kind (bridge runtime log).
 
 The second and third show two defects. The vehicle question ("base body stat for a Ford Canada bison") accepted 3 rows but injected only 549 characters and the reply deflected on Body. The curated row does carry `Body/Armor` = `4/4`, but the injector selects columns through an exact-match whitelist of bare headings, and the vehicles dataset uses compound headings (`Body/Armor`, `Speed/Accel`, `Pilot/Sensor`, `Sig/Autonav`) which match nothing and are silently dropped; 3 vehicle stats survived against 7 gear stats for the pistol (ad-hoc probe). The third accepted a rules question -- "what attribute is launch weapons connected to" -- because "weapon" matches the noun list, returning gear rows with no skill link, and the model correctly refused to voice a number from them (session capture log).
 
 ## Still open
 
 Four production wake turns now run through this tier and the harness never saw two of them. The column whitelist truncates every dataset whose headings are compound, which under-delivers precisely when the trust gate has done its job correctly -- the model was told the source lacked Body because the injector had already discarded it. The intent gate admits skill-link questions carrying an item noun, burning a turn on gear rows that cannot answer the question asked. Neither defect is covered by a unit test, because the 55 harness cases assert the tier's own fixtures rather than the real vehicles row shape (unit test).
+
+The intent gate therefore admits statements, not only questions. A first gate criterion is that a turn must contain an actual lookup request before gear rows are injected.
 
 Desired behaviour and acceptance criteria are written up in the bridge repo as `SUBSTANTIVE_ANSWERS_FROM_SOURCE.md`. The trust gate is not the problem and is not proposed for change.
 
