@@ -80,6 +80,10 @@ _Claude's true form._
 - [2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md) - archived notes reference Princeps ownership and a dragon-level power struggle around Lord August.
 - [2026-08-27](../Sessions/2026-08-27.md) - crew follow-up strongly implicated Claude / Princeps in the Pixel Sticks attack on CAT subsidiaries, based on the sponsor icon and corporate-conflict context.
 
+## GM Reference
+
+- [Claude August — GM Statistics](Claude-August-Statistics.md) — Western dragon baseline and explicitly labeled juvenile table preset.
+
 ## Related Pages
 
 - [The Princeps Group](../Factions/The-Princeps-Group.md)
