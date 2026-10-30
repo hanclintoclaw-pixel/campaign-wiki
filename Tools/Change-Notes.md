@@ -26,6 +26,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-10-30 — Rules retrieval: page-level units and gated answers](Change-Notes/2026-10-30-Rules-Page-Retrieval.md)
+
 - [2026-10-30 — Wake retrieval ranking, snippet anchoring, and three retractions](Change-Notes/2026-10-30-Wake-Retrieval-And-Narration.md)
 
 - [2026-10-29 — Equipment wake tier and VERIFIED/SR3 trust gate](Change-Notes/2026-10-29-Equipment-Wake-Tier.md)
