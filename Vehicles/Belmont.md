@@ -3,15 +3,18 @@ title: Belmont
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-22
+last_updated_session: 2026-10-29
 canon_status: provisional
 confidence: medium
 tags: [vehicle, drone, crawler, rigger, curtis]
 sources:
+  - ../Sessions/2026-10-29.md
   - PARTY_DOSSIER.md
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-22.md
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # Belmont
@@ -39,6 +42,8 @@ Part of the campaign's dedicated **Drones / Vehicles** reference layer rather th
 
 ## Role
 
+In [Session 2026-10-29](../Sessions/2026-10-29.md) (**21:16:19–21:16:37**), the GM confirmed that scorpion-brain salvage brought **both Belmont and Buzz to Pilot 2**, with better self-direction. No new software purchase or charge was recorded; this does not transfer the separate units already installed in Grandpa and The Finisher.
+
 A combat crawler drone in Curtis's active rigger stable. During the Happy Cat investigation, Curtis used Belmont for roof surveillance and captured images of suspicious communications equipment later identified as part of a laser modem link into the neighboring arkoblock.
 
 ## White Creek Deployment
@@ -54,6 +59,8 @@ In [Session 2026-09-24](../Sessions/2026-09-24.md), Belmont deployed from Grandp
 > "Belmont goes first when you need somebody else to get shot at before you do. Don't waste him peeking corners like a tourist — post him where armor matters, give him a lane, and let him make people regret standing still."
 
 ## Sources
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
 - `PARTY_DOSSIER.md`

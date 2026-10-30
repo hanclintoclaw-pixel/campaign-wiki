@@ -2,7 +2,9 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-10-16
+updated: 2026-10-29
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # NASHVILLE SHADOWRUN
@@ -20,9 +22,9 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** remains active after [Session 2026-10-15](Sessions/2026-10-15.md). The crew tried to hand the recovered Sandusky evidence to the original anonymous Johnson at a public Nashville drop. **Lula Bell Sandusky** appeared with armed security, magically compelled Curtis to answer questions, and signaled an attack. Kyron's fireball destroyed one van and ignited another; Sandusky's physical body was apparently killed, and the tainted greater spirit of man that had inhabited her emerged. The evidence remains with the crew; no handoff, payment, Karma, or completion award occurred.
+The active player-driven objective is **[Operation Kill the Dragon](Arcs/Operation-Kill-the-Dragon.md)**, established in **[Session 2026-10-29](Sessions/2026-10-29.md)**. Curtis, Kurgan and Kilimanjaro submitted independent Princeps applications under existing false identities and plan careful research/infiltration before any attempt on Claude August. **Applications are pending, not employment.**
 
-The two armored vans' ownership and the relationship between Sandusky, the Johnson, Mayor Haggar/Joseph Neumann, and Princeps are unresolved. The campaign date remains provisionally late May 2066 or later, nighttime.
+The **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** was paid and closed on October 22. Tom Erlichman has now been released as Kurgan's **Level-1 Humanis informant**. One week passed while Curtis fitted recovered **6/4 armor**; the GM confirmed **Belmont and Buzz at Pilot 2**. The frozen corpse, shedim return risk and original Johnson remain loose ends. No new cash or advancement-Karma award was recorded. **Next session: November 5.**
 
 ## Navigation
 

@@ -5,17 +5,20 @@ visibility: player-safe
 status: active
 canon_status: canon
 confidence: high
-updated: 2026-08-28
+updated: 2026-10-29
 aliases:
   - Princeps
   - Princeps Group
   - Princeps Inc.
 tags: [faction, corporation, miltech, cas, huntsville]
 sources:
+  - ../Sessions/2026-10-29.md
   - Discord request, 2026-07-08
   - ../Clues/Late-January-Headlines.md
   - ../Sessions/Game-Date-Session-2064-03-01.md
   - ../Sessions/2026-08-27.md
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # The Princeps Group
@@ -26,13 +29,16 @@ sources:
 
 ## What the Crew Knows
 
+- **October 29:** copying foreign prototypes and 100% domestic ownership distinguish Princeps; this does not mean Claude has invented nothing. Public inheritance PR differs from the earlier scandal/state-backed-takeover story and remains unreconciled.
+- Curtis, Kurgan and Kilimanjaro submitted independent applications under false IDs. Vetting takes weeks; they are **not hired**. Their [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md) is a player plan, not a new confirmed corporate incident.
+
 - Princeps is a Huntsville-based miltech research corporation rather than a megacorporate subsidiary.
 - The corporation has strong military, defense-research, and procurement ties inside the CAS.
 - CAS protection gives Princeps room to remain independent despite pressure from more powerful international corporate actors.
 - The current owner and CEO is **[Claude August](../NPCs/Claude-August.md)**.
 - Claude came to power after the prior leadership became embroiled in a financial scandal.
 - The takeover was a government-backed stock acquisition, suggesting CAS authorities preferred Claude's control to either the old leadership or outside acquisition.
-- Players know Claude is secretly a juvenile western dragon; Princeps's public/legal position depends on that truth staying contained.
+- Claude is a juvenile western dragon. The October 29 GM ruling makes this essentially an **open secret**, tolerated because Princeps is valuable, despite technical non-human-ownership noncompliance. Its legal vulnerability is real but simple exposure is not a guaranteed takedown.
 - Session 2026-08-27 strongly implicated Princeps as the anonymous sponsor behind the Pixel Sticks attacks on **[Cross Applied Technology](../Organizations/Cross-Applied-Technology.md)** subsidiaries: the prisoners described a high-resolution draconic humanoid Matrix icon, a dead drop of high-end utilities, and a transponder linked to the scorpion drone. This is strong crew inference, not courtroom-clean proof.
 
 ## Public Face
@@ -65,6 +71,8 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 
 ## Relevant Sessions
 
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — public inheritance PR researched; dragon ownership described as an open secret; Curtis, Kurgan and Kilimanjaro submitted cover applications and chose careful planning toward killing Claude. No new proof of Pixel Sticks sponsorship, employment or attack was established.
+
 - [2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md) - archived notes describe Princeps ownership as entangled with a dragon-level power struggle around Lord August.
 - [2026-08-27](../Sessions/2026-08-27.md) - the Pixel Sticks sponsor follow-up strongly implicated Princeps / Claude in the CAT-targeted utility attacks, though without hard public proof.
 
@@ -85,6 +93,8 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 - Did Princeps / Claude directly sponsor the Pixel Sticks, or was the draconic icon a deliberate frame?
 
 ## Sources
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 
 - Discord request, 2026-07-08.
 - [Late January Headlines](../Clues/Late-January-Headlines.md).

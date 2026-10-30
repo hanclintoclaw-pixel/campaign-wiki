@@ -3,15 +3,18 @@ title: Buzz
 type: vehicle
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-22
+last_updated_session: 2026-10-29
 canon_status: canon
 confidence: high
 tags: [vehicle, drone, vtol, rigger, curtis]
 sources:
+  - ../Sessions/2026-10-29.md
   - PARTY_DOSSIER.md
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-22.md
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # Buzz
@@ -28,7 +31,7 @@ Part of the campaign's dedicated **Drones / Vehicles** reference layer rather th
 - **Speed/Acceleration:** 70/9
 - **Body/Armor:** 1/0
 - **Signature/Autonav:** 5
-- **Pilot/Sensor:** 1/0
+- **Pilot/Sensor:** 2/0
 - **Cargo/Load:** 0/10
 
 ## Sensors
@@ -37,6 +40,8 @@ Part of the campaign's dedicated **Drones / Vehicles** reference layer rather th
 - **Thermographic camera**
 
 ## Role
+
+In [Session 2026-10-29](../Sessions/2026-10-29.md) (**21:16:19–21:16:37**), the GM confirmed that scorpion-brain salvage brought **both Belmont and Buzz to Pilot 2**, with better self-direction. No new software purchase or charge was recorded; this does not transfer the separate units already installed in Grandpa and The Finisher.
 
 A light aerial surveillance/support drone.
 
@@ -63,6 +68,8 @@ Preserve it. It is the only known video proof that a prominent civic commentator
 - **2026-07-17 — Curtis Drone Shift Tutorial 6: Buzz's Battery-Bay Bellyache:** Curtis completed a break-even maintenance on Buzz. The work included Curtis rules out cell swelling and keeps the job in cheap latch-and-contact territory, The fault shows up late after Curtis cleans two innocent rails and donates extra contact swabs to the cause, The shim works, but Curtis spends extra tape and a replacement screw after the first bend fights back, and The check passes well enough, but Curtis spends extra foam and cleaner chasing one last warning-light flicker. Shimmed latch is in effect: hover-shake TN +1 for vibration risk. Final report logged **-25¥** net shift result and **Maintenance Quality 1**. Follow-up note: Bend and shim the old latch: shimmed latch leaves vibration risk; Hover-Shake Test TN +1 and the final report notes the thrift fix. No permanent Buzz stat changes apply unless the GM confirms them.
 
 ## Sources
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
 - `PARTY_DOSSIER.md`

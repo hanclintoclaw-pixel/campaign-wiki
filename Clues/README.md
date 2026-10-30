@@ -4,8 +4,10 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-10-23
+updated: 2026-10-29
 tags: [leads, clues, open-threads]
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # Loose Threads / Unpulled Threads / Lead Board
@@ -22,6 +24,19 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 
 ## Active high-value leads
 
+### Research Claude and handle Princeps cover applications
+
+**Status:** **new — current table focus**
+
+**Last touched:** [Session 2026-10-29](../Sessions/2026-10-29.md)
+
+**Connected pages:** [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md), [Claude August](../NPCs/Claude-August.md), [Princeps](../Factions/The-Princeps-Group.md)
+
+Curtis, Kurgan and Kilimanjaro submitted independent applications using existing customized IDs. They chose ultimately to kill Claude, but explicitly rejected reckless immediate action. **No one is hired.** Vetting is expected to take weeks, not weeks already elapsed.
+
+**Next actions:** record cover biographies, research corporate/draconic capabilities and access limits, coordinate absent PCs and bluebook potential gear. Dragon exposure alone may not work because his identity is an open secret; copied technology does not prove he lacks real inventions. No new payment or priced purchase occurred.
+
+
 ### Recover the Sandusky evidence from the Ring of Fire
 
 **Status:** **resolved — sold and paid** ([Session 2026-10-22](../Sessions/2026-10-22.md)); fallout active
@@ -37,7 +52,7 @@ An anonymous Johnson hired the crew to recover pre-Crash physical evidence on **
 - Who hired the crew to retrieve Sandusky's old evidence, and what do they intend to do with it? Why did the mayor's office not issue the original job?
 - What legal/political leverage do the Sandusky records create, and why is it useful now?
 - Why did Sandusky attend the Johnson drop, how did she learn what the crew had inspected, and what are her actual Humanis ties?
-- Will the crew accept Neumann's 55,000¥ offer, retain copies, or hand over the material to the original Johnson? What are the risks of multiple copies/recipients?
+- Which copies remain after the completed mayoral sale, and what are the risks of additional recipients?
 - What is in the concealed paydata and the old terminal, and is either related to Sandusky?
 - Where is Hardcastle, and what happened to the Ring of Fire occupants?
 - How did the tainted spirit return after Glenn reported the Hidden Enforcers had banished it, what was its relationship to Sandusky, and what does Glenn need from Kurgan?
@@ -76,28 +91,17 @@ Kyron identified the entity as a **shedim** — a spirit type new to the Sixth W
 - Ask Glenn what the Hidden Enforcers used, and whether they knew it was a shedim.
 - Decide before it returns: wards, allies, a weapon, or a plan to leave town.
 
-### Question the captured Humanis guard
+### Follow Tom Erlichman's Humanis reporting
 
-**Status:** **new — active captive**
+**Status:** **captivity/recruitment resolved; informant follow-up active**
 
-**Last touched:** [Session 2026-10-22](../Sessions/2026-10-22.md)
+**Last touched:** [Session 2026-10-29](../Sessions/2026-10-29.md)
 
-**Connected pages:** [Tom Erlichman](../NPCs/Tom-Erlichman.md), [Humanis](../Factions/Humanis.md), [Kurgan](../PCs/Kurgan.md), [Curtis](../PCs/Curtis.md), [Taco's Garage and Workshop](../Locations/Tacos-Garage-and-Workshop.md)
+**Connected pages:** [Tom Erlichman](../NPCs/Tom-Erlichman.md), [Kurgan](../PCs/Kurgan.md), [Humanis](../Factions/Humanis.md)
 
-The crew knocked out rather than executed one Sandusky security guard, and he is **chained, gagged, and bagged at Taco's compound, still unconscious**. He is Humanis-affiliated, lightly chromed, and was visibly disturbed by what he had been sitting next to. He is the only living witness to Sandusky's private security operation, and Curtis specifically wants to know whether her demeanor changed at some point — the pattern the crew saw with the insect-spirit-possessed councilman. He also has a system ID, so his disappearance is a public record.
+Kurgan posed as a higher-level Humanis investigator, gave Tom a burner number and asked for reports on suspicious insiders. The GM confirmed his **release and Level-1 informant contact** at 21:46:14. He is no longer restrained at Taco's. Future information will probably cost money; no fee has been paid.
 
-**Player-facing questions**
-
-- When did Sandusky's demeanor change, and did the security staff notice?
-- Who hired and paid the guard detail, and were they told what they were protecting?
-- What does the crew do with an unconscious Humanis captive, given their good standing with MetroPedy?
-- Will his Humanis cell notice he is missing, and does that complicate Kurgan's past?
-
-**Possible next actions**
-
-- Wake him up and question him, with Kurgan's Humanis background doing the work.
-- Decide before anyone else asks: release, hand over to Herrick/MetroPedy, or keep.
-- Check whether Taco knows what is chained up and what is frozen on his property.
+**Next actions:** wait for or solicit reports, evaluate reliability, protect the cover and settle fees only when stated. His exact knowledge of Sandusky's changing behavior remains unresolved.
 
 ### Explain Cedar's satisfaction and watch the Belisarius fallout
 
@@ -185,13 +189,13 @@ Session reasoning tied Core 7's architecture to older Swiftwing / Cindy knowbot 
 
 ### Prove or exploit the Pixel Sticks sponsor / Princeps lead
 
-**Status:** active but no longer the current table scene
+**Status:** **touched — active; feeds Operation Kill the Dragon**
 
-**Last touched:** [Session 2026-08-27](../Sessions/2026-08-27.md)
+**Last touched:** [Session 2026-10-29](../Sessions/2026-10-29.md)
 
 **Connected pages:** [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md), [Pixel Sticks](../Factions/Pixel-Sticks.md), [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md), [The Princeps Group](../Factions/The-Princeps-Group.md), [Claude August](../NPCs/Claude-August.md), [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md), [Imogene Viola](../NPCs/Imogene-Viola.md)
 
-The paid Matrix cleanup job is over, and the later sponsor follow-up strongly implicated **The Princeps Group / Claude August** through the CAT target list, dead-drop story, draconic Matrix icon, high-end equipment, and prior CAT/Princeps feud context. The crew still lacks courtroom-clean proof, and CAT now has the handoff through Imogene Viola.
+The paid Matrix cleanup job is over, and the later sponsor follow-up strongly implicated **The Princeps Group / Claude August** through the CAT target list, dead-drop story, draconic Matrix icon, high-end equipment, and prior CAT/Princeps feud context. The crew still lacks courtroom-clean proof, and CAT has the handoff through Imogene Viola. October 29 turned this into [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md): three cover applications submitted, vetting pending. Claude's species is an open secret, not guaranteed blackmail leverage. Public inheritance PR and the older takeover story remain unreconciled.
 
 **Player-facing questions**
 

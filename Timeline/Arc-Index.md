@@ -2,7 +2,9 @@
 title: Campaign Arc Index
 type: arc-index
 visibility: player-safe
-updated: 2026-09-25
+updated: 2026-10-29
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # Campaign Arc Index
@@ -14,6 +16,7 @@ This page groups the processed session archive into major recurring campaign thr
 The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-arc pages now live under this Campaign Arc Index:
 
 - [Byron Cedar / Judge Belisarius Rush Job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md)
+- [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md) — active player-driven Claude/Princeps operation
 - [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md)
 - [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md)
 - [OCW Side Threads](../Arcs/OCW-Side-Threads.md)
@@ -246,27 +249,19 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 ## 13. Humanis evidence retrieval
 
-**Core idea:** an anonymous Johnson hired the crew to retrieve old pre-Crash records and physical evidence on **Lula Bell Sandusky** from a fortified **Humanis**-affiliated smuggling site north of Nashville. The opening session established **Paul Hardcastle**, the **Ring of Fire**, **White Creek**, and an active recon posture with Buzz hidden on the roof.
+**Core idea:** the anonymous-Johnson Sandusky retrieval became a shedim confrontation and a sale to the mayor. **Paid and closed October 22:** 12,000¥ and 8 Karma each. The original Johnson remains unidentified; the frozen corpse and temporary banishment remain fallout.
 
-**Current posture:** [Session 2026-10-08](../Sessions/2026-10-08.md) records the crew's return to Nashville and confirms that the Sandusky files document her past in violent proto-Humanis activity. **Joseph Neumann** offered **55,000¥** for the mayor's private custody, but Kurgan left the offer open; the original Johnson handoff and crew decision about copies/disposition are pending. Glenn says the Hidden Enforcers banished the tainted spirit. No Karma, payout, or job-completion award; the crew did acquire armor and weapons during a separate downtown encounter.
+**October 29:** Kurgan recruited/released Tom Erlichman as a Level-1 Humanis informant. His detention is resolved, not an active captive scene. One week passed; no new award occurred.
 
-**Key sessions**
-- [2026-09-17](../Sessions/2026-09-17.md)
-- [2026-09-24](../Sessions/2026-09-24.md)
-- [2026-10-01](../Sessions/2026-10-01.md)
-- [2026-10-08](../Sessions/2026-10-08.md)
+**Key sessions:** [September 17](../Sessions/2026-09-17.md), [September 24](../Sessions/2026-09-24.md), [October 1](../Sessions/2026-10-01.md), [October 8](../Sessions/2026-10-08.md), [October 15](../Sessions/2026-10-15.md), [October 22](../Sessions/2026-10-22.md), [Session 2026-10-29](../Sessions/2026-10-29.md).
 
-**Important names**
-- [Lula Bell Sandusky](../NPCs/Lula-Bell-Sandusky.md)
-- [Paul Hardcastle](../NPCs/Paul-Hardcastle.md)
-- [Ring of Fire](../Factions/Ring-of-Fire.md)
-- [Humanis](../Factions/Humanis.md)
-- [White Creek Civic Center](../Locations/White-Creek-Civic-Center.md)
-- [Kilimanjaro](../PCs/Kilimanjaro.md)
-- [Kurgan](../PCs/Kurgan.md)
+**Dedicated page:** [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md).
 
-**Dedicated page**
-- [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md)
+## 14. Operation Kill the Dragon
+
+**Current focus:** Curtis, Kurgan and Kilimanjaro submitted independent Princeps applications under existing false IDs and chose patient research/infiltration toward killing Claude August. Vetting is pending; no employment, attack, employer or new reward is established. Absent PCs' roles remain open.
+
+**Key session:** [Session 2026-10-29](../Sessions/2026-10-29.md). **Dedicated page:** [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md).
 
 ## Related pages
 

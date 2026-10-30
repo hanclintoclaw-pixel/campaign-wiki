@@ -2,19 +2,22 @@
 title: Pixel Sticks / Military-Grade Utilities Run
 type: arc
 visibility: player-safe
-status: active
+status: paid run resolved; sponsor fallout active
 first_session: 2026-07-09
-last_updated_session: 2026-08-27
+last_updated_session: 2026-10-29
 canon_status: canon
 confidence: high
 tags: [arc, current-run, matrix, youth-gang, utilities, nashville]
 sources:
+  - ../Sessions/2026-10-29.md
   - Discord session thread 1524939834832064645
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
   - ../Sessions/2026-08-06.md
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # Pixel Sticks / Military-Grade Utilities Run
@@ -22,6 +25,8 @@ sources:
 ![Pixel Sticks / Military-Grade Utilities Run banner](../assets/images/Pixel-Sticks-Utility-Run-Banner-2026-07-24.png)
 
 ## Current State
+
+**October 29 follow-up:** the paid run remains resolved, but its Claude/Princeps suspicion now feeds [Operation Kill the Dragon](Operation-Kill-the-Dragon.md). Three runners submitted cover applications; no new sponsor proof or employment resulted. Belmont and Buzz were confirmed at Pilot 2 from salvage. See [Session 2026-10-29](../Sessions/2026-10-29.md).
 
 The crew has accepted a deniable Matrix cleanup contract routed through **Ivan** at **Atlas's**. The stated target is a troublesome Matrix youth gang causing disruption across the Nashville telecom grid. The first identified tag is **Pixel Sticks**, but the deeper issue is not ordinary vandalism: someone has armed the group with cutting-edge utilities far beyond normal youth-gang capacity.
 
@@ -106,6 +111,8 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - Does this run intersect with the broader citywide Matrix/influence-engine problem, or is it a separate local job?
 
 ## Sources
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 
 - Discord session thread 1524939834832064645
 - [Session 2026-07-16](../Sessions/2026-07-16.md)

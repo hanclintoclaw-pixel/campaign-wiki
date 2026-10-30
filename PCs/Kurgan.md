@@ -3,11 +3,12 @@ title: Kurgan
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-22
+last_updated_session: 2026-10-29
 canon_status: provisional
 confidence: medium
 tags: [pc, cyber-samurai, active-crew]
 sources:
+  - ../Sessions/2026-10-29.md
   - PARTY_DOSSIER.md
   - ../Sessions/2026-06-25.md
   - ../Sessions/2026-07-16.md
@@ -21,6 +22,8 @@ sources:
   - ../Sessions/2026-10-08.md
   - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
   - GM-confirmed appearance details, 2026-10-07
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # Kurgan
@@ -41,6 +44,8 @@ sources:
 Active player character and the crew's cyber-samurai.
 
 ## Known Facts
+
+- During [Session 2026-10-29](../Sessions/2026-10-29.md), Kurgan claimed the recovered folding-stock shotgun and turned **[Tom Erlichman](../NPCs/Tom-Erlichman.md)** into a **Level-1 Humanis informant**, then released him under a false higher-level Humanis oversight story. He submitted a cover Princeps application and accepted the carefully planned ultimate objective of killing Claude after Curtis won their no-Karma Willpower contest.
 
 - Kurgan is played by **Anil**.
 - He is a **cyber-samurai**.
@@ -65,6 +70,8 @@ Active player character and the crew's cyber-samurai.
 
 ## Karma And Nuyen Ledger
 
+- **2026-10-29 — downtime / Princeps planning:** **+0 new award / no priced expense**; tracked **35 -> 35 Karma**, **41,583¥ -> 41,583¥** with the existing 250¥ pass-through caveat retained. Recovered folding-stock shotgun assigned; Tom gained as a Level-1 contact. Opposed Willpower used no Karma.
+
 - **Known current Karma:** at least **35 Karma** from currently tracked wiki events, plus any earlier untracked balance.
 - **Known current nuyen:** at least **41,583¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.
 - **2026-06-25 — Righteous Haze interlude:** **+4 Karma**, **+5,000¥** total payout / recovered value.
@@ -79,12 +86,16 @@ Active player character and the crew's cyber-samurai.
 
 ## Relationships
 
+- **[Tom Erlichman](../NPCs/Tom-Erlichman.md): Level-1 Humanis informant contact**, confirmed/released October 29. He may charge for information; no fee paid yet.
+
 - Linked to the crew's high-speed combat role.
 - Linked historically to **Humanis**.
 - Currently relevant to the [Humanis Evidence Retrieval](../Arcs/Humanis-Evidence-Retrieval.md) because his former Humanis association may become useful or dangerous if he joins the continuation.
 - Linked to **[Mayor Mike Haggar](../NPCs/Mayor-Mike-Haggar.md)** and **[Joseph Neumann](../NPCs/Joseph-Neumann.md)** through the Righteous Haze job.
 
 ## Relevant Sessions
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — downtime, Tom's release/contact recruitment and the Princeps cover applications; careful research toward killing Claude. No new cash or advancement-Karma award.
 
 - 2026-06-25 — partial-party canon interlude with Curtis; solved the mayor's Righteous Haze problem and advanced Kurgan's potential City Hall security/fixer role.
 - 2026-07-16 — recognized Chunky Sparkles, assessed the gang-controlled arkoblock approach, carried Curtis up the stairwell, and scouted the crew to the 21st-floor landing.
@@ -97,6 +108,8 @@ Active player character and the crew's cyber-samurai.
 - [2026-10-22](../Sessions/2026-10-22.md) — banished the shedim with the final shotgun pass, broke Curtis's compulsion with Karma, captured the surviving Humanis guard, and helped close out the evidence sale. **+12,000¥, +8 Karma.**
 
 ## Sources
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 
 - `PARTY_DOSSIER.md`
 - [Session 2026-06-25](../Sessions/2026-06-25.md)

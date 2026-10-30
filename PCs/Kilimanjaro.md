@@ -2,28 +2,31 @@
 title: Kilimanjaro
 type: player-character
 visibility: player-safe
-status: alternate
+status: active
 player: Abe
-last_updated_session: 2026-10-22
+last_updated_session: 2026-10-29
 canon_status: provisional
 confidence: high
 aliases:
   - Kil-J
 tags: [pc, alternate-pc, starter-character, cyber-samurai]
 sources:
+  - ../Sessions/2026-10-29.md
   - ../Sessions/2026-09-03.md
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
   - ../Sessions/2026-10-01.md
   - ../Sessions/2026-10-08.md
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # Kilimanjaro
 
 ## Overview
 
-**Kilimanjaro** is an **Alternate PC** / starter character used for new players. Abe played him in [Session 2026-09-03](../Sessions/2026-09-03.md) and its [2026-09-10 conclusion](../Sessions/2026-09-10.md) as a temporary table on-ramp; if Abe later builds a bespoke long-term PC, Kilimanjaro can return to the NPC/contact pool.
+**Kilimanjaro** is an **Alternate PC** / starter character used for new players. Abe played him in [Session 2026-09-03](../Sessions/2026-09-03.md) and its [2026-09-10 conclusion](../Sessions/2026-09-10.md) as a temporary table on-ramp; if Abe later builds a bespoke long-term PC, Kilimanjaro can return to the NPC/contact pool. **Update, October 29:** Abe chose to retain Kilimanjaro for the new operation; no retirement or replacement occurred.
 
 ## 10-01 Portraits
 
@@ -38,7 +41,7 @@ After the 2026-10-01 session, the established runners introduced themselves to a
 
 - **Player:** Abe, when used as a starter PC.
 - **Archetype / role:** generic Nashville cyber-samurai / solo operator.
-- **Current status:** alternate / starter PC; the Byron Cedar rush job is complete. A future return to NPC status or a new bespoke PC for Abe was discussed, not finalized.
+- **Current status:** Abe chose to retain Kilimanjaro on 2026-10-29 and joined the new Princeps operation. Earlier starter-PC / possible retirement discussion is historical, not a current retirement decision.
 
 ## Known Facts
 
@@ -53,7 +56,7 @@ After the 2026-10-01 session, the established runners introduced themselves to a
 
 ## Current Position
 
-At the end of [Session 2026-10-08](../Sessions/2026-10-08.md), Kilimanjaro had returned to Nashville with the recovered Sandusky records and other material. The main evidence decision and Johnson handoff remain pending. He helped assess the military drop pod and its occupants; the crew acquired armor and weapons without fighting them. Exact gear allocation remains unrecorded; no Karma or payout was awarded.
+At the end of [Session 2026-10-29](../Sessions/2026-10-29.md), Kilimanjaro remains Abe's PC and has submitted a Princeps application under an existing false identity, independently of Curtis and Kurgan. The crew chose careful research and potential infiltration toward killing Claude. **Vetting is pending; he is not hired.** His failed military-technology research does not establish that Claude has never invented anything. No combat, injury, new payout or advancement-Karma award occurred.
 
 ## Capabilities
 
@@ -64,6 +67,9 @@ At the end of [Session 2026-10-08](../Sessions/2026-10-08.md), Kilimanjaro had r
 - Has enough surveillance and security experience to know Judge Belisarius's habits from prior work.
 
 ## Karma And Nuyen Ledger
+
+- **Tracked awarded Karma subtotal:** **13** (**5 + 8**, prior recorded awards); no earlier absolute balance is reconstructed.
+- **2026-10-29 — planning:** **13 -> 13 tracked awarded Karma**, no new nuyen award or priced expense. Refreshed **Karma Pool: one die**, a separate quantity. The prior 12,000¥ cache for a future character is not transferred or paid again.
 
 - **2026-09-10 — Byron Cedar / Judge Belisarius closeout:** **+5 Karma**; tracked awarded subtotal **5 Karma**, with no reconstructed earlier balance.
 - Kilimanjaro volunteered his share to cover Mucky's assistance, allowing Curtis and Mevin to retain **20,000¥ each**. Mucky had requested **10% of the 60,000¥ take**; the final amount retained by Kilimanjaro was not explicitly recorded. Do not assume either a full 20,000¥ net payout or a zero personal balance.
@@ -83,6 +89,8 @@ At the end of [Session 2026-10-08](../Sessions/2026-10-08.md), Kilimanjaro had r
 
 ## Relevant Sessions
 
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — downtime, Tom's release/contact recruitment and the Princeps cover applications; careful research toward killing Claude. No new cash or advancement-Karma award.
+
 - **2026-09-03** - introduced as Abe's alternate starter PC; received the Byron Cedar rush job, brought in the crew, scattered 8th Street with a flash grenade, and planted a comm unit on Judge Belisarius.
 
 - **[2026-09-10](../Sessions/2026-09-10.md)** - stayed beside the judge at the card table, carried him out after Mevin's tranq patch, disabled Dupree's pursuing vehicle with a grenade, helped prepare the holding/release cover, and covered Mucky's cut from his own share. Dupree survived the crash.
@@ -95,10 +103,12 @@ At the end of [Session 2026-10-08](../Sessions/2026-10-08.md), Kilimanjaro had r
 
 ## Open Questions
 
-- Will Abe keep using Kilimanjaro, build a bespoke long-term PC, or let Kilimanjaro revert to an NPC?
+- Abe retained Kilimanjaro on October 29; what cover identity and eventual Princeps role will he use?
 - How much of Kilimanjaro's prior client/contact history should be preserved if he becomes a recurring NPC?
 
 ## Sources
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
 - [Session 2026-10-01](../Sessions/2026-10-01.md)

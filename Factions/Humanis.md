@@ -4,14 +4,17 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2026-02-27
-last_updated_session: 2026-09-24
+last_updated_session: 2026-10-29
 canon_status: canon
 confidence: medium
 tags: [faction, background, extremist, active-threat]
 sources:
+  - ../Sessions/2026-10-29.md
   - memory/2026-02-27.md
   - ../Sessions/2026-09-17.md
   - ../Sessions/2026-09-24.md
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # Humanis
@@ -21,6 +24,8 @@ sources:
 Anti-metahuman extremist faction with renewed active relevance through the **[Ring of Fire](Ring-of-Fire.md)** and the White Creek evidence-retrieval job.
 
 ## Known Facts
+
+- In [Session 2026-10-29](../Sessions/2026-10-29.md), Kurgan used a false higher-level Humanis oversight story to recruit and release **[Tom Erlichman](../NPCs/Tom-Erlichman.md)** as a **Level-1 informant contact**. This creates a reporting channel, not confirmed access to real Humanis leadership; fees and future reliability remain open.
 
 - **Kurgan** is explicitly noted as a former Humanis member.
 - **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** is a Humanis figure of note north of Nashville.
@@ -36,6 +41,8 @@ Anti-metahuman extremist faction with renewed active relevance through the **[Ri
 
 ## Relevant Sessions
 
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — Kurgan's former affiliation became successful cover for Tom's recruitment/release; no new payment or leadership link established.
+
 - 2026-02-27 — roster/background update.
 - 2026-09-17 — Humanis-affiliated Ring of Fire / White Creek evidence retrieval begins.
 - [2026-09-24](../Sessions/2026-09-24.md) - Mevin compromised the affiliate's logistics host and forged a pickup order; the crew breached White Creek. The gang suffered casualties and damage, but absent patrols and Hardcastle's unknown fate leave the threat unresolved. Recovered material did not establish wider Humanis command links.
@@ -48,6 +55,8 @@ Anti-metahuman extremist faction with renewed active relevance through the **[Ri
 - Does Sandusky have direct Humanis ties or only ideological overlap?
 
 ## Sources
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 
 - `memory/2026-02-27.md`
 - [Session 2026-09-17](../Sessions/2026-09-17.md)

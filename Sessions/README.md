@@ -1,3 +1,11 @@
+---
+title: Sessions
+type: index
+visibility: player-safe
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
+---
+
 # Sessions
 
 > Date note: normal `Session YYYY-MM-DD` pages use real-world played dates. Pages labeled `(Game Date) Session - YYYY-MM-DD` come from archived notes whose only reliable date is the in-world Shadowrun date. For the reconciled two-column chronology, use [Timeline / Session Chronology](../Timeline/Session-Chronology.md).
@@ -101,6 +109,8 @@ These pages are ordered by their in-world date and kept here as campaign data so
 - [Session 2026-10-22](2026-10-22.md)
 - [Session 2026-10-22 (Alternate Summary)](2026-10-22-Sol-Alternate.md) — retained independent blind re-generation of the same session, with the GM's adjudication of the differences
 - [Session 2026-10-22 (Qwen Summary)](2026-10-22-Qwen-Summary.md) — independent player-safe Qwen summary, retained for comparison
+
+- [Session 2026-10-29](2026-10-29.md) — downtime, Tom becomes an informant, and Operation Kill the Dragon
 
 ## Archive analysis
 

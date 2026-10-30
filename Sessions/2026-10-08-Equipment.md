@@ -5,20 +5,25 @@ visibility: player-safe
 date: 2026-10-08
 canon_status: provisional
 sources:
+  - ../Sessions/2026-10-29.md
   - Discord session thread 1557916915874398278
   - SR3 Core Rulebook, pp. 284–285
   - Shadowrun: Cannon Companion, pp. 23, 26
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-10-29
 ---
 
 # Session 2026-10-08 — Acquired Equipment
 
 [← Back to Session 2026-10-08](2026-10-08.md)
 
-This page records the armor and weapons taken from the four unidentified pod occupants. The crew acquired four Heavy Security Armor suits, a shotgun, an assault cannon, a grenade launcher, and ammunition. The session transcript does not establish individual custody, exact ammunition quantities, or whether every item was retained after the encounter.
+This page records the armor and weapons taken from the four unidentified pod occupants. The crew acquired four Heavy Security Armor suits, a shotgun, an assault cannon, a grenade launcher, and ammunition. The original session did not establish individual custody. **October 29 allocation update:** Curtis completed one dwarf-fitted suit at **6/4** after one week, and Kurgan claimed the recovered folding-stock shotgun. Remaining individual custody, exact ammunition quantities and retention are still unconfirmed.
 
 The published SR3 statistics below are the chassis/reference statistics. The four “Princeps” names and military-prototype presentation are campaign-specific customizations authorized by the GM; no mechanical bonuses beyond the cited SR3 profiles are assumed. The fourth weapon profile, a belt-fed machine gun, is an inference from the transcript’s “heavy belt-fed weapon” description and is not a confirmed identification.
 
 ## Heavy Security Armor — 4 suits
+
+**Later GM-tuned modification, [Session 2026-10-29](../Sessions/2026-10-29.md):** one of these four suits became Curtis's dwarf-fitted **6/4** armor after a week of work, losing one point in each rating from the 7/5 reference below. No fifth suit, price or new purchase is added. The three other suits remain unallocated in the record.
 
 | Rating / property | SR3 value |
 | --- | --- |
@@ -116,8 +121,14 @@ Use SR3’s heavy-weapon support and recoil rules rather than treating these as 
 
 ## Inventory still to confirm
 
-- Who carries each suit and weapon; whether any item was returned, left behind, or retained by a specific character.
+- Remaining suit and weapon custody beyond Curtis's fitted suit and Kurgan's folding-stock shotgun; whether other items were returned or left behind.
 - Whether the armor suits included helmets.
 - Exact ammunition types and quantities, particularly grenade payloads and cannon warheads.
 - Whether the belt-fed weapon was actually an FN MAG-5 or a different model.
 - Which configuration/accessories were present on the assault cannon and machine gun.
+
+## Sources
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
+
+- [Session 2026-10-29](../Sessions/2026-10-29.md) — 21:22:57–21:28:31, later allocation and GM-tuned fitted armor; the published reference profiles above are unchanged.
