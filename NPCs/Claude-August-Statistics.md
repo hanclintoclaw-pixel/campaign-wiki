@@ -110,3 +110,4 @@ Reserve true-form violence for failed containment or immediate survival. His obj
 
 - [In re August: Argument on Founding Residence](Claude-August-Grandfathering-Argument.md) — advocacy transcript; no ruling established.
 - [The Smallest Long Game](Claude-August-Dragon-Conclave-Transcript.md) — alleged Matrix conversation among great dragons.
+- [Seraphim File 7-AUGUST](Claude-August-CAT-Dossier.md) — internal Cross Applied Technologies security dossier; frames Claude as a corporate thief and details his Monte Sano cavern and the Burritt Mansion, with SR3 security at both sites. CAT is an unreliable narrator.

@@ -93,7 +93,8 @@
 
 ## Game Aids
 
-- [Claude August — GM Statistics](Claude-August-Statistics.md) — includes the [founding-residence argument](Claude-August-Grandfathering-Argument.md) and [great-dragon conversation](Claude-August-Dragon-Conclave-Transcript.md).
+- [Claude August — GM Statistics](Claude-August-Statistics.md) — includes the [founding-residence argument](Claude-August-Grandfathering-Argument.md), [great-dragon conversation](Claude-August-Dragon-Conclave-Transcript.md), and the [CAT internal dossier](Claude-August-CAT-Dossier.md).
+- [Seraphim File 7-AUGUST: The Princeps Acquisition Problem](Claude-August-CAT-Dossier.md) — Cross Applied Technologies corporate-security assessment of Claude August as an industrial thief; Monte Sano cavern and Burritt Mansion breakdowns with Shadowrun 3rd Edition physical, technical, and astral security.
 
 ## Related Reference Layers
 
