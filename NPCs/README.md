@@ -91,6 +91,10 @@
 - [Tom Erlichman](Tom-Erlichman.md)
 - [Viper](Viper.md)
 
+## Game Aids
+
+- [Claude August — GM Statistics](Claude-August-Statistics.md) — includes the [founding-residence argument](Claude-August-Grandfathering-Argument.md) and [great-dragon Matrix dialogue](Claude-August-Dragon-Conclave-Transcript.md).
+
 ## Related Reference Layers
 
 - [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)

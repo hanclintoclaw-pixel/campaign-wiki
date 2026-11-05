@@ -105,3 +105,8 @@ Reserve true-form violence for failed containment or immediate survival. His obj
 - **Printed baseline:** Typical Western Dragon attributes, attacks, armor, reach, and movement notation (Shadowrun Third Edition, p. 268); common dragon traits and communication (pp. 269–271).
 - **Great Dragon rules package:** Metahuman Form and Twist Fate (Dragons of the Sixth World, pp. 178–179).
 - **Campaign build / GM-tuned:** Essence 9, Magic 9, Karma Pool 50, the selected powers and spells, Good Karma allocation, flight rate, and the detailed table procedures above. Claude's Great Dragon status does not add the printed Great Dragon raw-attribute bonuses in this build.
+
+## Game aids
+
+- [In re August: Argument on Founding Residence](Claude-August-Grandfathering-Argument.md) — advocacy transcript; no ruling established.
+- [The Smallest Long Game](Claude-August-Dragon-Conclave-Transcript.md) — alleged Matrix conversation among great dragons.
