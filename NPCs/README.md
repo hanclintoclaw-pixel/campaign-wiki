@@ -93,7 +93,7 @@
 
 ## Game Aids
 
-- [Claude August — GM Statistics](Claude-August-Statistics.md) — includes the [founding-residence argument](Claude-August-Grandfathering-Argument.md) and [great-dragon Matrix dialogue](Claude-August-Dragon-Conclave-Transcript.md).
+- [Claude August — GM Statistics](Claude-August-Statistics.md) — includes the [founding-residence argument](Claude-August-Grandfathering-Argument.md) and [great-dragon conversation](Claude-August-Dragon-Conclave-Transcript.md).
 
 ## Related Reference Layers
 
