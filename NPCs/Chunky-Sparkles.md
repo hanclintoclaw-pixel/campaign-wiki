@@ -6,11 +6,14 @@ status: wyrmwatch-handoff
 canon_status: canon
 confidence: medium
 tags: [npc, awakened-creature, happy-cat, pixel-sticks]
-updated: 2026-08-28
-aliases: [Chonky Sparkles, Junkie Sparkles]
+updated: 2026-11-06
+aliases: [Chonky Sparkles, Junkie Sparkles, Mr. Rainbow]
+generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
+generated_at: 2026-11-06
 sources:
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
+  - ../Sessions/2026-08-06.md
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
 ---
@@ -30,6 +33,8 @@ sources:
 - Appears pony-sized, rainbow-maned, winged, horned, and multicolored.
 - Valgaut sensed multiple awakened creature impressions from one body, including something like an awakened horse and an awakened bird.
 - Kurgan recognized the creature and recalled that the crew had once made promises about looking after it, but had not followed through.
+- **GM ruling (table talk, Session 2026-08-06):** for the earlier period - between the crew's original promise to look after it and its reappearance inside Happy Cat - the crew never followed up, and the GM ruled that between infrequent feedings the creature simply walked off. Kurgan's recollection of it as roaming free is consistent with that ruling.
+- **GM-flagged lead, unconfirmed (table talk, Session 2026-08-06):** Kurgan asked whether a *talking* Chunky Sparkles would also have been part of the "full spectrum" security package speculated to have been turned over by [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md). The GM answered that it "may well have been," and that it may have been worth something worth looking into. This is an open lead, **not** established canon.
 - It gave the crew a long considering look after a magical pressure event inside Happy Cat.
 - The space filled with a cotton-candy-like smell when it turned toward the crew.
 - Based on prior table memory, it is capable of profound and terrifying violence, but mostly prefers to graze.
@@ -68,12 +73,14 @@ sources:
 
 - [Session 2026-07-16](../Sessions/2026-07-16.md) - identified inside Happy Cat and magically assessed by Valgaut.
 - [Session 2026-07-23](../Sessions/2026-07-23.md) - arrived with Lizzo Wells during the crew's escape and fought the Pixel Sticks scorpion drone.
+- [Session 2026-08-06](../Sessions/2026-08-06.md) - not present on-screen; the table settled the older wander-off ruling and raised the unconfirmed question of whether a talking Chunky Sparkles belonged in Cross Applied Technology's security package.
 - [Session 2026-08-13](../Sessions/2026-08-13.md) - found at Radnor Lake, threatened by a regenerating gator-like predator, and lured into a Wyrmwatch handoff after the crew saved it.
 - [Session 2026-08-27](../Sessions/2026-08-27.md) - Lizzo Wells / Handy-Sandy explained her Mr. Rainbow handling angle and said she inherited the creature from an unnamed friend.
 
 ## Open Questions
 
 - What exactly is its awakened nature?
+- Was a *talking* Chunky Sparkles part of the "full spectrum" security package speculated to have come from [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md)? The GM allowed this as plausible on 2026-08-06 but did not confirm it.
 - Who originally taught or supplied the command phrases and incentives Lizzo Wells knew?
 - Who was Lizzo's unnamed friend who supplied or transferred Mr. Rainbow to her?
 - What will Wyrmwatch do with it after the Radnor Lake handoff?

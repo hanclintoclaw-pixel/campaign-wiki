@@ -4,10 +4,10 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-10-29
+updated: 2026-11-06
 tags: [leads, clues, open-threads]
-generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
+generated_at: 2026-11-06
 ---
 
 # Loose Threads / Unpulled Threads / Lead Board
@@ -289,6 +289,26 @@ The crew completed the handoff, but Wyrmwatch custody is not the same as resolut
 - Ask for a Wyrmwatch status report after initial containment.
 - Decide how much Valgaut wants to press the Foundation for answers.
 - Watch for whether anyone else tries to reclaim the creature.
+
+### Ask whether a talking Chunky Sparkles came with the Cross security package
+
+**Status:** active, GM-plausible, unconfirmed  
+**Last touched:** [Session 2026-08-06](../Sessions/2026-08-06.md)  
+**Connected pages:** [Chunky Sparkles](../NPCs/Chunky-Sparkles.md), [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md), [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md)
+
+In table talk during the scorpion-drone recovery night, Kurgan asked whether a **talking** Chunky Sparkles would also have been part of the "full spectrum" security package speculated to have been turned over by Cross Applied Technology. The GM answered that it "may well have been" and that it may have been worth something worth looking into. This is a GM-sanctioned lead, not established canon, and it is the strongest thread so far tying the creature to a corporate origin rather than to Lizzo Wells's unnamed friend.
+
+**Player-facing questions**
+
+- Was the creature supplied as security hardware with the package, and if so who received and deployed it?
+- Does a talking awakened creature match anything Cross advertises as a "full spectrum" protective detail?
+- Does the talking detail change what Wyrmwatch should find under examination?
+
+**Possible next actions**
+
+- Ask CAT contacts what a "full spectrum package" from Cross actually contained.
+- Have Wyrmwatch report whether the creature shows signs of structured speech or imposed conditioning.
+- Compare against the scorpion drone's provenance: the same package may explain both.
 
 ### Investigate Radnor Lake's awakened ecosystem
 
