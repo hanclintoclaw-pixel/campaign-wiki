@@ -114,9 +114,20 @@ Cindy's two A-NPC field bodies. Both are options for Cindy Initiative suggestion
 
 Tip Jar also carries: Strength 6 mechanical arms (two), Adaptation Pool 2, fuzzy logic augmentation, robotic pilot, and Cindy's busking amp/microphone/credstick package.
 
-## Mobile shell quick reference
+## Physical body quick reference (GM ruling, 2026-11-06)
 
-Cindy's runtime lives in a **GMC Bulldog Sec. Step-Van** (*Rigger 3 Revised*, p. 173). Full build and capacity accounting: [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md#mobile-host--vehicle-chassis-concept).
+Cindy's runtime lives on a **large server housed in a trailer on Taco's garage property**. Matrix access reaches the trailer through an **MSP account Mevin pays for**. She is a **Semi-Autonomous Knowbot (SK)**, not a true AI. Full ruling and citations: [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md#physical-body-and-hosting-gm-ruling-2026-11-06).
+
+| Item | Value |
+|---|---|
+| Physical body | Large server, trailer at Taco's garage property |
+| Matrix access | MSP account paid for by Mevin, serving the trailer |
+| Locomotion | Native (persona without a cyberdeck); no deck or jackpoint required |
+| Authorization | Not native; rides Mevin's account, datatrails resolve to Mevin |
+| Execution | Not native; depends on the trailer's power and physical security |
+| Drones | Peripherals reached by a remotely bounced signal, not hosted in a vehicle |
+
+> **The GMC Bulldog Sec. Step-Van is NOT Cindy's body.** The GM ruled it an older concept Mevin abandoned and never built. Do not use a van chassis row for Cindy. Historical design work only: [abandoned concept](../Cindy-Lou-Jenkins.md#mobile-host--vehicle-chassis-concept--abandoned-concept-never-built).
 
 | Stat | Value |
 |---|---|
@@ -133,9 +144,7 @@ Cindy's runtime lives in a **GMC Bulldog Sec. Step-Van** (*Rigger 3 Revised*, p.
 | Seating | 1 + 1b |
 | Street Index | 2 |
 
-Installed canon systems: Rigger Adaptation (includes datajack port), Sensor 2, standard portable satellite uplink on an electronics port, two electronics ports, Gas EnviroSeal with cabin over-pressurization, 20 man-hours life support, anti-theft raised to Rating 6 with proximity alert.
-
-**Capacity:** 9 CF / 95 kg consumed by canon modifications; remaining **41 CF / 865 kg** is filled by the house-rule **SA-Knowbot Hardware Module**, which is Cindy's physical body. It adds no speed, armor, handling, or weapons. If the van is disabled, breached, burned out, or destroyed, Cindy's local runtime is likewise endangered.
+For table use, treat the trailer server as the thing that can actually be lost. If it is powered down, breached, flooded, burned out, or stolen, Cindy's local runtime is endangered. Cutting the connectivity she shares with it also costs her drone control and her Matrix presence.
 
 ## Table boundaries
 

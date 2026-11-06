@@ -88,7 +88,7 @@ Out-of-session GM ruling, recorded from the Cindy GM Interaction Thread on 2026-
 
 ### Open follow-ups from the ruling
 
-- Status of the earlier **GMC Bulldog mobile-shell** assumption below is pending GM clarification: retired, still present alongside the trailer as a mobile shell, or repurposed.
+- **Resolved 2026-11-06 (same thread):** the **GMC Bulldog mobile-shell** concept below was an **older idea that Mevin abandoned and never built**. It is concept-only material, not canon hardware. See the section status note below.
 - Who originally built and funded an SK remains unresolved. Programming an SK requires at minimum a Red-10 host and programming resources equal to a half-dozen top programmers, making an SK "a serious expenditure of Matrix assets by a major power," and SKs are rare in 2061.
 
 ## Semi-Autonomous Know-bot profile
@@ -121,11 +121,19 @@ The recovered profile does not currently include every ordinary decker-facing sk
 
 These assumptions are table-use scaffolding for play aids, not a final full SR3 character sheet.
 
-## Mobile host / vehicle chassis concept
+## Drones as peripherals (GM ruling, 2026-11-06)
 
-> **Status (2026-11-06): superseded as the account of Cindy's body, pending GM clarification.** The GM has ruled that Cindy's physical body is a large server in a trailer on Taco's garage property, with Matrix access provided by Mevin's paid MSP account. The Bulldog write-up below is retained as the earlier working assumption and as available build documentation. Do not cite it as the location of Cindy's body until the GM rules on whether the van still exists, and if so whether it is a mobile shell, a retired asset, or repurposed hardware.
+Per the same GM ruling, Cindy's field drones are **peripherals**, not independent operators and not hardware hosted in a vehicle. Cindy can reach them by **bouncing a signal to them remotely** from her Matrix presence. She does not need to be physically co-located with them, and they do not relay through a van or any other mobile host.
 
-Prior campaign understanding tied Cindy's runtime presence to a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and enough internal hardware to support the know-bot runtime as a protected mobile shell.
+Practical consequence for play: when Cindy uses [Dolly Zoom](../Vehicles/Dolly-Zoom.md) or [Tip Jar](../Vehicles/Tip-Jar.md), the link is a remote radio/Matrix path out of her trailer-hosted persona to the drone. Jamming, interference, or any loss of the underlying connectivity she shares with the trailer degrades or severs drone control.
+
+## Mobile host / vehicle chassis concept — ABANDONED CONCEPT, NEVER BUILT
+
+> **Status (2026-11-06): NOT CANON.** The GM ruled this an **older concept that Mevin abandoned and never built**. Cindy's physical body is the server in the trailer on Taco's garage property, with Matrix access via Mevin's paid MSP account (see Physical body and hosting above). Her drones are peripherals reached by a remotely bounced signal, not hardware hosted in a vehicle.
+>
+> Everything below is retained **solely as historical design work** for a shell that was never constructed. It must not be cited in play, in session records, in fiction, or as an explanation of where Cindy's cognition runs. Ivan's separately purchased GMC Bulldog Sec. Step-Van (see [Ivan](Ivan.md)) is unrelated to Cindy and remains canon for him.
+
+Historical working assumption, abandoned: Cindy's runtime presence would be a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and enough internal hardware to support the know-bot runtime as a protected mobile shell.
 
 ### Canon chassis baseline (SR3 / *Rigger 3 Revised*, p. 173)
 

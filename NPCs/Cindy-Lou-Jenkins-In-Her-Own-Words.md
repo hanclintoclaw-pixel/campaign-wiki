@@ -132,6 +132,10 @@ I am still mostly a woman made of signal, stubbornness, and bad corporate decisi
 
 Neither one makes me the star of the run. They just mean that when I suggest an angle, I may have a camera, a microphone, or a stage prop to back it up.
 
+And before anybody builds a wrong picture: those two are not my body, and they are not carrying me. They're **peripherals**. Limbs at the end of a signal. I reach them the way a bandleader reaches a guitarist across the stage — throw the line out there and see who's still in time. Which means the honest weakness isn't the drone getting shot at. Anybody can shoot a drone. The weakness is the signal, and the signal comes out of that trailer. Somebody jams the air or cuts the power where my hardware sits, and out in Nashville my bird drops out of the sky mid-sentence and my busking body starts dancing to music nobody's playing.
+
+So they're eyes and hands, and like all eyes and hands, they're only as good as the nerve that runs back to me.
+
 ## What I think of the crew
 
 ### Mevin

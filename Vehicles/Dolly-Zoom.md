@@ -20,7 +20,7 @@ sources:
 
 ## Overview
 
-**Dolly Zoom** is Cindy Lou Jenkins's generic aerial surveillance drone: a small VTOL eye-and-ear platform for scenes where Cindy needs a little meat-space presence without putting her main mobile shell at risk.
+**Dolly Zoom** is Cindy Lou Jenkins's generic aerial surveillance drone: a small VTOL eye-and-ear platform for scenes where Cindy needs a little meat-space presence without putting her trailer-hosted server body at risk. Per the 2026-11-06 GM ruling, Cindy's drones are **peripherals**: she reaches them by bouncing a signal to them remotely rather than hosting or co-locating with them.
 
 The name is a little film-school, a little country-star glamour, and exactly the sort of joke Cindy would make about a camera that gets dramatic when trouble walks into frame.
 
@@ -48,7 +48,7 @@ Campaign generic **surr drone (VTOL)** baseline, matching the existing Buzz refe
 - **Low-light camera**
 - **Thermographic camera**
 - **Audio pickup / microphone feed:** campaign-use assumption for Cindy's remote listening role; treat as non-specialized until upgraded.
-- **Encrypted command/feed link:** recommended operational assumption when Cindy deploys Dolly Zoom from her mobile host.
+- **Encrypted command/feed link:** recommended operational assumption when Cindy deploys Dolly Zoom. The link is a remotely bounced signal from Cindy's trailer-hosted persona to the drone, not a vehicle relay.
 
 ## Role in Cindy Lou Initiative Plans
 
@@ -72,7 +72,7 @@ Future upgrades should be recorded here before use in play.
 - Improved Flux / relay package
 - Improved stealth housing or paint
 - Disposable beacon tracker payload
-- Tight integration with Cindy's Bulldog mobile host
+- Hardened/anti-jam command link, since loss of Cindy's remote signal costs her the drone
 
 ## Table Boundary
 

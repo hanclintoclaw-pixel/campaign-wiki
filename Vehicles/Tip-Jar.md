@@ -96,7 +96,7 @@ Future upgrades should be recorded here before use in play.
 - Hidden compartment for flyers, credsticks, or small props
 - Improved cosmetic shell and wardrobe kit
 - Better wireless security / command encryption
-- Emergency shutdown and wipe-safe protocol tied to Cindy's mobile host
+- Emergency shutdown and wipe-safe protocol reachable over Cindy's remote command link (drones are peripherals reached by a bounced signal, per GM ruling 2026-11-06)
 
 ## Table Boundary
 
