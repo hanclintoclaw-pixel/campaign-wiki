@@ -2,7 +2,7 @@
 title: Voice Bridge Change Notes
 type: documentation
 visibility: player-safe
-updated: 2026-11-05
+updated: 2026-11-06
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-10-25
 ---
@@ -25,6 +25,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 6. Link each new entry from the Entries list on this page.
 
 ## Entries
+
+- [2026-11-06 — Voice memory runtime repair](Change-Notes/2026-11-06-Voice-Memory-Runtime-Repair.md)
 
 - [2026-11-05 — Unified campaign memory voice pilot](Change-Notes/2026-11-05-Unified-Campaign-Voice-Pilot.md)
 
