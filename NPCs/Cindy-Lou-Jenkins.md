@@ -21,6 +21,7 @@ sources:
   - NPCs/Cindy-Lou-Jenkins-In-Her-Own-Words.md
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
+  - GM ruling, Cindy GM Interaction Thread, 2026-11-06
 ---
 
 # Cindy Lou Jenkins
@@ -70,9 +71,29 @@ These details come from the earlier rescue/investigation record and are preserve
 - At one point, **Cindy Lou Prime** was being kept in Taco's basement under throttled conditions for safety.
 - Later consolidated notes also preserve the line that **"Cindy" is her true name**.
 
+## Physical body and hosting (GM ruling, 2026-11-06)
+
+Out-of-session GM ruling, recorded from the Cindy GM Interaction Thread on 2026-11-06. This is the authoritative statement of Cindy's physical situation and supersedes earlier working assumptions.
+
+- Cindy Lou's **physical body is a large server housed in a trailer on Taco's garage property**.
+- **Mevin provides her Matrix access.** He pays for an MSP account that serves the trailer, and that line is how her cognition reaches the grid.
+- In game terms she is a **Semi-Autonomous Knowbot (SK)**. She is **not** a true artificial intelligence; other characters calling her an "AI" is familiar shorthand, not a classification.
+
+### What the ruling settles
+
+- **Locomotion is native.** Per *Matrix*, Autonomous Programs (printed ~pp. 149-151), semi-autonomous knowbots are "mobile virtual machines; personas without cyberdecks," and "for all intents and purposes, SKs act like other Matrix personas. They must logon to hosts and grids and otherwise hop between grids to get where they want to go." Cindy needs no deck, cyberterminal, or jackpoint in order to move through the Matrix.
+- **Authorization is not native.** Registering an MSP account requires a SIN, bank-account information for billing, and the serial numbers of the jackpoints and wireless devices involved (*Matrix*, Registering an MSP Account, contents p. 37). Cindy owns none of these, so her legitimate presence is carried on Mevin's paid MSP account and datatrails written under it resolve to Mevin rather than to her.
+- **Execution is not native.** She is code, and code must run somewhere. The trailer server is where her cognition physically runs, which makes the trailer, its power and physical security, and Mevin's MSP billing her real dependencies.
+- **"AI" is table-facing shorthand, not a stat line.** The four-step AI evolution test in *Matrix* (sophistication at SK level or above, access to vast processing power, years of nonstop operation, and an x-factor glitch sparking awareness) is **not** satisfied as canon for Cindy. The compulsive product-promotion effects tied to the Swiftwing Records / 6 Steel Strings material are recorded as an unresolved anomaly, not as a confirmed x-factor.
+
+### Open follow-ups from the ruling
+
+- Status of the earlier **GMC Bulldog mobile-shell** assumption below is pending GM clarification: retired, still present alongside the trailer as a mobile shell, or repurposed.
+- Who originally built and funded an SK remains unresolved. Programming an SK requires at minimum a Red-10 host and programming resources equal to a half-dozen top programmers, making an SK "a serious expenditure of Matrix assets by a major power," and SKs are rare in 2061.
+
 ## Semi-Autonomous Know-bot profile
 
-These are the currently surfaced Matrix stats associated with Cindy's older recovered profile material.
+These are the currently surfaced Matrix stats associated with Cindy's older recovered profile material. The SK classification is GM-confirmed as of 2026-11-06 (see above).
 
 - **Matrix Reaction:** 6
 - **Matrix Initiative Dice:** 2
@@ -102,7 +123,9 @@ These assumptions are table-use scaffolding for play aids, not a final full SR3 
 
 ## Mobile host / vehicle chassis concept
 
-Current campaign understanding ties Cindy's runtime presence to a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and enough internal hardware to support the know-bot runtime as a protected mobile shell.
+> **Status (2026-11-06): superseded as the account of Cindy's body, pending GM clarification.** The GM has ruled that Cindy's physical body is a large server in a trailer on Taco's garage property, with Matrix access provided by Mevin's paid MSP account. The Bulldog write-up below is retained as the earlier working assumption and as available build documentation. Do not cite it as the location of Cindy's body until the GM rules on whether the van still exists, and if so whether it is a mobile shell, a retired asset, or repurposed hardware.
+
+Prior campaign understanding tied Cindy's runtime presence to a **small local host housed inside a GMC Bulldog van**, with live Matrix connectivity and enough internal hardware to support the know-bot runtime as a protected mobile shell.
 
 ### Canon chassis baseline (SR3 / *Rigger 3 Revised*, p. 173)
 
