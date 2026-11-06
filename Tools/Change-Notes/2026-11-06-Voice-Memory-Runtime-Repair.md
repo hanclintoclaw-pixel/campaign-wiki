@@ -31,7 +31,7 @@ The public source inputs, partial coverage and access boundaries are unchanged. 
 - **Bridge unit tests:** 38 passed, including ten status-by-path subcases through the real thread runner and transcription handler with mocked STT, model and Discord boundaries. Denied, stale and unavailable cases skipped model generation and cleared clarification state; empty and supported controls retained their behavior.
 - **Real watchdog-script tests:** 13 scenarios passed, including a worker still warming after 101 seconds, a worker exiting during startup grace, a warmup timeout, and reason-specific recovery notices.
 - **Focused regressions:** 38 speech/emoji-filter, 55 equipment and five audio-duration tests passed. Python compilation and scoped whitespace checks were clean.
-- **Activation evidence:** the clean-baseline bridge was backed up before the idle restart. The new process's current-boot source hash matched the reviewed source, and startup reached Discord ready and the idle report. An ad-hoc post-start stability probe observed the same process with no stdout or stderr growth over 51.27 seconds. After restart, the real bridge-helper hit and empty probes passed again against the released adapter. Qwen thinking off and the existing model, TTS and manual-playback settings were unchanged.
+- **Activation evidence:** the clean-baseline bridge was backed up before the idle restart. The new process's current-boot source hash matched the reviewed source, and startup reached Discord ready and the idle report. An ad-hoc post-start stability probe observed the same process with no stdout or stderr growth over 51.27 seconds. After restart, the real bridge-helper hit and empty probes passed again against the released adapter. Qwen thinking off and the existing model, TTS and playback settings were unchanged.
 
 Automated probes and mocked-boundary tests are not live microphone recognition, answering-model quality or human audio-playback acceptance.
 
@@ -39,7 +39,7 @@ Automated probes and mocked-boundary tests are not live microphone recognition, 
 
 A subsequent human voice test remains necessary for end-to-end acceptance; no human voice acceptance is claimed by the automated probes. The updated watchdog must also be observed during the next real session start.
 
-The existing manual saved-clip workflow and no automatic playback remain unchanged. Broader campaign coverage and migration work remain outside this repair.
+No playback settings were changed, and the repair did not initiate audio. Playback mode must be checked at the next session rather than inferred from the TTS generation flags alone. Broader campaign coverage and migration work remain outside this repair.
 
 ## Corrections
 
