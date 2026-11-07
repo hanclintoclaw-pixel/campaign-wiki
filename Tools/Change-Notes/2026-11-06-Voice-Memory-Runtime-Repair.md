@@ -37,7 +37,7 @@ Automated probes and mocked-boundary tests are not live microphone recognition, 
 
 ## Still open
 
-A subsequent human voice test remains necessary for end-to-end acceptance; no human voice acceptance is claimed by the automated probes. The updated watchdog must also be observed during the next real session start.
+The next live session exposed a separate full-question retrieval failure despite successful entity-only lookup, plus stale startup status affecting watchdog reports. See the [natural-language retrieval follow-up](2026-11-06-Natural-Language-Voice-Retrieval-Repair.md). The measurements above verify backend availability and selected helper queries, not the natural-language live path; no human voice acceptance is claimed.
 
 No playback settings were changed, and the repair did not initiate audio. Playback mode must be checked at the next session rather than inferred from the TTS generation flags alone. Broader campaign coverage and migration work remain outside this repair.
 

@@ -4,7 +4,7 @@ type: documentation
 visibility: player-safe
 updated: 2026-11-06
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-25
+generated_at: 2026-11-06
 ---
 
 # Voice Bridge Change Notes
@@ -25,6 +25,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 6. Link each new entry from the Entries list on this page.
 
 ## Entries
+
+- [2026-11-06 — Natural-language voice retrieval repair](Change-Notes/2026-11-06-Natural-Language-Voice-Retrieval-Repair.md)
 
 - [2026-11-06 — Voice memory runtime repair](Change-Notes/2026-11-06-Voice-Memory-Runtime-Repair.md)
 
