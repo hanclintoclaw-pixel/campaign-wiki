@@ -13,6 +13,8 @@ aliases:
   - Cindy Liu Thompson
   - Cindy Liu Jenkins
 tags: [npc, knowbot, matrix, cindy, canonical, objective-dossier]
+generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
+generated_at: 2026-11-09
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/cindy-lou-jenkins.md
@@ -22,6 +24,7 @@ sources:
   - ../Sessions/2026-09-10.md
   - ../Sessions/2026-09-17.md
   - GM ruling, Cindy GM Interaction Thread, 2026-11-06
+  - GM ruling, Cindy GM Interaction Thread, 2026-11-09 (frame core 9 and downstream stats, damage/reboot, Willpower)
 ---
 
 # Cindy Lou Jenkins
@@ -93,31 +96,55 @@ Out-of-session GM ruling, recorded from the Cindy GM Interaction Thread on 2026-
 
 ## Semi-Autonomous Know-bot profile
 
-These are the currently surfaced Matrix stats associated with Cindy's older recovered profile material. The SK classification is GM-confirmed as of 2026-11-06 (see above).
+These are the currently surfaced Matrix stats associated with Cindy's older recovered profile material, reconciled against the frame/agent template that *Matrix* pp. 88-90 uses for SKs. The SK classification is GM-confirmed as of 2026-11-06 (see above). Frame core and the downstream adjustments are GM rulings from the Cindy GM Interaction Thread, 2026-11-09.
 
-- **Matrix Reaction:** 6
-- **Matrix Initiative Dice:** 2
+The consolidated stat view, including damage, resistance, reboot, and the roll presets, lives on [Cindy's In-Character Stats](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md). Values marked **GM-tuned** are deliberate deviations from the frame-core derivation, recorded as such rather than presented as book-derived.
+
+- **Frame core:** 9 (GM-set 2026-11-09; anchor rating)
+- **MPCP:** 9 (derived from frame core; superseded value 7)
+- **Icon rating:** 9 (equals frame core for agents; target number for Scan Icon and notice tests)
+- **Matrix Reaction:** 6 (**GM-tuned**; rules-clean value equals core, 9 - kept low to preserve "competent, not elite")
+- **Matrix Initiative Dice:** 2 (1D6 base plus one purchased die)
+- **Pilot (built-in Computer skill):** 5 (replaces the earlier table-use "Computer skill 5" assumption)
+- **Hacking Pool:** 5 (**GM-tuned**; rules-clean value equals core, 9 - capped at the base dice in her Pilot-5 pools)
 - **Bod:** 5
-- **Evasion:** 5
+- **Evasion:** 5 (recovered profile; an earlier cut to 3 was based on a wrong Persona Point figure and is reversed)
 - **Masking:** 6
-- **Sensor:** 5
-- **MPCP:** 7
+- **Sensor:** 5 (recovered profile; an earlier cut to 4 was based on the same wrong figure and is reversed)
 - **Hardening:** 4
+- **Willpower:** 3 (**GM ruling 2026-11-09** - see *Mind-affecting effects* on the [stats page](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md))
+- **Utility Pool:** 8 (*** allocation, *Matrix* p. 148) - strict SK per the GM ruling of 2026-11-09: operational utilities are allocated from the Pool, never carried
 - **Active Memory:** 700
 - **Storage Memory:** 1400
-- **I/O Speed:** 300
-- **Response Increase:** 1
-- **Hacking Pool:** 4
+- **I/O Speed:** 300 (still deck-scale for a large server; unresolved)
+- **Response Increase:** 1 (inherited from the suspect recovered profile; see the stats page - it conflicts with GM-tuned Reaction 6)
+
+Persona Points are MPCP x 3 for a Semi-Autonomous Knowbot = **27**, not the agent value of core x 2. Bod 5 / Evasion 5 / Masking 6 / Sensor 5 assigns **21 of 27**, leaving **6 unspent**.
+
+### Damage, resistance, and reboot
+
+Icons use the standard 10-box Condition Monitor with a single physical track (no Stun); Bod sets the resistance pool rather than the track length.
+
+- **Damage-inflicting attacks:** Bod (5) test against the attack's Power.
+- **Utility-crash attacks:** MPCP (9) test against (attacker rating - Hardening 4).
+- **Mind-affecting gray/black IC and Pavlov effects:** Willpower (3) test.
+- **Condition Monitor filled:** the icon crashes. Per the GM ruling of 2026-11-09, Cindy **cannot be permanently killed by Matrix damage** - she is rebuilt at the trailer from her **last memory backup**, losing the time between the crash and that backup. The GM sets the backup cadence scene to scene, making the interval a story lever. There is no decker behind the icon, so she is not dumped and takes no dump shock.
 
 ### Table-use decking runtime assumptions
 
-The recovered profile does not currently include every ordinary decker-facing skill and utility rating needed by the Decker Experience. Until a more authoritative character sheet appears, use these mid-level assumptions when Cindy Lou personally attempts a Matrix crawl:
+Cindy Lou personally attempts Matrix crawls from her Pilot rating, which functions as her built-in Computer skill.
 
-- **Computer Skill:** 5
-- **Effective Detection Factor:** 6
-- **Default Hacking Pool available per focused test:** 4
-- **Loaded utility assumptions:** Analyze 5, Browse 5, Sleaze/Deception 5, Validate 4, Read/Write 4, Spoof 4, Attack 4, Armor 4, Scanner 4
+- **Pilot (Computer skill):** 5 - *Matrix* p. 88: the Pilot rating acts as the frame's built-in Computer skill for any test it must make. Pilot also caps at the programmer's Computer (Programming) skill (p. 90), so whoever built her had at least Programming 5
+- **Effective Detection Factor:** **6 only while a Sleaze 5 Pool allocation is running**, otherwise **3** - (Masking 6 + Sleaze) / 2, rounded up. Under the strict-SK ruling Sleaze is no longer standing code, so DF is something she buys each turn rather than something she has
+- **Default Hacking Pool available per focused test:** 5, capped at the base dice in the pool
+- **Utility Payload (strict SK, GM ruling 2026-11-09):** **Restore 4 and Shield 2 only** - the two Defensive utilities. Analyze, Browse, Deception, Sleaze, Scanner, Read/Write, Spoof and Validate are **Utility Pool allocations** at typical ratings 5/5/5/5/4/4/4/4, conjured as a Free Action and gone after a single use
+- **Comms:** Commlink 4 and Matrixlink 4 as a **bonus from an external device** (GM ruling 2026-11-09) - not carried code, costs no Frame Points, and is a single physical point of failure
+- **ECCM: none** (GM ruling 2026-11-09) - deliberate; jamming resistance for her drone links is future work for Mevin to buy
 - **Rules intent:** Cindy is a competent but not elite autonomous Matrix actor. She can handle modest hosts reliably, but hard hidden hosts and high-threshold rewards can still lock her out.
+
+**Loadout changes 2026-11-09:** Attack 4 and Armor 4 were removed; they stay removed. Sleaze was briefly trimmed to 4 to fit a Frame Point budget computed with the *agent* formula (core x 6 = 54) instead of the **SK** formula (MPCP x 8 = 72). That error is corrected on the [stats page](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md): Sleaze is **5** again, restoring her Detection Factor to 6, and Restore 4 and Shield 2 fit without any trim. Shield 2 still has exactly **two uses before it must be reloaded** via a Swap Memory operation, and Restore 4 cannot repair permanent damage from gray or black IC.
+
+**No SOTA (GM ruling 2026-11-09):** State of the Art software maintenance is not in play for Cindy, so her ratings do not decay from unpaid upkeep. **Trailer hardware stats are out of scope for now** - the server that is nominally her real hit points still has no stat block.
 
 These assumptions are table-use scaffolding for play aids, not a final full SR3 character sheet.
 

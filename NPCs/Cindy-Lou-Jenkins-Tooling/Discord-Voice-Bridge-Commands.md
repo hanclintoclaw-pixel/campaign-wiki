@@ -96,7 +96,7 @@ Example:
 
 The button version opens a modal. It defaults to **Cindy Computer 5** against **TN 5**, supports an optional purpose/context field, uses SR3-style exploding sixes, posts the result to the active session thread with Cindy's 🤠 icon, logs the roll, and speaks the success count if Cindy is connected to voice.
 
-Default/preset reference values include Cindy Computer 5, Cindy Hacking Pool 4, common utility ratings from Cindy's table-use assumptions, Tip Jar Sensor/Pilot 2, Tip Jar fuzzy Pilot 4, Dolly Zoom Pilot 1, and Dolly Zoom Sensor 0.
+Default/preset reference values (repointed to the core-9 stat sheet on 2026-11-09, then corrected the same day when the Frame Point budget was recomputed with the **SK** formula rather than the agent one): **Cindy Pilot 5** (`Cindy Computer` still accepted), Cindy Hacking Pool **5**, Cindy Bod **5**, Cindy MPCP **9**, Cindy Willpower **3**, utility ratings per [Cindy's In-Character Stats](Cindys-In-Character-Stats.md) (Analyze/Browse/Deception/**Sleaze** 5; Restore/Scanner/Read-Write/Spoof/Validate 4; Shield 2; **Commlink/Matrixlink 4** from an external device), Tip Jar Sensor/Pilot 2, Tip Jar fuzzy Pilot 4, Dolly Zoom Pilot 1, and Dolly Zoom Sensor 0. `Attack` and `Armor` have **no preset** - they left her loadout on 2026-11-09, and an unrecognised name falls back to 5 dice while echoing the label back, so a retired name is visibly wrong.
 
 ### `!cindy-speak-line <line>`
 

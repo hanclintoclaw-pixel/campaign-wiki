@@ -6,6 +6,8 @@ status: first-effort-live
 updated: 2026-09-09
 parent_page: README.md
 tags: [cindy, discord, voice, gm-tools, control-panel, npc-tools]
+generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
+generated_at: 2026-11-09
 sources:
   - Discord planning discussion 2026-09-04
   - Private voice bridge backup commits ff4777e, ed8e9be, fb8cea1, c7283e0, 845bc37, and 975a37c
@@ -167,21 +169,29 @@ Fields:
 
 The bridge rolls SR3-style exploding sixes, counts results that meet or beat the target number, posts the result to the active session thread with Cindy's 🤠 icon, logs the roll in `gm-control-panel.jsonl`, and speaks a short result line in voice if Cindy is connected.
 
-Current default/preset reference values include:
+Current default/preset reference values (repointed to the core-9 stat sheet on 2026-11-09 - see [Cindy's In-Character Stats](Cindys-In-Character-Stats.md) for the authority and reasoning):
 
-- **Cindy Computer:** 5
-- **Cindy Hacking Pool:** 4
-- **Analyze / Browse / Sleaze / Deception:** 5
-- **Validate / Read-Write / Spoof / Attack / Armor / Scanner:** 4
+- **Cindy Pilot:** 5 (canonical name; `Cindy Computer` still accepted as an alias)
+- **Cindy Hacking Pool:** 5
+- **Cindy Bod:** 5 - resist damage-inflicting attacks
+- **Cindy MPCP:** 9 - resist utility-crashing attacks
+- **Cindy Willpower:** 3 - mind-affecting gray/black IC, Pavlov effects
+- **Analyze / Browse / Deception / Sleaze:** 5 - **Utility Pool allocations, not standing code** (strict SK, GM ruling 2026-11-09). Rolling one of these spends Pool points that refresh at the start of the next Combat Turn.
+- **Restore 4 / Shield 2:** the **only** utilities actually carried in her Payload. Scanner / Read-Write / Spoof / Validate are also Pool allocations, at 4.
+- **Detection Factor:** 6 with a Sleaze 5 Pool allocation running, **3** with nothing allocated - DF counts only *running* code, so it is no longer standing.
+- **Shield:** 2 (parries are consumable - one rating spent per use)
+- **Commlink / Matrixlink:** 4 - supplied by an **external device**, not carried code; if that hardware is lost she has no comms
 - **Tip Jar Sensor / Pilot:** 2
 - **Tip Jar fuzzy Pilot:** 4
 - **Dolly Zoom Pilot:** 1
 - **Dolly Zoom Sensor:** 0
 
+`Attack` and `Armor` were **removed** from her loadout on 2026-11-09 and have no preset. An unrecognised skill name falls back to 5 dice and echoes the requested label, so typing a retired name is visibly wrong rather than quietly plausible.
+
 Text fallback:
 
 ```text
-!cindy-roll 5 6 Cindy Computer
+!cindy-roll 5 6 Cindy Pilot
 ```
 
 ### Speak Line

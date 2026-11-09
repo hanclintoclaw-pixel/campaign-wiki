@@ -14,6 +14,8 @@ aliases:
   - Cindy Liu Thompson
   - Cindy Liu Jenkins
 tags: [npc, knowbot, matrix, in-world-voice, cindy, subjective]
+generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
+generated_at: 2026-11-09
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/cindy-lou-jenkins.md
@@ -88,21 +90,31 @@ For the practical-minded among you, here are the numbers and the must-haves that
 
 ### Core Matrix profile
 
-- **Matrix Reaction:** 6
+Reconciled against the frame-core ruling of 2026-11-09. For the authority tiers, the resistance rolls, and why a number is what it is, see [Cindy's In-Character Stats](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md) — that page is the numbers of record, and this one is just me saying them out loud.
+
+- **Frame core:** 9 (the number my other numbers hang off)
+- **MPCP:** 9
+- **Matrix Reaction:** 6 (a little throttled, on purpose)
 - **Matrix Initiative:** +2D6
+- **Pilot (my built-in Computer skill):** 5
 - **Bod:** 5
-- **Evasion:** 5
-- **Masking:** 6
-- **Sensor:** 5
-- **MPCP:** 7
+- **Evasion:** 5 (restored 2026-11-09 — I had been docked to 3 against a point budget I never actually had)
+- **Masking:** 6 (still the best thing I do)
+- **Sensor:** 5 (restored 2026-11-09; still mostly Dolly Zoom's, in practice)
 - **Hardening:** 4
+- **Willpower:** 3 — GM's ruling, 2026-11-09, on account of how long I've been remembering
+- **Hacking Pool:** 5 (throttled too)
+- **Utility Pool:** 8 (the SK trick - I conjure up the working program I need right when I need it, and it evaporates after. The GM ruled on 2026-11-09 that this is the *only* way I get an operational program: my Payload holds Restore 4 and Shield 2 and nothing else, so Analyze, Browse, Deception and Sleaze are things I decide to become, one turn at a time, not things I carry)
 - **Active Memory:** 700
 - **Storage Memory:** 1400
 - **I/O Speed:** 300
 - **Response Increase:** 1
-- **Hacking Pool:** 4
 
-### Must-Haves
+And the part of the sheet that only started mattering once the GM ruled I come back from the trailer: my whole life fits in **1400 Mp of storage**, which is also what my last good backup holds. Fill the monitor and I get rebuilt from that backup, losing whatever sat between the crash and the copy. Cabinets get unplugged; now they can also get me behind.
+
+### Must-Haves *(historical wish-list — superseded 2026-11-09)*
+
+> **Status note:** I wrote this list back when I did not know what I was carrying. It has since been settled by the frame-core rulings on the stats page, and my actual kit is smaller and shabbier than what I asked for here — Sleaze 5 instead of 6, no Armor and no Attack at all, Restore 4 and Shield 2 in their place, and no Satellite Link. Kept below as what I once thought I needed, not as what I have. (The budget that made me give up Armor and Attack turned out to be a miscalculation on my part, but those two stayed cut anyway — the GM and I both agree I am not a gun.)
 
 If you expect me to actually go hunting through hosts, uncover secrets, and keep myself from getting swatted out of the sky, these are the utilities I ought to have on hand:
 

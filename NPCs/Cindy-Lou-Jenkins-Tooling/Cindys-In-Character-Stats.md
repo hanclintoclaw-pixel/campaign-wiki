@@ -3,7 +3,7 @@ title: Cindy's In-Character Stats
 type: reference
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-15
+last_updated_session: 2026-11-09
 parent_page: ../Cindy-Lou-Jenkins.md
 canon_status: mixed
 confidence: medium
@@ -11,12 +11,15 @@ aliases:
   - Cindy In-Character Stats
   - Cindy Knowbot Stats
 tags: [cindy, knowbot, matrix, stats, reference, gm-reference]
+generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
+generated_at: 2026-11-09
 sources:
   - ../Cindy-Lou-Jenkins.md
   - GM-Control-Panel.md
   - Discord-Voice-Bridge-Commands.md
   - ../../Vehicles/Tip-Jar.md
   - ../../Vehicles/Dolly-Zoom.md
+  - GM ruling, Cindy GM Interaction Thread, 2026-11-09 (frame core, persona points, Pilot, Hacking Pool, payload, damage/reboot, Willpower, trace/datatrail, commlink/matrixlink, ECCM, no SOTA, strict-SK Payload / Utility Pool ruling (Option B))
 ---
 
 # Cindy's In-Character Stats
@@ -41,67 +44,229 @@ If a number here ever disagrees with [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md
 
 ## Semi-Autonomous Knowbot Matrix profile
 
-Recovered profile stats, as surfaced in the campaign record:
+**Frame core 9** is the anchor rating. GM-set 2026-11-09. Semi-Autonomous Knowbots are designed on the frame/agent template, but SKs get **their own point formulas** in the *Matrix* "Designing SKs" section, printed pp. 147-148: Persona Points are **MPCP x 3** and Frame Points are **MPCP x 8**, not the agent values of core x 2 and core x 6. Every point figure on this page uses the SK formulas.
+
+> **Correction, 2026-11-09:** the first pass at this sheet scored her against the *agent* table (18 Persona Points, 54 Frame Points). Both were too low, and the shortfall caused real damage downstream - two attributes were cut to fit a budget she never had. The agent figures are gone; see *Budget, correctly computed* below.
+
+| Stat | Value | Basis |
+|---|---|---|
+| **Frame core** | **9** | GM-set 2026-11-09 (see *Choosing core 9* below) |
+| MPCP | 9 | derived - core rating is used in place of MPCP |
+| Icon rating | 9 | derived - agent icon rating equals frame core (*Matrix* p. 89); this is the target number for Scan Icon / notice tests |
+| Matrix Reaction | 6 | **GM-tuned** - rules-clean value is 9 (= core); kept at 6 for the throttle precedent |
+| Matrix Initiative Dice | 2 | derived 1D6 base (SK Reaction and Initiative, *Matrix* p. 148) + 1 die purchased for 3 Frame Points |
+| **Pilot** | **5** | derived - Pilot is a frame's built-in Computer skill; replaces the old table-use "Computer skill 5" |
+| Hacking Pool | 5 | **GM-tuned** - rules-clean value is 9 (= core); capped at the base dice in her Pilot-5 pools |
+| Bod | 5 | recovered profile, unchanged |
+| Evasion | 5 | recovered profile, **restored** 2026-11-09 - the cut to 3 was forced by a Persona Point figure that was wrong |
+| Masking | 6 | recovered profile, unchanged; protected as her signature |
+| Sensor | 5 | recovered profile, **restored** 2026-11-09 - the cut to 4 was forced by the same wrong figure |
+| Hardening | 4 | recovered profile, unchanged |
+| Active Memory | 700 | recovered profile, unchanged |
+| Storage Memory | 1400 | recovered profile, unchanged |
+| I/O Speed | 300 | recovered profile, unchanged - still deck-scale for a large server, unresolved |
+| Response Increase | 1 | recovered profile, unchanged |
+| **Willpower** | **3** | **GM ruling 2026-11-09** - see *Mind-affecting effects* below |
+| **Utility Pool** | **8** | SK-exclusive allocation (*Matrix* p. 148), bought at 2 Frame Points per point, capped at MPCP 9 - see *Strict-SK legality note* below |
+
+Persona Points are MPCP x 3 for an SK = **27 available**, with Bod 5 / Evasion 5 / Masking 6 / Sensor 5 assigning **21** and **6 left unspent**. No attribute exceeds the core rating, so Masking 6 is legal. The 6 spare points are an open decision - see *Still open*.
+
+### Choosing core 9
+
+The recovered profile carried three numbers that each implied a different core: MPCP 7 (the SK rules say MPCP is determined by the frame core), Matrix Reaction 6 (frames have Reaction equal to core), and Hacking Pool 4. HP 4 is the weakest of the three and is arithmetic damage from scoring her as a *user on a deck* - the decker formula (Intelligence 5 + MPCP 7) / 3 rounds to 4. The printed agent rule is HP = core.
+
+Core 9 was chosen because it is the lowest rating that keeps the published sheet legal and intact:
+
+- Persona Points 27 (MPCP x 3) covers her original recovered attributes at 21 of 27 - no cuts were ever required.
+- Frame Points 72 (MPCP x 8) covers Pilot 5 (10), the extra Initiative die (3), 42 ratings of utility payload, and a Utility Pool of 8 (16).
+- No utility rating exceeds the core-9 cap on loaded utilities.
+- MPCP 9 stays clear of the true-AI gradient the 2026-11-06 hosting ruling blocked (AIs run MPCP 12+). SK frame cores may go as high as 14, so 9 is not near the ceiling either.
+
+*Matrix* p. 147 states the SK statistics are **guidelines for GM use** when creating an SK, deliberately omitting programming statistics - so the derated Reaction and Hacking Pool are the intended use of the rule, not a violation of it. Both are labelled above rather than presented as derivations.
+
+## Decking runtime
+
+Cindy personally runs Matrix crawls from these values.
 
 | Stat | Value |
 |---|---|
-| Matrix Reaction | 6 |
-| Matrix Initiative Dice | 2 |
-| Bod | 5 |
-| Evasion | 5 |
-| Masking | 6 |
-| Sensor | 5 |
-| MPCP | 7 |
-| Hardening | 4 |
-| Active Memory | 700 |
-| Storage Memory | 1400 |
-| I/O Speed | 300 |
-| Response Increase | 1 |
-| Hacking Pool | 4 |
-
-## Decking runtime assumptions
-
-Cindy personally runs Matrix crawls from these values. The headline number is her **Computer skill: 5**.
-
-| Stat | Value |
-|---|---|
-| **Computer skill** | **5** |
+| **Pilot (built-in Computer skill)** | **5** |
 | Effective Detection Factor | 6 |
-| Hacking Pool available per focused test | 4 |
+| Hacking Pool per focused test | 5, capped at the base dice in the pool |
 
-Rules intent: competent, not elite. She handles modest hosts reliably; hard hidden hosts and high-threshold rewards can still lock her out.
+Rules intent: competent, not elite. She handles modest hosts reliably; hard hidden hosts and high-threshold rewards can still lock her out. The reduced Reaction and Hacking Pool above exist to protect that intent against the core-9 derivations.
 
-### Loaded utilities
+Pilot also sets a floor on her origin: a frame's Pilot may not exceed its programmer's Computer (Programming) skill, so whoever built her had at least Programming 5.
 
-| Utility | Rating |
+### Budget, correctly computed
+
+Frame Points are MPCP x 8 for an SK = **72**. Allocated:
+
+| Allocation | Cost | Running |
+|---|---|---|
+| Pilot 5 (2 points per rating) | 10 | 62 left |
+| Extra Initiative die (3 points per die) | 3 | 59 left |
+| **Utility Pool 8** (2 Frame Points per Pool point, cap MPCP 9) | 16 | 43 left |
+| **Utility Payload** - Restore 4 + Shield 2 only (1 point per rating carried) | 6 | **37 left** |
+
+Frame Points may be allocated to exactly four things - **Pilot rating, Initiative, Utility Payload, and Utility Pool** (*Matrix* p. 148). There is no fifth purchase, so the **37 unspent points buy nothing and are not a reserve**; skills are not a Frame Point purchase at all. The only ways to spend them are raising the Pool toward its MPCP cap of 9 (16 points) or buying Initiative dice up to the printed 5D6 limit. Both are left open below rather than taken quietly.
+
+Re-arming her is a Programming Test at (average utility rating)^2 x 2 days.
+
+> **Correction, 2026-11-09:** an earlier version of this page computed 54 Frame Points using the *agent* formula and declared her budget fully spent at 41 ratings. That forced the cut of Attack and Armor and the trim of Sleaze 5 to 4, which in turn silently dropped her Detection Factor from 6 to 5. With the SK formula there was never a squeeze.
+
+### Payload and Utility Pool (strict SK - GM ruling 2026-11-09)
+
+**The GM ruled Option B: strict SK.** Her Utility Payload carries **only the Defensive utilities**. Everything operational is allocated from the Utility Pool when needed, as the book intends.
+
+*Matrix* p. 148: **"the SK's Utility Payload is for non-operational utilities only (i.e., defensive, offensive and special utilities)"**, and **"SKs are not programmed to carry operational utilities because they possess the capability to perform any operational utility their situation calls for."** Chapter 7's own category list backs the split - Defensive Utilities are **Restore** and **Shield**; the rest of her toolkit is Operational and therefore may not be carried.
+
+**Carried in the Payload (standing code, always available):**
+
+| Utility | Rating | Category | Notes |
+|---|---|---|---|
+| Restore | 4 | Defensive | Complex Action, repairs 1 box per 2 successes |
+| Shield | 2 | Defensive | two parries ever, then needs a Swap Memory reload |
+
+Payload cost 6 Frame Points. Nothing else is standing code inside her frame.
+
+**Allocated from the Utility Pool of 8 (Free Action, used once, then gone):**
+
+| Utility | Typical rating | Test it is used with |
+|---|---|---|
+| Analyze | 5 | Computer (Search Operations) - locate files, assess an icon |
+| Browse | 5 | Computer (Search Operations) - read files, search |
+| Deception | 5 | Computer (Decking) - Logon to Host, fake an icon |
+| Sleaze | 5 | Computer - carries her Detection Factor |
+| Scanner | 4 | Computer (Search Operations) - Matrix perception |
+| Read/Write | 4 | Computer - file access |
+| Spoof | 4 | Computer (Decking) - slave and command spoofing |
+| Validate | 4 | Computer - accounts, passcodes, credentials |
+
+Those ratings are **what she usually buys with Pool points**, not cargo she carries. Any operational utility up to rating 9 (her MPCP) is available in principle; the Pool total, not a loadout, is what limits her.
+
+### What Option B actually costs her
+
+Ruling for the strict reading is not free. Two of its edges cut directly against a knowbot whose whole job is being quietly useful.
+
+- **Her Detection Factor is no longer standing.** DF is computed from *running* code: (Masking 6 + Sleaze) / 2, rounded up. Sleaze now has to be paid for out of the Pool. With Sleaze 5 allocated, **DF 6**. With nothing allocated, **DF 3** - she is conspicuous by default, which is a real change for a support NPC the GM relies on not to get spotted.
+- **The Pool refreshes on Combat Turns.** *Matrix* p. 148: an allocated utility "must be used immediately", re-using it costs fresh points, and the **Pool refreshes at the beginning of each Combat Turn**. In combat she can re-buy Sleaze 5 every turn. Outside combat there are no Combat Turns, so whether she can hold a utility up at all is the GM's call. This is now the most important unresolved question on the page.
+- **Two operations in one Combat Turn compete for the same 8 points.** Analyze 5 and Sleaze 5 together cost 10 and cannot both run in a single turn on a Pool of 8. Under the old standing loadout they could. Expect her to have to choose between looking hard and staying hidden.
+- **Burst ceiling rises above any standing rating she used to carry.** A single Pool 8 allocation beats every standing 5, and raising the Pool to its cap would reach rating 9. This is the one axis where B is simply stronger.
+- **Utility-crash protection got thinner.** Only Restore and Shield are resident, so a hog utility that crashes her code also takes away her ability to *notice* it coming, since Scanner and Analyze are Pool allocations too.
+
+**Superseded:** Option A - the standing operational loadout carried alongside a paid Pool - was documented here while the legality question was open, and the GM has ruled against it. It remains recoverable in git history (`git log -p` on this file) if the table ever wants to go back.
+
+
+### Communications - external device (GM ruling, 2026-11-09)
+
+Cindy has **no Commlink or Matrixlink code in her frame**. Both come to her as a **rating 4 bonus from an external device**.
+
+| Utility | Rating | Source | Cost to her |
+|---|---|---|---|
+| Commlink | 4 | external device | **no Frame Points, no Utility Payload** - it is bolt-on hardware, not code inside her frame |
+| Matrixlink | 4 | external device | same |
+
+Mechanical consequences the GM should hold onto:
+
+- **It is a single point of failure.** It is not a program she can rebuild from a backup. If the device is confiscated, broken, EMP'd, or left in the trailer, she has no comms and no Matrixlink until someone hands her another one.
+- **It is physical, so it is findable.** Hardware can be tagged, traced, and recovered by whoever owns it.
+- Book context: **Commlink** is an Operational utility (core rulebook, Multiplier 1 - Make Comcall, Tap Comcall), so strictly its bonus would come from the Pool; **Matrixlink** in *Matrix* is the **BattleTac Matrixlink**, a *Special* utility (Multiplier 5) that ties users into a shared network via Make Comcall. Because both live on the device rather than in her frame, that Payload-vs-Pool question is moot here.
+
+### Jamming and ECCM (GM ruling, 2026-11-09)
+
+**Cindy has no ECCM. None.** This is deliberate and is flagged as future work for Mevin, not an oversight to patch quietly.
+
+- ECM jams remote-control networks and sensor frequencies and degrades transmission quality; ECCM counteracts it (core rulebook, Electronic Countermeasures, p. 138). It is vehicle/drone-side gear.
+- So **any jammer works on her unopposed**: her drone control links to Tip Jar and Dolly Zoom, her sensor tests, and her connectivity to the trailer are all exposed with no counter and no reduced-Jamming Power.
+- Dolly Zoom is already the worst case at Sensor 0 / Pilot 1.
+- If the crew later wants a fix, ECCM is something **Mevin buys**, which makes drone-link jamming resistance a spendable resource rather than a default. Until then, "the signal is fragile" is the intended answer.
+
+### Restore and Shield behaviour
+
+Both are finite resources, and the GM should track them as such.
+
+- **Shield 2** gives her **two parries ever**. A Shield Test is made against the attacker's skill (Computer skill for a decker, Security Value for IC); successes reduce the attacker's net successes. The utility loses 1 rating point every use, hit or miss, and only a fresh copy restored by a Swap Memory operation brings it back. "Cindy is out of shields" is a spendable dramatic beat.
+- **Restore 4** is a Complex Action, Restore Test against the target number of the program that caused the damage (use the higher rating if several hit her), repairing 1 point of damage per 2 successes. It repairs attribute and icon damage but **cannot repair permanent damage from gray or black IC**.
+
+## Damage, resistance, and reboot
+
+SR3 does not derive an icon's damage track from its Bod. Per the core rulebook's Icon Damage and Condition Monitor rules (OCR p. 226, printed footer candidate 226), icons use the **standard 10-box Condition Monitor with a single physical track** - no Stun. What Bod does is set the resistance pool.
+
+| Situation | Test |
 |---|---|
-| Analyze | 5 |
-| Browse | 5 |
-| Sleaze | 5 |
-| Deception | 5 |
-| Validate | 4 |
-| Read/Write | 4 |
-| Spoof | 4 |
-| Attack | 4 |
-| Armor | 4 |
-| Scanner | 4 |
+| Hit by a damage-inflicting attack or killer IC | **Bod (5) test** against a target number equal to the attack's Power (Power = attacker rating); attacker's net successes stage the Damage Level up, defender's stage it down |
+| Utility-crash attack (for example a hog utility) | **MPCP (9) test** against (attacker rating - Hardening 4), per the worked example at *Matrix* OCR p. 92; net successes crash her highest utilities |
+| Mind-affecting gray/black IC, Pavlov data bomb, psychotropic effects | **Willpower (3) test** - GM ruling, see below |
+| Icon Condition Monitor filled (all 10 boxes) | **Icon crashes** - see reboot |
+
+Damage levels from IC follow the host's Security Code (Blue/Green hosts Moderate, Orange/Red hosts Serious), so where the fight happens changes how hard it hits.
+
+Note the earlier one-line summary, "resists with MPCP 9 against (attacker rating - Hardening 4)", is only the **utility-crash** path. Damage-inflicting attacks resist with Bod. Both rows above apply; there is no single resistance roll.
+
+### Reboot from the trailer (GM ruling, 2026-11-09)
+
+Cindy cannot be permanently killed by Matrix damage. When her icon crashes - all 10 Condition Monitor boxes filled, or destroyed by black IC - she is **rebuilt at the trailer from her last memory backup**.
+
+- She **loses time, not life**: the gap between the crash and her last good backup is gone, and that gap is the cost.
+- The GM picks the backup cadence scene to scene, which makes the interval a story lever rather than a fixed stat. A GM who wants real stakes can make the last backup recent-but-before-the-disaster she failed to warn anyone about.
+- Because the icon *is* her and there is no decker behind it, the usual "decker is dumped" result of a crashed icon has nothing to dump. She does not take dump shock; the crash is the whole event.
+- Matrix damage to her attributes persists across a reboot only if the backup predates the damage. Restore 4 repairs damage before that point; it cannot touch permanent gray/black IC damage, which is the one path that survives a reboot.
+
+### Mind-affecting effects (GM ruling, 2026-11-09)
+
+**Willpower 3.** SR3 gives programs no Willpower, and the books route mind-affecting resistance, simsense-overload-style tests, and Pavlov/psychotropic effects through the *person* behind the icon. Cindy has no such person. The GM ruled her a Will of 3, tied to the length of her memory and her development as a proto-AI in Shadowrun terms.
+
+This is a personhood and narrative ruling, **not** an AI classification. The 2026-11-06 hosting ruling stands: she is a Semi-Autonomous Knowbot and the four-step AI evolution test is not satisfied for her. "Proto-AI" here is the GM's in-fiction description of how much mind a long-running SK has accumulated, not a stat-line change.
+
+## Traces, datatrails, and who goes to jail
+
+The 2026-11-06 hosting ruling decided that Cindy owns no SIN, no bank account, and no registered jackpoint serial numbers, so **her datatrails resolve to Mevin's paid MSP account**. Trace pressure on her is therefore legal pressure on him. These ratings decide how hard that is to follow.
+
+| Item | Value | Basis |
+|---|---|---|
+| SK datatrail trace modifier | **+6** | *Matrix* p. 150 - SKs have no jackpoint to trace; track and trace IC treat their datatrails as if the trace modifier were +6. Book value, adopted |
+| Relocate Trace | **yes**, rating 4 | *Matrix* p. 150 permits SKs this operation. Blocks trace IC for a Combat Turn; ongoing, and each turn it fails costs her security tally |
+| Redirect Datatrail | **no** | **GM ruling 2026-11-09** - deliberately withheld. See below |
+| Datatrail origin | Mevin's MSP account | 2026-11-06 hosting ruling - unchanged and unfixed by anything here |
+| Drone control link | remote bounced signal from her trailer-hosted persona | 2026-11-06 ruling; jamming or lost connectivity degrades or severs Dolly Zoom and Tip Jar |
+
+### Why she does not get Redirect Datatrail
+
+*Matrix* p. 150 lets SKs run **both** Redirect Datatrail and Relocate Trace. The GM ruled Cindy gets only Relocate Trace, which leaves her one soft spot a competent trace team can work. Two reasons:
+
+- **It reads as a rushed job.** A sloppy datatrail is consistent with the unresolved-builder thread - *who built and funded an SK, and why*. An SK that can fully launder its own trail looks like a major power's careful work; one whose trail still lands on a decker's retail MSP account looks like someone built her fast, cheap, and in a hurry.
+- **It keeps a lever live.** With Redirect available, a trace against Cindy is a dice duel she can win on the defensive forever. Without it, a determined corp trace team can eventually walk her trail back to Mevin, which is a plot the GM can actually spend.
+
+Relocate Trace 4 still lets her stall a trace turn by turn, so the +6 is not a one-shot free pass for whoever is hunting her - it just does not make her unfindable.
+
+**Table consequence:** Cindy can hide, and she can delay a trace, but she cannot launder her own origin. Anything she does on the grid is ultimately chargeable to Mevin, and the GM should feel free to spend that.
 
 ## GM panel roll presets
 
 What the **Roll Test** button and `!cindy-roll <dice> <target-number> [skill/context]` actually roll by default. SR3-style exploding sixes; results must meet or beat the target number.
 
-| Preset | Dice |
-|---|---|
-| **Cindy Computer** | **5** |
-| Cindy Hacking Pool | 4 |
-| Analyze / Browse / Sleaze / Deception | 5 |
-| Validate / Read-Write / Spoof / Attack / Armor / Scanner | 4 |
-| Tip Jar Sensor / Pilot | 2 |
-| Tip Jar fuzzy-logic Pilot | 4 |
-| Dolly Zoom Pilot | 1 |
-| Dolly Zoom Sensor | 0 |
+| Preset | Dice | Note |
+|---|---|---|
+| **Cindy Pilot** (accepted alias: `Cindy Computer`) | **5** | |
+| Cindy Hacking Pool | **5** | was 4 under the old MPCP-7 profile |
+| Cindy Bod (damage resistance) | **5** | new - resist damage-inflicting attacks |
+| Cindy MPCP (utility-crash resistance) | **9** | new - resist hog-style utility crashes |
+| Cindy Willpower | **3** | new - GM ruling 2026-11-09, mind-affecting effects |
+| Analyze / Browse / Deception / **Sleaze** | 5 | Sleaze restored to 5 on 2026-11-09; returns her Detection Factor to 6 |
+| Restore / Scanner / Read-Write / Spoof / Validate | 4 | |
+| Commlink / Matrixlink | 4 | external device, not carried code |
+| Shield | 2 | parry; spend a rating per use |
+| Tip Jar Sensor / Pilot | 2 | |
+| Tip Jar fuzzy-logic Pilot | 4 | |
+| Dolly Zoom Pilot | 1 | |
+| Dolly Zoom Sensor | 0 | |
 
-Panel default when nothing is entered: **Cindy Computer 5 against TN 5**.
+Panel default when nothing is entered: **Cindy Pilot 5 against TN 5**.
+
+**Preset status (updated 2026-11-09):** the `!cindy-roll` presets and the GM panel defaults were **repointed to this page's core-9 values** in the live bridge (`PANEL_ROLL_PRESETS`, `voice_chat.py`), with `Cindy Pilot` as the canonical name and `Cindy Computer` kept as an accepted alias. New presets: **Cindy Bod 5** (damage resistance), **Cindy MPCP 9** (utility-crash resistance), **Cindy Willpower 3**, **Shield 2**, **Restore 4**, **Commlink 4**, **Matrixlink 4**; Hacking Pool moved 4 → 5. `Attack` and `Armor` were deliberately removed - an unlisted skill name falls back to 5 dice and echoes the requested label back, so a stale habit is visible rather than silently wrong.
+
+**Sleaze note:** it was briefly set to 4 in the 09:33 EST deploy, on the mistaken Frame Point budget described above. It is **5** again; the bridge was restarted again after that correction. Verify against this page if the bridge is later rolled back.
 
 ## Field drone presets
 
@@ -145,6 +310,24 @@ Cindy's runtime lives on a **large server housed in a trailer on Taco's garage p
 | Street Index | 2 |
 
 For table use, treat the trailer server as the thing that can actually be lost. If it is powered down, breached, flooded, burned out, or stolen, Cindy's local runtime is endangered. Cutting the connectivity she shares with it also costs her drone control and her Matrix presence.
+
+## Rulings with no book answer (2026-11-09)
+
+Recorded so nobody re-litigates them mid-session.
+
+- **No SOTA.** The campaign does not run Saeder-Krupp State of the Art software maintenance for Cindy. Consequence: **no upkeep-based rating decay**. Her utility ratings do not slide because nobody is paying a maintenance contract, so a low rating is a build choice or an injury, never an accounting artifact. This also removes "nobody maintains her" as a free explanation for any stat being lower than it should be.
+- **Trailer hardware is out of scope for now.** The trailer server is nominally her real hit points under the reboot ruling, and it still has no stat block - no cabinet Body or Armor, no battery reserve, no physical security, no MSP line bandwidth. Deliberately deferred, not forgotten. Until it has numbers, the GM sets what it takes to threaten her permanently by scene.
+
+## Still open for the GM
+
+1. **Out-of-combat Utility Pool refresh.** The book refreshes the Pool at the start of each Combat Turn and says nothing about peacetime. Decide whether Cindy may hold one or two utilities up out of combat - this sets whether she is DF 6 or DF 3 while the crew is simply walking down the street.
+2. **Spare Persona Points.** 6 of her 27 go unspent. They can raise an attribute (nothing may exceed core 9), or the GM can call them unassigned.
+3. **Unspent Frame Points (37).** Nothing left to buy except Pool rating (cap 9) and Initiative dice (up to 5D6). Say the word if you want either; neither was taken without a ruling. Note the tension with "competent, not elite": Pool 9 lets her produce a rating 9 utility on demand, which is better gear than several sample deckers carry standing.
+4. **Response Increase 1.** It is deck hardware on a *frame* sheet, and it is one of the numbers inherited from the suspect recovered profile. As printed it grants +2 Reaction and +1D6 Initiative, which conflicts with GM-tuned Reaction 6 and would make the purchased Initiative die redundant. It needs a home or a deletion.
+5. **Provenance of the recovered profile** - still unanswered from the previous pass. The six recovered numbers match the core rulebook's **stock CMT Avatar cyberdeck** row exactly (MPCP-7, Hardening 4, Active 700, Storage 1400, I/O 300, Response Increase 1), and eight of her nine original utilities match the sample Combat Decker who runs one.
+6. **Skills** - next subject; see *Skills* below once it is written.
+7. **Magic** - whether Confuse, manabarriers, or an astrally projecting mage can touch her at all.
+
 
 ## Table boundaries
 
