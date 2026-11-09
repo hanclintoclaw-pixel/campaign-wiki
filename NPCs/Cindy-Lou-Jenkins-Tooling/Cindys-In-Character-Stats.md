@@ -118,6 +118,8 @@ Every SR3 skill test is attribute + skill, so granting mental attributes silentl
 | Computer (any specialization) | Pilot 5 + Pool 5 = **10** | Int 5 + Computer 6 + Pool 5 = **16** |
 | Computer (B/R) | Pilot 5 + Pool 5 = **10** | Int 5 + B/R 4 + Pool 5 = **14** |
 | Etiquette (Matrix) | not rollable, no Charisma | **Charisma 5 + spec 3 = 8**, and **no** Hacking Pool permitted |
+| Perform (custom) | no skill, no Charisma | **Charisma 5 + Perform 6 = 11** - GM-granted custom skill, 2026-11-09 |
+| Negotiation | no skill, no Charisma | **Charisma 5 + Negotiation 3 = 8** - GM-granted, 2026-11-09 |
 | Willpower resistance | 3 dice | **5 dice** |
 | Knowledge searches | not rollable, no Intelligence | **Int 5 + rating 4-5**, plus Pool |
 
@@ -176,6 +178,8 @@ Two corrections to my own shortlist, recorded rather than quietly fixed. I earli
 | **Computer (B/R)** | **4** | Intelligence 5 | Build/roll - programming and rebuilding code, which is how she re-arms her own utilities |
 | **Electronics (B/R)** | **4** | Intelligence 5 | **The source block has no plain Electronics**, so general electronics work is defaulting at +4 target number - see gaps below |
 | **Etiquette (Matrix)** | **1 (3)** | Charisma 5 | Base 1, Matrix specialization 3, so Matrix social tests roll at 3. **Hacking Pool dice may not be added to Etiquette (Matrix) tests** (*Matrix* p. 26), which is why the derived Charisma matters |
+| **Perform** (custom) | **6** | Charisma 5 = **11** | **GM-granted custom skill, not printed SR3.** The core SOCIAL SKILLS group has no Perform or Art entry, so this is table-supplied rather than copied from the Combat Decker package. Strongest performed through **Tip Jar**; still good in person. Covers busking and cover performance |
+| **Negotiation** | **3** | Charisma 5 = **8** | Bartering and tip collection - good enough to work a hat and hold a booking, not enough to negotiate a contract. Added with the cover-artist plan so her independent money-making is a real test |
 
 **Knowledge skills:** Data Havens **5**, Jackpoint Locations **4**, Matrix Gangs **4**, Seattle Corporate Hosts **4**, English (Decker Lingo) **3 (5)** with Read/Write 2, plus Read/Write 1 on Japanese. Knowledge skills are Intelligence-linked, so the derived 5 is what makes any of them rollable.
 

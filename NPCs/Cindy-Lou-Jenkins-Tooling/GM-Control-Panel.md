@@ -178,6 +178,7 @@ Current default/preset reference values (repointed to the core-9 stat sheet on 2
 - **Cindy Willpower:** 5 - mind-affecting gray/black IC, Pavlov effects (derived ceil(core / 2); raised from 3 on 2026-11-09)
 - **Cindy Computer:** 6 - the trained Combat Decker skill, **not** the same preset as Pilot. `Computer` / `Cindy Computer` roll 6; `Pilot` / `Cindy Pilot` stay at 5
 - **Computer B/R:** 4 - **Electronics B/R:** 4 - **Etiquette (Matrix):** 3 - **Cindy Intelligence / Cindy Charisma:** 5
+- **Cindy Perform:** 6 - the GM-granted custom performance skill (2026-11-09). Roll **11** dice with Charisma already included only if you want the busking pool directly; otherwise roll Perform 6 and add **Cindy Charisma** 5. **Cindy Negotiation:** 3 for bartering and tip collection.
 - **Analyze / Browse / Deception / Sleaze:** 5 - **Utility Pool allocations, not standing code** (strict SK, GM ruling 2026-11-09). Rolling one of these spends Pool points that refresh at the start of the next Combat Turn.
 - **Restore 4 / Shield 2:** the **only** utilities actually carried in her Payload. Scanner / Read-Write / Spoof / Validate are also Pool allocations, at 4.
 - **Detection Factor:** 6 with a Sleaze 5 Pool allocation running, **3** with nothing allocated - DF counts only *running* code, so it is no longer standing.

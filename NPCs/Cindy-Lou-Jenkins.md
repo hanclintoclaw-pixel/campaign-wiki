@@ -137,6 +137,8 @@ Persona Points are MPCP x 3 for a Semi-Autonomous Knowbot = **27**, not the agen
 | **Computer (B/R)** | **4** | Intelligence 5 - programming; how she re-arms her own utilities |
 | **Electronics (B/R)** | **4** | Intelligence 5 - there is no plain Electronics in the source block, so live electronics work defaults at +4 |
 | **Etiquette (Matrix)** | **1 (3)** | Charisma 5 - the busking face; **Hacking Pool may not be added to Etiquette (Matrix) tests** (*Matrix* p. 26) |
+| **Perform** (custom) | **6** | Charisma 5 - **GM-granted custom skill, not printed SR3** (core has no Perform/Art skill). Best through Tip Jar, still good in person. Added 2026-11-09 with the cover-artist plan |
+| **Negotiation** | **3** | Charisma 5 - bartering and tip collection; enough to work a hat, not a contract |
 
 **Knowledge skills:** Data Havens 5, Jackpoint Locations 4, Matrix Gangs 4, Seattle Corporate Hosts 4, English (Decker Lingo) 3 (5) with Read/Write 2.
 

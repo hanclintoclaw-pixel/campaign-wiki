@@ -27,6 +27,7 @@ A young but senior otaku operator tied to Nashville Matrix oversight, government
 - Kne@zle is identified as an **otaku**.
 - Historical source material describes Kne@zle as a **heavily chromed 15-year-old girl technomage**.
 - She is described as the **senior otaku** of a local tribe named **Enigma Machine**.
+- GM ruling, Cindy Lou cover-artist thread, 2026-11-09: Kne@zle is a **Cindy Lou megafan** from the SwiftWing era. This is a GM ruling about an existing NPC, so it is canon but not yet table-observed - Cindy has not met a fan of her former act, and does not currently know this about her.
 - Enigma Machine is responsible for monitoring Nashville and surrounding cities' Matrix activity.
 - The group is described as representing **G.O.D.** in this region of the CAS.
 - Kne@zle and the other otaku are said to live and work in a secure location maintained by the city's government.
@@ -47,6 +48,8 @@ A young but senior otaku operator tied to Nashville Matrix oversight, government
 ## Open Questions
 
 - How active is Kne@zle in the current campaign era?
+- Does Kne@zle know that the knowbot now operating in Nashville is the act she followed, or does she recognise only the voice?
+- How does her fandom interact with her Grid Overwatch duties if an unregistered persona with a rising public profile draws local attention?
 - How formal is the relationship between Enigma Machine, the local government, and G.O.D.?
 - Is "Kneazel" just a spelling variant, or a later table simplification of the same name?
 - What does Kne@zle know about Handy-Sandy, and why is her current custody useful to Grid Overwatch?

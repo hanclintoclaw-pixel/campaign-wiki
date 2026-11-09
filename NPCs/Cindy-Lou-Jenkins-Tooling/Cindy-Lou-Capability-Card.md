@@ -28,8 +28,10 @@ Her datatrails carry a **+6 trace modifier** (SKs have no jackpoint to trace). *
 **Repair and defense** - Real, finite, and thin.
 **Restore 4** (Complex Action, repairs 1 box per 2 successes) repairs attribute and icon damage but **cannot touch permanent gray/black IC damage**. **Shield 2** gives her **two parries ever** before she needs a Swap Memory reload. Resistance rolls: **Bod 5** against damage Power, **MPCP 9** against utility-crash (attacker rating - Hardening 4), **Willpower 5** against mind-affecting IC and Pavlov effects.
 
-**Social and cover work** - The busking persona.
-**Charisma 5 + Etiquette (Matrix) spec 3 = 8** dice. **No Hacking Pool dice are permitted on Etiquette (Matrix) tests** (*Matrix* p. 26), so this is the one pool she cannot pump up.
+**Social and cover work** - The busking persona, and a real craft skill behind it.
+**Perform 6** (Charisma 5 + 6 = **11** dice) - granted by the GM on 2026-11-09 as a **custom skill**, not a printed SR3 one: the core rulebook's SOCIAL SKILLS group carries only Etiquette, Instruction, Interrogation, Intimidation, Leadership and Negotiation, and prints no Perform or Art skill. She is strongest through **Tip Jar**, and still good in person. This is what makes "busking to raise her own money" a real test rather than a defaulting roll.
+**Negotiation 3** (Charisma 5 + 3 = **8** dice) - bartering and tip collection. Enough to work a hat and hold a booking, not enough to out-talk a label. That is the honest gap between her and a career negotiator, and it is why the plan uses the Noodle Stories Collective rather than a deal.
+**Charisma 5 + Etiquette (Matrix) spec 3 = 8** dice for Matrix-side social work. **No Hacking Pool dice are permitted on Etiquette (Matrix) tests** (*Matrix* p. 26), so this is the one pool she cannot pump up.
 
 **Drone operations** - Two bodies, both cheap.
 **Tip Jar** (Renraku Barback, Medium Anthroform): Pilot 2 / Sensor 2, Body 2 / Armor 0 - a social and distraction platform. **Dolly Zoom** (surr drone VTOL): **Pilot 1 / Sensor 0**, Body 1 / Armor 0 - low-light and thermographic cameras plus an audio feed, treating its **Sensor 0** as blind without them. Both ride an encrypted link bounced from her trailer persona.

@@ -29,3 +29,4 @@ For the broader first-person profile page, see: [Cindy Lou Jenkins, In Her Own W
 - [On Core 7 and Dead Soldier](On-Core-7-and-Dead-Soldier.md)
 - [On the Dead Soldier Trace](On-the-Dead-Soldier-Trace.md)
 - [On Otaku and the Deep Resonance](On-Otaku-and-the-Deep-Resonance.md)
+ - [On Cover Songs and the Hat on the Ground](On-Cover-Songs-and-the-Hat-on-the-Ground.md)
