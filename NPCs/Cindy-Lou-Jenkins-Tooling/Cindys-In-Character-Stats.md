@@ -20,6 +20,7 @@ sources:
   - ../../Vehicles/Tip-Jar.md
   - ../../Vehicles/Dolly-Zoom.md
   - GM ruling, Cindy GM Interaction Thread, 2026-11-09 (frame core, persona points, Pilot, Hacking Pool, payload, damage/reboot, Willpower, trace/datatrail, commlink/matrixlink, ECCM, no SOTA, strict-SK Payload / Utility Pool ruling (Option B))
+  - GM ruling, Cindy GM Interaction Thread, 2026-11-09 (derived mental attributes = ceil(frame core / 2), Willpower raised 3 to 5, skill package copied from the core rulebook Combat Decker sample character, printed p. 67)
 ---
 
 # Cindy's In-Character Stats
@@ -66,8 +67,10 @@ If a number here ever disagrees with [Cindy Lou Jenkins](../Cindy-Lou-Jenkins.md
 | Storage Memory | 1400 | recovered profile, unchanged |
 | I/O Speed | 300 | recovered profile, unchanged - still deck-scale for a large server, unresolved |
 | Response Increase | 1 | recovered profile, unchanged |
-| **Willpower** | **3** | **GM ruling 2026-11-09** - see *Mind-affecting effects* below |
-| **Utility Pool** | **8** | SK-exclusive allocation (*Matrix* p. 148), bought at 2 Frame Points per point, capped at MPCP 9 - see *Strict-SK legality note* below |
+| **Willpower** | **5** | **GM ruling 2026-11-09** - derived ceil(frame core / 2); raised from the 3 ruled earlier the same day. See *Mental attributes* below |
+| **Intelligence** | **5** | **GM ruling 2026-11-09** - derived ceil(core / 2); the attribute Computer, every Technical skill and every Knowledge skill links to |
+| **Charisma** | **5** | **GM ruling 2026-11-09** - derived ceil(core / 2); the attribute Etiquette and the other Social skills link to |
+| **Utility Pool** | **8** | Pool-point allocation (*Matrix* p. 148), bought at 2 Frame Points per point, capped at MPCP 9 |
 
 Persona Points are MPCP x 3 for an SK = **27 available**, with Bod 5 / Evasion 5 / Masking 6 / Sensor 5 assigning **21** and **6 left unspent**. No attribute exceeds the core rating, so Masking 6 is legal. The 6 spare points are an open decision - see *Still open*.
 
@@ -84,6 +87,48 @@ Core 9 was chosen because it is the lowest rating that keeps the published sheet
 
 *Matrix* p. 147 states the SK statistics are **guidelines for GM use** when creating an SK, deliberately omitting programming statistics - so the derated Reaction and Hacking Pool are the intended use of the rule, not a violation of it. Both are labelled above rather than presented as derivations.
 
+
+## Mental attributes (GM ruling, 2026-11-09)
+
+**Ruling: Cindy's relevant attributes are derived from half her frame core rating, rounded up.** Core 9 gives **ceil(9 / 2) = 5**, which supplies the mental attributes a frame normally does not have and raises **Willpower from 3 to 5**.
+
+*Matrix* pp. 88-90 give frames and SKs no mental attributes - Persona Points buy only Bod, Evasion, Masking and Sensor. That absence is precisely why Pilot exists as a built-in Computer skill. This ruling fills the gap, and it is what makes the *Skills* section below legal rather than hand-waving.
+
+| Attribute | Value | What it unlocks |
+|---|---|---|
+| **Intelligence** | **5** | Links Computer, all Technical skills, all Knowledge skills (core p. 89). Previously nonexistent for a frame |
+| **Charisma** | **5** | Links Etiquette and the Social skills - the busking persona finally has an attribute behind it |
+| **Willpower** | **5** | Resists mind-affecting gray/black IC, Pavlov data bombs, psychotropic effects, control manipulations |
+| Matrix Reaction | 6 | **unchanged, GM-tuned.** A standing ruling outranks the derivation, which would have produced 5 |
+| Bod | 5 | **unchanged.** Point-budgeted Persona value; it already equals ceil(core / 2), so the two agree |
+
+Consequences the GM should have in view:
+
+- **Control manipulations now have a published threshold.** They are resisted with Willpower and have a Threshold equal to half the target's Willpower, rounded down (core p. 197). At Willpower 5 that is **2 net successes** to land on her against a 5-dice pool; at the previous Willpower 3 it was 1 success against 3 dice. She is meaningfully harder to Confuse or Complicate.
+- **Physical attributes are deliberately not derived.** Her body-equivalent is the point-budgeted Bod from the Persona table; Strength and Agility belong to the trailer server, which has no stat block. Deriving them would double-count the 27 Persona Points.
+- **These sit outside the Persona Point budget.** They come from the GM ruling, not from the 27 points, so the Bod 5 / Evasion 5 / Masking 6 / Sensor 5 = 21-of-27 accounting above is unchanged.
+- **Pure DNI now has something to grab.** *Matrix* p. 25: a user running by pure DNI uses Intelligence as Matrix Reaction. Her Int 5 lands within one of the GM-tuned Reaction 6, so the throttle survives even if that rule is applied to her.
+
+### Dice-pool consequence - read before using the skill list
+
+Every SR3 skill test is attribute + skill, so granting mental attributes silently raises every pool she rolls. This points **up**. Rows below assume Hacking Pool 5 is fully spendable (pool dice may not exceed the base dice in use):
+
+| Test | Before this ruling | After |
+|---|---|---|
+| Computer (any specialization) | Pilot 5 + Pool 5 = **10** | Int 5 + Computer 6 + Pool 5 = **16** |
+| Computer (B/R) | Pilot 5 + Pool 5 = **10** | Int 5 + B/R 4 + Pool 5 = **14** |
+| Etiquette (Matrix) | not rollable, no Charisma | **Charisma 5 + spec 3 = 8**, and **no** Hacking Pool permitted |
+| Willpower resistance | 3 dice | **5 dice** |
+| Knowledge searches | not rollable, no Intelligence | **Int 5 + rating 4-5**, plus Pool |
+
+A 16-dice Matrix test with exploding sixes is not "competent, not elite" - it is the best decker pool the table will see. **That is a real escalation, and it is the GM's to keep or throttle.** Three clean levers, strongest first:
+
+1. **Cap Matrix skill tests at Pilot 5**, letting the derived attributes govern only social and Knowledge tests. Keeps the throttle precedent; costs her the Computer 6.
+2. **Bring Computer down to Pilot 5** so skill and built-in agree, restoring the 10-dice ceiling. Loses the copied 6.
+3. **Accept it** - defensible for a being whose entire existence is that one thing.
+
+Nothing was throttled unilaterally. As published, the page runs option 3.
+
 ## Decking runtime
 
 Cindy personally runs Matrix crawls from these values.
@@ -91,6 +136,7 @@ Cindy personally runs Matrix crawls from these values.
 | Stat | Value |
 |---|---|
 | **Pilot (built-in Computer skill)** | **5** |
+| **Computer (trained skill)** | **6** - above Pilot; Intelligence-linked since the derived-attribute ruling |
 | Effective Detection Factor | 6 |
 | Hacking Pool per focused test | 5, capped at the base dice in the pool |
 
@@ -114,6 +160,43 @@ Frame Points may be allocated to exactly four things - **Pilot rating, Initiativ
 Re-arming her is a Programming Test at (average utility rating)^2 x 2 days.
 
 > **Correction, 2026-11-09:** an earlier version of this page computed 54 Frame Points using the *agent* formula and declared her budget fully spent at 41 ratings. That forced the cut of Attack and Armor and the trim of Sleaze 5 to 4, which in turn silently dropped her Detection Factor from 6 to 5. With the SK formula there was never a squeeze.
+
+
+## Skills (GM-approved package, 2026-11-09)
+
+**GM decision: copy the core rulebook's Combat Decker sample character.** Adopted from *Shadowrun, Third Edition*, Sample Characters, **printed p. 67**.
+
+Two corrections to my own shortlist, recorded rather than quietly fixed. I earlier attributed that block to *Matrix* - wrong; the decker-adjacent block at *Matrix* printed p. 128 is the **Security Sysop**, a different character. And I listed "Electronics 4", which is the Sysop's line - the Combat Decker's actual Electronics entry is **B/R only**. Both corrected below.
+
+**Active skills:**
+
+| Skill | Rating | Linked attribute | Notes |
+|---|---|---|---|
+| **Computer** | **6** | Intelligence 5 | Her real Matrix skill, above Pilot 5. Pilot stays as the built-in floor the book guarantees a frame, not a ceiling |
+| **Computer (B/R)** | **4** | Intelligence 5 | Build/roll - programming and rebuilding code, which is how she re-arms her own utilities |
+| **Electronics (B/R)** | **4** | Intelligence 5 | **The source block has no plain Electronics**, so general electronics work is defaulting at +4 target number - see gaps below |
+| **Etiquette (Matrix)** | **1 (3)** | Charisma 5 | Base 1, Matrix specialization 3, so Matrix social tests roll at 3. **Hacking Pool dice may not be added to Etiquette (Matrix) tests** (*Matrix* p. 26), which is why the derived Charisma matters |
+
+**Knowledge skills:** Data Havens **5**, Jackpoint Locations **4**, Matrix Gangs **4**, Seattle Corporate Hosts **4**, English (Decker Lingo) **3 (5)** with Read/Write 2, plus Read/Write 1 on Japanese. Knowledge skills are Intelligence-linked, so the derived 5 is what makes any of them rollable.
+
+**Dropped from the copy, with reasons** - the GM can reinstate any of them:
+
+- **Bike 4, Pistols 5, Stealth 4, Unarmed Combat 4, Cyber-Implant Combat (Spur) 4 (6)** - body skills. She has no body; the trailer server does, and it has no stat block. Cyber-Implant Combat also presumes chrome she does not have.
+- **Japanese 3, Seedy Ork Bars 4, 20th Century Comic Books 4** - flavour tied to an ork in Seattle. Her Nashville career is the better source for equivalents; the GM can name replacements.
+- **Datajacks, cyberlimb, wired reflexes, headware** from the source block - ignored as hardware, consistent with the 2026-11-06 hosting ruling.
+
+### Two gaps the copy leaves open
+
+- **No general Electronics skill.** Electronics (B/R) covers building and repairing, not live electronics tasks. Anything the book calls a straight Electronics test - laser-link alignment, for instance (*Matrix* p. 35, Electronics (Linking Between Devices) (4) test) - is a **defaulting** test for her at +4 target number. Practical effect: drone and hardware-side electronics work is weak on purpose. Say the word for **Electronics 3-4** and it goes in.
+- **No Search Operations specialization**, the one my shortlist recommended and the specialization her three most-used utilities test with. The source block carries no Computer specialization beyond B/R, so copying it faithfully left this out. One line to add if wanted.
+
+### Are skills budgeted? No - and that is a book fact, not a shortcut
+
+**Skills cost Frame Points nothing.** Frame Points may be allocated to exactly four things - Pilot rating, Initiative, Utility Payload, Utility Pool (*Matrix* p. 148) - and skills are not on that list, so the Combat Decker's ratings were never a purchase against her 37 unspent points.
+
+What actually limits a skill grant is the **linked-attribute requirement**, and until today that limit was absolute: with no Intelligence she could not hold a Computer skill at all. The derived-attribute ruling above satisfies it, so the remaining gate is GM judgement, not arithmetic.
+
+Pilot interacts with this in one specific way worth keeping: a frame's Pilot **may not exceed its programmer's Computer (Programming) skill** (*Matrix* p. 90). Pilot 5 therefore still implies whoever built her had at least Programming 5, and her own Computer 6 does not change that floor.
 
 ### Payload and Utility Pool (strict SK - GM ruling 2026-11-09)
 
@@ -155,7 +238,12 @@ Ruling for the strict reading is not free. Two of its edges cut directly against
 - **Burst ceiling rises above any standing rating she used to carry.** A single Pool 8 allocation beats every standing 5, and raising the Pool to its cap would reach rating 9. This is the one axis where B is simply stronger.
 - **Utility-crash protection got thinner.** Only Restore and Shield are resident, so a hog utility that crashes her code also takes away her ability to *notice* it coming, since Scanner and Analyze are Pool allocations too.
 
-**Superseded:** Option A - the standing operational loadout carried alongside a paid Pool - was documented here while the legality question was open, and the GM has ruled against it. It remains recoverable in git history (`git log -p` on this file) if the table ever wants to go back.
+<details markdown="1">
+<summary>Legacy: Option A - the superseded standing loadout (click to expand)</summary>
+
+Option A carried a standing operational loadout alongside a paid Utility Pool. It was documented here while the legality question was open, and the GM ruled against it on 2026-11-09. It remains recoverable in git history (`git log -p` on this file) if the table ever wants to go back.
+
+</details>
 
 
 ### Communications - external device (GM ruling, 2026-11-09)
@@ -197,7 +285,7 @@ SR3 does not derive an icon's damage track from its Bod. Per the core rulebook's
 |---|---|
 | Hit by a damage-inflicting attack or killer IC | **Bod (5) test** against a target number equal to the attack's Power (Power = attacker rating); attacker's net successes stage the Damage Level up, defender's stage it down |
 | Utility-crash attack (for example a hog utility) | **MPCP (9) test** against (attacker rating - Hardening 4), per the worked example at *Matrix* OCR p. 92; net successes crash her highest utilities |
-| Mind-affecting gray/black IC, Pavlov data bomb, psychotropic effects | **Willpower (3) test** - GM ruling, see below |
+| Mind-affecting gray/black IC, Pavlov data bomb, psychotropic effects | **Willpower (5) test** - derived, see *Mental attributes* |
 | Icon Condition Monitor filled (all 10 boxes) | **Icon crashes** - see reboot |
 
 Damage levels from IC follow the host's Security Code (Blue/Green hosts Moderate, Orange/Red hosts Serious), so where the fight happens changes how hard it hits.
@@ -215,7 +303,7 @@ Cindy cannot be permanently killed by Matrix damage. When her icon crashes - all
 
 ### Mind-affecting effects (GM ruling, 2026-11-09)
 
-**Willpower 3.** SR3 gives programs no Willpower, and the books route mind-affecting resistance, simsense-overload-style tests, and Pavlov/psychotropic effects through the *person* behind the icon. Cindy has no such person. The GM ruled her a Will of 3, tied to the length of her memory and her development as a proto-AI in Shadowrun terms.
+**Willpower 5, derived.** SR3 gives programs no Willpower, and the books route mind-affecting resistance, simsense-overload-style tests, and Pavlov/psychotropic effects through the *person* behind the icon. Cindy has no such person, so the GM supplied one: first a Will of 3 tied to the length of her memory and her development as a proto-AI, then **raised to 5 the same day** under the derived-attribute ruling (ceil(frame core / 2)) - see *Mental attributes* above. The narrative basis carries forward; the number is now mechanical rather than bespoke.
 
 This is a personhood and narrative ruling, **not** an AI classification. The 2026-11-06 hosting ruling stands: she is a Semi-Autonomous Knowbot and the four-step AI evolution test is not satisfied for her. "Proto-AI" here is the GM's in-fiction description of how much mind a long-running SK has accumulated, not a stat-line change.
 
@@ -252,7 +340,7 @@ What the **Roll Test** button and `!cindy-roll <dice> <target-number> [skill/con
 | Cindy Hacking Pool | **5** | was 4 under the old MPCP-7 profile |
 | Cindy Bod (damage resistance) | **5** | new - resist damage-inflicting attacks |
 | Cindy MPCP (utility-crash resistance) | **9** | new - resist hog-style utility crashes |
-| Cindy Willpower | **3** | new - GM ruling 2026-11-09, mind-affecting effects |
+| Cindy Willpower | **5** | derived ceil(core / 2), raised from 3 on 2026-11-09 - mind-affecting effects |
 | Analyze / Browse / Deception / **Sleaze** | 5 | Sleaze restored to 5 on 2026-11-09; returns her Detection Factor to 6 |
 | Restore / Scanner / Read-Write / Spoof / Validate | 4 | |
 | Commlink / Matrixlink | 4 | external device, not carried code |
@@ -264,7 +352,9 @@ What the **Roll Test** button and `!cindy-roll <dice> <target-number> [skill/con
 
 Panel default when nothing is entered: **Cindy Pilot 5 against TN 5**.
 
-**Preset status (updated 2026-11-09):** the `!cindy-roll` presets and the GM panel defaults were **repointed to this page's core-9 values** in the live bridge (`PANEL_ROLL_PRESETS`, `voice_chat.py`), with `Cindy Pilot` as the canonical name and `Cindy Computer` kept as an accepted alias. New presets: **Cindy Bod 5** (damage resistance), **Cindy MPCP 9** (utility-crash resistance), **Cindy Willpower 3**, **Shield 2**, **Restore 4**, **Commlink 4**, **Matrixlink 4**; Hacking Pool moved 4 → 5. `Attack` and `Armor` were deliberately removed - an unlisted skill name falls back to 5 dice and echoes the requested label back, so a stale habit is visible rather than silently wrong.
+**Preset status (updated 2026-11-09):** the `!cindy-roll` presets and the GM panel defaults were **repointed to this page's core-9 values** in the live bridge (`PANEL_ROLL_PRESETS`, `voice_chat.py`). New presets: **Cindy Bod 5** (damage resistance), **Cindy MPCP 9** (utility-crash resistance), **Cindy Willpower 5**, **Shield 2**, **Restore 4**, **Commlink 4**, **Matrixlink 4**; Hacking Pool moved 4 to 5. `Attack` and `Armor` were deliberately removed - an unlisted skill name falls back to 5 dice and echoes the requested label back, so a stale habit is visible rather than silently wrong.
+
+**Skill presets added 2026-11-09 with the copied Combat Decker package:** `Computer` / `Cindy Computer` now roll **6** (the trained skill) while `Pilot` / `Cindy Pilot` stay at **5** (the built-in floor) - deliberately no longer the same preset. Also live: Computer B/R **4**, Electronics B/R **4**, Etiquette and Etiquette Matrix **3**, Cindy Intelligence **5**, Cindy Charisma **5**, Data Havens **5**, Matrix Gangs **4**.
 
 **Sleaze note:** it was briefly set to 4 in the 09:33 EST deploy, on the mistaken Frame Point budget described above. It is **5** again; the bridge was restarted again after that correction. Verify against this page if the bridge is later rolled back.
 
@@ -325,7 +415,7 @@ Recorded so nobody re-litigates them mid-session.
 3. **Unspent Frame Points (37).** Nothing left to buy except Pool rating (cap 9) and Initiative dice (up to 5D6). Say the word if you want either; neither was taken without a ruling. Note the tension with "competent, not elite": Pool 9 lets her produce a rating 9 utility on demand, which is better gear than several sample deckers carry standing.
 4. **Response Increase 1.** It is deck hardware on a *frame* sheet, and it is one of the numbers inherited from the suspect recovered profile. As printed it grants +2 Reaction and +1D6 Initiative, which conflicts with GM-tuned Reaction 6 and would make the purchased Initiative die redundant. It needs a home or a deletion.
 5. **Provenance of the recovered profile** - still unanswered from the previous pass. The six recovered numbers match the core rulebook's **stock CMT Avatar cyberdeck** row exactly (MPCP-7, Hardening 4, Active 700, Storage 1400, I/O 300, Response Increase 1), and eight of her nine original utilities match the sample Combat Decker who runs one.
-6. **Skills** - next subject; see *Skills* below once it is written.
+6. **Skills - resolved 2026-11-09.** The GM adopted the core rulebook Combat Decker package (printed p. 67) under the derived-attribute ruling; see *Skills* above. Two follow-ups stay open there: the 16-dice Matrix pool throttle, and whether to add general Electronics plus a Search Operations specialization.
 7. **Magic** - whether Confuse, manabarriers, or an astrally projecting mage can touch her at all.
 
 

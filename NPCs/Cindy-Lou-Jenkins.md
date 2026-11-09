@@ -25,6 +25,7 @@ sources:
   - ../Sessions/2026-09-17.md
   - GM ruling, Cindy GM Interaction Thread, 2026-11-06
   - GM ruling, Cindy GM Interaction Thread, 2026-11-09 (frame core 9 and downstream stats, damage/reboot, Willpower)
+  - GM ruling, Cindy GM Interaction Thread, 2026-11-09 (derived mental attributes = ceil(frame core / 2); Willpower raised 3 to 5; skill package copied from the core rulebook Combat Decker, printed p. 67)
 ---
 
 # Cindy Lou Jenkins
@@ -112,8 +113,10 @@ The consolidated stat view, including damage, resistance, reboot, and the roll p
 - **Masking:** 6
 - **Sensor:** 5 (recovered profile; an earlier cut to 4 was based on the same wrong figure and is reversed)
 - **Hardening:** 4
-- **Willpower:** 3 (**GM ruling 2026-11-09** - see *Mind-affecting effects* on the [stats page](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md))
-- **Utility Pool:** 8 (*** allocation, *Matrix* p. 148) - strict SK per the GM ruling of 2026-11-09: operational utilities are allocated from the Pool, never carried
+- **Willpower:** 5 (**GM ruling 2026-11-09** - derived ceil(frame core / 2), raised from the 3 ruled earlier the same day; see *Mental attributes* on the [stats page](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md))
+- **Intelligence:** 5 (**GM ruling 2026-11-09** - derived ceil(frame core / 2); the attribute behind Computer, all Technical skills and all Knowledge skills)
+- **Charisma:** 5 (**GM ruling 2026-11-09** - derived ceil(frame core / 2); the attribute behind Etiquette and the Social skills)
+- **Utility Pool:** 8 (Pool-point allocation, *Matrix* p. 148) - strict SK per the GM ruling of 2026-11-09: operational utilities are allocated from the Pool, never carried
 - **Active Memory:** 700
 - **Storage Memory:** 1400
 - **I/O Speed:** 300 (still deck-scale for a large server; unresolved)
@@ -121,13 +124,33 @@ The consolidated stat view, including damage, resistance, reboot, and the roll p
 
 Persona Points are MPCP x 3 for a Semi-Autonomous Knowbot = **27**, not the agent value of core x 2. Bod 5 / Evasion 5 / Masking 6 / Sensor 5 assigns **21 of 27**, leaving **6 unspent**.
 
+
+### Skills (GM-approved package, 2026-11-09)
+
+**Skills are not bought with Frame Points.** Frame Points may be allocated to exactly four things - Pilot rating, Initiative, Utility Payload, Utility Pool (*Matrix* p. 148). A skill rating is not one of them, so the GM can grant skills freely. The real SR3 constraint is that **every skill is linked to an attribute**, and frames normally have no mental attributes at all - which is exactly why Pilot exists as a built-in Computer skill. The derived-attribute ruling above (ceil(frame core / 2) = 5) supplies Intelligence and Charisma, and that is what made this package legal rather than hand-waving.
+
+**GM decision: copy the core rulebook's Combat Decker sample character** (*Shadowrun, Third Edition*, Sample Characters, printed p. 67), dropping the body and hardware entries that do not apply to a server in a trailer.
+
+| Skill | Rating | Rolls against |
+|---|---|---|
+| **Computer** | **6** | Intelligence 5 - her real Matrix skill, above Pilot 5 |
+| **Computer (B/R)** | **4** | Intelligence 5 - programming; how she re-arms her own utilities |
+| **Electronics (B/R)** | **4** | Intelligence 5 - there is no plain Electronics in the source block, so live electronics work defaults at +4 |
+| **Etiquette (Matrix)** | **1 (3)** | Charisma 5 - the busking face; **Hacking Pool may not be added to Etiquette (Matrix) tests** (*Matrix* p. 26) |
+
+**Knowledge skills:** Data Havens 5, Jackpoint Locations 4, Matrix Gangs 4, Seattle Corporate Hosts 4, English (Decker Lingo) 3 (5) with Read/Write 2.
+
+Dropped as inapplicable: Bike, Pistols, Stealth, Unarmed Combat, Cyber-Implant Combat (she has no body), and the Seattle/ork flavour knowledge. Full list with reasons, plus the two gaps the copy leaves (general Electronics, Search Operations specialization): [stats page](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md).
+
+**Un-throttled consequence the GM should keep in view:** Computer 6 on Intelligence 5 plus Hacking Pool 5 is a **16-dice** Matrix test, against the 10 dice Pilot 5 used to produce. If "competent, not elite" should still hold, the levers are documented on the stats page.
+
 ### Damage, resistance, and reboot
 
 Icons use the standard 10-box Condition Monitor with a single physical track (no Stun); Bod sets the resistance pool rather than the track length.
 
 - **Damage-inflicting attacks:** Bod (5) test against the attack's Power.
 - **Utility-crash attacks:** MPCP (9) test against (attacker rating - Hardening 4).
-- **Mind-affecting gray/black IC and Pavlov effects:** Willpower (3) test.
+- **Mind-affecting gray/black IC and Pavlov effects:** Willpower (5) test - derived, see *Mental attributes* on the stats page
 - **Condition Monitor filled:** the icon crashes. Per the GM ruling of 2026-11-09, Cindy **cannot be permanently killed by Matrix damage** - she is rebuilt at the trailer from her **last memory backup**, losing the time between the crash and that backup. The GM sets the backup cadence scene to scene, making the interval a story lever. There is no decker behind the icon, so she is not dumped and takes no dump shock.
 
 ### Table-use decking runtime assumptions
@@ -135,6 +158,7 @@ Icons use the standard 10-box Condition Monitor with a single physical track (no
 Cindy Lou personally attempts Matrix crawls from her Pilot rating, which functions as her built-in Computer skill.
 
 - **Pilot (Computer skill):** 5 - *Matrix* p. 88: the Pilot rating acts as the frame's built-in Computer skill for any test it must make. Pilot also caps at the programmer's Computer (Programming) skill (p. 90), so whoever built her had at least Programming 5
+- **Trained Computer:** 6 on Intelligence 5, above Pilot 5 - the copied Combat Decker package (GM ruling 2026-11-09). `Pilot` and `Computer` are now separate roll presets
 - **Effective Detection Factor:** **6 only while a Sleaze 5 Pool allocation is running**, otherwise **3** - (Masking 6 + Sleaze) / 2, rounded up. Under the strict-SK ruling Sleaze is no longer standing code, so DF is something she buys each turn rather than something she has
 - **Default Hacking Pool available per focused test:** 5, capped at the base dice in the pool
 - **Utility Payload (strict SK, GM ruling 2026-11-09):** **Restore 4 and Shield 2 only** - the two Defensive utilities. Analyze, Browse, Deception, Sleaze, Scanner, Read/Write, Spoof and Validate are **Utility Pool allocations** at typical ratings 5/5/5/5/4/4/4/4, conjured as a Free Action and gone after a single use
@@ -142,8 +166,13 @@ Cindy Lou personally attempts Matrix crawls from her Pilot rating, which functio
 - **ECCM: none** (GM ruling 2026-11-09) - deliberate; jamming resistance for her drone links is future work for Mevin to buy
 - **Rules intent:** Cindy is a competent but not elite autonomous Matrix actor. She can handle modest hosts reliably, but hard hidden hosts and high-threshold rewards can still lock her out.
 
+<details markdown="1">
+<summary>Legacy stats - retired loadout and the superseded budget error (click to expand)</summary>
+
 **Loadout changes 2026-11-09:** Attack 4 and Armor 4 were removed; they stay removed. Sleaze was briefly trimmed to 4 to fit a Frame Point budget computed with the *agent* formula (core x 6 = 54) instead of the **SK** formula (MPCP x 8 = 72). That error is corrected on the [stats page](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md): Sleaze is **5** again, restoring her Detection Factor to 6, and Restore 4 and Shield 2 fit without any trim. Shield 2 still has exactly **two uses before it must be reloaded** via a Swap Memory operation, and Restore 4 cannot repair permanent damage from gray or black IC.
 
+
+</details>
 **No SOTA (GM ruling 2026-11-09):** State of the Art software maintenance is not in play for Cindy, so her ratings do not decay from unpaid upkeep. **Trailer hardware stats are out of scope for now** - the server that is nominally her real hit points still has no stat block.
 
 These assumptions are table-use scaffolding for play aids, not a final full SR3 character sheet.
@@ -153,6 +182,9 @@ These assumptions are table-use scaffolding for play aids, not a final full SR3 
 Per the same GM ruling, Cindy's field drones are **peripherals**, not independent operators and not hardware hosted in a vehicle. Cindy can reach them by **bouncing a signal to them remotely** from her Matrix presence. She does not need to be physically co-located with them, and they do not relay through a van or any other mobile host.
 
 Practical consequence for play: when Cindy uses [Dolly Zoom](../Vehicles/Dolly-Zoom.md) or [Tip Jar](../Vehicles/Tip-Jar.md), the link is a remote radio/Matrix path out of her trailer-hosted persona to the drone. Jamming, interference, or any loss of the underlying connectivity she shares with the trailer degrades or severs drone control.
+
+<details markdown="1">
+<summary>LEGACY STATS - abandoned GMC Bulldog mobile shell, never built. Do not cite in play (click to expand)</summary>
 
 ## Mobile host / vehicle chassis concept — ABANDONED CONCEPT, NEVER BUILT
 
@@ -274,6 +306,8 @@ Starting from the **GMC Bulldog Sec.** stock chassis (**50 CF / 960 kg**):
 
 A full **computer/electronics shop** inside the van was deliberately **not** recorded as canon hardware. Under *Rigger 3 Revised* vehicle customization rules, a shop alone is too space-hungry to be an easy fit inside a Bulldog while still leaving room for the rest of Cindy's shell. The write-up above therefore keeps the vehicle side canon and places the truly setting-specific AI host internals inside the explicit **house-rule SA-Knowbot Hardware Module**.
 
+
+</details>
 ## A-NPC field drones
 
 Cindy Lou also has two provisional in-game drone records for table use:

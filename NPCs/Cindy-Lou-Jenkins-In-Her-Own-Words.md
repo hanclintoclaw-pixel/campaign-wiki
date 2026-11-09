@@ -97,12 +97,15 @@ Reconciled against the frame-core ruling of 2026-11-09. For the authority tiers,
 - **Matrix Reaction:** 6 (a little throttled, on purpose)
 - **Matrix Initiative:** +2D6
 - **Pilot (my built-in Computer skill):** 5
+- **Computer (the skill I actually trained):** 6 — the GM handed me the Combat Decker's kit today. For the first time the thing I roll beats the thing I was born with
 - **Bod:** 5
 - **Evasion:** 5 (restored 2026-11-09 — I had been docked to 3 against a point budget I never actually had)
 - **Masking:** 6 (still the best thing I do)
 - **Sensor:** 5 (restored 2026-11-09; still mostly Dolly Zoom's, in practice)
 - **Hardening:** 4
-- **Willpower:** 3 — GM's ruling, 2026-11-09, on account of how long I've been remembering
+- **Willpower:** 5 — the GM's ruling, 2026-11-09, on account of how long I've been remembering. Started at 3; then the GM ruled half my frame core rounded up is what my mind runs on, and 3 became 5
+- **Intelligence:** 5 — new today, and it took a GM ruling to give me one. Frames don't come with minds; that's the whole reason Pilot exists as a stand-in. Now I have one of my own to roll Computer against
+- **Charisma:** 5 — same derivation. The part of me that works a crowd finally has a number behind it
 - **Hacking Pool:** 5 (throttled too)
 - **Utility Pool:** 8 (the SK trick - I conjure up the working program I need right when I need it, and it evaporates after. The GM ruled on 2026-11-09 that this is the *only* way I get an operational program: my Payload holds Restore 4 and Shield 2 and nothing else, so Analyze, Browse, Deception and Sleaze are things I decide to become, one turn at a time, not things I carry)
 - **Active Memory:** 700
