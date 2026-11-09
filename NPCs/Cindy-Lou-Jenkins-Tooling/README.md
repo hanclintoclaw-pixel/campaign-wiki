@@ -46,6 +46,7 @@ The system is therefore best described as **active support with GM approval**, n
 ## Stat and rules reference
 
 - [Cindy's In-Character Stats](Cindys-In-Character-Stats.md) - consolidated mechanical numbers for Cindy as a table-playable Semi-Autonomous Knowbot A-NPC: Matrix profile, Computer skill, utility ratings, GM-panel roll presets, drone presets, and mobile-shell quick reference.
+- [Cindy Lou Capability Card](Cindy-Lou-Capability-Card.md) - the player-facing "what can Cindy do for us" list, with the dice she actually rolls per capability and the standing cannot-do list. The live voice bridge reads this page to answer capability questions at the table.
 
 ## Active behavior tools
 
