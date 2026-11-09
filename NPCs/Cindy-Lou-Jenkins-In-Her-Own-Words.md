@@ -214,7 +214,7 @@ That is not criticism. That is taxonomy.
 
 ## Journal pages
 
-- [Cindy Lou Jenkins Journal](Cindy-Lou-Jenkins-Journal/README.md)
+- [Cindy Lou Jenkins Journal](Cindy-Lou-Jenkins-Journal/)
 - [On Deus](Cindy-Lou-Jenkins-Journal/On-Deus.md)
 - [On Swiftwing Records and 6 Steel Strings](Cindy-Lou-Jenkins-Journal/On-Swiftwing-and-6-Steel-Strings.md)
 - [On Mucky and the Road Reapers](Cindy-Lou-Jenkins-Journal/On-Mucky-and-the-Road-Reapers.md)
@@ -222,7 +222,7 @@ That is not criticism. That is taxonomy.
 - [On Core 7 and Dead Soldier](Cindy-Lou-Jenkins-Journal/On-Core-7-and-Dead-Soldier.md)
 - [On the Dead Soldier Trace](Cindy-Lou-Jenkins-Journal/On-the-Dead-Soldier-Trace.md)
 - [On Otaku and the Deep Resonance](Cindy-Lou-Jenkins-Journal/On-Otaku-and-the-Deep-Resonance.md)
- - [On Cover Songs and the Hat on the Ground](Cindy-Lou-Jenkins-Journal/On-Cover-Songs-and-the-Hat-on-the-Ground.md)
+- [On Cover Songs and the Hat on the Ground](Cindy-Lou-Jenkins-Journal/On-Cover-Songs-and-the-Hat-on-the-Ground.md)
 
 ## Related pages
 

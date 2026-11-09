@@ -1,4 +1,5 @@
 ---
+permalink: /NPCs/Cindy-Lou-Jenkins-Journal/
 title: Cindy Lou Jenkins Journal
 type: journal-index
 visibility: player-safe
@@ -6,6 +7,8 @@ status: active
 last_updated_session: 2026-08-30
 parent_page: ../Cindy-Lou-Jenkins-In-Her-Own-Words.md
 tags: [npc, cindy, journal, personality-profile, subjective]
+generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
+generated_at: 2026-11-09
 ---
 
 # Cindy Lou Jenkins Journal
@@ -29,4 +32,4 @@ For the broader first-person profile page, see: [Cindy Lou Jenkins, In Her Own W
 - [On Core 7 and Dead Soldier](On-Core-7-and-Dead-Soldier.md)
 - [On the Dead Soldier Trace](On-the-Dead-Soldier-Trace.md)
 - [On Otaku and the Deep Resonance](On-Otaku-and-the-Deep-Resonance.md)
- - [On Cover Songs and the Hat on the Ground](On-Cover-Songs-and-the-Hat-on-the-Ground.md)
+- [On Cover Songs and the Hat on the Ground](On-Cover-Songs-and-the-Hat-on-the-Ground.md)

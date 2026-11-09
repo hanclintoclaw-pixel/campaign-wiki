@@ -99,7 +99,7 @@
 ## Related Reference Layers
 
 - [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
-- [Cindy Lou Jenkins Journal](Cindy-Lou-Jenkins-Journal/README.md)
+- [Cindy Lou Jenkins Journal](Cindy-Lou-Jenkins-Journal/)
 - [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/README.md)
 - [Faction pages](../Factions/)
 - [Organization pages](../Organizations/README.md)
