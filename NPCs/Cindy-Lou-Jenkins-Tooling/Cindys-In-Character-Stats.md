@@ -408,7 +408,13 @@ Recorded so nobody re-litigates them mid-session.
 - **No SOTA.** The campaign does not run Saeder-Krupp State of the Art software maintenance for Cindy. Consequence: **no upkeep-based rating decay**. Her utility ratings do not slide because nobody is paying a maintenance contract, so a low rating is a build choice or an injury, never an accounting artifact. This also removes "nobody maintains her" as a free explanation for any stat being lower than it should be.
 - **Trailer hardware is out of scope for now.** The trailer server is nominally her real hit points under the reboot ruling, and it still has no stat block - no cabinet Body or Armor, no battery reserve, no physical security, no MSP line bandwidth. Deliberately deferred, not forgotten. Until it has numbers, the GM sets what it takes to threaten her permanently by scene.
 
-## Still open for the GM
+## To do (parked)
+
+<details markdown="1">
+<summary>Open GM decisions - set aside 2026-11-09. Nothing here blocks play. (click to expand)</summary>
+
+The stat sheet is complete and playable as it stands. These are calls the GM has not made yet, plus one escalation the GM should notice before a big Matrix scene. Answering "what can Cindy do right now" does not require any of them - where one is load-bearing, say so rather than guessing.
+
 
 1. **Out-of-combat Utility Pool refresh.** The book refreshes the Pool at the start of each Combat Turn and says nothing about peacetime. Decide whether Cindy may hold one or two utilities up out of combat - this sets whether she is DF 6 or DF 3 while the crew is simply walking down the street.
 2. **Spare Persona Points.** 6 of her 27 go unspent. They can raise an attribute (nothing may exceed core 9), or the GM can call them unassigned.
@@ -418,6 +424,7 @@ Recorded so nobody re-litigates them mid-session.
 6. **Skills - resolved 2026-11-09.** The GM adopted the core rulebook Combat Decker package (printed p. 67) under the derived-attribute ruling; see *Skills* above. Two follow-ups stay open there: the 16-dice Matrix pool throttle, and whether to add general Electronics plus a Search Operations specialization.
 7. **Magic** - whether Confuse, manabarriers, or an astrally projecting mage can touch her at all.
 
+</details>
 
 ## Table boundaries
 
