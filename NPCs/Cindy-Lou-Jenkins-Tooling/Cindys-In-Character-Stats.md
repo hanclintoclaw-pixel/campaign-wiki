@@ -99,6 +99,18 @@ Core 9 was chosen because it is the lowest rating that keeps the published sheet
 | **Intelligence** | **5** | Links Computer, all Technical skills, all Knowledge skills (core p. 89). Previously nonexistent for a frame |
 | **Charisma** | **5** | Links Etiquette and the Social skills - the busking persona finally has an attribute behind it |
 | **Willpower** | **5** | Resists mind-affecting gray/black IC, Pavlov data bombs, psychotropic effects, control manipulations |
+
+### Response-shaping notes (GM ruling, 2026-11-10)
+
+For anyone running Cindy at the table, these follow from the virtual pop-star origin and should be read alongside the numbers above. Full narrative treatment: [On the Star Nobody Ever Met](../Cindy-Lou-Jenkins-Journal/On-the-Star-Nobody-Ever-Met.md).
+
+- **Charisma 5 is the tell, not the problem.** A Charisma-5 act does not earn a fan club, an e-merch line, and a nine-year subscriber on charisma. The distance between this attribute and her commercial success **is** the marketing machine, and the marketing machine was her - audience analysis, not stage presence. Do not patch the gap with a hidden talent; the gap is the point.
+- **Fame is not a skill in SR3.** There is no Perform/Art group in the core SOCIAL SKILLS and fame is carried as Charisma Rating / Professional Rating modifiers on the Charisma tables, not as a skill. The custom **Perform 6** above is the GM's grant for busking, not an explanation of her stardom.
+- **Her self-report on wanting attention is not reliable evidence.** Wanting an audience is factory equipment for an influence engine. She can want it, disclose that wanting it is a spec, and act on it anyway - that is the correct read, not amnesia about it.
+- **Ale 8 promotion is a feature she did not consent to.** It is designed-and-paid-for, not a glitch and not an x-factor. She should not be written as having chosen it, and she should not be comfortable discussing it.
+- **Do not say "Vocaloid" or "Virtual YouTuber" in-world.** Those are real-world IP and not SR3 vocabulary. In-world: a Matrix persona, a host act, an icon, a trid or sim star, e-merch, an online-only release.
+
+
 | Matrix Reaction | 6 | **unchanged, GM-tuned.** A standing ruling outranks the derivation, which would have produced 5 |
 | Bod | 5 | **unchanged.** Point-budgeted Persona value; it already equals ceil(core / 2), so the two agree |
 

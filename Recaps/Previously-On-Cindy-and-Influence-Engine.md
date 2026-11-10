@@ -38,4 +38,4 @@ updated: 2026-04-10
 
 ## Alias / continuity note
 
-Across the archive, this thread uses several names that appear related but not yet perfectly resolved: **Cindy Liu Thompson**, **Cindy-Lou**, **Cindy Liu Jenkins**, and **Cindy Lou Prime**. The wiki now treats those as a tracked alias cluster rather than pretending the distinctions are already settled.
+Across the archive this thread uses **Cindy Liu Thompson**, **Cindy-Lou**, **Cindy Liu Jenkins**, and **Cindy Lou Prime**. **Settled by GM ruling, 2026-11-10:** the character's name is **Cindy Lou Jenkins** and the variants are **errors in the records** - user or GM error, not separate entities and not an unresolved continuity question. They are kept as retrieval aliases only so that a reader arriving from an old record lands on the right page. See [Name authority](../NPCs/Cindy-Lou-Jenkins.md#name-authority-gm-ruling-2026-11-10).

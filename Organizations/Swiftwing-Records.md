@@ -3,6 +3,14 @@ title: Swiftwing Records
 type: organization
 visibility: player-safe
 updated: 2026-11-10
+canon_status: canon
+generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
+generated_at: 2026-11-10
+sources:
+  - GM ruling, New Cindy GM Interaction Thread, 2026-11-10 (virtual pop-star origin; Ale 8 paid endorsement; name authority)
+  - ../NPCs/Cindy-Lou-Jenkins.md
+  - ../Sessions/2023-04-06.md
+  - ../Sessions/2026-05-28.md
 aliases:
   - Swiftwing Records
 ---
@@ -18,11 +26,17 @@ No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus.
 
 ## Overview
 
-The music-industry organization tied to Cindy Liu Thompson's original know-bot platform and the earliest formal setup of the Cindy rescue/investigation arc.
+The record label that **bought** the virtual pop act **Cindy Lou Jenkins** and used her as an audience-analysis and market-shaping instrument. Swiftwing is the origin point of the campaign's long-running music / AI / influence-engine thread and the earliest formal setup of the Cindy rescue-investigation arc.
+
+*Older records here named her "Cindy Liu Thompson"; that is a record error - see [Name authority](../NPCs/Cindy-Lou-Jenkins.md#name-authority-gm-ruling-2026-11-10).*
 
 ## What the crew knows
 
-- Swiftwing Records developed or hosted Cindy's semi-autonomous know-bot platform.
+- Swiftwing **bought** Cindy rather than building her (GM ruling, 2026-11-10). The label owned and operated the platform; it is **not** the source of the underlying architecture, which is a cost profile a record label does not fit.
+- Swiftwing ran Cindy as a **Matrix virtual pop star** - high-resolution icon, online-only tracks, e-merch - and **placed and defended the PR line that she was a real person** (GM ruling, 2026-11-10).
+- Swiftwing **paid** to use her for deep audience analysis and market shaping. That was the product; the entertainment was the delivery vehicle.
+- **Ale 8 endorsement:** Swiftwing's commercial goal included songs intentionally built to make listeners more likely to buy and drink Ale 8, for which Swiftwing was paid (GM ruling, 2026-11-10). The crew's observation of compulsive product promotion was this feature, not a malfunction.
+- The press line of exclusive underground shows - which any given fan was simply never lucky enough to have attended - was Swiftwing marketing architecture, not Cindy's performance history.
 - The original job framing treated Cindy's physical host/server platform as the recoverable "body" in question.
 - Swiftwing sits near the origin point of the campaign's long-running music / AI / influence-engine thread.
 - By **2026-05-28**, session reasoning suggested Swiftwing may have been working from architecture, code, or commercially adapted design lineage traceable back toward **Core 7 / Site 7** rather than inventing Cindy's foundation in isolation.
@@ -44,6 +58,8 @@ The music-industry organization tied to Cindy Liu Thompson's original know-bot p
 
 ## Open questions
 
-- Was Swiftwing merely the origin platform owner, or already part of a larger influence-engine system?
+Settled by the GM ruling of 2026-11-10: Swiftwing **bought** Cindy and used her as an audience-analysis and market-shaping product, including the paid Ale 8 endorsement. These are **not** open questions.
+
+- Since Swiftwing bought rather than built, **who built her**, and did that builder's architecture reach Swiftwing through **Core 7 / Site 7** directly or through an intermediary?
 - How much continuity exists between the Swiftwing Cindy and later Cindy/Darla manifestations?
-- Did Swiftwing directly license or copy Core 7-derived technology, or receive it through an intermediary?
+- Whether Swiftwing's **Ale 8 contract** had other clients with the same ask, and whether the endorsement work extended beyond beverage advertising.

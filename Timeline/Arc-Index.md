@@ -41,7 +41,7 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 ## 2. Cindy / knowbot / music-industry influence-engine arc
 
-**Core idea:** Cindy Lou Jenkins, with historical records also using Cindy-Lou, Cindy Liu Thompson, and Cindy Liu Jenkins, as a moving target across theft, performance infrastructure, manipulation systems, and later protected-AI survival.
+**Core idea:** Cindy Lou Jenkins - a **Matrix virtual pop star** bought by Swiftwing Records to run audience analysis and market shaping, including a paid Ale 8 endorsement - as a moving target across theft, performance infrastructure, manipulation systems, and later protected-AI survival. Record variants of her name (Cindy-Lou, Cindy Liu Thompson, Cindy Liu Jenkins, Cindy Lou Prime) are **errors**, closed by GM ruling 2026-11-10; see [Name authority](../NPCs/Cindy-Lou-Jenkins.md#name-authority-gm-ruling-2026-11-10).
 
 **Key sessions**
 - [2023-03-20](../Sessions/2023-03-20.md) — Blue Rayven and Cindy support-hardware trail
@@ -62,8 +62,10 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 **Important names**
 - Cindy Lou Jenkins
-- Cindy Liu Thompson (historical incorrect record name)
-- Cindy Liu Jenkins (historical variant)
+- Cindy Liu Thompson (record error; retrieval alias only)
+- Cindy Liu Jenkins (record error; retrieval alias only)
+- Cindy Lou Prime (record error; retrieval alias only)
+- Swiftwing Records (bought and operated the act)
 - 6 Steel Strings
 - Blue Rayven
 - Skizzix

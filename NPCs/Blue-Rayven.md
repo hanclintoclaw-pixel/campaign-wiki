@@ -26,7 +26,7 @@ A dealer in high-end Matrix hardware who became a key logistics lead in the earl
 
 ## Relationships
 
-- Linked to **Cindy Liu Thompson** through support-hardware tracing.
+- Linked to **[Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)** through support-hardware tracing. (Early records misname her **Cindy Liu Thompson**; see the name authority ruling on the [character page](Cindy-Lou-Jenkins.md#name-authority-gm-ruling-2026-11-10).)
 - Linked to the broader Cindy / knowbot / influence-engine arc.
 
 ## Relevant Sessions

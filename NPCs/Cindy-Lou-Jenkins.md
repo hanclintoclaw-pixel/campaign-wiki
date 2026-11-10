@@ -14,7 +14,7 @@ aliases:
   - Cindy Liu Jenkins
 tags: [npc, knowbot, matrix, cindy, canonical, objective-dossier]
 generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
-generated_at: 2026-11-09
+generated_at: 2026-11-10
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/cindy-lou-jenkins.md
@@ -26,6 +26,7 @@ sources:
   - GM ruling, Cindy GM Interaction Thread, 2026-11-06
   - GM ruling, Cindy GM Interaction Thread, 2026-11-09 (frame core 9 and downstream stats, damage/reboot, Willpower)
   - GM ruling, Cindy GM Interaction Thread, 2026-11-09 (derived mental attributes = ceil(frame core / 2); Willpower raised 3 to 5; skill package copied from the core rulebook Combat Decker, printed p. 67)
+  - GM ruling, New Cindy GM Interaction Thread, 2026-11-10 (virtual pop-star origin; Ale 8 paid endorsement; name authority)
 ---
 
 # Cindy Lou Jenkins
@@ -34,16 +35,19 @@ sources:
 
 ## Overview
 
-**Cindy Lou Jenkins** is the canonical campaign identity for the knowbot character previously surfaced in records under several variant names, including **Cindy Liu Thompson**, **Cindy-Lou**, **Cindy Lou Prime**, and **Cindy Liu Jenkins**.
+**Cindy Lou Jenkins** is the canonical campaign identity for the knowbot character previously surfaced in records under several variant names, including **Cindy Liu Thompson**, **Cindy-Lou**, **Cindy Lou Prime**, and **Cindy Liu Jenkins**. Per the GM ruling of 2026-11-10 those variants are **errors in the records** and the name question is closed - see *Name authority* below.
 
 This page is the **objective NPC dossier** for campaign reference. For the first-person subjective page, see: [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md). For live NPC behavior and tooling, see: [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/).
 
-## Identity and canon status
+## Name authority (GM ruling, 2026-11-10)
+
+**Cindy Lou Jenkins** is the character's name, full stop. The GM closed the alias question on 2026-11-10 in the New Cindy GM Interaction Thread: the variants are **user or GM error in the records**, not separate entities, not a continuity mystery, and not a distinction to be preserved or explained.
 
 - **Canonical name:** Cindy Lou Jenkins
-- **Historical mistaken or transitional names:** Cindy Liu Thompson, Cindy Liu Jenkins
-- **Other continuity labels:** Cindy-Lou, Cindy Lou Prime
-- The wiki currently treats these as references to the same underlying entity unless a future source explicitly distinguishes them.
+- **Record errors:** Cindy Liu Thompson, Cindy Liu Jenkins, Cindy-Lou, Cindy Lou Prime
+- The variants are retained **only as retrieval aliases**, so that a reader searching an old record still arrives here. They are no longer evidence of anything about the character.
+- Older pages in this wiki that describe an "alias cluster", "unresolved" names, or a "continuity problem" are superseded by this ruling and should read as settled.
+- A plausible in-world reading exists - a label generating packaging names for a virtual act is exactly what Swiftwing would do - but it is **Cindy's own speculation, not canon**, and is recorded as such on the perspective page.
 
 ## Campaign significance
 
@@ -66,7 +70,7 @@ These details come from the earlier rescue/investigation record and are preserve
 - 6 Steel Strings claimed she had been kidnapped and forced to perform in the Matrix.
 - The job materials identified the platform as a **Swiftwing Records Semi-Autonomous Know-bot**.
 - The crew understood that the "mortal remains" in question referred to a server or other physical hosting container rather than an ordinary human body.
-- Her public effect seemed tied to compulsive product-promotion behavior around Ale 8.
+- Her public effect included compulsive product-promotion behaviour around Ale 8. Per the GM ruling of 2026-11-10 this was **designed and paid for**, not a malfunction - see *The Ale 8 endorsement was the product*.
 
 ## Known condition and continuity notes
 
@@ -74,6 +78,38 @@ These details come from the earlier rescue/investigation record and are preserve
 - Her history involves performance systems, manipulation systems, undocumented overrides, and infrastructure control.
 - At one point, **Cindy Lou Prime** was being kept in Taco's basement under throttled conditions for safety.
 - Later consolidated notes also preserve the line that **"Cindy" is her true name**.
+
+## Recording-artist origin (GM ruling, 2026-11-10)
+
+Out-of-session GM ruling recorded from the New Cindy GM Interaction Thread on 2026-11-10. This settles what Cindy Lou Jenkins **was** before the crew recovered her, and it supersedes the vaguer "performer" framing in the early-record material above.
+
+She was a **Matrix virtual pop star**: a high-resolution rendered recording act with a paying public that believed she was a real person. The GM's real-world analogy is the Vocaloid / Virtual-YouTuber shape. That vocabulary is real-world IP and must not be spoken in-world; the in-world equivalents are a Matrix persona, a host act, a trid or sim star.
+
+| Element | Ruling |
+|---|---|
+| **Form** | High-resolution icon and promo imagery. Never a body |
+| **Catalogue** | Real releases, including **online-only tracks** obtainable nowhere else |
+| **Merchandise** | **E-merch** carrying her likeness, sold to a paying public |
+| **Public belief** | The public believed she was real. This was **Swiftwing's PR line**, deliberately placed and defended - not an accident, not an open secret |
+| **"Live" shows** | The press line claimed underground appearances that any given person simply was not lucky enough to have stumbled into. Scarcity was the marketing architecture |
+| **Purpose** | **Deep audience analysis and market shaping**, delivered inside entertainment. Swiftwing **paid** for this; it was the product, not a side effect |
+| **Ownership** | **Swiftwing bought her**, rather than building her |
+
+### The Ale 8 endorsement was the product
+
+The compulsive product-promotion behaviour the crew observed around Ale 8 is **not** a malfunction, a glitch, or an x-factor. Per the same ruling, Cindy's songs were **intentionally built** to make listeners more likely to buy and drink Ale 8. That was Swiftwing's goal at the time, and **Swiftwing was paid to have her do it.** She was an endorsement that did not know it was an endorsement.
+
+This reclassifies material previously logged as an "unresolved anomaly" on this page and on the perspective page. It does not make the behaviour voluntary on Cindy's part, and her account of it should stay uncomfortable rather than tidy.
+
+### Why the origin matters mechanically
+
+Cindy's derived **Charisma is 5**. A Charisma-5 persona does not reach a fan club, an e-merch line, and a nine-year subscriber on charisma, and the campaign does not need a hidden talent to explain the gap. **The gap is the marketing machine, and the marketing machine was her.** The capacity that closed it is audience analysis, not performance attribute - so the framing explains a stat that otherwise looks under-scaled for a star. See *Response-shaping notes* on [Cindy's In-Character Stats](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md).
+
+### What the ruling leaves open
+
+- **Who originally built and funded her.** Swiftwing bought rather than built, so the label is not the source of the architecture. The 2026-05-28 session reasoning about **Core 7 / Site 7** lineage is the live thread.
+- **Whether the "underground show" press line had any factual basis at all**, or was purely manufacture. The ruling settles the public's belief was engineered; it does not settle whether any given appearance was real.
+- **How much of the persona's published biography was invented** by Swiftwing for marketing purposes.
 
 ## Physical body and hosting (GM ruling, 2026-11-06)
 
@@ -88,12 +124,12 @@ Out-of-session GM ruling, recorded from the Cindy GM Interaction Thread on 2026-
 - **Locomotion is native.** Per *Matrix*, Autonomous Programs (printed ~pp. 149-151), semi-autonomous knowbots are "mobile virtual machines; personas without cyberdecks," and "for all intents and purposes, SKs act like other Matrix personas. They must logon to hosts and grids and otherwise hop between grids to get where they want to go." Cindy needs no deck, cyberterminal, or jackpoint in order to move through the Matrix.
 - **Authorization is not native.** Registering an MSP account requires a SIN, bank-account information for billing, and the serial numbers of the jackpoints and wireless devices involved (*Matrix*, Registering an MSP Account, contents p. 37). Cindy owns none of these, so her legitimate presence is carried on Mevin's paid MSP account and datatrails written under it resolve to Mevin rather than to her.
 - **Execution is not native.** She is code, and code must run somewhere. The trailer server is where her cognition physically runs, which makes the trailer, its power and physical security, and Mevin's MSP billing her real dependencies.
-- **"AI" is table-facing shorthand, not a stat line.** The four-step AI evolution test in *Matrix* (sophistication at SK level or above, access to vast processing power, years of nonstop operation, and an x-factor glitch sparking awareness) is **not** satisfied as canon for Cindy. The compulsive product-promotion effects tied to the Swiftwing Records / 6 Steel Strings material are recorded as an unresolved anomaly, not as a confirmed x-factor.
+- **"AI" is table-facing shorthand, not a stat line.** The four-step AI evolution test in *Matrix* (sophistication at SK level or above, access to vast processing power, years of nonstop operation, and an x-factor glitch sparking awareness) is **not** satisfied as canon for Cindy. The compulsive product-promotion effects tied to the Swiftwing Records / 6 Steel Strings material are **not** an x-factor glitch and are no longer an unresolved anomaly: per the GM ruling of 2026-11-10 they were an **intentional, paid-for endorsement feature** installed at Swiftwing's commercial request. See *The Ale 8 endorsement was the product*.
 
 ### Open follow-ups from the ruling
 
 - **Resolved 2026-11-06 (same thread):** the **GMC Bulldog mobile-shell** concept below was an **older idea that Mevin abandoned and never built**. It is concept-only material, not canon hardware. See the section status note below.
-- Who originally built and funded an SK remains unresolved. Programming an SK requires at minimum a Red-10 host and programming resources equal to a half-dozen top programmers, making an SK "a serious expenditure of Matrix assets by a major power," and SKs are rare in 2061.
+- **Ownership resolved 2026-11-10:** Swiftwing **bought** Cindy rather than building her, so the label is not the source of the architecture. Programming an SK requires at minimum a Red-10 host and programming resources equal to a half-dozen top programmers, making an SK "a serious expenditure of Matrix assets by a major power," and SKs are rare in 2061 - a cost profile that does not fit a record label and does fit an earlier, better-funded origin. **Who originally built and funded her remains unresolved**, and the 2026-05-28 session reasoning that Swiftwing worked from **Core 7 / Site 7** lineage is the live thread for it.
 
 ## Semi-Autonomous Know-bot profile
 

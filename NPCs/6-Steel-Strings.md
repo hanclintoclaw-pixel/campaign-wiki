@@ -16,18 +16,18 @@ sources:
 
 ## Overview
 
-Contact who hired the crew into the Cindy Liu Thompson / stolen know-bot server job.
+Contact who hired the crew into the **Cindy Lou Jenkins** / stolen know-bot server job. (The early record name "Cindy Liu Thompson" is a record error - see [Name authority](Cindy-Lou-Jenkins.md#name-authority-gm-ruling-2026-11-10).)
 
 ## Known Facts
 
 - 6 Steel Strings reached out to Mevin for a high-value contract.
 - He offered up to 100,000¥ via an escrow account.
-- He claimed Cindy Liu Thompson had been kidnapped and forced to perform in the Matrix.
+- He claimed **Cindy Lou Jenkins** had been kidnapped and forced to perform in the Matrix. The claim was true as far as it went - she had been taken from Swiftwing, where her performance was contracted work including **paid Ale 8 endorsement engineering** (GM ruling, 2026-11-10). What his framing left out is the commercial relationship he was describing as a rescue.
 - He appeared emotionally invested rather than merely transactional.
 
 ## Relationships
 
-- Linked to **Cindy Liu Thompson**.
+- Linked to **[Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)**.
 - Linked to **Mevin** via the contract.
 - Linked to the Swiftwing Records know-bot theft/rescue arc.
 
