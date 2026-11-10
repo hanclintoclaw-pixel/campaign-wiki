@@ -30,7 +30,7 @@ Two things identify the set, and **both** must be present:
 | Signal | Purpose |
 | --- | --- |
 | Heading `## Open Questions (Cindy's)` | What a **reader** sees. Consistent wording so it is findable and can be filtered. |
-| `<!-- cindy-blocked:open-questions -->` | What **machines** see. Kramdown drops HTML comments from the rendered page, so the heading alone is what survives to a crawler - the comment is the unambiguous marker. |
+| `<!-- cindy-blocked:open-questions -->` | What **machines** see. Verified 2026-11-10: kramdown keeps the comment in the rendered HTML, so it is invisible to a reader but still present for a retriever parsing the published page. The heading alone is not enough - wording can drift, the comment cannot. |
 
 ## Why both exist
 
