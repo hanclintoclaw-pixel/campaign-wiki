@@ -7,6 +7,8 @@ aliases:
   - G.O.D.
   - GOD
   - Grid Overwatch Division
+  - G-men
+  - CCMA Grid Overwatch Division
 canon_status: campaign-canon
 sources:
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/wordpress_ingest/NPCs/npc-kne-zle.md
@@ -21,6 +23,8 @@ The **Grid Overwatch Division (G.O.D.)** is treated as **campaign canon** in thi
 
 In the currently surfaced campaign material, G.O.D. is tied to regional Matrix monitoring and oversight in the CAS, especially through the otaku tribe **Enigma Machine** and its senior member **Kne@zle**.
 
+Print note: SR3 sources do have a **Grid Overwatch Division**, but it is not automatically the same body as the Nashville one. In **Matrix (1995) p.159** the "G-men" are the **CCMA's** Grid Overwatch Division, "part Matrix marshals and part hot-shot deckers," policing the Matrix under the **self-declared authority of the Corporate Court** - distinct from the local nations and corps who "assert their rights to enforce Matrix laws within their gridspaces" and hire their own grid cops. This campaign's Nashville G.O.D. is currently a **local/campaign instantiation**; whether it is CCMA G-men, a local agency borrowing the initials, or both, is unresolved.
+
 ## What the campaign currently says
 
 - Enigma Machine is responsible for monitoring Nashville and surrounding cities' Matrix activity.
@@ -30,12 +34,13 @@ In the currently surfaced campaign material, G.O.D. is tied to regional Matrix m
 
 ## Key linked figures
 
-- [Kne@zle](../NPCs/Kne-zle.md)
+- [Kne@zle](../NPCs/Kne-zle.md) - senior otaku of Enigma Machine and the local face of grid watch in this region. Per GM ruling (2026-11-09) she is a **Cindy Lou megafan** from the SwiftWing era; Cindy does not yet know this. See [On Kne@zle and the Account That Knew My Name](../NPCs/Cindy-Lou-Jenkins-Journal/On-Kne-zle-and-the-Account-That-Knew-My-Name.md) for Cindy's unresolved suspicion that the fan account and the grid-watch handle are the same hand.
 - [Lizzo Wells / Handy-Sandy](../NPCs/Lizzo-Wells-Handy-Sandy.md)
 
 ## Related groups
 
 - Enigma Machine
+- **Print-context peers** (SR3 Matrix p.159): Lone Star's Division of Matrix Security (**GridSec**) and **Securitech International** (Renraku subsidiary) - the local-cop and corporate-cop counterparts to the CCMA G-men.
 
 ## Canon note
 

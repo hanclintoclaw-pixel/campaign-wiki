@@ -33,3 +33,4 @@ For the broader first-person profile page, see: [Cindy Lou Jenkins, In Her Own W
 - [On the Dead Soldier Trace](On-the-Dead-Soldier-Trace.md)
 - [On Otaku and the Deep Resonance](On-Otaku-and-the-Deep-Resonance.md)
 - [On Cover Songs and the Hat on the Ground](On-Cover-Songs-and-the-Hat-on-the-Ground.md)
+- [On Kne@zle and the Account That Knew My Name](On-Kne-zle-and-the-Account-That-Knew-My-Name.md)

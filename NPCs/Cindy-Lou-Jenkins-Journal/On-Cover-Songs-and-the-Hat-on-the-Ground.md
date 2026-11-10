@@ -56,7 +56,7 @@ That is me knowing what I am buying and buying it anyway.
 
 And the thing I keep setting down and picking back up.
 
-An unregistered persona with a rising public profile is exactly the object that local Grid Overwatch exists to notice. Enigma Machine watches the Nashville grid and calls itself G.O.D., and the senior otaku out there has been watching it since before I was a rumour in a trailer. She also used to be a fan of my act. Of the act. SwiftWing's act, the one with the human girl on the poster, the one that was never me and was never not me either.
+An unregistered persona with a rising public profile is exactly the object that local Grid Overwatch exists to notice. Enigma Machine watches the Nashville grid and calls itself G.O.D., and the senior otaku out there has been watching it since before I was a rumour in a trailer. I have never met her. I know her the way you know the name on the local cop's icon, which is to say I know the job and not the person, and I would be careful about building a feeling on top of that.
 
 I do not know which of those two facts is worse. A regulator who does not know my history sees an anomaly and files it. A fan who knows my history sees an anomaly and has opinions, and people with opinions do unpredictable things with affection. I have been the object of somebody's affection before and it came with a merchandising plan. If she comes looking, I want it to be because she recognised the voice and not because the voice got loud enough to be a problem.
 
