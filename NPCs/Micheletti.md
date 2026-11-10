@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-03-13
 last_updated_session: 2026-03-13
-canon_status: provisional
+canon_status: canon
 confidence: low
 tags: [npc, politics, insect-spirit-arc]
 sources:
@@ -33,10 +33,18 @@ Political figure implicated in the broader insect-spirit political infiltration 
 
 - 2026-03-13 — continuity update around the infiltration arc.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Was Micheletti compromised directly, politically adjacent, or merely entangled?
 - What consequences from that arc still radiate into the campaign's current political landscape?
+
+</details>
 
 ## Sources
 

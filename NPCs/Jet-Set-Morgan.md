@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-04-09
 last_updated_session: 2026-04-30
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, surveillance-target, current-arc]
 sources:
@@ -41,11 +41,19 @@ Active surveillance target in the April 9 session.
 - 2026-04-09 — first confirmed as active target in durable memory.
 - 2026-04-30 — interrogated after capture and reframed as a manipulated disposable worker rather than a prime mover.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who is Jet Set Morgan really working for?
 - How much autonomy does he actually have under the root-kitted control architecture wrapped around him?
 - Could he become a useful witness/contact against the broader network, or is he too compromised?
+
+</details>
 
 ## Sources
 

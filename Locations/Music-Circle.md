@@ -41,10 +41,18 @@ Downtown Nashville lunch-traffic plaza/park used as **Alvin Flang's** known off-
 - 2026-06-04 — first surfaced as Alvin's park-side handoff zone.
 - 2026-07-02 — became the launch point for the follow that exposed Palermo's underground operating location.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Was Music Circle chosen because of its access to the underground route, or did Palermo merely use that route after the surface meet?
 - How many surveillance teams were already operating there before the crew arrived?
+
+</details>
 
 ## Sources
 

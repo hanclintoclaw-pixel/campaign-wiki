@@ -41,10 +41,18 @@ Player-safe mapped district/location associated with **[Lafayette Tower](Lafayet
 
 - 2026-07-02 — referenced during the underground follow toward Palermo's operating location.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What are the in-world boundaries of Little Chiba?
 - Who controls or influences the district above the underground market routes?
+
+</details>
 
 ## Sources
 

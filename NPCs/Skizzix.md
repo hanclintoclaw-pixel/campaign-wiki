@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2024-02-08
 last_updated_session: 2024-02-08
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, impersonator, deception, cindy-arc]
 sources:
@@ -32,10 +32,18 @@ An ork impersonator tied to the fake-crew / cloning-hardware / deception thread.
 
 - 2024-02-08 — Skizzix identified as a deception target.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Was Skizzix working directly for 6 Steel Strings?
 - How much did Skizzix know about the broader impersonation scheme?
+
+</details>
 
 ## Sources
 

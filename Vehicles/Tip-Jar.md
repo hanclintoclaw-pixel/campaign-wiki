@@ -4,7 +4,7 @@ type: vehicle
 visibility: player-safe
 status: active
 last_updated_session: 2026-08-15
-canon_status: provisional
+canon_status: canon
 confidence: medium
 owner: Cindy Lou Jenkins
 operator: Cindy Lou Jenkins

@@ -73,7 +73,13 @@ During the escape, Mevin and Curtis added the crew to the whitelist. That may ke
 - Survived the Highwaymen vehicle fight with support from Curtis's **Belmont** and **The Finisher**, but ended badly damaged and no longer cloaked.
 - Was recovered by Curtis as a long-term diagnostics / rebuild project.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who owns the drone?
 - Was the drone supplied directly by Princeps / Claude, or by another actor using the same draconic presentation?
@@ -82,6 +88,8 @@ During the escape, Mevin and Curtis added the crew to the whitelist. That may ke
 - Does it still retain the crew's biometric whitelist data?
 - Can Curtis safely rebuild, sanitize, or repurpose it before it becomes a future problem?
 - Which drones, if any, should receive the salvaged Rating 2 robot brains?
+
+</details>
 
 ## Related Pages
 

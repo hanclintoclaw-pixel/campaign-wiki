@@ -56,13 +56,21 @@ Large vehicle repair, salvage, and workshop site run by **[Taco](../NPCs/Taco.md
 - 2026-08-13 — Taco admitted Chunky Sparkles had escaped from his improvised field containment before he built a real pen.
 - [2026-10-22](../Sessions/2026-10-22.md) — the crew regrouped here after the McDonald's fight, froze a possessed corpse for Kyron, chained the captured Humanis guard, patched Mevin up on Curtis's painkillers, and planned the evidence sale.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - **What happens to the frozen corpse?** Tom has been released; no remaining Humanis captive is established. Taco's knowledge/consent regarding the corpse remains unresolved.
 - Does Taco know what is in his deep freeze, and what consequences remain from the former guard detention?
 - What exact facilities are available on-site for aquatic life support?
 - How much of the dolphin rescue can happen at Taco's site versus requiring a specialized external facility?
 - Would Taco ever be trusted with awakened-creature containment again without a real pen, tracker, and handling plan?
+
+</details>
 
 ## Sources
 

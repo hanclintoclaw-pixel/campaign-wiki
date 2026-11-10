@@ -15,6 +15,15 @@ sources:
 
 # Ring of Fire
 
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
+Name-collision caution: the two "Ring of Fire" lines in the local SR3 corpus are the **volcanic** Ring of Fire - a seismology comparison in *System Failure* and a *Year of the Comet* disaster headline - not an organization. This gang is unrelated to either, and the shared name is coincidence.
+
+
 ## Overview
 
 Humanis-affiliated smuggling gang based around **[White Creek Civic Center](../Locations/White-Creek-Civic-Center.md)** north of Nashville. Its members are called **Torchmen**.
@@ -34,12 +43,20 @@ The crew breached the base in [Session 2026-09-24](../Sessions/2026-09-24.md) af
 
 Recovered logistics and personal-message material showed discontent, long/overnight pickup patrols, and considerable operational independence, without resolving higher Humanis command links. The crew is now beginning the basement evidence search; no recovered Sandusky material or completed contract is recorded.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Where are Hardcastle and the remaining occupants, and when will absent patrols return?
 - Will the escaped ganger or the rescheduled legitimate shipment expose the crew?
 - How much does the gang know about the old evidence in the basement?
 - Who in Humanis receives benefit from their route control?
+
+</details>
 
 ## Sources
 

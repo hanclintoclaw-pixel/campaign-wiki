@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2022-08-11
 last_updated_session: 2023-01-28
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, doctor, gladwell, genevieve-arc]
 sources:
@@ -35,10 +35,18 @@ Medical figure who appears in both the Gladwell leak investigation and the Genev
 - 2022-08-11 — Gladwell leak investigation.
 - 2023-01-28 — Genevieve Watson investigation.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Are the Gladwell Dr. Martin Waters and Genevieve's Dr. Waters definitely the same person?
 - If so, how far does his involvement in coercive medical/cyberware activity extend?
+
+</details>
 
 ## Sources
 

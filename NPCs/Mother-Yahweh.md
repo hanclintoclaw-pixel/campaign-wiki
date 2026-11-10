@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2023-12-21
 last_updated_session: 2026-05-28
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, cult, insect-burger, counterfeit-food]
 sources:
@@ -43,13 +43,21 @@ Cultish figure tied to the counterfeit-food / insect-burger arc.
 - 2026-05-21 — physically present at the 612 Wharf warehouse; tied to the spirit-harvesting counterfeit Meatlets line.
 - 2026-05-28 — remained an unresolved live custody/problem node during the Site 7 aftermath discussion.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Was Mother Yahweh a true leader, recruiter, or just a charismatic node inside a larger structure?
 - Was she subordinate to **Core 7**, manipulating it, or simply sharing adjacent infrastructure?
 - How much of the warehouse-side spirit-harvesting operation depended specifically on her?
 - What do the runners do with her now that the immediate breach fight is over?
 - Does she stay a hidden custody problem, escape, or get erased from the public version of events entirely?
+
+</details>
 
 ## Sources
 

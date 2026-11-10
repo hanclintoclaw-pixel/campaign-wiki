@@ -3,7 +3,7 @@ title: Maribel "Switchback" Pruitt
 type: entity
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, decker, chattanooga, lookout-mountain-collective, ruby-falls]
 updated: 2026-07-14
@@ -54,11 +54,19 @@ Switchback is warm, precise, and quietly unforgiving. She talks like someone giv
 
 - No session appearance yet. Created from GM direction on 2026-07-14.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Did Switchback personally vouch Mevin into Ruby Falls?
 - What favor, if any, does Mevin owe her?
 - What data would make her break her usual caution?
+
+</details>
 
 ## Sources
 

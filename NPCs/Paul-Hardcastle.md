@@ -36,11 +36,19 @@ In [Session 2026-10-01](../Sessions/2026-10-01.md), his distinctive white hot ro
 
 The crew considered voice impersonation but instead used a forged logistics order. No Hardcastle voice-spoofing success is recorded.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How directly does Hardcastle answer to Humanis leadership versus operating as an affiliated contractor?
 - Where is he after the gas delivery and breach, and will he organize a response?
 - Does he know the Sandusky evidence exists in the basement?
+
+</details>
 
 ## Sources
 

@@ -81,13 +81,21 @@ Open questions remain around how safe that host is, what historical projects pas
 - 2026-06-04 — Music Circle first surfaced as Alvin's park-side handoff zone.
 - 2026-07-02 — the follow from the area exposed Palermo's underground operating location.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What projects has CAT run through the basement Ultraviolet host?
 - Did the host contribute to any current Nashville entertainment or influence-engine technologies?
 - How physically isolated is the host from the rest of the tower?
 - Who has legitimate access to the host, and who has backdoor or legacy access?
 - Is Lafayette Tower merely a corporate entertainment HQ, or one of the quiet roots of the campaign's media-manipulation web?
+
+</details>
 
 ## Sources
 

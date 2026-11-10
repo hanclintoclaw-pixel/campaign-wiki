@@ -2,7 +2,7 @@
 title: Gladwell Institute
 type: organization
 visibility: player-safe
-updated: 2026-04-10
+updated: 2026-11-10
 aliases:
   - Gladwell Institute
 ---
@@ -22,6 +22,7 @@ A rehab facility serving high-profile clients. In the recovered archive, it sits
 
 ## Key people
 
+- **Dr. Charles Weaver** - founder.
 - [Eugene Booker](../NPCs/Eugene-Booker.md)
 - [Dr. Martin Waters](../NPCs/Dr-Martin-Waters.md)
 
@@ -32,6 +33,12 @@ A rehab facility serving high-profile clients. In the recovered archive, it sits
 ## Related pages
 
 - [Previously On: Gladwell and Genevieve](../Recaps/Previously-On-Gladwell-and-Genevieve.md)
+
+<!-- cindy-canon: merged-entity -->
+
+## One entity (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+The **institution** and the **place** are **one entity**: this page and [Locations/Gladwell-Institute](../Locations/Gladwell-Institute.md) describe the same rehab facility - founded by **Dr. Charles Weaver**, at the centre of the 2022-08-11 leak investigation. This page is the record.
 
 ## Open questions
 

@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-09-10
 last_updated_session: 2026-09-10
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [location, cafe, nashville, belisarius]
 sources:

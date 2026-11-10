@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-09-03
 last_updated_session: 2026-09-10
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, security, police, nashville]
 sources:
@@ -34,10 +34,18 @@ sources:
 
 - **2026-09-03** - named as Belisarius's court-assigned city security.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Will Holbrook investigate Belisarius's missed court day and public kidnapping, resolved in [Session 2026-09-10](../Sessions/2026-09-10.md)?
 - Is Holbrook corrupt, negligent, uninvolved, or simply kept away from Belisarius's vices?
+
+</details>
 
 ## Sources
 

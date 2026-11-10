@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-05-07
 last_updated_session: 2026-05-21
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [faction, gang, current-arc, warehouse-labor]
 sources:
@@ -15,6 +15,13 @@ sources:
 ---
 
 # Ace Freelits
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
 
 ## Overview
 
@@ -39,11 +46,19 @@ A low-rent motorcycle-gang / disposable-muscle faction found working the warehou
 - 2026-05-14 — still understood as the visible labor layer while the deeper site was uncovered.
 - 2026-05-21 — remaining warehouse labor broke and ran during the breach aftermath.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Were Ace Freelits true participants in the conspiracy, willing hired labor, or disposable dupes?
 - How much did they know about the insect-spirit contamination and Core 7 side of the operation?
 - Will the survivors matter again as witnesses, loose ends, or revenge seekers?
+
+</details>
 
 ## Sources
 

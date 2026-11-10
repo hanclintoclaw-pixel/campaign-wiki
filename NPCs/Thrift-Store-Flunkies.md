@@ -26,11 +26,19 @@ Two unnamed associates who maintain the storefront at the crew's **[Thrift Store
 - Their handoff succeeded: Ring of Fire members collected the disguised package and carried it into the civic center. The flunkies were not sent inside with the assault team.
 - No courier casualty, cash payment, or confirmed fulfillment of the food promise was recorded.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What are their names, and how much did they understand about the package?
 - Has the promised food been provided?
 - Can their involvement be traced back to the safehouse or Mevin?
+
+</details>
 
 ## Sources
 

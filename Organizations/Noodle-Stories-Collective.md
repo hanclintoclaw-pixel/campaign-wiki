@@ -3,9 +3,9 @@ title: Noodle Stories Collective
 type: organization
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
-updated: 2026-07-17
+updated: 2026-11-10
 aliases:
   - Noodle Stories Poetry Collective
   - Noodle Stories
@@ -15,6 +15,13 @@ sources:
 ---
 
 # Noodle Stories Collective
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
 
 ## Overview
 
@@ -55,11 +62,19 @@ The **Noodle Stories Collective** is an anti-authoritarian poetry and mutual-aid
 - Part of Nashville's broader arts-district and underground mutual-aid ecosystem.
 - Sympathetic to anti-corporate and anti-federal local resistance, but not automatically aligned with any runner crew, gang, or political faction.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who inside the collective is willing to cross from poetry and aid into operational support?
 - Which local authorities already know the collective is more than an arts circle?
 - What favor would earn enough trust to use the back room safely?
+
+</details>
 
 ## Sources
 

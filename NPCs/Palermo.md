@@ -42,12 +42,20 @@ sources:
 
 - **2026-07-02** — identified, tracked, confronted, and pressured into surrendering the proof-chain needed to close the Griswell job.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Is Palermo fully independent, or is he part of a larger buyer network?
 - How many other Nashville corporate weak links has he already exploited?
 - Will he accept professional courtesy from the crew, or treat the encounter as a reason for future retaliation?
 - Where does he relocate after burning the exposed underground hideout?
+
+</details>
 
 ## Sources
 

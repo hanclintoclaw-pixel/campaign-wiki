@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2023-04-06
 last_updated_session: 2023-04-06
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, contact, cindy-origin]
 sources:
@@ -35,10 +35,18 @@ Contact who hired the crew into the Cindy Liu Thompson / stolen know-bot server 
 
 - 2023-04-06 — first appearance in the Cindy job setup.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How trustworthy was 6 Steel Strings really?
 - How much did he know about Cindy's technical nature versus projecting personhood onto her?
+
+</details>
 
 ## Sources
 

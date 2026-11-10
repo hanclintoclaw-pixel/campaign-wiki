@@ -5,9 +5,12 @@ visibility: player-safe
 status: active
 first_session:
 last_updated_session: 2026-08-27
-canon_status: provisional
+canon_status: canon
 confidence: medium
 aliases:
+  - Kne@zlex
+  - Knezefe
+  - Knesefe
   - Kneazel
   - Kne@zel
   - Kne@sel
@@ -49,7 +52,15 @@ A young but senior otaku operator tied to Nashville Matrix oversight, government
 - [2026-08-27](../Sessions/2026-08-27.md) - recognized Handy-Sandy and advised the crew to leave her in custody.
 - [On Kne@zle and the Account That Knew My Name](Cindy-Lou-Jenkins-Journal/On-Kne-zle-and-the-Account-That-Knew-My-Name.md) - Cindy notices the long-running fan account and the rhyming handle; unresolved.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
+
+(GM settled 2026-11-10: the spellings Kneazel, Kne@zel, Kne@sel, Knesefe and Knezefe are all the **same person** - drift from separate memory passes, not different NPCs. Aliases are in frontmatter so entity resolution stops splitting her.)
 
 - How active is Kne@zle in the current campaign era?
 - Does Kne@zle know that the knowbot now operating in Nashville is the act she followed, or does she recognise only the voice?
@@ -58,6 +69,8 @@ A young but senior otaku operator tied to Nashville Matrix oversight, government
 - How formal is the relationship between Enigma Machine, the local government, and G.O.D.?
 - Is "Kneazel" just a spelling variant, or a later table simplification of the same name?
 - What does Kne@zle know about Handy-Sandy, and why is her current custody useful to Grid Overwatch?
+
+</details>
 
 ## Sources
 

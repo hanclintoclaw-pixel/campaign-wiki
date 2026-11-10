@@ -54,7 +54,13 @@ A linked warehouse-and-buried-installation complex at the center of the current 
 - 2026-05-28 — aftermath, salvage, rescue implications, and the three-day forward timeskip to **2066-05-04** dominate discussion.
 - 2026-07-30 — player-driven follow-up confirms CAS military hardware, fresh Pyramid cigarette clues, and the Earl Stryker / Dead Soldier lead.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Can the dolphin node behind **Core 7** be extracted safely?
 - How much of the site remains active or recoverable after the warehouse breach and immediate aftermath window?
@@ -62,6 +68,8 @@ A linked warehouse-and-buried-installation complex at the center of the current 
 - Was the recent Pyramid-smoking visitor Earl Stryker, CAS cleanup, a Stryker hunter, or another ex-military actor?
 - Can Mevin and CLJ trace the Scarred Man / Dead Soldier Matrix profile?
 - Is the complex best understood as a lab, a prison, an influence-engine prototype, or all three at once?
+
+</details>
 
 ## Sources
 

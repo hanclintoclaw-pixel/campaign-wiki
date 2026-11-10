@@ -3,7 +3,7 @@ title: Jonah "Cave Cricket" Bell
 type: entity
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, decker, sysop, chattanooga, lookout-mountain-collective, ruby-falls]
 updated: 2026-07-14
@@ -54,11 +54,19 @@ Cave Cricket speaks softly and often through clipped observations: "That echo's 
 
 - No session appearance yet. Created from GM direction on 2026-07-14.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What anomaly has Cave Cricket been watching lately?
 - Does he trust Mevin, or merely tolerate his access?
 - What physical signal source around Chattanooga worries him most?
+
+</details>
 
 ## Sources
 

@@ -3,9 +3,9 @@ title: Lookout Mountain Collective
 type: faction
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
-updated: 2026-07-14
+updated: 2026-11-10
 aliases:
   - LMC
   - Lookout Collective
@@ -17,6 +17,13 @@ sources:
 ---
 
 # Lookout Mountain Collective
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
 
 ## Overview
 
@@ -83,7 +90,13 @@ They are friendly enough once trust is established, but they are not casual. A d
 - [Matrix Hosts](../Tech/Matrix/README.md)
 - [Ruby Falls Data Haven Host](../Tech/Matrix/Ruby-Falls-Data-Haven-Host.md)
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What terms govern Mevin's access to Ruby Falls?
 - Who vouched Mevin in?
@@ -91,6 +104,8 @@ They are friendly enough once trust is established, but they are not casual. A d
 - What does Ruby Falls require before accepting dangerous paydata or whistleblower material?
 - How much does the Collective know about the Pixel Sticks?
 - What local Chattanooga threats are already pressuring the data haven?
+
+</details>
 
 ## Sources
 

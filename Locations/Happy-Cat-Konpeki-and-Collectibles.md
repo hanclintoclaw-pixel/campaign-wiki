@@ -48,7 +48,13 @@ The store is small, bright, and stubbornly local, nestled between the huge arkob
 - The 21st-floor breach confirmed the Happy Cat host / laser-array path nested into the upper-floor Pixel Sticks host infrastructure.
 - Names and handles tied to the Happy Cat / Pixel Sticks path now include Highbrow, Handy-Sandy, Pop Onomata, Ernie Pollock, Ziggy Hill, and Lizzo Wells.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who owns or operates the store?
 - Which local crews, cliques, or school groups treat it as their regular turf?
@@ -58,6 +64,8 @@ The store is small, bright, and stubbornly local, nestled between the huge arkob
 - Is Happy Cat knowingly sheltering Pixel Sticks infrastructure, being used as cover, or both?
 - Is Lizzo Wells the young woman heard after the server shutdown?
 - What did Happy Cat's management or regulars know about the 21st-floor Pixel Sticks infrastructure?
+
+</details>
 
 ## Sources
 

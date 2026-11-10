@@ -44,12 +44,20 @@ The crew used Matrix research, Taco's old handling context, Herrick's prisoner i
 
 After the fight, Chunky Sparkles followed the crew out of the Radnor Lake area, allowing Valgaut to complete the Wyrmwatch follow-up.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who or what keeps the water so clean?
 - Was the hostile magical feeling only the dead gator-like predator, or is something deeper tied to the lake?
 - Who are the distant residents or maintainers around the lake?
 - Will the death of the lake predator destabilize the local awakened ecosystem?
+
+</details>
 
 ## Related Pages
 

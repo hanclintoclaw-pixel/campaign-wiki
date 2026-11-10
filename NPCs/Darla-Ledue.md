@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-03-26
 last_updated_session: 2026-05-28
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, music-industry, current-arc]
 sources:
@@ -50,13 +50,21 @@ Up-and-coming country music star tied to the crew's current investigation into a
 - 2026-05-28 — aftermath reasoning tied her campaign environment more tightly to the broader Core 7 / SC Music / Swiftwing continuity cluster.
 - 2026-05-28 — fallout victim in the wider 612 Wharf / Core 7 aftermath; prepared to disappear with Jacinda once the scandal started breaking.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who stole the master recordings?
 - How much of the surrounding hype/promotion operation is directed at Darla specifically?
 - Is Darla only a victim/asset, or does she know more than the team currently believes?
 - How much of Darla's rollout is being artificially amplified by the counterfeit-goods / influence-engine side of the operation?
 - Will Darla re-emerge publicly, or vanish for a while under Jacinda's protection?
+
+</details>
 
 ## Sources
 

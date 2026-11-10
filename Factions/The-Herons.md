@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-04-02
 last_updated_session: 2026-04-02
-canon_status: provisional
+canon_status: canon
 confidence: low
 tags: [faction, current-arc, unclear]
 sources:
@@ -13,6 +13,13 @@ sources:
 ---
 
 # The Herons
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
 
 ## Overview
 
@@ -31,11 +38,19 @@ Named group/entity referenced during April 2 run setup.
 
 - 2026-04-02 — setup mention in the run recap.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who or what exactly are the Herons?
 - Are they a crew, network, gang, client grouping, or corporate sub-entity?
 - What role do they play in the current arc?
+
+</details>
 
 ## Sources
 

@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-09-03
 last_updated_session: 2026-09-10
-canon_status: provisional
+canon_status: canon
 confidence: high
 aliases:
   - Reynold Dupree
@@ -46,11 +46,19 @@ sources:
 - **2026-09-03** - introduced as Belisarius's bodyguard and followed the judge toward Mucky's.
 - **2026-09-10** - pursued the crew after Belisarius's kidnapping, survived the vehicle crash after Kilimanjaro's grenade disabled the engine.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How loyal is Dupree to Belisarius personally versus professionally?
 - What are the exact ratings and limits of his cyberware?
 - What retaliation or investigation follows from the failed pursuit?
+
+</details>
 
 ## Sources
 

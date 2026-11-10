@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-05-28
 last_updated_session: 2026-05-28
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, music-industry, executive, current-arc]
 sources:
@@ -37,11 +37,19 @@ Record executive directly tied to the Darla Ledue fallout and one of the first n
 
 - 2026-05-28 — brought into the aftermath briefing; warned about the conspiracy and pushed toward concealment/flight with Darla.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How much did Jacinda know before the crew briefed her?
 - Is she merely a worried executive, or was she closer to the compromised business layer than she admits?
 - Where do she and Darla go now that the scandal is breaking?
+
+</details>
 
 ## Sources
 

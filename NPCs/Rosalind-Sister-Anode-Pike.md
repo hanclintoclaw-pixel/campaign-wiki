@@ -3,7 +3,7 @@ title: Rosalind "Sister Anode" Pike
 type: entity
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, archivist, decker, chattanooga, lookout-mountain-collective, ruby-falls]
 updated: 2026-07-14
@@ -54,11 +54,19 @@ Sister Anode is kind without being soft. She has the cadence of a church auntie,
 
 - No session appearance yet. Created from GM direction on 2026-07-14.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What rules does Sister Anode place on Mevin's Ruby Falls access?
 - What kind of data would she refuse to host?
 - Has she preserved anything related to Nashville already?
+
+</details>
 
 ## Sources
 

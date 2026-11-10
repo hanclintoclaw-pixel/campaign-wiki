@@ -3,7 +3,7 @@ title: Otis "Gutter Sonnet" Bell
 type: entity
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, nashville, arts-district, noodle-stories, poet]
 updated: 2026-07-17
@@ -52,11 +52,19 @@ sources:
 
 - No session appearance yet. Created from GM direction on 2026-07-17.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Which of Otis's poems are just poems, and which are coded memory?
 - Who hurt or radicalized him enough to make him this loud?
 - Would he keep a secret if telling it made the better line?
+
+</details>
 
 ## Sources
 

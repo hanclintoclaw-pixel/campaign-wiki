@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-09-03
 last_updated_session: 2026-09-10
-canon_status: provisional
+canon_status: canon
 confidence: high
 aliases:
   - HEMP
@@ -16,6 +16,13 @@ sources:
 ---
 
 # HEMP Global Agronomics
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
 
 ## Overview
 
@@ -39,11 +46,19 @@ sources:
 - [Session 2026-09-03](../Sessions/2026-09-03.md)
 - [Session 2026-09-10](../Sessions/2026-09-10.md)
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What case involving HEMP Global Agronomics is on Belisarius's docket?
 - Is HEMP acting as a local employer, a recurring corporate player, or a one-off pressure source?
 - How dirty are its protein-crop operations?
+
+</details>
 
 ## Sources
 

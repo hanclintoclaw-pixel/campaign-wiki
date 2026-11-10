@@ -40,7 +40,13 @@ In [Session 2026-10-22](../Sessions/2026-10-22.md) the emerged shedim fought the
 
 The surviving entity is a powerful master Shedim. Its long public life as Sandusky was an infiltration, not an awakened human magician's secret. See [The Face Beneath the Face](Lula-Bell-Sandusky-The-Face-Beneath-the-Face.md) for its encounter profile and the truth of its nature.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - **What happens when it comes back in roughly thirty days?** The crew's own banishment expires. They have deliberately not prepared, reasoning that it holds no ritual link and so cannot identify them, and that the Sandusky identity is burned as leverage. The GM has not confirmed that this reasoning is safe.
 - How did this master Shedim return after the Hidden Enforcers reportedly banished it? There are now two data points that banishment does not hold permanently.
@@ -50,6 +56,8 @@ The surviving entity is a powerful master Shedim. Its long public life as Sandus
 - What did Sandusky do as a young woman during the Return-of-Magic / Crash-era chaos?
 - Who wants the evidence now, and do they intend blackmail, exposure, leverage, or protection? The crew sold the package to Mayor Haggar's office in [Session 2026-10-22](../Sessions/2026-10-22.md); the original Johnson was never contacted.
 - Does she have a direct Humanis connection or only ideological overlap? The captured guard [Tom Erlichman](Tom-Erlichman.md) was Humanis-affiliated and may be able to speak to whether her demeanor changed over time, but has not been questioned.
+
+</details>
 
 ## Sources
 

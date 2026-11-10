@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2022-08-11
 last_updated_session: 2022-08-11
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, security, gladwell, investigation]
 sources:
@@ -34,10 +34,18 @@ Security rigger and chief of security at the Gladwell Institute, initially suspe
 
 - 2022-08-11 — Gladwell Institute leak investigation.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Was Booker the leaker, a patsy, or a compromised insider?
 - Who else knew enough about his background to weaponize it against him?
+
+</details>
 
 ## Sources
 

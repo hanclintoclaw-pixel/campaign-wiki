@@ -77,7 +77,13 @@ sources:
 - [Session 2026-08-13](../Sessions/2026-08-13.md) - found at Radnor Lake, threatened by a regenerating gator-like predator, and lured into a Wyrmwatch handoff after the crew saved it.
 - [Session 2026-08-27](../Sessions/2026-08-27.md) - Lizzo Wells / Handy-Sandy explained her Mr. Rainbow handling angle and said she inherited the creature from an unnamed friend.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What exactly is its awakened nature?
 - Was a *talking* Chunky Sparkles part of the "full spectrum" security package speculated to have come from [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md)? The GM allowed this as plausible on 2026-08-06 but did not confirm it.
@@ -86,6 +92,8 @@ sources:
 - What will Wyrmwatch do with it after the Radnor Lake handoff?
 - Is the creature merely food-motivated, or did the rescue create a lasting attitude shift toward the crew?
 - What was its exact relationship with Lizzo Wells and the Pixel Sticks?
+
+</details>
 
 ## Sources
 

@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-03-19
 last_updated_session: 2026-10-22
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, politics, city-power, mayoral-staff]
 sources:
@@ -44,12 +44,20 @@ City power-broker figure and mayoral intermediary. By the 2066-05-09 interlude, 
 - 2026-10-08 — offered 55,000¥ for private mayoral custody of the Sandusky evidence; Kurgan deferred a decision.
 - 2026-10-22 — **the sale closed.** The crew delivered the evidence package, including Buzz's footage of Sandusky's transformation and death, to the mayor's office for **12,000¥ per crew member** (five runners, 60,000¥ total, matching the GM's recollection of the original contract's quoted figure). The GM confirmed the crew are on good terms with both the mayor's office and MetroPedy, and Curtis argued in favor of the sale partly to give Haggar a genuine warning about a threat that could return.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What is Neumann's exact formal power base?
 - How trustworthy is he from the crew's perspective?
 - How far will Joseph let Kurgan into the mayor's rebuilt outside-security apparatus?
 - Will the crew accept Joseph's offer, and how will the mayor's interest affect Kurgan's relationship with the original Johnson?
+
+</details>
 
 ## Sources
 

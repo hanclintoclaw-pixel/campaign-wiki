@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2023-05-11
 last_updated_session: 2026-07-24
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [faction, magical, ngo]
 sources:
@@ -15,6 +15,13 @@ sources:
 ---
 
 # Draco Foundation
+
+<!-- cindy-canon: printed-sr3 same-org -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+Same organization as the printed SR3 body: the **Draco Foundation**, named in 11 of the 19 local SR3 books. Where this table's portrayal differs from print, that is our own characterisation of one organization, not a different organization.
+
 
 ## Overview
 
@@ -45,10 +52,18 @@ Major magical-research / intervention institution with a strong reputation for a
 - [Wyrmwatch Circle](Draco-Foundation/Wyrmwatch-Circle.md) - UCAS-side initiatory circle for sponsored awakened associates.
 - [Cairo Testament Annex](../Locations/Cairo-Testament-Annex.md) - Wyrmwatch intake, archive, and initiation site in Cairo, Illinois.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How much hidden agenda, if any, sits behind the Foundation's public do-gooder face?
 - What long-term interest does the Foundation have in Nashville?
+
+</details>
 
 ## Sources
 

@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2023-03-23
 last_updated_session: 2023-03-23
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, gang-leader, smuggling]
 sources:
@@ -35,10 +35,18 @@ Commander of the Interstate Connection and one of the two gang leaders at the ce
 
 - 2023-03-23 — peace-meeting preparation between rival gun-running gangs.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Was March Hare genuinely trying to make peace, or just manage risk?
 - How stable was the Interstate Connection after that negotiation period?
+
+</details>
 
 ## Sources
 

@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2023-05-11
 last_updated_session: 2026-07-09
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, fixer, broker, johnson-contact]
 aliases: [Ivan]
@@ -97,12 +97,20 @@ The newer session imports broaden Ivan substantially. He is no longer just "the 
 
 He appears to occupy a trusted middle layer between employers and runners: visible enough to brief the team directly, but still one step removed from the deepest hidden agenda on most jobs.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How much of Ivan's network is local Nashville infrastructure versus broader regional shadow-broker reach?
 - Does he simply rent/hold space at [Atlas's](../Locations/Atlass.md), or is he one of the location's key internal power brokers?
 - How much does he know in advance about the deeper weirdness on the jobs he routes: Arcology fallout, toxic biomaterial, cult/chrome operations, or media/corporate manipulation?
 - Is Ivan primarily loyal to his clients, to the runner community around Atlas's, or to his own long-game brokerage position?
+
+</details>
 
 ## SR3 statted NPC build (player-character style)
 

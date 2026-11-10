@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2024-06-06
 last_updated_session: 2024-07-11
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, gang, road-reapers, mucky-arc]
 sources:
@@ -36,10 +36,18 @@ A large ork enforcer/power figure inside the Road Reapers orbit and one of the r
 - 2024-06-06 — introduced in the Road Reaper environment.
 - 2024-07-11 — remains a key figure in the Road Reaper struggle.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Is Razor Jake a serious leadership contender, an enforcer, or both?
 - How does he relate politically to Alanzo Sparks and other rivals?
+
+</details>
 
 ## Sources
 

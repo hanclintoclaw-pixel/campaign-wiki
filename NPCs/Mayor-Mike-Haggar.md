@@ -252,10 +252,18 @@ Useful tells:
 - **Public crisis, private form:** Haggar must choose between preserving his secret and stopping a threat on camera.
 - **Dragon patron offer:** a great dragon offers to make the Hunted problem go away, at the price of making the mayor's independence go away with it.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Does Joseph know the whole truth, a partial truth, or only the operational symptoms?
 - Is Haggar protected by the Draco Foundation, a dragon patron, a local magical group, or only his own machine?
+
+</details>
 
 ## Sources
 

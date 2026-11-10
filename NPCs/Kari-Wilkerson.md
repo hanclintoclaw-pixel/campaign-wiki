@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2023-05-11
 last_updated_session: 2023-05-18
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, draco-foundation, mage]
 sources:
@@ -38,10 +38,18 @@ Senior Draco Foundation representative who hired the crew into the toxic-egg / m
 - 2023-05-11 — first job briefing.
 - 2023-05-18 — continued egg/toxic-material investigation.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How much of the Foundation's internal agenda was Kari revealing versus withholding?
 - What longer-term relationship did she intend with the crew?
+
+</details>
 
 ## Sources
 

@@ -276,7 +276,13 @@ If Valgaut later initiates through them, add:
 
 > Valgaut completed Grade 1 group initiation through the Hidden Enforcers. Cost was 9 Karma if the Enforcer Oath counted as his first oath ordeal, or 12 Karma otherwise. His Magic rose to 7 and, as an adept, he gained 1 Power Point.
 
-## Open GM Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open GM Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What is the group's actual avatar or magical-link symbol?
 - Does Glenn belong to the Oath Circle, a specialist circle, or a looser allied circle?
@@ -285,6 +291,8 @@ If Valgaut later initiates through them, add:
 - Has the group ever lost or nearly lost its magical link because of corruption, coverups, or unlawful violence?
 - For Valgaut specifically, does Glenn's sponsorship create a formal auxiliary exception to Limited Membership?
 - Should the Enforcer Oath count as Valgaut's first qualifying oath ordeal, or only as admission paperwork?
+
+</details>
 
 ## Rules Sources
 

@@ -3,7 +3,7 @@ title: Earl "Railgun" Dunlap
 type: entity
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, decker, logistics, chattanooga, lookout-mountain-collective, ruby-falls]
 updated: 2026-07-14
@@ -54,11 +54,19 @@ Railgun is cheerful, blunt, and allergic to mystique. He calls complicated data 
 
 - No session appearance yet. Created from GM direction on 2026-07-14.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Does Railgun have a current logistics anomaly tied to Ruby Falls?
 - What Chattanooga freight or utility contractor does he distrust most?
 - Would Curtis and Railgun get along immediately or argue for three hours first?
+
+</details>
 
 ## Sources
 

@@ -69,10 +69,18 @@ There are shows, games, and private rooms for conducting business. Mucky is ther
 
 - **2026-09-10** - Mucky agreed to help for a cut, Big Lou distracted Dupree, and the crew extracted the sedated judge through the back. The subsequent pursuit became a public shootout; Mucky's cut was covered from Kilimanjaro's share.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Does the public kidnapping bring later attention to the club or its patrons?
 - No separate intervention or new ruling by Melchizedek was established; the existing house compact remains unchanged.
+
+</details>
 
 ## Sources
 

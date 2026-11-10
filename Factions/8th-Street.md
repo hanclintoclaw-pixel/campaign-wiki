@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-09-03
 last_updated_session: 2026-09-10
-canon_status: provisional
+canon_status: canon
 confidence: high
 tags: [faction, gang, gambling, nashville]
 sources:
@@ -14,6 +14,13 @@ sources:
 ---
 
 # 8th Street
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
 
 ## Overview
 
@@ -41,10 +48,18 @@ sources:
 - **2026-09-03** - challenged Kilimanjaro in the alley, then fled after the flash grenade.
 - **2026-09-10** - named in the staged release cover story when Belisarius was dumped alive near 8th Street Cafe.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Will 8th Street retaliate, vanish, exploit the story, or try to collect on Belisarius later?
 - Are Skeezix and Butternut Squash real names, handles, or table-color aliases?
+
+</details>
 
 ## Sources
 

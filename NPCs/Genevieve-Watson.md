@@ -5,7 +5,7 @@ visibility: player-safe
 status: missing
 first_session: 2023-01-28
 last_updated_session: 2023-01-28
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, victim, investigation]
 sources:
@@ -35,10 +35,18 @@ Missing employee whose disappearance drove the 2023-01-28 investigation.
 
 - 2023-01-28 — missing-person / cyberware exploitation investigation.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who was actually using Genevieve's implanted surveillance rig?
 - Was Floyd Otis trying to recover Genevieve, or only the data and cyberware associated with her?
+
+</details>
 
 ## Sources
 

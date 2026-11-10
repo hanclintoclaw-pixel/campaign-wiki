@@ -175,6 +175,7 @@ Cindy Lou personally attempts Matrix crawls from her Pilot rating, which functio
 
 
 </details>
+
 **No SOTA (GM ruling 2026-11-09):** State of the Art software maintenance is not in play for Cindy, so her ratings do not decay from unpaid upkeep. **Trailer hardware stats are out of scope for now** - the server that is nominally her real hit points still has no stat block.
 
 These assumptions are table-use scaffolding for play aids, not a final full SR3 character sheet.
@@ -310,6 +311,7 @@ A full **computer/electronics shop** inside the van was deliberately **not** rec
 
 
 </details>
+
 ## A-NPC field drones
 
 Cindy Lou also has two provisional in-game drone records for table use:

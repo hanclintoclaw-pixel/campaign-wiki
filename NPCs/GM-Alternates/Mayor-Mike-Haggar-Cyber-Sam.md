@@ -166,11 +166,19 @@ Use alpha-grade cyberware where needed to keep the package legal and to reflect 
 
 Mayor Mike Haggar is a **high-level mundane human street samurai who successfully laundered combat credibility into civic authority**. Against runners, his most important numbers are not just Pistols 7 or Unarmed Combat 9; they are **Leadership 8, Etiquette (Politics) 9, Negotiation 7, Intimidation 8, Willpower 7, Reaction 11 + 3D6, and Combat Pool 9**. He can still fight, but his real danger is that he can decide whether the fight happens in an alley, a council hearing, a police briefing, or a front-page scandal.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What is Haggar's current degree of awareness of the deeper threats the crew is facing?
 - How directly is he still tied into the crew's active operational agenda?
 - How should Haggar's prior cyberware-heavy stat block be revised after the 2026-06-25 table correction?
+
+</details>
 
 ## Sources
 

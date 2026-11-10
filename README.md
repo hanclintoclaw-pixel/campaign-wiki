@@ -15,6 +15,9 @@ Git-backed Markdown campaign memory for the Nashville Shadowrun game.
 - `Timeline/` — campaign chronology
 - `Templates/` — copyable starter pages for common wiki categories
 - `meta/` — schemas, templates, conventions
+  - [Open Questions Convention](meta/Open-Questions-Convention.md) — what the
+    `Open Questions (Cindy's)` heading and its `cindy-blocked` marker mean; read
+    before treating any question list as fact or canon
 
 ## Editing model
 

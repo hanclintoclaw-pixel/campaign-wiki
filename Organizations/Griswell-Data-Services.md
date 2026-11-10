@@ -2,12 +2,19 @@
 title: Griswell Data Services
 type: organization
 visibility: player-safe
-updated: 2026-07-03
+updated: 2026-11-10
 aliases:
   - Griswell Data Services
 ---
 
 # Griswell Data Services
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
 
 ## Overview
 

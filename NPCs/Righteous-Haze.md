@@ -44,11 +44,19 @@ sources:
 
 - 2026-06-25 — introduced, targeted, and eliminated during Kurgan and Curtis's partial-party canon interlude.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who else among senior city officials hired Haysen behind Haggar's back?
 - How complete and damaging is the recovered data bank?
 - Will any of Haysen's surviving hangers-on try to retaliate or fill the gap he left?
+
+</details>
 
 ## Sources
 

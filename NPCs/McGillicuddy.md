@@ -5,7 +5,7 @@ visibility: player-safe
 status: likely-neutralized
 first_session: 2026-03-13
 last_updated_session: 2026-03-27
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, threat, insect-spirit]
 sources:
@@ -38,10 +38,18 @@ Enemy figure in the insect-spirit arc who was targeted in Curtis's March 18 mini
 - 2026-03-20 — durable run summary captured.
 - 2026-03-27 — dossier still records some uncertainty in final public/in-world proof.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Is McGillicuddy definitively dead in-world?
 - What evidence, remains, or narrative control exists around his end?
+
+</details>
 
 ## Sources
 

@@ -41,12 +41,20 @@ A tunnel-connected squatter market below the city, reached during the tail from 
 
 - **2026-07-02** — first explored during the conclusion of the Griswell surveillance run.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who controls the market, if anyone?
 - How formal is the rat-wrangler arrangement?
 - What other shadow operators use the underground space?
 - Did Palermo permanently abandon the location after the crew exposed it?
+
+</details>
 
 ## Sources
 

@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-09-03
 last_updated_session: 2026-09-10
-canon_status: provisional
+canon_status: canon
 confidence: high
 tags: [npc, corporate, lawyer, employer]
 sources:
@@ -41,11 +41,19 @@ sources:
 - **2026-09-03** - hired Kilimanjaro for the Belisarius court-delay job.
 - **2026-09-10** - confirmed the job complete and reacted positively despite the public mess.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What case is Cedar trying to delay?
 - Why was Belisarius's prior corruption no longer enough to keep the case safe?
 - Is Cedar acting for HEMP Global Agronomics directly, for a subfaction, or for himself?
+
+</details>
 
 ## Sources
 

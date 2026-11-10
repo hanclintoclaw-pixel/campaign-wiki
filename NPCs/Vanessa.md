@@ -5,7 +5,7 @@ visibility: player-safe
 status: developing
 first_session: 2024-01-25
 last_updated_session: 2024-01-25
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, tech, agent, vehicle, mevin]
 sources:
@@ -40,10 +40,18 @@ A developing smart-agent/vehicle-support project Mevin began building as an atte
 
 - 2024-01-25 — Vanessa build-planning / agent design notes.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How far did Mevin eventually get with Vanessa in play?
 - Did Vanessa remain a support agent, or evolve toward something more autonomous?
+
+</details>
 
 ## Sources
 

@@ -43,11 +43,19 @@ Low-level **Griswell Data Services** analyst whose suspicious spending and suspi
 - 2026-06-04 — introduced as the surveillance target in the Griswell espionage job.
 - 2026-07-02 — confirmed as Palermo's exploited weak link; the crew closed the contract using Palermo's burner identity/proof-chain.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How much did Alvin knowingly understand about Palermo and the larger buyer side of the arrangement?
 - How much of his access came from his own opportunism versus deliberate inside help?
 - Is Alvin a willing criminal actor, a compromised fool, or something in between?
+
+</details>
 
 ## Sources
 

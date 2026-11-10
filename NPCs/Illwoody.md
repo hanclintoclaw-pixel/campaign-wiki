@@ -5,7 +5,7 @@ visibility: player-safe
 status: neutralized?
 first_session: 2026-03-13
 last_updated_session: 2026-03-27
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, threat, insect-spirit]
 sources:
@@ -35,10 +35,18 @@ A major threat figure in the insect-spirit arc, treated by the team as an insect
 - 2026-03-13 — confirmed manifested threat in campaign updates.
 - 2026-03-27 — still treated as a major resolved/mostly resolved threat in dossier state.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Is Illwoody's neutralization final in-world?
 - What proof chain or public narrative exists around the neutralization?
+
+</details>
 
 ## Sources
 

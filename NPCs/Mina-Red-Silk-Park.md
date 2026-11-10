@@ -3,7 +3,7 @@ title: Mina "Red Silk" Park
 type: entity
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, nashville, arts-district, noodle-stories, fixer-adjacent]
 updated: 2026-07-17
@@ -52,11 +52,19 @@ sources:
 
 - No session appearance yet. Created from GM direction on 2026-07-17.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What did Mina do before opening Noodle Stories?
 - Who taught her the coded house rules the collective now uses?
 - What would make her turn runners away even if she likes them?
+
+</details>
 
 ## Sources
 

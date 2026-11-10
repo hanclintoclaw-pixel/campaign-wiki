@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session:
 last_updated_session: 2026-04-10
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, entertainment, producer, nashville]
 sources:
@@ -37,10 +37,18 @@ A high-profile Nashville entertainment-industry figure: record producer, manipul
 
 - Historical Wordpress source; not yet tied to a surfaced public session page in the current wiki.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How directly connected is Merle to the current Darla / SC Music / influence-network sphere?
 - Is Cannonade just gossip-fuel, or an actual operational node in the city?
+
+</details>
 
 ## Sources
 

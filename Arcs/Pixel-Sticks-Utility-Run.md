@@ -100,7 +100,13 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - [Ivan Toklas](../NPCs/Ivan.md)
 - [Current State](../Current-State.md)
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Can the crew turn the Princeps / Claude implication into hard proof?
 - Are the Pixel Sticks pawns, thieves, test subjects, or a deliberate distraction?
@@ -109,6 +115,8 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - What traces, data, or usable hardware remain inside the recovered scorpion drone?
 - Who created or taught the Chunky Sparkles command set used by Lizzo Wells, and was that the same friend who supplied Mr. Rainbow to her?
 - Does this run intersect with the broader citywide Matrix/influence-engine problem, or is it a separate local job?
+
+</details>
 
 ## Sources
 

@@ -33,5 +33,6 @@ updated: 2026-08-22
 - [Recaps](Recaps/README.md)
 - [Tech Notes](Tech/README.md)
 - [GM Approval Queue](meta/GM-Approval-Queue.md)
+- [Open Questions Convention](meta/Open-Questions-Convention.md)
 - [Session Archive Analysis](Sessions/ARCHIVE_ANALYSIS.md)
 - [Archive Triage Notes](Sessions/ARCHIVE_TRIAGE.md)

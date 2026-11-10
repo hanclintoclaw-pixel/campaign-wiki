@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2023-03-20
 last_updated_session: 2023-03-20
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, matrix, hardware, cindy-arc]
 sources:
@@ -33,10 +33,18 @@ A dealer in high-end Matrix hardware who became a key logistics lead in the earl
 
 - 2023-03-20 — Blue Rayven lead in the Cindy hardware trail.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who bought the cradle hardware from him?
 - How much did he understand about Cindy's true nature and value?
+
+</details>
 
 ## Sources
 

@@ -41,11 +41,19 @@ Mevin-linked veterinarian, awakened-biology contact, and discreet animal-medicin
 
 - 2023-09-21 — Gallstone favor / arcoblock defense.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How broad is Bruce's usefulness as a biological/magical contact?
 - What was the name of the awakened-animal-rights group or transport contact used during the sasquatch rescue?
 - How often will the crew end up owing or calling in favors with him again?
+
+</details>
 
 ## Sources
 

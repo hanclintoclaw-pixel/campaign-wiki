@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-09-10
 last_updated_session: 2026-09-10
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [organization, band, music, muckys]
 sources:
@@ -13,6 +13,13 @@ sources:
 ---
 
 # Joe Jack and the Heart Attack
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
 
 ## Overview
 

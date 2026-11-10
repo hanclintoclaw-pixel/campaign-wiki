@@ -3,7 +3,7 @@ title: Noodle Stories
 type: location
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
 updated: 2026-07-17
 aliases:
@@ -64,11 +64,19 @@ sources:
 
 - No session appearance yet. Created from GM direction on 2026-07-17.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Which local power bloc currently wants the shop quiet, gone, or co-opted?
 - How much of the collective's coded poetry is metaphor, and how much is operational signaling?
 - Which crew contact first introduces the runners to Noodle Stories?
+
+</details>
 
 ## Sources
 

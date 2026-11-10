@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-02-27
 last_updated_session: 2026-09-10
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, criminal, shapeshifter, adept]
 sources:
@@ -47,10 +47,18 @@ Usually called **Mucky**. A major Nashville criminal figure, wolf shapeshifter, 
 - 2026-09-03 — the crew chose Mucky's night club as the lure destination for Judge Belisarius and Renaud Dupree.
 - 2026-09-10 — knowingly hosted and assisted the Belisarius extraction for a 10% cut.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What current leverage or territory does Mucky actually control?
 - How likely is Mucky to become directly relevant to the Darla/influence-engine arc?
+
+</details>
 
 ## Sources
 

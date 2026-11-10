@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-02-27
 last_updated_session: 2026-07-19
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, contact, logistics]
 sources:
@@ -45,11 +45,19 @@ Recurring NPC contact who runs a large vehicle repair/salvage operation and is e
 - 2026-05-28 — surfaced as a practical logistics base for possible dolphin extraction planning.
 - 2026-07-19 — [brokered the Saab Dynamit sale](../Sessions/2026-07-19-mini-saab-dynamit-sale.md) for Curtis through his vehicle/salvage buyer network.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How much direct operational support can Taco provide in the current arc?
 - What resources from his operation are reliably available to the crew?
 - Could Taco actually host or support the life-support needs of a relocated cybered dolphin node?
+
+</details>
 
 ## Sources
 

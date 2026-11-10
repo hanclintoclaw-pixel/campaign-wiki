@@ -38,11 +38,19 @@ Hard-looking ganger / possible cybersam who accompanied **Alvin Flang** during t
 - 2026-06-04 — first surfaced during the Griswell / Alvin surveillance operation.
 - 2026-07-02 — remained part of Alvin's lunch-window pattern, while the crew traced the downstream buyer side to Palermo.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Is Diego actually current **Heavenly Host**, or just wearing old colors?
 - Is he muscle for Alvin, muscle for the buyer, or simply part of Alvin's new spending-fueled social orbit?
 - How much does Diego know about Palermo and the real importance of Alvin's data handoffs?
+
+</details>
 
 ## Sources
 

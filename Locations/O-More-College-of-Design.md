@@ -55,6 +55,7 @@ The crew cleared the location of hostiles. **Kurgan** is now planning to restore
 
 </details>
 
+
 ## Known Facts
 
 - The site was formerly an art and design museum / academy.
@@ -68,12 +69,20 @@ The crew cleared the location of hostiles. **Kurgan** is now planning to restore
 - Linked to **[Kurgan](../PCs/Kurgan.md)** as a planned personal headquarters / wilderness base.
 - Linked to the crew's prior hostile-clearance work at the site.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What hostiles occupied the site before the crew cleared it?
 - How much of the old academy / museum structure is recoverable?
 - What repairs, security upgrades, and concealment work does Kurgan need before using it as a headquarters?
 - Does the site's pre-Crash history hide any useful records, art assets, architectural spaces, or old institutional infrastructure?
+
+</details>
 
 ## Sources
 

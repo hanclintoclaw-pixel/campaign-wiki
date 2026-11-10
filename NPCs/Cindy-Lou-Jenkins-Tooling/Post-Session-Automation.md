@@ -456,7 +456,13 @@ The higher-level function envisioned here is broader:
 
 That is closer to a **post-session operations system** than a simple note generator.
 
-## Open design questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open design questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 This page is intentionally preliminary. Some good unresolved questions:
 
@@ -468,6 +474,8 @@ This page is intentionally preliminary. Some good unresolved questions:
 - What should be logged for auditability when the automation runs on its own?
 - Should the Lead Board live under `Clues/`, replace `Clues/README.md`, or become a new top-level `Leads/` section with `Clues/` retained for evidence pages?
 - How should GM-only lead-ledger notes be stored so public wiki pages never leak hidden payoffs?
+
+</details>
 
 ## A likely end state
 

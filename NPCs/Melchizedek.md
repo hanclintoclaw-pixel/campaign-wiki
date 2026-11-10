@@ -3,7 +3,7 @@ title: Melchizedek
 type: entity
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, spirit, free-spirit, great-form, hearth-spirit, magic]
 updated: 2026-09-11
@@ -139,13 +139,21 @@ Spirit Energy increases the effective Force used for Melchizedek's physical form
 - If an Etiquette Test is needed before skills are assigned, treat him as defaulting from Charisma under the normal SR3 skill defaulting rules, or assign a specific Etiquette skill as a GM design choice.
 - Concept note: his poor understanding of metahuman behavior argues against giving him a broad, competent Etiquette skill unless it is deliberately narrow or strange.
 
-## Open Build Choices
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Build Choices"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Define the exact name, layout, and physical boundaries of the Mucky-owned gambling hall/hotel that serves as Melchizedek's **Personal Domain**.
 - Define his public face: comforting hearth guardian, ancient household god, predatory domestic spirit, occult fixer, bound servant, or another role.
 - Decide whether his compulsive consumption is comic, horrifying, transactional, addictive, or all of those at once.
 - Decide whether he has additional spells beyond the three currently listed.
 - Decide whether to assign mundane/social skills, especially any narrow Etiquette specialization.
+
+</details>
 
 ## Canon Notes
 

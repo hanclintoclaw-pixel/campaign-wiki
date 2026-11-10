@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2024-07-11
 last_updated_session: 2024-07-11
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, gang, road-reapers, mucky-arc]
 sources:
@@ -33,10 +33,18 @@ A major gearhead and leadership contender inside the Road Reapers after Jerry-Ca
 
 - 2024-07-11 — Road Reaper succession context.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How serious a power contender is Alanzo compared with Razor Jake and other rivals?
 - Is he more mechanic, political operator, or warlord?
+
+</details>
 
 ## Sources
 

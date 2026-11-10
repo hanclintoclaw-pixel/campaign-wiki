@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2024-02-01
 last_updated_session: 2026-08-27
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, corporate, employer, cloning-arc]
 sources:
@@ -40,11 +40,19 @@ Cross Applied Technology executive / shadowrun handler who hired the crew to rec
 - 2024-02-01 — cloning-hardware recovery job setup.
 - 2026-08-27 — accepted Pixel Sticks sponsor intelligence from the crew, paid **10,000¥**, and opened the possibility of direct CAT follow-up work.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How honest was Imogene about Cross Applied's stake in the hardware?
 - What would Cross Applied have done with the technology if the crew had refused the job?
 - What CAT response will Imogene pursue against Princeps after receiving the Pixel Sticks evidence?
+
+</details>
 
 ## Sources
 

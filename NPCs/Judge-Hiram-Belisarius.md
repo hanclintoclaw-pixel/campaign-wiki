@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-09-03
 last_updated_session: 2026-09-10
-canon_status: provisional
+canon_status: canon
 confidence: high
 aliases:
   - Hiram Belisarius
@@ -53,11 +53,19 @@ sources:
 - **2026-09-03** - introduced as the target; followed Curtis toward a supposed better gambling opportunity at Mucky's.
 - **2026-09-10** - kidnapped, held through the next court day, and released alive with a staged gambling-debt cover story.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What case was Belisarius assigned to hear on 2066-05-21?
 - Why can Cedar not simply rely on prior payoffs?
 - What fallout follows if Belisarius misses court under suspicious circumstances?
+
+</details>
 
 ## Sources
 

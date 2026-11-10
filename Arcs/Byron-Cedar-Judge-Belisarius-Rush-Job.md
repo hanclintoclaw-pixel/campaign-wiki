@@ -47,12 +47,20 @@ Contract introduced in [Session 2026-09-03](../Sessions/2026-09-03.md) and **com
 
 The contract is closed. The current endpoint is **the following evening after court closed**, provisionally **2066-05-21** based on the inherited **2066-05-20** start. The absolute calendar remains provisional; no exact in-world stop time was stated. No next mission was chosen.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What case did Cedar need delayed, and why was a visibly messy kidnapping still such a satisfying result?
 - Will Dupree retaliate or identify the crew after surviving the crash?
 - Will the debt-collection cover hold, or bring pressure onto 8th Street?
 - Will Holbrook or other court authorities pursue the incident? No intervention by Holbrook was established in this session.
+
+</details>
 
 ## Sources
 

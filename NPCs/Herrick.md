@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2023-03-23
 last_updated_session: 2026-08-27
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, contact, law-enforcement]
 sources:
@@ -49,12 +49,20 @@ Police-linked recurring contact and leverage node for the crew. Older consolidat
 - 2026-08-06 — provided police-side information on the escaped scorpion drone and Pixel Sticks sponsor cleanup.
 - 2026-08-27 — enabled crew interviews with the surviving Pixel Sticks prisoners while avoiding deeper police entanglement in the CAT / Princeps conflict.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What is Herrick's exact formal role within Nashville PD / liaison structures?
 - How exposed is the crew if Herrick's relationship to them becomes public?
 - How much can Herrick keep the Pixel Sticks scorpion drone fallout from attracting federal attention?
 - How far will Herrick tolerate crew operations around a corporate conflict Nashville PD is being paid not to investigate?
+
+</details>
 
 ## Sources
 

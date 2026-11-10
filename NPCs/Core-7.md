@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-05-14
 last_updated_session: 2026-07-30
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, wetware-system, current-arc, site-7]
 sources:
@@ -50,7 +50,13 @@ A buried Site 7 controller that first presented as an eerie automated host proce
 - 2026-05-28 — aftermath planning reframed Core 7 as containment/rescue/scandal problem.
 - 2026-07-30 — player-driven follow-up produced the Scarred Man Matrix profile and tied the old project to Colonel Earl Stryker / Dead Soldier.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who originally built Site 7 and Core 7's dolphin-centered wetware system?
 - Is Colonel Earl Stryker / Dead Soldier still looking for Core 7, or is someone else using the same old CAS trail?
@@ -58,6 +64,8 @@ A buried Site 7 controller that first presented as an eerie automated host proce
 - Can the dolphin node be extracted or stabilized without killing it?
 - How much of Core 7's behavior is the dolphin's own will versus machine mediation?
 - What exactly was copied, sold, or licensed from this architecture into later Cindy-line systems?
+
+</details>
 
 ## Sources
 

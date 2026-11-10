@@ -87,12 +87,20 @@ For campaign use, this cost represents keeping the site viable as a group safeho
 - Linked to the active runner crew as a private safehouse.
 - Linked to the broader Nashville safehouse / fallback-location network.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What supplies, escape routes, or security measures are stored there?
 - Which bank and exact session date belong to the old job that put the location in the crew's hands?
 - Who are the two flunkies, and how much do they know about the crew?
 - Which safehouse upgrades should be bought next: stronger sensors, better utilities, a hidden garage bay, or medical recovery space?
+
+</details>
 
 ## Sources
 

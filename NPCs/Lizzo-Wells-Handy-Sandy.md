@@ -44,12 +44,20 @@ sources:
 - Known to [Kne@zle](Kne-zle.md) and relevant to [Grid Overwatch Division](../Organizations/Grid-Overwatch-Division.md).
 - Currently held through [Herrick](Herrick.md) / Nashville PD arrangements.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who was the friend who supplied or transferred Mr. Rainbow to her?
 - Why does Grid Overwatch consider Handy-Sandy a person of interest?
 - Is she waiting for Grid Overwatch, an otaku tribe, the Pixel Sticks sponsor, or someone else to extract or protect her?
 - How much did she know about the Pixel Sticks sponsor beyond the money and mission package?
+
+</details>
 
 ## Sources
 

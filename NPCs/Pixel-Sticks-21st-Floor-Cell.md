@@ -45,13 +45,21 @@ The crew disrupted the cell in [Session 2026-07-23](../Sessions/2026-07-23.md), 
 
 Disrupted. The crew breached the floor, disabled or intimidated several members, recovered used utilities, and triggered the scorpion drone as escape-cover. Surviving members are in Nashville PD custody and being adapted into coerced gray-hat work under Herrick's oversight. Their sponsor now appears strongly tied to Princeps / Claude August, but proof remains circumstantial.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Can the crew or CAT prove the Princeps / Claude connection behind the advanced utilities and scorpion drone?
 - Was Highbrow the actual leader or only the active decker on shift?
 - What unfinished job was supposed to create the cell's major payday?
 - Who supplied Lizzo Wells / Handy-Sandy with Chunky Sparkles / Mr. Rainbow?
 - Are any Pixel Sticks outside the captured 21st-floor cell still active?
+
+</details>
 
 ## Relevant Sessions
 

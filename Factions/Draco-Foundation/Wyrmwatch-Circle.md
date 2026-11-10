@@ -3,7 +3,7 @@ title: Draco Foundation - Wyrmwatch Circle
 type: faction
 visibility: player-safe
 status: active
-canon_status: provisional
+canon_status: canon
 confidence: medium
 updated: 2026-08-14
 parent: Draco Foundation
@@ -88,13 +88,21 @@ Use Wyrmwatch when the campaign needs:
 - a UCAS-side contact point that can help without operating openly in Nashville;
 - a competing model to the Hidden Enforcers: scholarly, draconic, philanthropic, and still quietly coercive.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who is Valgaut's direct sponsor inside Wyrmwatch?
 - Does the Circle see Draco as inspiration, obligation, patron, or warning?
 - What further service or oath will Wyrmwatch require from Valgaut after the Chunky Sparkles handoff?
 - What will Wyrmwatch do with Chunky Sparkles and the command-phrase information?
 - What does Wyrmwatch already know about the recent Nashville awakened-creature weirdness?
+
+</details>
 
 ## Related Pages
 

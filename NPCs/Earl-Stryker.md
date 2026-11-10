@@ -40,13 +40,21 @@ sources:
 - Possibly linked to the fresh **Pyramid** cigarette clue at Site 7, though the crew has not confirmed whether the recent visitor was Stryker, CAS cleanup, or someone else.
 - Potential future target for **[Mevin Kitnick](../PCs/Mevin-Kitnick.md)** and **[Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)** through Matrix-icon/profile tracing.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Is Stryker still alive?
 - Is Dead Soldier still active, retired, hiding, dead, or operating under another identity?
 - Did Stryker personally visit the Site 7 ravine recently, or was someone else with CAS/ex-military habits there?
 - Was Stryker hunting Core 7, protecting the project, cleaning up evidence, or pursuing his own post-disgrace agenda?
 - Can Mevin and CLJ trace Stryker's old Matrix profile if he is still out there?
+
+</details>
 
 ## Sources
 

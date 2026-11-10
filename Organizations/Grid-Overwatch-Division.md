@@ -23,7 +23,13 @@ The **Grid Overwatch Division (G.O.D.)** is treated as **campaign canon** in thi
 
 In the currently surfaced campaign material, G.O.D. is tied to regional Matrix monitoring and oversight in the CAS, especially through the otaku tribe **Enigma Machine** and its senior member **Kne@zle**.
 
-Print note: SR3 sources do have a **Grid Overwatch Division**, but it is not automatically the same body as the Nashville one. In **Matrix (1995) p.159** the "G-men" are the **CCMA's** Grid Overwatch Division, "part Matrix marshals and part hot-shot deckers," policing the Matrix under the **self-declared authority of the Corporate Court** - distinct from the local nations and corps who "assert their rights to enforce Matrix laws within their gridspaces" and hire their own grid cops. This campaign's Nashville G.O.D. is currently a **local/campaign instantiation**; whether it is CCMA G-men, a local agency borrowing the initials, or both, is unresolved.
+<!-- cindy-canon: printed-sr3 same-org -->
+
+## Canon mapping (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+The Nashville **G.O.D. is the same organization** as the printed **Grid Overwatch Division** of **SR3 Matrix (1995), p.158** - the CCMA's "G-men," "part Matrix marshals and part hot-shot deckers," policing the Matrix under the **self-declared authority of the Corporate Court**. Ours is that division's **local branch**, and its local face is **Kne@zle** of the otaku tribe **Enigma Machine**. Where this table's portrayal differs from print, that is our own characterisation of one organization - not a second organization sharing an initialism.
+
+Printed context worth keeping at the table: G-men authority is **self-declared and contested**. The same passage has nations and corps "assert their rights to enforce Matrix laws within their gridspaces" and hire their own grid cops - Lone Star's **GridSec** and Renraku-owned **Securitech** being the named counterparts. A CCMA warrant is not automatically a Nashville PD welcome.
 
 ## What the campaign currently says
 
@@ -40,7 +46,7 @@ Print note: SR3 sources do have a **Grid Overwatch Division**, but it is not aut
 ## Related groups
 
 - Enigma Machine
-- **Print-context peers** (SR3 Matrix p.159): Lone Star's Division of Matrix Security (**GridSec**) and **Securitech International** (Renraku subsidiary) - the local-cop and corporate-cop counterparts to the CCMA G-men.
+- **Print-context peers** (SR3 Matrix p.158): Lone Star's Division of Matrix Security (**GridSec**) and **Securitech International** (Renraku subsidiary) - the local-cop and corporate-cop counterparts to the CCMA G-men.
 
 ## Canon note
 

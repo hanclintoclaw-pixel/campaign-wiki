@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2023-01-28
 last_updated_session: 2023-01-28
-canon_status: provisional
+canon_status: canon
 confidence: low
 tags: [npc, coworker, genevieve-arc]
 sources:
@@ -32,10 +32,18 @@ Coworker contact tied to the Genevieve Watson investigation.
 
 - 2023-01-28 — Genevieve Watson investigation.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How much did Candace know about the exploitation around Genevieve?
 - Was she just a coworker lead, or a more important witness than the surviving notes show?
+
+</details>
 
 ## Sources
 

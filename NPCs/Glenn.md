@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-02-27
 last_updated_session: 2026-10-08
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, mage, contact]
 sources:
@@ -42,12 +42,20 @@ High-level hermetic mage and active contact with the crew; a member of the Hidde
 - 2026-08-06 — confirmed Hidden Enforcers involvement in the Chunky Sparkles aftermath and that the creature escaped containment.
 - 2026-10-08 — investigated the tainted spirit and reported its banishment by the Hidden Enforcers.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What level of Hidden Enforcers support can Glenn currently provide?
 - How directly involved is he in the current anti-insect-spirit and influence-network fallout?
 - Can Glenn or the Hidden Enforcers track Chunky Sparkles after the failed containment?
 - Who summoned the tainted spirit, and what follow-up or obligation will Glenn ask of Kurgan?
+
+</details>
 
 ## Sources
 

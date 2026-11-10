@@ -14,6 +14,13 @@ sources:
 
 # South Side Highwaymen
 
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization, and printed canon makes no claim about it.
+
+
 ## Overview
 
 The **South Side Highwaymen** are a go-gang operating in the old I-65 / 840 southern corridor outside Nashville. They are not a top-tier city power, but they appear established enough to mark territory, patrol roads, and function as a crooked form of local law enforcement for people living around tucked-away homesteads and back roads.
@@ -32,11 +39,19 @@ The **South Side Highwaymen** are a go-gang operating in the old I-65 / 840 sout
 - Linked to the **[Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md)** as fallout from the escaped scorpion drone.
 - Potentially hostile toward **[Curtis](../PCs/Curtis.md)** and **[Kurgan](../PCs/Kurgan.md)** if they identify who interfered with the drone-site fight.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How badly did the 2026-08-06 fight damage the Highwaymen's local crew?
 - Do they know Curtis and Kurgan were present?
 - Will they retaliate, sell the story, or avoid the drone site after seeing what happened there?
+
+</details>
 
 ## Sources
 

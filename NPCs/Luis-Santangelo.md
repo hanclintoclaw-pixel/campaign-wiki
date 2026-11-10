@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session:
 last_updated_session: 2026-04-10
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [npc, criminal, shapeshifter, nashville]
 sources:
@@ -36,10 +36,18 @@ A local criminal power with community backing, brutal reputation, and an open-se
 
 - Historical Wordpress source; not yet tied to a surfaced public session page in the current wiki.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How much territory or influence does Luis actually control?
 - Is he active in the current campaign era, or more part of older city mythology?
+
+</details>
 
 ## Sources
 

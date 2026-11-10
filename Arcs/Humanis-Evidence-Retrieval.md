@@ -66,7 +66,13 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 - **The contract is now paid.** The crew sold the evidence package, including Buzz's footage of Sandusky exploding and the monster emerging, to Mayor Haggar's office through Joseph Neumann for **12,000¥ each and 8 Karma each**, against the GM's recollection of a **60,000¥** original contract figure. A competing bid to Princeps was refused hostilely. The **original Johnson was never contacted again** and remains unidentified.
 - Surviving complications: a possessed corpse is frozen at Taco's compound as Kyron's prospective ritual link; **Tom Erlichman** was captured there but has since been released as Kurgan's Level-1 Humanis informant in [Session 2026-10-29](../Sessions/2026-10-29.md); two guards were executed by Curtis after fleeing; the McDonald's host was wiped by Cindy Lou after its panic button was pressed.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who is the Johnson, and why target Sandusky now?
 - What does the recovered Sandusky cache establish, and does it match the Johnson's request?
@@ -82,6 +88,8 @@ The building is controlled by **[Paul Hardcastle](../NPCs/Paul-Hardcastle.md)** 
 - **What does the crew still hold** after selling to the mayor — copies, the Buzz footage, the concealed paydata, Mevin's old terminal?
 - **What will Tom Erlichman report** as Kurgan's released Level-1 informant, how reliable is he, and what will information cost? Exact Sandusky behavioral history remains unestablished.
 - How does the **original Johnson** react to learning the material went to the mayor instead of them?
+
+</details>
 
 ## Sources
 
