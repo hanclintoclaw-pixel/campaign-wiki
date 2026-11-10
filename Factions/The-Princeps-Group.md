@@ -83,7 +83,13 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 - [Confederated American States](../Locations/Confederated-American-States.md)
 - [Late January Headlines](../Clues/Late-January-Headlines.md)
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How much of the former leadership scandal was real corruption, political theater, or draconic maneuvering?
 - Which CAS military programs depend on Princeps research?
@@ -91,6 +97,8 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 - Which megacorporate interests are most invested in undermining or acquiring Princeps?
 - How far would the CAS government go to protect Claude if his dragon identity became legally actionable?
 - Did Princeps / Claude directly sponsor the Pixel Sticks, or was the draconic icon a deliberate frame?
+
+</details>
 
 ## Sources
 
@@ -100,3 +108,9 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 - [Late January Headlines](../Clues/Late-January-Headlines.md).
 - [(Game Date) Session - 2064-03-01](../Sessions/Game-Date-Session-2064-03-01.md).
 - [Session 2026-08-27](../Sessions/2026-08-27.md).
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization.

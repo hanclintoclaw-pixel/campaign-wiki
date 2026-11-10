@@ -4,7 +4,7 @@ type: vehicle
 visibility: player-safe
 status: active
 last_updated_session: 2026-10-29
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [vehicle, drone, crawler, rigger, curtis]
 sources:

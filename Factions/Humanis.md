@@ -47,12 +47,20 @@ Anti-metahuman extremist faction with renewed active relevance through the **[Ri
 - 2026-09-17 — Humanis-affiliated Ring of Fire / White Creek evidence retrieval begins.
 - [2026-09-24](../Sessions/2026-09-24.md) - Mevin compromised the affiliate's logistics host and forged a pickup order; the crew breached White Creek. The gang suffered casualties and damage, but absent patrols and Hardcastle's unknown fate leave the threat unresolved. Recovered material did not establish wider Humanis command links.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Are any current enemies or complications tied to Kurgan's former association?
 - How directly does the Ring of Fire answer to Humanis leadership?
 - Can Kurgan's former association be used as cover, or will it create risk?
 - Does Sandusky have direct Humanis ties or only ideological overlap?
+
+</details>
 
 ## Sources
 
@@ -61,3 +69,9 @@ Anti-metahuman extremist faction with renewed active relevance through the **[Ri
 - `memory/2026-02-27.md`
 - [Session 2026-09-17](../Sessions/2026-09-17.md)
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
+
+<!-- cindy-canon: printed-sr3 same-org -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+Same organization as the printed SR3 body: the **Humanis** nation, named in 9 of the 19 local SR3 books. Where this table's portrayal differs from print, that is our own characterisation of one organization.

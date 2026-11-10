@@ -48,9 +48,24 @@ A corporate actor with Nashville interests ranging from biotech-adjacent recover
 - [Skizzix](../NPCs/Skizzix.md)
 - [Princeps Nashville Staging Host](../Tech/Matrix/Princeps-Nashville-Staging-Host.md)
 
-## Open questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - How honest was Cross Applied about the use and sensitivity of the stolen gear?
 - Why did this theft intersect so closely with the Cindy/impersonation orbit?
 - Whether CAT's entertainment-side work at Lafayette Tower connects to the campaign's broader media/influence-engine themes.
 - Whether CAT will use the crew directly against Princeps after the Pixel Sticks intelligence handoff.
+
+</details>
+
+
+<!-- cindy-canon: printed-sr3 same-org -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+Same organization as the printed SR3 body: the **Corporate Court of the American Alliance (CCMA)**, named across the local SR3 corpus including *Matrix* (1995). Where this table's portrayal differs from print, that is our own characterisation of one organization.

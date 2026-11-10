@@ -4,7 +4,7 @@ type: player-character
 visibility: player-safe
 status: active
 last_updated_session: 2026-10-22
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
 sources:

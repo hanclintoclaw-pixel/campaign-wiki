@@ -4,7 +4,7 @@ type: vehicle
 visibility: player-safe
 status: active
 last_updated_session: 2026-04-11
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [vehicle, drone, walker, support, curtis]
 sources:

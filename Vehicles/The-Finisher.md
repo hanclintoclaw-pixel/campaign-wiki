@@ -4,7 +4,7 @@ type: vehicle
 visibility: player-safe
 status: active
 last_updated_session: 2026-09-24
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [vehicle, drone, roto-drone, rigger, curtis]
 sources:

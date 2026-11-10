@@ -63,13 +63,21 @@ In [Session 2026-07-23](../Sessions/2026-07-23.md), the crew breached the 21st-f
 - [Session 2026-07-16](../Sessions/2026-07-16.md) - crew identified the laser modem link, entered the tower, bypassed stairwell barricades, and reached the 21st-floor landing.
 - [Session 2026-07-23](../Sessions/2026-07-23.md) - crew breached and disrupted the 21st-floor Pixel Sticks space, recovered used utilities, triggered the scorpion drone, and escaped by elevator.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - What parts of the 21st-floor setup survived the breach and shootout?
 - Are the server racks a primary Pixel Sticks facility, a relay, a bait room, or a compromised civilian jackpoint?
 - Who controls the unknown gang tags and door guards around the Pixel Sticks floors?
 - What are the strange silver discs in the stairwell?
 - Where are the scorpion drone and Chunky Sparkles now?
+
+</details>
 
 ## Sources
 

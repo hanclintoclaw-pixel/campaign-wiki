@@ -5,7 +5,7 @@ visibility: player-safe
 status: released; Level-1 Humanis informant contact for Kurgan
 first_session: 2026-10-22
 last_updated_session: 2026-10-29
-canon_status: provisional
+canon_status: canon
 confidence: medium
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-10-29
@@ -141,13 +141,21 @@ Future information will probably require payment; **no fee or price was recorded
 
 - [2026-10-22](../Sessions/2026-10-22.md) — fled the McDonald's, was run down by Kurgan, knocked out rather than killed, transported to the compound, and restrained. Not questioned.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - When did Sandusky's demeanor change, and did anyone in the security staff notice or object?
 - Who hired and paid the guard detail, and were they told what they were protecting?
 - What does his Humanis cell know about the crew, and will they notice he is missing?
 - Will he use the burner channel, what will he report, and how much will future information cost? He has already been released.
 - Will his testimony support the crew's reading that "Lula Bell Sandusky" was taken over at some point, or undercut it?
+
+</details>
 
 ## Sources
 

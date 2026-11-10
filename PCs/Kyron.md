@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session: 2026-10-01
 last_updated_session: 2026-10-22
-canon_status: provisional
+canon_status: canon
 confidence: medium
 tags: [pc, mage, runner, awakened, active-crew]
 sources:
@@ -57,13 +57,21 @@ Alive, unwounded in the Session 2026-10-22 fight, and paid **12,000¥** plus **8
 - [2026-10-15](../Sessions/2026-10-15.md) — Force 3 fireball destroyed the vans and Sandusky's vessel; Moderate Stun wound. No award.
 - [2026-10-22](../Sessions/2026-10-22.md) — Mana Ball wounded the shedim, Power Bolt finished the last zombie, identified the shedim and the thirty-day banishment window, recovered the corpse for study. **+12,000¥, +8 Karma.**
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Does Kyron know whether "Lula Bell Sandusky" was ever a real person, or has he only a strong suspicion the spirit *was* her?
 - Will he burn a contact on a magic researcher to get the shedim research he needs?
 - Can he actually open a portal to the shedim metaplane, alone or with outside help?
 - Does the frozen corpse function as a usable ritual link?
 - What is his tradition, totem relationship, and contact list beyond the Wolf Totem reference?
+
+</details>
 
 ## Sources
 

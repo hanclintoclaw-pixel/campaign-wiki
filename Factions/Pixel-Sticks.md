@@ -43,13 +43,21 @@ The **Pixel Sticks** are a Matrix youth gang or tag associated with recent vanda
 
 Mevin suspects the client or source is hiding something because the dossier has edited monitoring gaps and because the recovery bounty is much lower than the theoretical value of pristine high-end utilities. Kurgan reads the Johnson as a very serious corporate cutout, meaning the sponsor has resources and wants distance. After the prisoner interviews, the crew reads the Pixel Sticks as useful idiots: dangerous enough to hurt people with high-end tools, but not the true sponsor or strategic mind behind the operation.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who leads the Pixel Sticks beyond the disrupted 21st-floor cell, if anyone still does?
 - Can the Princeps / Claude implication be proven through Matrix icon traces, CAT forensics, or retained utility material?
 - Who supplied or lost the advanced utilities and scorpion drone?
 - What is their remaining relationship to Happy Cat and Chunky Sparkles after Lizzo's Mr. Rainbow explanation?
 - What did Mevin retain in the encrypted utility/paydata material?
+
+</details>
 
 ## Relevant Sessions
 
@@ -67,3 +75,9 @@ Mevin suspects the client or source is hiding something because the dossier has 
 - [Chunky Sparkles](../NPCs/Chunky-Sparkles.md)
 - [Lizzo Wells / Handy-Sandy](../NPCs/Lizzo-Wells-Handy-Sandy.md)
 - [Pixel Sticks Scorpion Drone](../Vehicles/Pixel-Sticks-Scorpion-Drone.md)
+
+<!-- cindy-canon: table-created -->
+
+## Canon status (GM ruling, New Cindy GM Interaction Thread, 2026-11-10)
+
+No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus. **Table-created** for this campaign - not a re-skin of a printed organization.

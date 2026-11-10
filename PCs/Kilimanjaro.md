@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 player: Abe
 last_updated_session: 2026-10-29
-canon_status: provisional
+canon_status: canon
 confidence: high
 aliases:
   - Kil-J
@@ -101,10 +101,18 @@ At the end of [Session 2026-10-29](../Sessions/2026-10-29.md), Kilimanjaro remai
 - **[2026-10-08](../Sessions/2026-10-08.md)** - helped assess the Princeps-style military pod and resolve the four occupants' arrival through a bluff/disguise plan; the crew took heavy armor and weapons. No Karma or payout; individual gear allocation remains open.
 - **[2026-10-22](../Sessions/2026-10-22.md)** - opened at initiative 20, killed a living guard outright with burst fire, asked the tactical question that led to the grenade launcher, and fired the rifle grenade that destroyed the security van and two zombies while putting the shedim at nine of ten boxes. His cover position meant the spirit's retaliatory black-energy bolt splashed on a wall behind him. Supported Kurgan's chase and helped restrain the captive. **+12,000¥ (hidden for a future character), +8 Karma.**
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Abe retained Kilimanjaro on October 29; what cover identity and eventual Princeps role will he use?
 - How much of Kilimanjaro's prior client/contact history should be preserved if he becomes a recurring NPC?
+
+</details>
 
 ## Sources
 

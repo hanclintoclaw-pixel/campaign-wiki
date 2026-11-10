@@ -142,7 +142,13 @@ Hidden Pixel Sticks rewards:
 
 </details>
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Why did the recent Matrix vandalism pattern apparently spare Happy Cat?
 - Is the host itself compromised, protected, or being used as bait?
@@ -151,6 +157,8 @@ Hidden Pixel Sticks rewards:
 - What did the server shutdown hide or protect after Mevin reached the hidden yard?
 - What is inside Mevin's retained encrypted utility/paydata material?
 - Does Happy Cat still provide any route into surviving Pixel Sticks infrastructure after the 21st-floor breach?
+
+</details>
 
 ## Related Pages
 

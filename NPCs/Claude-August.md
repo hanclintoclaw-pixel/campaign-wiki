@@ -91,13 +91,21 @@ _Claude's true form._
 - [Confederated American States](../Locations/Confederated-American-States.md)
 - [Late January Headlines](../Clues/Late-January-Headlines.md)
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who backed Claude inside the CAS government, and why?
 - Did Claude engineer the scandal, exploit it, or inherit an opening created by someone else?
 - Which corporate rivals know or suspect his true nature?
 - What legal theory keeps Claude's ownership intact if his dragon identity becomes impossible to deny?
 - Did Claude personally arrange the Pixel Sticks proxy attack, delegate it through Princeps assets, or get framed by someone using draconic imagery?
+
+</details>
 
 ## Sources
 

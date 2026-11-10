@@ -5,7 +5,7 @@ visibility: player-safe
 status: active
 first_session:
 last_updated_session: 2026-07-09
-canon_status: provisional
+canon_status: canon
 confidence: high
 tags: [location, bar, shadowrunner-hub, nashville]
 sources:
@@ -44,10 +44,18 @@ Bar and private club just outside Nashville city limits that functions as a neut
 - 2026-06-04 — used again as the crew's job-briefing site for the Griswell espionage surveillance run.
 - 2026-07-09 — used as the briefing point for the Pixel Sticks / military-grade utilities run.
 
-## Open Questions
+## Open Questions (Cindy's)
+<!-- cindy-blocked:open-questions -->
+
+<details markdown="1">
+<summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
+
+*Folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Who formally owns or protects Atlas's?
 - How neutral is it in practice when local tensions spike?
+
+</details>
 
 ## Sources
 
