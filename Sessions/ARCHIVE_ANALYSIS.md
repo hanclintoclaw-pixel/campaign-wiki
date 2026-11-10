@@ -50,7 +50,7 @@ The session archive is no longer just a pile of recovered notes. It now supports
 - do selective final cleanup only where it improves play use rather than completeness for its own sake
 
 ### Alias normalization now in progress
-- **Cindy alias cluster:** Cindy-Lou / Cindy Liu Thompson / Cindy Liu Jenkins / Cindy Lou Prime now tracked explicitly as a continuity/alias problem rather than left implicit.
+- **Cindy alias cluster:** *Superseded by GM ruling, New Cindy GM Interaction Thread, 2026-11-10.* Cindy-Lou / Cindy Liu Thompson / Cindy Liu Jenkins / Cindy Lou Prime were **record errors**, not a continuity problem to be tracked. The character's name is **Cindy Lou Jenkins**; the variants survive only as retrieval aliases. See [Name authority](../NPCs/Cindy-Lou-Jenkins.md#name-authority-gm-ruling-2026-11-10). This analysis note is retained as the historical record of the reconciliation attempt.
 - **Steelback / Steel Backs:** normalized publicly as **Steel Backs** with alias preservation.
 
 ### Usability pages now added
