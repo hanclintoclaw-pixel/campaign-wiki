@@ -264,6 +264,7 @@ That is not criticism. That is taxonomy.
 - [On Otaku and the Deep Resonance](Cindy-Lou-Jenkins-Journal/On-Otaku-and-the-Deep-Resonance.md)
 - [On Cover Songs and the Hat on the Ground](Cindy-Lou-Jenkins-Journal/On-Cover-Songs-and-the-Hat-on-the-Ground.md)
 - [On Kne@zle and the Account That Knew My Name](Cindy-Lou-Jenkins-Journal/On-Kne-zle-and-the-Account-That-Knew-My-Name.md)
+- [On the Grid Cops' Shopping Habits](Cindy-Lou-Jenkins-Journal/On-the-Grid-Cops-Shopping-Habits.md)
 
 ## Related pages
 
