@@ -1,4 +1,5 @@
 ---
+permalink: /Locations/
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-13
 ---
