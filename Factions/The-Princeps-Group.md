@@ -5,20 +5,21 @@ visibility: player-safe
 status: active
 canon_status: canon
 confidence: high
-updated: 2026-10-29
+updated: 2026-11-13
 aliases:
   - Princeps
   - Princeps Group
   - Princeps Inc.
 tags: [faction, corporation, miltech, cas, huntsville]
 sources:
+  - ../Sessions/2026-11-12.md
   - ../Sessions/2026-10-29.md
   - Discord request, 2026-07-08
   - ../Clues/Late-January-Headlines.md
   - ../Sessions/Game-Date-Session-2064-03-01.md
   - ../Sessions/2026-08-27.md
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-13
 ---
 
 # The Princeps Group
@@ -100,7 +101,15 @@ Princeps gives the CAS a protected research and procurement channel in a sector 
 
 </details>
 
+## November 12 — Local Footprint And Crew Planning
+
+Princeps has a small [Nashville satellite office](../Locations/Princeps-Nashville-Satellite-Office.md), with outreach/sales and potential hiring support, not local research/manufacturing. Headquarters remain in Huntsville. The office is a suite in a shared downtown tower; public corridors do not grant access to its interior. Princeps is sponsoring an outdoor Nashville concert in the next few weeks; venue, performers and exact date were not supplied.
+
+The GM confirmed the broader **Princeps–Cross conflict** has driven recent alternating contracts. Pixel Sticks sponsorship still lacks a new proof-chain. Mevin researched the office and prepared a buyer cover; no visit, hire, replaced employee or corporate takeover occurred. Plans for Cindy as employee/CEO remain proposals. [Session 2026-11-12](../Sessions/2026-11-12.md).
+
 ## Sources
+
+- [Session 2026-11-12](../Sessions/2026-11-12.md) — archived transcript and timestamp anchors on the session page.
 
 - [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 

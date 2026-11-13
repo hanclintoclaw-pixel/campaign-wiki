@@ -9,9 +9,12 @@ canon_status: canon
 confidence: high
 tags: [location, nashville, music-circle, little-chiba, cross-applied-technology, matrix-host]
 sources:
+  - ../Sessions/2026-11-12.md
   - ../Sessions/2026-06-04.md
   - ../Sessions/2026-07-02.md
   - User-provided map/address canon on 2026-07-03
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-13
 ---
 
 # Lafayette Tower
@@ -97,7 +100,13 @@ Open questions remain around how safe that host is, what historical projects pas
 
 </details>
 
+## November 12 — Regional Headquarters Clarification
+
+The GM explicitly identified Lafayette Tower as **Cross Applied Technology’s CAS regional headquarters**, adding regional significance to its known North American Entertainment Division presence. This is distinct from Princeps’s small [Nashville satellite office](Princeps-Nashville-Satellite-Office.md) in a different, unnamed multi-tenant tower. No new tower visit or Ultraviolet-host intrusion occurred. [Session 2026-11-12](../Sessions/2026-11-12.md), 22:24:17–22:25:30.
+
 ## Sources
+
+- [Session 2026-11-12](../Sessions/2026-11-12.md) — archived transcript and timestamp anchors on the session page.
 
 - [Session 2026-06-04](../Sessions/2026-06-04.md)
 - [Session 2026-07-02](../Sessions/2026-07-02.md)

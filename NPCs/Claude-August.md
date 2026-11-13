@@ -6,17 +6,18 @@ status: active
 canon_status: canon
 confidence: high
 tags: [npc, corporate, dragon, princeps, cas]
-updated: 2026-10-29
+updated: 2026-11-13
 aliases:
   - Lord August
 sources:
+  - ../Sessions/2026-11-12.md
   - ../Sessions/2026-10-29.md
   - Discord request, 2026-07-08
   - Discord image attachment, 2026-07-08
   - ../Sessions/Game-Date-Session-2064-03-01.md
   - ../Sessions/2026-08-27.md
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-13
 ---
 
 # Claude August
@@ -107,7 +108,15 @@ _Claude's true form._
 
 </details>
 
+## November 12 — Public Story And Current Target
+
+The GM reiterated that Claude is juvenile and not fully grown. Public history describes two married engineer-owners of a small Huntsville tech company dying in a car accident, after which a previously unknown son inherited their shares. Claude has barely aged over **about ten years**. This is the public account, not verified parentage or a resolution of the older scandal/takeover account.
+
+Mevin joined planning to remove him; the crew’s immediate action is a buyer approach to the [Nashville satellite office](../Locations/Princeps-Nashville-Satellite-Office.md). Board control, a successor and Cindy as CEO were discussed, not achieved. The mayor-as-successor suggestion was withdrawn by the GM. [Session 2026-11-12](../Sessions/2026-11-12.md).
+
 ## Sources
+
+- [Session 2026-11-12](../Sessions/2026-11-12.md) — archived transcript and timestamp anchors on the session page.
 
 - [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 

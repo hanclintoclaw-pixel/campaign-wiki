@@ -4,10 +4,10 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-11-06
+updated: 2026-11-13
 tags: [leads, clues, open-threads]
-generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
-generated_at: 2026-11-06
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-13
 ---
 
 # Loose Threads / Unpulled Threads / Lead Board
@@ -26,16 +26,25 @@ It is not a complete evidence dump. A lead belongs here when it is still actiona
 
 ### Research Claude and handle Princeps cover applications
 
-**Status:** **new — current table focus**
+**Status:** **touched — buyer reconnaissance prepared; prior applications pending**
 
-**Last touched:** [Session 2026-10-29](../Sessions/2026-10-29.md)
+**Last touched:** [Session 2026-11-12](../Sessions/2026-11-12.md)
 
-**Connected pages:** [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md), [Claude August](../NPCs/Claude-August.md), [Princeps](../Factions/The-Princeps-Group.md)
+**Connected pages:** [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md), [Claude August](../NPCs/Claude-August.md), [Princeps](../Factions/The-Princeps-Group.md), [Nashville satellite office](../Locations/Princeps-Nashville-Satellite-Office.md)
 
-Curtis, Kurgan and Kilimanjaro submitted independent applications using existing customized IDs. They chose ultimately to kill Claude, but explicitly rejected reckless immediate action. **No one is hired.** Vetting is expected to take weeks, not weeks already elapsed.
+Mevin researched the local office and prepared to approach as a private-security equipment buyer. Kurgan completed his disguise; Mevin bought a rating-6 Miltech Manufacturers knowsoft for 17,000¥. No visit, hire, employee replacement or attack occurred. The existing applications are not resolved.
 
-**Next actions:** record cover biographies, research corporate/draconic capabilities and access limits, coordinate absent PCs and bluebook potential gear. Dragon exposure alone may not work because his identity is an open secret; copied technology does not prove he lacks real inventions. No new payment or priced purchase occurred.
+**Next actions:** enter through a credible buyer meeting, settle supporting company/identity details and proof-of-funds allocation, learn staffing and network access, then choose an infiltration method. **Efficient Solutions** is a suggested cover name; discussed 50,000¥/250,000¥ balances are not spending. Cindy’s remote-employment/CEO role and expanded in-world MSP access remain proposals, not acquired access.
 
+### Investigate Princeps’s upcoming Nashville concert
+
+**Status:** **new — public event lead**
+
+**Last touched:** [Session 2026-11-12](../Sessions/2026-11-12.md), 22:11–22:12
+
+The GM established an outdoor Princeps-sponsored concert in Nashville within the next few weeks. Venue, date and performers were not specified. The event timeline continues independently of the crew’s self-directed operation.
+
+**Next action:** learn the event details and decide whether outreach, observation or media/influence opportunities help the operation. No artist approach, booking or Cindy comeback was arranged.
 
 ### Recover the Sandusky evidence from the Ring of Fire
 
@@ -194,6 +203,8 @@ Session reasoning tied Core 7's architecture to older Swiftwing / Cindy knowbot 
 **Last touched:** [Session 2026-10-29](../Sessions/2026-10-29.md)
 
 **Connected pages:** [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md), [Pixel Sticks](../Factions/Pixel-Sticks.md), [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md), [The Princeps Group](../Factions/The-Princeps-Group.md), [Claude August](../NPCs/Claude-August.md), [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md), [Imogene Viola](../NPCs/Imogene-Viola.md)
+
+**November 12 update:** the GM confirmed the broader Princeps–Cross conflict and identified Lafayette Tower as Cross’s CAS regional headquarters. This supplied context, not a new proof-chain or paid contract. [Session 2026-11-12](../Sessions/2026-11-12.md).
 
 The paid Matrix cleanup job is over, and the later sponsor follow-up strongly implicated **The Princeps Group / Claude August** through the CAT target list, dead-drop story, draconic Matrix icon, high-end equipment, and prior CAT/Princeps feud context. The crew still lacks courtroom-clean proof, and CAT has the handoff through Imogene Viola. October 29 turned this into [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md): three cover applications submitted, vetting pending. Claude's species is an open secret, not guaranteed blackmail leverage. Public inheritance PR and the older takeover story remain unreconciled.
 

@@ -3,11 +3,12 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-29
+last_updated_session: 2026-11-12
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
 sources:
+  - ../Sessions/2026-11-12.md
   - ../Sessions/2026-10-29.md
   - PARTY_DOSSIER.md
   - ../Sessions/2026-06-04.md
@@ -58,7 +59,7 @@ sources:
   - Discord request to add 12,000¥ and 8 Karma to Curtis, 2026-10-22
   - Discord request to correct Curtis's current Karma Pool to 9 and Good Karma (advancement Karma) to 25, 2026-10-29
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-13
 ---
 
 # Curtis
@@ -146,6 +147,8 @@ After the 2026-10-01 session, Curtis and the other established runners introduce
 
 ## Known Facts
 
+- **November 12:** supported investigating the Princeps Nashville satellite office and proposed using building-system access to cover later infiltration. Suggested **Efficient Solutions** as the security-company cover name. Cindy as remote employee/possible CEO, hardware relocation and staged deliveries remain proposals, not executed work. No new drone/vehicle build or purchase occurred.
+
 - During [Session 2026-10-29](../Sessions/2026-10-29.md), Curtis completed dwarf-fitted **6/4 security armor** from one recovered suit over a GM-advanced week. The GM confirmed **Belmont and Buzz at Pilot 2**. Curtis submitted a Princeps application under an existing false identity, spotted dragon imagery and won the no-Karma opposed Willpower decision with **four successes**. The operation remains research/planning, not employment or an attack.
 
 - Curtis is played by **Lee**.
@@ -175,6 +178,8 @@ After the 2026-10-01 session, Curtis and the other established runners introduce
 - During [Session 2026-10-22](../Sessions/2026-10-22.md), Curtis joined from a hotel room in Troy, Michigan, with only a work laptop and an unresponsive TV, and played the whole session in theater-of-the-mind from the GM's descriptions. He rolled Willpower 5 against 6 and asked to spend **2 Karma from his Karma Pool** to throw off Lula Bell Sandusky's lingering truth-compulsion, with the GM adding 2 more, regaining his clear-headed judgment about the dwarf who had tried to have him killed. He then climbed into Grandpa's captain's chair, deployed [Belmont](../Vehicles/Belmont.md) down the rear ramp, and drove the Doberman **through the front wall of the McDonald's** past a Coke machine to bear on two guards, spending his actions for the turn on the deployment. After they fled, he cold-bloodedly cut both of them down with the mini-tank's machine guns because he had not loaded stun grenades — the GM marked it as killing them for the crime of not knowing their boss was a secret monster. He gave Kyron permission to store a possessed corpse in Grandpa's under-floor storage, later moved to the compound's deep freeze, and set up chains, padlocks, a chair, and a head bag for the captive. Kurgan handed him the guard's 250¥ toward cleanup and submachine-gun ammunition. He argued successfully for handing the transformation footage to the mayor, partly on the genuine grounds that Haggar deserved a warning, and rolled Electronics to anonymize Mevin's hostile Princeps call. **+12,000¥ and +8 Karma already recorded per the GM's 2026-10-22 request.**
 
 ## Karma And Nuyen Ledger
+
+- **2026-11-12 — Princeps planning:** no award, priced expense or assigned capital contribution; **19,503.33¥ → 19,503.33¥**, **Good Karma 25 → 25**, last explicit **Karma Pool 9** retained. Saying he is broke after investing in Grandpa supplies no new exact balance.
 
 - **2026-10-29 closeout reconciliation:** no new award or priced expense. The October 22 award was already in Known Facts but missing from this ledger header/history: **7,503.33¥ + 12,000¥ = 19,503.33¥**. This aligns the display to that prior award, not a second credit. **Karma Pool 9 / Good Karma 25 remain unchanged** from the explicit balance correction. Fitted 6/4 armor and Belmont/Buzz Pilot-2 confirmation add no invented cash debit.
 
@@ -329,6 +334,8 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 
 ## Relevant Sessions
 
+- [2026-11-12](../Sessions/2026-11-12.md) — shaped satellite-office reconnaissance and buyer cover; no purchase, reward or office entry.
+
 - [Session 2026-10-29](../Sessions/2026-10-29.md) — downtime, Tom's release/contact recruitment and the Princeps cover applications; careful research toward killing Claude. No new cash or advancement-Karma award.
 
 - 2026-06-04 — balanced ongoing habitat work with the new **Griswell Data Services** surveillance job, using drone and vehicle support against Alvin Flang's trail.
@@ -349,6 +356,8 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
   **Body 4**, **Quickness 6**, **Strength 5**, **Charisma 1**, **Intelligence 5**, **Willpower 5**, **Essence 1.84**, **Reaction 5**, **Initiative 5+1D6**, **Magic -**.
 
 ## Sources
+
+- [Session 2026-11-12](../Sessions/2026-11-12.md) — archived transcript and timestamp anchors on the session page.
 
 - [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 

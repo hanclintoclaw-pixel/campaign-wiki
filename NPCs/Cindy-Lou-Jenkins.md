@@ -4,7 +4,7 @@ type: entity
 visibility: player-safe
 status: active
 first_session: 2023-04-06
-last_updated_session: 2026-09-17
+last_updated_session: 2026-11-12
 canon_status: canonical-name
 confidence: medium
 aliases:
@@ -13,9 +13,10 @@ aliases:
   - Cindy Liu Thompson
   - Cindy Liu Jenkins
 tags: [npc, knowbot, matrix, cindy, canonical, objective-dossier]
-generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
-generated_at: 2026-11-10
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-13
 sources:
+  - ../Sessions/2026-11-12.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/cindy-lou-jenkins.md
   - memory/2026-02-27.md
@@ -358,6 +359,10 @@ Cindy Lou also has two provisional in-game drone records for table use:
 These assets are options for Cindy initiative suggestions during session play. They do not auto-deploy or override GM control of scene pacing, positioning, availability, or consequences.
 
 ## Recent Field Work
+
+**November 12 — proposed Princeps role, not a deployment:** Mevin, Kurgan and Curtis discussed using Cindy to analyze corporate relationships, impersonate a Matrix-only employee, help insert other runners, or ultimately act as CEO directly or through a proxy. No role was put into operation and Cindy did not accept a specific impersonation in play. The immediate next action is Mevin’s buyer approach to the [Nashville satellite office](../Locations/Princeps-Nashville-Satellite-Office.md).
+
+The GM confirmed she remains physically in a **trailer**, limited to a **small commercial Matrix account**, with broader access deliberately throttled by Mevin. Sustained remote employment would require opening that access substantially. Identity/MSP arrangements, corporate connectivity and moving hardware were discussed only; **no account upgrade or relocation happened**. Mevin described his crush and protective feelings; no reciprocal romance was established. [Session 2026-11-12](../Sessions/2026-11-12.md).
 
 In [Session 2026-09-10](../Sessions/2026-09-10.md), Cindy supported the completed [Byron Cedar / Judge Belisarius job](../Arcs/Byron-Cedar-Judge-Belisarius-Rush-Job.md). With Belisarius accepting a gambling advantage, his cyber-eye was paired through Grandpa so Cindy could receive the visual feed and send advice. Her statistical guidance helped him win despite poor play and mounting intoxication.
 

@@ -3,11 +3,12 @@ title: Mevin Kitnick
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-10-22
+last_updated_session: 2026-11-12
 canon_status: canon
 confidence: medium
 tags: [pc, decker, active-crew, matrix]
 sources:
+  - ../Sessions/2026-11-12.md
   - PARTY_DOSSIER.md
   - ../Sessions/2026-06-04.md
   - ../Sessions/2026-07-09.md
@@ -26,6 +27,8 @@ sources:
   - ../Sessions/2026-10-08.md
   - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
   - GM-confirmed appearance details, 2026-10-07
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-13
 ---
 
 # Mevin Kitnick
@@ -80,6 +83,9 @@ Mevin is usually the crew member most responsible for:
 
 ## Known Facts
 
+- **November 12:** Mevin Kitnick was confirmed as his real name, also used publicly while shadowrunning. He joined Princeps planning, researched the [Nashville satellite office](../Locations/Princeps-Nashville-Satellite-Office.md), and prepared to visit as a private-security buyer. Kurgan disguised him; no visit or employment occurred.
+- Mevin described a crush on Cindy and his wish both to protect her and to use her influence-analysis capabilities; this establishes his feelings, not hers. He proposed remote employment and possible corporate leadership for her, not a completed appointment.
+
 - Mevin Kitnick is played by **Clint**.
 - He is a **corpo decker**.
 - Key crew tags: **AI Enthusiast**, **Backline Combatant**, **Hoarder**.
@@ -103,8 +109,10 @@ Mevin is usually the crew member most responsible for:
 
 ## Karma And Nuyen Ledger
 
+- **2026-11-12 — Princeps cover preparation:** **−17,000¥** once for a **rating-6 Miltech Manufacturers knowsoft**, six knowledge dice, procurement reduced to one day. Base 13,500¥ × 1.25 = 16,875¥; Mevin rounded payment to 17,000¥ with GM assent. [Supplier](../NPCs/Knowsoft-Vendor.md). No other chip purchased. Multi-slot chipjack holds up to four chips per GM clarification, not a rating-4 cap. **24 → 24 tracked Karma**; no new award or spend. Proposed proof-of-funds balances are not expenses.
+
 - **Known current Karma:** at least **24 Karma** after the Session 2026-10-22 award. Earlier unspent/spent totals are not yet fully reconstructed on this page.
-- **Known current nuyen:** at least **56,333¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page; unpriced session expenses remain unreconciled.
+- **Latest player-stated funds baseline:** **400,000¥** before the November 12 knowsoft purchase; **400,000¥ − 17,000¥ = 383,000¥** afterward if personally funded, as Mevin offered. The GM allowed group funding, but no reimbursement/split was recorded. This is a player-stated balance, not a newly earned payout. Older reconstructed event subtotal: **56,333¥ − 17,000¥ = 39,333¥**; incomplete history, not another account to add. Unpriced earlier expenses remain unreconciled.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
 - **Retained asset:** encrypted utility/paydata material for later cracking or evaluation with Cindy Lou.
@@ -137,6 +145,8 @@ Mevin's Matrix play style, as established so far, emphasizes:
 - Has access to **Ruby Falls**, the Chattanooga data haven maintained by the [Lookout Mountain Collective](../Factions/Lookout-Mountain-Collective.md).
 
 ## Relevant Sessions
+
+- [2026-11-12](../Sessions/2026-11-12.md) — satellite-office legwork, disguised security-buyer cover, rating-6 knowsoft purchase; approach to the office remains next.
 
 - **2026-06-04** — used corporate-procedural insight to reframe the Alvin Flang / Griswell job as likely espionage with inside help.
 - **2026-07-09** — identified the Pixel Sticks tag, questioned the Johnson's edited dossier, recognized the utility-recovery implications, and began the Happy Cat / local Matrix investigation.
@@ -293,6 +303,8 @@ For the Mevin Decker Experience, use the following defaults unless the player su
 - **Pool automation note:** The Decker Experience auto-adds free Hacking Pool to tested rolls. Hacking Pool may be tied up during a run for Detection Factor reservation or IC suppression.
 
 ## Sources
+
+- [Session 2026-11-12](../Sessions/2026-11-12.md) — archived transcript and timestamp anchors on the session page.
 
 - [Session 2026-09-24](../Sessions/2026-09-24.md)
 - [Session 2026-10-01](../Sessions/2026-10-01.md)

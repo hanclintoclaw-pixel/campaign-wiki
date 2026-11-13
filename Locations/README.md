@@ -1,3 +1,8 @@
+---
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-13
+---
+
 # Locations
 
 ## Nations
@@ -10,6 +15,8 @@
 - [Nashville](Nashville.md)
 
 ## Nashville Locations
+
+- [Princeps Nashville Satellite Office](Princeps-Nashville-Satellite-Office.md) — downtown 14th-floor suite; identified, not yet visited
 
 - [8th Street Cafe](8th-Street-Cafe.md)
 

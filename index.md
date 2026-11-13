@@ -2,9 +2,9 @@
 title: Nashville Shadowrun
 type: front-page
 visibility: player-safe
-updated: 2026-10-29
+updated: 2026-11-13
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-13
 ---
 
 # NASHVILLE SHADOWRUN
@@ -22,9 +22,9 @@ This wiki is meant to serve three jobs at once:
 
 ## Current Situation
 
-The active player-driven objective is **[Operation Kill the Dragon](Arcs/Operation-Kill-the-Dragon.md)**, established in **[Session 2026-10-29](Sessions/2026-10-29.md)**. Curtis, Kurgan and Kilimanjaro submitted independent Princeps applications under existing false identities and plan careful research/infiltration before any attempt on Claude August. **Applications are pending, not employment.**
+**[Session 2026-11-12](Sessions/2026-11-12.md)** advances **[Operation Kill the Dragon](Arcs/Operation-Kill-the-Dragon.md)**: Mevin joined the planning, researched the **[Princeps Nashville Satellite Office](Locations/Princeps-Nashville-Satellite-Office.md)** and prepared a private-security buyer approach. Kurgan supplied a disguise; Mevin bought a rating-6 Miltech Manufacturers knowsoft for **17,000¥**. **No visit, job, employee replacement or attack has happened.**
 
-The **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** was paid and closed on October 22. Tom Erlichman has now been released as Kurgan's **Level-1 Humanis informant**. One week passed while Curtis fitted recovered **6/4 armor**; the GM confirmed **Belmont and Buzz at Pilot 2**. The frozen corpse, shedim return risk and original Johnson remain loose ends. No new cash or advancement-Karma award was recorded. **Next session: November 5.**
+Cindy as a remote employee or eventual CEO remains a proposal; broader in-world Matrix access and any hardware relocation remain undone. Prior cover applications are pending. The paid **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** remains closed; Tom is a released Level-1 informant and corpse/shedim/original-Johnson fallout remains open. See **[Current State](Current-State.md)** for the next scene and active leads.
 
 ## Navigation
 

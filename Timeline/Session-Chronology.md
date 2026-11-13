@@ -2,9 +2,9 @@
 title: Session Chronology
 type: timeline
 visibility: player-safe
-updated: 2026-10-29
+updated: 2026-11-13
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-13
 ---
 
 # Session Chronology
@@ -116,6 +116,7 @@ Ordered by **played date**. The in-world column carries either a source date or 
 | 86 | [Session 2026-10-15](../Sessions/2026-10-15.md) | 2026-10-15 | late May 2066 or later, same nighttime operation (provisional) | provisional | **Curtis, Mevin, Kurgan, Kilimanjaro, and Kyron** attempted to deliver the Sandusky evidence to the original anonymous Johnson at a Nashville McDonald's. **Lula Bell Sandusky** confronted them, magically compelled Curtis, and signaled an attack. Kyron's fireball wrecked one armored van and ignited another; Sandusky's physical body was apparently killed, and the previously banished tainted greater spirit of man emerged. Evidence remains with the crew; no handoff, payment, Karma, or completion award. |
 | 87 | [Session 2026-10-22](../Sessions/2026-10-22.md) | 2026-10-22 | late May 2066 or later, about **1 a.m.** (hour set by the GM; exact date not spoken) | provisional | **Curtis, Mevin, Kurgan, Kilimanjaro, and Kyron** finished the McDonald's fight: the shedim released from Lula Bell Sandusky's destroyed body was driven to nine of ten boxes and **banished by Kurgan's final shotgun pass**, with Kyron identifying it as a shedim excluded for one turn of the moon. Kyron stopped the last possessed shambler with Power Bolt. The crew captured guard **Tom Erlichman**, recovered a possessed corpse for ritual-link research, had **Cindy Lou Jenkins** wipe the restaurant host, and sold a copy of the evidence plus Buzz's transformation footage to Mayor Haggar's office through Joseph Neumann. Princeps refused the sale hostilely. **12,000¥ and 8 Karma each.** Next session confirmed **Thursday, 2026-10-29**.
 | 88 | [Session 2026-10-29](../Sessions/2026-10-29.md) | 2026-10-29 | one week after prior aftermath; exact calendar date/hour unspoken | provisional date; confirmed outcomes | Curtis fitted recovered armor to 6/4; Belmont/Buzz Pilot 2 confirmed; Kurgan took the shotgun and released Tom as a Level-1 informant. Three cover applications to Princeps submitted; careful research toward killing Claude chosen. No new cash/advancement-Karma award. Next session November 5. |
+| 89 | [Session 2026-11-12](../Sessions/2026-11-12.md) | 2026-11-12 | after prior downtime; one-day knowsoft procurement, exact date/hour unspoken | provisional date; confirmed preparation | Mevin, Curtis and Kurgan researched Princeps’s Nashville satellite office, prepared a private-security buyer cover and disguise, and purchased a rating-6 Miltech Manufacturers knowsoft for 17,000¥. No visit, hire, takeover or attack; no award. |
 
 ## Read this sequence in plain English
 
@@ -143,6 +144,8 @@ Ordered by **played date**. The in-world column carries either a source date or 
 22. Session 2026-10-22 resumes at immediate initiative on the **same provisional night**, continuing the McDonald's drop-site fight to conclusion. The GM sets the hour of the confrontation and its aftermath at about **1 a.m.** The shedim was banished by Kurgan's final shotgun pass after being driven to nine of ten boxes of damage, with Kyron identifying it as a shedim banished for one turn of the moon (roughly thirty days). The crew then wiped the restaurant's host, regrouped at Taco's compound with a possessed corpse and a captured guard, and sold the evidence package to Mayor Haggar's office through Joseph Neumann for **12,000¥ each plus 8 Karma each**, concluding the Humanis evidence retrieval. The GM confirmed the next session as **Thursday, 2026-10-29**. Do not assign the in-world calendar date more precisely than the provisional late-May-2066-or-later range inherited from Session 2026-09-24, but do treat the confrontation as occurring at about 1 a.m. per the GM.
 
 23. [Session 2026-10-29](../Sessions/2026-10-29.md) advances **one week** of downtime for Curtis's fitted 6/4 armor, resolves Tom's detention into a released Level-1 Humanis contact for Kurgan, confirms Pilot 2 for Belmont/Buzz and begins **Operation Kill the Dragon**. Curtis, Kurgan and Kilimanjaro submitted separate applications under old false identities; employment is pending. The crew chose research and patience before any attempt on Claude. Projected vetting weeks did not elapse here. No exact in-world date/hour, new cash award or advancement-Karma award was stated. Next session confirmed **Thursday, November 5**.
+
+24. [Session 2026-11-12](../Sessions/2026-11-12.md) returns Mevin to the Claude operation and identifies the Nashville satellite office as the first local reconnaissance target. Kurgan disguises Mevin; a rating-6 Miltech Manufacturers knowsoft costs 17,000¥, with procurement reduced to one day. The stop is before the buyer approach. No exact in-world date/hour, completed hiring, corporate takeover, attack or new award was established. Projected infiltration months and concert lead-time weeks did not elapse.
 
 ## Gaps and caveats
 

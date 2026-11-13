@@ -2,22 +2,26 @@
 title: Current State
 type: dashboard
 visibility: player-safe
-updated: 2026-10-29
+updated: 2026-11-13
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-13
 ---
 
 # Current State
 
 ## Current Focus
 
-The active table objective is **[Operation Kill the Dragon](Arcs/Operation-Kill-the-Dragon.md)**, chosen in **[Session 2026-10-29](Sessions/2026-10-29.md)**. Curtis, Kurgan and Kilimanjaro want ultimately to kill **[Claude August](NPCs/Claude-August.md)**, beginning with research and potential employment-based infiltration of **[Princeps](Factions/The-Princeps-Group.md)**. All three submitted separate applications under existing false identities. **Vetting is pending and expected to take weeks; no one is hired and no attack occurred.** Absent PCs have not committed to proposed roles.
+The active objective remains **[Operation Kill the Dragon](Arcs/Operation-Kill-the-Dragon.md)**. In **[Session 2026-11-12](Sessions/2026-11-12.md)**, Mevin joined Curtis and Kurgan’s planning and researched the **[Princeps Nashville Satellite Office](Locations/Princeps-Nashville-Satellite-Office.md)**. The immediate next scene is Mevin’s approach as a private-security miltech buyer: Kurgan prepared his disguise and Mevin purchased a **rating-6 Miltech Manufacturers knowsoft for 17,000¥**, procurement reduced to one day. **No office visit, employment, employee replacement or attack has occurred.** The three earlier applications remain pending.
 
-The prior **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** remains paid and closed: the October 22 sale to the mayor's office awarded 12,000¥ and 8 Karma each. In the October 29 follow-up, **[Tom Erlichman](NPCs/Tom-Erlichman.md)** was released as **Kurgan's Level-1 Humanis informant**. He is no longer an unconscious captive. The frozen possessed corpse at Taco's, the banished shedim's eventual return, Paul Hardcastle's fate and the unidentified original Johnson remain unresolved.
+Princeps headquarters are in Huntsville; the Nashville suite is a small sales/outreach/hiring-support footprint in a shared downtown tower. Public corridors reach its 14th-floor door, not its private interior. An outdoor Princeps-sponsored concert is coming in the next few weeks; no venue/date/artist was stated.
 
-One week of downtime passed while Curtis adapted recovered security armor to **6/4**. The GM confirmed **Pilot 2 for Belmont and Buzz**; Kurgan took the recovered folding-stock shotgun. No new cash or advancement-Karma award was recorded. Karma pools refreshed; justified research/operation checkpoints can refresh them again. Next session was confirmed as **Thursday, November 5**.
+Cindy as a remote employee, influence analyst, proxy controller or eventual CEO remains a set of proposals. She is still in her trailer with deliberately restricted commercial Matrix access; no corporate account or hardware move occurred. Company cover, staffing, proof-of-funds allocation and first infiltration route remain to be settled.
+
+The prior **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** remains paid and closed. **[Tom Erlichman](NPCs/Tom-Erlichman.md)** is Kurgan’s released Level-1 Humanis informant. The frozen corpse, shedim-return risk and original Johnson remain unresolved. No new cash or advancement-Karma award was recorded November 12.
 
 ## Recent Runs / Follow-ups
+
+- **[Session 2026-11-12](Sessions/2026-11-12.md):** Mevin returns; corporate succession/influence plans debated; satellite office researched; security-buyer cover and disguise prepared; one rating-6 knowsoft bought. Stop before the office approach.
 
 - **[Session 2026-10-29](Sessions/2026-10-29.md):** a week of downtime, fitted armor, drone confirmation, Tom converted/released as an informant, and the new Claude/Princeps operation. Three cover applications submitted; no employment, combat or award.
 
@@ -36,11 +40,13 @@ One week of downtime passed while Curtis adapted recovered security armor to **6
 - Current campaign year: **2066**.
 - **One week of downtime elapsed** in Session 2026-10-29 after the prior provisional late-May-2066-or-later aftermath. Exact calendar date and current hour were not stated. Do not convert this into a fixed date or dated shedim expiry.
 - The earlier McDonald's confrontation was placed at about **1 a.m.**; that is not the current clock time a week later. Princeps's projected hiring/vetting weeks have **not** been narrated as elapsed.
-- Current posture: three present runners have submitted cover applications and are researching the Claude operation. Tom is released; the frozen corpse and spirit-return risk remain. Abe chose to retain Kilimanjaro. Valgaut remains off active duty; Mevin and Kyron did not attend this planning session and their roles remain open.
+- Current posture after November 12: Curtis, Kurgan and Mevin prepared local buyer reconnaissance. Earlier applications by Curtis/Kurgan/Kilimanjaro remain pending. Kilimanjaro and Kyron were absent November 12; Valgaut remains off active duty. Knowsoft procurement takes one day; no exact current date/hour or separately narrated full delivery wait was established. Proposed months of infiltration and concert lead-time weeks have not elapsed.
 
 ## Immediate Leads
 
-- **Princeps applications and covers:** write biographies, await vetting, research Claude/dragons/security and coordinate absent players before choosing a method.
+- **Princeps local entry:** conduct Mevin’s prepared buyer approach, settle proof-of-funds custody and supporting company/identity details, learn staffing/connectivity before choosing a first replacement employee. **Efficient Solutions** was a suggested cover name, not a recorded business launch.
+- **Cindy access:** decide participation and in-world MSP/identity/connectivity requirements; no upgraded account or move is complete.
+- **Sponsored concert:** investigate the outdoor Nashville event if useful; venue/date/performers unknown.
 - **Open-secret constraint:** merely exposing Claude as a dragon is not guaranteed leverage; reconcile the public inheritance PR with the older takeover account.
 
 - **~30-day shedim clock:** decide whether to pursue a metaplane portal, build wards/defenses, or accept the risk on the theory that it cannot identify the crew without a ritual link

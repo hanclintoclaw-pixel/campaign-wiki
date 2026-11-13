@@ -5,13 +5,20 @@ visibility: player-safe
 status: active
 canon_status: canon
 confidence: high
-updated: 2026-07-08
+updated: 2026-11-13
 tags: [location, city, huntsville, cas, miltech]
 sources:
+  - ../Sessions/2026-11-12.md
   - Discord request, 2026-07-08
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-13
 ---
 
 # Huntsville
+
+## November 12 — Headquarters Versus Satellite Office
+
+The GM reaffirmed that Princeps is based in **Huntsville**, south of Nashville. A headquarters job would potentially require travel, local accommodation and a credible cover background; no move occurred. The crew instead chose initial reconnaissance of the small [Nashville satellite office](Princeps-Nashville-Satellite-Office.md), which does not house the company’s principal research/manufacturing. [Session 2026-11-12](../Sessions/2026-11-12.md).
 
 ## Overview
 

@@ -4,7 +4,7 @@ title: Sessions
 type: index
 visibility: player-safe
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-13
 ---
 
 # Sessions
@@ -112,6 +112,7 @@ These pages are ordered by their in-world date and kept here as campaign data so
 - [Session 2026-10-22 (Qwen Summary)](2026-10-22-Qwen-Summary.md) — independent player-safe Qwen summary, retained for comparison
 
 - [Session 2026-10-29](2026-10-29.md) — downtime, Tom becomes an informant, and Operation Kill the Dragon
+- [Session 2026-11-12](2026-11-12.md) — Mevin returns; Princeps satellite-office research, buyer cover and knowsoft purchase
 
 ## Archive analysis
 

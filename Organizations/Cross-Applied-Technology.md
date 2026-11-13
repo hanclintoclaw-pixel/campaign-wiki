@@ -2,13 +2,21 @@
 title: Cross Applied Technology
 type: organization
 visibility: player-safe
-updated: 2026-08-28
+updated: 2026-11-13
 aliases:
   - Cross Applied Technology
   - CAT
+sources:
+  - ../Sessions/2026-11-12.md
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-13
 ---
 
 # Cross Applied Technology
+
+## November 12 — Regional Position
+
+The GM identified [Lafayette Tower](../Locations/Lafayette-Tower.md) as **Cross’s CAS regional headquarters**, in addition to its recorded entertainment-division role. He confirmed the crew’s recent work has repeatedly put them between Cross and [Princeps](../Factions/The-Princeps-Group.md). This clarifies the ongoing corporate conflict; it is not a new paid CAT contract or newly recovered proof of Pixel Sticks sponsorship. [Session 2026-11-12](../Sessions/2026-11-12.md), 21:39 and 22:24.
 
 ## Overview
 

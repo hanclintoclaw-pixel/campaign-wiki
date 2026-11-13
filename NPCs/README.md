@@ -1,6 +1,13 @@
+---
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-13
+---
+
 # NPCs
 
 ## Contacts
+
+- [Knowsoft Vendor (Unnamed)](Knowsoft-Vendor.md) — supplier located for Mevin’s rating-6 Miltech Manufacturers chip, November 12
 
 - [6 Steel Strings](6-Steel-Strings.md)
 - [Dr. Bruce Gallstone](Bruce-Gallstone.md)

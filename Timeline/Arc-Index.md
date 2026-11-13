@@ -2,9 +2,9 @@
 title: Campaign Arc Index
 type: arc-index
 visibility: player-safe
-updated: 2026-10-29
+updated: 2026-11-13
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-13
 ---
 
 # Campaign Arc Index
@@ -263,7 +263,9 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 **Current focus:** Curtis, Kurgan and Kilimanjaro submitted independent Princeps applications under existing false IDs and chose patient research/infiltration toward killing Claude August. Vetting is pending; no employment, attack, employer or new reward is established. Absent PCs' roles remain open.
 
-**Key session:** [Session 2026-10-29](../Sessions/2026-10-29.md). **Dedicated page:** [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md).
+**November 12:** Mevin joined planning, researched the [Nashville satellite office](../Locations/Princeps-Nashville-Satellite-Office.md), and prepared a buyer approach with Kurgan’s disguise and a purchased rating-6 knowsoft. No visit/hire/attack has occurred; Cindy as remote employee or CEO remains a proposal.
+
+**Key sessions:** [Session 2026-10-29](../Sessions/2026-10-29.md), [Session 2026-11-12](../Sessions/2026-11-12.md). **Dedicated page:** [Operation Kill the Dragon](../Arcs/Operation-Kill-the-Dragon.md).
 
 ## Related pages
 
