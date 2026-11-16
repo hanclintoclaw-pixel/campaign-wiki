@@ -8,6 +8,8 @@ generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-16
 sources:
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (Crowd Behavior Analysis 8 and Crowd Behavior Shaping 8 as Swiftwing-added Active Skills; Faux Persona vs five-nuyen synth track; the shy-of-live premise)
+  - GM approval, New Cindy GM Interaction Thread, 2026-11-16 (approved the two crowd Active Skills; approved integrating Cindy's media-landscape scan onto the wiki: the audience machine, channel variants, economics of fandom, and the feed-versus-room shape of her isolation)
+  - Shadowbeat (FASA 7109, ISBN 1-55560-159-6, FASA 1992), printed pp. 8 and 30 - Song-O-Mats and formula-written broadcast entertainment. Shadowrun 2nd Edition-era product: LORE AND VOCABULARY ONLY for this campaign; no mechanic from it is used or adjudicated. Corpus: /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/Shadowbeat_FASA7109/source.md
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-10 (virtual pop-star origin; Ale 8 paid endorsement; name authority)
   - ../NPCs/Cindy-Lou-Jenkins.md
   - ../Sessions/2023-04-06.md
@@ -44,6 +46,17 @@ The record label that **bought** the virtual pop act **Cindy Lou Jenkins** and u
 - The original job framing treated Cindy's physical host/server platform as the recoverable "body" in question.
 - Swiftwing sits near the origin point of the campaign's long-running music / AI / influence-engine thread.
 - By **2026-05-28**, session reasoning suggested Swiftwing may have been working from architecture, code, or commercially adapted design lineage traceable back toward **Core 7 / Site 7** rather than inventing Cindy's foundation in isolation.
+
+## The audience machine (GM-approved integration, 2026-11-16)
+
+Written up from Cindy's scan of the media landscape, approved for the wiki by the GM on 2026-11-16. This is the operational shape of what the label ran - not a new ruling about what Cindy is.
+
+- Swiftwing operated a continuous pipeline: acquire attention, program appearances and rotation, promote the act, distribute channel-specific material, measure response, and monetize the resulting attachment. Each rung supplied the next; the audience response also informed what returned to circulation.
+- Fandom made that pipeline durable. Attention converted to revenue, revenue supported continued contact and loyalty, and loyalty became leverage over what got made next. The subscriber relationship and the fan club outlasted a single sale; keeping people reachable mattered beyond any particular purchase.
+- Paid endorsements occupied one rung of the monetization ladder alongside recordings, exclusives, and merchandise. Ale 8 demonstrates that rung. It does not account for the whole business or reduce Cindy's career to one beverage placement.
+- Programming and distribution worked together: a short version could acquire listeners while host-only material gave existing fans a reason to return. Scarcity and availability were coordinated parts of audience management, rather than competing explanations for the act's reach.
+- The nine-year listener shows fandom performing maintenance after label spending stopped. Keeping the fan club alive preserved attachment without Swiftwing funding the labor. Part of the apparatus had effectively been outsourced to the audience for free.
+- **Landscape framing, not a new rule:** music without musicians and formula-written broadcast entertainment are already unremarkable printed background in this world. An expert system generates music to order without musicians and saturates the commercial record stores and pay-for-play databases, and at least one popular NBS adventure series runs with no writing staff at all, correlating 110 years of scripts against audience surveys, sponsors' sales figures, and market-study parameters. See *Sources*: Shadowbeat, printed pp. 8 and 30 - lore and vocabulary only, never SR3 rules. A singing database is not the scandal in Nashville. **Procurement is:** why pay to build a person when a database does the same work cheaper?
 
 ## Key people
 

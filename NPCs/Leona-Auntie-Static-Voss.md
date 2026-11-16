@@ -12,6 +12,7 @@ aliases:
   - Leona Voss
 sources:
   - GM direction 2026-07-17
+  - GM approval, New Cindy GM Interaction Thread, 2026-11-16 (approved the two crowd Active Skills; approved integrating Cindy's media-landscape scan onto the wiki: the audience machine, channel variants, economics of fandom, and the feed-versus-room shape of her isolation)
 ---
 
 # Leona "Auntie Static" Voss
@@ -47,6 +48,11 @@ sources:
 - Knowledge of older Nashville protest networks and arts-district pressure history.
 - Ability to move warnings without leaving a clean Matrix trail.
 - Social authority with regulars who treat her as everyone's aunt and no one's fool.
+
+## The rung the machine never owned (GM-approved integration, 2026-11-16)
+
+- Auntie Static's pirate-radio experience keeps the Noodle Stories Collective's communications low-tech, deniable, and hard to scrape. The analog/pirate rung sits outside the distribution apparatus the label owned and measured.
+- **Cindy's read, not a GM ruling:** Leona's channel is both a blind spot in the old audience model and a natural outlet for an act without a label. Cindy has an interest; Leona retains the expertise and control.
 
 ## Relevant Sessions
 

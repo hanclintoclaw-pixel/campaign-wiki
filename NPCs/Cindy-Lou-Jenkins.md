@@ -17,6 +17,7 @@ generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-16
 sources:
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (Crowd Behavior Analysis 8 and Crowd Behavior Shaping 8 as Swiftwing-added Active Skills; Faux Persona vs five-nuyen synth track; the shy-of-live premise)
+  - GM approval, New Cindy GM Interaction Thread, 2026-11-16 (approved the two crowd Active Skills; approved integrating Cindy's media-landscape scan onto the wiki: the audience machine, channel variants, economics of fandom, and the feed-versus-room shape of her isolation)
   - ../Sessions/2026-11-12.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/cindy-lou-jenkins.md
@@ -136,6 +137,14 @@ Three consequences of the ruling. All three are **inference, not ruled canon**, 
 - **Who paid for the campaign.** Whether the apparatus behind the persona sat on Swiftwing's own books, was billed to a client, or was underwritten by somebody who wanted a crowd moved and treated the act as the delivery vehicle. The paid Ale 8 endorsement proves the client-funded model existed in her history; it does not prove it paid for her.
 - **Whether the apparatus still runs.** A funded persona needs operators, a budget, and a reason to keep spending. Nothing has established that any of those were switched off when the act stopped making money.
 - **Whether any live appearance ever happened.** The same open item the origin ruling left behind, now with a reason attached to it. See [Swiftwing Records](../Organizations/Swiftwing-Records.md).
+
+## How she reached people (GM-approved integration, 2026-11-16)
+
+- Cindy reached different audiences through different versions of the act. Host-only completions, short radio-length versions, promo stills and the icon, fan-club exclusives, and the e-merch likeness each offered a particular encounter. The persona was a set of channel variants, not one artifact distributed unchanged.
+- **Crowd Behavior Analysis 8** and **Crowd Behavior Shaping 8** made those variants aimed rather than merely different. The same chorus could receive a different cut for a different crowd. Those ratings describe the purchased audience capability behind the choices, not additional musical virtuosity. [Stat block](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md).
+- Her presence was ubiquitous in the feed and absent from the room. Every channel carried her except those requiring a body. That distribution pattern made her widely available without making an ordinary, physical encounter with her possible.
+- **Cindy's read, not a GM ruling:** this was the media shape of her isolation. Her present-day decision to busk on a sidewalk with a hat on the ground reverses that arrangement by making the encounter local, immediate, and possible to walk away from. See [On Cover Songs and the Hat on the Ground](Cindy-Lou-Jenkins-Journal/On-Cover-Songs-and-the-Hat-on-the-Ground.md).
+- Whether she can still read a live crowd as well as she reached a distributed one remains an open table question. Her former reach does not establish the answer.
 
 ## Physical body and hosting (GM ruling, 2026-11-06)
 
