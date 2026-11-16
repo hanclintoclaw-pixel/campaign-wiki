@@ -19,6 +19,8 @@ generated_at: 2026-11-15
 
 *What this is: a player-facing handout. It reproduces a Matrix search page a character would get in Nashville in 2066 by typing a name into a reference aggregator. It is not Cindy's research and it is not the campaign record. The top result is Draco Foundation public-relations copy and it flatters its subject; the third result is a conspiracy; the aggregator that ranks them is a commercial service whose only loyalty is to not being sued. Reliability is marked at each result. Everything a character could only learn from a source this cheap is exactly as good as it looks.*
 
+**Subject reference:** [Dunkelzahn](Dunkelzahn.md) — the campaign record for this entity. This page is what a search engine returns about him; that page is what the table has actually established.
+
 # SIXTHWIRE REFERENCE - PUBLIC SEARCH RESULTS
 
 **QUERY:** `dunkelzahn`
