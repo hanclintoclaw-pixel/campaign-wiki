@@ -11,10 +11,11 @@ aliases:
   - Cindy In-Character Stats
   - Cindy Knowbot Stats
 tags: [cindy, knowbot, matrix, stats, reference, gm-reference]
-generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
-generated_at: 2026-11-09
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-16
 sources:
   - ../Cindy-Lou-Jenkins.md
+  - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (Crowd Behavior Analysis 8 and Crowd Behavior Shaping 8 as Swiftwing-added Active Skills; Faux Persona vs five-nuyen synth track; the shy-of-live premise)
   - GM-Control-Panel.md
   - Discord-Voice-Bridge-Commands.md
   - ../../Vehicles/Tip-Jar.md
@@ -194,6 +195,10 @@ Two corrections to my own shortlist, recorded rather than quietly fixed. I earli
 | **Perform** (custom) | **6** | Charisma 5 = **11** | **GM-granted custom skill, not printed SR3.** The core SOCIAL SKILLS group has no Perform or Art entry, so this is table-supplied rather than copied from the Combat Decker package. Strongest performed through **Tip Jar**; still good in person. Covers busking and cover performance |
 | **Negotiation** | **3** | Charisma 5 = **8** | Bartering and tip collection - good enough to work a hat and hold a booking, not enough to negotiate a contract. Added with the cover-artist plan so her independent money-making is a real test |
 | **Fame** (custom) | **6** | Charisma 5 = **11** | **GM-granted custom skill, 2026-11-10 - not printed SR3.** No SR3 book lists Fame as a skill; see the response-shaping note below for what the books do use. This is the rollable form of her audience-analysis function: building an audience, generating buzz, placing a persona, shaping what a crowd wants to buy. It is the mechanical answer to the Charisma-5 gap. It does **not** raise her own Charisma Rating or Professional Rating - she can make something famous without fame being a personal attribute, which is the whole point of the origin |
+| **Crowd Behavior Analysis** (custom) | **8** | Intelligence 5 = **13** | **GM-granted custom Active skill, 2026-11-16 - not printed SR3.** Reads a mass audience in real time: which slice is about to buy, which will come back, what to feed each of them next. Rolled as an action, not as an answer about crowds - a Knowledge skill would only let her talk about an audience. One of the two capacities Swiftwing actually built her for |
+| **Crowd Behavior Shaping** (custom) | **8** | Charisma 5 = **13** | **GM-granted custom Active skill, 2026-11-16 - not printed SR3.** Moves an audience while it watches her perform: attention, appetite, imitation, mood. Highest rating on the sheet alongside Analysis, 8 against Perform 6 - the mechanical form of "an influence engine with a singing interface". Whether the Hacking Pool may be added to either crowd test is unresolved (compare the Etiquette (Matrix) bar, *Matrix* p. 26) |
+
+**Swiftwing-added capacity (GM grant, 2026-11-16).** The two crowd skills above are not part of the copied Combat Decker package and no SR3 book prints them. Per the GM they are the major capacities the label added: analyzing and shaping mass audience behaviour while she performed and maintained a public persona. Read against the origin ruling, the sheet states its own thesis - **8, 8, 6, 6, 3** across crowd analysis, crowd shaping, performing, fame, and bartering. See [What she was actually built for](../Cindy-Lou-Jenkins.md).
 
 **Knowledge skills:** Data Havens **5**, Jackpoint Locations **4**, Matrix Gangs **4**, Seattle Corporate Hosts **4**, English (Decker Lingo) **3 (5)** with Read/Write 2, plus Read/Write 1 on Japanese. Knowledge skills are Intelligence-linked, so the derived 5 is what makes any of them rollable.
 

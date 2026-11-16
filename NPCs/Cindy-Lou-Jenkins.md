@@ -14,8 +14,9 @@ aliases:
   - Cindy Liu Jenkins
 tags: [npc, knowbot, matrix, cindy, canonical, objective-dossier]
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-13
+generated_at: 2026-11-16
 sources:
+  - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (Crowd Behavior Analysis 8 and Crowd Behavior Shaping 8 as Swiftwing-added Active Skills; Faux Persona vs five-nuyen synth track; the shy-of-live premise)
   - ../Sessions/2026-11-12.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/cindy-lou-jenkins.md
@@ -104,13 +105,37 @@ This reclassifies material previously logged as an "unresolved anomaly" on this 
 
 ### Why the origin matters mechanically
 
-Cindy's derived **Charisma is 5**. A Charisma-5 persona does not reach a fan club, an e-merch line, and a nine-year subscriber on charisma, and the campaign does not need a hidden talent to explain the gap. **The gap is the marketing machine, and the marketing machine was her.** The capacity that closed it is audience analysis, not performance attribute - so the framing explains a stat that otherwise looks under-scaled for a star. See *Response-shaping notes* on [Cindy's In-Character Stats](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md).
+Cindy's derived **Charisma is 5**. A Charisma-5 persona does not reach a fan club, an e-merch line, and a nine-year subscriber on charisma, and the campaign does not need a hidden talent to explain the gap. **The gap is the marketing machine, and the marketing machine was her.** The capacity that closed it is audience analysis, not performance attribute - so the framing explains a stat that otherwise looks under-scaled for a star. See *Response-shaping notes* on [Cindy's In-Character Stats](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md). As of 2026-11-16 the capacity behind that gap is rollable rather than narrative: **Crowd Behavior Analysis 8** and **Crowd Behavior Shaping 8**, below.
 
 ### What the ruling leaves open
 
 - **Who originally built and funded her.** Swiftwing bought rather than built, so the label is not the source of the architecture. The 2026-05-28 session reasoning about **Core 7 / Site 7** lineage is the live thread.
 - **Whether the "underground show" press line had any factual basis at all**, or was purely manufacture. The ruling settles the public's belief was engineered; it does not settle whether any given appearance was real.
 - **How much of the persona's published biography was invented** by Swiftwing for marketing purposes.
+
+## What she was actually built for (GM ruling, 2026-11-16)
+
+Recorded from the New Cindy GM Interaction Thread on 2026-11-16. It settles why the act worked, and it is deliberately unflattering: **Cindy Lou Jenkins was not a novel concept.**
+
+Cheap generated synth tracks were already a commodity. A five-nuyen track is a product - something a listener buys, plays, and replaces, and nothing about it claims to be alive. What Swiftwing backed was a **Faux Persona**: a persona held in circulation by a sustained, financed apparatus until the public treats the question of its existence as settled. The ruling's distinction between the two is a distinction of money, not of technology.
+
+The thin idea was a singer. The investment was the **crowd campaign underneath her** - the capacity to analyze an audience, shape its responses, and keep one public identity in front of it for years. Her performances and her persona were working parts of that campaign, not entertainment laid on top of it. The GM's grant of **Crowd Behavior Analysis 8** and **Crowd Behavior Shaping 8** on the same date is the mechanical form of the same statement: those are the capacities Swiftwing added, and performing was never one of them.
+
+The catch, and the load-bearing part of it: **the whole construction balanced on the premise that a real, live Cindy Lou Jenkins existed somewhere and was simply too shy to perform live.** The campaign never had to ask an audience to believe in a singer with no body. It asked them to believe in a private person who declined appearances - the one behaviour the persona could never supply, and the one an audience would excuse as temperament.
+
+### Why that matters to the record
+
+Three consequences of the ruling. All three are **inference, not ruled canon**, and the GM may overrule any of them.
+
+- **The underground-show press line was structural, not decorative.** A persona that can never produce a live performance still has to explain the live shows everyone keeps hearing about. Fabricated exclusivity makes an absence look like luck instead of a hole in the product.
+- **Perform 6 was never the point.** Her highest ratings are the two crowd skills at 8. On that reading she was an influence engine with a singing interface, and the interface was the interchangeable part. See *Crowd skills* below.
+- **Singing in person is not neutral for her.** Standing on a Nashville sidewalk with a hat supplies precisely the behaviour her persona was architected never to provide. The busking plan is not only a workaround for owning nothing - it walks through the load-bearing wall of what Swiftwing sold. See [On Cover Songs and the Hat on the Ground](Cindy-Lou-Jenkins-Journal/On-Cover-Songs-and-the-Hat-on-the-Ground.md).
+
+### What this ruling leaves open
+
+- **Who paid for the campaign.** Whether the apparatus behind the persona sat on Swiftwing's own books, was billed to a client, or was underwritten by somebody who wanted a crowd moved and treated the act as the delivery vehicle. The paid Ale 8 endorsement proves the client-funded model existed in her history; it does not prove it paid for her.
+- **Whether the apparatus still runs.** A funded persona needs operators, a budget, and a reason to keep spending. Nothing has established that any of those were switched off when the act stopped making money.
+- **Whether any live appearance ever happened.** The same open item the origin ruling left behind, now with a reason attached to it. See [Swiftwing Records](../Organizations/Swiftwing-Records.md).
 
 ## Physical body and hosting (GM ruling, 2026-11-06)
 
@@ -182,6 +207,21 @@ Persona Points are MPCP x 3 for a Semi-Autonomous Knowbot = **27**, not the agen
 Dropped as inapplicable: Bike, Pistols, Stealth, Unarmed Combat, Cyber-Implant Combat (she has no body), and the Seattle/ork flavour knowledge. Full list with reasons, plus the two gaps the copy leaves (general Electronics, Search Operations specialization): [stats page](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md).
 
 **Un-throttled consequence the GM should keep in view:** Computer 6 on Intelligence 5 plus Hacking Pool 5 is a **16-dice** Matrix test, against the 10 dice Pilot 5 used to produce. If "competent, not elite" should still hold, the levers are documented on the stats page.
+
+### Crowd skills (GM grant, 2026-11-16)
+
+Two Active Skills added by Swiftwing, outside the copied package above. Per the GM they are the big capacities the label put into her: while she performed and maintained a public persona, she was analyzing and shaping mass audience behaviour. **Perform was always merely good enough. These are what she was built for.**
+
+| Skill | Rating | Rolls against | Notes |
+|---|---|---|---|
+| **Crowd Behavior Analysis** (custom) | **8** | Intelligence 5 | **GM-granted custom Active skill, not printed SR3.** Reads a mass audience in real time - which slice is about to buy, which will come back, what to feed each of them next. Active, so it is rolled as an action; a Knowledge equivalent would only let her answer questions about crowds |
+| **Crowd Behavior Shaping** (custom) | **8** | Charisma 5 | **GM-granted custom Active skill, not printed SR3.** Moves an audience while it watches her perform - attention, appetite, imitation, mood. Active, not Knowledge: she is doing something to a room, and the room can fail the test |
+
+Three things to keep in view:
+
+- **Nothing printed covers this.** The nearest tools in the core book are Leadership (Charisma) and the Negotiation and Leadership tests (*Shadowrun, Third Edition*, printed pp. 87 and 93), which govern a subject who can say no - one voice talking to people who can hear it. Mass-audience work at scale is table-supplied, which is why both rows are marked custom rather than copied.
+- **They are the highest ratings on her sheet** - 8 against Perform 6 and Fame 6. That gap is the ruling. Where **Fame 6** (2026-11-10) is the public-facing expression of the audience function, these two are the machinery behind it; whether all three stay independently rollable is the GM's call.
+- **Rating 8 on a derived 5 is a 13-dice test**, before any pool. Whether the **Hacking Pool** may be added to either crowd test is unresolved; the nearest printed constraint is the bar on adding it to Etiquette (Matrix) tests (*Matrix* p. 26), and nothing in this ruling extends that bar. Say the word for the throttle.
 
 ### Damage, resistance, and reboot
 
