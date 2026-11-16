@@ -1,7 +1,7 @@
 ---
 permalink: /NPCs/
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-13
+generated_at: 2026-11-16
 ---
 
 # NPCs
@@ -25,6 +25,12 @@ generated_at: 2026-11-13
 - [Paul Hardcastle](Paul-Hardcastle.md)
 - [Rosalind "Sister Anode" Pike](Rosalind-Sister-Anode-Pike.md)
 - [Taco](Taco.md)
+
+## Archetypes
+
+Published SR3 character/contact models, not campaign NPCs unless the GM adopts them.
+
+- [Sleazy Tabloid Reporter](Sleazy-Tabloid-Reporter.md) — published press-contact archetype; not yet a campaign NPC.
 
 ## Allies
 

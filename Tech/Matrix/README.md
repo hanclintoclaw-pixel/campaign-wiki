@@ -13,6 +13,7 @@ Most entries include a descriptive host profile plus example **SR3-style host st
 - [Matrix Searches](Matrix-Searches.md) — SR3 workflow for Matrix research, Shadowland/data haven legwork, and host-local search operations.
 - [Contact Legwork](Contact-Legwork.md) — SR3 workflow for contact asks, Friends of Friends, information fees, wait times, and Wrong Party risk.
 - [Buying New Items](Buying-New-Items.md) — SR3 workflow for Availability, Street Index, contacts, negotiation, legality, wrong-party risk, pickup, and installation status.
+- [Quick Resolution Decking](Quick-Resolution-Decking.md) — GM-offered optional shortcut; regular SR3 decking remains the default.
 
 ## Host type exemplars
 

@@ -454,6 +454,7 @@ For Cindy Lou's own first-person interpretation of herself, the crew, and her ci
 
 - [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Jenkins Back Catalog](Cindy-Lou-Jenkins-Back-Catalog.md)
+- [Cindy Lou Jenkins, In-Character Stats](Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md) — includes the GM-assigned optional Reputation scores.
 - [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/)
 - [Cindy Lou Voice Clip Phrase Library](Cindy-Lou-Jenkins-Tooling/Voice-Clip-Phrase-Library.md)
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)

@@ -449,6 +449,21 @@ The stat sheet is complete and playable as it stands. These are calls the GM has
 
 </details>
 
+## Reputation (optional rules; GM ruling 2026-11-16)
+
+The GM assigned these scores using the optional Reputation system from *Mr. Johnson's Little Black Book*. They are identity-specific campaign scores; the book itself models one character identity.
+
+| Identity | Street Cred | Notoriety | Public Awareness |
+|---|---:|---:|---:|
+| Original Cindy Lou Jenkins public persona | 6 (synthetic) | 0 | 2 (GM-set) |
+| Cindy as the secret decker helper | 0 | 0 | 20 (derived) |
+
+The persona's synthetic Street Cred 6 reflects the GM's ruling that the original Cindy Lou Jenkins was well known. With Notoriety 0, the formula would yield Public Awareness 14; the GM instead sets it to 2 to reflect her established public fame. The hidden decker helper has Street Cred 0, Notoriety 0 and derived Public Awareness 20. Under the campaign's reading of the printed rule, lower Public Awareness means easier recognition. (printed p. 121; GM ruling, New Cindy GM Interaction Thread, 2026-11-16)
+
+The two-identity treatment is a campaign extension, not a rule in the book. Reputation's social effects apply only to people who know the relevant identity's reputation. (printed pp. 120-121)
+
+**Source:** *Mr. Johnson's Little Black Book*, FanPro LLC / WizKids Inc., ISBN 1-932564-13-6, printed pp. 120-121; GM ruling, New Cindy GM Interaction Thread, 2026-11-16.
+
 ## Table boundaries
 
 - Cindy does not auto-deploy drones or auto-solve scenes. The GM decides availability, positioning, detection, jamming, and consequences.
