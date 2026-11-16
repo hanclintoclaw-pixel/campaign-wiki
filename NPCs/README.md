@@ -65,6 +65,7 @@ generated_at: 2026-11-13
 - [Diego](Diego.md)
 - [Dr. Gallstone](Dr-Gallstone.md)
 - [Dr. Martin Waters](Dr-Martin-Waters.md)
+- [Dunkelzahn](Dunkelzahn.md) — deceased former UCAS president and great dragon; adopted printed-entity reference page, with the [Matrix search prop](Dunkelzahn-Matrix-Search.md)
 - [Eugene Booker](Eugene-Booker.md)
 - [Floyd Otis](Floyd-Otis.md)
 - [Friendly Phyllis](Friendly-Phyllis.md)
@@ -103,6 +104,7 @@ generated_at: 2026-11-13
 
 - [Claude August — GM Statistics](Claude-August-Statistics.md) — includes the [founding-residence argument](Claude-August-Grandfathering-Argument.md), [great-dragon conversation](Claude-August-Dragon-Conclave-Transcript.md), and the [CAT internal dossier](Claude-August-CAT-Dossier.md).
 - [Seraphim File 7-AUGUST: The Princeps Acquisition Problem](Claude-August-CAT-Dossier.md) — Cross Applied Technologies corporate-security assessment of Claude August as an industrial thief; Monte Sano cavern and Burritt Mansion breakdowns with Shadowrun 3rd Edition physical, technical, and astral security.
+- [Dunkelzahn — Matrix Search Results](Dunkelzahn-Matrix-Search.md) — public game-aid: what a 2066 Nashville Matrix search on Dunkelzahn returns. Sponsored Draco Foundation PR entry, NewsNet wire timeline, an unverified Ghostwalker conspiracy, and a memorabilia listing offering the will's public schedule free with any order.
 
 ## Related Reference Layers
 
