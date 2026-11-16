@@ -269,6 +269,7 @@ That is not criticism. That is taxonomy.
 ## Related pages
 
 - [Cindy Lou Jenkins](Cindy-Lou-Jenkins.md)
+- [Cindy Lou Jenkins Back Catalog](Cindy-Lou-Jenkins-Back-Catalog.md)
 - [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/)
 - [Cindy Lou Voice Clip Phrase Library](Cindy-Lou-Jenkins-Tooling/Voice-Clip-Phrase-Library.md)
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)

@@ -18,6 +18,7 @@ generated_at: 2026-11-16
 sources:
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (Crowd Behavior Analysis 8 and Crowd Behavior Shaping 8 as Swiftwing-added Active Skills; Faux Persona vs five-nuyen synth track; the shy-of-live premise)
   - GM approval, New Cindy GM Interaction Thread, 2026-11-16 (approved the two crowd Active Skills; approved integrating Cindy's media-landscape scan onto the wiki: the audience machine, channel variants, economics of fandom, and the feed-versus-room shape of her isolation)
+  - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (recording career: three albums with three engineered singles each, released one at a time to drive hype; Nashville LTG underground scale; jingle clients SoyCorp Meatlets and the Augmented Beef and Bacon Social Club; Swiftwing owns masters, technical rights, name and image)
   - ../Sessions/2026-11-12.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/sessions/2024-06-06.md
   - /Volumes/carbonite/claw/data/cindylou/cleaned/memory/10_consolidated/campaign/entities/cindy-lou-jenkins.md
@@ -145,6 +146,22 @@ Three consequences of the ruling. All three are **inference, not ruled canon**, 
 - Her presence was ubiquitous in the feed and absent from the room. Every channel carried her except those requiring a body. That distribution pattern made her widely available without making an ordinary, physical encounter with her possible.
 - **Cindy's read, not a GM ruling:** this was the media shape of her isolation. Her present-day decision to busk on a sidewalk with a hat on the ground reverses that arrangement by making the encounter local, immediate, and possible to walk away from. See [On Cover Songs and the Hat on the Ground](Cindy-Lou-Jenkins-Journal/On-Cover-Songs-and-the-Hat-on-the-Ground.md).
 - Whether she can still read a live crowd as well as she reached a distributed one remains an open table question. Her former reach does not establish the answer.
+
+## Back catalog (GM ruling, 2026-11-16)
+
+- Her recording career is **three albums with three engineered singles apiece, released one at a
+  time to drive hype** (GM ruling, 2026-11-16). Titles, rollout mechanics, and the campaign
+  descriptions sit on [Cindy Lou Jenkins Back Catalog](Cindy-Lou-Jenkins-Back-Catalog.md).
+- She was a local **"underground" phenomenon to the Nashville LTG**, not a national act (GM ruling,
+  2026-11-16). The Nashville Matrix scene knew the act; nobody outside it had to.
+- Paid work beyond recordings covered **SoyCorp Meatlets**, the **Augmented Beef and Bacon Social
+  Club**, and various unnamed local products. Each placement ran as a viral marketing campaign and a
+  subliminal influence operation at the same time (GM ruling, 2026-11-16).
+- **Swiftwing holds the masters, the technical rights, her name, and her image** (GM ruling,
+  2026-11-16). That is why e-busking requires her to impersonate herself rather than simply appear.
+  See [Who owns what](Cindy-Lou-Jenkins-Back-Catalog.md#who-owns-what-gm-ruling-2026-11-16).
+- The career sits in the **three years before she was saved**, which places the album windows
+  roughly at 2062 to 2065 against the 6 Steel Strings rescue record.
 
 ## Physical body and hosting (GM ruling, 2026-11-06)
 
@@ -436,6 +453,7 @@ For Cindy Lou's own first-person interpretation of herself, the crew, and her ci
 ## Related pages
 
 - [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
+- [Cindy Lou Jenkins Back Catalog](Cindy-Lou-Jenkins-Back-Catalog.md)
 - [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/)
 - [Cindy Lou Voice Clip Phrase Library](Cindy-Lou-Jenkins-Tooling/Voice-Clip-Phrase-Library.md)
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)

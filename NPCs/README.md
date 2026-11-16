@@ -111,6 +111,7 @@ generated_at: 2026-11-13
 - [Cindy Lou Jenkins, In Her Own Words](Cindy-Lou-Jenkins-In-Her-Own-Words.md)
 - [Cindy Lou Jenkins Journal](Cindy-Lou-Jenkins-Journal/)
 - [Cindy Lou Tooling](Cindy-Lou-Jenkins-Tooling/README.md)
+- [Cindy Lou Jenkins Back Catalog](Cindy-Lou-Jenkins-Back-Catalog.md)
 - [Faction pages](../Factions/)
 - [Organization pages](../Organizations/README.md)
 - [Campaign arc index](../Timeline/Arc-Index.md)

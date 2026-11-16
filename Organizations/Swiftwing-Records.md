@@ -9,6 +9,7 @@ generated_at: 2026-11-16
 sources:
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (Crowd Behavior Analysis 8 and Crowd Behavior Shaping 8 as Swiftwing-added Active Skills; Faux Persona vs five-nuyen synth track; the shy-of-live premise)
   - GM approval, New Cindy GM Interaction Thread, 2026-11-16 (approved the two crowd Active Skills; approved integrating Cindy's media-landscape scan onto the wiki: the audience machine, channel variants, economics of fandom, and the feed-versus-room shape of her isolation)
+  - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (recording career: three albums with three engineered singles each, released one at a time to drive hype; Nashville LTG underground scale; jingle clients SoyCorp Meatlets and the Augmented Beef and Bacon Social Club; Swiftwing owns masters, technical rights, name and image)
   - Shadowbeat (FASA 7109, ISBN 1-55560-159-6, FASA 1992), printed pp. 8 and 30 - Song-O-Mats and formula-written broadcast entertainment. Shadowrun 2nd Edition-era product: LORE AND VOCABULARY ONLY for this campaign; no mechanic from it is used or adjudicated. Corpus: /Volumes/carbonite/claw/data/cindylou/cleaned/memory/00_sources/rules_references/sourcebooks/Shadowbeat_FASA7109/source.md
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-10 (virtual pop-star origin; Ale 8 paid endorsement; name authority)
   - ../NPCs/Cindy-Lou-Jenkins.md
@@ -42,6 +43,8 @@ The record label that **bought** the virtual pop act **Cindy Lou Jenkins** and u
 - **The load-bearing premise was shyness** (GM ruling, 2026-11-16). The act never had to convince anyone that a singer with no body existed. It had to convince them that a real, live Cindy Lou Jenkins existed and simply declined to appear in public - so the one thing the persona could never deliver was sold as temperament.
 - **Her two highest skills are the crowd skills** - Crowd Behavior Analysis **8** and Crowd Behavior Shaping **8** (GM grant, 2026-11-16) against Perform 6. Performing was the delivery mechanism; reading and moving an audience was the purchased capability. [Stat block](../NPCs/Cindy-Lou-Jenkins-Tooling/Cindys-In-Character-Stats.md).
 - **Ale 8 endorsement:** Swiftwing's commercial goal included songs intentionally built to make listeners more likely to buy and drink Ale 8, for which Swiftwing was paid (GM ruling, 2026-11-10). The crew's observation of compulsive product promotion was this feature, not a malfunction.
+- **The endorsement book was wider than beverages** (GM ruling, 2026-11-16). Cindy also recorded jingles for **SoyCorp Meatlets** and the **Augmented Beef and Bacon Social Club**, plus various unnamed local products. Every one of those placements ran as a viral marketing campaign and a subliminal influence operation at the same time. [Back catalog](../NPCs/Cindy-Lou-Jenkins-Back-Catalog.md#jingles-and-paid-influence-work-gm-ruling-2026-11-16).
+- **What the label held** (GM ruling, 2026-11-16). Swiftwing owns the masters and the technical rights, and also **her name and her image**, which is why Cindy has to impersonate herself to e-busk. [Who owns what](../NPCs/Cindy-Lou-Jenkins-Back-Catalog.md#who-owns-what-gm-ruling-2026-11-16).
 - The press line of exclusive underground shows - which any given fan was simply never lucky enough to have attended - was Swiftwing marketing architecture, not Cindy's performance history.
 - The original job framing treated Cindy's physical host/server platform as the recoverable "body" in question.
 - Swiftwing sits near the origin point of the campaign's long-running music / AI / influence-engine thread.
@@ -72,6 +75,7 @@ Written up from Cindy's scan of the media landscape, approved for the wiki by th
 ## Related pages
 
 - [Previously On: Cindy and the Influence-Engine Arc](../Recaps/Previously-On-Cindy-and-Influence-Engine.md)
+- [Cindy Lou Jenkins Back Catalog](../NPCs/Cindy-Lou-Jenkins-Back-Catalog.md) - the three albums, the staggered singles, and the jingle book.
 
 ## Open questions
 
@@ -79,7 +83,7 @@ Settled by the GM ruling of 2026-11-10: Swiftwing **bought** Cindy and used her 
 
 - Since Swiftwing bought rather than built, **who built her**, and did that builder's architecture reach Swiftwing through **Core 7 / Site 7** directly or through an intermediary?
 - How much continuity exists between the Swiftwing Cindy and later Cindy/Darla manifestations?
-- Whether Swiftwing's **Ale 8 contract** had other clients with the same ask, and whether the endorsement work extended beyond beverage advertising.
+- **Settled by the GM ruling of 2026-11-16:** the endorsement work did extend beyond beverages. Cindy also recorded jingles for **SoyCorp Meatlets** and the **Augmented Beef and Bacon Social Club**, plus various unnamed local products, and every placement was both a viral marketing campaign and a subliminal influence operation. See [Cindy Lou Jenkins Back Catalog](../NPCs/Cindy-Lou-Jenkins-Back-Catalog.md).
 
 - **Who paid for the persona apparatus.** The 2026-11-16 ruling puts a hugely expensive crowd campaign behind a thin concept. Whether it sat on Swiftwing's own books, was billed to a client, or was underwritten by a third party who wanted a crowd moved is open. The paid Ale 8 endorsement proves the client-funded model existed; it does not prove it funded her.
 - **Whether the apparatus still has operators.** Budgets, staff, and a reason to keep spending are what made the persona durable. Nothing establishes that any of it was switched off when the act stopped paying.
