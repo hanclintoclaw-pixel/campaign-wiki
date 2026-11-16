@@ -21,6 +21,11 @@ generated_at: 2026-11-16
 
 # Augmented Beef and Bacon Social Club
 
+![An upscale Augmented Beef and Bacon Social Club vending machine as two gangers try to break into it](../assets/images/Augmented-Beef-and-Bacon-Social-Club-Header-2026-11-16.png)
+
+*Illustrative header art; the break-in and pictured packaging are not campaign events or established inventory.*
+
+
 <!-- cindy-canon: table-created -->
 
 ## Canon status (GM direction, 2026-11-16)
@@ -62,6 +67,18 @@ Cindy Lou Jenkins recorded a paid comic call-and-response chorus for the club, e
 In [Session 2026-04-30](../Sessions/2026-04-30.md), the crew received counterfeit Social Club vending snacks during the Jet Set Morgan / meat-drone follow-up. Valgaut’s Magical Sense detected adulteration with unknown magical-creature matter, and Kurgan found “Mother Yahweh” written on a box.
 
 Those counterfeit snacks are not the separately established adulterated-Meatlets pipeline associated with Core 7 and Site 7. A shared producer, or production by Mother Yahweh, has not been ruled.
+
+<!-- cindy-invented:particulars -->
+<details markdown="1"><summary>Illustration-only product labels — licensed inventions, not table fact (click to expand)</summary>
+
+The following names were invented for the header illustration only; they do not establish the Social Club’s actual catalog or machine stock:
+
+- Real Brisket
+- Soy Tomahawk
+- Smoke Ring Select
+- Bacon Bites
+
+</details>
 
 ## Open questions
 
