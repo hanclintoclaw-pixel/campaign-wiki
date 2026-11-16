@@ -4,7 +4,7 @@ type: change-note
 visibility: player-safe
 canon_status: operational-record
 updated: 2026-11-15
-generated_by: openai/gpt-6.1-sol
+generated_by: openai/gpt-6-luna
 generated_at: 2026-11-15
 ---
 
@@ -23,22 +23,21 @@ Speech-to-text can now run in one of two decode profiles chosen by `STT_DECODE_P
 
 ## Measured
 
-Every number below comes from an offline frozen replay of 44 clips captured from the 2026-11-14 session, run in the bridge's own Python environment (faster-whisper 1.2.1, CTranslate2 4.7.1), importing the deployed helpers rather than a copy. None of them are live-session measurements.
+These are the latest offline frozen-replay results for all 44 clips captured from the 2026-11-14 session, run in the bridge Python environment (faster-whisper 1.2.1, CTranslate2 4.7.1) through the deployed helpers. This run uses the GM-reviewed references below. Clip043 was garbled in capture; its reference records the GM's intended words, but the clip remains in the aggregate, so its errors are not evidence about hotword quality. None of these are live-session measurements.
 
-- `live` profile: word error rate 11.0 percent, wake word recovered 25 of 28 times, exact canonical campaign names 38 of 47, zero false glossary insertions, median warm recognition latency 271 ms. (evidence: offline frozen-replay probe, bridge venv, 44 captured clips)
-- `hot` profile: word error rate 7.4 percent, wake word 28 of 28, exact canonical names 47 of 47, zero false glossary insertions, median warm latency 328 ms, which is +57 ms. (evidence: offline frozen-replay probe, bridge venv, 44 captured clips)
-- These reproduce the earlier three-engine-family benchmark, which ran on a newer CTranslate2, so the result is not an artifact of that version. (evidence: offline replay comparison against the 2026-11-15 engine benchmark)
-- Unit checks on the deployed helpers all passed: `live` never carries hotwords; `hot` sets `beam_size=5` with voice-activity filtering on; the joined hotwords string is byte-identical to the benched glossary; an unknown profile value falls back to `live`; a missing glossary file fails closed to `live`. (evidence: unit checks on deployed helpers)
-- Text changed on 21 of 44 clips, mostly for the better. Named costs: one ordinary sentence, "Can you link them together?", came out "and you link them together"; another degraded "Crap, I forgot his name" to "Crapper for Guy's name"; a third lost a leading "and we can". Overall error rate still favours `hot`. (evidence: offline frozen-replay transcript comparison, 44 captured clips)
-- The reference transcripts used for scoring are cross-family model consensus plus canon adjudication from the campaign wiki and SR3 sources. Every clip is still marked `human_verified=false`. (evidence: reference-transcript provenance recorded in the benchmark)
+- `live`: word error rate 13.1 percent; wake word recovered 24 of 27 times; exact canonical campaign names 37 of 47; one false glossary insertion; median warm latency 273 ms.
+- `hot`: word error rate 9.7 percent; wake word recovered 27 of 27 times; exact canonical campaign names 47 of 47; one false glossary insertion; median warm latency 330 ms, +57 ms versus `live`. The acceptance gate passes. (evidence: latest acceptance replay, bridge venv, 44 clips)
+- Hot changed the transcript on 21 of 44 clips. It improved several canonical names, including the Ares Predator in clips034 and 042 and Mevin in clip033. It also regressed short or disfluent speech: clip005 added “Yo, yo”; clip016 dropped the real “and we can”; and clip004 changed “Can you link them together?” to “and you link them together.” Clip043 was garbled and remains unsuitable for judging the profile. (evidence: latest acceptance replay and GM-reviewed references)
+- Unit checks on the deployed helpers passed: `live` never carries hotwords; `hot` sets `beam_size=5` with voice-activity filtering on; the hotwords string matches the benched glossary; unknown profile and missing glossary both fail closed to `live`. (evidence: unit checks on deployed helpers)
+
+The reference set now includes GM listening verdicts for all eight selected clips. Those rulings corrected clip033 to “Mevin, who is Curtis?”; confirmed clip007's audible “um”; selected “fake out” for clip008; corrected clip013's opening to “read him” while its trailing sound remains indeterminate; confirmed clip016's full text includes “and we can”; and identified clip043's intended words as “What are the stats for Grandpa?” despite the garbled capture. Clip030 is an anti-hallucination canary, not a campaign character, and is not a glossary term. These are benchmark reference decisions, not campaign canon additions.
 
 ## Still open
 
-- The GM has not listen-verified the 8 ambiguous clips (31.9 seconds total). One may contain a campaign name that has no wiki page. This matters for the numbers above: on one clip the reference says "Evan, who is Curtis?" and `hot` hears "Mevin, who is Curtis", so the disagreement may be a reference error rather than a recognition error.
-- The first live session on `hot` needs its wake decisions counted one by one against the 2026-11-14 baseline of 25 of 28. Hotwords push text toward the wake word, which is exactly right on genuine misses and exactly wrong if a stranger's sentence starts reading as an address to Cindy. That side effect is reasoned about but not yet measured in play.
+- GM listening review is complete for the eight selected clips. The first live session on `hot` still needs its wake decisions counted one by one against the 2026-11-14 baseline of 25 of 28; hotwords can help genuine wake misses but also risk turning a stranger's sentence into an apparent address to Cindy, so offline replay cannot establish how the profile behaves in play.
 - The shipped code default stays `live`. Flipping the default to `hot` waits for two clean supervised sessions.
 - Rollback is one line: set `STT_DECODE_PROFILE=live` in `.env` while the bridge is idle and restart with `launchctl kickstart -k`. There is no model, environment or cache state to unwind.
 
 ## Corrections
 
-None.
+The original replay scores and the claim that all references were unverified are superseded by the GM-reviewed-reference rerun above. The Mevin ruling on clip033 corrected an erroneous reference rather than exposing an STT miss. Clip043 is marked as degraded capture and its intended wording is not treated as a reliable audio transcript.
