@@ -90,6 +90,7 @@ Swiftwing Records holds **the masters and the technical rights, and also her nam
 - [On Cover Songs and the Hat on the Ground](Cindy-Lou-Jenkins-Journal/On-Cover-Songs-and-the-Hat-on-the-Ground.md) - busking against the grain of what was sold.
 - [Swiftwing Records](../Organizations/Swiftwing-Records.md) - the apparatus that ran the releases and holds the rights.
 - [Augmented Beef and Bacon Social Club Host](../Tech/Matrix/Augmented-Beef-and-Bacon-Social-Club-Host.md) - a client's own host.
+- [Jet Set Morgan](Jet-Set-Morgan.md) - a Swiftwing-era contemporary who now sells sim-sense and BTL product.
 
 ## Sources
 
