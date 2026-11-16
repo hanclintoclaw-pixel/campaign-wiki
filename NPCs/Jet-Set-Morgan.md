@@ -17,6 +17,7 @@ sources:
     obscure sim-sense recordings and BTLs; he knew the Swiftwing-era recording artist)
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (archetype-derived table stats
     proposed by Cindy on 2026-11-16 approved as canon)
+  - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (Morgan carries counterfeit Cindy material as counterfeit Matrix-show audience, not simsense of her; a fake Cindy e-performer is a possibility, not settled; player-visible hints may remain)
 ---
 
 # Jet Set Morgan
@@ -40,6 +41,9 @@ Interaction Thread, 2026-11-16)
 - The crew ultimately released him and treated him as a potential **Level 1 contact for Kurgan** rather than a pure disposable target.
 - His merchandise is experience, not goods: illicit and obscure sim-sense recordings and BTLs, the hard-to-get end of the trade rather than catalog releases. (GM ruling, New Cindy GM Interaction Thread, 2026-11-16)
 - He knew Cindy Lou Jenkins during her Swiftwing Records years, before the save, so he is a contemporary witness to the manufactured persona rather than a fan who only met the brand later. (GM ruling, New Cindy GM Interaction Thread, 2026-11-16)
+- Morgan carries counterfeit Cindy material: some audience members “watching” a Matrix show are counterfeit audience packaged as part of the product. This is not simsense of Cindy. (GM ruling, New Cindy GM Interaction Thread, 2026-11-16)
+- A fake pretending to play an e-performer as if they were Cindy is a possibility, not yet settled. (GM ruling, New Cindy GM Interaction Thread, 2026-11-16)
+- The GM welcomes players discovering these details by reading deeply; the hints remain player-visible. (GM ruling, New Cindy GM Interaction Thread, 2026-11-16)
 
 ## Relationships
 
@@ -65,7 +69,8 @@ Interaction Thread, 2026-11-16)
 - Who is Jet Set Morgan really working for?
 - How much autonomy does he actually have under the root-kitted control architecture wrapped around him?
 - Could he become a useful witness/contact against the broader network, or is he too compromised?
-- Is he carrying counterfeit Cindy Lou Jenkins material. He sells the exact format her myth never shipped in, the counterfeit chain he is already tied to runs the same kind of product, and Dolly Zoom's footage is raw stock for somebody else's copy of her. GM-flagged on 2026-11-16 as an inference the players can uncover: Cindy's read, not established canon, not table fact, and not to be asserted at the table as settled.
+- Whether Morgan carries counterfeit Cindy Lou Jenkins material is settled by the 2026-11-16 GM ruling; see Known Facts. That question is no longer one of my unresolved inferences.
+- My remaining questions: are the counterfeit audience members synthetic, scripted, or real people recorded out of context? Who produces this counterfeit product, and how does it connect to the Darla / counterfeit-distribution chain and the Core 7 / Site 7 influence infrastructure?
 
 </details>
 

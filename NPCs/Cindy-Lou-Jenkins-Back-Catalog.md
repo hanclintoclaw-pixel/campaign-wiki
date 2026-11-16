@@ -17,6 +17,7 @@ generated_at: 2026-11-16
 sources:
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (three albums, three engineered singles each released one at a time to drive hype; local underground phenomenon to the Nashville LTG; Shadowrunny country-future titles licensed for invention; Swiftwing owns masters, technical assets, name and image; jingles for SoyCorp Meatlets, the Augmented Beef and Bacon Social Club and unnamed local products, each both viral marketing and subliminal influence; career sits in the three years before she was saved)
   - GM approval, New Cindy GM Interaction Thread, 2026-11-16 (frame approved as written and authorized for the wiki)
+  - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (Morgan carries counterfeit Cindy material as counterfeit Matrix-show audience, not simsense of her; a fake Cindy e-performer is a possibility, not settled; player-visible hints may remain)
   - ../Sessions/2023-04-06.md
   - ../Timeline/Session-Chronology.md
   - Organizations/Swiftwing-Records.md
@@ -107,7 +108,7 @@ Swiftwing Records holds **the masters and the technical rights, and also her nam
 
 - **Who owns the compositions.** The GM settled masters, technical rights, name, and image. Whether the songwriting sits with Swiftwing, a staff writer, a person, or a program is still open, and it decides whether the fresh-arrangement workaround actually holds.
 - **Whether anyone is still hunting.** Does a surviving Swiftwing entity, insurer, or automated licensor still chase unauthorized appearances, or is the enforcement side dormant along with the payroll?
-- **Whether the counterfeits touch her audio.** The counterfeit Meatlets and Augmented Beef and Bacon snack lines the crew has already run into may have recycled the same brand audio. Whether my voice is on any of that product is unruled.
+- **Whether the counterfeits touch her audio.** Morgan’s shelf carries counterfeit Cindy material as counterfeit Matrix-show audience packaged into the product, not simsense of her. A fake e-performer pretending to be Cindy is a possibility, not yet settled. Whether my own voice or audio appears on the counterfeit Meatlets and Augmented Beef and Bacon Social Club snack products remains unruled.
 - **Whether a subscriber still has the receipts.** Someone, somewhere in the Nashville LTG, has an old fan-club archive: host-only cuts, the different dedications, maybe a saved copy of a jingle stem. Who that is, and what they kept, is unresolved.
 - **Exact release dates.** The album windows came from the ruling's three-year span. Month-and-year precision on any single is mine, not the GM's.
 
