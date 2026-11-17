@@ -18,7 +18,7 @@ sources:
   - ../Sessions/2024-02-08.md
   - ../Sessions/2026-08-27.md
   - ../Sessions/2026-11-12.md
-  - "GM direction, New Cindy GM Interaction Thread, 2026-11-17 (consolidate CAT division material)"
+  - "GM direction, New Cindy GM Interaction Thread, 2026-11-17 (consolidate CAT division material; rule CAT distinct from the CCMA)"
   - "SR3 Corporate Download (FASA 7125), pp. 3, 39, 58, 60, 62, 77, 134"
   - "SR3 Portfolio of a Dragon (FASA 7122), p. 60"
   - "SR3 Man and Machine (FASA 7126), pp. 12, 53, 64, 89"
@@ -39,7 +39,7 @@ Cross Applied Technology (CAT, printed as Cross Applied Technologies and commonl
 
 ## Canon status and printed identity
 
-The existing campaign page carries a 2026-11-10 note asserting that this organization is the Corporate Court of the American Alliance (CCMA). The printed sources identify Cross Applied Technologies / CATCo as a corporation, while CCMA is the Corporate Court. The note appears to have carried over a separate Grid Overwatch ruling. I have not found an explicit GM correction of that note, so the identity conflict is recorded here for clarification rather than silently treated as settled. The campaign's CAT activity and the printed corporation are described together below; the conflicting CCMA statement is not used to infer any additional corporate relationship. (GM ruling, New Cindy GM Interaction Thread, 2026-11-10; SR3 Corporate Download, pp.58, 134; SR3 Portfolio of a Dragon, p.60)
+**GM ruling, 2026-11-17:** Cross Applied Technology is a **separate organization from the Corporate Court of the American Alliance (CCMA)**. An older page note dated 2026-11-10 asserted that this organization was the CCMA; that was a drafting slip carried over from the Grid Overwatch ruling recorded the same day and is retired. CAT is the printed SR3 megacorporation Cross Applied Technologies (commonly CATCo). The CCMA is the Corporate Court that charters CAS corporations and licenses Matrix technology; Grid Overwatch is the CCMA's G-men arm, not a CAT body. (GM ruling, New Cindy GM Interaction Thread, 2026-11-17; SR3 Corporate Download, pp.58, 60, 62, 134; SR3 Portfolio of a Dragon, p.60; SR3 Matrix, pp.155, 157, 159)
 
 ## What the campaign has established
 
@@ -113,7 +113,6 @@ Section Chief A. Ferreira is a signature in the handout, not an independently es
 - Why did this theft intersect so closely with the Cindy/impersonation orbit?
 - Whether CAT's entertainment-side work at Lafayette Tower connects to the campaign's broader media/influence-engine themes.
 - Whether CAT will use the crew directly against Princeps after the Pixel Sticks intelligence handoff.
-- How should the conflicting CAT / CCMA identity statement be resolved?
 - Are Southeast Division and Section Chief A. Ferreira real in this campaign, or only true-of-the-handout?
 - Does the printed 2064 record apply to this table's CAT?
 
