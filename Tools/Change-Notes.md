@@ -27,6 +27,7 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 ## Entries
 
 - [2026-11-16 — Speakable campaign namespaces and answer-quality guards](Change-Notes/2026-11-16-Voice-Namespaces-And-Answer-Quality.md)
+- [2026-11-16 — Campaign-memory rebind and budget-aware voice routing](Change-Notes/2026-11-16-Voice-Fix-Order-And-Campaign-Rebind.md)
 - [2026-11-16 — HE grenades and the numbered Ares Predators in the reviewed tables](Change-Notes/2026-11-16-SR3-Reviewed-Table-Expansion.md)
 
 - [2026-11-11 — PDF-reviewed SR3 table answers and printed citations](Change-Notes/2026-11-11-SR3-Reviewed-Table-Answers.md)
