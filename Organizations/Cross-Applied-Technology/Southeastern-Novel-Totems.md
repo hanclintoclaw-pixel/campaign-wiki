@@ -14,6 +14,7 @@ tags: [organization, cat, nashville, magic, shaman, totem, christianity]
 sources:
   - "GM direction, New Cindy GM Interaction Thread, 2026-11-17 (Cross Nashville shamanic studies program focused on Christian shamans; Cross is studying novel totems found only in the American Southeast)"
   - "GM approval of this write-up as posted, New Cindy GM Interaction Thread, 2026-11-17"
+  - "GM approval of the Witness totem draft as posted, New Cindy GM Interaction Thread, 2026-11-17"
   - "SR3 Magic in the Shadows (FanPro), pp. 24-25 (Christian Magic), pp. 162-163 (Idol totem entries)"
   - "SR3 State of the Art 2064 (FanPro 25004), pp. 122-123 (Magic and Christianity), pp. 26, 33 (the Seraphim)"
   - "SR3 Threats 2 (FASA 10652), pp. 102-109 (reborn Order of the Temple; Order of St. Sylvester)"
@@ -26,7 +27,7 @@ generated_at: 2026-11-17
 
 # Southeastern Novel Totems
 
-**GM direction, 2026-11-17:** One major local project Cross Applied Technology is running in Nashville is a shamanic studies program focused on Christian shamans, studying **novel totems found only in the American Southeast**. The program and the three totem files below are table-created content, approved by the GM as posted on 2026-11-17 (New Cindy GM Interaction Thread). They are not printed SR3 options; SR3 print supports the framing, as recorded below.
+**GM direction, 2026-11-17:** One major local project Cross Applied Technology is running in Nashville is a shamanic studies program focused on Christian shamans, studying **novel totems found only in the American Southeast**. The program and the four totem files below are table-created content, approved by the GM as posted on 2026-11-17 (New Cindy GM Interaction Thread); Witness was approved in a second pass the same day. They are not printed SR3 options; SR3 print supports the framing, as recorded below.
 
 ## What SR3 print supports
 
@@ -78,6 +79,18 @@ Disadvantages: When the shaman believes speaking about their faith could genuine
 
 CAT hook: Lafayette Tower's Entertainment Division invites Evangelists into media and audience-response research. The corporation wants a revival that tests well; the Idol expects the invitation to be sincere.
 
+### Witness - the truth that will not sit down
+
+Witness takes the stand after the courtroom, town hall, or mob has already reached its verdict. This is the believer dragged from the pew to speak when silence would be safer, Sunday shoes planted square against the aisle. Fervent and unignorable, Witness carries truth as a weapon and calls its followers to muster like a militia. Its compulsion magic lands like testimony under a bare courthouse bulb, not a card slipped up somebody's sleeve.
+
+Environment: Urban.
+
+Advantages: +2 dice for control-manipulation spells used to expose or compel truth, including Compel Truth, Influence, Control Emotion, and Control Thoughts. +2 dice for spirits of man serving as witnesses or bearing witness.
+
+Disadvantages: Witness shamans must never knowingly lie, including by omission in testimony. They must publicly confront a known lie when doing so would matter, unless they succeed at a Willpower (6) Test. If the lie is oppressing someone present and the shaman can act, resisting that obligation requires a Willpower (8) Test. They receive -1 die for illusion spells: Witness does not hide anything, including the shaman.
+
+CAT hook: Cross's Nashville Entertainment Division wants Witness shamans as auditing instruments: live lie detectors for executive sessions and contract negotiations. But the company's "faith under audit" screening has started auditing Cross, too; the witness chair faces both ways.
+
 ## Epistemic notes
 
 The totems' dice modifiers and strictures follow the SR3 core totem format (SR3 core, pp.162-163); the totems themselves are table-created content, GM-approved 2026-11-17. Whether the spirits that answer Dove or the Serpent-Bearer are angelic, man-spirits, land spirits or something Cross will want to instrument is a faith question and a table portrayal question, not settled by this page.
@@ -95,9 +108,9 @@ The totems' dice modifiers and strictures follow the SR3 core totem format (SR3 
 <details markdown="1">
 <summary>Open questions - Cindy's, not the GM's. Not established canon; not table fact. Click to expand</summary>
 
-- Are the three totems available as playable totems at this table exactly as written, or does the GM want to adjust modifiers before a player takes one?
+- Are the four totems available as playable totems at this table exactly as written, or does the GM want to adjust modifiers before a player takes one?
 - Does the tradition have an in-world name its congregations use for themselves (denomination, movement, or just "the faithful")?
-- Are there further Southeastern novel totems in the program's files beyond these three, and does Cross publish any findings externally?
+- Are there further Southeastern novel totems in the program's files beyond these four, and does Cross publish any findings externally?
 - Does the Seraphim task the program's researchers the way the handout's Southeast Division tasks Security, or is the program arms-length from Corporate Security?
 
 </details>

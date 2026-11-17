@@ -98,7 +98,7 @@ Section Chief A. Ferreira is a signature in the handout, not an independently es
 
 ## Sub-pages
 
-- [Southeastern Novel Totems](Cross-Applied-Technology/Southeastern-Novel-Totems.md) - the Nashville shamanic studies program and three GM-approved novel totems (Dove, The Serpent-Bearer, The Evangelist)
+- [Southeastern Novel Totems](Cross-Applied-Technology/Southeastern-Novel-Totems.md) - the Nashville shamanic studies program and three GM-approved novel totems (Dove, The Serpent-Bearer, The Evangelist, Witness)
 
 ## Related pages
 
