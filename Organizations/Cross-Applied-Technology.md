@@ -19,6 +19,7 @@ sources:
   - ../Sessions/2026-08-27.md
   - ../Sessions/2026-11-12.md
   - "GM direction, New Cindy GM Interaction Thread, 2026-11-17 (consolidate CAT division material; rule CAT distinct from the CCMA)"
+  - "GM direction, New Cindy GM Interaction Thread, 2026-11-17 (shamanic studies program sub-page; novel Southeastern totems)"
   - "SR3 Corporate Download (FASA 7125), pp. 3, 39, 58, 60, 62, 77, 134"
   - "SR3 Portfolio of a Dragon (FASA 7122), p. 60"
   - "SR3 Man and Machine (FASA 7126), pp. 12, 53, 64, 89"
@@ -49,6 +50,7 @@ Cross Applied Technology (CAT, printed as Cross Applied Technologies and commonl
 - A basement Ultraviolet host at Lafayette Tower is used for brainstorming and prototyping entertainment. See its [dedicated Matrix host record](../Tech/Matrix/Lafayette-Tower-CAT-Entertainment-Host.md).
 - Pixel Sticks utility attacks targeted CAT subsidiaries and affiliates. Imogene confirmed arranging the original takedown contract through the shadow pipeline, then paid the crew 10,000¥ for follow-up intelligence and utility samples. (Session 2026-08-27)
 - The crew suspects [The Princeps Group](../Factions/The-Princeps-Group.md) sponsored the attacks; proof remains circumstantial. Their work has repeatedly put them between Cross and Princeps. (Sessions 2026-08-27 and 2026-11-12)
+- GM direction 2026-11-17: one major local Cross project in Nashville is a shamanic studies program focused on Christian shamans, studying novel totems found only in the American Southeast. See the sub-page [Southeastern Novel Totems](Cross-Applied-Technology/Southeastern-Novel-Totems.md). (GM direction, New Cindy GM Interaction Thread, 2026-11-17)
 
 ## Divisions and operating arms
 
@@ -93,6 +95,10 @@ Section Chief A. Ferreira is a signature in the handout, not an independently es
 - [2024-02-08](../Sessions/2024-02-08.md)
 - [2026-08-27](../Sessions/2026-08-27.md)
 - [2026-11-12](../Sessions/2026-11-12.md)
+
+## Sub-pages
+
+- [Southeastern Novel Totems](Cross-Applied-Technology/Southeastern-Novel-Totems.md) - the Nashville shamanic studies program and three GM-approved novel totems (Dove, The Serpent-Bearer, The Evangelist)
 
 ## Related pages
 

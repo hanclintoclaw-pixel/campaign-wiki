@@ -5,6 +5,7 @@
 - [HEMP Global Agronomics](HEMP-Global-Agronomics.md)
 - [Gladwell Institute](Gladwell-Institute.md)
 - [Cross Applied Technology](Cross-Applied-Technology.md)
+  - [Southeastern Novel Totems](Cross-Applied-Technology/Southeastern-Novel-Totems.md) - Cross shamanic studies program (GM-approved 2026-11-17)
 - [Swiftwing Records](Swiftwing-Records.md)
 - [Fugu](Fugu.md)
 - [Grid Overwatch Division](Grid-Overwatch-Division.md)
