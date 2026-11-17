@@ -25,7 +25,7 @@ For an out-of-character / rules-facing profile of the group's true initiatory st
 ## What the crew knows
 
 - Glenn had enough rapport to identify and signal to a Hidden Enforcer during the arcoblock unrest.
-- They had access to police-grade resources or at least police-grade relationships.
+- They had access to police-grade resources or at least police-grade relationships. See the [Nashville PD](../Organizations/Nashville-Police-Department.md) page for related campaign context.
 - Their presence suggested semi-formal structure inside a chaotic civic environment.
 
 ## Known / suspected sites

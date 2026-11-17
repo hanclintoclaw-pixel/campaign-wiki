@@ -20,7 +20,7 @@ sources:
 
 ## Overview
 
-Police-linked recurring contact and leverage node for the crew. Older consolidated campaign material renders the same figure as **Harac**, and these appear to be the same entity.
+Senior [Nashville Police Department](../Organizations/Nashville-Police-Department.md) figure and recurring contact / leverage node for the crew. Older consolidated campaign material renders the same figure as **Harac**, and these appear to be the same entity.
 
 ## Known Facts
 

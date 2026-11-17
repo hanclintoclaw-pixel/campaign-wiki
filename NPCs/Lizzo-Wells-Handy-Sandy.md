@@ -42,7 +42,7 @@ sources:
 - Linked to the [Pixel Sticks](../Factions/Pixel-Sticks.md) and their 21st-floor cell.
 - Linked to [Chunky Sparkles](Chunky-Sparkles.md) / Mr. Rainbow as handler, finder, or temporary caretaker.
 - Known to [Kne@zle](Kne-zle.md) and relevant to [Grid Overwatch Division](../Organizations/Grid-Overwatch-Division.md).
-- Currently held through [Herrick](Herrick.md) / Nashville PD arrangements.
+- Currently held through [Herrick](Herrick.md) / [Nashville PD](../Organizations/Nashville-Police-Department.md) arrangements.
 
 ## Open Questions (Cindy's)
 <!-- cindy-blocked:open-questions -->

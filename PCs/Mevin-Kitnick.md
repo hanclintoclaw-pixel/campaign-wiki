@@ -89,7 +89,7 @@ Mevin is usually the crew member most responsible for:
 - Mevin Kitnick is played by **Clint**.
 - He is a **corpo decker**.
 - Key crew tags: **AI Enthusiast**, **Backline Combatant**, **Hoarder**.
-- He is the crew member with the main relationship to **Herrick**, the Nashville PD shadowrun liaison.
+- He is the crew member with the main relationship to **[Herrick](../NPCs/Herrick.md)**, the [Nashville PD](../Organizations/Nashville-Police-Department.md) shadowrunner liaison.
 - He is the character with direct operational command authority over **Cindy Lou Jenkins**.
 - His corporate-security background remains directly useful in play; during the **2026-06-04** Griswell job, he was the first to identify the likelihood of an **internal access compromise** rather than a simple one-man leak.
 - During the **2026-07-09** Pixel Sticks job intake, Mevin recognized that the target utilities sounded like military-grade Matrix zero-days: valuable if recovered cleanly, but likely degraded if spammed in public attacks.

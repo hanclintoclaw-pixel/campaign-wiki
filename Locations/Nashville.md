@@ -96,7 +96,7 @@ Relevant local elements include:
 
 - **Atlas's**, a neutral meeting ground and hiring center just outside the city limits
 - **Friendly Phyllis**, a fence embedded in local shadow traffic
-- **Herrick**, linked to Nashville PD shadowrun liaison structures
+- **[Herrick](../NPCs/Herrick.md)**, a senior [Nashville Police Department](../Organizations/Nashville-Police-Department.md) figure and shadowrunner expert
 - **Mucky**, a major criminal figure and local power broker whose gambling hall / hotel is now an active scene location
 - **8th Street**, a minor alley dice-game crew tied to Judge Belisarius's gambling debts
 - **Lorenzo Zoyle** and other figures tied to BTL trade, nightlife, and the broader underworld

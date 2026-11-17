@@ -29,7 +29,7 @@ In the currently surfaced campaign material, G.O.D. is tied to regional Matrix m
 
 The Nashville **G.O.D. is the same organization** as the printed **Grid Overwatch Division** of **SR3 Matrix (1995), p.158** - the CCMA's "G-men," "part Matrix marshals and part hot-shot deckers," policing the Matrix under the **self-declared authority of the Corporate Court**. Ours is that division's **local branch**, and its local face is **Kne@zle** of the otaku tribe **Enigma Machine**. Where this table's portrayal differs from print, that is our own characterisation of one organization - not a second organization sharing an initialism.
 
-Printed context worth keeping at the table: G-men authority is **self-declared and contested**. The same passage has nations and corps "assert their rights to enforce Matrix laws within their gridspaces" and hire their own grid cops - Lone Star's **GridSec** and Renraku-owned **Securitech** being the named counterparts. A CCMA warrant is not automatically a Nashville PD welcome.
+Printed context worth keeping at the table: G-men authority is **self-declared and contested**. The same passage has nations and corps "assert their rights to enforce Matrix laws within their gridspaces" and hire their own grid cops - Lone Star's **GridSec** and Renraku-owned **Securitech** being the named counterparts. A CCMA warrant is not automatically welcome to the [Nashville Police Department](Nashville-Police-Department.md).
 
 ## What the campaign currently says
 
