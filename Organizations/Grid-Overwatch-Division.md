@@ -2,7 +2,7 @@
 title: Grid Overwatch Division
 type: organization
 visibility: player-safe
-updated: 2026-08-28
+updated: 2026-11-17
 aliases:
   - G.O.D.
   - GOD
@@ -33,7 +33,7 @@ Printed context worth keeping at the table: G-men authority is **self-declared a
 
 ## What the campaign currently says
 
-- Enigma Machine is responsible for monitoring Nashville and surrounding cities' Matrix activity.
+- [Enigma Machine](Enigma-Machine.md) is responsible for monitoring Nashville and surrounding cities' Matrix activity.
 - The tribe is described as representing **G.O.D.** in this region of the CAS.
 - This implies G.O.D. functions as a Matrix-overwatch / grid-governance authority in campaign terms.
 - In Session 2026-08-27, **Kne@zle** identified **[Lizzo Wells / Handy-Sandy](../NPCs/Lizzo-Wells-Handy-Sandy.md)** as a known Grid Overwatch person of interest and told the crew to leave her safely in Nashville PD custody.
@@ -45,7 +45,7 @@ Printed context worth keeping at the table: G-men authority is **self-declared a
 
 ## Related groups
 
-- Enigma Machine
+- [Enigma Machine](Enigma-Machine.md) - the Nashville otaku tribe that carries out local grid watch, with Kne@zle as its senior otaku.
 - **Print-context peers** (SR3 Matrix p.158): Lone Star's Division of Matrix Security (**GridSec**) and **Securitech International** (Renraku subsidiary) - the local-cop and corporate-cop counterparts to the CCMA G-men.
 
 ## Canon note

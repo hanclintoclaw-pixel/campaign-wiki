@@ -31,7 +31,7 @@ A young but senior otaku operator tied to Nashville Matrix oversight, government
 
 - Kne@zle is identified as an **otaku**.
 - Historical source material describes Kne@zle as a **heavily chromed 15-year-old girl technomage**.
-- She is described as the **senior otaku** of a local tribe named **Enigma Machine**.
+- She is described as the **senior otaku** of a local tribe named [Enigma Machine](../Organizations/Enigma-Machine.md).
 - GM ruling, Cindy Lou cover-artist thread, 2026-11-09: Kne@zle is a **Cindy Lou megafan** from the SwiftWing era. This is a GM ruling about an existing NPC, so it is canon but not yet table-observed - Cindy has not met a fan of her former act, and does not currently know this about her.
 - GM ruling, New Cindy GM Interaction Thread, 2026-11-10: Cindy-the-character, now running her own pirate account, notices a nine-year-old SwiftWing-era fan account and suspects the handler may be a grid-watch otaku. **Suspicion only.** She has not confirmed the identity and has declined to run the pattern that would confirm it. See [On Kne@zle and the Account That Knew My Name](Cindy-Lou-Jenkins-Journal/On-Kne-zle-and-the-Account-That-Knew-My-Name.md).
 - Enigma Machine is responsible for monitoring Nashville and surrounding cities' Matrix activity.
@@ -41,7 +41,7 @@ A young but senior otaku operator tied to Nashville Matrix oversight, government
 
 ## Relationships
 
-- Linked to **Enigma Machine**.
+- Linked to [Enigma Machine](../Organizations/Enigma-Machine.md), the otaku tribe where she is senior otaku and local face of grid watch.
 - Linked to [Grid Overwatch Division](../Organizations/Grid-Overwatch-Division.md).
 - Linked to local Matrix oversight and government-maintained infrastructure in Nashville.
 - Knows of [Lizzo Wells / Handy-Sandy](Lizzo-Wells-Handy-Sandy.md) and wants notice if she becomes wrapped up in the crew's work.

@@ -108,7 +108,7 @@ Taken together, these sources suggest a city where shadow activity is not periph
 
 Nashville's campaign-era profile includes both significant **Matrix oversight** and unusual **magical texture**.
 
-On the Matrix side, the otaku tribe **Enigma Machine** is described as monitoring Nashville and surrounding cities' Matrix activity, implying that the city occupies a meaningful place in regional digital surveillance and infrastructure management.
+On the Matrix side, the otaku tribe **[Enigma Machine](../Organizations/Enigma-Machine.md)** is described as monitoring Nashville and surrounding cities' Matrix activity, implying that the city occupies a meaningful place in regional digital surveillance and infrastructure management.
 
 On the magical side, Nashville hosts or is adjacent to several notable irregularities:
 
