@@ -113,7 +113,7 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - What would the unedited monitoring data and Mevin's retained encrypted material reveal?
 - Was Chunky Sparkles at Happy Cat protection, coincidence, mascot, tenant, or threat?
 - What traces, data, or usable hardware remain inside the recovered scorpion drone?
-- Who created or taught the Chunky Sparkles command set used by Lizzo Wells, and was that the same friend who supplied Mr. Rainbow to her?
+- Who created or taught the Chunky Sparkles command set used by Lizzo Wells, and was that the same friend who supplied the creature to her?
 - Does this run intersect with the broader citywide Matrix/influence-engine problem, or is it a separate local job?
 
 </details>

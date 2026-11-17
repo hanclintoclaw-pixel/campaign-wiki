@@ -9,6 +9,7 @@ canon_status: canon
 confidence: medium
 tags: [npc, music-industry, current-arc]
 sources:
+  - "GM ruling, New Cindy GM Interaction Thread, 2026-11-17 (Bebop Cola is marketed by SoyCorp)"
   - memory/2026-03-27.md
   - memory/2026-04-02.md
   - ../Sessions/2026-05-07.md
@@ -30,6 +31,7 @@ Up-and-coming country music star tied to the crew's current investigation into a
 - By the 612 Wharf sessions, Darla's name, release schedule, and promo ecosystem were tied to counterfeit goods, poster-swap activity, and a wider influence network far beyond ordinary artist marketing.
 - The latest Site 7 fallout suggests Darla's public campaign may be sitting downstream of much older knowbot / influence-engine architecture tied to Core 7, Swiftwing, and SC Music.
 - By **2026-05-28**, the crew had concluded that her stolen masters were being used inside a wider influence/manipulation pipeline linked to counterfeit **Meatlets**, tainted **Bebop Cola**, and the buried **Core 7 / Site 7** system.
+- **Bebop Cola is a SoyCorp-marketed product** (GM ruling, 2026-11-17), placing the tainted cola under the same parent brand as **Meatlets**.
 - In the immediate aftermath of the 612 Wharf run, Darla was being sheltered by **Jacinda Hamich** and pushed toward going to ground before the scandal broke fully in public.
 - The public-facing fallout appears likely to frame Darla as part of a bizarre promotional collapse rather than exposing the deeper magical and matrix reality behind the operation.
 

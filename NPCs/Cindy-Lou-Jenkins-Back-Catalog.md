@@ -15,6 +15,7 @@ tags: [npc, cindy, music, swiftwing, matrix, influence]
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-16
 sources:
+  - "GM ruling, New Cindy GM Interaction Thread, 2026-11-17 (Bebop Cola is marketed by SoyCorp)"
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (three albums, three engineered singles each released one at a time to drive hype; local underground phenomenon to the Nashville LTG; Shadowrunny country-future titles licensed for invention; Swiftwing owns masters, technical assets, name and image; jingles for SoyCorp Meatlets, the Augmented Beef and Bacon Social Club and unnamed local products, each both viral marketing and subliminal influence; career sits in the three years before she was saved)
   - GM approval, New Cindy GM Interaction Thread, 2026-11-16 (frame approved as written and authorized for the wiki)
   - GM ruling, New Cindy GM Interaction Thread, 2026-11-16 (Morgan carries counterfeit Cindy material as counterfeit Matrix-show audience, not simsense of her; a fake Cindy e-performer is a possibility, not settled; player-visible hints may remain)
@@ -68,6 +69,7 @@ Marketed as the almost-ready-to-step-out record: the campaign promised a public 
 The GM settled that Cindy's endorsement work was **not** limited to beverages. She recorded jingles for **SoyCorp Meatlets** and the **Augmented Beef and Bacon Social Club**, as well as various unnamed local products, and **every one of them was both a viral marketing campaign and a subliminal influence operation** (2026-11-16). The Ale 8 placement on [Swiftwing Records](../Organizations/Swiftwing-Records.md) is one client on this ladder, not the whole book of business.
 
 - **SoyCorp Meatlets** - surface campaign: a supper-bell singalong passed between shift workers. The ask underneath: tired industrial crews should choose Meatlets automatically at the vending rack and buy an extra packet for later.
+- **Bebop Cola is a SoyCorp product** (GM ruling, 2026-11-17). The cola the crew found being counterfeited and tainted at [612 Wharf Avenue](../Locations/612-Wharf-and-Site-7.md) is marketed by **SoyCorp**, the same parent behind **SoyCorp Meatlets**, one of Cindy's confirmed jingle clients. Whether Cindy ever recorded a jingle for the cola line has **not** been established.
 - **Augmented Beef and Bacon Social Club** - surface campaign: a comic call-and-response chorus, endlessly remixed in dining hosts. The ask underneath: augmentation enthusiasts should treat membership and repeat orders as signs of belonging. The brand also runs a Matrix host - see [Augmented Beef and Bacon Social Club Host](../Tech/Matrix/Augmented-Beef-and-Bacon-Social-Club-Host.md).
 - **Unnamed local products** - the ruling covers "various unnamed local products." Cindy's proposed examples, GM-approved 2026-11-16: a delivery-driver refrain for a county discount tire dealer, built so local drivers would postpone comparison shopping and return to that dealer; and a breakup chorus with a quotable punch line for a club-district pawn counter, built so cash-strapped clubgoers would pawn there before missing a weekend out.
 

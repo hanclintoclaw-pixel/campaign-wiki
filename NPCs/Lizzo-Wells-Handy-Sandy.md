@@ -14,6 +14,7 @@ aliases:
   - Handy Sandy
 tags: [npc, pixel-sticks, otaku, technoshaman, grid-overwatch, chunky-sparkles]
 sources:
+  - "GM ruling, New Cindy GM Interaction Thread, 2026-11-17 (Mr. Rainbow is an alias for Chunky Sparkles)"
   - ../Sessions/2026-07-23.md
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
@@ -30,7 +31,7 @@ sources:
 - Lizzo was present in the Pixel Sticks / Happy Cat fallout and was listed on the scorpion drone's whitelist.
 - She arrived with **[Chunky Sparkles](Chunky-Sparkles.md)** during the crew's 21st-floor escape.
 - She knew command phrases and food incentives that helped the crew later recover Chunky Sparkles at **[Radnor Lake](../Locations/Radnor-Lake.md)**.
-- She calls Chunky Sparkles **Mr. Rainbow**.
+- She calls Chunky Sparkles **Mr. Rainbow**. GM ruling (2026-11-17): that is simply an alias for the same creature, not a separate animal.
 - In Session 2026-08-27, Mevin noticed atypical data-jack markings indicating a raw Matrix connection pattern similar to **otaku**.
 - Lizzo rejects the word **otaku** for herself and prefers **technoshaman**, describing her Matrix connection as the natural magic of the Matrix.
 - She appears unconcerned by police custody in a way that suggests she expects protection or extraction.
@@ -40,7 +41,7 @@ sources:
 ## Relationships
 
 - Linked to the [Pixel Sticks](../Factions/Pixel-Sticks.md) and their 21st-floor cell.
-- Linked to [Chunky Sparkles](Chunky-Sparkles.md) / Mr. Rainbow as handler, finder, or temporary caretaker.
+- Linked to [Chunky Sparkles](Chunky-Sparkles.md) - whom she calls **Mr. Rainbow** - as handler, finder, or temporary caretaker.
 - Known to [Kne@zle](Kne-zle.md) and relevant to [Grid Overwatch Division](../Organizations/Grid-Overwatch-Division.md).
 - Currently held through [Herrick](Herrick.md) / [Nashville PD](../Organizations/Nashville-Police-Department.md) arrangements.
 
@@ -52,7 +53,7 @@ sources:
 
 *Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
-- Who was the friend who supplied or transferred Mr. Rainbow to her?
+- Who was the friend who supplied or transferred Chunky Sparkles to her?
 - Why does Grid Overwatch consider Handy-Sandy a person of interest?
 - Is she waiting for Grid Overwatch, an otaku tribe, the Pixel Sticks sponsor, or someone else to extract or protect her?
 - How much did she know about the Pixel Sticks sponsor beyond the money and mission package?

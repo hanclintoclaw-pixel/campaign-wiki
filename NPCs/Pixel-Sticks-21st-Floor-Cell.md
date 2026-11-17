@@ -27,7 +27,7 @@ The crew disrupted the cell in [Session 2026-07-23](../Sessions/2026-07-23.md), 
 - **Pop Onomata** - handle recovered from the member-list / route-board context and used as bluff material.
 - **Ernie Pollock** - brash young orc member present on the scorpion drone's whitelist; confirmed the dead-drop / anonymous-benefactor account under Mevin's friendly questioning.
 - **Ziggy Hill** - heavily chromed elf decker present on the scorpion drone's whitelist; confirmed Ernie's core account after Curtis used intimidation.
-- **[Lizzo Wells / Handy-Sandy](Lizzo-Wells-Handy-Sandy.md)** - young woman associated with Happy Cat and present on the scorpion drone's whitelist; probable otaku / self-described technoshaman, Grid Overwatch person of interest, and temporary handler of Chunky Sparkles / Mr. Rainbow.
+- **[Lizzo Wells / Handy-Sandy](Lizzo-Wells-Handy-Sandy.md)** - young woman associated with Happy Cat and present on the scorpion drone's whitelist; probable otaku / self-described technoshaman, Grid Overwatch person of interest, and temporary handler of Chunky Sparkles, whom she calls Mr. Rainbow.
 - **Unnamed guards / goons** - physical door security; one was killed by Valgaut during the breach.
 - **Sickly elf decker** - found lying in or near the equipment area, status unresolved in the public notes.
 
@@ -56,7 +56,7 @@ Disrupted. The crew breached the floor, disabled or intimidated several members,
 - Can the crew or CAT prove the Princeps / Claude connection behind the advanced utilities and scorpion drone?
 - Was Highbrow the actual leader or only the active decker on shift?
 - What unfinished job was supposed to create the cell's major payday?
-- Who supplied Lizzo Wells / Handy-Sandy with Chunky Sparkles / Mr. Rainbow?
+- Who supplied Lizzo Wells / Handy-Sandy with Chunky Sparkles?
 - Are any Pixel Sticks outside the captured 21st-floor cell still active?
 
 </details>

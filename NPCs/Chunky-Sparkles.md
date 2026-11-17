@@ -6,11 +6,12 @@ status: wyrmwatch-handoff
 canon_status: canon
 confidence: medium
 tags: [npc, awakened-creature, happy-cat, pixel-sticks]
-updated: 2026-11-06
+updated: 2026-11-17
 aliases: [Chonky Sparkles, Junkie Sparkles, Mr. Rainbow]
 generated_by: dgx-spark/local-inference-lab/Qwen3.8-Flash-Next-NVFP4
 generated_at: 2026-11-06
 sources:
+  - "GM ruling, New Cindy GM Interaction Thread, 2026-11-17 (Mr. Rainbow is an alias for Chunky Sparkles)"
   - ../Sessions/2026-07-16.md
   - ../Sessions/2026-07-23.md
   - ../Sessions/2026-08-06.md
@@ -46,6 +47,7 @@ sources:
 - Lizzo Wells knew or was given a short command set for it, including halt, come, attack, and flee, in an unfamiliar language.
 - During the Radnor Lake follow-up, its lightning was still dangerous but magically depleted; it responded favorably after the crew killed a predator threatening it and lured it away with food and commands.
 - In Session 2026-08-27, Lizzo called it **Mr. Rainbow**, said she inherited it from a friend she would not identify, and framed it as magical security she obtained after the Pixel Sticks money came through because she did not trust the scorpion drone.
+- **GM ruling (New Cindy GM Interaction Thread, 2026-11-17):** **Mr. Rainbow** is simply an alias for Chunky Sparkles - one creature under Lizzo's own name for it, not a second animal she kept separately. The alias stays in frontmatter as a retrieval key for older records.
 
 ## Role in the Campaign
 
@@ -88,7 +90,7 @@ sources:
 - What exactly is its awakened nature?
 - Was a *talking* Chunky Sparkles part of the "full spectrum" security package speculated to have come from [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md)? The GM allowed this as plausible on 2026-08-06 but did not confirm it.
 - Who originally taught or supplied the command phrases and incentives Lizzo Wells knew?
-- Who was Lizzo's unnamed friend who supplied or transferred Mr. Rainbow to her?
+- Who was Lizzo's unnamed friend who supplied or transferred Chunky Sparkles to her? (Settled 2026-11-17 that **Mr. Rainbow** is just Lizzo's alias for this creature, so the question is about the creature and not about a second pet.)
 - What will Wyrmwatch do with it after the Radnor Lake handoff?
 - Is the creature merely food-motivated, or did the rescue create a lasting attitude shift toward the crew?
 - What was its exact relationship with Lizzo Wells and the Pixel Sticks?

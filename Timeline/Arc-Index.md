@@ -206,7 +206,7 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 ## 11. Pixel Sticks / military-grade utilities run
 
-**Core idea:** a deniable Matrix cleanup job begins as a youth-gang vandalism problem but grows into a proxy-war thread involving military-grade utilities, a ruthenium-coated scorpion drone, Chunky Sparkles / Mr. Rainbow, and the escalating **Cross Applied Technology** versus **Princeps Group** conflict.
+**Core idea:** a deniable Matrix cleanup job begins as a youth-gang vandalism problem but grows into a proxy-war thread involving military-grade utilities, a ruthenium-coated scorpion drone, Chunky Sparkles, and the escalating **Cross Applied Technology** versus **Princeps Group** conflict.
 
 **Key sessions**
 - [2026-07-09](../Sessions/2026-07-09.md)

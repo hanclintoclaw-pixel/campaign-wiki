@@ -9,6 +9,7 @@ canon_status: canon
 confidence: high
 tags: [location, warehouse, buried-site, current-arc]
 sources:
+  - "GM ruling, New Cindy GM Interaction Thread, 2026-11-17 (Bebop Cola is marketed by SoyCorp)"
   - ../Sessions/2026-05-07.md
   - ../Sessions/2026-05-14.md
   - ../Sessions/2026-05-21.md
@@ -24,7 +25,7 @@ A linked warehouse-and-buried-installation complex at the center of the current 
 
 ## Known Facts
 
-- **612 Wharf Avenue** presented first as a run-down warehouse receiving and redistributing counterfeit **Meatlets**, **Bebop Cola**, and related promotional material.
+- **612 Wharf Avenue** presented first as a run-down warehouse receiving and redistributing counterfeit **Meatlets**, **Bebop Cola**, and related promotional material. **Bebop Cola is marketed by SoyCorp** (GM ruling, 2026-11-17); the warehouse was moving counterfeit stock of that brand alongside **SoyCorp Meatlets**.
 - Player-facing in-game map location: **494-476 Brick Church Ln, Nashville, TN 37207** (`36.2442672, -86.7817677`).
 - The warehouse drew heavy power, used surveillance drones, and was tied to low-level labor and ganger muscle.
 - A heavy power-and-data line led from the warehouse into the woods to a concealed installation now referred to as **Site 7**.

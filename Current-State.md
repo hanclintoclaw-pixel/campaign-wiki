@@ -74,7 +74,7 @@ The prior **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** r
 - decide how to handle possible CAT follow-up work through **Imogene Viola**
 - determine what CAT can learn from the recovered utility samples / forensic handoff
 - monitor whether **The Princeps Group** or **Claude August** reacts to the crew connecting them to the Pixel Sticks attack
-- identify who supplied **Lizzo Wells / Handy-Sandy** with Chunky Sparkles / Mr. Rainbow
+- identify who supplied **Lizzo Wells / Handy-Sandy** with Chunky Sparkles
 - determine why **Grid Overwatch** treats Handy-Sandy as a person of interest and why **Kne@zle** wants her left in custody
 - diagnose the recovered **[Pixel Sticks Scorpion Drone](Vehicles/Pixel-Sticks-Scorpion-Drone.md)** and decide how to stage Curtis's long-term rebuild safely
 - extract or destroy biometric whitelist data, command logs, call-home traces, and sponsor clues from the recovered drone
@@ -100,7 +100,7 @@ The prior **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** r
 - What does CAT intend to do with the Pixel Sticks evidence?
 - Will Imogene Viola become a direct Johnson for the crew, bypassing Ivan?
 - Does Princeps know the crew has tied the Pixel Sticks operation back to them?
-- Who supplied Lizzo Wells with Chunky Sparkles / Mr. Rainbow?
+- Who supplied Lizzo Wells with Chunky Sparkles?
 - Why is Handy-Sandy important to Grid Overwatch?
 - What does the recovered scorpion drone still contain: sponsor traces, crew biometrics, command logs, or burned-out junk?
 - Can Curtis rebuild the scorpion safely without making it an instant campaign-breaking asset?

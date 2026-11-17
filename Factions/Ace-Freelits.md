@@ -9,6 +9,7 @@ canon_status: canon
 confidence: medium
 tags: [faction, gang, current-arc, warehouse-labor]
 sources:
+  - "GM ruling, New Cindy GM Interaction Thread, 2026-11-17 (Bebop Cola is marketed by SoyCorp)"
   - ../Sessions/2026-05-07.md
   - ../Sessions/2026-05-14.md
   - ../Sessions/2026-05-21.md
@@ -30,7 +31,7 @@ A low-rent motorcycle-gang / disposable-muscle faction found working the warehou
 ## Known Facts
 
 - Ace Freelits personnel were seen doing manual labor at **612 Wharf Avenue**.
-- They were boxing and shipping counterfeit **Meatlets** and **Bebop Cola** and preparing poster-swap work for the upcoming **Darla-Doo** release push.
+- They were boxing and shipping counterfeit **Meatlets** and **Bebop Cola** - both **SoyCorp** brands, with Bebop Cola's parent company settled by GM ruling on 2026-11-17 - and preparing poster-swap work for the upcoming **Darla-Doo** release push.
 - Session evidence frames them as **low-level contract labor / gangers**, not the real strategic brains behind the operation.
 - By the warehouse breach, surviving rank-and-file workers largely fled rather than standing as a disciplined core faction.
 

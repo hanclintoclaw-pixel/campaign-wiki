@@ -54,7 +54,7 @@ Mevin suspects the client or source is hiding something because the dossier has 
 - Who leads the Pixel Sticks beyond the disrupted 21st-floor cell, if anyone still does?
 - Can the Princeps / Claude implication be proven through Matrix icon traces, CAT forensics, or retained utility material?
 - Who supplied or lost the advanced utilities and scorpion drone?
-- What is their remaining relationship to Happy Cat and Chunky Sparkles after Lizzo's Mr. Rainbow explanation?
+- What is their remaining relationship to Happy Cat and Chunky Sparkles after Lizzo's explanation that **Mr. Rainbow** is just another name for the creature?
 - What did Mevin retain in the encrypted utility/paydata material?
 
 </details>

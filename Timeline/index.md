@@ -211,7 +211,7 @@ For the cleaned-up master list that separates real-world played dates from Shado
 ### Pixel Sticks / military-grade utilities run and fallout
 - **Played:** 2026-07-09 through 2026-08-27
 - **In-world:** 2066-05-12 evening through 2066-05-15 daytime (provisional)
-- **Summary:** The crew accepted a deniable Matrix cleanup contract from an anonymous high-end Johnson through **Ivan** at **Atlas's**. The run moved from **Happy Cat Konpeki and Collectibles** into the Vernon Winfrey arkoblock, recovered used military-grade utilities, exposed **Chunky Sparkles / Mr. Rainbow**, recovered the damaged scorpion drone, completed the Wyrmwatch handoff at Radnor Lake, and later strongly implicated **The Princeps Group / Claude August** as the Pixel Sticks sponsor through CAT-targeting evidence.
+- **Summary:** The crew accepted a deniable Matrix cleanup contract from an anonymous high-end Johnson through **Ivan** at **Atlas's**. The run moved from **Happy Cat Konpeki and Collectibles** into the Vernon Winfrey arkoblock, recovered used military-grade utilities, exposed **Chunky Sparkles**, recovered the damaged scorpion drone, completed the Wyrmwatch handoff at Radnor Lake, and later strongly implicated **The Princeps Group / Claude August** as the Pixel Sticks sponsor through CAT-targeting evidence.
 - **Session pages:** [2026-07-09](../Sessions/2026-07-09.md), [2026-07-16](../Sessions/2026-07-16.md), [2026-07-23](../Sessions/2026-07-23.md), [2026-08-06](../Sessions/2026-08-06.md), [2026-08-13](../Sessions/2026-08-13.md), [2026-08-27](../Sessions/2026-08-27.md)
 
 ### Byron Cedar / Judge Belisarius rush job
