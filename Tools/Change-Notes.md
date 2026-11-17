@@ -2,9 +2,9 @@
 title: Voice Bridge Change Notes
 type: documentation
 visibility: player-safe
-updated: 2026-11-11
+updated: 2026-11-16
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-11
+generated_at: 2026-11-16
 ---
 
 # Voice Bridge Change Notes
@@ -25,6 +25,9 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 6. Link each new entry from the Entries list on this page.
 
 ## Entries
+
+- [2026-11-16 — Speakable campaign namespaces and answer-quality guards](Change-Notes/2026-11-16-Voice-Namespaces-And-Answer-Quality.md)
+- [2026-11-16 — HE grenades and the numbered Ares Predators in the reviewed tables](Change-Notes/2026-11-16-SR3-Reviewed-Table-Expansion.md)
 
 - [2026-11-11 — PDF-reviewed SR3 table answers and printed citations](Change-Notes/2026-11-11-SR3-Reviewed-Table-Answers.md)
 
