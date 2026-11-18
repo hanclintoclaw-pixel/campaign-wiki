@@ -123,3 +123,4 @@ Published SR3 character/contact models, not campaign NPCs unless the GM adopts t
 - [Organization pages](../Organizations/README.md)
 - [Campaign arc index](../Timeline/Arc-Index.md)
 - [Previously On recaps](../Recaps/README.md)
+- [Tamsin "Edge" Vann](Tamsin-Edge-Vann.md)
