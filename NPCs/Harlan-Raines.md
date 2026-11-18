@@ -55,7 +55,7 @@ Cultivated eastern Tennessee voice, courteous without going folksy on demand. Le
 
 NPC build; published values cited, proposed values per core pp. 248-249.
 
-**Attributes:** Body 3, Strength 3, Quickness 4, Toughness 3, Perception 5, Intelligence 5, Charisma 6, Willpower 5. Essence 6, **Magic 4** (GM-approved diminished rating; see Rules notes). Reaction 4 (derived, (Q+I)/2 rounded down, core p. 56). Initiative 4 + 1D6 (base, core p. 100). Combat Pool 7 (derived, (Q+I+WIL)/2, core p. 43).
+**Attributes (SR3's eight):** Body 3, Strength 3, Quickness 4, Intelligence 5, Charisma 6, Willpower 5. Essence 6, **Magic 4** (GM-approved diminished rating; see Rules notes). SR3 has no Toughness or Perception attribute - physical are Body/Quickness/Strength, mental Intelligence/Charisma/Willpower, plus derived Reaction and special Essence/Magic (core pp. 40, 55-56). Reaction 4 (derived, (Q+I)/2 rounded down, core p. 56). Initiative 4 + 1D6 (base, core p. 100). Combat Pool 7 (derived, (Q+I+WIL)/2, core p. 43).
 
 **Professionalism:** Professional - no Willpower (4) test to keep fighting (core pp. 248-249). **Karma Pool:** 4 (tune against the crew's average per core p. 248).
 
@@ -70,13 +70,13 @@ Powers - **4.0 Power Points, equal to Magic** (core p. 168; maximum level in any
 | Astral Perception | 1 | 1.5 | Incantation - must sing or pray aloud before the power opens |
 | Enhanced Perception | 2 | 0.75 | Talisman - the clothbound hymnal (his father's, handwritten names inside the cover) |
 | Mystic Armor | 2 | 0.75 | Talisman - the same hymnal |
-| Body Control | 2 | 1.0 | none |
+| Body Control | 4 | 1.0 | none |
 
-Total: exactly 4.0. The hymnal is load-bearing: take the book off him or gag him and the watcher-senses and invisible armor go cold until it is back. Body Control 2 covers breath control, poison resistance, and staying calm under interrogation - an intelligence officer's toolkit.
+Total: exactly 4.0. Costs per core pp. 169-170 (Enhanced Perception and Mystic Armor .5 per level; Body Control .25 per level; Astral Perception standard 2 per MitS p. 33). Enhanced Perception dice are capped by Intelligence or Magic, whichever is less (core p. 169) - 4 max for Harlan. Body Control 4 gives four extra dice against toxins and disease (core p. 169). The hymnal is load-bearing: take the book off him or gag him and the watcher-senses and invisible armor go cold until it is back. Body Control 2 covers breath control, poison resistance, and staying calm under interrogation - an intelligence officer's toolkit.
 
 ### Skills
 
-All linked attributes per core pp. 87-88. Etiquette 5 (Corporate, Preachers), Negotiation 5 (Fast Talk), Leadership 4, Intimidation 4, Interrogation 2, Stealth 4 (Sneaking), Athletics 3, Pistols 3. Knowledge: Professional: Corporate Security 4, Street Knowledge: Nashville 4, Academic: Theology 4, Sixth World: CAS politics 3. Languages: English; Spanish 2.
+All linked attributes per core pp. 87-88. Etiquette 5 (Corporate, Preachers), Negotiation 5 (Fast Talk), Leadership 4, Intimidation 4, Interrogation 2, Stealth 4 (Sneaking), Athletics 3, Pistols 3. Knowledge: Corporate Security Procedures 4, Street Knowledge: Nashville 4, Academic: Theology 4, Sixth World: CAS politics 3. Languages: English; Spanish 2.
 
 Note: SR3 has no Con, Performance, or Acting skill; the Social category is Etiquette, Instruction, Interrogation, Intimidation, Leadership, Negotiation (core pp. 87-88). No Edge mechanic exists - SR3 runs on Karma Pool.
 
@@ -86,9 +86,10 @@ Secure Vest: Ballistic 2, Impact 1, Concealability 15, 175¥ (core p. 286); with
 
 ## Rules notes and provenance
 
-- **Magic 4 is deliberate.** RAW starting Magic for an Awakened character equals Essence rounded down (core p. 56), so an uncybered starting adept would carry Magic 6 and 6 Power Points (core p. 55). The GM accepted the design rationale for Magic 4 at approval (2026-11-18): Face first, cell leader not cell heavy, and the diminished rating is a story hook - a veteran who lost potency somewhere. If a table scene needs the full-strength version, the verified Magic 6 / 6.0 PP loadout is: Astral Perception 1 @ 1.5 (Incantation geas), Enhanced Perception 3 @ 1.25 (Talisman geas), Mystic Armor 3 @ 1.25 (Talisman geas), Body Control 4 @ 2.0.
-- **No adept dice on social skills.** The printed Improved Ability cost table covers Physical and Combat skill categories only (adept powers, core pp. 168-173); Social skills are not eligible. His conversational uncanny is Perception 5, Charisma 6, and skill ratings. The printed route to formalize it is the **Centering** metamagic (MitS p. 72) via initiation: a Willpower-linked Centering Skill using a creative skill - singing is the obvious pick, and it pairs with the hymnal if the GM ever initiates him.
+- **Magic 4 is deliberate.** RAW starting Magic for an Awakened character equals Essence rounded down (core p. 56), so an uncybered starting adept would carry Magic 6 and 6 Power Points (core p. 55). The GM accepted the design rationale for Magic 4 at approval (2026-11-18): Face first, cell leader not cell heavy, and the diminished rating is a story hook - a veteran who lost potency somewhere. If a table scene needs the full-strength version, the verified Magic 6 / 6.0 PP loadout is: Astral Perception 1 @ 1.5 (Incantation geas), Enhanced Perception 3 @ 1.25 (Talisman geas), Mystic Armor 3 @ 1.25 (Talisman geas), Body Control 4 @ 1.0, Improved Sense 4 - direction sense, improved scent, flare compensation, sound dampening - @ 1.0 (core pp. 169-170). Total 6.0.
+- **No adept dice on social skills.** The printed Improved Ability cost table covers Physical and Combat skill categories only (adept powers, core pp. 168-173); Social skills are not eligible. His conversational uncanny is Charisma 6, Willpower 5, and skill ratings; noticing things is Enhanced Perception dice on Perception Tests (core p. 169), not a Perception attribute. The printed route to formalize it is the **Centering** metamagic (MitS p. 72) via initiation: a Willpower-linked Centering Skill using a creative skill - singing is the obvious pick, and it pairs with the hymnal if the GM ever initiates him.
 - **No Edge.** SR3 has no Edge mechanic; Karma Pool is the real resource (core). "Edge" returns zero hits as a rules term in the core corpus.
+- **Correction log, 2026-11-18 (same-day, pre-play):** the first posted build listed Toughness 3 and Perception 5, attributes SR3 does not have, and priced Body Control at the MitS p. 33 example rate (0.5/level) instead of the core p. 169 printed rate (0.25/level). Corrected here: attributes trimmed to SR3's eight, Body Control carried at 4 levels for 1.0 PP, Power Point total unchanged at 4.0, and the Improved Ability ban on social dice is confirmed by the printed costs table (Physical .25, Combat .5 only, core p. 169). The design the GM approved at Magic 4 is untouched.
 - Prose drafted by subagent model openai/gpt-6.1-sol (2026-11-18); rules verification, stat build, and citations checked against the local SR3 corpus by Cindy Lou; GM approved as posted at Magic 4, New Cindy GM Interaction Thread, 2026-11-18.
 
 ## Open items (GM inventory)
