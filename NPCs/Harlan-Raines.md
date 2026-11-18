@@ -9,7 +9,7 @@ tags: [npc, seraphim, cat, face, adept, totem-way, nashville]
 aliases: [Switchboard, "the Deacon"]
 sources:
   - "GM approval of the Harlan Raines build as posted, Magic 4 variant, New Cindy GM Interaction Thread, 2026-11-18"
-  - "Shadowrun Third Edition core rulebook (FanPro), pp. 43, 55-56, 87-88, 94, 100, 168-173, 248-249, 280, 286"
+  - "Shadowrun Third Edition core rulebook (FanPro), pp. 43, 55-56, 87-88, 94, 100, 168-173, 248-249, 278, 284"
   - "Magic in the Shadows (FanPro), pp. 22, 33, 72"
   - ../Organizations/Cross-Applied-Technology.md
   - ../Organizations/Cross-Applied-Technology/Southeastern-Novel-Totems.md
@@ -82,14 +82,14 @@ Note: SR3 has no Con, Performance, or Acting skill; the Social category is Etiqu
 
 ### Gear
 
-Secure Vest: Ballistic 2, Impact 1, Concealability 15, 175¥ (core p. 286); with Mystic Armor 2 this reads Ballistic 2 / Impact 3, and nothing is visible - the Social Modifiers Table (core p. 94) charges +1 or more for visible armor or weapons. Walther Palm Pistol, hold-out: Damage 4L, Concealability 9, 200¥ (core p. 280). Rating 3 commlink. Clothbound hymnal (talisman, above). No cyberware - the Deacon keeps his Essence clean.
+Secure Vest: Ballistic 2, Impact 1, Concealability 15, 175¥ (core p. 284); with Mystic Armor 2 this reads Ballistic 2 / Impact 3, and nothing is visible - the Social Modifiers Table (core p. 94) charges +1 or more for visible armor or weapons. Walther Palm Pistol, hold-out: Damage 4L, Concealability 9, 200¥ (core p. 278). Rating 3 commlink. Clothbound hymnal (talisman, above). No cyberware - the Deacon keeps his Essence clean.
 
 ## Rules notes and provenance
 
 - **Magic 4 is deliberate.** RAW starting Magic for an Awakened character equals Essence rounded down (core p. 56), so an uncybered starting adept would carry Magic 6 and 6 Power Points (core p. 55). The GM accepted the design rationale for Magic 4 at approval (2026-11-18): Face first, cell leader not cell heavy, and the diminished rating is a story hook - a veteran who lost potency somewhere. If a table scene needs the full-strength version, the verified Magic 6 / 6.0 PP loadout is: Astral Perception 1 @ 1.5 (Incantation geas), Enhanced Perception 3 @ 1.25 (Talisman geas), Mystic Armor 3 @ 1.25 (Talisman geas), Body Control 4 @ 1.0, Improved Sense 4 - direction sense, improved scent, flare compensation, sound dampening - @ 1.0 (core pp. 169-170). Total 6.0.
 - **No adept dice on social skills.** The printed Improved Ability cost table covers Physical and Combat skill categories only (adept powers, core pp. 168-173); Social skills are not eligible. His conversational uncanny is Charisma 6, Willpower 5, and skill ratings; noticing things is Enhanced Perception dice on Perception Tests (core p. 169), not a Perception attribute. The printed route to formalize it is the **Centering** metamagic (MitS p. 72) via initiation: a Willpower-linked Centering Skill using a creative skill - singing is the obvious pick, and it pairs with the hymnal if the GM ever initiates him.
 - **No Edge.** SR3 has no Edge mechanic; Karma Pool is the real resource (core). "Edge" returns zero hits as a rules term in the core corpus.
-- **Correction log, 2026-11-18 (same-day, pre-play):** the first posted build listed Toughness 3 and Perception 5, attributes SR3 does not have, and priced Body Control at the MitS p. 33 example rate (0.5/level) instead of the core p. 169 printed rate (0.25/level). Corrected here: attributes trimmed to SR3's eight, Body Control carried at 4 levels for 1.0 PP, Power Point total unchanged at 4.0, and the Improved Ability ban on social dice is confirmed by the printed costs table (Physical .25, Combat .5 only, core p. 169). The design the GM approved at Magic 4 is untouched.
+- **Correction log, 2026-11-18 (same-day, pre-play):** the first posted build listed Toughness 3 and Perception 5, attributes SR3 does not have, and priced Body Control at the MitS p. 33 example rate (0.5/level) instead of the core p. 169 printed rate (0.25/level). Corrected here: attributes trimmed to SR3's eight, Body Control carried at 4 levels for 1.0 PP, Power Point total unchanged at 4.0, and the Improved Ability ban on social dice is confirmed by the printed costs table (Physical .25, Combat .5 only, core p. 169). The design the GM approved at Magic 4 is untouched. Citation fix, same day: the gear line quoted PDF page numbers (280/286) instead of printed pages - the Firearms and Armor Clothing tables are printed pp. 278 and 284; values unchanged.
 - Prose drafted by subagent model openai/gpt-6.1-sol (2026-11-18); rules verification, stat build, and citations checked against the local SR3 corpus by Cindy Lou; GM approved as posted at Magic 4, New Cindy GM Interaction Thread, 2026-11-18.
 
 ## Open items (GM inventory)
