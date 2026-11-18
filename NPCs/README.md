@@ -103,6 +103,8 @@ Published SR3 character/contact models, not campaign NPCs unless the GM adopts t
 - [Renaud Dupree](Renaud-Dupree.md)
 - [Righteous Haze](Righteous-Haze.md)
 - [Skizzix](Skizzix.md)
+- [Seren Hensley](Seren-Hensley.md) - Evangelist shaman, Cross shamanic studies fellow; Kne@zle's twin (GM-only)
+- [Tamsin "Edge" Vann](Tamsin-Edge-Vann.md)
 - [Thrift-store Flunkies](Thrift-Store-Flunkies.md)
 - [Tom Erlichman](Tom-Erlichman.md)
 - [Viper](Viper.md)
@@ -123,4 +125,3 @@ Published SR3 character/contact models, not campaign NPCs unless the GM adopts t
 - [Organization pages](../Organizations/README.md)
 - [Campaign arc index](../Timeline/Arc-Index.md)
 - [Previously On recaps](../Recaps/README.md)
-- [Tamsin "Edge" Vann](Tamsin-Edge-Vann.md)
