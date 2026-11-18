@@ -77,6 +77,7 @@ Published SR3 character/contact models, not campaign NPCs unless the GM adopts t
 - [Friendly Phyllis](Friendly-Phyllis.md)
 - [Genevieve Watson](Genevieve-Watson.md)
 - [Hardwire Henry](Hardwire-Henry.md)
+- [Harlan Raines](Harlan-Raines.md)
 - [Illwoody](Illwoody.md)
 - [Imogene Viola](Imogene-Viola.md)
 - [Judge Hiram Belisarius](Judge-Hiram-Belisarius.md)
