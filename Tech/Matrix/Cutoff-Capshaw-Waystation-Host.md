@@ -16,7 +16,7 @@ sources:
 
 ## Overview
 
-The **Cutoff Capshaw Waystation Host** is the public Matrix board and private maintenance system for **the Cutoff**, a wildcat outcast community on Capshaw Mountain. The Cutoff presents itself as a rough but functional stop between wasteland roads and civilized supply lines: a place to trade, repair, wash dust off, buy a meal token, hear road warnings, and decide whether the city below is worth dealing with today.
+The **Cutoff Capshaw Waystation Host** is the public Matrix board and private maintenance system for [the Cutoff](../../Factions/The-Cutoff.md), a wildcat outcast community on Capshaw Mountain. The Cutoff presents itself as a rough but functional stop between wasteland roads and civilized supply lines: a place to trade, repair, wash dust off, buy a meal token, hear road warnings, and decide whether the city below is worth dealing with today.
 
 This Host has a [machine-readable Decker Experience profile](../../data/matrix-hosts/cutoff-capshaw-waystation-host.json). The Decker Experience version keeps the public areas completely open: no checks, no required rolls, and no lockouts for normal public browsing or departure. The private maintenance layer is a low-security Blue host with reportable camera and turret access, plus a deeper final check that can reveal the host maintainer's corporate betrayal.
 

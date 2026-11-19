@@ -14,3 +14,4 @@
 - [Augmented Beef and Bacon Social Club](Augmented-Beef-and-Bacon-Social-Club.md)
 - [Nashville Police Department](Nashville-Police-Department.md)
 - [Enigma Machine](Enigma-Machine.md)
+- [School for Gifted Youngsters](School-for-Gifted-Youngsters.md)

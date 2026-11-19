@@ -113,7 +113,7 @@ On the Matrix side, the otaku tribe **[Enigma Machine](../Organizations/Enigma-M
 On the magical side, Nashville hosts or is adjacent to several notable irregularities:
 
 - the **Pie-town Happening** ("The Hap"), a persistent cultural fair occupying a city block downtown and noted as having a positive magical resonance
-- the **School for Gifted Youngsters** outside Nashville, associated with Professor X and the cultivation of magically or otherwise gifted youth
+- the [School for Gifted Youngsters](../Organizations/School-for-Gifted-Youngsters.md) outside Nashville, associated with Professor X and the cultivation of magically or otherwise gifted youth
 - broader entanglements with anomalous biological material, awakened actors, and magical enforcement structures
 
 These details support the view that Nashville is not merely a mundane urban backdrop, but a city where magical and Matrix phenomena are part of ordinary strategic reality.

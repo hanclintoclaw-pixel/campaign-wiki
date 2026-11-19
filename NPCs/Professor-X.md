@@ -35,7 +35,7 @@ A powerful magical educator and patron figure operating a school for gifted youn
 ## Relationships
 
 - Linked to [Mucky](Mucky.md).
-- Linked to the School for Gifted Youngsters.
+- Linked to the [School for Gifted Youngsters](../Organizations/School-for-Gifted-Youngsters.md).
 
 ## Relevant Sessions
 
