@@ -8,6 +8,12 @@ last_updated_session: 2026-07-30
 canon_status: canon
 confidence: medium
 tags: [npc, cas, matrix, shadowrunner, site-7]
+aliases:
+  - Colonel Earl Stryker
+  - Earl Stryker
+  - Dead Soldier
+  - The Scarred Man
+  - Scarred Man
 sources:
   - ../Sessions/2026-07-30.md
 ---
@@ -17,6 +23,8 @@ sources:
 ## Overview
 
 **Colonel Earl Stryker** is the named historical lead behind the **Scarred Man** that **Core 7** remembers as a Matrix bogeyman. Public/archive legwork tied Stryker to a CAS military unit involved in a major misappropriation scandal and to an abandoned North Nashville civic-construction expansion. Shadowrunner legwork later connected him to the handle **Dead Soldier**.
+
+The three names are the same person (GM ruling, New Cindy GM Interaction Thread, 2026-11-19): **Colonel Earl Stryker**, the shadowrunner handle **Dead Soldier**, and the Matrix icon **Core 7** remembers as the **Scarred Man**. *The Scarred Man* is an alias for Stryker, not a separate entity.
 
 ## Known Facts
 

@@ -271,7 +271,7 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 
 - [Road Reapers](../Factions/Road-Reapers.md)
 - [Steel Backs](../Factions/Steel-Backs.md)
-- [Mall Rats](../Factions/Mall-Rats.md)
+- [Mallrats](../Factions/Mallrats.md)
 - [Vox Populi](../Factions/Vox-Populi.md)
 - [Uruk Hai](../Factions/Uruk-Hai.md)
 - [Hidden Enforcers](../Factions/Hidden-Enforcers.md)

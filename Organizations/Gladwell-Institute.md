@@ -3,6 +3,7 @@ title: Gladwell Institute
 type: organization
 visibility: player-safe
 updated: 2026-11-10
+canon_status: canon
 aliases:
   - Gladwell Institute
 ---

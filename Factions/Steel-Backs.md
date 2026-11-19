@@ -34,7 +34,7 @@ The archive alternates between **Steelback** and **Steel Backs**. This page norm
 ## Related factions
 
 - [Vox Populi](Vox-Populi.md)
-- [Mall Rats](Mall-Rats.md)
+- [Mallrats](Mallrats.md)
 
 ## Key sessions
 
