@@ -87,6 +87,8 @@ Published SR3 character/contact models, not campaign NPCs unless the GM adopts t
 - [Kari Wilkerson](Kari-Wilkerson.md)
 - [Kne@zle](Kne-zle.md)
 - [Lacey Rational](Lacey-Rational.md)
+- [Ernie Pollock](Ernie-Pollock.md)
+- [Ziggy Hill](Ziggy-Hill.md)
 - [Lizzo Wells / Handy-Sandy](Lizzo-Wells-Handy-Sandy.md)
 - [Lorenzo Zoyle](Lorenzo-Zoyle.md)
 - [Luis Santangelo](Luis-Santangelo.md)

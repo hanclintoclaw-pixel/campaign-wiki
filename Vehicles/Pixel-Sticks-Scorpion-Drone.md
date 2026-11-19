@@ -46,9 +46,9 @@ In [Session 2026-08-27](../Sessions/2026-08-27.md), surviving Pixel Sticks priso
 
 Known names present before the crew tampered with the list:
 
-- Ernie Pollock
-- Ziggy Hill
-- Lizzo Wells
+- [Ernie Pollock](../NPCs/Ernie-Pollock.md)
+- [Ziggy Hill](../NPCs/Ziggy-Hill.md)
+- [Lizzo Wells](../NPCs/Lizzo-Wells-Handy-Sandy.md)
 - two unnamed goons, one of whom Valgaut killed during the breach
 
 During the escape, Mevin and Curtis added the crew to the whitelist. That may keep the drone from attacking them, but it also means the drone or whoever recovers it may have crew biometric data.

@@ -20,3 +20,8 @@
 - [Draco Foundation - Wyrmwatch Circle](Draco-Foundation/Wyrmwatch-Circle.md)
 - [Federal Matrix Investigators](Federal-Matrix-Investigators.md)
 - [Heavenly Host](Heavenly-Host.md)
+- [Road Reapers](Road-Reapers.md)
+- [Steel Backs](Steel-Backs.md)
+- [Vox Populi](Vox-Populi.md)
+- [Uruk Hai](Uruk-Hai.md)
+- [Mall Rats](Mall-Rats.md) - redirect stub for [Mallrats](Mallrats.md)

@@ -33,7 +33,7 @@ The **Pixel Sticks** are a Matrix youth gang or tag associated with recent vanda
 - Pixel Sticks tags appear around the 20th, 21st, and 22nd floors of the arkoblock, though another unknown gang or criminal group also appears to share the same floor stack.
 - The crew has not yet proven whether the Pixel Sticks are the true holders of the utilities, useful idiots, protected relatives, patsies, or a front for another actor.
 - The breached 21st-floor cell used handles including **Highbrow**, **Handy-Sandy**, and **Pop Onomata**.
-- Known associated names from the scorpion drone whitelist include **Ernie Pollock**, **Ziggy Hill**, and **[Lizzo Wells / Handy-Sandy](../NPCs/Lizzo-Wells-Handy-Sandy.md)**.
+- Known associated names from the scorpion drone whitelist include **[Ernie Pollock](../NPCs/Ernie-Pollock.md)**, **[Ziggy Hill](../NPCs/Ziggy-Hill.md)**, and **[Lizzo Wells / Handy-Sandy](../NPCs/Lizzo-Wells-Handy-Sandy.md)**.
 - The cell had access to a high-end scorpion-like combat drone with an autonomous whitelist/go-nuts mode.
 - The crew delivered the used utilities for the Johnson-side recovery bonus, while Mevin retained encrypted material from the cell for follow-up work.
 - Surviving members later told the crew that an anonymous Matrix benefactor contacted them, sent them to a dead drop for the high-end utilities and a transponder, and instructed them to target CAT subsidiaries.

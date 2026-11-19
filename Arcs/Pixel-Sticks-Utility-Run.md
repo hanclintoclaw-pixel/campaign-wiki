@@ -57,7 +57,7 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 - A laser modem links Happy Cat's roof to a blacked-out window in the neighboring arkoblock, where the crew saw electronics consistent with server racks or Matrix infrastructure.
 - Mevin's host intrusion tripped a server shutdown, but he was not traced or tagged.
 - The 21st-floor cell used handles including Highbrow, Handy-Sandy, and Pop Onomata.
-- Names on the scorpion drone whitelist included Ernie Pollock, Ziggy Hill, Lizzo Wells, and two goons.
+- Names on the scorpion drone whitelist included [Ernie Pollock](../NPCs/Ernie-Pollock.md), [Ziggy Hill](../NPCs/Ziggy-Hill.md), [Lizzo Wells](../NPCs/Lizzo-Wells-Handy-Sandy.md), and two goons.
 - The upper-floor host terminal confirmed the physical side was nested through the Happy Cat host / laser-array path.
 - The used utilities were delivered for the recovery bonus, but Mevin retained encrypted utility/paydata material from the other room.
 - The cell had access to a high-end scorpion-like combat drone with a dangerous whitelist/go-nuts mode.

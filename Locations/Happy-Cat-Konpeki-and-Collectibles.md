@@ -46,7 +46,7 @@ The store is small, bright, and stubbornly local, nestled between the huge arkob
 - The roof has a laser modem link to a blacked-out window in the neighboring [Vernon Winfrey Arkoblock](Vernon-Winfrey-Arkoblock.md).
 - After Mevin tripped a server shutdown, the store pulled a shutter and an authoritative young woman's voice ordered a trace check; Mevin was not traced.
 - The 21st-floor breach confirmed the Happy Cat host / laser-array path nested into the upper-floor Pixel Sticks host infrastructure.
-- Names and handles tied to the Happy Cat / Pixel Sticks path now include Highbrow, Handy-Sandy, Pop Onomata, Ernie Pollock, Ziggy Hill, and Lizzo Wells.
+- Names and handles tied to the Happy Cat / Pixel Sticks path now include Highbrow, Handy-Sandy, Pop Onomata, [Ernie Pollock](../NPCs/Ernie-Pollock.md), [Ziggy Hill](../NPCs/Ziggy-Hill.md), and [Lizzo Wells](../NPCs/Lizzo-Wells-Handy-Sandy.md).
 
 ## Open Questions (Cindy's)
 <!-- cindy-blocked:open-questions -->

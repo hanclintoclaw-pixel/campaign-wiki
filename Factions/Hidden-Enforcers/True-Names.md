@@ -22,7 +22,7 @@ sources:
 
 ## True Nature
 
-The **Hidden Enforcers** are the covert magical initiatory apparatus serving the Nashville PD sphere: sworn awakened officers, police-adjacent magical specialists, and a small number of trusted former officers or civic-security assets who maintain the magical discipline Nashville law enforcement cannot admit to publicly.
+The **[Hidden Enforcers](../../Factions/Hidden-Enforcers.md)** are the covert magical initiatory apparatus serving the [Nashville PD](../../Organizations/Nashville-Police-Department.md) sphere: sworn awakened officers, police-adjacent magical specialists, and a small number of trusted former officers or civic-security assets who maintain the magical discipline [Nashville](../../Locations/Nashville.md) law enforcement cannot admit to publicly.
 
 They are not a formal department on paper. They are an umbrella initiatory group with several linked sub-groups, usually called **circles**, **lodges**, or **orders** depending on the members' tradition and internal culture. The public-facing police chain of command and the magical chain of initiation overlap, but they are not identical.
 
@@ -136,12 +136,12 @@ Use the Hidden Enforcers when the story needs:
 - a path for law-enforcement awakened NPCs to initiate;
 - magical backup that comes with strings;
 - internal police occult politics;
-- a reason Glenn can recognize, signal, or access police-grade magical assets;
+- a reason [Glenn](../../NPCs/Glenn.md) can recognize, signal, or access police-grade magical assets;
 - a rules-compliant structure for initiation, strictures, dues, resources, and magical group discipline.
 
 ## Valgaut Joining Walkthrough
 
-This is the rules-facing path for **Valgaut** joining the Hidden Enforcers as a sponsored adept / trusted auxiliary. It assumes the current sheet-backed facts on [Valgaut](../../PCs/Valgaut.md): physical adept, **Magic 6**, Essence 6.00, no recorded Magic loss, and **4 Karma remaining** after the 2026-06-04 advancement.
+This is the rules-facing path for **[Valgaut](../../PCs/Valgaut.md)** joining the Hidden Enforcers as a sponsored adept / trusted auxiliary. It assumes the current sheet-backed facts on [Valgaut](../../PCs/Valgaut.md): physical adept, **Magic 6**, Essence 6.00, no recorded Magic loss, and **4 Karma remaining** after the 2026-06-04 advancement.
 
 ### 1. Establish Eligibility and Sponsor
 
