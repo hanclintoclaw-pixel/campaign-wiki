@@ -11,6 +11,7 @@ tags: [location, nashville, princeps, infiltration]
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-19
 sources:
+  - "GM ruling, Cindy GM Interaction Thread, 2026-11-19"
   - ../Sessions/2026-11-19.md
   - ../Sessions/2026-11-12.md
 ---
@@ -24,7 +25,7 @@ sources:
 ## What the Crew Has Learned
 
 - **November 19 visit:** Mevin and Kurgan entered as a private-security buyer and security backstop; Curtis remained outside. They met salesman Lewis Gordon, reviewed a Matrix-fed premium catalogue, and departed without purchase or contract. The office appears lightly staffed; see [Princeps Nashville Office Staff](../NPCs/Princeps-Nashville-Office-Staff.md). A card carried an anonymous Matrix address.
-- **Terminal lead:** the projector-control cyber terminal was wheeled and connected to the wall by a large coax cable, not wireless. Mevin judged physical jack-in could provide Princeps-network access, subject to untested conditions. The GM called it a major Matrix security vulnerability. An intermittent C-August username appeared, but authenticity versus spoofing remains unresolved; no data was recovered.
+- **Terminal lead:** the projector-control cyber terminal was wheeled and connected to the wall by a large coax cable, not wireless. Mevin judged physical jack-in could provide Princeps-network access, subject to untested conditions. The GM called it a major Matrix security vulnerability. The intermittent **C-August** username was **Claude August** listening passively under his own display name (post-session GM clarification, 2026-11-19, Cindy GM Interaction Thread). No jack-in was attempted and no data was recovered. “The CEO has touched this device” remains a lead toward possible stored icon-associated information, not established contents.
 - **Catalogue link:** Mevin recognized the Pixel Sticks utilities in premium, de-identified form. This sharpens the existing Princeps lead but does not establish legal proof of sponsorship.
 
 - **Location/access:** high-security downtown area; public building guides give a route by elevator to the **14th floor**, past two other doors to the Princeps suite. The hall is publicly accessible; **the office itself is not open to the public**. No building name, street address or suite number was supplied.

@@ -3,7 +3,7 @@ title: On Darla, Performance, and Influence
 type: journal-entry
 visibility: player-safe
 status: active
-subject: Darla Ledue; SC Music; influence systems
+subject: Darla LeDoux; SC Music; influence systems
 tags: [cindy, journal, darla, influence, performance, personality-profile]
 ---
 

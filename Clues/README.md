@@ -8,6 +8,8 @@ updated: 2026-11-19
 tags: [leads, clues, open-threads]
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-19
+sources:
+  - "GM ruling, Cindy GM Interaction Thread, 2026-11-19"
 ---
 
 # Loose Threads / Unpulled Threads / Lead Board
@@ -204,7 +206,11 @@ Session reasoning tied Core 7's architecture to older Swiftwing / Cindy knowbot 
 
 **Connected pages:** [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md), [Pixel Sticks](../Factions/Pixel-Sticks.md), [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md), [The Princeps Group](../Factions/The-Princeps-Group.md), [Claude August](../NPCs/Claude-August.md), [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md), [Imogene Viola](../NPCs/Imogene-Viola.md)
 
+**November 19 catalogue pricing:** Mevin’s catalogue read included a miniaturised anti-air missile launch platform priced at **25,000,000¥**: premium corporate pricing for a high-level military item outside the crew’s buying range (post-session GM clarification, 2026-11-19, Cindy GM Interaction Thread). Recognition is not proof of sponsorship.
+
 **November 19 update:** Mevin recognized the Pixel Sticks utilities in Princeps’s premium catalogue in de-identified form, a direct connection to the existing lead but not proof of sponsorship. A hardwired projector terminal is a separate possible access lead; no access occurred. [Session 2026-11-19](../Sessions/2026-11-19.md).
+
+**Next checks:** choose a return-access approach to the projector terminal or follow the two-ticket concert lead. The terminal has not been accessed; Gordon advertised August’s attendance, not a completed encounter. Concert venue and exact calendar date remain unknown. The visitors were Jacinda Haymitch and Darla LeDoux (post-session GM clarification, 2026-11-19, Cindy GM Interaction Thread).
 
 **November 12 update:** the GM confirmed the broader Princeps–Cross conflict and identified Lafayette Tower as Cross’s CAS regional headquarters. This supplied context, not a new proof-chain or paid contract. [Session 2026-11-12](../Sessions/2026-11-12.md).
 

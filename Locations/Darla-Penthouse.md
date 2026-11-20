@@ -1,5 +1,5 @@
 ---
-title: Darla Ledue's Penthouse
+title: Darla LeDoux's Penthouse
 type: entity
 visibility: player-safe
 status: active
@@ -12,11 +12,11 @@ sources:
   - memory/2026-04-02.md
 ---
 
-# Darla Ledue's Penthouse
+# Darla LeDoux's Penthouse
 
 ## Overview
 
-Upscale, corporate-owned penthouse apartment with built-in recording studio tied to Darla Ledue and the stolen master-recordings job.
+Upscale, corporate-owned penthouse apartment with built-in recording studio tied to Darla LeDoux and the stolen master-recordings job.
 
 ## Known Facts
 
@@ -27,7 +27,7 @@ Upscale, corporate-owned penthouse apartment with built-in recording studio tied
 
 ## Relationships
 
-- Linked to **Darla Ledue**.
+- Linked to **Darla LeDoux**.
 - Linked to **SC Music** and the stolen masters problem.
 - One of the primary clue locations in the current arc.
 

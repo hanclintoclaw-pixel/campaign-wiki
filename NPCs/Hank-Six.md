@@ -12,6 +12,7 @@ tags: [npc, performer, concert]
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-19
 sources:
+  - "GM ruling, Cindy GM Interaction Thread, 2026-11-19"
   - /Volumes/carbonite/claw/data/cindylou/session-archives/2026-11-19/s2026-11-19.txt
   - ../Sessions/2026-11-19.md
 ---
@@ -40,7 +41,7 @@ Hank Six has only this concert-lead scene recorded here.
 
 ## Naming Flag — GM Ruling Needed
 
-Tonight's **Darla LeDoux** spelling differs from the existing [Darla Ledue](Darla-Ledue.md) page. This page does not resolve that collision.
+See **[Darla LeDoux](Darla-LeDoux.md)**, headliner of the Princeps-sponsored benefit concert at which Hank Six is billed as special guest.
 
 ## Sources
 

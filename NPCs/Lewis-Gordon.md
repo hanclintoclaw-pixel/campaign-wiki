@@ -12,6 +12,7 @@ tags: [npc, princeps, salesman]
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-19
 sources:
+  - "GM ruling, Cindy GM Interaction Thread, 2026-11-19"
   - /Volumes/carbonite/claw/data/cindylou/session-archives/2026-11-19/s2026-11-19.txt
   - ../Sessions/2026-11-19.md
 ---
@@ -29,7 +30,7 @@ The GM dropped the middle initial: “his name is going to be Lewis Gordon, beca
 ## Known Facts
 
 - Ran the buyer meeting and presented the Princeps catalogue, including premium Matrix utilities.
-- Volunteered the Princeps-sponsored Darla LeDoux benefit concert and comped the crew **two tickets**. Gordon advertised a personal appearance by CEO Claude August (22:40:28); this is an announced appearance, not a completed encounter.
+- Volunteered the Princeps-sponsored [Darla LeDoux](Darla-LeDoux.md) benefit concert and comped the crew **two tickets**. Gordon advertised a personal appearance by CEO Claude August (22:40:28); this is an announced appearance, not a completed encounter.
 - Offered a contact card with a Matrix address. In return, Mevin provided an anonymous address rather than a permanent identity or company name (22:51–22:52).
 - He is the **only Princeps employee who met the crew**.
 

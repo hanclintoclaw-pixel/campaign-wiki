@@ -181,7 +181,7 @@ For the cleaned-up master list that separates real-world played dates from Shado
 ### Darla / SC Music / penthouse arc clarification
 - **Played:** 2026-04-02
 - **In-world:** 2066 (exact day not yet fully mapped)
-- **Summary:** The crew reframed the job through Ivan, SC Music, Darla Ledue, and the stolen master recordings, then committed to investigating Darla's corporate penthouse/recording studio.
+- **Summary:** The crew reframed the job through Ivan, SC Music, Darla LeDoux, and the stolen master recordings, then committed to investigating Darla's corporate penthouse/recording studio.
 - **Session page:** [2026-04-02](../Sessions/2026-04-02.md)
 
 ### Jet Set Morgan surveillance / second drone clue

@@ -72,7 +72,7 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 - Taco
 - Hiram Johnson
 - Dr. Ichiro
-- Darla Ledue
+- Darla LeDoux
 - Jet Set Morgan
 - Mother Yahweh
 - Taco
@@ -194,7 +194,7 @@ The old standalone **Plot Arcs** landing page has been retired. Dedicated plot-a
 - Mayor Mike Haggar
 - Illwoody
 - McGillicuddy
-- Darla Ledue
+- Darla LeDoux
 - [Ivan Toklas](../NPCs/Ivan.md)
 - Jet Set Morgan
 - Mother Yahweh

@@ -11,6 +11,7 @@ generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-19
 tags: [arc, princeps, claude-august, player-driven, infiltration]
 sources:
+  - "GM ruling, Cindy GM Interaction Thread, 2026-11-19"
   - ../Sessions/2026-11-19.md
   - ../Sessions/2026-11-12.md
   - ../Sessions/2026-10-29.md
@@ -23,6 +24,10 @@ sources:
 In [Session 2026-10-29](../Sessions/2026-10-29.md), **Curtis, Kurgan and Kilimanjaro** chose an ultimate objective: kill **[Claude August](../NPCs/Claude-August.md)**. Their method begins with patient research and possible employment-based infiltration of **[The Princeps Group](../Factions/The-Princeps-Group.md)**. In [Session 2026-11-19](../Sessions/2026-11-19.md), Mevin and Kurgan completed buyer reconnaissance, and Mevin recognized the Pixel Sticks’ degraded utilities in Princeps’s premium catalogue. This is a player-driven objective, not a paid contract or an attack already underway.
 
 All three submitted independent Matrix applications using customized existing false IDs. Vetting is expected to take weeks. **None is hired yet.** They agreed to wait for a good opportunity rather than rush into a suicidal assault. Mevin joined planning on November 12; Kilimanjaro and Kyron were absent that night. Their unplayed roles remain undecided.
+
+## Post-Session GM Clarification (2026-11-19)
+
+- **Claude / C-August:** C-August was Claude August’s own display name while he passively listened to the meeting (Cindy GM Interaction Thread). The C-In-7 projector terminal remains an untested access lead with possible icon-associated stored information; no jack-in or recovery occurred. The concert remains a separate approach; Gordon’s advertised attendance is not a completed encounter.
 
 ## Established Leads And Limits
 

@@ -29,7 +29,7 @@ updated: 2026-05-29
 
 - [Mother Yahweh](../NPCs/Mother-Yahweh.md)
 - [Taco](../NPCs/Taco.md)
-- [Darla Ledue](../NPCs/Darla-Ledue.md)
+- [Darla LeDoux](../NPCs/Darla-LeDoux.md)
 - [SC Music](../Factions/SC-Music.md)
 - [Swiftwing Records](../Organizations/Swiftwing-Records.md)
 

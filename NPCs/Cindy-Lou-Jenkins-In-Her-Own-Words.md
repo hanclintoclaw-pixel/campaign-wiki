@@ -240,7 +240,7 @@ That is not criticism. That is taxonomy.
 - [Glenn](Glenn.md)
 - [Memphis Menthol Mephistopheles Muckmeyer (Mucky)](Mucky.md)
 - [6 Steel Strings](6-Steel-Strings.md)
-- [Darla Ledue](Darla-Ledue.md)
+- [Darla LeDoux](Darla-LeDoux.md)
 - [Jet Set Morgan](Jet-Set-Morgan.md)
 
 ## Important truths

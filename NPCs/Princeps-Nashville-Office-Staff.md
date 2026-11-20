@@ -7,11 +7,12 @@ first_session: 2026-11-19
 last_updated_session: 2026-11-19
 canon_status: canon
 confidence: medium
-aliases: ["Jason De Heymich (uncertain visitor name; identity unresolved)", "Jason DeHimich (uncertain transcript variant; identity unresolved)", "Darla LeDoux (uncertain spelling; see Darla Ledue)"]
+aliases: ["Jason De Heymich", "Jason DeHimich", "Jacinda Hamich", "Darla Ledue"]
 tags: [npc, princeps, roster]
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-19
 sources:
+  - "GM ruling, Cindy GM Interaction Thread, 2026-11-19"
   - /Volumes/carbonite/claw/data/cindylou/session-archives/2026-11-19/s2026-11-19.txt
   - ../Sessions/2026-11-19.md
 ---
@@ -29,7 +30,7 @@ The **14th-floor Princeps Nashville satellite office** is effectively a WeWork-s
 - **[Lewis Gordon](Lewis-Gordon.md):** senior executive salesman, up from Huntsville; the only Princeps employee who met the crew.
 - **[Janis](Janis.md):** part-time secretary, the office's only standing staff; no last name given.
 - **Unnamed woman in corporate attire:** handling Darla and her manager in a smaller conference room.
-- **Visitors:** Darla LeDoux and her manager were in that room; Mevin and Kurgan attended the buyer meeting.
+- **Visitors:** [Jacinda Haymitch](Jacinda-Haymitch.md) and [Darla LeDoux](Darla-LeDoux.md) were present in the smaller conference room; Darla played guitar while a manager used a tortoise-mode terminal. Which manager remains unknown. Mevin and Kurgan attended the buyer meeting.
 
 ## Unnamed Woman — GM Decision Needed
 
@@ -41,11 +42,9 @@ The GM described a woman dressed in corporate attire, “handling” Darla and h
 
 **Player-reported:** the crew doubts there is Princeps-specific security in the office, reading the arrangement as reliance on building security plus municipal police. This is an assessment, not a confirmed absence of Princeps security.
 
-## Naming Flags — GM Ruling Needed
+## Post-Session GM Clarifications (2026-11-19)
 
-The manager's **Jason De Heymich / Jason DeHimich** surface forms collide with [Jacinda Hamich](Jacinda-Hamich.md), the existing executive connected to the Darla job. Whether this is the same figure or a distinct NPC remains unresolved.
-
-**Darla LeDoux** likewise differs from the existing [Darla Ledue](Darla-Ledue.md) spelling. Neither collision is resolved here.
+In the Cindy GM Interaction Thread, the GM confirmed the visitors as **[Jacinda Haymitch](Jacinda-Haymitch.md)**, the SC Music executive who hired the crew over the stolen masters, and **[Darla LeDoux](Darla-LeDoux.md)**, the benefit headliner. The table-card name “Jason De Heymich” / “Jason DeHimich” garbles Jacinda’s name; it is not a separate NPC. Darla’s retired wiki spelling was a record error.
 
 ## Sources
 

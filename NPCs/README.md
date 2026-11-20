@@ -67,7 +67,7 @@ Published SR3 character/contact models, not campaign NPCs unless the GM adopts t
 - [Claude August](Claude-August.md)
 - [Colonel Earl Stryker / Dead Soldier](Earl-Stryker.md)
 - [Core 7](Core-7.md)
-- [Darla Ledue](Darla-Ledue.md) — spelling collision with 2026-11-19 transcript remains unresolved
+- [Darla LeDoux](Darla-LeDoux.md) — spelling collision with 2026-11-19 transcript remains unresolved
 - [Hank Six](Hank-Six.md) — billed telepresence performer; concert lead
 - [Janis](Janis.md) — Princeps Nashville office part-time secretary
 - [Lewis Gordon](Lewis-Gordon.md) — Princeps North Central CAS new-business salesman
@@ -85,7 +85,7 @@ Published SR3 character/contact models, not campaign NPCs unless the GM adopts t
 - [Illwoody](Illwoody.md)
 - [Imogene Viola](Imogene-Viola.md)
 - [Judge Hiram Belisarius](Judge-Hiram-Belisarius.md)
-- [Jacinda Hamich](Jacinda-Hamich.md)
+- [Jacinda Haymitch](Jacinda-Haymitch.md)
 - [Jet Set Morgan](Jet-Set-Morgan.md)
 - [Joseph Neumann](Joseph-Neumann.md)
 - [Kari Wilkerson](Kari-Wilkerson.md)

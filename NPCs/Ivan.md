@@ -61,7 +61,7 @@ That makes him look less like a one-off Johnson and more like a **stable Nashvil
 - [SC Music](../Factions/SC-Music.md) — tied to the Darla master-recordings job route.
 - [Griswell Data Services](../Organizations/Griswell-Data-Services.md) — Ivan brokered the initial meeting into the Alvin Flang surveillance job.
 - [Pixel Sticks](../Factions/Pixel-Sticks.md) / [Pixel Sticks Utility Run](../Arcs/Pixel-Sticks-Utility-Run.md) — Ivan brokered the anonymous Johnson meeting that launched the run.
-- [Darla Ledue](Darla-Ledue.md) — Ivan sits on the contract chain leading into the Darla / stolen-masters investigation.
+- [Darla LeDoux](Darla-LeDoux.md) — Ivan sits on the contract chain leading into the Darla / stolen-masters investigation.
 - [Kari Wilkerson](Kari-Wilkerson.md) — Ivan brought the crew into Kari's Draco Foundation briefing.
 - [Merle Graham](Merle-Graham.md) — both appear in the older Drexler / Zoil-era web.
 - Fiona Jones — Ivan and Atlas bring the team into the Fiona disappearance case.
@@ -80,7 +80,7 @@ That makes him look less like a one-off Johnson and more like a **stable Nashvil
 - **2064-08-02** — Ivan appears within the Efficient Solutions / morgue / datastone tangle, suggesting he remains in the crew's wider operating orbit even outside cleaner briefing scenes.
 - **2065-03-04** — Ivan and Atlas bring the team into the Fiona Jones disappearance / Bingham 4 case.
 - **2065-03-21** — a Johnson job around [Floyd Otis](Floyd-Otis.md)'s store is explicitly brokered through Ivan.
-- **2026-04-02** — Ivan remains the front-end route into the [SC Music](../Factions/SC-Music.md) / [Darla Ledue](Darla-Ledue.md) stolen-master-recordings arc.
+- **2026-04-02** — Ivan remains the front-end route into the [SC Music](../Factions/SC-Music.md) / [Darla LeDoux](Darla-LeDoux.md) stolen-master-recordings arc.
 - **2026-06-04** — Ivan again functions as the crew's front-end broker, routing them into the [Griswell Data Services](../Organizations/Griswell-Data-Services.md) / [Alvin Flang](Alvin-Flang.md) surveillance job at [Atlas's](../Locations/Atlass.md).
 - **2026-07-09** — Ivan routes the team into the [Pixel Sticks / military-grade utilities run](../Arcs/Pixel-Sticks-Utility-Run.md) and confirms, after Mevin checks back, that it looks like a straightforward job from his side.
 

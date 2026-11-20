@@ -21,7 +21,7 @@ generated_at: 2026-11-13
 
 - [8th Street Cafe](8th-Street-Cafe.md)
 
-- [Darla Ledue's Penthouse](Darla-Penthouse.md)
+- [Darla LeDoux's Penthouse](Darla-Penthouse.md)
 - [Grandpa](Grandpa.md)
 - [Happy Cat Konpeki and Collectibles](Happy-Cat-Konpeki-and-Collectibles.md)
 - [Vernon Winfrey Arkoblock](Vernon-Winfrey-Arkoblock.md)

@@ -33,7 +33,7 @@ updated: 2026-04-10
 - [6 Steel Strings](../NPCs/6-Steel-Strings.md)
 - [Cindy Lou Jenkins](../NPCs/Cindy-Lou-Jenkins.md)
 - [Taco](../NPCs/Taco.md)
-- [Darla Ledue](../NPCs/Darla-Ledue.md)
+- [Darla LeDoux](../NPCs/Darla-LeDoux.md)
 - [Jet Set Morgan](../NPCs/Jet-Set-Morgan.md)
 
 ## Alias / continuity note

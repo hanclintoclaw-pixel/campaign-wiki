@@ -442,7 +442,7 @@ In [Session 2026-09-17](../Sessions/2026-09-17.md), Cindy supported the opening 
 - [Glenn](Glenn.md)
 - [Memphis Menthol Mephistopheles Muckmeyer (Mucky)](Mucky.md)
 - [6 Steel Strings](6-Steel-Strings.md)
-- [Darla Ledue](Darla-Ledue.md)
+- [Darla LeDoux](Darla-LeDoux.md)
 - [Jet Set Morgan](Jet-Set-Morgan.md)
 - [Swiftwing Records](../Organizations/Swiftwing-Records.md)
 

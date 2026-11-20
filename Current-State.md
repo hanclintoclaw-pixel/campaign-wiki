@@ -5,6 +5,8 @@ visibility: player-safe
 updated: 2026-11-19
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-19
+sources:
+  - "GM ruling, Cindy GM Interaction Thread, 2026-11-19"
 ---
 
 # Current State
@@ -42,6 +44,12 @@ The prior **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** r
 - **One week of downtime elapsed** in Session 2026-10-29 after the prior provisional late-May-2066-or-later aftermath. Exact calendar date and current hour were not stated. Do not convert this into a fixed date or dated shedim expiry.
 - The earlier McDonald's confrontation was placed at about **1 a.m.**; that is not the current clock time a week later. Princeps's projected hiring/vetting weeks have **not** been narrated as elapsed.
 - Current posture after November 19: the crew has visited the local office and left on good terms; its hardwired terminal, catalogue link and concert are actionable leads, not completed access or employment. Earlier applications by Curtis/Kurgan/Kilimanjaro remain pending. No exact in-world date/hour was stated. Do not assume concert timing beyond “in one week” / “next Friday” as spoken, or advance a campaign clock.
+
+## Post-Session GM Clarifications (2026-11-19)
+
+- **Claude / C-August username:** C-August was Claude August’s own display name while he listened passively to the buyer meeting (Cindy GM Interaction Thread). No interaction or data recovery occurred; what he heard and what icon-associated data the terminal holds remain unknown.
+- **Princeps R&D catalogue:** Mevin’s catalogue read included a miniaturised anti-air missile launch platform priced at **25,000,000¥**: premium corporate pricing for a high-level military item outside the crew’s buying range (post-session GM clarification, 2026-11-19, Cindy GM Interaction Thread). Recognition is not proof of sponsorship.
+- **Next Checks:** choose the terminal-return or concert approach; actual terminal access, concert venue/date and the attendance decision remain open. Gordon advertised a future concert appearance, not a completed encounter.
 
 ## Immediate Leads
 

@@ -84,7 +84,7 @@ The local music and media sphere is tied to:
 - influence operations and manipulation networks
 - entrenched local elites and industry figures
 
-Entities such as **Swiftwing Records** and figures such as **Merle Graham** and **Darla Ledue** place the entertainment sector near the center of the city's visible identity. Nashville's public face is therefore not merely artistic, but commercial, political, and potentially coercive.
+Entities such as **Swiftwing Records** and figures such as **Merle Graham** and **Darla LeDoux** place the entertainment sector near the center of the city's visible identity. Nashville's public face is therefore not merely artistic, but commercial, political, and potentially coercive.
 
 The city also seems invested in a cultivated notion of authenticity. One campaign source notes that parts of the local homeless presence are treated as part of Nashville's tourist-facing "charm," a telling detail that suggests a city willing to commodify grime, eccentricity, and social rough edges as part of its image.
 
@@ -136,7 +136,7 @@ Nashville is therefore best understood as a place where **performance and surviv
 For specific sites, see the broader [Locations](README.md) index and current Nashville-linked entries:
 
 - [Atlas's](Atlass.md)
-- [Darla Ledue's Penthouse](Darla-Penthouse.md)
+- [Darla LeDoux's Penthouse](Darla-Penthouse.md)
 - [Gladwell Institute](Gladwell-Institute.md)
 - [Grandpa](Grandpa.md)
 - [Happy Cat Konpeki and Collectibles](Happy-Cat-Konpeki-and-Collectibles.md)

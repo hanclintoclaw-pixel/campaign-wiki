@@ -24,21 +24,21 @@ No printed SR3 equivalent: **zero** matches across the 19-book local SR3 corpus.
 
 ## Overview
 
-Record-label/corporate entity tied directly to the Darla Ledue master-recordings job.
+Record-label/corporate entity tied directly to the Darla LeDoux master-recordings job.
 
 ## Known Facts
 
 - The current Darla job was routed through a record executive with SC Music.
 - SC Music sits on the business side of the stolen-master-recordings problem.
-- The crew's investigation into Darla Ledue and the surrounding influence operation intersects with SC Music's interests.
+- The crew's investigation into Darla LeDoux and the surrounding influence operation intersects with SC Music's interests.
 - By **2026-05-28**, session reasoning suggested SC Music may be exposed to a much larger scandal if its relationship to older Core 7-derived technology becomes public.
 - The campaign currently treats open questions about SC Music as extending beyond stolen masters into possible historical acquisition, licensing, or concealment of knowbot-adjacent architecture.
 - The latest fallout also places SC Music at risk of becoming the public-facing villain or casualty once Darla and Jacinda are forced into hiding and the fake promotional story begins collapsing.
 
 ## Relationships
 
-- Linked to **Darla Ledue**.
-- Linked to **[Jacinda Hamich](../NPCs/Jacinda-Hamich.md)** through the executive-side fallout path.
+- Linked to **Darla LeDoux**.
+- Linked to **[Jacinda Haymitch](../NPCs/Jacinda-Haymitch.md)** through the executive-side fallout path.
 - Linked to **[Ivan Toklas](../NPCs/Ivan.md)** through the job route.
 - Potentially adjacent to the hostile influence/media-manipulation network.
 - Potentially linked to technology lineage running back through **Swiftwing Records** and ultimately **Core 7 / Site 7**.
@@ -57,7 +57,7 @@ Record-label/corporate entity tied directly to the Darla Ledue master-recordings
 *Was headed "Open Questions"; folded behind the blocked heading on 2026-11-10. Cindy's drafting questions, not GM open items.*
 
 - Is SC Music merely the harmed corporate stakeholder, or is part of it compromised?
-- Is **Jacinda Hamich** the key executive contact, or just the visible one the crew reached first?
+- Is **Jacinda Haymitch** the key executive contact, or just the visible one the crew reached first?
 - What exactly did SC Music know, buy, license, or inherit from the older Core 7 line?
 
 </details>

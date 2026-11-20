@@ -9,6 +9,7 @@ canon_status: canon
 confidence: high
 tags: [arc, current-run, matrix, youth-gang, utilities, nashville]
 sources:
+  - "GM ruling, Cindy GM Interaction Thread, 2026-11-19"
   - ../Sessions/2026-11-19.md
   - ../Sessions/2026-10-29.md
   - Discord session thread 1524939834832064645
@@ -28,6 +29,8 @@ generated_at: 2026-11-19
 ## Current State
 
 **November 19 catalogue confirmation:** during buyer reconnaissance, Mevin recognized the Pixel Sticks utilities in Princeps’s premium catalogue as the same tools previously seen in degraded form, with their serial numbers filed off. This materially strengthens the catalogue/provenance connection; it does not independently prove who supplied the gang. See [Session 2026-11-19](../Sessions/2026-11-19.md) and [Operation Kill the Dragon](Operation-Kill-the-Dragon.md).
+
+Mevin’s catalogue read included a miniaturised anti-air missile launch platform priced at **25,000,000¥**: premium corporate pricing for a high-level military item outside the crew’s buying range (post-session GM clarification, 2026-11-19, Cindy GM Interaction Thread). Recognition is not proof of sponsorship.
 
 **October 29 follow-up:** the paid run remains resolved, but its Claude/Princeps suspicion now feeds [Operation Kill the Dragon](Operation-Kill-the-Dragon.md). Three runners submitted cover applications; no new sponsor proof or employment resulted. Belmont and Buzz were confirmed at Pilot 2 from salvage. See [Session 2026-10-29](../Sessions/2026-10-29.md).
 
@@ -122,6 +125,8 @@ The messy leftovers are now the real story: Mevin retained encrypted utility/pay
 </details>
 
 ## Sources
+
+- [Session 2026-11-19](../Sessions/2026-11-19.md) — 22:48:18–22:49:12 catalogue recognition; archived transcript cited there.
 
 - [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
 
