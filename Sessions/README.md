@@ -4,7 +4,7 @@ title: Sessions
 type: index
 visibility: player-safe
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-13
+generated_at: 2026-11-19
 ---
 
 # Sessions
@@ -113,6 +113,7 @@ These pages are ordered by their in-world date and kept here as campaign data so
 
 - [Session 2026-10-29](2026-10-29.md) — downtime, Tom becomes an informant, and Operation Kill the Dragon
 - [Session 2026-11-12](2026-11-12.md) — Mevin returns; Princeps satellite-office research, buyer cover and knowsoft purchase
+- [Session 2026-11-19](2026-11-19.md) — buyer reconnaissance, Princeps catalogue link to Pixel Sticks, hardwired terminal lead and concert tickets
 
 ## Archive analysis
 

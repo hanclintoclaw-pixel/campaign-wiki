@@ -4,10 +4,10 @@ permalink: /Clues/
 type: index
 visibility: player-safe
 status: active
-updated: 2026-11-13
+updated: 2026-11-19
 tags: [leads, clues, open-threads]
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-13
+generated_at: 2026-11-19
 ---
 
 # Loose Threads / Unpulled Threads / Lead Board
@@ -200,9 +200,11 @@ Session reasoning tied Core 7's architecture to older Swiftwing / Cindy knowbot 
 
 **Status:** **touched — active; feeds Operation Kill the Dragon**
 
-**Last touched:** [Session 2026-10-29](../Sessions/2026-10-29.md)
+**Last touched:** [Session 2026-11-19](../Sessions/2026-11-19.md)
 
 **Connected pages:** [Pixel Sticks / Military-Grade Utilities Run](../Arcs/Pixel-Sticks-Utility-Run.md), [Pixel Sticks](../Factions/Pixel-Sticks.md), [Pixel Sticks 21st-Floor Cell](../NPCs/Pixel-Sticks-21st-Floor-Cell.md), [The Princeps Group](../Factions/The-Princeps-Group.md), [Claude August](../NPCs/Claude-August.md), [Cross Applied Technology](../Organizations/Cross-Applied-Technology.md), [Imogene Viola](../NPCs/Imogene-Viola.md)
+
+**November 19 update:** Mevin recognized the Pixel Sticks utilities in Princeps’s premium catalogue in de-identified form, a direct connection to the existing lead but not proof of sponsorship. A hardwired projector terminal is a separate possible access lead; no access occurred. [Session 2026-11-19](../Sessions/2026-11-19.md).
 
 **November 12 update:** the GM confirmed the broader Princeps–Cross conflict and identified Lafayette Tower as Cross’s CAS regional headquarters. This supplied context, not a new proof-chain or paid contract. [Session 2026-11-12](../Sessions/2026-11-12.md).
 

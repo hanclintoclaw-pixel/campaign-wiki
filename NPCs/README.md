@@ -1,7 +1,7 @@
 ---
 permalink: /NPCs/
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-16
+generated_at: 2026-11-19
 ---
 
 # NPCs
@@ -67,7 +67,11 @@ Published SR3 character/contact models, not campaign NPCs unless the GM adopts t
 - [Claude August](Claude-August.md)
 - [Colonel Earl Stryker / Dead Soldier](Earl-Stryker.md)
 - [Core 7](Core-7.md)
-- [Darla Ledue](Darla-Ledue.md)
+- [Darla Ledue](Darla-Ledue.md) — spelling collision with 2026-11-19 transcript remains unresolved
+- [Hank Six](Hank-Six.md) — billed telepresence performer; concert lead
+- [Janis](Janis.md) — Princeps Nashville office part-time secretary
+- [Lewis Gordon](Lewis-Gordon.md) — Princeps North Central CAS new-business salesman
+- [Princeps Nashville Office Staff](Princeps-Nashville-Office-Staff.md) — provisional roster; identity collisions unresolved
 - [Diego](Diego.md)
 - [Dr. Gallstone](Dr-Gallstone.md)
 - [Dr. Martin Waters](Dr-Martin-Waters.md)

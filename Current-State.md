@@ -2,18 +2,18 @@
 title: Current State
 type: dashboard
 visibility: player-safe
-updated: 2026-11-13
+updated: 2026-11-19
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-13
+generated_at: 2026-11-19
 ---
 
 # Current State
 
 ## Current Focus
 
-The active objective remains **[Operation Kill the Dragon](Arcs/Operation-Kill-the-Dragon.md)**. In **[Session 2026-11-12](Sessions/2026-11-12.md)**, [Mevin](PCs/Mevin-Kitnick.md) joined [Curtis](PCs/Curtis.md) and [Kurgan](PCs/Kurgan.md)’s planning and researched the **[Princeps Nashville Satellite Office](Locations/Princeps-Nashville-Satellite-Office.md)**. The immediate next scene is Mevin’s approach as a private-security miltech buyer: Kurgan prepared his disguise and Mevin purchased a **rating-6 Miltech Manufacturers knowsoft for 17,000¥**, procurement reduced to one day. **No office visit, employment, employee replacement or attack has occurred.** The three earlier applications remain pending.
+The active objective remains **[Operation Kill the Dragon](Arcs/Operation-Kill-the-Dragon.md)**. In **[Session 2026-11-19](Sessions/2026-11-19.md)**, [Mevin](PCs/Mevin-Kitnick.md) and [Kurgan](PCs/Kurgan.md) completed the Princeps buyer reconnaissance while [Curtis](PCs/Curtis.md) kept outside overwatch. Mevin recognized the Pixel Sticks’ utilities in Princeps’s premium catalogue; the crew identified a hardwired projector-control terminal as a possible physical-access route and received two concert tickets. **No Princeps equipment purchase, contract, break-in, hire or employee recruitment occurred; the earlier applications remain pending.**
 
-Princeps headquarters are in [Huntsville](Locations/Huntsville.md); the [Nashville](Locations/Nashville.md) suite is a small sales/outreach/hiring-support footprint in a shared downtown tower. Public corridors reach its 14th-floor door, not its private interior. An outdoor Princeps-sponsored concert is coming in the next few weeks; no venue/date/artist was stated.
+Princeps headquarters are in [Huntsville](Locations/Huntsville.md); the [Nashville](Locations/Nashville.md) suite is a small sales/outreach/hiring-support footprint in a shared downtown tower. Public corridors reach its 14th-floor door, not its private interior. A Princeps-sponsored Darla LeDoux benefit concert was offered for “in one week” / “next Friday”; venue not stated. Joe Jack and the Heart Attack was named as an opening act with transcription uncertainty, and Hank Six as special guest.
 
 Cindy as a remote employee, influence analyst, proxy controller or eventual CEO remains a set of proposals. She is still in her trailer with deliberately restricted commercial Matrix access; no corporate account or hardware move occurred. Company cover, staffing, proof-of-funds allocation and first infiltration route remain to be settled.
 
@@ -21,6 +21,7 @@ The prior **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** r
 
 ## Recent Runs / Follow-ups
 
+- **[Session 2026-11-19](Sessions/2026-11-19.md):** buyer reconnaissance completed; Pixel Sticks utilities matched to Princeps catalogue; hardwired projector terminal and concert tickets become leads. No Princeps equipment purchase, break-in or award; knowsoft purchases are recorded separately.
 - **[Session 2026-11-12](Sessions/2026-11-12.md):** Mevin returns; corporate succession/influence plans debated; satellite office researched; security-buyer cover and disguise prepared; one rating-6 knowsoft bought. Stop before the office approach.
 
 - **[Session 2026-10-29](Sessions/2026-10-29.md):** a week of downtime, fitted armor, drone confirmation, Tom converted/released as an informant, and the new Claude/Princeps operation. Three cover applications submitted; no employment, combat or award.
@@ -40,13 +41,13 @@ The prior **[Humanis evidence retrieval](Arcs/Humanis-Evidence-Retrieval.md)** r
 - Current campaign year: **2066**.
 - **One week of downtime elapsed** in Session 2026-10-29 after the prior provisional late-May-2066-or-later aftermath. Exact calendar date and current hour were not stated. Do not convert this into a fixed date or dated shedim expiry.
 - The earlier McDonald's confrontation was placed at about **1 a.m.**; that is not the current clock time a week later. Princeps's projected hiring/vetting weeks have **not** been narrated as elapsed.
-- Current posture after November 12: Curtis, Kurgan and Mevin prepared local buyer reconnaissance. Earlier applications by Curtis/Kurgan/Kilimanjaro remain pending. Kilimanjaro and [Kyron](PCs/Kyron.md) were absent November 12; [Valgaut](PCs/Valgaut.md) remains off active duty. Knowsoft procurement takes one day; no exact current date/hour or separately narrated full delivery wait was established. Proposed months of infiltration and concert lead-time weeks have not elapsed.
+- Current posture after November 19: the crew has visited the local office and left on good terms; its hardwired terminal, catalogue link and concert are actionable leads, not completed access or employment. Earlier applications by Curtis/Kurgan/Kilimanjaro remain pending. No exact in-world date/hour was stated. Do not assume concert timing beyond “in one week” / “next Friday” as spoken, or advance a campaign clock.
 
 ## Immediate Leads
 
-- **Princeps local entry:** conduct Mevin’s prepared buyer approach, settle proof-of-funds custody and supporting company/identity details, learn staffing/connectivity before choosing a first replacement employee. **Efficient Solutions** was a suggested cover name, not a recorded business launch.
+- **Princeps local entry:** follow up on the completed buyer meeting and hardwired terminal lead; settle proof-of-funds custody and supporting company/identity details before choosing any infiltration or employee-replacement approach. **Efficient Solutions** was a suggested cover name, not a recorded business launch.
 - **Cindy access:** decide participation and in-world MSP/identity/connectivity requirements; no upgraded account or move is complete.
-- **Sponsored concert:** investigate the outdoor Nashville event if useful; venue/date/performers unknown.
+- **Sponsored concert:** decide whether to attend the Princeps-sponsored Darla LeDoux benefit; two tickets are held, but venue/date remain uncertain and performer billing includes unresolved transcription.
 - **Open-secret constraint:** merely exposing Claude as a dragon is not guaranteed leverage; reconcile the public inheritance PR with the older takeover account.
 
 - **~30-day shedim clock:** decide whether to pursue a metaplane portal, build wards/defenses, or accept the risk on the theory that it cannot identify the crew without a ritual link

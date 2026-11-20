@@ -4,11 +4,12 @@ type: arc
 visibility: player-safe
 status: paid run resolved; sponsor fallout active
 first_session: 2026-07-09
-last_updated_session: 2026-10-29
+last_updated_session: 2026-11-19
 canon_status: canon
 confidence: high
 tags: [arc, current-run, matrix, youth-gang, utilities, nashville]
 sources:
+  - ../Sessions/2026-11-19.md
   - ../Sessions/2026-10-29.md
   - Discord session thread 1524939834832064645
   - ../Sessions/2026-07-16.md
@@ -17,7 +18,7 @@ sources:
   - ../Sessions/2026-08-13.md
   - ../Sessions/2026-08-27.md
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-19
 ---
 
 # Pixel Sticks / Military-Grade Utilities Run
@@ -25,6 +26,8 @@ generated_at: 2026-10-29
 ![Pixel Sticks / Military-Grade Utilities Run banner](../assets/images/Pixel-Sticks-Utility-Run-Banner-2026-07-24.png)
 
 ## Current State
+
+**November 19 catalogue confirmation:** during buyer reconnaissance, Mevin recognized the Pixel Sticks utilities in Princeps’s premium catalogue as the same tools previously seen in degraded form, with their serial numbers filed off. This materially strengthens the catalogue/provenance connection; it does not independently prove who supplied the gang. See [Session 2026-11-19](../Sessions/2026-11-19.md) and [Operation Kill the Dragon](Operation-Kill-the-Dragon.md).
 
 **October 29 follow-up:** the paid run remains resolved, but its Claude/Princeps suspicion now feeds [Operation Kill the Dragon](Operation-Kill-the-Dragon.md). Three runners submitted cover applications; no new sponsor proof or employment resulted. Belmont and Buzz were confirmed at Pilot 2 from salvage. See [Session 2026-10-29](../Sessions/2026-10-29.md).
 

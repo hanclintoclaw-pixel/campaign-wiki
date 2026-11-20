@@ -3,11 +3,12 @@ title: Kurgan
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-11-12
+last_updated_session: 2026-11-19
 canon_status: canon
 confidence: medium
 tags: [pc, cyber-samurai, active-crew]
 sources:
+  - ../Sessions/2026-11-19.md
   - ../Sessions/2026-11-12.md
   - ../Sessions/2026-10-29.md
   - PARTY_DOSSIER.md
@@ -24,7 +25,7 @@ sources:
   - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
   - GM-confirmed appearance details, 2026-10-07
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-13
+generated_at: 2026-11-19
 ---
 
 # Kurgan
@@ -46,6 +47,7 @@ Active player character and the crew's cyber-samurai.
 
 ## Known Facts
 
+- **November 19:** accompanied Mevin to the [Princeps Nashville satellite office](../Locations/Princeps-Nashville-Satellite-Office.md) as security backstop. No Princeps equipment purchase, contract or Matrix access was secured. Four selected knowsofts were obtained/hand-waved for delivery; the GM cited roughly **7,200¥** for a rating-4 knowsoft but no final total or personal balance was established.
 - **November 12:** helped select the [Princeps satellite office](../Locations/Princeps-Nashville-Satellite-Office.md) as the first reconnaissance target and disguised Mevin as a professional buyer (four successes at TN 4, none at 8). No employee replacement or office entry occurred. The GM clarified he currently has **neither official nor unofficial mayoral capacity**; a possible future behind-the-scenes role is not present authority.
 - His player spelled his legal given name **H-I-K-O-R-I**. The surname was not clearly captured; do not normalize the garbled full-name transcription into a confirmed legal name.
 
@@ -74,12 +76,13 @@ Active player character and the crew's cyber-samurai.
 
 ## Karma And Nuyen Ledger
 
+- **2026-11-19 — Princeps buyer reconnaissance:** **35 → 35 tracked Karma**, no award. Four knowsoft selections; procurement/purchase pricing was hand-waved and not fully reconciled. Do not enter an invented debit. The 250,000¥ credstick remained proof of funds; the proposed deduction was reversed.
 - **2026-11-12 — Princeps planning:** **35 → 35 tracked Karma**, no award or recorded spend. Player-stated funds baseline 655,000¥ as below; offered operating capital, but no quantified debit or knowsoft cost share was settled.
 
 - **2026-10-29 — downtime / Princeps planning:** **+0 new award / no priced expense**; tracked **35 -> 35 Karma**, **41,583¥ -> 41,583¥** with the existing 250¥ pass-through caveat retained. Recovered folding-stock shotgun assigned; Tom gained as a Level-1 contact. Opposed Willpower used no Karma.
 
 - **Known current Karma:** at least **35 Karma** from currently tracked wiki events, plus any earlier untracked balance.
-- **Latest player-stated nuyen balance:** **655,000¥**, stated November 12; **655,000¥ → 655,000¥** with no quantified personal debit recorded. The older **41,583¥** reconstructed event subtotal remains historical, with its existing 250¥ pass-through caveat; the difference is not a new reward. Offered capital and proposed proof-of-funds amounts were not allocated as an individual transfer.
+- **Latest player-stated nuyen balance:** **655,000¥**, stated November 12; November 19 adds a four-knowsoft purchase with an unquantified debit, so the post-purchase balance is unresolved. The proposed 250,000¥ proof-of-funds deduction was reversed, not spent. The older **41,583¥** reconstructed event subtotal remains historical, with its existing 250¥ pass-through caveat; the difference is not a new reward. Offered capital and proposed proof-of-funds amounts were not allocated as an individual transfer.
 - **2026-06-25 — Righteous Haze interlude:** **+4 Karma**, **+5,000¥** total payout / recovered value.
 - **2026-07-19 — Saab Dynamit Sale thank-you cut:** **+1,000¥** from Curtis.
 - **2026-07-23 — Pixel Sticks / Military-Grade Utilities Run:** **+7 Karma**, **+15,000¥**.
@@ -101,6 +104,7 @@ Active player character and the crew's cyber-samurai.
 
 ## Relevant Sessions
 
+- [2026-11-19](../Sessions/2026-11-19.md) — accompanied Mevin as security backstop, selected knowsofts, and left with an unresolved pricing/delivery accounting; no award.
 - [2026-11-12](../Sessions/2026-11-12.md) — planned local infiltration, supplied Mevin’s disguise, stated funds and clarified lack of current mayoral capacity.
 
 - [Session 2026-10-29](../Sessions/2026-10-29.md) — downtime, Tom's release/contact recruitment and the Princeps cover applications; careful research toward killing Claude. No new cash or advancement-Karma award.
@@ -117,6 +121,7 @@ Active player character and the crew's cyber-samurai.
 
 ## Sources
 
+- [Session 2026-11-19](../Sessions/2026-11-19.md) — archived transcript and timestamp anchors on the session page.
 - [Session 2026-11-12](../Sessions/2026-11-12.md) — archived transcript and timestamp anchors on the session page.
 
 - [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.

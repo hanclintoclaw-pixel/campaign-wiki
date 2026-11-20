@@ -3,11 +3,12 @@ title: Curtis
 type: player-character
 visibility: player-safe
 status: active
-last_updated_session: 2026-11-12
+last_updated_session: 2026-11-19
 canon_status: current-sheet
 confidence: high
 tags: [pc, rigger, active-crew]
 sources:
+  - ../Sessions/2026-11-19.md
   - ../Sessions/2026-11-12.md
   - ../Sessions/2026-10-29.md
   - PARTY_DOSSIER.md
@@ -59,7 +60,7 @@ sources:
   - Discord request to add 12,000¥ and 8 Karma to Curtis, 2026-10-22
   - Discord request to correct Curtis's current Karma Pool to 9 and Good Karma (advancement Karma) to 25, 2026-10-29
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-13
+generated_at: 2026-11-19
 ---
 
 # Curtis
@@ -147,6 +148,7 @@ After the 2026-10-01 session, Curtis and the other established runners introduce
 
 ## Known Facts
 
+- **November 19:** provided outside overwatch from Grandpa and a surveillance drone while Mevin and Kurgan met Princeps; helped identify the secure mixed-use municipal tower and reviewed the extraction plan. No spend, award, or vehicle change.
 - **November 12:** supported investigating the [Princeps](../Factions/The-Princeps-Group.md) [Nashville](../Locations/Nashville.md) satellite office and proposed using building-system access to cover later infiltration. Suggested **Efficient Solutions** as the security-company cover name. [Cindy](../NPCs/Cindy-Lou-Jenkins.md) as remote employee/possible CEO, hardware relocation and staged deliveries remain proposals, not executed work. No new drone/vehicle build or purchase occurred.
 
 - During [Session 2026-10-29](../Sessions/2026-10-29.md), Curtis completed dwarf-fitted **6/4 security armor** from one recovered suit over a GM-advanced week. The GM confirmed **[Belmont](../Vehicles/Belmont.md) and [Buzz](../Vehicles/Buzz.md) at Pilot 2**. Curtis submitted a Princeps application under an existing false identity, spotted dragon imagery and won the no-Karma opposed Willpower decision with **four successes**. The operation remains research/planning, not employment or an attack.
@@ -179,6 +181,7 @@ After the 2026-10-01 session, Curtis and the other established runners introduce
 
 ## Karma And Nuyen Ledger
 
+- **2026-11-19 — Princeps buyer reconnaissance:** no award, priced expense or assigned capital contribution; **19,503.33¥ → 19,503.33¥**, **Good Karma 25 → 25**, last explicit **Karma Pool 9** retained. No spend or vehicle change recorded.
 - **2026-11-12 — Princeps planning:** no award, priced expense or assigned capital contribution; **19,503.33¥ → 19,503.33¥**, **Good Karma 25 → 25**, last explicit **Karma Pool 9** retained. Saying he is broke after investing in Grandpa supplies no new exact balance.
 
 - **2026-10-29 closeout reconciliation:** no new award or priced expense. The October 22 award was already in Known Facts but missing from this ledger header/history: **7,503.33¥ + 12,000¥ = 19,503.33¥**. This aligns the display to that prior award, not a second credit. **Karma Pool 9 / Good Karma 25 remain unchanged** from the explicit balance correction. Fitted 6/4 armor and Belmont/Buzz Pilot-2 confirmation add no invented cash debit.
@@ -334,6 +337,7 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 
 ## Relevant Sessions
 
+- [2026-11-19](../Sessions/2026-11-19.md) — kept outside overwatch as Mevin and Kurgan completed the buyer meeting; no award or spend.
 - [2026-11-12](../Sessions/2026-11-12.md) — shaped satellite-office reconnaissance and buyer cover; no purchase, reward or office entry.
 
 - [Session 2026-10-29](../Sessions/2026-10-29.md) — downtime, Tom's release/contact recruitment and the Princeps cover applications; careful research toward killing Claude. No new cash or advancement-Karma award.
@@ -357,6 +361,7 @@ Curtis's Backpack Arms rig is accepted as garage-built wearable utility gear for
 
 ## Sources
 
+- [Session 2026-11-19](../Sessions/2026-11-19.md) — archived transcript and timestamp anchors on the session page.
 - [Session 2026-11-12](../Sessions/2026-11-12.md) — archived transcript and timestamp anchors on the session page.
 
 - [Session 2026-10-29](../Sessions/2026-10-29.md) — archived transcript anchors recorded on the session page.
