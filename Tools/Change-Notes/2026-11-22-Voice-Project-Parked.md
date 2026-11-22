@@ -1,11 +1,13 @@
 ---
 title: Voice project — parked checkpoint, 2026-11-22
 type: tooling-note
-status: parked
+status: diagnostic-phase-resumed
 generated_by: openai/gpt-6.1-sol medium
 generated_at: "2026-11-22"
 ---
 # Voice project — parked checkpoint
+
+**Update: GM resumed the bounded rules diagnostic phase at15:50 on November22.** See the [completed baseline and next-step recommendation](2026-11-22-SR3-Rules-Baseline). Implementation and broader rollout remain unapproved. The parked checkpoint below is retained as history; its pause was superseded only for this approved diagnosis.
 
 **PARKED at the GM's request, November 22, 2026.** No voice session is expected
 within the next week. Development, further evaluation, rollout and the next rules
