@@ -32,6 +32,8 @@ Copy one of these files when creating a new campaign wiki page, then replace bra
 - [Minigames and Web Apps](../Minigames.md)
 - [Wiki Editor Persistence](../meta/Wiki-Editor-Persistence.md)
 
+- [Draft machine-readable Table Reference and maintenance](Table-Reference.md) — proposed pilot, not migrated canon.
+
 ## Template Checks
 
 - [Template Conformance Report](TEMPLATE_CONFORMANCE.md)

@@ -26,6 +26,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-22 — Page legibility audit and maintenance contract](Change-Notes/2026-11-22-Page-Legibility-Audit.md)
+
 - [2026-11-22 — Identity profiles and voice project status](Change-Notes/2026-11-22-Identity-Profiles-And-Project-Status.md)
 
 - [2026-11-16 — Speakable campaign namespaces and answer-quality guards](Change-Notes/2026-11-16-Voice-Namespaces-And-Answer-Quality.md)
