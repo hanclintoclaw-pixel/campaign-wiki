@@ -13,6 +13,45 @@ sources:
   - PARTY_DOSSIER.md
   - ../Sessions/2026-05-28.md
   - ../Sessions/2026-07-19-mini-saab-dynamit-sale.md
+table_reference:
+  schema_version: 1
+  entity_kind: npc
+  as_of: '2026-11-22'
+  facts:
+    identity:
+      value: Taco, NPC and ex-PC.
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#known-facts'
+    role:
+      value: Runs a large vehicle repair / salvage operation.
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#overview'
+    current_status:
+      value: Active contact for the group.
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#known-facts'
+    specialties:
+      value:
+      - Vehicle repair / salvage operation
+      - Vehicle/salvage fence and logistics contact
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#known-facts'
+    limitations:
+      value: null
+      assertion_status: unknown
+      qualifiers:
+      - No comprehensive statement established in this summary review; do not infer no limitations.
+      source_refs: []
+  sections: {}
+
 ---
 
 # Taco

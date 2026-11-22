@@ -14,6 +14,75 @@ sources:
   - ../NPCs/Cindy-Lou-Jenkins.md
   - ../Vehicles/Buzz.md
   - SR3 Rigger 3 Revised, p. 21
+table_reference:
+  schema_version: 1
+  entity_kind: asset
+  as_of: '2026-11-22'
+  facts:
+    identity:
+      value: Dolly Zoom
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#overview'
+    role:
+      value: Eyes-and-ears reconnaissance, perimeter watching, scene verification, and remote table-presence support.
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#owner--operator'
+    current_status:
+      value: null
+      assertion_status: unresolved
+      qualifiers:
+      - Physical presence, deployment and current condition are not established by this summary; the GM decides per Table
+        Boundary.
+      source_refs:
+      - '#table-boundary'
+    specialties:
+      value:
+      - Low-light camera
+      - Thermographic camera
+      assertion_status: provisional
+      qualifiers:
+      - Selected recorded cameras only; other tools and assumptions remain in Sensors / Tools.
+      source_refs:
+      - '#sensors--tools'
+    limitations:
+      value: Bad uses include combat, soaking fire, aggressive pursuit through secure airspace, or anything that would obviously
+        draw attention to a fragile surveillance drone.
+      assertion_status: provisional
+      qualifiers:
+      - Audio pickup is a campaign-use assumption, non-specialized until upgraded.
+      - Encrypted command/feed link is a recommended operational assumption, not a proven upgrade.
+      - Physical deployment remains GM-controlled.
+      source_refs:
+      - '#role-in-cindy-lou-initiative-plans'
+      - '#table-boundary'
+    class:
+      value: Small VTOL aerial surveillance drone.
+      assertion_status: provisional
+      qualifiers:
+      - Remotely operated peripheral, not Cindy's host body.
+      source_refs:
+      - '#overview'
+    owner:
+      value: Cindy Lou Jenkins.
+      assertion_status: provisional
+      qualifiers:
+      - Campaign A-NPC asset.
+      source_refs:
+      - '#owner--operator'
+    operator:
+      value: Cindy Lou Jenkins.
+      assertion_status: provisional
+      qualifiers:
+      - With GM permission for live deployment.
+      source_refs:
+      - '#owner--operator'
+  sections:
+    native_stats: Canon Stats
+
 ---
 
 # Dolly Zoom

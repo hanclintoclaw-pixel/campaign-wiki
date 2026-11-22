@@ -61,6 +61,50 @@ sources:
   - Discord request to correct Curtis's current Karma Pool to 9 and Good Karma (advancement Karma) to 25, 2026-10-29
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-21
+table_reference:
+  schema_version: 1
+  entity_kind: pc
+  as_of: '2026-11-22'
+  facts:
+    identity:
+      value: Curtis
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#overview'
+    role:
+      value: Dwarf drone-and-vehicle rigger.
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#overview'
+    current_status:
+      value: Active player character.
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#overview'
+    specialties:
+      value:
+      - Gunnery 5
+      - Electronics 6
+      - Car 4
+      assertion_status: provisional
+      qualifiers:
+      - Selected recorded skills only; the complete list remains in Active Skills.
+      source_refs:
+      - '#active-skills'
+    limitations:
+      value: null
+      assertion_status: unknown
+      qualifiers:
+      - No comprehensive statement established in this summary review; do not infer no limitations.
+      source_refs: []
+  sections:
+    current_balances: Current Karma and Nuyen
+    equipment: Rigger Asset Highlights
+    history: Karma And Nuyen Ledger
+
 ---
 
 # Curtis

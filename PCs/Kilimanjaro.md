@@ -20,6 +20,51 @@ sources:
   - ../Sessions/2026-10-08.md
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-21
+table_reference:
+  schema_version: 1
+  entity_kind: pc
+  as_of: '2026-11-22'
+  facts:
+    identity:
+      value: Kilimanjaro
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#player-and-role'
+    role:
+      value: Generic Nashville cyber-samurai / solo operator.
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#player-and-role'
+    current_status:
+      value: Retained as Abe's PC on 2026-10-29.
+      assertion_status: provisional
+      qualifiers:
+      - Earlier possible retirement is historical.
+      - Princeps vetting pending; not hired.
+      source_refs:
+      - '#player-and-role'
+    specialties:
+      value:
+      - Long-term surveillance
+      - Security
+      - Personal protection
+      assertion_status: provisional
+      qualifiers:
+      - Not a specialist infiltrator.
+      source_refs:
+      - '#known-facts'
+    limitations:
+      value: Conspicuous, armed, heavily combat-oriented, and not subtle by default.
+      assertion_status: provisional
+      qualifiers: []
+      source_refs:
+      - '#known-facts'
+  sections:
+    current_balances: Current Karma and Nuyen
+    history: Karma And Nuyen Ledger
+
 ---
 
 # Kilimanjaro

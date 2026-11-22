@@ -26,6 +26,9 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-22 — Four-summary live voice pilot](Change-Notes/2026-11-22-Four-Summary-Live-Pilot)
+
+
 - [2026-11-22 — Page legibility audit and maintenance contract](Change-Notes/2026-11-22-Page-Legibility-Audit.md)
 
 - [2026-11-22 — Identity profiles and voice project status](Change-Notes/2026-11-22-Identity-Profiles-And-Project-Status.md)
