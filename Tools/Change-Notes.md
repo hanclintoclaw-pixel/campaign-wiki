@@ -2,9 +2,9 @@
 title: Voice Bridge Change Notes
 type: documentation
 visibility: player-safe
-updated: 2026-11-16
+updated: 2026-11-22
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-16
+generated_at: 2026-11-22
 ---
 
 # Voice Bridge Change Notes
@@ -25,6 +25,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 6. Link each new entry from the Entries list on this page.
 
 ## Entries
+
+- [2026-11-22 — Identity profiles and voice project status](Change-Notes/2026-11-22-Identity-Profiles-And-Project-Status.md)
 
 - [2026-11-16 — Speakable campaign namespaces and answer-quality guards](Change-Notes/2026-11-16-Voice-Namespaces-And-Answer-Quality.md)
 - [2026-11-16 — Campaign-memory rebind and budget-aware voice routing](Change-Notes/2026-11-16-Voice-Fix-Order-And-Campaign-Rebind.md)
