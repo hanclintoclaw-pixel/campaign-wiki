@@ -60,10 +60,21 @@ sources:
   - Discord request to add 12,000¥ and 8 Karma to Curtis, 2026-10-22
   - Discord request to correct Curtis's current Karma Pool to 9 and Good Karma (advancement Karma) to 25, 2026-10-29
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-19
+generated_at: 2026-11-21
 ---
 
 # Curtis
+
+## Current Karma and Nuyen
+
+<!-- current-pc-balances:v1 -->
+- **Karma:** 25 Good Karma for advancement.
+- **Nuyen:** 19,503.33 nuyen tracked; unpriced expenses and pending project costs are not deducted.
+- **Karma Pool:** 9 dice, last explicitly confirmed October 29.
+- **As of:** 2026-11-21 balance-summary review. Latest no-change ledger entry: 2026-11-19.
+<!-- /current-pc-balances:v1 -->
+
+This is the current tracking summary, not a new award or a reconstruction of missing finances. Keep its qualifications with the values. Update this section and the dated history together for every confirmed award, expense or correction, during or between sessions; apply each event once. See [balance maintenance](README.md#balance-maintenance).
 
 ## Overview
 
@@ -180,6 +191,8 @@ After the 2026-10-01 session, Curtis and the other established runners introduce
 - During [Session 2026-10-22](../Sessions/2026-10-22.md), Curtis joined from a hotel room in Troy, Michigan, with only a work laptop and an unresponsive TV, and played the whole session in theater-of-the-mind from the GM's descriptions. He rolled Willpower 5 against 6 and asked to spend **2 Karma from his Karma Pool** to throw off Lula Bell Sandusky's lingering truth-compulsion, with the GM adding 2 more, regaining his clear-headed judgment about the dwarf who had tried to have him killed. He then climbed into Grandpa's captain's chair, deployed [Belmont](../Vehicles/Belmont.md) down the rear ramp, and drove the Doberman **through the front wall of the McDonald's** past a Coke machine to bear on two guards, spending his actions for the turn on the deployment. After they fled, he cold-bloodedly cut both of them down with the mini-tank's machine guns because he had not loaded stun grenades — the GM marked it as killing them for the crime of not knowing their boss was a secret monster. He gave [Kyron](../PCs/Kyron.md) permission to store a possessed corpse in Grandpa's under-floor storage, later moved to the compound's deep freeze, and set up chains, padlocks, a chair, and a head bag for the captive. Kurgan handed him the guard's 250¥ toward cleanup and submachine-gun ammunition. He argued successfully for handing the transformation footage to the mayor, partly on the genuine grounds that Haggar deserved a warning, and rolled Electronics to anonymize Mevin's hostile Princeps call. **+12,000¥ and +8 Karma already recorded per the GM's 2026-10-22 request.**
 
 ## Karma And Nuyen Ledger
+
+For current figures, use [Current Karma and Nuyen](#current-karma-and-nuyen) above. Entries below are dated history; an old subtotal is not the current balance.
 
 - **2026-11-19 — Princeps buyer reconnaissance:** no award, priced expense or assigned capital contribution; **19,503.33¥ → 19,503.33¥**, **Good Karma 25 → 25**, last explicit **Karma Pool 9** retained. No spend or vehicle change recorded.
 - **2026-11-12 — Princeps planning:** no award, priced expense or assigned capital contribution; **19,503.33¥ → 19,503.33¥**, **Good Karma 25 → 25**, last explicit **Karma Pool 9** retained. Saying he is broke after investing in Grandpa supplies no new exact balance.

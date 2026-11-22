@@ -19,10 +19,21 @@ sources:
   - ../Sessions/2026-10-01.md
   - ../Sessions/2026-10-08.md
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-10-29
+generated_at: 2026-11-21
 ---
 
 # Kilimanjaro
+
+## Current Karma and Nuyen
+
+<!-- current-pc-balances:v1 -->
+- **Karma:** 13 awarded Karma tracked; earlier absolute balance is not reconstructed.
+- **Nuyen:** 0 nuyen GM-initialized tracked cash; earlier absolute balance unknown. The separate 12,000-nuyen future-character cache is not spendable cash.
+- **Karma Pool:** 1 die, refreshed October 29.
+- **As of:** 2026-11-21 balance-summary review. Zero cash initialized by GM instruction on 2026-11-21; no award, loss or transfer.
+<!-- /current-pc-balances:v1 -->
+
+This is the current tracking summary, not a new award or a reconstruction of missing finances. Keep its qualifications with the values. Update this section and the dated history together for every confirmed award, expense or correction, during or between sessions; apply each event once. See [balance maintenance](README.md#balance-maintenance).
 
 ## Overview
 
@@ -67,6 +78,8 @@ At the end of [Session 2026-10-29](../Sessions/2026-10-29.md), Kilimanjaro remai
 - Has enough surveillance and security experience to know Judge Belisarius's habits from prior work.
 
 ## Karma And Nuyen Ledger
+
+For current figures, use [Current Karma and Nuyen](#current-karma-and-nuyen) above. Entries below are dated history; an old subtotal is not the current balance.
 
 - **Tracked awarded Karma subtotal:** **13** (**5 + 8**, prior recorded awards); no earlier absolute balance is reconstructed.
 - **2026-10-29 — planning:** **13 -> 13 tracked awarded Karma**, no new nuyen award or priced expense. Refreshed **Karma Pool: one die**, a separate quantity. The prior 12,000¥ cache for a future character is not transferred or paid again.

@@ -25,10 +25,21 @@ sources:
   - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
   - GM-confirmed appearance details, 2026-10-07
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-19
+generated_at: 2026-11-21
 ---
 
 # Kurgan
+
+## Current Karma and Nuyen
+
+<!-- current-pc-balances:v1 -->
+- **Karma:** At least 35 tracked Karma; earlier balance is untracked.
+- **Nuyen:** Current balance unresolved; last stated 655,000 nuyen before unpriced November 19 knowsoft purchases.
+- **Karma Pool:** Not recorded.
+- **As of:** 2026-11-21 balance-summary review. Latest event reviewed: 2026-11-19; reversed proof-of-funds deduction is not a spend.
+<!-- /current-pc-balances:v1 -->
+
+This is the current tracking summary, not a new award or a reconstruction of missing finances. Keep its qualifications with the values. Update this section and the dated history together for every confirmed award, expense or correction, during or between sessions; apply each event once. See [balance maintenance](README.md#balance-maintenance).
 
 ![Kurgan, GM-confirmed crew portrait crop](../assets/images/Kurgan-Crew-Portrait-2026-07-16.png)
 
@@ -75,6 +86,8 @@ Active player character and the crew's cyber-samurai.
 - During [Session 2026-10-22](../Sessions/2026-10-22.md), Kurgan opened combat at initiative 27, held his first action, then asked Kyron in character whether the mage's mana strike had looked effective before committing to the spirit himself. His shotgun bolts registered as Moderate wounds despite the shedim's astral protection and mundane-weapon protection, and **his final all-success pass at target number 2 banished it**. He ran him down in an opposed Athletics contest, won by a single margin, read his Humanis affiliation and genuine horror through Street Etiquette, and chose to knock him out rather than kill him for later questioning. He took 250¥ off the captive and handed it to Curtis, and helped move the possessed corpse into the compound's deep freeze. He pressed Kyron hard on whether banishment was permanent — the player concern that surfaced the thirty-day clock. **+12,000¥, +8 Karma.**
 
 ## Karma And Nuyen Ledger
+
+For current figures, use [Current Karma and Nuyen](#current-karma-and-nuyen) above. Entries below are dated history; an old subtotal is not the current balance.
 
 - **2026-11-19 — Princeps buyer reconnaissance:** **35 → 35 tracked Karma**, no award. Four knowsoft selections; procurement/purchase pricing was hand-waved and not fully reconciled. Do not enter an invented debit. The 250,000¥ credstick remained proof of funds; the proposed deduction was reversed.
 - **2026-11-12 — Princeps planning:** **35 → 35 tracked Karma**, no award or recorded spend. Player-stated funds baseline 655,000¥ as below; offered operating capital, but no quantified debit or knowsoft cost share was settled.

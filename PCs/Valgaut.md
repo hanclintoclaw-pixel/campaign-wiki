@@ -23,9 +23,22 @@ sources:
   - ../Sessions/2026-08-27.md
   - ../Sessions/2026-09-10.md
   - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-21
 ---
 
 # Valgaut
+
+## Current Karma and Nuyen
+
+<!-- current-pc-balances:v1 -->
+- **Karma:** 19 tracked Karma.
+- **Nuyen:** At least 20,500 nuyen from tracked events; earlier personal balance is unreconstructed.
+- **Karma Pool:** Not recorded.
+- **As of:** 2026-11-21 balance-summary review. Latest all-PC Karma award: 2026-09-10; paused status does not imply a new payout.
+<!-- /current-pc-balances:v1 -->
+
+This is the current tracking summary, not a new award or a reconstruction of missing finances. Keep its qualifications with the values. Update this section and the dated history together for every confirmed award, expense or correction, during or between sessions; apply each event once. See [balance maintenance](README.md#balance-maintenance).
 
 ![Valgaut, GM-confirmed crew portrait crop](../assets/images/Valgaut-Crew-Portrait-2026-07-16.png)
 
@@ -100,6 +113,8 @@ With Valgaut's current sheet-backed Strength 5, this gives him standing **Streng
 - Karma remaining after this spend: **4 Karma**
 
 ## Karma And Nuyen Ledger
+
+For current figures, use [Current Karma and Nuyen](#current-karma-and-nuyen) above. Entries below are dated history; an old subtotal is not the current balance.
 
 - **Known current Karma:** **19 Karma** after the Session 2026-09-10 all-PC award.
 - **Known current nuyen:** at least **20,500¥** from currently tracked wiki events, plus any prior personal balance not yet reconstructed on this page.

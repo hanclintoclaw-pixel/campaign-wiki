@@ -12,9 +12,22 @@ sources:
   - ../Sessions/2026-10-01.md
   - ../Sessions/2026-10-15.md
   - ../Sessions/2026-10-22.md
+generated_by: openai/gpt-6.1-sol
+generated_at: 2026-11-21
 ---
 
 # Kyron
+
+## Current Karma and Nuyen
+
+<!-- current-pc-balances:v1 -->
+- **Karma:** 8 awarded Karma recorded; earlier unspent balance is unknown.
+- **Nuyen:** 12,000 nuyen payout recorded; current remaining balance and any earlier funds are unreconciled.
+- **Karma Pool:** Not recorded.
+- **As of:** 2026-11-21 balance-summary review. Known award: 2026-10-22; no earlier balance reconstructed.
+<!-- /current-pc-balances:v1 -->
+
+This is the current tracking summary, not a new award or a reconstruction of missing finances. Keep its qualifications with the values. Update this section and the dated history together for every confirmed award, expense or correction, during or between sessions; apply each event once. See [balance maintenance](README.md#balance-maintenance).
 
 ## Overview
 

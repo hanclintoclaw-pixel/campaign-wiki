@@ -29,10 +29,21 @@ sources:
   - GM-confirmed identification in the Player Characters crew portrait, 2026-10-07
   - GM-confirmed appearance details, 2026-10-07
 generated_by: openai/gpt-6.1-sol
-generated_at: 2026-11-19
+generated_at: 2026-11-21
 ---
 
 # Mevin Kitnick
+
+## Current Karma and Nuyen
+
+<!-- current-pc-balances:v1 -->
+- **Karma:** At least 24 tracked Karma; earlier unspent and spent totals are unreconciled.
+- **Nuyen:** Derived 360,000 nuyen assuming personal funding; group reimbursement and unpriced expenses are unreconciled.
+- **Karma Pool:** Not recorded.
+- **As of:** 2026-11-21 balance-summary review. Latest event reviewed: 2026-11-19; 383,000 minus 23,000 equals 360,000, conditional on personal funding.
+<!-- /current-pc-balances:v1 -->
+
+This is the current tracking summary, not a new award or a reconstruction of missing finances. Keep its qualifications with the values. Update this section and the dated history together for every confirmed award, expense or correction, during or between sessions; apply each event once. See [balance maintenance](README.md#balance-maintenance).
 
 ![Mevin Kitnick, GM-confirmed crew portrait crop](../assets/images/Mevin-Crew-Portrait-2026-07-16.png)
 
@@ -110,6 +121,8 @@ Mevin is usually the crew member most responsible for:
 - During [Session 2026-10-01](../Sessions/2026-10-01.md), Mevin searched the civic center and carried an old terminal with its attached monitor out of the burning structure. In [Session 2026-10-08](../Sessions/2026-10-08.md), he helped identify the political significance of the Sandusky files and assess the prototype weapon at the City Hall pod encounter. The crew returned to Nashville; the extra paydata/terminal and evidence disposition remain open. No Karma or payout.
 
 ## Karma And Nuyen Ledger
+
+For current figures, use [Current Karma and Nuyen](#current-karma-and-nuyen) above. Entries below are dated history; an old subtotal is not the current balance.
 
 - **2026-11-19 — Princeps buyer reconnaissance:** no Karma award or payout recorded. Three knowsoft purchases: **23,000¥** (GM final total). Latest player-stated baseline: **383,000¥ − 23,000¥ = 360,000¥**, assuming personal funding; no separate chip-by-chip/current account reconciliation was stated. Two comped concert tickets; no contract.
 - **2026-11-12 — Princeps cover preparation:** **−17,000¥** once for a **rating-6 Miltech Manufacturers knowsoft**, six knowledge dice, procurement reduced to one day. Base 13,500¥ × 1.25 = 16,875¥; Mevin rounded payment to 17,000¥ with GM assent. [Supplier](../NPCs/Knowsoft-Vendor.md). No other chip purchased. Multi-slot chipjack holds up to four chips per GM clarification, not a rating-4 cap. **24 → 24 tracked Karma**; no new award or spend. Proposed proof-of-funds balances are not expenses.
