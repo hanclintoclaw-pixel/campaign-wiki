@@ -7,6 +7,7 @@ generated_at: "2026-11-22"
 # Four-summary live voice pilot
 
 ## Shipped
+- Shared “current state” → “current status” intent refinement activated at bridge81e9eeb/PID24989 after the approved idle restart. Environment, reader binding, source permissions, model and playback unchanged.96 focused tests(one skipped) and four live-bound state/status answer/speech parity pairs passed; exact captured question now returns the qualified status with zero model turns. No new human playback acceptance is claimed for this wording refinement.
 - GM approved activation on November 22. Four table_reference summaries: [Curtis](../../PCs/Curtis), [Kilimanjaro](../../PCs/Kilimanjaro), [Taco](../../NPCs/Taco), [Dolly Zoom](../../Vehicles/Dolly-Zoom).
 - One generic schema-v1 reader; no named-character answer branches. External public/revision grants remain required; frontmatter does not authorize itself.
 - Prior 822 approved sections preserved as 824 text-identical ranges plus four new provisional summary grants: 828. Canonical balances/native stat tables are referenced, not duplicated. Rollback copies retained privately.
@@ -20,3 +21,6 @@ generated_at: "2026-11-22"
 ## Still open
 - Live human recognition, Discord playback and table responsiveness acceptance remain separate from controlled replay.
 - No bulk migration, all-entity alias guarantee or general rules-coverage claim. This is a four-page live pilot, not completion of the whole voice-quality project.
+
+## Next major spoke
+General SR3 rules answering beyond equipment lookup: begin with a bounded source-backed coverage/response baseline. Broader campaign normalization and cross-domain acceptance remain open; the four-page pilot does not establish universal coverage.
