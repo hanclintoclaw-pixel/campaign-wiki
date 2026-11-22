@@ -6,6 +6,8 @@ generated_at: "2026-11-22"
 ---
 # Four-summary live voice pilot
 
+**Project PARKED by the GM.** See the [parked checkpoint and resume checklist](2026-11-22-Voice-Project-Parked); next steps below are deferred, not running.
+
 ## Shipped
 - Shared “current state” → “current status” intent refinement activated at bridge81e9eeb/PID24989 after the approved idle restart. Environment, reader binding, source permissions, model and playback unchanged.96 focused tests(one skipped) and four live-bound state/status answer/speech parity pairs passed; exact captured question now returns the qualified status with zero model turns. No new human playback acceptance is claimed for this wording refinement.
 - GM approved activation on November 22. Four table_reference summaries: [Curtis](../../PCs/Curtis), [Kilimanjaro](../../PCs/Kilimanjaro), [Taco](../../NPCs/Taco), [Dolly Zoom](../../Vehicles/Dolly-Zoom).
@@ -19,7 +21,7 @@ generated_at: "2026-11-22"
 - Kilimanjaro snapshot audio was transcribed as “Kiliman Jarrow”; it is not an answered-summary pass. Correct-text snapshot separately passed the actual thread/reader/emitter/cap.
 
 ## Still open
-- Live human recognition, Discord playback and table responsiveness acceptance remain separate from controlled replay.
+- GM accepted the observed six-question live test. The later deterministic status-alias refinement was verified with configured-handler checks, not a new human audio retest; broader recognition/coverage/latency acceptance remains open.
 - No bulk migration, all-entity alias guarantee or general rules-coverage claim. This is a four-page live pilot, not completion of the whole voice-quality project.
 
 ## Next major spoke

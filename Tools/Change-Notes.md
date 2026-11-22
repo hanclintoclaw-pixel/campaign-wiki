@@ -26,6 +26,9 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-22 — Voice project PARKED: checkpoint and resume checklist](Change-Notes/2026-11-22-Voice-Project-Parked)
+
+
 - [2026-11-22 — Four-summary live voice pilot](Change-Notes/2026-11-22-Four-Summary-Live-Pilot)
 
 
