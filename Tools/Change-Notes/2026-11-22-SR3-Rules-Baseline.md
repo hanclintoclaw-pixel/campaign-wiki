@@ -7,6 +7,8 @@ generated_at: "2026-11-22"
 ---
 # General SR3 rules baseline — diagnosis complete, no production change
 
+**Follow-up:** the GM approved building the [general question-contract repair](2026-11-22-General-Question-Contract). Candidatefa44f65 is isolated, not activated; source-context and coverage limits remain explicit.
+
 ## Scope and method
 GM approved the bounded diagnostic phase at15:50 November22. Current bridge81e9eeb,
 PID24989, existing lexical campaign binding and public SR3 reader were tested unchanged.

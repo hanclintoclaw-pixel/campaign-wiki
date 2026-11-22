@@ -7,7 +7,7 @@ generated_at: "2026-11-22"
 ---
 # Voice project — parked checkpoint
 
-**Update: GM resumed the bounded rules diagnostic phase at15:50 on November22.** See the [completed baseline and next-step recommendation](2026-11-22-SR3-Rules-Baseline). Implementation and broader rollout remain unapproved. The parked checkpoint below is retained as history; its pause was superseded only for this approved diagnosis.
+**Update: GM resumed the bounded rules diagnostic phase at15:50 on November22.** See the [completed baseline and next-step recommendation](2026-11-22-SR3-Rules-Baseline). A subsequent [general parser repair](2026-11-22-General-Question-Contract) was approved for isolated construction; activation and broader rollout remain unapproved. The parked checkpoint below is retained as history; its pause was superseded only for this approved diagnosis.
 
 **PARKED at the GM's request, November 22, 2026.** No voice session is expected
 within the next week. Development, further evaluation, rollout and the next rules

@@ -26,6 +26,9 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-22 — General question-contract repair: isolated candidate and remaining evidence gaps](Change-Notes/2026-11-22-General-Question-Contract)
+
+
 - [2026-11-22 — General SR3 rules baseline: results and recommended next repair](Change-Notes/2026-11-22-SR3-Rules-Baseline)
 
 
