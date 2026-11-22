@@ -6,7 +6,7 @@ generated_at: "2026-11-22"
 ---
 # Four-summary live voice pilot
 
-**Project PARKED by the GM.** See the [parked checkpoint and resume checklist](2026-11-22-Voice-Project-Parked); next steps below are deferred, not running.
+**Subsequent milestone:** the GM resumed a bounded general-rules diagnosis; see its [completed baseline and next-step recommendation](2026-11-22-SR3-Rules-Baseline). The [parked checkpoint](2026-11-22-Voice-Project-Parked) remains history. The working four-page pilot is unchanged; further implementation awaits approval.
 
 ## Shipped
 - Shared “current state” → “current status” intent refinement activated at bridge81e9eeb/PID24989 after the approved idle restart. Environment, reader binding, source permissions, model and playback unchanged.96 focused tests(one skipped) and four live-bound state/status answer/speech parity pairs passed; exact captured question now returns the qualified status with zero model turns. No new human playback acceptance is claimed for this wording refinement.
