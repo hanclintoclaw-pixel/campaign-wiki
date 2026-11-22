@@ -12,11 +12,16 @@ generated_at: 2026-11-22
 
 ## Shipped
 
+**Latest rollout:** source-validated identity-to-follow-up handoff `5f0bec9` is now live after separate GM approval. A successfully emitted profile can establish the character for same-participant/channel singular follow-ups, with existing expiry and ambiguity boundaries. Follow-ups still fetch fresh evidence; they do not reuse the earlier answer as facts. The speech-highlights candidate `74931c4` remains isolated and is not enabled.
+
 Identity-profile bridge build `e4ae15d` activated after GM approval. The new identity-profile flag is enabled; source binding, model and playback settings are unchanged. Exact named identity questions now select an existing approved own-page Overview statement or Known Facts identity bullet, using a revision-bound reader rather than metadata or incidental session mentions. Provisional labels and displayed citations remain; citations are omitted from prepared speech.
 
 Earlier completed work includes the SR3-only NSRCG equipment lookup pilot, single-entry snapshots, reviewed drone/deck lookups, current PC balance summaries, speech qualification/citation shaping, and the wake-admission repair `9fe61e8`. These are bounded capabilities, not proof of universal voice reliability.
 
 ## Measured
+
+- Post-handoff live-config probe: Curtis identity followed by “what equipment does he have?” resolves to Curtis and returns a fresh qualified asset list with zero model calls. Equipment, current-balance and selected-reader health checks pass. This uses real handlers/readers with mocked Discord, not a new human playback test.
+- Subsequent same-author acoustic refresh found narrower remaining gaps: Mevin-specific detail coverage, Gunsmith Kit variant resolution and an acoustic Predator II/III identity error. The Curtis subject-handoff regression is repaired in this rollout; general follow-up acceptance is still not established.
 
 - Same-author development probes: eight identity requests across seven characters retrieved approved profiles. This is not an independent held-out evaluation.
 - Original frozen Curtis question audio, replayed through actual STT and the public answer owner with mocked Discord: provisional dwarf/rigger profile, zero model calls, 1.124 seconds warm STT plus handler. The previous anecdote answer took 16.279 seconds in one earlier probe. Neither is first-audible latency or a service guarantee.
