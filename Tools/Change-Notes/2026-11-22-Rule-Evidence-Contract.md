@@ -83,3 +83,7 @@ All attempts are retained. No new acoustic replay, synthesis, Discord delivery o
 human playback acceptance is claimed for this candidate. The source-only shape
 hardening after handler startup is covered by final unit tests, not described as
 a fresh full-code handler replay.
+
+## Subsequent diagnostic trial
+
+The [Sol–Qwen–Sol trial](2026-11-22-Qwen-Diagnostic-Trial) classifies the retained failures; it does not change the failed release decision.
