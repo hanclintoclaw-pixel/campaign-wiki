@@ -3,7 +3,7 @@ title: Cindy Initiative System — Replacement Project
 type: documentation
 visibility: player-safe
 canon_status: tooling-reference
-status: planning-only
+status: legacy-monitor-disabled
 updated: 2026-11-23
 generated_by: openai/gpt-6.1-sol
 generated_at: 2026-11-23
@@ -12,7 +12,7 @@ generated_at: 2026-11-23
 
 ## Mandate and current authorization
 
-**Living project guidepost. Documentation only; implementation and activation are not authorized yet.**
+**Living project guidepost. Legacy monitor disabled by GM request on November 23. Replacement implementation and activation remain unauthorized.**
 
 GM direction, November 23, 2026:
 
@@ -107,7 +107,8 @@ Record the approved baseline, candidate revision, test evidence, configuration d
 
 - **2026-11-23:** GM requests full replacement; documentation authorized, no implementation yet. Sol medium plans/evaluates; local Qwen low implements/tests when approved.
 - **Completed:** initial charter and narrow legacy-symbol presence check.
-- **Not started:** full inventory, deletion, replacement implementation, test execution, shadow mode, pilot and deployment.
+- **Legacy retirement update, 2026-11-23:** GM authorized stopping the current firing system. Changed only `LIVE_MONITOR_ENABLED=true` to `false` and reloaded the idle bridge; new PID 12233, boot 15:41:49 EST, unchanged bridge `6f88641`. Current monitor status reports `enabled: false`. Legacy code remains; no replacement was built. [Retirement evidence and limits](Change-Notes/2026-11-23-Initiative-Monitor-Disabled.md).
+- **Not started:** full deletion inventory, code deletion, replacement implementation/testing, shadow mode, pilot and replacement deployment.
 - **Next decision:** approve or revise this charter, then authorize the read-only inventory/design phase.
 
 Future updates must distinguish requested work, proposed design, authorized work, implementation evidence and live acceptance. Append dated decisions and link test/release reports; never overwrite a failed result with a later success narrative.
