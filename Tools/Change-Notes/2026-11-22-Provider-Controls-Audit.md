@@ -82,3 +82,5 @@ manifest. Audit harness: `workfiles/provider-controls-audit-20261122/probe.mjs`.
 Source references: upstream commit `740e3776b`, chat-completion protocol/serving,
 sampling parameters, thinking-budget state and associated provider tests.
 Prior checkpoint: [Section-view pilot](2026-11-22-Section-View-Pilot).
+
+Follow-up: [Completed isolated thinking-cap trial](2026-11-22-Thinking-Cap-Trial). Integration still awaits approval.

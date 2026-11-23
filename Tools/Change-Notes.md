@@ -26,6 +26,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-22 — Thinking-cap trial: complete verdicts, isolated integration recommended](Change-Notes/2026-11-22-Thinking-Cap-Trial)
+
 - [2026-11-22 — Provider controls audit: separate thinking-cap trial recommended](Change-Notes/2026-11-22-Provider-Controls-Audit)
 
 - [2026-11-22 — Section-view pilot: structural pass, reviewer completion remains blocking](Change-Notes/2026-11-22-Section-View-Pilot)
