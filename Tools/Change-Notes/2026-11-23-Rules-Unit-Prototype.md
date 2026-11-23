@@ -64,3 +64,5 @@ Private data: runtime/rules-unit-prototype-20261123 on the data tier: source/wit
 freeze, Qwen drafts/repairs, candidate spans, tests and summary. Code/harness:
 workfiles/rules-unit-prototype-20261123; committed helpers under tools/rules_unit_prototype.
 [Approved design](2026-11-22-Rules-Unit-Design).
+
+Follow-up: [Layout-aware replacement inventory](2026-11-23-Layout-Candidates). No serving generation or activation.
