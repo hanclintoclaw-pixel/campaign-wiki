@@ -92,3 +92,7 @@ deployment. The last actual handler replay remains 1/8 answerables; proposal-rev
 scores do not replace it. Private evidence is under data-tier
 `runtime/answer-responsiveness-20261122`; the plan, declarative patterns and Sol
 harness are under project `workfiles/answer-responsiveness-20261122`.
+
+## Subsequent read-only audit
+
+The [source-context audit](2026-11-22-Source-Context-Audit) supports a general reader-view pilot, not a corpus rebuild. No candidate implementation or activation followed automatically.
