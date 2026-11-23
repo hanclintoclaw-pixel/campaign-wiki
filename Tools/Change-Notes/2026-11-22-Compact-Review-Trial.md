@@ -83,3 +83,7 @@ This experiment does not retrospectively turn its 1/8 answer coverage into a pas
 Private evidence is under data-tier `runtime/compact-review-20261122`; source plan,
 Qwen-authored schema and Sol-authored probes are under project
 `workfiles/compact-review-20261122`. This report is not a newly admitted voice source.
+
+## Subsequent operation/field trial
+
+The [answer-responsiveness trial](2026-11-22-Answer-Responsiveness-Trial) reduced false acceptances but still approved an inapplicable source context. No integration or activation.

@@ -26,6 +26,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-22 — Answer responsiveness trial: fewer misses, unsafe source-context approval remains](Change-Notes/2026-11-22-Answer-Responsiveness-Trial)
+
 - [2026-11-22 — Compact review trial: better decoding, semantic responsiveness still fails](Change-Notes/2026-11-22-Compact-Review-Trial)
 
 - [2026-11-22 — Canonical-claims repair: structural pass, voice acceptance still fails](Change-Notes/2026-11-22-Canonical-Claims-Repair)
