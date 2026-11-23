@@ -12,7 +12,7 @@ generated_at: 2026-11-23
 
 ## Mandate and current authorization
 
-**Cindy Initiative System 1.001: staged, NOT enabled. GM has authorized activation, but final reviewer checks failed the current quality labels; activation is held pending GM judgment. The next voice session will not run the new worker yet. Legacy monitor remains disabled.**
+**Cindy Initiative System 1.001: active and armed for the next newly started voice session. GM approved both disputed drafts as optional ideas. Live `d8c05d6` / PID 17869; native inference/destination preflight verified. Legacy monitor remains disabled; audio and canon remain under GM control.**
 
 GM direction, November 23, 2026:
 
@@ -78,7 +78,7 @@ Optimize for reduced paid Sol usage, not fewer combined local-plus-hosted tokens
 
 ## Phases and approval gates
 
-1. **Charter review — current phase.** Publish this document; agree on scope and the next authorized step.
+1. **Initial charter review.** Publish this document; agree on scope and the next authorized step.
 2. **Read-only inventory and design.** Map legacy ownership/shared seams, current routes and runtime revision; produce a deletion manifest, replacement interface, resource limits, private replay set and rollback plan. No code changes implied by inventory approval.
 3. **Isolated retirement and implementation.** After approval, Qwen removes the legacy system and builds the replacement in reviewable increments. Sol reviews the complete diff against the protected voice baseline. No live edits or restart.
 4. **Offline evaluation.** Run deterministic tests, real local-Qwen replay, held-out scenes and direct-reply regressions. Preserve all attempts, including malformed outputs, timeouts and misses. Failed acceptance returns to bounded repair, not deployment.
@@ -87,6 +87,8 @@ Optimize for reduced paid Sol usage, not fewer combined local-plus-hosted tokens
 7. **Stand up.** Following independent Sol evaluation and explicit GM go-ahead, activate the reviewed revision during an agreed idle window. Verify loaded revision and end-to-end behavior. Document acceptance, remaining limitations and rollback/off procedure here.
 
 ## Proposed acceptance contract — freeze before implementation
+
+The GM approved limited 1.001 activation after the offline trial and quality ruling. The larger proposed suite/shadow steps below are not claimed complete; the activation report names the actual release evidence and remaining limits.
 
 These are proposed gates, not test results or GM-approved thresholds yet.
 
@@ -109,9 +111,10 @@ Record the approved baseline, candidate revision, test evidence, configuration d
 - **Completed:** initial charter and narrow legacy-symbol presence check.
 - **Legacy retirement update, 2026-11-23:** GM authorized stopping the current firing system. Changed only `LIVE_MONITOR_ENABLED=true` to `false` and reloaded the idle bridge; new PID 12233, boot 15:41:49 EST, unchanged bridge `6f88641`. Current monitor status reports `enabled: false`. Legacy code remains; no replacement was built. [Retirement evidence and limits](Change-Notes/2026-11-23-Initiative-Monitor-Disabled.md).
 - **Offline trial, 2026-11-23:** GM authorized Qwen implementation/testing with a wiki-grounded attitude digest and conversational GM-directed text plus optional saved voice. [Trial report](Change-Notes/2026-11-23-Cindy-Ideas-Offline-Trial.md): nine structural tests pass; two 12-case replay passes, first zero usable ideas, revised three ideas with one retained by Sol for GM review. Not live, not release-ready. Proposed destination `1532913878344929370`, addressed to the GM; privacy unverified and no posting there yet.
-- **Not started:** full deletion inventory, code deletion, live source/scene-memory integration, shadow mode, pilot and replacement deployment.
+- **Future work:** full disabled-legacy deletion, automatic digest refresh and deeper scene memory. Runtime integration is now deployed; actual session evaluation remains open.
 - **1.001 staging, 2026-11-23:** GM approves the sample/history focus and requests activation. [Staging report](Change-Notes/2026-11-23-Cindy-Initiative-1-001-Staged.md): code `8170f93`, 27 lifecycle tests pass, existing 46 public/corrective and 21 fast-field regressions pass. Reviewer remains 4/6 against current Sol labels, so code is unmerged/unloaded and configuration disabled. No new component will run next session yet.
-- **Next decision:** GM judgment of two disputed drafts. Activation is already requested; resolve the quality hold, then integrate/reload only while idle and verify readiness. Do not silently relabel the failed reviewer test.
+- **1.001 activated, 2026-11-23 17:10 EST:** GM accepts both disputed drafts as optional character work and will reassess if excessive. [Activation report](Change-Notes/2026-11-23-Cindy-Initiative-1-001-Activated.md): live `d8c05d6`, PID 17869, native HTTP200/model/helper/profile/destination verified, old monitor off, next-new-session-only. Original Sol-label reviewer result is retained, not rewritten as a model repair.
+- **Next evaluation:** actual session usefulness and manual playback, then GM feedback. No further automatic development is running or promised.
 
 Future updates must distinguish requested work, proposed design, authorized work, implementation evidence and live acceptance. Append dated decisions and link test/release reports; never overwrite a failed result with a later success narrative.
 

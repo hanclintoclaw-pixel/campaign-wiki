@@ -9,6 +9,8 @@ generated_at: 2026-11-23
 ---
 # Cindy Initiative System 1.001: staged, NOT enabled
 
+**Historical staging record.** The GM resolved the quality hold and 1.001 is now [activated and armed](2026-11-23-Cindy-Initiative-1-001-Activated.md). Statements below describe the earlier hold, not current runtime status.
+
 ## Shipped
 **No live deployment. The next voice session will not run this version yet.**
 GM approved the puppet-history sample as good, natural character work and requested
