@@ -12,7 +12,7 @@ generated_at: 2026-11-23
 
 ## Mandate and current authorization
 
-**Living project guidepost. Legacy monitor disabled by GM request on November 23. Replacement implementation and activation remain unauthorized.**
+**Living project guidepost. Legacy monitor disabled by GM request on November 23. An isolated Qwen implementation/replay trial is now authorized and complete; live replacement activation remains unauthorized.**
 
 GM direction, November 23, 2026:
 
@@ -20,7 +20,7 @@ GM direction, November 23, 2026:
 2. Develop new logic for useful initiative using available local tools, including Qwen.
 3. Test the replacement, then stand it up after approval.
 
-Sol medium in the project channel owns planning and final evaluation. Local Qwen low is the preferred implementation and test worker on the box. This page records the requested destination and a proposed path; it does not imply that work has begun.
+Sol medium in the project channel owns planning and final evaluation. Local Qwen low is the preferred implementation and test worker on the box. This page records the requested destination and a proposed path; dated decisions below distinguish the completed offline trial from unapproved live deployment.
 
 Source: GM request in Discord project thread `1574141376038436974`, message `1574522348646957097`. Operational framing below is a proposal for GM review, not campaign canon.
 
@@ -108,8 +108,9 @@ Record the approved baseline, candidate revision, test evidence, configuration d
 - **2026-11-23:** GM requests full replacement; documentation authorized, no implementation yet. Sol medium plans/evaluates; local Qwen low implements/tests when approved.
 - **Completed:** initial charter and narrow legacy-symbol presence check.
 - **Legacy retirement update, 2026-11-23:** GM authorized stopping the current firing system. Changed only `LIVE_MONITOR_ENABLED=true` to `false` and reloaded the idle bridge; new PID 12233, boot 15:41:49 EST, unchanged bridge `6f88641`. Current monitor status reports `enabled: false`. Legacy code remains; no replacement was built. [Retirement evidence and limits](Change-Notes/2026-11-23-Initiative-Monitor-Disabled.md).
-- **Not started:** full deletion inventory, code deletion, replacement implementation/testing, shadow mode, pilot and replacement deployment.
-- **Next decision:** approve or revise this charter, then authorize the read-only inventory/design phase.
+- **Offline trial, 2026-11-23:** GM authorized Qwen implementation/testing with a wiki-grounded attitude digest and conversational GM-directed text plus optional saved voice. [Trial report](Change-Notes/2026-11-23-Cindy-Ideas-Offline-Trial.md): nine structural tests pass; two 12-case replay passes, first zero usable ideas, revised three ideas with one retained by Sol for GM review. Not live, not release-ready. Proposed destination `1532913878344929370`, addressed to the GM; privacy unverified and no posting there yet.
+- **Not started:** full deletion inventory, code deletion, live source/scene-memory integration, shadow mode, pilot and replacement deployment.
+- **Next decision:** GM review of the trial sample/style and approval of the next bounded offline quality step. Live activation remains a separate gate.
 
 Future updates must distinguish requested work, proposed design, authorized work, implementation evidence and live acceptance. Append dated decisions and link test/release reports; never overwrite a failed result with a later success narrative.
 
