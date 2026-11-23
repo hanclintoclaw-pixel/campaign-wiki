@@ -26,6 +26,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-22 — Compact review trial: better decoding, semantic responsiveness still fails](Change-Notes/2026-11-22-Compact-Review-Trial)
+
 - [2026-11-22 — Canonical-claims repair: structural pass, voice acceptance still fails](Change-Notes/2026-11-22-Canonical-Claims-Repair)
 
 - [2026-11-22 — Sol–Qwen–Sol diagnostic trial: accepted helper, cost savings unproven](Change-Notes/2026-11-22-Qwen-Diagnostic-Trial)

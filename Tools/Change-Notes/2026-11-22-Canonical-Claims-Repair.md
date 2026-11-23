@@ -75,3 +75,7 @@ remains an offline tool. All attempts are retained under data-tier
 `workfiles/canonical-claims-20261122`. Tests/report are Sol-authored; core patch is
 Qwen-authored with the disclosed prompt edits. This report is not itself admitted
 as a live voice source.
+
+## Subsequent review-format experiment
+
+The [compact constrained-review trial](2026-11-22-Compact-Review-Trial) improves diagnostic decoding but still approves a nonresponsive answer. No integration or activation.
