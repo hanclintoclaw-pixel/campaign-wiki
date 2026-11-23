@@ -89,3 +89,5 @@ rankings. Workfiles/unit-partition-20261123 contains the Sol build/review harnes
 Qwen ranker. Source is under tools/rules_unit_prototype/search.py in the isolated branch.
 [Relationship and completion checklist](2026-11-23-Unit-Relationships) and
 [unit contract](2026-11-22-Rules-Unit-Design).
+
+Follow-up: [Isolated unit adapter and real handler replay](2026-11-23-Unit-Adapter-Replay). No activation.
