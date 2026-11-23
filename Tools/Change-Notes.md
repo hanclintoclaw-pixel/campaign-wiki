@@ -26,6 +26,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-23 — Reviewed excerpt discovery: 8/8 top-five, wrong-mechanic first-hit remains](Change-Notes/2026-11-23-Reviewed-Excerpt-Discovery)
+
 - [2026-11-23 — Unit relationship proposals and estimated project checklist](Change-Notes/2026-11-23-Unit-Relationships)
 
 - [2026-11-23 — Layout-aware inventory: exact spans, scope still unreviewed](Change-Notes/2026-11-23-Layout-Candidates)

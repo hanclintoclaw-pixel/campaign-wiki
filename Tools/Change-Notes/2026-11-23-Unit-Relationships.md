@@ -97,3 +97,5 @@ Source/harness: workfiles/unit-relations-20261123. Committed helper:
 tools/rules_unit_prototype/relations.py.
 [Layout inventory](2026-11-23-Layout-Candidates) and
 [approved unit contract](2026-11-22-Rules-Unit-Design).
+
+Follow-up: [Selected excerpt source review and discovery results](2026-11-23-Reviewed-Excerpt-Discovery). No handler or activation claim.
