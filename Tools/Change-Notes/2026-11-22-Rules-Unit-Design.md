@@ -166,3 +166,5 @@ source annotation, model call, configuration change or service restart was perfo
 Basis: inspected SR3Reader page search/get, Investigation counters, public model
 read/claim limits, and the saved integration failure traces.
 [Previous failed integration](2026-11-22-Rule-Review-Integration).
+
+Follow-up: [Offline prototype results and failed builder assumption](2026-11-23-Rules-Unit-Prototype). Not integrated.
