@@ -26,6 +26,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-22 — General evidence contract: isolated prototype; release criteria failed](Change-Notes/2026-11-22-Rule-Evidence-Contract)
+
 - [2026-11-22 — General question-contract repair: isolated candidate and remaining evidence gaps](Change-Notes/2026-11-22-General-Question-Contract)
 
 

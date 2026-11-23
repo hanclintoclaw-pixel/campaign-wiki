@@ -101,3 +101,7 @@ intermediate text runs, sequential paired runs,8 preservation controls, acoustic
 traces, source hashes and final preservation receipt). Source harnesses live under the
 matching workfiles folder. Production bridge81e9eeb/PID24989 and existing binding/env/
 source corpus remain unchanged; no restart, deployment or provider change performed.
+
+## Subsequent evidence-contract evaluation
+
+The [general evidence/provenance candidate](2026-11-22-Rule-Evidence-Contract) is built but failed useful-answer coverage. Neither candidate is activated.
