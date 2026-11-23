@@ -24,8 +24,8 @@ extra retry or budget increase. The redundant-field mismatch no longer causes a
 format-repair round trip; other evidence failures are still not bypassed.
 
 ## Measured
-Three new acceptance methods were frozen and failed before implementation, then
-passed. Final focused suite: **146 tests run, one skip, no failures**; compile/diff
+Three new acceptance methods were frozen before implementation; their initial
+suite failed, then passed after the patch. Final focused suite: **146 tests run, one skip, no failures**; compile/diff
 checks pass. Actual model-loop controls demonstrate one generation plus one review
 for absent or contradictory legacy text, with complete qualifications preserved.
 
