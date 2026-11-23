@@ -9,6 +9,11 @@ generated_at: 2026-11-23
 ---
 # MVP: fast equipment and wiki recall
 
+## Final status: 1.0 live, development hard parked
+GM accepts known issues; no further voice-pass gate blocks the release.
+See [final session flaws and restart packet](2026-11-23-Voice-1.0-Hard-Park).
+The checkpoint below is retained as historical evidence.
+
 ## Authoritative scope reset
 GM clarification at 11:14: the Minimum Viable Product is fast equipment/wiki recall.
 Broad rules interpretation and the experimental general-rules reader are optional

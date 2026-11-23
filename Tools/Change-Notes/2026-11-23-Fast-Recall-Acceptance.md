@@ -9,6 +9,11 @@ generated_at: 2026-11-23
 ---
 # Fast recall candidate: acceptance passed, rollout pending
 
+## Final status: 1.0 live, development hard parked
+GM accepts known issues; no further voice-pass gate blocks the release.
+See [final session flaws and restart packet](2026-11-23-Voice-1.0-Hard-Park).
+The checkpoint below is retained as historical evidence.
+
 ## Activation update
 Subsequently activated with GM approval. See [deployment and remaining voice check](2026-11-23-Fast-Recall-Activation).
 The isolated measurements and rollout status below describe the earlier acceptance stage.

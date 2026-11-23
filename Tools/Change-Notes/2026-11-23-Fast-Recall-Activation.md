@@ -9,6 +9,11 @@ generated_at: 2026-11-23
 ---
 # Fast recall MVP activated
 
+## Final status: 1.0 live, development hard parked
+GM accepts known issues; no further voice-pass gate blocks the release.
+See [final session flaws and restart packet](2026-11-23-Voice-1.0-Hard-Park).
+The checkpoint below is retained as historical evidence.
+
 ## Shipped
 GM approved activation. Live bridge fast-forwarded from `81e9eeb` to reviewed
 `6f88641`. Only the new `LIVE_WAKE_FAST_RECALL_ENABLED=true` setting was added;
