@@ -114,3 +114,5 @@ Harness: workfiles/unit-adapter-20261123. Generic helpers are under
 tools/rules_unit_prototype; the injectable projector is in voice_public_query.py.
 [Source partition](2026-11-23-Reviewed-Excerpt-Discovery) and
 [estimated completion checklist](2026-11-23-Unit-Relationships).
+
+Scope superseded: [Fast equipment/wiki MVP](2026-11-23-Fast-Recall-MVP). General-rules work is parked as optional post-MVP work, not a 1.0 blocker.
