@@ -74,3 +74,5 @@ deterministic sample and summary. Source/harness: workfiles/layout-candidates-20
 committed extractor: tools/rules_unit_prototype/layout_candidates.py.
 [Previous prototype](2026-11-23-Rules-Unit-Prototype) and
 [unit contract](2026-11-22-Rules-Unit-Design).
+
+Follow-up: [Relationship proposals and completion checklist](2026-11-23-Unit-Relationships). Still not serving coverage.
