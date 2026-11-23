@@ -26,6 +26,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-23 — Fast recall activated; changed-path voice check open](Change-Notes/2026-11-23-Fast-Recall-Activation)
+
 - [2026-11-23 — Fast recall: 31-case acceptance passed; rollout pending](Change-Notes/2026-11-23-Fast-Recall-Acceptance)
 
 - [2026-11-23 — MVP refocus: fast equipment/wiki recall; ancillary rules parked](Change-Notes/2026-11-23-Fast-Recall-MVP)

@@ -21,7 +21,12 @@ must not be placed in front of deterministic lookups. Citations remain visible i
 text, not narrated. Preserve uncertainty, current-balance qualifiers and exact field
 meaning; speed is not permission to invent a value.
 
-## Current update: isolated acceptance passed; rollout pending
+## Current update: activated; voice confirmation pending
+Approved deployment of `6f88641` booted at 11:59:08 EST, PID98279. Fresh31-case
+handler replay matches acceptance; only live changed-path voice confirmation remains
+before supported1.0. See [activation evidence and short test](2026-11-23-Fast-Recall-Activation).
+
+## Prior update: isolated acceptance passed; rollout pending
 Candidate `6f88641` resolves the two demonstrated gaps and passes a representative
 31-case handler check: 23 factual outputs, 8 honest boundaries, no model calls.
 Live activation and changed-path voice confirmation remain open; no live 1.0 declaration.

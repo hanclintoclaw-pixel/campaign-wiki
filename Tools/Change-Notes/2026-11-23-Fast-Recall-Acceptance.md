@@ -9,6 +9,10 @@ generated_at: 2026-11-23
 ---
 # Fast recall candidate: acceptance passed, rollout pending
 
+## Activation update
+Subsequently activated with GM approval. See [deployment and remaining voice check](2026-11-23-Fast-Recall-Activation).
+The isolated measurements and rollout status below describe the earlier acceptance stage.
+
 ## Shipped
 Documentation only. Isolated bridge candidate `6f88641` is committed, not activated.
 The live bridge remains `81e9eeb`; its environment and checked source hashes are unchanged.
