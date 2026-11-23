@@ -21,7 +21,14 @@ must not be placed in front of deterministic lookups. Citations remain visible i
 text, not narrated. Preserve uncertainty, current-balance qualifiers and exact field
 meaning; speed is not permission to invent a value.
 
-## Readiness decision: MVP candidate, not 1.0 yet
+## Current update: isolated acceptance passed; rollout pending
+Candidate `6f88641` resolves the two demonstrated gaps and passes a representative
+31-case handler check: 23 factual outputs, 8 honest boundaries, no model calls.
+Live activation and changed-path voice confirmation remain open; no live 1.0 declaration.
+See [acceptance, timing and rollout limits](2026-11-23-Fast-Recall-Acceptance).
+The initial diagnostic below is retained as history, not the current blocking diagnosis.
+
+## Initial readiness decision: MVP candidate, not 1.0 yet
 The existing system already has useful live equipment and wiki foundations, including
 human-accepted equipment and campaign-summary voice pilots. It does not need another
 general-rules research phase to establish that value. But a fresh bounded diagnostic
@@ -53,7 +60,7 @@ This is a small diagnostic, not all-catalog or whole-wiki coverage. Existing str
 wiki profiles extend beyond the four table-reference summaries, but arbitrary fields
 are not thereby proven fast. Missing data must remain honest missing data.
 
-## Blocking 1.0 checklist — narrow and finite
+## Initial blocking checklist — historical, superseded by acceptance update
 - Done: existing equipment cache/parser, covered wiki profiles/status, balances and
   ownership/inventory paths, speech shaping and live voice foundations.
 - Open: diagnose and repair generic entity/rating/field coverage or routing causing
