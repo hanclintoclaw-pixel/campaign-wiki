@@ -12,7 +12,7 @@ generated_at: 2026-11-23
 
 ## Mandate and current authorization
 
-**Living project guidepost. Legacy monitor disabled by GM request on November 23. An isolated Qwen implementation/replay trial is now authorized and complete; live replacement activation remains unauthorized.**
+**Cindy Initiative System 1.001: staged, NOT enabled. GM has authorized activation, but final reviewer checks failed the current quality labels; activation is held pending GM judgment. The next voice session will not run the new worker yet. Legacy monitor remains disabled.**
 
 GM direction, November 23, 2026:
 
@@ -110,7 +110,8 @@ Record the approved baseline, candidate revision, test evidence, configuration d
 - **Legacy retirement update, 2026-11-23:** GM authorized stopping the current firing system. Changed only `LIVE_MONITOR_ENABLED=true` to `false` and reloaded the idle bridge; new PID 12233, boot 15:41:49 EST, unchanged bridge `6f88641`. Current monitor status reports `enabled: false`. Legacy code remains; no replacement was built. [Retirement evidence and limits](Change-Notes/2026-11-23-Initiative-Monitor-Disabled.md).
 - **Offline trial, 2026-11-23:** GM authorized Qwen implementation/testing with a wiki-grounded attitude digest and conversational GM-directed text plus optional saved voice. [Trial report](Change-Notes/2026-11-23-Cindy-Ideas-Offline-Trial.md): nine structural tests pass; two 12-case replay passes, first zero usable ideas, revised three ideas with one retained by Sol for GM review. Not live, not release-ready. Proposed destination `1532913878344929370`, addressed to the GM; privacy unverified and no posting there yet.
 - **Not started:** full deletion inventory, code deletion, live source/scene-memory integration, shadow mode, pilot and replacement deployment.
-- **Next decision:** GM review of the trial sample/style and approval of the next bounded offline quality step. Live activation remains a separate gate.
+- **1.001 staging, 2026-11-23:** GM approves the sample/history focus and requests activation. [Staging report](Change-Notes/2026-11-23-Cindy-Initiative-1-001-Staged.md): code `8170f93`, 27 lifecycle tests pass, existing 46 public/corrective and 21 fast-field regressions pass. Reviewer remains 4/6 against current Sol labels, so code is unmerged/unloaded and configuration disabled. No new component will run next session yet.
+- **Next decision:** GM judgment of two disputed drafts. Activation is already requested; resolve the quality hold, then integrate/reload only while idle and verify readiness. Do not silently relabel the failed reviewer test.
 
 Future updates must distinguish requested work, proposed design, authorized work, implementation evidence and live acceptance. Append dated decisions and link test/release reports; never overwrite a failed result with a later success narrative.
 

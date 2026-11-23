@@ -30,6 +30,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-23 — Cindy Initiative System 1.001: staged, activation held](Change-Notes/2026-11-23-Cindy-Initiative-1-001-Staged.md)
+
 - [2026-11-23 — Cindy Ideas: first Qwen implementation and offline trial](Change-Notes/2026-11-23-Cindy-Ideas-Offline-Trial.md)
 
 - [2026-11-23 — Legacy initiative monitor disabled](Change-Notes/2026-11-23-Initiative-Monitor-Disabled.md)
