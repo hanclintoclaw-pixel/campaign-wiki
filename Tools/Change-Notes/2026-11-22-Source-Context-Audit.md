@@ -82,3 +82,7 @@ still failed safety; the last actual handler replay remains 1/8 answerables.
 Production remains `81e9eeb`; no restart, model/configuration/source-grant or live
 source change. Private evidence: data-tier `runtime/source-context-audit-20261122`;
 audit scripts: project `workfiles/source-context-audit-20261122`.
+
+## Subsequent approved pilot
+
+The [section-view pilot](2026-11-22-Section-View-Pilot) was built and tested in isolation. Structural checks pass; semantic integration and activation remain blocked.
