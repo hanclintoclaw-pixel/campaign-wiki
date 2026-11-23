@@ -24,6 +24,10 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 5. Every reported number must name its evidence type: session capture log, unit test, or ad-hoc probe. An unsourced measurement in this project has already led to a wrong decision, so provenance is not decoration.
 6. Link each new entry from the Entries list on this page.
 
+## Project guideposts
+
+- [Cindy Initiative System — Replacement Project](Cindy-Initiative-System-Replacement.md) — full legacy retirement and a new Sol-plan/Qwen-build/Sol-evaluate path; documentation only.
+
 ## Entries
 
 - [2026-11-23 — Voice recall 1.0: live with known issues; development hard parked](Change-Notes/2026-11-23-Voice-1.0-Hard-Park)
