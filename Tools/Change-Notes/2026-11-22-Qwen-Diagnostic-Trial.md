@@ -63,3 +63,7 @@ evidence use `workfiles/rule-diagnostic-qwen-20261122` and data-tier
 the classifier and correction are Qwen-authored. The watcher registration was saved,
 but scheduler verification was denied by this turn's automation authority; results
 were explicitly collected and delivered in the parent turn instead.
+
+## Subsequent approved repair
+
+The [canonical-claims repair](2026-11-22-Canonical-Claims-Repair) is built and tested in isolation; broad voice acceptance still fails.
