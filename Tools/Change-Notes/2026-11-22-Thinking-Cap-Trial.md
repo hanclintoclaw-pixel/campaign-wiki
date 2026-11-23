@@ -89,3 +89,5 @@ requests with hashes, all 42 raw results, corrected scores, summary and manifest
 Source harness: `workfiles/thinking-cap-trial-20261122/` (run, prepare, score).
 [Provider audit](2026-11-22-Provider-Controls-Audit) and
 [section-view pilot](2026-11-22-Section-View-Pilot) describe prior limits.
+
+Follow-up: [Isolated full-handler integration failed release acceptance](2026-11-22-Rule-Review-Integration). No activation.
