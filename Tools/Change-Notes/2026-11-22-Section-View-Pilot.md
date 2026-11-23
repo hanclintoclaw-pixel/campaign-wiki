@@ -95,3 +95,5 @@ The last full-handler replay is still 1/8 answerables, not replaced by review-on
 scores. Private records and outcomes: data-tier `runtime/section-view-pilot-20261122`;
 source harness: project `workfiles/section-view-pilot-20261122`. Canonical source bytes
 remain unchanged; annotations, integration and activation are distinct permissions.
+
+Follow-up: [Completed provider-controls audit](2026-11-22-Provider-Controls-Audit). No deployment; separate thinking-cap capability trial awaits approval.
