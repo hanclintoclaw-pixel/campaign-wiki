@@ -26,6 +26,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-22 — General rules-unit contract: design and proposed acceptance gates](Change-Notes/2026-11-22-Rules-Unit-Design)
+
 - [2026-11-22 — Rule-review integration: 0/8 useful answers, not release-ready](Change-Notes/2026-11-22-Rule-Review-Integration)
 
 - [2026-11-22 — Thinking-cap trial: complete verdicts, isolated integration recommended](Change-Notes/2026-11-22-Thinking-Cap-Trial)

@@ -85,3 +85,5 @@ all handler results/traces, domain controls, tests, decoder parity, source hashe
 Harness/plan: `workfiles/rule-review-integration-20261122/`.
 [Thinking-cap trial](2026-11-22-Thinking-Cap-Trial) and
 [section-view pilot](2026-11-22-Section-View-Pilot) retain preceding evidence.
+
+Follow-up: [Proposed general rules-unit retrieval design](2026-11-22-Rules-Unit-Design). No implementation or activation.
