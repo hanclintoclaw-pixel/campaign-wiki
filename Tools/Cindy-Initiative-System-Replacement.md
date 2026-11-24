@@ -24,6 +24,10 @@ Sol medium in the project channel owns planning and final evaluation. Local Qwen
 
 Source: GM request in Discord project thread `1574141376038436974`, message `1574522348646957097`. Operational framing below is a proposal for GM review, not campaign canon.
 
+## Personality subproject
+
+[Personality Profile Pilot 0.1](Cindy-Personality-Profile.md) is built offline for GM refinement: Sol profile design and review, Qwen compiler implementation. The published profile is **not** loaded into Initiative 1.001.
+
 ## Scope and protected boundary
 
 The initiative system decides whether Cindy has a worthwhile, unsolicited contribution to offer the GM during play. It must earn the interruption, help the scene, and preserve player agency.

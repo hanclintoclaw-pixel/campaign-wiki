@@ -30,6 +30,8 @@ The bridge code lives in `cindylou-voice-bridge-backup`; campaign retrieval live
 
 ## Entries
 
+- [2026-11-23 — Cindy Personality Profile Pilot 0.1](Change-Notes/2026-11-23-Cindy-Personality-Profile-Pilot.md)
+
 - [2026-11-23 — Cindy Initiative System 1.001: active, armed for next session](Change-Notes/2026-11-23-Cindy-Initiative-1-001-Activated.md)
 
 - [2026-11-23 — Cindy Initiative System 1.001: staged, activation held](Change-Notes/2026-11-23-Cindy-Initiative-1-001-Staged.md)
